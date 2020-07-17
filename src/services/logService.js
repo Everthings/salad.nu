@@ -9,8 +9,10 @@ function init() {
 
   LogRocket.init("1fmmwz/saladnu");
 
-  Sentry.configureScope((scope) => {
-    scope.setExtra("sessionURL", LogRocket.sessionURL);
+  LogRocket.getSessionURL((sessionURL) => {
+    Sentry.configureScope((scope) => {
+      scope.setExtra("sessionURL", sessionURL);
+    });
   });
 }
 

@@ -71,7 +71,7 @@
 }
 
 .course-card {
-  background: rgba(226, 231, 226, 0.51);
+  background: rgba(226, 231, 226, 0.5);
   border: 0.2rem solid #f6fdf4;
   border-radius: 10px;
   margin-top: 0.5rem;
@@ -90,7 +90,7 @@
 }
 
 .schedule-card {
-  background: rgba(226, 231, 226, 0.51);
+  background: rgba(226, 231, 226, 0.5);
   border: none;
   border-left: 7px solid;
   border-radius: 10px;
@@ -103,6 +103,11 @@
   margin: 0px;
 }
 
-.schedule-body img {
-  width: 100%;
+.schedule-body .schedule-divider {
+  border: 0.75px dashed #000000;
+  opacity: 0.25;
+}
+
+.schedule-body .schedule-text {
+  text-align: center;
 }

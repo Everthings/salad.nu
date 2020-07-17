@@ -8,7 +8,6 @@ class Schedule extends Component {
       <div className="salad-container-outer">
         <div className="salad-container-inner">
           <ScheduleBody />
-          <ScheduleCard />
         </div>
       </div>
     );

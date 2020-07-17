@@ -10,8 +10,8 @@ function App() {
   return (
     <Sentry.ErrorBoundary showDialog>
       <Navbar logo={salad_logo} />
-      <div className="container">
-        <div className="row">
+      <div className="container-fluid">
+        <div className="row ml-3 mr-3">
           <div className="col-3">
             <Courses />
           </div>

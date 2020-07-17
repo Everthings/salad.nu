@@ -27,8 +27,13 @@ const ScheduleBody = () => {
       </div>
       {times.map((time) => {
         return (
-          <div key={time} className="row">
-            <p>Lines Here</p>
+          <div key={time} className="row mb-4">
+            <div className="col-1 pr-0">
+              <p className="schedule-text">{time}</p>
+            </div>
+            <div className="col mr-3 ">
+              <hr className="schedule-divider" />
+            </div>
           </div>
         );
       })}
