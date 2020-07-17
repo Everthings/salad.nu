@@ -7,3 +7,8 @@ script:
   - npm run test:coveralls
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: GpnQP43f/GZGDN4d1pDkU8bIJQ8sPxPLPsAlEaCLkjNzuljm5W6p7DSJ+Wzi319Dn8jfjSPzCJVeE1pouYdIYtriDiLRND7j9kj3tBDihkcz/aHtiGxbzfdIrWgpwDO4FvhCXyppSVVXlCFNGjxA8OafEiw6vxHOHRvLQ2Y6Io3us0/KSXE+v1rPYSeYDZplFHmLEEbaNkFpPwQuKyof+19gMrrqu9Hjk83wikf9N79O/wREpSZz9Qzo/T4LdkU/2jg8F83Rz3uWuVTsUAnvFH2zO5NCCyM9tDJimjYW5i9C8BB1SyMVyJZyPWavpg4xdBHIDQawazWOynmwJAEtGqFpehqPG5PT55mUSweJt7yDxIVBKSpdl/hxvvEgfsK2OMbhL+jF4I7pi2BboaOrHDsZea+GGE8RdggWi8VVx8CPGwBJjzVW/96QFAfayhvQP89BMI6r0/tRdV0yypyf+fUlae0qAaK/2gZGslLvnz+pVGuTw5WOKBxEuFEV8JX5p8D1V7Y9xYRgnBtN9bC8wTjWEr9ezQsIuiA0zgMVCr730WWNsrKLBUi8sLa8UYsFGoeIXgH6kk5sswM4rt9tgp/ER1nWD2B/kFE3yp7kpJ//JQ5NcNOeJohOExKIUlJwvvrQkz7iC9/q/BQS9QJ70ruCoJIAPORwxBlgIxm6m/M=
+  app: salad-nu
