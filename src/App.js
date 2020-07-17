@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import * as Sentry from "@sentry/react";
+import "./App.css";
+import salad_logo from "./images/cover_green.png";
+import Navbar from "./components/navbar";
+import Courses from "./components/courses";
+import Schedule from "./components/schedule";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Sentry.ErrorBoundary showDialog>
+      <Navbar logo={salad_logo} />
+      <div className="container">
+        <div className="row">
+          <div className="col-3">
+            <Courses />
+          </div>
+          <div className="col-9">
+            <Schedule />
+          </div>
+        </div>
+      </div>
+    </Sentry.ErrorBoundary>
   );
 }
 
