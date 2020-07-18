@@ -1,4 +1,5 @@
 import React from "react";
+import SearchBar from "./searchBar";
 
 const Navbar = ({ logo }) => {
   return (
@@ -7,14 +8,7 @@ const Navbar = ({ logo }) => {
         <img src={logo} className="logo" alt="Logo" />
       </div>
       <div className="flex-fill">
-        <form>
-          <input
-            className="form-control search-bar mr-sm-2"
-            type="search"
-            placeholder="Search Courses"
-            aria-label="Search"
-          />
-        </form>
+        <SearchBar />
       </div>
     </nav>
   );

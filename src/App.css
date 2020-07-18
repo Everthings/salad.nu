@@ -68,6 +68,11 @@
   border-left: 0.75rem solid #f6fdf4;
   border-right: 0.75rem solid #f6fdf4;
   border-radius: 1rem;
+  height: 82vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .course-card {
