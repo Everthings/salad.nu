@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ScheduleCard from "./scheduleCard.jsx";
 import ScheduleBody from "./scheduleBody.jsx";
 
 class Schedule extends Component {

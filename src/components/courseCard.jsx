@@ -1,19 +1,15 @@
 import React from "react";
 
-const Course = ({
-  id: courseNumber,
-  subjectId: subjectName,
-  name: courseName,
-}) => {
+const CourseCard = ({ subject, number, title, handleClick }) => {
   return (
-    <div className="card course-card">
+    <div className="card course-card" onClick={handleClick}>
       <div className="card-body">
-        <h5 className="card-title">{`${subjectName} ${courseNumber}`}</h5>
+        <h5 className="card-title">{`${subject} ${number}`}</h5>
         <hr />
-        <p className="card-text">{courseName}</p>
+        <p className="card-text">{title}</p>
       </div>
     </div>
   );
 };
 
-export default Course;
+export default CourseCard;

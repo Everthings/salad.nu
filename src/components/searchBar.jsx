@@ -1,6 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getSearch, updateSearch } from "./../store/search";
+import { loadCourses } from "../store/courses";
+import { MIN_SEARCH_LENGTH } from "./../configs";
 
 const SearchBar = () => {
   const dispatch = useDispatch();
@@ -16,7 +18,11 @@ const SearchBar = () => {
         placeholder="Search Courses"
         aria-label="Search"
         value={search}
-        onChange={(e) => dispatch(updateSearch(e.currentTarget.value))}
+        onChange={(e) => {
+          dispatch(updateSearch(e.currentTarget.value));
+          if (e.currentTarget.value.length >= MIN_SEARCH_LENGTH)
+            dispatch(loadCourses(e.currentTarget.value));
+        }}
       />
     </form>
   );

@@ -11,6 +11,7 @@ const api = ({ dispatch }) => (next) => async (action) => {
       onSuccess,
       onError,
       onStart,
+      ...rest
     } = action.payload;
 
     if (onStart) dispatch({ type: onStart });
@@ -27,7 +28,8 @@ const api = ({ dispatch }) => (next) => async (action) => {
 
       dispatch(actions.apiSuccess(response));
 
-      if (onSuccess) dispatch({ type: onSuccess, payload: response });
+      if (onSuccess)
+        dispatch({ type: onSuccess, payload: { data: response, ...rest } });
     } catch (error) {
       dispatch(actions.apiFailed(error.message));
 

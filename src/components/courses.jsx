@@ -1,34 +1,34 @@
 import React from "react";
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getSearch } from "./../store/search";
-import { getCourses, loadCourses } from "./../store/courses";
-import CourseCard from "./courseCard";
+import { useSelector } from "react-redux";
+import { getSearch, getSelectedCourse } from "./../store/search";
+import SectionList from "./sectionList";
+import CourseList from "./courseList";
+import { MIN_SEARCH_LENGTH } from "./../configs";
 
 const Courses = () => {
-  const dispatch = useDispatch();
-
   const search = useSelector(getSearch);
-  let courses = useSelector(getCourses(search));
+  const selectedCourse = useSelector(getSelectedCourse);
 
-  useEffect(() => {
-    dispatch(loadCourses());
-  }, []);
+  const courseSelected = selectedCourse.id !== -1;
 
   return (
     <div className="salad-container-outer">
-      <div className="salad-container-inner overflow-auto">
-        {courses.length === 0 && search.length > 0 && (
-          <center>Continue typing...</center>
+      <center className="salad-container-inner overflow-auto">
+        {!courseSelected &&
+          search.length < MIN_SEARCH_LENGTH &&
+          search.length !== 0 && <p>Continue typing...</p>}
+
+        {courseSelected && (
+          <div>
+            <h3 className="sections-list-header">
+              <center>{selectedCourse.name}</center>
+              <hr />
+            </h3>
+          </div>
         )}
-        {courses.length === 0 && search.length >= 3 && (
-          <center>No Results 🙁</center>
-        )}
-        {courses.length > 0 &&
-          courses.map((course) => {
-            return <CourseCard key={course.id} {...course} />;
-          })}
-      </div>
+        {search.length >= MIN_SEARCH_LENGTH &&
+          (courseSelected ? <SectionList /> : <CourseList />)}
+      </center>
     </div>
   );
 };

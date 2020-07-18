@@ -116,3 +116,12 @@
 .schedule-body .schedule-text {
   text-align: center;
 }
+
+.sections-list-header {
+  margin-top: 1vh;
+  opacity: 0.65;
+}
+
+.sections-list-header hr {
+  border-top: 4px dashed #aed19e;
+}

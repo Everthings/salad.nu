@@ -13,15 +13,19 @@ const slice = createSlice({
   },
   reducers: {
     coursesRequested: (courses, action) => {
-      courses.list = action.payload;
-      courses.loading = false;
+      courses.loading = true;
     },
     coursesRequestFailed: (courses, action) => {
-      courses.list = action.payload;
       courses.loading = false;
     },
     coursesRecieved: (courses, action) => {
-      courses.list = action.payload;
+      const reponse = action.payload.data;
+      const searchStr = action.payload.searchStr;
+      const filterdCourses = reponse.filter((course) => {
+        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
+        return courseStr.includes(searchStr.toLowerCase());
+      });
+      courses.list = filterdCourses;
       courses.loading = false;
     },
   },
@@ -35,10 +39,11 @@ const {
 export default slice.reducer;
 
 // Action Creators
-export const loadCourses = () => (dispatch, getState) => {
+export const loadCourses = (searchStr) => (dispatch, getState) => {
   return dispatch(
     apiActions.apiRequested({
       resource,
+      searchStr,
       onStart: coursesRequested.type,
       onError: coursesRequestFailed.type,
       onSuccess: coursesRecieved.type,
@@ -47,16 +52,8 @@ export const loadCourses = () => (dispatch, getState) => {
 };
 
 // Selectors
-export const getCourses = (searchStr) =>
+export const getCourses = () =>
   createSelector(
-    (state) => state.entities.courses,
-    (courses) => {
-      if (searchStr.length < 3) return [];
-
-      const filterdCourses = courses.list.filter((course) => {
-        const courseStr = `${course.subjectId} ${course.id}`.toLowerCase();
-        return courseStr.includes(searchStr.toLowerCase());
-      });
-      return filterdCourses;
-    }
+    (state) => state.entities.courses.list,
+    (courses) => courses
   );

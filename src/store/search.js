@@ -5,25 +5,39 @@ import { createSelector } from "reselect";
 const slice = createSlice({
   name: "search",
   initialState: {
-    str: "",
+    searchStr: "",
+    selectedCourse: { id: -1, name: "" },
   },
   reducers: {
     updatedSearch: (search, action) => {
-      search.str = action.payload.str;
+      search.searchStr = action.payload.searchStr;
+    },
+    updatedSelectedCourse: (search, action) => {
+      search.selectedCourse.id = action.payload.id;
+      search.selectedCourse.name = action.payload.name;
     },
   },
 });
 
-const { updatedSearch, clearedSearch } = slice.actions;
+const { updatedSearch, updatedSelectedCourse } = slice.actions;
 export default slice.reducer;
 
 // Action Creators
 export const updateSearch = (searchStr) => (dispatch, getState) => {
-  return dispatch(updatedSearch({ str: searchStr }));
+  return dispatch(updatedSearch({ searchStr }));
+};
+
+export const updateSelectedCourse = (id, name) => (dispatch, getState) => {
+  return dispatch(updatedSelectedCourse({ id, name }));
 };
 
 // Selectors
 export const getSearch = createSelector(
   (state) => state.entities.search,
-  (search) => search.str
+  (search) => search.searchStr
+);
+
+export const getSelectedCourse = createSelector(
+  (state) => state.entities.search,
+  (search) => search.selectedCourse
 );
