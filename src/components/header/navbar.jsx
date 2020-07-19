@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getSearch } from "../../store/slices/search";
+import { getSearch, clearSelectedCourse } from "../../store/slices/search";
 import SearchBar from "./searchBar";
 import salad_logo from "./../../images/cover_green.png";
 import { loadCourses, loadCoursesFromStore } from "../../store/slices/courses";
@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleChange = (e) => {
     const { value } = e.currentTarget;
     dispatch(updateSearch(value));
-
+    dispatch(clearSelectedCourse());
     if (value.length >= MIN_SEARCH_LENGTH) {
       const loadAction =
         value.length > search.length && value.length !== MIN_SEARCH_LENGTH

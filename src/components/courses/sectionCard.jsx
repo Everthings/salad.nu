@@ -4,7 +4,6 @@ import {
   updateCurrentBuilding,
   clearCurrentBuilding,
 } from "./../../store/slices/search";
-import { getBuilding } from "./../../fakeServices/buildingsService";
 
 const SectionCard = ({
   instructor,
@@ -16,16 +15,20 @@ const SectionCard = ({
 }) => {
   const dispatch = useDispatch();
 
+  const handleEnter = () => {
+    if (!room || !room.building_id) return;
+    dispatch(updateCurrentBuilding(room.building_id));
+  };
+
+  const handleLeave = () => {
+    dispatch(clearCurrentBuilding());
+  };
+
   return (
     <div
       className="card info-card section-card"
-      onMouseEnter={() => {
-        if (!room || !room.building_id) return;
-        dispatch(updateCurrentBuilding(room.building_id));
-      }}
-      onMouseLeave={() => {
-        dispatch(clearCurrentBuilding());
-      }}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
     >
       <div className="card-body">
         <h5 className="card-title">{section}</h5>

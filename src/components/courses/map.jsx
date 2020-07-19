@@ -13,7 +13,13 @@ const LeafletMap = () => {
   const position = validLatLon ? [lat, lon] : nuLatLon;
 
   return (
-    <Map center={position} zoom={zoom} className="salad-container-maps">
+    <Map
+      center={position}
+      zoom={zoom}
+      attributionControl={false}
+      zoomAnimationThreshold={10}
+      className="salad-container-maps"
+    >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
