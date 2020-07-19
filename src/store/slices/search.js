@@ -3,6 +3,7 @@ import { createSelector } from "reselect";
 import * as apiActions from "../api";
 
 const defaultSelectedCourse = { id: -1, name: "" };
+const defaultSelectedSection = { sectionId: -1 };
 const defaultBuilding = { lat: -360, lon: -360 };
 
 // Reducers
@@ -11,6 +12,7 @@ const slice = createSlice({
   initialState: {
     searchStr: "",
     selectedCourse: defaultSelectedCourse,
+    selectedSection: defaultSelectedSection,
     currentBuilding: defaultBuilding,
   },
   reducers: {
@@ -23,6 +25,12 @@ const slice = createSlice({
     },
     clearedSelectedCourse: (search, action) => {
       search.selectedCourse = defaultSelectedCourse;
+    },
+    updatedSelectedSection: (search, action) => {
+      search.selectedSection.sectionId = action.payload.sectionId;
+    },
+    clearedSelectedSection: (search, action) => {
+      search.selectedSection = defaultSelectedSection;
     },
     updatedCurrentBuilding: (search, action) => {
       const { lat, lon } = action.payload.data;
@@ -39,6 +47,8 @@ const {
   updatedSearch,
   updatedSelectedCourse,
   clearedSelectedCourse,
+  updatedSelectedSection,
+  clearedSelectedSection,
   updatedCurrentBuilding,
   clearedCurrentBuilding,
 } = slice.actions;
@@ -55,6 +65,14 @@ export const updateSelectedCourse = (id, name) => {
 
 export const clearSelectedCourse = () => {
   return clearedSelectedCourse();
+};
+
+export const updateSelectedSection = (id) => {
+  return updatedSelectedSection({ sectionId: id });
+};
+
+export const clearSelectedSection = () => {
+  return clearedSelectedSection();
 };
 
 export const updateCurrentBuilding = (buildingId) => (dispatch, getState) => {
@@ -81,6 +99,11 @@ export const getSearch = createSelector(
 export const getSelectedCourse = createSelector(
   (state) => state.entities.search,
   (search) => search.selectedCourse
+);
+
+export const getSelectedSection = createSelector(
+  (state) => state.entities.search,
+  (search) => search.selectedSection
 );
 
 export const getCurrentBuilding = createSelector(

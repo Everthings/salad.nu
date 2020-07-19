@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { getSearch, getSelectedCourse } from "../../store/slices/search";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
-import LeafletMap from "./map";
+import CampusMap from "./campusMap";
 
 const Courses = () => {
   const search = useSelector(getSearch);
@@ -18,7 +18,7 @@ const Courses = () => {
       ) : (
         <CourseList search={search} selectedCourse={selectedCourse} />
       )}
-      <LeafletMap />
+      <CampusMap />
     </div>
   );
 };

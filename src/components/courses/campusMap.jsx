@@ -1,9 +1,9 @@
 import React from "react";
 import { Map, Circle, TileLayer } from "react-leaflet";
 import { useSelector } from "react-redux";
-import { getCurrentBuilding } from "./../../store/slices/search";
+import { getCurrentBuilding } from "../../store/slices/search";
 
-const LeafletMap = () => {
+const CampusMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
 
   const validLatLon = lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
@@ -29,4 +29,4 @@ const LeafletMap = () => {
   );
 };
 
-export default LeafletMap;
+export default CampusMap;

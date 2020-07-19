@@ -3,8 +3,8 @@
 
 .my-navbar {
   background-color: #dcf0da;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .logo {
@@ -14,7 +14,7 @@
 }
 
 .search-bar {
-  height: 2.5rem;
+  height: 3rem;
   background-color: #e5fbe4;
   border: 3px solid #aed19e;
   color: #000000;
