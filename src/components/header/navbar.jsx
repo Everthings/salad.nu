@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-light my-navbar d-flex justify-content-start flex-row">
-      <div className="p-1">
+      <div>
         <img src={salad_logo} className="logo" alt="Logo" />
       </div>
       <div className="flex-fill">

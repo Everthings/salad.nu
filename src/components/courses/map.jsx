@@ -7,7 +7,7 @@ const LeafletMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
 
   const validLatLon = lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
-  const nuLatLon = [42.055984, -87.675171];
+  const nuLatLon = [42.055909, -87.672709];
 
   const zoom = validLatLon ? 15.5 : 14;
   const position = validLatLon ? [lat, lon] : nuLatLon;

@@ -9,9 +9,7 @@ const CourseList = ({ search }) => {
   const courses = useSelector(getCourses());
 
   const shouldContinueTyping =
-    search.length < MIN_SEARCH_LENGTH &&
-    search.length !== 0 &&
-    courses.length === 0;
+    search.length < MIN_SEARCH_LENGTH && search.length !== 0;
 
   const noResults = search.length >= MIN_SEARCH_LENGTH && courses.length === 0;
 

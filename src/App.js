@@ -12,8 +12,10 @@ function App() {
   return (
     <Sentry.ErrorBoundary showDialog>
       <Provider store={store}>
-        <Header />
-        <Body />
+        <div className="App">
+          <Header />
+          <Body />
+        </div>
       </Provider>
     </Sentry.ErrorBoundary>
   );

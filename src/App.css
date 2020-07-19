@@ -1,44 +1,10 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .my-navbar {
   background-color: #dcf0da;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .logo {
@@ -48,6 +14,7 @@
 }
 
 .search-bar {
+  height: 2.5rem;
   background-color: #e5fbe4;
   border: 3px solid #aed19e;
   color: #000000;
@@ -71,7 +38,7 @@
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  height: 57vh;
+  height: calc(75vh - 9rem);
 }
 
 .salad-container-schedule {
@@ -81,7 +48,7 @@
   border-left: 0.75rem solid #f6fdf4;
   border-right: 0.75rem solid #f6fdf4;
   border-radius: 1rem;
-  height: 82vh;
+  height: calc(100vh - 9rem);
 }
 
 .salad-container-maps {
@@ -135,13 +102,22 @@
   margin: 0px;
 }
 
+.schedule-body {
+  height: 100%;
+}
+
 .schedule-body .schedule-divider {
+  height: calc(9.5% - 0.25rem);
+}
+
+.schedule-body .schedule-divider hr {
   border: 0.75px dashed #000000;
   opacity: 0.25;
 }
 
 .schedule-body .schedule-text {
-  text-align: center;
+  text-align: right;
+  width: 3rem;
 }
 
 .sections-list-header {
