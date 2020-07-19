@@ -1,11 +1,11 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getSearch } from "./../../store/search";
+import { getSearch } from "../../store/slices/search";
 import SearchBar from "./searchBar";
 import salad_logo from "./../../images/cover_green.png";
-import { loadCourses, loadCoursesFromStore } from "./../../store/courses";
+import { loadCourses, loadCoursesFromStore } from "../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
-import { updateSearch } from "./../../store/search";
+import { updateSearch } from "../../store/slices/search";
 
 const Navbar = () => {
   const dispatch = useDispatch();

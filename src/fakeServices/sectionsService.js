@@ -1,4 +1,4 @@
-export const sections = {
+const sections = {
   "3": [
     {
       unique_id: 190443,
@@ -88777,7 +88777,7 @@ export const sections = {
 };
 
 export function getSections() {
-  return sections;
+  return sections.filter((section) => section);;
 }
 
 export function getSection(sectionId) {

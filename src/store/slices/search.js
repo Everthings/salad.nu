@@ -1,12 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
+import * as apiActions from "../api";
+
+const defaultSelectedCourse = { id: -1, name: "" };
+const defaultBuilding = { lat: -360, lon: -360 };
 
 // Reducers
 const slice = createSlice({
   name: "search",
   initialState: {
     searchStr: "",
-    selectedCourse: { id: -1, name: "" },
+    selectedCourse: defaultSelectedCourse,
+    currentBuilding: defaultBuilding,
   },
   reducers: {
     updatedSearch: (search, action) => {
@@ -17,8 +22,15 @@ const slice = createSlice({
       search.selectedCourse.name = action.payload.name;
     },
     clearedSelectedCourse: (search, action) => {
-      search.selectedCourse.id = -1;
-      search.selectedCourse.name = "";
+      search.selectedCourse = defaultSelectedCourse;
+    },
+    updatedCurrentBuilding: (search, action) => {
+      const { lat, lon } = action.payload.data;
+      if (!lat || !lon) search.currentBuilding = defaultBuilding;
+      else search.currentBuilding = { lat, lon };
+    },
+    clearedCurrentBuilding: (search, action) => {
+      search.currentBuilding = defaultBuilding;
     },
   },
 });
@@ -27,6 +39,8 @@ const {
   updatedSearch,
   updatedSelectedCourse,
   clearedSelectedCourse,
+  updatedCurrentBuilding,
+  clearedCurrentBuilding,
 } = slice.actions;
 export default slice.reducer;
 
@@ -43,6 +57,21 @@ export const clearSelectedCourse = () => {
   return clearedSelectedCourse();
 };
 
+export const updateCurrentBuilding = (buildingId) => (dispatch, getState) => {
+  const resource = "buildings";
+  return dispatch(
+    apiActions.apiRequested({
+      resource,
+      data: buildingId,
+      onSuccess: updatedCurrentBuilding.type,
+    })
+  );
+};
+
+export const clearCurrentBuilding = () => {
+  return clearedCurrentBuilding();
+};
+
 // Selectors
 export const getSearch = createSelector(
   (state) => state.entities.search,
@@ -52,4 +81,9 @@ export const getSearch = createSelector(
 export const getSelectedCourse = createSelector(
   (state) => state.entities.search,
   (search) => search.selectedCourse
+);
+
+export const getCurrentBuilding = createSelector(
+  (state) => state.entities.search,
+  (search) => search.currentBuilding
 );

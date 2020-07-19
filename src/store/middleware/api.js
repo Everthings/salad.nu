@@ -1,6 +1,7 @@
 import * as actions from "./../api";
 import { getCourses } from "./../../fakeServices/coursesService";
 import { getSection } from "./../../fakeServices/sectionsService";
+import { getBuilding } from "./../../fakeServices/buildingsService";
 
 const api = ({ dispatch }) => (next) => async (action) => {
   if (action.type === actions.apiRequested.type) {
@@ -24,6 +25,8 @@ const api = ({ dispatch }) => (next) => async (action) => {
         response = getCourses();
       } else if (resource === "sections") {
         response = getSection(data);
+      } else if (resource === "buildings") {
+        response = getBuilding(data);
       }
 
       dispatch(actions.apiSuccess(response));

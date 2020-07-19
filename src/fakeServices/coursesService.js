@@ -1,4 +1,4 @@
-export const courses = [
+const courses = [
   {
     course_id: 20458,
     unique_id: 190983,

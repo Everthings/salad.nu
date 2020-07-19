@@ -5,9 +5,7 @@ class Schedule extends Component {
   render() {
     return (
       <div className="salad-container-outer">
-        <div className="salad-container-inner">
-          <ScheduleBody />
-        </div>
+        <ScheduleBody />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { updateSelectedCourse } from "./../../store/search";
-import { loadSections } from "./../../store/sections";
+import { updateSelectedCourse } from "../../store/slices/search";
+import { loadSections } from "../../store/slices/sections";
 
 const CourseCard = ({ course_id: courseId, subject, number, title }) => {
   const dispatch = useDispatch();

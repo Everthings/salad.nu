@@ -61,7 +61,17 @@
   margin-top: 1.5rem;
 }
 
-.salad-container-inner {
+.salad-container-courses {
+  background-color: #f6fdf4;
+  border-top: 0.25rem solid #f6fdf4;
+  border-bottom: 0.25rem solid #f6fdf4;
+  border-left: 0.75rem solid #f6fdf4;
+  border-right: 0.75rem solid #f6fdf4;
+  border-radius: 1rem;
+  height: 57vh;
+}
+
+.salad-container-schedule {
   background-color: #f6fdf4;
   border-top: 0.25rem solid #f6fdf4;
   border-bottom: 0.25rem solid #f6fdf4;
@@ -69,6 +79,12 @@
   border-right: 0.75rem solid #f6fdf4;
   border-radius: 1rem;
   height: 82vh;
+}
+
+.salad-container-maps {
+  background-color: #94128dd8;
+  border-radius: 1rem;
+  height: 25vh;
 }
 
 ::-webkit-scrollbar {
@@ -131,8 +147,8 @@
   border-top: 4px dashed #aed19e;
 }
 
-.back-arrow {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+.back-btn {
+  margin-left: 0.25rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 }
