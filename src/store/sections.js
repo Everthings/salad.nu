@@ -19,9 +19,7 @@ const slice = createSlice({
       sections.loading = false;
     },
     sectionsRecieved: (sections, action) => {
-      const response = action.payload.data;
-      const courseId = action.payload.courseId;
-      sections.list = response[courseId];
+      sections.list = action.payload.data;
       sections.loading = false;
     },
   },
@@ -39,7 +37,7 @@ export const loadSections = (courseId) => (dispatch, getState) => {
   return dispatch(
     apiActions.apiRequested({
       resource,
-      courseId,
+      data: courseId,
       onStart: sectionsRequested.type,
       onError: sectionsRequestFailed.type,
       onSuccess: sectionsRecieved.type,

@@ -16,19 +16,31 @@ const slice = createSlice({
       search.selectedCourse.id = action.payload.id;
       search.selectedCourse.name = action.payload.name;
     },
+    clearedSelectedCourse: (search, action) => {
+      search.selectedCourse.id = -1;
+      search.selectedCourse.name = "";
+    },
   },
 });
 
-const { updatedSearch, updatedSelectedCourse } = slice.actions;
+const {
+  updatedSearch,
+  updatedSelectedCourse,
+  clearedSelectedCourse,
+} = slice.actions;
 export default slice.reducer;
 
 // Action Creators
-export const updateSearch = (searchStr) => (dispatch, getState) => {
-  return dispatch(updatedSearch({ searchStr }));
+export const updateSearch = (searchStr) => {
+  return updatedSearch({ searchStr });
 };
 
-export const updateSelectedCourse = (id, name) => (dispatch, getState) => {
-  return dispatch(updatedSelectedCourse({ id, name }));
+export const updateSelectedCourse = (id, name) => {
+  return updatedSelectedCourse({ id, name });
+};
+
+export const clearSelectedCourse = () => {
+  return clearedSelectedCourse();
 };
 
 // Selectors

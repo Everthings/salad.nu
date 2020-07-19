@@ -1,6 +1,7 @@
 export const sections = {
   "3": [
     {
+      unique_id: 190443,
       instructor: {
         name: "Andrew James Leone",
         bio: null,
@@ -17,6 +18,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190444,
       instructor: {
         name: "Swaminathan Sridharan",
         bio: null,
@@ -33,6 +35,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190445,
       instructor: {
         name: "Swaminathan Sridharan",
         bio: null,
@@ -49,6 +52,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190446,
       instructor: {
         name: "Swaminathan Sridharan",
         bio: null,
@@ -65,6 +69,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190447,
       instructor: {
         name: "Teri Lombardi Yohn",
         bio: null,
@@ -81,6 +86,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190448,
       instructor: {
         name: "Teri Lombardi Yohn",
         bio: null,
@@ -97,6 +103,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190449,
       instructor: {
         name: "Daniel Aobdia",
         bio: null,
@@ -118,6 +125,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190450,
       instructor: {
         name: "Daniel Aobdia",
         bio: null,
@@ -139,6 +147,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190442,
       instructor: {
         name: "Andrew James Leone",
         bio: null,
@@ -157,6 +166,7 @@ export const sections = {
   ],
   "16": [
     {
+      unique_id: 190451,
       instructor: {
         name: "Mark W Finn",
         bio: null,
@@ -175,6 +185,7 @@ export const sections = {
   ],
   "17": [
     {
+      unique_id: 190453,
       instructor: {
         name: "Mark W Finn",
         bio: null,
@@ -191,6 +202,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190452,
       instructor: {
         name: "Mark W Finn",
         bio: null,
@@ -209,6 +221,7 @@ export const sections = {
   ],
   "72": [
     {
+      unique_id: 191264,
       instructor: {
         name: "Sara Patricia Ferreira Moreira",
         bio: null,
@@ -225,6 +238,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190602,
       instructor: {
         name: "Craig Garthwaite",
         bio: null,
@@ -241,6 +255,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190601,
       instructor: {
         name: "Meghan R Busse",
         bio: null,
@@ -257,6 +272,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190603,
       instructor: {
         name: "Meghan R Busse",
         bio: null,
@@ -273,6 +289,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190604,
       instructor: {
         name: "Sara Patricia Ferreira Moreira",
         bio: null,
@@ -289,6 +306,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190605,
       instructor: {
         name: "Amanda Kay Starc",
         bio: null,
@@ -305,6 +323,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190606,
       instructor: {
         name: "Amanda Kay Starc",
         bio: null,
@@ -321,6 +340,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190607,
       instructor: {
         name: "Craig Garthwaite",
         bio: null,
@@ -337,6 +357,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190609,
       instructor: {
         name: "Sara Patricia Ferreira Moreira",
         bio: null,
@@ -358,6 +379,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190610,
       instructor: {
         name: "Michael Leslie Powell",
         bio: null,
@@ -379,6 +401,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190608,
       instructor: {
         name: "Craig Garthwaite",
         bio: null,
@@ -395,6 +418,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191263,
       instructor: {
         name: "Michael Leslie Powell",
         bio: null,
@@ -413,6 +437,7 @@ export const sections = {
   ],
   "83": [
     {
+      unique_id: 190615,
       instructor: {
         name: "Georgios Georgiadis",
         bio: null,
@@ -434,6 +459,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190614,
       instructor: {
         name: "Georgios Georgiadis",
         bio: null,
@@ -450,6 +476,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190613,
       instructor: {
         name: "Georgios Georgiadis",
         bio: null,
@@ -468,6 +495,7 @@ export const sections = {
   ],
   "88": [
     {
+      unique_id: 190616,
       instructor: {
         name: "Daniel F Spulber",
         bio: null,
@@ -486,6 +514,7 @@ export const sections = {
   ],
   "91": [
     {
+      unique_id: 190820,
       instructor: {
         name: "Sarit Markovich",
         bio: null,
@@ -504,6 +533,7 @@ export const sections = {
   ],
   "96": [
     {
+      unique_id: 190513,
       instructor: {
         name: "Harry M Kraemer",
         bio: null,
@@ -522,6 +552,7 @@ export const sections = {
   ],
   "133": [
     {
+      unique_id: 191378,
       instructor: {
         name: "Nicole M Stephens",
         bio: null,
@@ -540,6 +571,7 @@ export const sections = {
   ],
   "143": [
     {
+      unique_id: 190581,
       instructor: {
         name: "Loran F Nordgren",
         bio: null,
@@ -556,6 +588,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190583,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -577,6 +610,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190579,
       instructor: {
         name: "Loran F Nordgren",
         bio: null,
@@ -593,6 +627,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190580,
       instructor: {
         name: "Lauren A Rivera",
         bio: null,
@@ -609,6 +644,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190582,
       instructor: {
         name: "Lauren A Rivera",
         bio: null,
@@ -625,6 +661,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190584,
       instructor: {
         name: "Loran F Nordgren",
         bio: null,
@@ -646,6 +683,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190575,
       instructor: {
         name: "Brian Uzzi",
         bio: null,
@@ -662,6 +700,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190576,
       instructor: {
         name: "Adam Gray Waytz",
         bio: null,
@@ -678,6 +717,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190577,
       instructor: {
         name: "Brian Uzzi",
         bio: null,
@@ -694,6 +734,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190578,
       instructor: {
         name: "Adam Gray Waytz",
         bio: null,
@@ -712,6 +753,7 @@ export const sections = {
   ],
   "163": [
     {
+      unique_id: 190588,
       instructor: {
         name: "Maryam Kouchaki Nejad Eramsadati",
         bio: null,
@@ -733,6 +775,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190587,
       instructor: {
         name: "Maryam Kouchaki Nejad Eramsadati",
         bio: null,
@@ -751,6 +794,7 @@ export const sections = {
   ],
   "165": [
     {
+      unique_id: 190591,
       instructor: {
         name: "Victoria Husted Medvec",
         bio: null,
@@ -767,6 +811,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190592,
       instructor: {
         name: "Victoria Husted Medvec",
         bio: null,
@@ -785,6 +830,7 @@ export const sections = {
   ],
   "195": [
     {
+      unique_id: 191365,
       instructor: {
         name: "Daniel F Spulber",
         bio: null,
@@ -803,6 +849,7 @@ export const sections = {
   ],
   "200": [
     {
+      unique_id: 191366,
       instructor: {
         name: "Peter L Klibanoff",
         bio: null,
@@ -821,6 +868,7 @@ export const sections = {
   ],
   "217": [
     {
+      unique_id: 190599,
       instructor: {
         name: "David Joseph Cocagne",
         bio: null,
@@ -839,6 +887,7 @@ export const sections = {
   ],
   "219": [
     {
+      unique_id: 190600,
       instructor: {
         name: "David A Dana",
         bio: null,
@@ -857,6 +906,7 @@ export const sections = {
   ],
   "230": [
     {
+      unique_id: 190541,
       instructor: {
         name: "Daniel R Aaronson",
         bio: null,
@@ -878,6 +928,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190542,
       instructor: {
         name: "Georgy Egorov",
         bio: null,
@@ -899,6 +950,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191262,
       instructor: {
         name: "Georgy Egorov",
         bio: null,
@@ -917,6 +969,7 @@ export const sections = {
   ],
   "279": [
     {
+      unique_id: 190454,
       instructor: {
         name: "R Mark McCareins",
         bio: null,
@@ -935,6 +988,7 @@ export const sections = {
   ],
   "286": [
     {
+      unique_id: 190472,
       instructor: {
         name: "Timothy James McQuade",
         bio: null,
@@ -951,6 +1005,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190475,
       instructor: {
         name: "Craig Furfine",
         bio: null,
@@ -967,6 +1022,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190473,
       instructor: {
         name: "Timothy James McQuade",
         bio: null,
@@ -983,6 +1039,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190474,
       instructor: {
         name: "Timothy James McQuade",
         bio: null,
@@ -999,6 +1056,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190476,
       instructor: {
         name: "Konstantin Wilhelm Milbradt",
         bio: null,
@@ -1022,6 +1080,7 @@ export const sections = {
   ],
   "287": [
     {
+      unique_id: 190481,
       instructor: {
         name: "Mitchell A Petersen",
         bio: null,
@@ -1038,6 +1097,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190483,
       instructor: {
         name: "Mitchell A Petersen",
         bio: null,
@@ -1054,6 +1114,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190482,
       instructor: {
         name: "Mitchell A Petersen",
         bio: null,
@@ -1072,6 +1133,7 @@ export const sections = {
   ],
   "288": [
     {
+      unique_id: 190479,
       instructor: {
         name: "Filippo Mezzanotti",
         bio: null,
@@ -1088,6 +1150,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190480,
       instructor: {
         name: "Enrichetta Ravina",
         bio: null,
@@ -1109,6 +1172,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190477,
       instructor: {
         name: "Filippo Mezzanotti",
         bio: null,
@@ -1125,6 +1189,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190478,
       instructor: {
         name: "Filippo Mezzanotti",
         bio: null,
@@ -1143,6 +1208,7 @@ export const sections = {
   ],
   "290": [
     {
+      unique_id: 190484,
       instructor: {
         name: "Artur Raviv",
         bio: null,
@@ -1159,6 +1225,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190485,
       instructor: {
         name: "Artur Raviv",
         bio: null,
@@ -1175,6 +1242,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190486,
       instructor: {
         name: "Artur Raviv",
         bio: null,
@@ -1193,6 +1261,7 @@ export const sections = {
   ],
   "292": [
     {
+      unique_id: 190487,
       instructor: {
         name: "Scott Ross Baker",
         bio: null,
@@ -1211,6 +1280,7 @@ export const sections = {
   ],
   "303": [
     {
+      unique_id: 190489,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -1234,6 +1304,7 @@ export const sections = {
   ],
   "313": [
     {
+      unique_id: 190491,
       instructor: {
         name: "Sergio T Rebelo",
         bio: null,
@@ -1250,6 +1321,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190490,
       instructor: {
         name: "Sergio T Rebelo",
         bio: null,
@@ -1266,6 +1338,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190492,
       instructor: {
         name: "Sergio T Rebelo",
         bio: null,
@@ -1289,6 +1362,7 @@ export const sections = {
   ],
   "324": [
     {
+      unique_id: 191368,
       instructor: {
         name: "Constantinos N Skiadas",
         bio: null,
@@ -1307,6 +1381,7 @@ export const sections = {
   ],
   "326": [
     {
+      unique_id: 191369,
       instructor: {
         name: "Konstantin Wilhelm Milbradt",
         bio: null,
@@ -1325,6 +1400,7 @@ export const sections = {
   ],
   "385": [
     {
+      unique_id: 190550,
       instructor: {
         name: "Julie Nagel Hennessy",
         bio: null,
@@ -1341,6 +1417,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190552,
       instructor: {
         name: "Kevin Thomas McTigue",
         bio: null,
@@ -1362,6 +1439,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190551,
       instructor: {
         name: "Kevin Thomas McTigue",
         bio: null,
@@ -1378,6 +1456,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190548,
       instructor: {
         name: "Kent Allan Grayson",
         bio: null,
@@ -1394,6 +1473,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190549,
       instructor: {
         name: "Julie Nagel Hennessy",
         bio: null,
@@ -1410,6 +1490,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190547,
       instructor: {
         name: "Kent Allan Grayson",
         bio: null,
@@ -1428,6 +1509,7 @@ export const sections = {
   ],
   "387": [
     {
+      unique_id: 190553,
       instructor: {
         name: "Ulf Bockenholt",
         bio: null,
@@ -1444,6 +1526,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190554,
       instructor: {
         name: "Ulf Bockenholt",
         bio: null,
@@ -1460,6 +1543,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190555,
       instructor: {
         name: "Ulf Bockenholt",
         bio: null,
@@ -1483,6 +1567,7 @@ export const sections = {
   ],
   "388": [
     {
+      unique_id: 190556,
       instructor: {
         name: "Richard E Wilson",
         bio: null,
@@ -1506,6 +1591,7 @@ export const sections = {
   ],
   "390": [
     {
+      unique_id: 190557,
       instructor: {
         name: "Eric Berggren",
         bio: null,
@@ -1522,6 +1608,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190558,
       instructor: {
         name: "Eric Berggren",
         bio: null,
@@ -1545,6 +1632,7 @@ export const sections = {
   ],
   "391": [
     {
+      unique_id: 190559,
       instructor: {
         name: "Mary O'Brien Pearlman",
         bio: null,
@@ -1568,6 +1656,7 @@ export const sections = {
   ],
   "396": [
     {
+      unique_id: 190560,
       instructor: {
         name: "Ataollah Tafaghodijami",
         bio: null,
@@ -1586,6 +1675,7 @@ export const sections = {
   ],
   "398": [
     {
+      unique_id: 190561,
       instructor: {
         name: "Eric Thomas Anderson",
         bio: null,
@@ -1602,6 +1692,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190562,
       instructor: {
         name: "Eric Thomas Anderson",
         bio: null,
@@ -1620,6 +1711,7 @@ export const sections = {
   ],
   "405": [
     {
+      unique_id: 190564,
       instructor: {
         name: "Timothy Calkins",
         bio: null,
@@ -1636,6 +1728,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190563,
       instructor: {
         name: "Timothy Calkins",
         bio: null,
@@ -1652,6 +1745,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190565,
       instructor: {
         name: "Timothy Calkins",
         bio: null,
@@ -1675,6 +1769,7 @@ export const sections = {
   ],
   "438": [
     {
+      unique_id: 190595,
       instructor: {
         name: "Martin A Lariviere",
         bio: null,
@@ -1696,6 +1791,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190596,
       instructor: {
         name: "Martin A Lariviere",
         bio: null,
@@ -1719,6 +1815,7 @@ export const sections = {
   ],
   "449": [
     {
+      unique_id: 190598,
       instructor: {
         name: "Sunil Chopra",
         bio: null,
@@ -1737,6 +1834,7 @@ export const sections = {
   ],
   "577": [
     {
+      unique_id: 188534,
       instructor: {
         name: "Mindy Douthit",
         bio: null,
@@ -1758,6 +1856,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188535,
       instructor: {
         name: "Mindy Sue Magrane",
         bio: null,
@@ -1781,6 +1880,7 @@ export const sections = {
   ],
   "581": [
     {
+      unique_id: 188537,
       instructor: {
         name: "Mindy Douthit",
         bio: null,
@@ -1804,6 +1904,7 @@ export const sections = {
   ],
   "591": [
     {
+      unique_id: 188617,
       instructor: {
         name: "Cynthia Ellen Coburn",
         bio: null,
@@ -1820,6 +1921,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188618,
       instructor: {
         name: "Sophie Haroutunian-Gordon",
         bio: null,
@@ -1836,6 +1938,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188619,
       instructor: {
         name: "Daniel Maurice Cohen",
         bio: null,
@@ -1852,6 +1955,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188620,
       instructor: {
         name: "Barton Jay Hirsch",
         bio: null,
@@ -1868,6 +1972,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188621,
       instructor: {
         name: "James P Spillane",
         bio: null,
@@ -1884,6 +1989,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188622,
       instructor: {
         name: "Bruce L Sherin",
         bio: null,
@@ -1900,6 +2006,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188623,
       instructor: {
         name: "Brian Reiser",
         bio: null,
@@ -1916,6 +2023,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188624,
       instructor: {
         name: "Carol D Lee",
         bio: null,
@@ -1932,6 +2040,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188625,
       instructor: {
         name: "Dan A Lewis",
         bio: null,
@@ -1948,6 +2057,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188626,
       instructor: {
         name: "Dan P McAdams",
         bio: null,
@@ -1964,6 +2074,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188628,
       instructor: {
         name: "Andrew J Ortony",
         bio: null,
@@ -1980,6 +2091,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188629,
       instructor: {
         name: "Penelope L Peterson",
         bio: null,
@@ -1996,6 +2108,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188630,
       instructor: {
         name: "Mesmin Patrick Destin",
         bio: null,
@@ -2012,6 +2125,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188631,
       instructor: {
         name: "Diane Whitmore Schanzenbach",
         bio: null,
@@ -2028,6 +2142,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188632,
       instructor: {
         name: "Christopher K Riesbeck",
         bio: null,
@@ -2044,6 +2159,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188633,
       instructor: {
         name: "Reed Stevens",
         bio: null,
@@ -2060,6 +2176,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188634,
       instructor: {
         name: "Miriam G Sherin",
         bio: null,
@@ -2076,6 +2193,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188635,
       instructor: {
         name: "James Edward Rosenbaum",
         bio: null,
@@ -2092,6 +2210,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188636,
       instructor: {
         name: "Uriel J Wilensky",
         bio: null,
@@ -2108,6 +2227,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188637,
       instructor: {
         name: "Emma K Adam",
         bio: null,
@@ -2124,6 +2244,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188638,
       instructor: {
         name: "Clement Kirabo Jackson",
         bio: null,
@@ -2140,6 +2261,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188639,
       instructor: {
         name: "Paula M Olszewski-Kubilius",
         bio: null,
@@ -2156,6 +2278,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188640,
       instructor: {
         name: "John P Kretzmann",
         bio: null,
@@ -2172,6 +2295,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188641,
       instructor: {
         name: "John P Kretzmann",
         bio: null,
@@ -2188,6 +2312,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188642,
       instructor: {
         name: "Michael Stephen Horn",
         bio: null,
@@ -2204,6 +2329,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188643,
       instructor: {
         name: "Matthew Wayne Easterday",
         bio: null,
@@ -2220,6 +2346,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188644,
       instructor: {
         name: "David Neil Rapp",
         bio: null,
@@ -2236,6 +2363,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188645,
       instructor: {
         name: "Michelle Reininger",
         bio: null,
@@ -2252,6 +2380,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188646,
       instructor: {
         name: "David H Uttal",
         bio: null,
@@ -2268,6 +2397,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188647,
       instructor: {
         name: "Edward Vincent Taylor",
         bio: null,
@@ -2284,6 +2414,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188648,
       instructor: {
         name: "Jeannette A Colyvas",
         bio: null,
@@ -2300,6 +2431,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188650,
       instructor: {
         name: "Wan Shun Eva Lam",
         bio: null,
@@ -2316,6 +2448,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188651,
       instructor: {
         name: "Simone Zinaida Ispa-Landa",
         bio: null,
@@ -2332,6 +2465,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188652,
       instructor: {
         name: "Douglas L Medin",
         bio: null,
@@ -2348,6 +2482,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188653,
       instructor: {
         name: "Regina Lopata Logan",
         bio: null,
@@ -2364,6 +2499,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188654,
       instructor: {
         name: "Jean M Egmon",
         bio: null,
@@ -2380,6 +2516,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188609,
       instructor: {
         name: "Seon-Young Lee",
         bio: null,
@@ -2396,6 +2533,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188627,
       instructor: {
         name: "Penelope L Peterson",
         bio: null,
@@ -2412,6 +2550,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188655,
       instructor: {
         name: "Heather Jill Risser",
         bio: null,
@@ -2428,6 +2567,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188611,
       instructor: {
         name: "Patricia Lindsay Chase-Lansdale",
         bio: null,
@@ -2444,6 +2584,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188612,
       instructor: {
         name: "Kimberly S Scott",
         bio: null,
@@ -2460,6 +2601,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188606,
       instructor: {
         name: "John Keith Murnighan",
         bio: null,
@@ -2476,6 +2618,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188605,
       instructor: {
         name: "Lawrence A Birnbaum",
         bio: null,
@@ -2492,6 +2635,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188607,
       instructor: {
         name: "Gregory Evan Miller",
         bio: null,
@@ -2508,6 +2652,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188608,
       instructor: {
         name: "Douglas C Breunlin",
         bio: null,
@@ -2524,6 +2669,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188610,
       instructor: {
         name: "Gail Ann Berger",
         bio: null,
@@ -2540,6 +2686,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188613,
       instructor: {
         name: "Thomas D Cook",
         bio: null,
@@ -2556,6 +2703,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188614,
       instructor: {
         name: "Fay Lomax Cook",
         bio: null,
@@ -2572,6 +2720,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188615,
       instructor: {
         name: "Solomon Cytrynbaum",
         bio: null,
@@ -2588,6 +2737,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188616,
       instructor: {
         name: "Lilah Devra Shapiro",
         bio: null,
@@ -2604,6 +2754,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188649,
       instructor: {
         name: "David N Figlio",
         bio: null,
@@ -2622,6 +2773,7 @@ export const sections = {
   ],
   "593": [
     {
+      unique_id: 188658,
       instructor: {
         name: "Sarah Louise White",
         bio: null,
@@ -2638,6 +2790,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188656,
       instructor: {
         name: "Sarah Louise White",
         bio: null,
@@ -2659,6 +2812,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188657,
       instructor: {
         name: "Sarah Louise White",
         bio: null,
@@ -2677,6 +2831,7 @@ export const sections = {
   ],
   "597": [
     {
+      unique_id: 188547,
       instructor: {
         name: "Bruce L Sherin",
         bio: null,
@@ -2700,6 +2855,7 @@ export const sections = {
   ],
   "614": [
     {
+      unique_id: 188552,
       instructor: {
         name: "Jolie C Matthews",
         bio: null,
@@ -2721,6 +2877,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188553,
       instructor: {
         name: "Eleanor Mary O'Rourke",
         bio: null,
@@ -2742,6 +2899,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188550,
       instructor: {
         name: "Jeannette A Colyvas",
         bio: null,
@@ -2763,6 +2921,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188551,
       instructor: {
         name: "Marcelo Aaron Bonilla Worsley",
         bio: null,
@@ -2781,6 +2940,7 @@ export const sections = {
   ],
   "631": [
     {
+      unique_id: 188659,
       instructor: {
         name: "Amy A Chang",
         bio: null,
@@ -2804,6 +2964,7 @@ export const sections = {
   ],
   "634": [
     {
+      unique_id: 188593,
       instructor: {
         name: "Yang Qu",
         bio: null,
@@ -2827,6 +2988,7 @@ export const sections = {
   ],
   "635": [
     {
+      unique_id: 188594,
       instructor: {
         name: "Regina Lopata Logan",
         bio: null,
@@ -2850,6 +3012,7 @@ export const sections = {
   ],
   "636": [
     {
+      unique_id: 188660,
       instructor: {
         name: "Dan A Lewis",
         bio: null,
@@ -2873,6 +3036,7 @@ export const sections = {
   ],
   "639": [
     {
+      unique_id: 188661,
       instructor: {
         name: "James Edward Rosenbaum",
         bio: null,
@@ -2896,6 +3060,7 @@ export const sections = {
   ],
   "640": [
     {
+      unique_id: 188662,
       instructor: {
         name: "Cynthia A Conlon",
         bio: null,
@@ -2919,6 +3084,7 @@ export const sections = {
   ],
   "652": [
     {
+      unique_id: 188663,
       instructor: {
         name: "Diane Whitmore Schanzenbach",
         bio: null,
@@ -2942,6 +3108,7 @@ export const sections = {
   ],
   "655": [
     {
+      unique_id: 188600,
       instructor: {
         name: "Lilah Devra Shapiro",
         bio: null,
@@ -2965,6 +3132,7 @@ export const sections = {
   ],
   "669": [
     {
+      unique_id: 188529,
       instructor: {
         name: "Emma K Adam",
         bio: null,
@@ -2988,6 +3156,7 @@ export const sections = {
   ],
   "692": [
     {
+      unique_id: 188531,
       instructor: {
         name: "Jeannette A Colyvas",
         bio: null,
@@ -3009,6 +3178,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188532,
       instructor: {
         name: "Jolie C Matthews",
         bio: null,
@@ -3032,6 +3202,7 @@ export const sections = {
   ],
   "702": [
     {
+      unique_id: 188527,
       instructor: {
         name: "Jessica Rohlfing Pryor",
         bio: null,
@@ -3055,6 +3226,7 @@ export const sections = {
   ],
   "709": [
     {
+      unique_id: 188528,
       instructor: {
         name: "Mindy Sue Magrane",
         bio: null,
@@ -3078,6 +3250,7 @@ export const sections = {
   ],
   "716": [
     {
+      unique_id: 190661,
       instructor: {
         name: "Solomon Cytrynbaum",
         bio: null,
@@ -3101,6 +3274,7 @@ export const sections = {
   ],
   "721": [
     {
+      unique_id: 190672,
       instructor: {
         name: "Donna Rosana Baptiste",
         bio: null,
@@ -3119,6 +3293,7 @@ export const sections = {
   ],
   "722": [
     {
+      unique_id: 190681,
       instructor: {
         name: "Paula R Young",
         bio: null,
@@ -3142,6 +3317,7 @@ export const sections = {
   ],
   "727": [
     {
+      unique_id: 190682,
       instructor: {
         name: "Donna Rosana Baptiste",
         bio: null,
@@ -3160,6 +3336,7 @@ export const sections = {
   ],
   "749": [
     {
+      unique_id: 190708,
       instructor: {
         name: "Ava J Carn-Watkins",
         bio: null,
@@ -3183,6 +3360,7 @@ export const sections = {
   ],
   "751": [
     {
+      unique_id: 190709,
       instructor: {
         name: "",
         bio: null,
@@ -3201,6 +3379,7 @@ export const sections = {
   ],
   "754": [
     {
+      unique_id: 190714,
       instructor: {
         name: "Donna Rosana Baptiste",
         bio: null,
@@ -3224,6 +3403,7 @@ export const sections = {
   ],
   "757": [
     {
+      unique_id: 190721,
       instructor: {
         name: "Ava J Carn-Watkins",
         bio: null,
@@ -3242,6 +3422,7 @@ export const sections = {
   ],
   "761": [
     {
+      unique_id: 190725,
       instructor: {
         name: "Ava J Carn-Watkins",
         bio: null,
@@ -3260,6 +3441,7 @@ export const sections = {
   ],
   "764": [
     {
+      unique_id: 190726,
       instructor: {
         name: "",
         bio: null,
@@ -3278,6 +3460,7 @@ export const sections = {
   ],
   "765": [
     {
+      unique_id: 190728,
       instructor: {
         name: "Donna Rosana Baptiste",
         bio: null,
@@ -3301,6 +3484,7 @@ export const sections = {
   ],
   "786": [
     {
+      unique_id: 190759,
       instructor: {
         name: "Ava J Carn-Watkins",
         bio: null,
@@ -3319,6 +3503,7 @@ export const sections = {
   ],
   "794": [
     {
+      unique_id: 190760,
       instructor: {
         name: "Ava J Carn-Watkins",
         bio: null,
@@ -3337,6 +3522,7 @@ export const sections = {
   ],
   "804": [
     {
+      unique_id: 188556,
       instructor: {
         name: "Elizabeth Rose Shulman",
         bio: null,
@@ -3355,6 +3541,7 @@ export const sections = {
   ],
   "808": [
     {
+      unique_id: 188558,
       instructor: {
         name: "Kimberly J. Hufferd-Ackles",
         bio: null,
@@ -3378,6 +3565,7 @@ export const sections = {
   ],
   "822": [
     {
+      unique_id: 188564,
       instructor: {
         name: "Timothy A. Dohrer",
         bio: null,
@@ -3401,6 +3589,7 @@ export const sections = {
   ],
   "825": [
     {
+      unique_id: 188566,
       instructor: {
         name: "Mark K Bauman",
         bio: null,
@@ -3424,6 +3613,7 @@ export const sections = {
   ],
   "830": [
     {
+      unique_id: 188577,
       instructor: {
         name: "Eugene Y Lowe Jr",
         bio: null,
@@ -3447,6 +3637,7 @@ export const sections = {
   ],
   "850": [
     {
+      unique_id: 188562,
       instructor: {
         name: "Lanee T Walls",
         bio: null,
@@ -3468,6 +3659,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188667,
       instructor: {
         name: "Lanee T Walls",
         bio: null,
@@ -3491,6 +3683,7 @@ export const sections = {
   ],
   "854": [
     {
+      unique_id: 188669,
       instructor: {
         name: "Mark K Bauman",
         bio: null,
@@ -3514,6 +3707,7 @@ export const sections = {
   ],
   "855": [
     {
+      unique_id: 188567,
       instructor: {
         name: "Dagny Dorothy Bloland",
         bio: null,
@@ -3535,6 +3729,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188670,
       instructor: {
         name: "Dagny Dorothy Bloland",
         bio: null,
@@ -3558,6 +3753,7 @@ export const sections = {
   ],
   "856": [
     {
+      unique_id: 188568,
       instructor: {
         name: "James J Lynn",
         bio: null,
@@ -3579,6 +3775,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188671,
       instructor: {
         name: "James J Lynn",
         bio: null,
@@ -3602,6 +3799,7 @@ export const sections = {
   ],
   "857": [
     {
+      unique_id: 188569,
       instructor: {
         name: "Tara Ann Willey McGill",
         bio: null,
@@ -3623,6 +3821,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188672,
       instructor: {
         name: "Tara Ann Willey McGill",
         bio: null,
@@ -3646,6 +3845,7 @@ export const sections = {
   ],
   "858": [
     {
+      unique_id: 188570,
       instructor: {
         name: "Hilary Gehlbach Conklin",
         bio: null,
@@ -3667,6 +3867,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188673,
       instructor: {
         name: "Hilary Gehlbach Conklin",
         bio: null,
@@ -3690,6 +3891,7 @@ export const sections = {
   ],
   "868": [
     {
+      unique_id: 190765,
       instructor: {
         name: "Douglas C Breunlin",
         bio: null,
@@ -3713,6 +3915,7 @@ export const sections = {
   ],
   "871": [
     {
+      unique_id: 190767,
       instructor: {
         name: "Maria E Torres-Gregory",
         bio: null,
@@ -3731,6 +3934,7 @@ export const sections = {
   ],
   "873": [
     {
+      unique_id: 190766,
       instructor: {
         name: "Douglas C Breunlin",
         bio: null,
@@ -3754,6 +3958,7 @@ export const sections = {
   ],
   "874": [
     {
+      unique_id: 190763,
       instructor: {
         name: "William P Russell",
         bio: null,
@@ -3777,6 +3982,7 @@ export const sections = {
   ],
   "883": [
     {
+      unique_id: 190768,
       instructor: {
         name: "Shayna Rachelle Goldstein",
         bio: null,
@@ -3795,6 +4001,7 @@ export const sections = {
   ],
   "886": [
     {
+      unique_id: 190769,
       instructor: {
         name: "David E Taussig",
         bio: null,
@@ -3813,6 +4020,7 @@ export const sections = {
   ],
   "894": [
     {
+      unique_id: 188091,
       instructor: {
         name: "Martin Paul Block",
         bio: null,
@@ -3834,6 +4042,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188092,
       instructor: {
         name: "Martin Paul Block",
         bio: null,
@@ -3855,6 +4064,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188093,
       instructor: {
         name: "",
         bio: null,
@@ -3878,6 +4088,7 @@ export const sections = {
   ],
   "895": [
     {
+      unique_id: 188096,
       instructor: {
         name: "Judy U Franks",
         bio: null,
@@ -3901,6 +4112,7 @@ export const sections = {
   ],
   "899": [
     {
+      unique_id: 188105,
       instructor: {
         name: "Anthony Jr Peter Poidomani",
         bio: null,
@@ -3919,6 +4131,7 @@ export const sections = {
   ],
   "900": [
     {
+      unique_id: 188103,
       instructor: {
         name: "Gregory A Green",
         bio: null,
@@ -3935,6 +4148,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188102,
       instructor: {
         name: "Ashlee Amanda Humphreys",
         bio: null,
@@ -3953,6 +4167,7 @@ export const sections = {
   ],
   "901": [
     {
+      unique_id: 188106,
       instructor: {
         name: "James Edward Lecinski",
         bio: null,
@@ -3969,6 +4184,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188107,
       instructor: {
         name: "Vijaymahadev Viswanathan",
         bio: null,
@@ -3987,6 +4203,7 @@ export const sections = {
   ],
   "904": [
     {
+      unique_id: 188101,
       instructor: {
         name: "",
         bio: null,
@@ -4005,6 +4222,7 @@ export const sections = {
   ],
   "907": [
     {
+      unique_id: 188127,
       instructor: {
         name: "Martin Paul Block",
         bio: null,
@@ -4028,6 +4246,7 @@ export const sections = {
   ],
   "914": [
     {
+      unique_id: 188123,
       instructor: {
         name: "Nancy Hobor",
         bio: null,
@@ -4051,6 +4270,7 @@ export const sections = {
   ],
   "922": [
     {
+      unique_id: 188110,
       instructor: {
         name: "Thomas H Hayden",
         bio: null,
@@ -4069,6 +4289,7 @@ export const sections = {
   ],
   "924": [
     {
+      unique_id: 188143,
       instructor: {
         name: "",
         bio: null,
@@ -4085,6 +4306,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188142,
       instructor: {
         name: "Jonathan R Copulsky",
         bio: null,
@@ -4101,6 +4323,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188139,
       instructor: {
         name: "Joshua Paul Grau",
         bio: null,
@@ -4117,6 +4340,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188144,
       instructor: {
         name: "Ramya Venkateswaran",
         bio: null,
@@ -4133,6 +4357,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188137,
       instructor: {
         name: "Tran Ngoc Ha",
         bio: null,
@@ -4149,6 +4374,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188141,
       instructor: {
         name: "Francis J Mulhern",
         bio: null,
@@ -4165,6 +4391,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188140,
       instructor: {
         name: "Joshua Paul Grau",
         bio: null,
@@ -4181,6 +4408,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188136,
       instructor: {
         name: "Roy Wollen",
         bio: null,
@@ -4197,6 +4425,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188145,
       instructor: {
         name: "",
         bio: null,
@@ -4213,6 +4442,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188138,
       instructor: {
         name: "Aditi Bajaj",
         bio: null,
@@ -4231,6 +4461,7 @@ export const sections = {
   ],
   "926": [
     {
+      unique_id: 188157,
       instructor: {
         name: "Ava Thompson Greenwell",
         bio: null,
@@ -4247,6 +4478,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188150,
       instructor: {
         name: "Lawrence L Stuelpnagel",
         bio: null,
@@ -4263,6 +4495,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188151,
       instructor: {
         name: "Desiree Hanford",
         bio: null,
@@ -4279,6 +4512,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188159,
       instructor: {
         name: "Patti Lynne Wolter",
         bio: null,
@@ -4300,6 +4534,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188160,
       instructor: {
         name: "Caryn B Ward",
         bio: null,
@@ -4321,6 +4556,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188152,
       instructor: {
         name: "Melissa K Isaacson",
         bio: null,
@@ -4337,6 +4573,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188153,
       instructor: {
         name: "Patti Lynne Wolter",
         bio: null,
@@ -4358,6 +4595,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188156,
       instructor: {
         name: "Stephan W Garnett",
         bio: null,
@@ -4379,6 +4617,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188154,
       instructor: {
         name: "Michael Anthony Deas",
         bio: null,
@@ -4400,6 +4639,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188149,
       instructor: {
         name: "Steven William Thrasher",
         bio: null,
@@ -4421,6 +4661,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188148,
       instructor: {
         name: "Mei-Ling Hopgood Reel",
         bio: null,
@@ -4437,6 +4678,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188158,
       instructor: {
         name: "Cynthia B Rodgers",
         bio: null,
@@ -4458,6 +4700,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188155,
       instructor: {
         name: "Richard Babcock",
         bio: null,
@@ -4481,6 +4724,7 @@ export const sections = {
   ],
   "930": [
     {
+      unique_id: 188165,
       instructor: {
         name: "Owen R Youngman",
         bio: null,
@@ -4497,6 +4741,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188164,
       instructor: {
         name: "Jack C Doppelt",
         bio: null,
@@ -4518,6 +4763,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188163,
       instructor: {
         name: "Anne Elizabeth Ford",
         bio: null,
@@ -4536,6 +4782,7 @@ export const sections = {
   ],
   "942": [
     {
+      unique_id: 188167,
       instructor: {
         name: "Jill Blackman",
         bio: null,
@@ -4559,6 +4806,7 @@ export const sections = {
   ],
   "945": [
     {
+      unique_id: 188168,
       instructor: {
         name: "David Stephen Rodler Abrahamson",
         bio: null,
@@ -4582,6 +4830,7 @@ export const sections = {
   ],
   "946": [
     {
+      unique_id: 188166,
       instructor: {
         name: "Richard Babcock",
         bio: null,
@@ -4605,6 +4854,7 @@ export const sections = {
   ],
   "952": [
     {
+      unique_id: 188169,
       instructor: {
         name: "Caryn B Ward",
         bio: null,
@@ -4623,6 +4873,7 @@ export const sections = {
   ],
   "959": [
     {
+      unique_id: 188175,
       instructor: {
         name: "Joseph D Mathewson",
         bio: null,
@@ -4646,6 +4897,7 @@ export const sections = {
   ],
   "960": [
     {
+      unique_id: 188176,
       instructor: {
         name: "Desiree Hanford",
         bio: null,
@@ -4664,6 +4916,7 @@ export const sections = {
   ],
   "963": [
     {
+      unique_id: 188177,
       instructor: {
         name: "Susan Yvonne Curtis",
         bio: null,
@@ -4682,6 +4935,7 @@ export const sections = {
   ],
   "968": [
     {
+      unique_id: 188179,
       instructor: {
         name: "Samantha Kaitlyn Nissen",
         bio: null,
@@ -4700,6 +4954,7 @@ export const sections = {
   ],
   "969": [
     {
+      unique_id: 188182,
       instructor: {
         name: "Patricia Ann Loew",
         bio: null,
@@ -4716,6 +4971,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188183,
       instructor: {
         name: "Bradley Jay Hamm",
         bio: null,
@@ -4737,6 +4993,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188181,
       instructor: {
         name: "J. A. Adande",
         bio: null,
@@ -4753,6 +5010,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188184,
       instructor: {
         name: "Owen R Youngman",
         bio: null,
@@ -4769,6 +5027,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188186,
       instructor: {
         name: "Zach Wise",
         bio: null,
@@ -4790,6 +5049,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188180,
       instructor: {
         name: "Craig Weldon Duff",
         bio: null,
@@ -4811,6 +5071,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188187,
       instructor: {
         name: "Candy Lee",
         bio: null,
@@ -4827,6 +5088,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188185,
       instructor: {
         name: "Steven William Thrasher",
         bio: null,
@@ -4848,6 +5110,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188188,
       instructor: {
         name: "",
         bio: null,
@@ -4871,6 +5134,7 @@ export const sections = {
   ],
   "971": [
     {
+      unique_id: 188202,
       instructor: {
         name: "Jack C Doppelt",
         bio: null,
@@ -4887,6 +5151,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188201,
       instructor: {
         name: "Christopher D'Angelo Benson",
         bio: null,
@@ -4905,6 +5170,7 @@ export const sections = {
   ],
   "985": [
     {
+      unique_id: 188208,
       instructor: {
         name: "Abigail M Foerstner",
         bio: null,
@@ -4923,6 +5189,7 @@ export const sections = {
   ],
   "998": [
     {
+      unique_id: 188193,
       instructor: {
         name: "Michael Anthony Deas",
         bio: null,
@@ -4939,6 +5206,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188194,
       instructor: {
         name: "Stephan W Garnett",
         bio: null,
@@ -4955,6 +5223,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188195,
       instructor: {
         name: "Yukari Iwatani",
         bio: null,
@@ -4971,6 +5240,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188196,
       instructor: {
         name: "Joseph D Mathewson",
         bio: null,
@@ -4987,6 +5257,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188197,
       instructor: {
         name: "Melissa K Isaacson",
         bio: null,
@@ -5005,6 +5276,7 @@ export const sections = {
   ],
   "1006": [
     {
+      unique_id: 188222,
       instructor: {
         name: "Dorina Aguilar Rasmussen",
         bio: null,
@@ -5023,6 +5295,7 @@ export const sections = {
   ],
   "1007": [
     {
+      unique_id: 188218,
       instructor: {
         name: "Christopher D'Angelo Benson",
         bio: null,
@@ -5039,6 +5312,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188215,
       instructor: {
         name: "",
         bio: null,
@@ -5055,6 +5329,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188217,
       instructor: {
         name: "Peter D Slevin",
         bio: null,
@@ -5071,6 +5346,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188213,
       instructor: {
         name: "",
         bio: null,
@@ -5087,6 +5363,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188212,
       instructor: {
         name: "Jonathan J Allen",
         bio: null,
@@ -5108,6 +5385,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188216,
       instructor: {
         name: "",
         bio: null,
@@ -5124,6 +5402,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188220,
       instructor: {
         name: "Doreen G Weisenhaus",
         bio: null,
@@ -5140,6 +5419,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188214,
       instructor: {
         name: "",
         bio: null,
@@ -5156,6 +5436,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188219,
       instructor: {
         name: "J. A. Adande",
         bio: null,
@@ -5172,6 +5453,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191356,
       instructor: {
         name: "Douglas M Foster",
         bio: null,
@@ -5188,6 +5470,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191355,
       instructor: {
         name: "Caryn B Ward",
         bio: null,
@@ -5206,6 +5489,7 @@ export const sections = {
   ],
   "1042": [
     {
+      unique_id: 190632,
       instructor: {
         name: "Paola Zamperini",
         bio: null,
@@ -5224,6 +5508,7 @@ export const sections = {
   ],
   "1089": [
     {
+      unique_id: 188844,
       instructor: {
         name: "Elizabeth Anne Smith",
         bio: null,
@@ -5245,6 +5530,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190828,
       instructor: {
         name: "Matilda Lynn Stubbs",
         bio: null,
@@ -5266,6 +5552,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188845,
       instructor: {
         name: "William Leonard",
         bio: null,
@@ -5289,6 +5576,7 @@ export const sections = {
   ],
   "1096": [
     {
+      unique_id: 188846,
       instructor: {
         name: "Matthew H Johnson",
         bio:
@@ -5313,6 +5601,7 @@ export const sections = {
   ],
   "1115": [
     {
+      unique_id: 188850,
       instructor: {
         name: "Amanda Lee Logan",
         bio: null,
@@ -5336,6 +5625,7 @@ export const sections = {
   ],
   "1116": [
     {
+      unique_id: 188851,
       instructor: {
         name: "Amanda Lee Logan",
         bio: null,
@@ -5359,6 +5649,7 @@ export const sections = {
   ],
   "1120": [
     {
+      unique_id: 188852,
       instructor: {
         name: "Caroline H Bledsoe",
         bio:
@@ -5378,6 +5669,7 @@ export const sections = {
   ],
   "1136": [
     {
+      unique_id: 188853,
       instructor: {
         name: "Robert Launay",
         bio: null,
@@ -5401,6 +5693,7 @@ export const sections = {
   ],
   "1147": [
     {
+      unique_id: 188858,
       instructor: {
         name: "Caroline H Bledsoe",
         bio:
@@ -5423,6 +5716,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188857,
       instructor: {
         name: "Melissa Rosenzweig",
         bio: null,
@@ -5444,6 +5738,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188856,
       instructor: {
         name: "Sera Lewise Young",
         bio: null,
@@ -5465,6 +5760,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188855,
       instructor: {
         name: "Aaron Allen Miller",
         bio:
@@ -5487,6 +5783,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188854,
       instructor: {
         name: "Christopher W Kuzawa",
         bio: null,
@@ -5510,6 +5807,7 @@ export const sections = {
   ],
   "1159": [
     {
+      unique_id: 188859,
       instructor: {
         name: "Hirokazu Miyazaki",
         bio: null,
@@ -5533,6 +5831,7 @@ export const sections = {
   ],
   "1175": [
     {
+      unique_id: 188861,
       instructor: {
         name: "Robert Launay",
         bio: null,
@@ -5556,6 +5855,7 @@ export const sections = {
   ],
   "1177": [
     {
+      unique_id: 188863,
       instructor: {
         name: "Mary J Weismantel",
         bio: null,
@@ -5579,6 +5879,7 @@ export const sections = {
   ],
   "1186": [
     {
+      unique_id: 188805,
       instructor: {
         name: "Kihana Miraya Ross",
         bio: null,
@@ -5602,6 +5903,7 @@ export const sections = {
   ],
   "1187": [
     {
+      unique_id: 188806,
       instructor: {
         name: "Tracy L Vaughn",
         bio: null,
@@ -5625,6 +5927,7 @@ export const sections = {
   ],
   "1195": [
     {
+      unique_id: 188808,
       instructor: {
         name: "Kihana Miraya Ross",
         bio: null,
@@ -5648,6 +5951,7 @@ export const sections = {
   ],
   "1218": [
     {
+      unique_id: 188812,
       instructor: {
         name: "Steven William Thrasher",
         bio: null,
@@ -5669,6 +5973,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188811,
       instructor: {
         name: "",
         bio: null,
@@ -5690,6 +5995,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190369,
       instructor: {
         name: "",
         bio: null,
@@ -5711,6 +6017,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188810,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -5735,6 +6042,7 @@ export const sections = {
   ],
   "1221": [
     {
+      unique_id: 188813,
       instructor: {
         name: "Tracy L Vaughn",
         bio: null,
@@ -5753,6 +6061,7 @@ export const sections = {
   ],
   "1223": [
     {
+      unique_id: 188785,
       instructor: {
         name: "Christina E Normore",
         bio: null,
@@ -5776,6 +6085,7 @@ export const sections = {
   ],
   "1246": [
     {
+      unique_id: 188788,
       instructor: {
         name: "Claudia E Swan",
         bio: null,
@@ -5799,6 +6109,7 @@ export const sections = {
   ],
   "1271": [
     {
+      unique_id: 188789,
       instructor: {
         name: "Robert Nelson Linrothe",
         bio: null,
@@ -5817,6 +6128,7 @@ export const sections = {
   ],
   "1272": [
     {
+      unique_id: 188790,
       instructor: {
         name: "Rebecca Elizabeth Zorach",
         bio: null,
@@ -5840,6 +6152,7 @@ export const sections = {
   ],
   "1276": [
     {
+      unique_id: 188791,
       instructor: {
         name: "Susan Hollis Clayson",
         bio: null,
@@ -5858,6 +6171,7 @@ export const sections = {
   ],
   "1279": [
     {
+      unique_id: 188792,
       instructor: {
         name: "Rebecca Elizabeth Zorach",
         bio: null,
@@ -5876,6 +6190,7 @@ export const sections = {
   ],
   "1284": [
     {
+      unique_id: 188793,
       instructor: {
         name: "Jesus R Escobar",
         bio: null,
@@ -5894,6 +6209,7 @@ export const sections = {
   ],
   "1288": [
     {
+      unique_id: 188794,
       instructor: {
         name: "Claudia E Swan",
         bio: null,
@@ -5917,6 +6233,7 @@ export const sections = {
   ],
   "1290": [
     {
+      unique_id: 191121,
       instructor: {
         name: "Christopher Paul Bush",
         bio: null,
@@ -5933,6 +6250,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188795,
       instructor: {
         name: "Huey Gene Copeland II",
         bio: null,
@@ -5951,6 +6269,7 @@ export const sections = {
   ],
   "1292": [
     {
+      unique_id: 188796,
       instructor: {
         name: "Ayala Levin",
         bio: null,
@@ -5969,6 +6288,7 @@ export const sections = {
   ],
   "1298": [
     {
+      unique_id: 188797,
       instructor: {
         name: "Huey Gene Copeland II",
         bio: null,
@@ -5987,6 +6307,7 @@ export const sections = {
   ],
   "1302": [
     {
+      unique_id: 188872,
       instructor: {
         name: "Pamela L Bannos",
         bio:
@@ -6011,6 +6332,7 @@ export const sections = {
   ],
   "1303": [
     {
+      unique_id: 188877,
       instructor: {
         name: "Sherwin Samuel Ovid",
         bio: null,
@@ -6027,6 +6349,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188880,
       instructor: {
         name: "Sherwin Samuel Ovid",
         bio: null,
@@ -6043,6 +6366,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188878,
       instructor: {
         name: "",
         bio: null,
@@ -6059,6 +6383,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188879,
       instructor: {
         name: "Zachary Jack Buchner",
         bio: null,
@@ -6077,6 +6402,7 @@ export const sections = {
   ],
   "1305": [
     {
+      unique_id: 188875,
       instructor: {
         name: "Allison L Wade",
         bio: null,
@@ -6093,6 +6419,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188876,
       instructor: {
         name: "Rudolf Brendan Fernandes",
         bio:
@@ -6110,6 +6437,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188873,
       instructor: {
         name: "Deborah A Sokolow",
         bio: null,
@@ -6126,6 +6454,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188874,
       instructor: {
         name: "Allison L Wade",
         bio: null,
@@ -6144,6 +6473,7 @@ export const sections = {
   ],
   "1308": [
     {
+      unique_id: 188882,
       instructor: {
         name: "Inigo Manglano-Ovalle",
         bio: null,
@@ -6160,6 +6490,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188883,
       instructor: {
         name: "Zachary Jack Buchner",
         bio: null,
@@ -6178,6 +6509,7 @@ export const sections = {
   ],
   "1309": [
     {
+      unique_id: 188884,
       instructor: {
         name: "Pamela L Bannos",
         bio:
@@ -6195,6 +6527,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188885,
       instructor: {
         name: "Brendan Leo Meara",
         bio: null,
@@ -6213,6 +6546,7 @@ export const sections = {
   ],
   "1324": [
     {
+      unique_id: 188886,
       instructor: {
         name: "Stephen P Reinke",
         bio: null,
@@ -6231,6 +6565,7 @@ export const sections = {
   ],
   "1325": [
     {
+      unique_id: 188887,
       instructor: {
         name: "Rudolf Brendan Fernandes",
         bio:
@@ -6253,6 +6588,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188888,
       instructor: {
         name: "Deborah A Sokolow",
         bio: null,
@@ -6271,6 +6607,7 @@ export const sections = {
   ],
   "1328": [
     {
+      unique_id: 188889,
       instructor: {
         name: "Inigo Manglano-Ovalle",
         bio: null,
@@ -6294,6 +6631,7 @@ export const sections = {
   ],
   "1335": [
     {
+      unique_id: 188897,
       instructor: {
         name: "Michael F Smutko",
         bio: null,
@@ -6315,6 +6653,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190429,
       instructor: {
         name: "Michael F Smutko",
         bio: null,
@@ -6338,6 +6677,7 @@ export const sections = {
   ],
   "1339": [
     {
+      unique_id: 188898,
       instructor: {
         name: "David M Meyer",
         bio: null,
@@ -6361,6 +6701,7 @@ export const sections = {
   ],
   "1344": [
     {
+      unique_id: 188900,
       instructor: {
         name: "Melville P Ulmer",
         bio: null,
@@ -6385,6 +6726,7 @@ export const sections = {
   ],
   "1348": [
     {
+      unique_id: 188907,
       instructor: {
         name: "Michael F Smutko",
         bio: null,
@@ -6401,6 +6743,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188906,
       instructor: {
         name: "Frederic A Rasio",
         bio: null,
@@ -6418,6 +6761,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188908,
       instructor: {
         name: "Ronald E Taam",
         bio: null,
@@ -6434,6 +6778,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188909,
       instructor: {
         name: "Melville P Ulmer",
         bio: null,
@@ -6451,6 +6796,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188910,
       instructor: {
         name: "Farhad Y Zadeh",
         bio: null,
@@ -6468,6 +6814,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188905,
       instructor: {
         name: "Giles A Novak",
         bio: null,
@@ -6485,6 +6832,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190412,
       instructor: {
         name: "Claude Andre Faucher Giguere",
         bio: null,
@@ -6501,6 +6849,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190413,
       instructor: {
         name: "Wen-fai Fong",
         bio: null,
@@ -6517,6 +6866,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190414,
       instructor: {
         name: "Raffaella Margutti",
         bio: null,
@@ -6533,6 +6883,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188901,
       instructor: {
         name: "Sourav Chatterjee",
         bio: null,
@@ -6549,6 +6900,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188902,
       instructor: {
         name: "Vasiliki Kalogera",
         bio: null,
@@ -6566,6 +6918,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188903,
       instructor: {
         name: "Yoram Lithwick",
         bio: null,
@@ -6582,6 +6935,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188904,
       instructor: {
         name: "David M Meyer",
         bio: null,
@@ -6600,6 +6954,7 @@ export const sections = {
   ],
   "1350": [
     {
+      unique_id: 188899,
       instructor: {
         name: "Wen-fai Fong",
         bio: null,
@@ -6621,6 +6976,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188911,
       instructor: {
         name: "Wen-fai Fong",
         bio: null,
@@ -6644,6 +7000,7 @@ export const sections = {
   ],
   "1355": [
     {
+      unique_id: 188912,
       instructor: {
         name: "Melville P Ulmer",
         bio: null,
@@ -6668,6 +7025,7 @@ export const sections = {
   ],
   "1360": [
     {
+      unique_id: 188914,
       instructor: {
         name: "Paul James Caradonna",
         bio: null,
@@ -6689,6 +7047,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188913,
       instructor: {
         name: "Eric Ardon Mosser",
         bio: null,
@@ -6710,6 +7069,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188915,
       instructor: {
         name: "Joseph S Walsh",
         bio: null,
@@ -6733,6 +7093,7 @@ export const sections = {
   ],
   "1362": [
     {
+      unique_id: 188916,
       instructor: {
         name: "Gary John Galbreath",
         bio: null,
@@ -6756,6 +7117,7 @@ export const sections = {
   ],
   "1388": [
     {
+      unique_id: 188933,
       instructor: {
         name: "Vinzenz M Unger",
         bio: null,
@@ -6779,6 +7141,7 @@ export const sections = {
   ],
   "1390": [
     {
+      unique_id: 188934,
       instructor: {
         name: "Tracy M Hodgson",
         bio: null,
@@ -6802,6 +7165,7 @@ export const sections = {
   ],
   "1392": [
     {
+      unique_id: 189836,
       instructor: {
         name: "Thomas C Bozza",
         bio: null,
@@ -6825,6 +7189,7 @@ export const sections = {
   ],
   "1406": [
     {
+      unique_id: 188935,
       instructor: {
         name: "Tracy M Hodgson",
         bio: null,
@@ -6848,6 +7213,7 @@ export const sections = {
   ],
   "1410": [
     {
+      unique_id: 188938,
       instructor: {
         name: "Joseph S Walsh",
         bio: null,
@@ -6871,6 +7237,7 @@ export const sections = {
   ],
   "1413": [
     {
+      unique_id: 188939,
       instructor: {
         name: "Laura J Panko",
         bio:
@@ -6895,6 +7262,7 @@ export const sections = {
   ],
   "1419": [
     {
+      unique_id: 188940,
       instructor: {
         name: "Amy C Rosenzweig",
         bio: null,
@@ -6918,6 +7286,7 @@ export const sections = {
   ],
   "1423": [
     {
+      unique_id: 188942,
       instructor: {
         name: "Xiaozhong Wang",
         bio: null,
@@ -6941,6 +7310,7 @@ export const sections = {
   ],
   "1428": [
     {
+      unique_id: 188943,
       instructor: {
         name: "Richard F Gaber",
         bio: null,
@@ -6964,6 +7334,7 @@ export const sections = {
   ],
   "1430": [
     {
+      unique_id: 188948,
       instructor: {
         name: "Stephen D Miller",
         bio: null,
@@ -6980,6 +7351,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188949,
       instructor: {
         name: "William M Miller",
         bio: null,
@@ -6996,6 +7368,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188950,
       instructor: {
         name: "Phillip B Messersmith",
         bio: null,
@@ -7012,6 +7385,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188951,
       instructor: {
         name: "Wyndham W Lathem",
         bio: null,
@@ -7028,6 +7402,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188952,
       instructor: {
         name: "Heather W Pinkett",
         bio: null,
@@ -7044,6 +7419,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188953,
       instructor: {
         name: "Ishwar Radhakrishnan",
         bio: null,
@@ -7060,6 +7436,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188954,
       instructor: {
         name: "Jennifer E Ramachandran",
         bio: null,
@@ -7076,6 +7453,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188956,
       instructor: {
         name: "Janardan K Reddy",
         bio: null,
@@ -7092,6 +7470,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188958,
       instructor: {
         name: "Leonidas C Platanias",
         bio: null,
@@ -7108,6 +7487,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188959,
       instructor: {
         name: "Amy C Rosenzweig",
         bio: null,
@@ -7124,6 +7504,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188960,
       instructor: {
         name: "Margaret Ellen Saks",
         bio: null,
@@ -7140,6 +7521,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188961,
       instructor: {
         name: "Mark Segraves",
         bio: null,
@@ -7156,6 +7538,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188962,
       instructor: {
         name: "John Kessler",
         bio: null,
@@ -7172,6 +7555,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188963,
       instructor: {
         name: "Arun Sharma",
         bio: null,
@@ -7188,6 +7572,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188964,
       instructor: {
         name: "Hans-Georg Simon",
         bio: null,
@@ -7204,6 +7589,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188965,
       instructor: {
         name: "Krissa A Skogen",
         bio: null,
@@ -7220,6 +7606,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188966,
       instructor: {
         name: "Samuel Isaac Stupp",
         bio: null,
@@ -7236,6 +7623,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188967,
       instructor: {
         name: "Jacek Topczewski",
         bio: null,
@@ -7252,6 +7640,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188968,
       instructor: {
         name: "Fred W Turek",
         bio: null,
@@ -7268,6 +7657,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188969,
       instructor: {
         name: "Melina Rae Kibbe",
         bio: null,
@@ -7284,6 +7674,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188970,
       instructor: {
         name: "Arthur Veis",
         bio: null,
@@ -7300,6 +7691,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188971,
       instructor: {
         name: "Aleksandar Videnovic",
         bio: null,
@@ -7316,6 +7708,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188972,
       instructor: {
         name: "Marcus Ernst Peter",
         bio: null,
@@ -7332,6 +7725,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188973,
       instructor: {
         name: "Stuart Wagenius",
         bio: null,
@@ -7348,6 +7742,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188974,
       instructor: {
         name: "Anis Contractor",
         bio: null,
@@ -7364,6 +7759,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188975,
       instructor: {
         name: "Xiaozhong Wang",
         bio: null,
@@ -7380,6 +7776,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188976,
       instructor: {
         name: "John A Wasserstrom",
         bio: null,
@@ -7396,6 +7793,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188977,
       instructor: {
         name: "Eric L Weiss",
         bio: null,
@@ -7412,6 +7810,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188991,
       instructor: {
         name: "Sumitrajit Dhar",
         bio: null,
@@ -7428,6 +7827,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188992,
       instructor: {
         name: "Tiffany Marie Schmidt",
         bio: null,
@@ -7444,6 +7844,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188993,
       instructor: {
         name: "Milan Mrksich",
         bio: null,
@@ -7460,6 +7861,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188994,
       instructor: {
         name: "Robin Nusslock",
         bio: null,
@@ -7476,6 +7878,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188995,
       instructor: {
         name: "Joel Lawrence Voss",
         bio: null,
@@ -7492,6 +7895,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188997,
       instructor: {
         name: "Dalton James Surmeier Jr",
         bio: null,
@@ -7508,6 +7912,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188999,
       instructor: {
         name: "Elizabeth A Eklund",
         bio: null,
@@ -7524,6 +7929,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189001,
       instructor: {
         name: "Karen M Sheehan",
         bio: null,
@@ -7540,6 +7946,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189003,
       instructor: {
         name: "Gregory R Budinger",
         bio: null,
@@ -7556,6 +7963,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189005,
       instructor: {
         name: "Andrew Warfield Hoel",
         bio: null,
@@ -7572,6 +7980,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189007,
       instructor: {
         name: "Yevgenia Kozorovitskiy",
         bio: null,
@@ -7588,6 +7997,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189009,
       instructor: {
         name: "Jaehyuk Choi",
         bio: null,
@@ -7604,6 +8014,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189011,
       instructor: {
         name: "Susan E Quaggin",
         bio: null,
@@ -7620,6 +8031,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189014,
       instructor: {
         name: "Anna B. Fishbein",
         bio: null,
@@ -7636,6 +8048,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189016,
       instructor: {
         name: "Vinayak P Dravid",
         bio: null,
@@ -7652,6 +8065,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189018,
       instructor: {
         name: "Lisa Diane Wilsbacher",
         bio: null,
@@ -7668,6 +8082,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189020,
       instructor: {
         name: "Ming Zhao",
         bio: null,
@@ -7684,6 +8099,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189021,
       instructor: {
         name: "Brian L Hitsman",
         bio: null,
@@ -7700,6 +8116,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189022,
       instructor: {
         name: "Sergejs Berdnikovs",
         bio: null,
@@ -7716,6 +8133,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189023,
       instructor: {
         name: "Andrea Eveline Murmann",
         bio: null,
@@ -7732,6 +8150,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189024,
       instructor: {
         name: "Brian S Mustanski",
         bio: null,
@@ -7748,6 +8167,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189025,
       instructor: {
         name: "Rintaro Hashizume",
         bio: null,
@@ -7764,6 +8184,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189026,
       instructor: {
         name: "Christian Stehlik",
         bio: null,
@@ -7780,6 +8201,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189027,
       instructor: {
         name: "Robert J Vassar",
         bio: null,
@@ -7796,6 +8218,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189040,
       instructor: {
         name: "Robert Gregory Webster",
         bio: null,
@@ -7812,6 +8235,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189041,
       instructor: {
         name: "Reza Vafabakhsh",
         bio: null,
@@ -7828,6 +8252,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189029,
       instructor: {
         name: "Chyung-Ru Wang",
         bio: null,
@@ -7844,6 +8269,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189030,
       instructor: {
         name: "Clyde W Yancy",
         bio: null,
@@ -7860,6 +8286,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189031,
       instructor: {
         name: "Serdar E Bulun",
         bio: null,
@@ -7876,6 +8303,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189032,
       instructor: {
         name: "Jhumku Kohtz",
         bio: null,
@@ -7892,6 +8320,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189033,
       instructor: {
         name: "Evangelos Kiskinis",
         bio: null,
@@ -7908,6 +8337,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189034,
       instructor: {
         name: "Thomas J Hope",
         bio: null,
@@ -7924,6 +8354,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189035,
       instructor: {
         name: "Robert P Schleimer",
         bio: null,
@@ -7940,6 +8371,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189036,
       instructor: {
         name: "Yuan He",
         bio: null,
@@ -7956,6 +8388,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189037,
       instructor: {
         name: "Neal E Blair",
         bio: null,
@@ -7972,6 +8405,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189038,
       instructor: {
         name: "Savio Chi-Yung Chan",
         bio: null,
@@ -7988,6 +8422,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189039,
       instructor: {
         name: "Kathleen L Grady",
         bio: null,
@@ -8004,6 +8439,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189042,
       instructor: {
         name: "John Varga",
         bio: null,
@@ -8020,6 +8456,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189043,
       instructor: {
         name: "Athanasios Vasilopoulos",
         bio: null,
@@ -8036,6 +8473,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189044,
       instructor: {
         name: "Christina Maria Zelano",
         bio: null,
@@ -8052,6 +8490,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189045,
       instructor: {
         name: "Margaret Katherine Wente",
         bio: null,
@@ -8068,6 +8507,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189046,
       instructor: {
         name: "Marta Perez",
         bio: null,
@@ -8084,6 +8524,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189051,
       instructor: {
         name: "Xiaomin Bao",
         bio: null,
@@ -8100,6 +8541,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189052,
       instructor: {
         name: "Katherine Leah Wisner",
         bio: null,
@@ -8116,6 +8558,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189053,
       instructor: {
         name: "Irawati k Kandela",
         bio: null,
@@ -8132,6 +8575,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189054,
       instructor: {
         name: "Rishi K Arora",
         bio: null,
@@ -8148,6 +8592,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189055,
       instructor: {
         name: "Hossein Ardehali",
         bio: null,
@@ -8164,6 +8609,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189056,
       instructor: {
         name: "Ruchi S Gupta",
         bio: null,
@@ -8180,6 +8626,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189057,
       instructor: {
         name: "Elspeth Morrison Beauchamp",
         bio: null,
@@ -8196,6 +8643,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189058,
       instructor: {
         name: "David Jason Bentrem",
         bio: null,
@@ -8212,6 +8660,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189059,
       instructor: {
         name: "Sinan Keten",
         bio: null,
@@ -8229,6 +8678,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189061,
       instructor: {
         name: "Monica Marie Laronda",
         bio: null,
@@ -8245,6 +8695,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189063,
       instructor: {
         name: "Vinzenz M Unger",
         bio: null,
@@ -8261,6 +8712,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189065,
       instructor: {
         name: "Katherine Ryan Amato",
         bio: null,
@@ -8277,6 +8729,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189067,
       instructor: {
         name: "Catalina Lee Chang",
         bio: null,
@@ -8293,6 +8746,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189069,
       instructor: {
         name: "Catherine S Woolley",
         bio: null,
@@ -8309,6 +8763,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189071,
       instructor: {
         name: "Roger A. Kroes",
         bio: null,
@@ -8325,6 +8780,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189074,
       instructor: {
         name: "Nyree J C Zerega",
         bio: null,
@@ -8341,6 +8797,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189076,
       instructor: {
         name: "Lonnie D Shea",
         bio: null,
@@ -8357,6 +8814,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189078,
       instructor: {
         name: "Marco Gallio",
         bio: null,
@@ -8373,6 +8831,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189080,
       instructor: {
         name: "William L Klein",
         bio: null,
@@ -8389,6 +8848,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189084,
       instructor: {
         name: "Jason H Brickner",
         bio: null,
@@ -8405,6 +8865,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189085,
       instructor: {
         name: "Ravi Allada",
         bio: null,
@@ -8421,6 +8882,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189086,
       instructor: {
         name: "Guillermo Antonio Ameer",
         bio: null,
@@ -8437,6 +8899,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189087,
       instructor: {
         name: "Rajeshwar B Awatramani",
         bio: null,
@@ -8453,6 +8916,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189088,
       instructor: {
         name: "Ramille M Capito",
         bio: null,
@@ -8469,6 +8933,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189089,
       instructor: {
         name: "Joseph Bass",
         bio: null,
@@ -8485,6 +8950,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189090,
       instructor: {
         name: "Gregory J Beitel",
         bio: null,
@@ -8501,6 +8967,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189091,
       instructor: {
         name: "David Jason Bentrem",
         bio: null,
@@ -8517,6 +8984,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189092,
       instructor: {
         name: "Jianhua Cang",
         bio: null,
@@ -8533,6 +9001,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189093,
       instructor: {
         name: "Richard W Carthew",
         bio: null,
@@ -8549,6 +9018,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189107,
       instructor: {
         name: "Robert A Holmgren",
         bio: null,
@@ -8565,6 +9035,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189108,
       instructor: {
         name: "John F Marko",
         bio: null,
@@ -8581,6 +9052,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189109,
       instructor: {
         name: "Curt Michael Horvath",
         bio: null,
@@ -8597,6 +9069,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189124,
       instructor: {
         name: "Kelly Edward Mayo",
         bio: null,
@@ -8613,6 +9086,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189125,
       instructor: {
         name: "Mark Wainwright",
         bio: null,
@@ -8629,6 +9103,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189126,
       instructor: {
         name: "David McLean",
         bio: null,
@@ -8645,6 +9120,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189127,
       instructor: {
         name: "Stephen D Miller",
         bio: null,
@@ -8661,6 +9137,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189128,
       instructor: {
         name: "Chad A Mirkin",
         bio: null,
@@ -8677,6 +9154,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189129,
       instructor: {
         name: "Alfonso Mondragon",
         bio: null,
@@ -8693,6 +9171,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189130,
       instructor: {
         name: "Richard I Morimoto",
         bio: null,
@@ -8709,6 +9188,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189131,
       instructor: {
         name: "Thomas V O'Halloran",
         bio: null,
@@ -8725,6 +9205,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189132,
       instructor: {
         name: "Puneet Opal",
         bio: null,
@@ -8741,6 +9222,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189133,
       instructor: {
         name: "Amy Paller",
         bio: null,
@@ -8757,6 +9239,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189134,
       instructor: {
         name: "Peter Penzes",
         bio: null,
@@ -8773,6 +9256,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189135,
       instructor: {
         name: "Christian Paul Petersen",
         bio: null,
@@ -8789,6 +9273,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188978,
       instructor: {
         name: "Erik Christian Andersen",
         bio: null,
@@ -8805,6 +9290,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188979,
       instructor: {
         name: "Sarah Marie Wignall",
         bio: null,
@@ -8821,6 +9307,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188982,
       instructor: {
         name: "Weiming Yu",
         bio: null,
@@ -8837,6 +9324,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188986,
       instructor: {
         name: "Xiao-Qi Wang",
         bio: null,
@@ -8853,6 +9341,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188988,
       instructor: {
         name: "Edward Benjamin Thorp",
         bio: null,
@@ -8869,6 +9358,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188990,
       instructor: {
         name: "Joseph R Leventhal",
         bio: null,
@@ -8885,6 +9375,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188984,
       instructor: {
         name: "Ming Zhang",
         bio: null,
@@ -8901,6 +9392,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188998,
       instructor: {
         name: "John D Crispino",
         bio: null,
@@ -8917,6 +9409,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189000,
       instructor: {
         name: "Harris R Perlman",
         bio: null,
@@ -8933,6 +9426,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189002,
       instructor: {
         name: "Ronen Sumagin",
         bio: null,
@@ -8949,6 +9443,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189004,
       instructor: {
         name: "Vladimir I Gelfand",
         bio: null,
@@ -8965,6 +9460,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189006,
       instructor: {
         name: "George Wells",
         bio: null,
@@ -8981,6 +9477,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189008,
       instructor: {
         name: "John F Disterhoft",
         bio: null,
@@ -8997,6 +9494,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189010,
       instructor: {
         name: "Milan Mrksich",
         bio: null,
@@ -9013,6 +9511,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189012,
       instructor: {
         name: "Chawon Yun",
         bio: null,
@@ -9029,6 +9528,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189019,
       instructor: {
         name: "Daniela Elena Matei",
         bio: null,
@@ -9045,6 +9545,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189028,
       instructor: {
         name: "Khashayarsha Khazaie",
         bio: null,
@@ -9061,6 +9562,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189047,
       instructor: {
         name: "Evan Alexander Scott",
         bio: null,
@@ -9077,6 +9579,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189048,
       instructor: {
         name: "Pembe Hande Ozdinler",
         bio: null,
@@ -9093,6 +9596,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189050,
       instructor: {
         name: "Dong-Hyun Kim",
         bio: null,
@@ -9109,6 +9613,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189094,
       instructor: {
         name: "Dane M Chetkovich",
         bio: null,
@@ -9125,6 +9630,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189095,
       instructor: {
         name: "Charles V. Clevenger",
         bio: null,
@@ -9141,6 +9647,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189096,
       instructor: {
         name: "Joan M Cook-Mills",
         bio: null,
@@ -9157,6 +9664,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189097,
       instructor: {
         name: "Robert Dettman",
         bio: null,
@@ -9173,6 +9681,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189098,
       instructor: {
         name: "Hongxin Dong",
         bio: null,
@@ -9189,6 +9698,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189099,
       instructor: {
         name: "David M Engman",
         bio: null,
@@ -9205,6 +9715,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189100,
       instructor: {
         name: "Jeremie B Fant",
         bio: null,
@@ -9221,6 +9732,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189103,
       instructor: {
         name: "Jaime Garcia-Anoveros",
         bio: null,
@@ -9237,6 +9749,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189101,
       instructor: {
         name: "Richard F Gaber",
         bio: null,
@@ -9253,6 +9766,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189105,
       instructor: {
         name: "Steven T Rosen",
         bio: null,
@@ -9269,6 +9783,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189110,
       instructor: {
         name: "Valerie Kilman",
         bio: null,
@@ -9285,6 +9800,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189111,
       instructor: {
         name: "Sookyong Koh",
         bio: null,
@@ -9301,6 +9817,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189112,
       instructor: {
         name: "Laura Lynn Lackner",
         bio: null,
@@ -9317,6 +9834,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189113,
       instructor: {
         name: "Tsutomu Kume",
         bio: null,
@@ -9333,6 +9851,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189114,
       instructor: {
         name: "Christopher W Kuzawa",
         bio: null,
@@ -9349,6 +9868,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189115,
       instructor: {
         name: "Carole B LaBonne",
         bio: null,
@@ -9365,6 +9885,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189116,
       instructor: {
         name: "Robert A Lamb",
         bio: null,
@@ -9381,6 +9902,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189117,
       instructor: {
         name: "Brian T Layden",
         bio: null,
@@ -9397,6 +9919,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189119,
       instructor: {
         name: "Xiaorong Liu",
         bio: null,
@@ -9413,6 +9936,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189121,
       instructor: {
         name: "Chi-Hao Luan",
         bio: null,
@@ -9429,6 +9953,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189123,
       instructor: {
         name: "Jelena Radulovic",
         bio: null,
@@ -9445,6 +9970,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189082,
       instructor: {
         name: "Neil L Kelleher",
         bio: null,
@@ -9461,6 +9987,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188957,
       instructor: {
         name: "Eva Redei",
         bio: null,
@@ -9477,6 +10004,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188980,
       instructor: {
         name: "Gayle E Woloschak",
         bio: null,
@@ -9493,6 +10021,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188981,
       instructor: {
         name: "Alice Wyrwicz",
         bio: null,
@@ -9509,6 +10038,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188983,
       instructor: {
         name: "Phyllis C Zee",
         bio: null,
@@ -9525,6 +10055,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188985,
       instructor: {
         name: "Jing Zheng",
         bio: null,
@@ -9541,6 +10072,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188987,
       instructor: {
         name: "Murad Alam",
         bio: null,
@@ -9557,6 +10089,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188989,
       instructor: {
         name: "Patrick S Herendeen",
         bio: null,
@@ -9573,6 +10106,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188996,
       instructor: {
         name: "James M Mathew",
         bio: null,
@@ -9589,6 +10123,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189015,
       instructor: {
         name: "Ruchi S Gupta",
         bio: null,
@@ -9605,6 +10140,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189017,
       instructor: {
         name: "Thomas J Meade",
         bio: null,
@@ -9621,6 +10157,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189064,
       instructor: {
         name: "Jason Albert Wertheim",
         bio: null,
@@ -9637,6 +10174,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189066,
       instructor: {
         name: "Matthew Justin Major",
         bio: null,
@@ -9653,6 +10191,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189068,
       instructor: {
         name: "Steven J Lubbe",
         bio: null,
@@ -9669,6 +10208,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189070,
       instructor: {
         name: "Talia Newcombe Lerner",
         bio: null,
@@ -9685,6 +10225,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189049,
       instructor: {
         name: "Lynn M Yee",
         bio: null,
@@ -9701,6 +10242,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189060,
       instructor: {
         name: "Richard M Pope",
         bio: null,
@@ -9717,6 +10259,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189072,
       instructor: {
         name: "Vadim Backman",
         bio: null,
@@ -9733,6 +10276,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189073,
       instructor: {
         name: "Liang Zhou",
         bio: null,
@@ -9749,6 +10293,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189062,
       instructor: {
         name: "Nicholas P Cianciotto",
         bio: null,
@@ -9765,6 +10310,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189106,
       instructor: {
         name: "Dean Ho",
         bio: null,
@@ -9782,6 +10328,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189118,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -9798,6 +10345,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189120,
       instructor: {
         name: "William L Lowe Jr",
         bio: null,
@@ -9814,6 +10362,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189122,
       instructor: {
         name: "Mark Jonathan Mandel",
         bio: null,
@@ -9830,6 +10379,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189075,
       instructor: {
         name: "Robert David Goldman",
         bio: null,
@@ -9846,6 +10396,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189077,
       instructor: {
         name: "Teresa K Woodruff",
         bio: null,
@@ -9862,6 +10413,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189079,
       instructor: {
         name: "Joseph S Walsh",
         bio: null,
@@ -9878,6 +10430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189081,
       instructor: {
         name: "Samuel Isaac Stupp",
         bio: null,
@@ -9894,6 +10447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189083,
       instructor: {
         name: "Changiz Geula",
         bio: null,
@@ -9910,6 +10464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189102,
       instructor: {
         name: "Amani A Fawzi",
         bio: null,
@@ -9926,6 +10481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189104,
       instructor: {
         name: "Hans-Georg Simon",
         bio: null,
@@ -9942,6 +10498,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189013,
       instructor: {
         name: "Karla Jean Fullner Satchell",
         bio: null,
@@ -9958,6 +10515,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188955,
       instructor: {
         name: "Indira M Raman",
         bio: null,
@@ -9974,6 +10532,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188944,
       instructor: {
         name: "Warren Tourtellotte",
         bio: null,
@@ -9990,6 +10549,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188945,
       instructor: {
         name: "Norman J Wickett",
         bio: null,
@@ -10006,6 +10566,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188946,
       instructor: {
         name: "Robert P Schleimer",
         bio: null,
@@ -10022,6 +10583,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188947,
       instructor: {
         name: "Ann B Ragin",
         bio: null,
@@ -10040,6 +10602,7 @@ export const sections = {
   ],
   "1433": [
     {
+      unique_id: 189640,
       instructor: {
         name: "Richard I Morimoto",
         bio: null,
@@ -10058,6 +10621,7 @@ export const sections = {
   ],
   "1436": [
     {
+      unique_id: 189644,
       instructor: {
         name: "Deborah Ann Klos",
         bio: null,
@@ -10081,6 +10645,7 @@ export const sections = {
   ],
   "1439": [
     {
+      unique_id: 189645,
       instructor: {
         name: "Catherine M Prullage",
         bio: null,
@@ -10104,6 +10669,7 @@ export const sections = {
   ],
   "1460": [
     {
+      unique_id: 189153,
       instructor: {
         name: "Owen P Priest",
         bio: null,
@@ -10127,6 +10693,7 @@ export const sections = {
   ],
   "1462": [
     {
+      unique_id: 189160,
       instructor: {
         name: "George C Schatz",
         bio: null,
@@ -10150,6 +10717,7 @@ export const sections = {
   ],
   "1467": [
     {
+      unique_id: 189163,
       instructor: {
         name: "Owen P Priest",
         bio: null,
@@ -10171,6 +10739,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189165,
       instructor: {
         name: "Derek Ward Nelson",
         bio: null,
@@ -10192,6 +10761,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189162,
       instructor: {
         name: "Larry S Trzupek",
         bio: null,
@@ -10213,6 +10783,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189164,
       instructor: {
         name: "Derek Ward Nelson",
         bio: null,
@@ -10236,6 +10807,7 @@ export const sections = {
   ],
   "1470": [
     {
+      unique_id: 189166,
       instructor: {
         name: "Regan James Thomson",
         bio: null,
@@ -10259,6 +10831,7 @@ export const sections = {
   ],
   "1475": [
     {
+      unique_id: 189171,
       instructor: {
         name: "Kenneth Poeppelmeier",
         bio: null,
@@ -10282,6 +10855,7 @@ export const sections = {
   ],
   "1477": [
     {
+      unique_id: 189172,
       instructor: {
         name: "Brian M Hoffman",
         bio: null,
@@ -10305,6 +10879,7 @@ export const sections = {
   ],
   "1488": [
     {
+      unique_id: 189174,
       instructor: {
         name: "Owen P Priest",
         bio: null,
@@ -10321,6 +10896,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189175,
       instructor: {
         name: "Frederick J Northrup",
         bio: null,
@@ -10339,6 +10915,7 @@ export const sections = {
   ],
   "1492": [
     {
+      unique_id: 189178,
       instructor: {
         name: "Sonbinh T Nguyen",
         bio: null,
@@ -10362,6 +10939,7 @@ export const sections = {
   ],
   "1493": [
     {
+      unique_id: 189179,
       instructor: {
         name: "Karl A Scheidt",
         bio: null,
@@ -10385,6 +10963,7 @@ export const sections = {
   ],
   "1495": [
     {
+      unique_id: 189180,
       instructor: {
         name: "Nathan C Gianneschi",
         bio: null,
@@ -10408,6 +10987,7 @@ export const sections = {
   ],
   "1496": [
     {
+      unique_id: 189182,
       instructor: {
         name: "Tobin Jay Marks",
         bio: null,
@@ -10431,6 +11011,7 @@ export const sections = {
   ],
   "1502": [
     {
+      unique_id: 189183,
       instructor: {
         name: "Kevin Lee Kohlstedt",
         bio: null,
@@ -10454,6 +11035,7 @@ export const sections = {
   ],
   "1505": [
     {
+      unique_id: 189184,
       instructor: {
         name: "Todd Robert Gingrich",
         bio: null,
@@ -10477,6 +11059,7 @@ export const sections = {
   ],
   "1513": [
     {
+      unique_id: 189186,
       instructor: {
         name: "Teri Wang Odom",
         bio: null,
@@ -10495,6 +11078,7 @@ export const sections = {
   ],
   "1524": [
     {
+      unique_id: 189707,
       instructor: {
         name: "Graziela Marieta Byros",
         bio:
@@ -10519,6 +11103,7 @@ export const sections = {
   ],
   "1530": [
     {
+      unique_id: 189709,
       instructor: {
         name: "Graziela Marieta Byros",
         bio:
@@ -10541,6 +11126,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189708,
       instructor: {
         name: "Graziela Marieta Byros",
         bio:
@@ -10565,6 +11151,7 @@ export const sections = {
   ],
   "1533": [
     {
+      unique_id: 189710,
       instructor: {
         name: "Francesca Tataranni",
         bio: null,
@@ -10588,6 +11175,7 @@ export const sections = {
   ],
   "1539": [
     {
+      unique_id: 189203,
       instructor: {
         name: "Ryan Christopher Platte",
         bio: null,
@@ -10611,6 +11199,7 @@ export const sections = {
   ],
   "1541": [
     {
+      unique_id: 189204,
       instructor: {
         name: "Ann C Gunter",
         bio: null,
@@ -10634,6 +11223,7 @@ export const sections = {
   ],
   "1551": [
     {
+      unique_id: 189205,
       instructor: {
         name: "Ryan Christopher Platte",
         bio: null,
@@ -10657,6 +11247,7 @@ export const sections = {
   ],
   "1561": [
     {
+      unique_id: 189208,
       instructor: {
         name: "Francesca Tataranni",
         bio: null,
@@ -10680,6 +11271,7 @@ export const sections = {
   ],
   "1569": [
     {
+      unique_id: 189435,
       instructor: {
         name: "Jonah Flanagan Radding",
         bio: null,
@@ -10703,6 +11295,7 @@ export const sections = {
   ],
   "1573": [
     {
+      unique_id: 189436,
       instructor: {
         name: "Marianne I Hopman",
         bio: null,
@@ -10726,6 +11319,7 @@ export const sections = {
   ],
   "1588": [
     {
+      unique_id: 189215,
       instructor: {
         name: "Susannah Gottlieb",
         bio: null,
@@ -10749,6 +11343,7 @@ export const sections = {
   ],
   "1605": [
     {
+      unique_id: 189214,
       instructor: {
         name: "",
         bio: null,
@@ -10767,6 +11362,7 @@ export const sections = {
   ],
   "1623": [
     {
+      unique_id: 189221,
       instructor: {
         name: "Maria Alejandra Uslenghi",
         bio: null,
@@ -10785,6 +11381,7 @@ export const sections = {
   ],
   "1629": [
     {
+      unique_id: 189222,
       instructor: {
         name: "Todd G Nordgren",
         bio: null,
@@ -10803,6 +11400,7 @@ export const sections = {
   ],
   "1636": [
     {
+      unique_id: 189224,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -10827,6 +11425,7 @@ export const sections = {
   ],
   "1638": [
     {
+      unique_id: 189227,
       instructor: {
         name: "Christopher Paul Bush",
         bio: null,
@@ -10848,6 +11447,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189226,
       instructor: {
         name: "Clare A Cavanagh",
         bio: null,
@@ -10871,6 +11471,7 @@ export const sections = {
   ],
   "1639": [
     {
+      unique_id: 189229,
       instructor: {
         name: "Scott P Durham",
         bio: null,
@@ -10887,6 +11488,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189228,
       instructor: {
         name: "Neil Kanwar Harish Verma",
         bio: null,
@@ -10910,6 +11512,7 @@ export const sections = {
   ],
   "1640": [
     {
+      unique_id: 189230,
       instructor: {
         name: "Evan M Mwangi",
         bio: null,
@@ -10928,6 +11531,7 @@ export const sections = {
   ],
   "1645": [
     {
+      unique_id: 189244,
       instructor: {
         name: "Richard E H Walker",
         bio: null,
@@ -10949,6 +11553,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189243,
       instructor: {
         name: "Scott Richard Ogawa",
         bio: null,
@@ -10970,6 +11575,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189242,
       instructor: {
         name: "Daley Catherine Kutzman",
         bio: null,
@@ -10991,6 +11597,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189241,
       instructor: {
         name: "Sara Hernandez-Saborit",
         bio: null,
@@ -11014,6 +11621,7 @@ export const sections = {
   ],
   "1646": [
     {
+      unique_id: 189245,
       instructor: {
         name: "Mark P Witte",
         bio:
@@ -11036,6 +11644,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189246,
       instructor: {
         name: "Robert J Gordon",
         bio: null,
@@ -11059,6 +11668,7 @@ export const sections = {
   ],
   "1647": [
     {
+      unique_id: 189247,
       instructor: {
         name: "Sara Hernandez-Saborit",
         bio: null,
@@ -11082,6 +11692,7 @@ export const sections = {
   ],
   "1649": [
     {
+      unique_id: 189136,
       instructor: {
         name: "Robin J Bakal",
         bio: null,
@@ -11098,6 +11709,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189137,
       instructor: {
         name: "Robin J Bakal",
         bio: null,
@@ -11116,6 +11728,7 @@ export const sections = {
   ],
   "1650": [
     {
+      unique_id: 189248,
       instructor: {
         name: "Daley Catherine Kutzman",
         bio: null,
@@ -11139,6 +11752,7 @@ export const sections = {
   ],
   "1654": [
     {
+      unique_id: 189249,
       instructor: {
         name: "Matthew J Notowidigdo",
         bio: null,
@@ -11162,6 +11776,7 @@ export const sections = {
   ],
   "1655": [
     {
+      unique_id: 189250,
       instructor: {
         name: "Richard E H Walker",
         bio: null,
@@ -11185,6 +11800,7 @@ export const sections = {
   ],
   "1656": [
     {
+      unique_id: 189251,
       instructor: {
         name: "Jeffrey Thomas Lewis",
         bio: null,
@@ -11208,6 +11824,7 @@ export const sections = {
   ],
   "1657": [
     {
+      unique_id: 189252,
       instructor: {
         name: "James Andrew Hornsten",
         bio: null,
@@ -11231,6 +11848,7 @@ export const sections = {
   ],
   "1658": [
     {
+      unique_id: 189253,
       instructor: {
         name: "Scott Richard Ogawa",
         bio: null,
@@ -11254,6 +11872,7 @@ export const sections = {
   ],
   "1659": [
     {
+      unique_id: 189254,
       instructor: {
         name: "Giorgio E Primiceri",
         bio: null,
@@ -11277,6 +11896,7 @@ export const sections = {
   ],
   "1669": [
     {
+      unique_id: 189255,
       instructor: {
         name: "Benjamin Remy Chabot",
         bio: null,
@@ -11295,6 +11915,7 @@ export const sections = {
   ],
   "1673": [
     {
+      unique_id: 189256,
       instructor: {
         name: "Eric Gerald Schulz",
         bio: null,
@@ -11318,6 +11939,7 @@ export const sections = {
   ],
   "1679": [
     {
+      unique_id: 189258,
       instructor: {
         name: "Robert H Porter",
         bio: null,
@@ -11341,6 +11963,7 @@ export const sections = {
   ],
   "1680": [
     {
+      unique_id: 189259,
       instructor: {
         name: "James Andrew Hornsten",
         bio: null,
@@ -11364,6 +11987,7 @@ export const sections = {
   ],
   "1684": [
     {
+      unique_id: 189260,
       instructor: {
         name: "Ian P Savage",
         bio: null,
@@ -11387,6 +12011,7 @@ export const sections = {
   ],
   "1685": [
     {
+      unique_id: 189261,
       instructor: {
         name: "Masako Ueda",
         bio: null,
@@ -11410,6 +12035,7 @@ export const sections = {
   ],
   "1687": [
     {
+      unique_id: 189263,
       instructor: {
         name: "Asher Wolinsky",
         bio: null,
@@ -11433,6 +12059,7 @@ export const sections = {
   ],
   "1695": [
     {
+      unique_id: 189264,
       instructor: {
         name: "Richard E H Walker",
         bio: null,
@@ -11451,6 +12078,7 @@ export const sections = {
   ],
   "1696": [
     {
+      unique_id: 189265,
       instructor: {
         name: "Richard E H Walker",
         bio: null,
@@ -11469,6 +12097,7 @@ export const sections = {
   ],
   "1698": [
     {
+      unique_id: 189266,
       instructor: {
         name: "Eddie Dekel",
         bio: null,
@@ -11487,6 +12116,7 @@ export const sections = {
   ],
   "1701": [
     {
+      unique_id: 189267,
       instructor: {
         name: "Lawrence J Christiano",
         bio: null,
@@ -11505,6 +12135,7 @@ export const sections = {
   ],
   "1704": [
     {
+      unique_id: 189268,
       instructor: {
         name: "Piotr Dworczak",
         bio: null,
@@ -11523,6 +12154,7 @@ export const sections = {
   ],
   "1706": [
     {
+      unique_id: 189269,
       instructor: {
         name: "Asher Wolinsky",
         bio: null,
@@ -11541,6 +12173,7 @@ export const sections = {
   ],
   "1711": [
     {
+      unique_id: 189270,
       instructor: {
         name: "Guido Lorenzoni",
         bio: null,
@@ -11559,6 +12192,7 @@ export const sections = {
   ],
   "1715": [
     {
+      unique_id: 189271,
       instructor: {
         name: "Lori A Beaman",
         bio: null,
@@ -11577,6 +12211,7 @@ export const sections = {
   ],
   "1721": [
     {
+      unique_id: 189272,
       instructor: {
         name: "Matthew J Notowidigdo",
         bio: null,
@@ -11595,6 +12230,7 @@ export const sections = {
   ],
   "1723": [
     {
+      unique_id: 189273,
       instructor: {
         name: "Gaston Illanes",
         bio: null,
@@ -11613,6 +12249,7 @@ export const sections = {
   ],
   "1728": [
     {
+      unique_id: 189275,
       instructor: {
         name: "Charles Manski",
         bio: null,
@@ -11631,6 +12268,7 @@ export const sections = {
   ],
   "1731": [
     {
+      unique_id: 189276,
       instructor: {
         name: "Joel L Horowitz",
         bio: null,
@@ -11649,6 +12287,7 @@ export const sections = {
   ],
   "1734": [
     {
+      unique_id: 189277,
       instructor: {
         name: "Giorgio E Primiceri",
         bio: null,
@@ -11667,6 +12306,7 @@ export const sections = {
   ],
   "1741": [
     {
+      unique_id: 189278,
       instructor: {
         name: "Asher Wolinsky",
         bio: null,
@@ -11685,6 +12325,7 @@ export const sections = {
   ],
   "1742": [
     {
+      unique_id: 189279,
       instructor: {
         name: "Jeffrey C Ely",
         bio: null,
@@ -11703,6 +12344,7 @@ export const sections = {
   ],
   "1743": [
     {
+      unique_id: 189281,
       instructor: {
         name: "Joseph P Ferrie",
         bio: null,
@@ -11721,6 +12363,7 @@ export const sections = {
   ],
   "1744": [
     {
+      unique_id: 189282,
       instructor: {
         name: "Giorgio E Primiceri",
         bio: null,
@@ -11739,6 +12382,7 @@ export const sections = {
   ],
   "1747": [
     {
+      unique_id: 189284,
       instructor: {
         name: "Robert H Porter",
         bio: null,
@@ -11757,6 +12401,7 @@ export const sections = {
   ],
   "1748": [
     {
+      unique_id: 189285,
       instructor: {
         name: "Marti Mestieri Ferrer",
         bio: null,
@@ -11775,6 +12420,7 @@ export const sections = {
   ],
   "1749": [
     {
+      unique_id: 189286,
       instructor: {
         name: "Ivan A Canay",
         bio: null,
@@ -11793,6 +12439,7 @@ export const sections = {
   ],
   "1754": [
     {
+      unique_id: 188840,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -11811,6 +12458,7 @@ export const sections = {
   ],
   "1757": [
     {
+      unique_id: 190346,
       instructor: {
         name: "Axel Mueller",
         bio: null,
@@ -11832,6 +12480,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190345,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -11853,6 +12502,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190347,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -11869,6 +12519,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190348,
       instructor: {
         name: "Steven William Thrasher",
         bio: null,
@@ -11890,6 +12541,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188841,
       instructor: {
         name: "Shana B Bernstein",
         bio: null,
@@ -11906,6 +12558,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188842,
       instructor: {
         name: "Raymond A Sandiego",
         bio: null,
@@ -11929,6 +12582,7 @@ export const sections = {
   ],
   "1758": [
     {
+      unique_id: 188843,
       instructor: {
         name: "",
         bio: null,
@@ -11947,6 +12601,7 @@ export const sections = {
   ],
   "1763": [
     {
+      unique_id: 189290,
       instructor: {
         name: "Susan A Manning",
         bio: null,
@@ -11968,6 +12623,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189289,
       instructor: {
         name: "Ean Christian High",
         bio: null,
@@ -11989,6 +12645,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189287,
       instructor: {
         name: "Elizabeth Fekete Trubey",
         bio: null,
@@ -12010,6 +12667,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189293,
       instructor: {
         name: "James Joseph Hodge",
         bio:
@@ -12032,6 +12690,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190830,
       instructor: {
         name: "Vivasvan Soni",
         bio: null,
@@ -12053,6 +12712,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189292,
       instructor: {
         name: "Helen F Thompson",
         bio: null,
@@ -12074,6 +12734,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189291,
       instructor: {
         name: "Mary E Finn",
         bio: null,
@@ -12095,6 +12756,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189288,
       instructor: {
         name: "Rebecca Carol Johnson",
         bio: null,
@@ -12118,6 +12780,7 @@ export const sections = {
   ],
   "1767": [
     {
+      unique_id: 189295,
       instructor: {
         name: "Johana Staza Godfrey",
         bio: null,
@@ -12139,6 +12802,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189294,
       instructor: {
         name: "",
         bio: null,
@@ -12162,6 +12826,7 @@ export const sections = {
   ],
   "1770": [
     {
+      unique_id: 189301,
       instructor: {
         name: "James Richard O'Laughlin",
         bio: null,
@@ -12183,6 +12848,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189297,
       instructor: {
         name: "Barbara L Shwom",
         bio: null,
@@ -12204,6 +12870,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189298,
       instructor: {
         name: "Charles S Yarnoff",
         bio: null,
@@ -12225,6 +12892,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189299,
       instructor: {
         name: "Elizabeth Anne Lenaghan",
         bio:
@@ -12247,6 +12915,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191315,
       instructor: {
         name: "",
         bio: null,
@@ -12268,6 +12937,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189296,
       instructor: {
         name: "Lisa M Del Torto",
         bio: null,
@@ -12289,6 +12959,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189300,
       instructor: {
         name: "Kathleen Carmichael",
         bio: null,
@@ -12312,6 +12983,7 @@ export const sections = {
   ],
   "1771": [
     {
+      unique_id: 189312,
       instructor: {
         name: "",
         bio: null,
@@ -12328,6 +13000,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189308,
       instructor: {
         name: "",
         bio: null,
@@ -12344,6 +13017,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189309,
       instructor: {
         name: "",
         bio: null,
@@ -12360,6 +13034,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189315,
       instructor: {
         name: "",
         bio: null,
@@ -12376,6 +13051,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189314,
       instructor: {
         name: "",
         bio: null,
@@ -12392,6 +13068,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189302,
       instructor: {
         name: "",
         bio: null,
@@ -12408,6 +13085,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189311,
       instructor: {
         name: "",
         bio: null,
@@ -12424,6 +13102,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189305,
       instructor: {
         name: "",
         bio: null,
@@ -12440,6 +13119,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189317,
       instructor: {
         name: "",
         bio: null,
@@ -12456,6 +13136,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189303,
       instructor: {
         name: "",
         bio: null,
@@ -12472,6 +13153,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189316,
       instructor: {
         name: "",
         bio: null,
@@ -12488,6 +13170,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189304,
       instructor: {
         name: "",
         bio: null,
@@ -12504,6 +13187,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189307,
       instructor: {
         name: "",
         bio: null,
@@ -12520,6 +13204,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189310,
       instructor: {
         name: "",
         bio: null,
@@ -12536,6 +13221,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189306,
       instructor: {
         name: "",
         bio: null,
@@ -12552,6 +13238,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189313,
       instructor: {
         name: "",
         bio: null,
@@ -12570,6 +13257,7 @@ export const sections = {
   ],
   "1777": [
     {
+      unique_id: 189323,
       instructor: {
         name: "",
         bio: null,
@@ -12591,6 +13279,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189320,
       instructor: {
         name: "Joshua Smith Mehigan",
         bio: null,
@@ -12607,6 +13296,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189321,
       instructor: {
         name: "Joshua Smith Mehigan",
         bio: null,
@@ -12623,6 +13313,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189322,
       instructor: {
         name: "Averill A Curdy",
         bio: null,
@@ -12646,6 +13337,7 @@ export const sections = {
   ],
   "1778": [
     {
+      unique_id: 189324,
       instructor: {
         name: "Juan M Martinez",
         bio: null,
@@ -12669,6 +13361,7 @@ export const sections = {
   ],
   "1780": [
     {
+      unique_id: 189326,
       instructor: {
         name: "Susannah Gottlieb",
         bio: null,
@@ -12692,6 +13385,7 @@ export const sections = {
   ],
   "1785": [
     {
+      unique_id: 189327,
       instructor: {
         name: "Kelly E Wisecup",
         bio: null,
@@ -12715,6 +13409,7 @@ export const sections = {
   ],
   "1788": [
     {
+      unique_id: 189335,
       instructor: {
         name: "Susan E Phillips",
         bio: null,
@@ -12736,6 +13431,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189336,
       instructor: {
         name: "Betsy J Erkkila",
         bio: null,
@@ -12757,6 +13453,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189334,
       instructor: {
         name: "Christopher Lane",
         bio: null,
@@ -12780,6 +13477,7 @@ export const sections = {
   ],
   "1790": [
     {
+      unique_id: 189337,
       instructor: {
         name: "Barbara L Shwom",
         bio: null,
@@ -12803,6 +13501,7 @@ export const sections = {
   ],
   "1792": [
     {
+      unique_id: 189338,
       instructor: {
         name: "Nam Hee Mun",
         bio: null,
@@ -12826,6 +13525,7 @@ export const sections = {
   ],
   "1797": [
     {
+      unique_id: 189339,
       instructor: {
         name: "Rebecca Carol Johnson",
         bio: null,
@@ -12849,6 +13549,7 @@ export const sections = {
   ],
   "1801": [
     {
+      unique_id: 189340,
       instructor: {
         name: "Susan E Phillips",
         bio: null,
@@ -12872,6 +13573,7 @@ export const sections = {
   ],
   "1803": [
     {
+      unique_id: 189341,
       instructor: {
         name: "Barbara Jane Newman",
         bio: null,
@@ -12895,6 +13597,7 @@ export const sections = {
   ],
   "1805": [
     {
+      unique_id: 189342,
       instructor: {
         name: "Wendy L Wall",
         bio: null,
@@ -12918,6 +13621,7 @@ export const sections = {
   ],
   "1818": [
     {
+      unique_id: 189343,
       instructor: {
         name: "Helen F Thompson",
         bio: null,
@@ -12941,6 +13645,7 @@ export const sections = {
   ],
   "1826": [
     {
+      unique_id: 189344,
       instructor: {
         name: "Christopher Lane",
         bio: null,
@@ -12964,6 +13669,7 @@ export const sections = {
   ],
   "1835": [
     {
+      unique_id: 189345,
       instructor: {
         name: "",
         bio: null,
@@ -12987,6 +13693,7 @@ export const sections = {
   ],
   "1837": [
     {
+      unique_id: 189346,
       instructor: {
         name: "Todd G Nordgren",
         bio: null,
@@ -13010,6 +13717,7 @@ export const sections = {
   ],
   "1843": [
     {
+      unique_id: 189349,
       instructor: {
         name: "Betsy J Erkkila",
         bio: null,
@@ -13033,6 +13741,7 @@ export const sections = {
   ],
   "1844": [
     {
+      unique_id: 189351,
       instructor: {
         name: "James Joseph Hodge",
         bio:
@@ -13057,6 +13766,7 @@ export const sections = {
   ],
   "1847": [
     {
+      unique_id: 189355,
       instructor: {
         name: "Brian D Bouldrey",
         bio:
@@ -13081,6 +13791,7 @@ export const sections = {
   ],
   "1857": [
     {
+      unique_id: 189360,
       instructor: {
         name: "Evan M Mwangi",
         bio: null,
@@ -13104,6 +13815,7 @@ export const sections = {
   ],
   "1864": [
     {
+      unique_id: 189363,
       instructor: {
         name: "Barbara Jane Newman",
         bio: null,
@@ -13127,6 +13839,7 @@ export const sections = {
   ],
   "1868": [
     {
+      unique_id: 189364,
       instructor: {
         name: "Vivasvan Soni",
         bio: null,
@@ -13150,6 +13863,7 @@ export const sections = {
   ],
   "1871": [
     {
+      unique_id: 189365,
       instructor: {
         name: "Susannah Gottlieb",
         bio: null,
@@ -13173,6 +13887,7 @@ export const sections = {
   ],
   "1874": [
     {
+      unique_id: 189366,
       instructor: {
         name: "Julia Ann Stern",
         bio: null,
@@ -13189,6 +13904,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189367,
       instructor: {
         name: "William Reginald Gibbons Jr",
         bio: null,
@@ -13207,6 +13923,7 @@ export const sections = {
   ],
   "1903": [
     {
+      unique_id: 189231,
       instructor: {
         name: "Steven Dollard Jacobsen",
         bio: null,
@@ -13230,6 +13947,7 @@ export const sections = {
   ],
   "1904": [
     {
+      unique_id: 189232,
       instructor: {
         name: "Patricia A Beddows",
         bio: null,
@@ -13253,6 +13971,7 @@ export const sections = {
   ],
   "1905": [
     {
+      unique_id: 189233,
       instructor: {
         name: "Neal E Blair",
         bio: null,
@@ -13276,6 +13995,7 @@ export const sections = {
   ],
   "1912": [
     {
+      unique_id: 189234,
       instructor: {
         name: "Matthew T Hurtgen",
         bio: null,
@@ -13299,6 +14019,7 @@ export const sections = {
   ],
   "1925": [
     {
+      unique_id: 189237,
       instructor: {
         name: "Craig R Bina",
         bio: null,
@@ -13322,6 +14043,7 @@ export const sections = {
   ],
   "1932": [
     {
+      unique_id: 189238,
       instructor: {
         name: "Suzan van der Lee",
         bio: null,
@@ -13345,6 +14067,7 @@ export const sections = {
   ],
   "1955": [
     {
+      unique_id: 188768,
       instructor: {
         name: "John Paluch",
         bio: null,
@@ -13361,6 +14084,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188765,
       instructor: {
         name: "Jieran Cao",
         bio: null,
@@ -13377,6 +14101,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188766,
       instructor: {
         name: "John Paluch",
         bio: null,
@@ -13393,6 +14118,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188764,
       instructor: {
         name: "Denise M Meuser",
         bio: null,
@@ -13409,6 +14135,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188767,
       instructor: {
         name: "",
         bio: null,
@@ -13427,6 +14154,7 @@ export const sections = {
   ],
   "1956": [
     {
+      unique_id: 191371,
       instructor: {
         name: "Denise M Meuser",
         bio: null,
@@ -13445,6 +14173,7 @@ export const sections = {
   ],
   "1958": [
     {
+      unique_id: 188770,
       instructor: {
         name: "Martina F Kerlova",
         bio: null,
@@ -13461,6 +14190,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188769,
       instructor: {
         name: "Ingrid Zeller",
         bio: null,
@@ -13477,6 +14207,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188771,
       instructor: {
         name: "Robert Gary Ryder",
         bio: null,
@@ -13495,6 +14226,7 @@ export const sections = {
   ],
   "1961": [
     {
+      unique_id: 188772,
       instructor: {
         name: "John Paluch",
         bio: null,
@@ -13513,6 +14245,7 @@ export const sections = {
   ],
   "1966": [
     {
+      unique_id: 188775,
       instructor: {
         name: "Franziska B Lys",
         bio:
@@ -13532,6 +14265,7 @@ export const sections = {
   ],
   "1969": [
     {
+      unique_id: 188774,
       instructor: {
         name: "Ingrid Zeller",
         bio: null,
@@ -13555,6 +14289,7 @@ export const sections = {
   ],
   "1998": [
     {
+      unique_id: 188777,
       instructor: {
         name: "Robert Gary Ryder",
         bio: null,
@@ -13573,6 +14308,7 @@ export const sections = {
   ],
   "2022": [
     {
+      unique_id: 188780,
       instructor: {
         name: "Susannah Gottlieb",
         bio: null,
@@ -13596,6 +14332,7 @@ export const sections = {
   ],
   "2023": [
     {
+      unique_id: 188782,
       instructor: {
         name: "Jorg Kreienbrock",
         bio: null,
@@ -13612,6 +14349,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188784,
       instructor: {
         name: "Christine M Helmer",
         bio: null,
@@ -13628,6 +14366,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188781,
       instructor: {
         name: "Franziska B Lys",
         bio:
@@ -13645,6 +14384,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188783,
       instructor: {
         name: "Erica Suzanne Weitzman",
         bio: null,
@@ -13663,6 +14403,7 @@ export const sections = {
   ],
   "2027": [
     {
+      unique_id: 189444,
       instructor: {
         name: "Edward Wallace Muir Jr",
         bio: null,
@@ -13684,6 +14425,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189446,
       instructor: {
         name: "Robin Duffin Bates",
         bio: null,
@@ -13705,6 +14447,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189445,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -13729,6 +14472,7 @@ export const sections = {
   ],
   "2028": [
     {
+      unique_id: 189447,
       instructor: {
         name: "Lane Fenrich",
         bio: null,
@@ -13750,6 +14494,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189448,
       instructor: {
         name: "Kevin Gerard Boyle",
         bio:
@@ -13774,6 +14519,7 @@ export const sections = {
   ],
   "2043": [
     {
+      unique_id: 189455,
       instructor: {
         name: "Lydia Barnett",
         bio: null,
@@ -13797,6 +14543,7 @@ export const sections = {
   ],
   "2045": [
     {
+      unique_id: 189456,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -13821,6 +14568,7 @@ export const sections = {
   ],
   "2054": [
     {
+      unique_id: 189462,
       instructor: {
         name: "Shana B Bernstein",
         bio: null,
@@ -13842,6 +14590,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189718,
       instructor: {
         name: "Shana B Bernstein",
         bio: null,
@@ -13865,6 +14614,7 @@ export const sections = {
   ],
   "2076": [
     {
+      unique_id: 189463,
       instructor: {
         name: "Henry Claxton Binford",
         bio:
@@ -13889,6 +14639,7 @@ export const sections = {
   ],
   "2084": [
     {
+      unique_id: 189464,
       instructor: {
         name: "Edward Wallace Muir Jr",
         bio: null,
@@ -13912,6 +14663,7 @@ export const sections = {
   ],
   "2141": [
     {
+      unique_id: 189467,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -13936,6 +14688,7 @@ export const sections = {
   ],
   "2146": [
     {
+      unique_id: 189471,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -13958,6 +14711,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189469,
       instructor: {
         name: "Brett V. Gadsden",
         bio:
@@ -13975,6 +14729,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189470,
       instructor: {
         name: "Elie Rekhess",
         bio: null,
@@ -13998,6 +14753,7 @@ export const sections = {
   ],
   "2149": [
     {
+      unique_id: 189478,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -14020,6 +14776,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189479,
       instructor: {
         name: "Henri Lauziere",
         bio: null,
@@ -14041,6 +14798,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189477,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -14063,6 +14821,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189475,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -14085,6 +14844,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189476,
       instructor: {
         name: "Elie Rekhess",
         bio: null,
@@ -14108,6 +14868,7 @@ export const sections = {
   ],
   "2151": [
     {
+      unique_id: 189480,
       instructor: {
         name: "Lydia Barnett",
         bio: null,
@@ -14131,6 +14892,7 @@ export const sections = {
   ],
   "2155": [
     {
+      unique_id: 189481,
       instructor: {
         name: "Kevin Gerard Boyle",
         bio:
@@ -14153,6 +14915,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189484,
       instructor: {
         name: "Dyan H Elliott",
         bio:
@@ -14175,6 +14938,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189485,
       instructor: {
         name: "Jonathon P Glassman",
         bio:
@@ -14197,6 +14961,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189486,
       instructor: {
         name: "J Michelle Molina",
         bio: null,
@@ -14218,6 +14983,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189483,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -14240,6 +15006,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189482,
       instructor: {
         name: "Laura E Hein",
         bio:
@@ -14264,6 +15031,7 @@ export const sections = {
   ],
   "2159": [
     {
+      unique_id: 189487,
       instructor: {
         name: "Henry Claxton Binford",
         bio:
@@ -14288,6 +15056,7 @@ export const sections = {
   ],
   "2199": [
     {
+      unique_id: 189488,
       instructor: {
         name: "Kenneth L Alder",
         bio: null,
@@ -14311,6 +15080,7 @@ export const sections = {
   ],
   "2202": [
     {
+      unique_id: 189489,
       instructor: {
         name: "Kenneth L Alder",
         bio: null,
@@ -14327,6 +15097,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189511,
       instructor: {
         name: "Edward Wallace Muir Jr",
         bio: null,
@@ -14343,6 +15114,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189513,
       instructor: {
         name: "Paul F Ramirez",
         bio:
@@ -14360,6 +15132,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189515,
       instructor: {
         name: "Michael S Sherry",
         bio:
@@ -14377,6 +15150,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189517,
       instructor: {
         name: "Amy Beth Stanley",
         bio: null,
@@ -14393,6 +15167,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189519,
       instructor: {
         name: "Keith Mako Woodhouse",
         bio: null,
@@ -14409,6 +15184,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189524,
       instructor: {
         name: "",
         bio: null,
@@ -14425,6 +15201,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189521,
       instructor: {
         name: "Elie Rekhess",
         bio: null,
@@ -14441,6 +15218,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189523,
       instructor: {
         name: "",
         bio: null,
@@ -14457,6 +15235,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189526,
       instructor: {
         name: "",
         bio: null,
@@ -14473,6 +15252,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189490,
       instructor: {
         name: "Michael J. Allen",
         bio:
@@ -14490,6 +15270,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189491,
       instructor: {
         name: "Lydia Barnett",
         bio: null,
@@ -14506,6 +15287,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189492,
       instructor: {
         name: "Henry Claxton Binford",
         bio:
@@ -14523,6 +15305,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189493,
       instructor: {
         name: "Lina M Britto",
         bio:
@@ -14540,6 +15323,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189494,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -14557,6 +15341,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189495,
       instructor: {
         name: "Haydon Leslie Cherry",
         bio: null,
@@ -14573,6 +15358,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189496,
       instructor: {
         name: "Deborah Anne Cohen",
         bio:
@@ -14590,6 +15376,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189497,
       instructor: {
         name: "Dyan H Elliott",
         bio:
@@ -14607,6 +15394,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189498,
       instructor: {
         name: "Caitlin Annette Fitz",
         bio: null,
@@ -14623,6 +15411,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189518,
       instructor: {
         name: "Lauren K Stokes",
         bio:
@@ -14640,6 +15429,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189520,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -14657,6 +15447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189522,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -14673,6 +15464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189499,
       instructor: {
         name: "Benjamin Frommer",
         bio: null,
@@ -14689,6 +15481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189500,
       instructor: {
         name: "Brett V. Gadsden",
         bio:
@@ -14706,6 +15499,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189501,
       instructor: {
         name: "Paul James Gillingham",
         bio: null,
@@ -14722,6 +15516,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189502,
       instructor: {
         name: "Jonathon P Glassman",
         bio:
@@ -14739,6 +15534,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189503,
       instructor: {
         name: "Sean Allen Hanretta",
         bio:
@@ -14756,6 +15552,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189504,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -14773,6 +15570,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189505,
       instructor: {
         name: "Douglas Kiel",
         bio: null,
@@ -14789,6 +15587,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189506,
       instructor: {
         name: "Ashish Koul",
         bio: null,
@@ -14805,6 +15604,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189507,
       instructor: {
         name: "Henri Lauziere",
         bio: null,
@@ -14821,6 +15621,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189508,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -14837,6 +15638,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189509,
       instructor: {
         name: "Melissa A Macauley",
         bio: null,
@@ -14853,6 +15655,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189510,
       instructor: {
         name: "Sarah C Maza",
         bio: null,
@@ -14869,6 +15672,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189512,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -14886,6 +15690,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189514,
       instructor: {
         name: "Peter Francis Hayes",
         bio: null,
@@ -14902,6 +15707,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189516,
       instructor: {
         name: "Scott Andrew Sowerby",
         bio: null,
@@ -14918,6 +15724,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189525,
       instructor: {
         name: "",
         bio: null,
@@ -14934,6 +15741,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189527,
       instructor: {
         name: "",
         bio: null,
@@ -14952,6 +15760,7 @@ export const sections = {
   ],
   "2203": [
     {
+      unique_id: 189578,
       instructor: {
         name: "Paul F Ramirez",
         bio:
@@ -14976,6 +15785,7 @@ export const sections = {
   ],
   "2208": [
     {
+      unique_id: 189615,
       instructor: {
         name: "David Shyovitz",
         bio:
@@ -14993,6 +15803,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189616,
       instructor: {
         name: "Scott Andrew Sowerby",
         bio: null,
@@ -15009,6 +15820,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189617,
       instructor: {
         name: "Amy Beth Stanley",
         bio: null,
@@ -15025,6 +15837,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189618,
       instructor: {
         name: "Lauren K Stokes",
         bio:
@@ -15042,6 +15855,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189619,
       instructor: {
         name: "Helen Louise Tilley",
         bio: null,
@@ -15058,6 +15872,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189620,
       instructor: {
         name: "Keith Mako Woodhouse",
         bio: null,
@@ -15074,6 +15889,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189621,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -15091,6 +15907,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189622,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -15108,6 +15925,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189623,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -15124,6 +15942,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189624,
       instructor: {
         name: "Martha Biondi",
         bio: null,
@@ -15140,6 +15959,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189625,
       instructor: {
         name: "Richard Kieckhefer",
         bio: null,
@@ -15156,6 +15976,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189604,
       instructor: {
         name: "Melissa A Macauley",
         bio: null,
@@ -15172,6 +15993,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189602,
       instructor: {
         name: "Henri Lauziere",
         bio: null,
@@ -15188,6 +16010,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189612,
       instructor: {
         name: "Paul F Ramirez",
         bio:
@@ -15205,6 +16028,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189614,
       instructor: {
         name: "Michael S Sherry",
         bio:
@@ -15222,6 +16046,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189596,
       instructor: {
         name: "Sean Allen Hanretta",
         bio:
@@ -15239,6 +16064,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189613,
       instructor: {
         name: "David Lee Schoenbrun",
         bio: null,
@@ -15255,6 +16081,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189611,
       instructor: {
         name: "Carl Forbes Petry",
         bio:
@@ -15272,6 +16099,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189609,
       instructor: {
         name: "Susan Pearson",
         bio:
@@ -15289,6 +16117,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189607,
       instructor: {
         name: "Joel Mokyr",
         bio: null,
@@ -15305,6 +16134,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189579,
       instructor: {
         name: "Kenneth L Alder",
         bio: null,
@@ -15321,6 +16151,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189580,
       instructor: {
         name: "Michael J. Allen",
         bio:
@@ -15338,6 +16169,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189591,
       instructor: {
         name: "Caitlin Annette Fitz",
         bio: null,
@@ -15354,6 +16186,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189592,
       instructor: {
         name: "Benjamin Frommer",
         bio: null,
@@ -15370,6 +16203,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189581,
       instructor: {
         name: "Lydia Barnett",
         bio: null,
@@ -15386,6 +16220,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189582,
       instructor: {
         name: "Henry Claxton Binford",
         bio:
@@ -15403,6 +16238,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189583,
       instructor: {
         name: "Kevin Gerard Boyle",
         bio:
@@ -15420,6 +16256,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189584,
       instructor: {
         name: "Lina M Britto",
         bio:
@@ -15437,6 +16274,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189585,
       instructor: {
         name: "John Starkes Bushnell",
         bio:
@@ -15454,6 +16292,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189586,
       instructor: {
         name: "Geraldo L Cadava",
         bio: null,
@@ -15470,6 +16309,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189587,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -15487,6 +16327,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189588,
       instructor: {
         name: "Haydon Leslie Cherry",
         bio: null,
@@ -15503,6 +16344,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189589,
       instructor: {
         name: "Deborah Anne Cohen",
         bio:
@@ -15520,6 +16362,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189590,
       instructor: {
         name: "Dyan H Elliott",
         bio:
@@ -15537,6 +16380,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189593,
       instructor: {
         name: "Brett V. Gadsden",
         bio:
@@ -15554,6 +16398,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189594,
       instructor: {
         name: "Paul James Gillingham",
         bio: null,
@@ -15570,6 +16415,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189595,
       instructor: {
         name: "Jonathon P Glassman",
         bio:
@@ -15587,6 +16433,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189597,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -15604,6 +16451,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189601,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -15621,6 +16469,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189603,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -15637,6 +16486,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189605,
       instructor: {
         name: "Katherine Masur",
         bio: null,
@@ -15653,6 +16503,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189606,
       instructor: {
         name: "Sarah C Maza",
         bio: null,
@@ -15669,6 +16520,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189598,
       instructor: {
         name: "Laura E Hein",
         bio:
@@ -15686,6 +16538,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189599,
       instructor: {
         name: "Daniel Sepinuck Immerwahr",
         bio: null,
@@ -15702,6 +16555,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189600,
       instructor: {
         name: "Douglas Kiel",
         bio: null,
@@ -15718,6 +16572,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189608,
       instructor: {
         name: "Edward Wallace Muir Jr",
         bio: null,
@@ -15734,6 +16589,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189610,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -15753,6 +16609,7 @@ export const sections = {
   ],
   "2213": [
     {
+      unique_id: 189626,
       instructor: {
         name: "Katherine Masur",
         bio: null,
@@ -15771,6 +16628,7 @@ export const sections = {
   ],
   "2217": [
     {
+      unique_id: 190146,
       instructor: {
         name: "Cristina L.H. Traina",
         bio: null,
@@ -15794,6 +16652,7 @@ export const sections = {
   ],
   "2218": [
     {
+      unique_id: 190147,
       instructor: {
         name: "Sarah McFarland Taylor",
         bio: null,
@@ -15817,6 +16676,7 @@ export const sections = {
   ],
   "2224": [
     {
+      unique_id: 190148,
       instructor: {
         name: "George D Bond",
         bio: null,
@@ -15840,6 +16700,7 @@ export const sections = {
   ],
   "2257": [
     {
+      unique_id: 190154,
       instructor: {
         name: "Harrison Hall King",
         bio: null,
@@ -15861,6 +16722,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191138,
       instructor: {
         name: "Ean Christian High",
         bio: null,
@@ -15884,6 +16746,7 @@ export const sections = {
   ],
   "2273": [
     {
+      unique_id: 190156,
       instructor: {
         name: "Sarah McFarland Taylor",
         bio: null,
@@ -15907,6 +16770,7 @@ export const sections = {
   ],
   "2297": [
     {
+      unique_id: 190157,
       instructor: {
         name: "J Michelle Molina",
         bio: null,
@@ -15930,6 +16794,7 @@ export const sections = {
   ],
   "2305": [
     {
+      unique_id: 190164,
       instructor: {
         name: "J Michelle Molina",
         bio: null,
@@ -15946,6 +16811,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190167,
       instructor: {
         name: "Christine M Helmer",
         bio: null,
@@ -15962,6 +16828,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190171,
       instructor: {
         name: "Richard Kieckhefer",
         bio: null,
@@ -15978,6 +16845,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190173,
       instructor: {
         name: "Sylvester Alric Johnson",
         bio: null,
@@ -15994,6 +16862,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190168,
       instructor: {
         name: "Kenneth R Seeskin",
         bio: null,
@@ -16010,6 +16879,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190162,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -16026,6 +16896,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190163,
       instructor: {
         name: "Cristina L.H. Traina",
         bio: null,
@@ -16042,6 +16913,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190169,
       instructor: {
         name: "Sarah Hieatt Jacoby",
         bio: null,
@@ -16059,6 +16931,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190170,
       instructor: {
         name: "Mark Richard McClish",
         bio: null,
@@ -16075,6 +16948,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190165,
       instructor: {
         name: "Barry Scott Wimpfheimer",
         bio: null,
@@ -16091,6 +16965,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190166,
       instructor: {
         name: "Sarah McFarland Taylor",
         bio: null,
@@ -16107,6 +16982,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190172,
       instructor: {
         name: "Brannon Dobbs Ingram",
         bio: null,
@@ -16123,6 +16999,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190174,
       instructor: {
         name: "Barbara Jane Newman",
         bio: null,
@@ -16141,6 +17018,7 @@ export const sections = {
   ],
   "2318": [
     {
+      unique_id: 189437,
       instructor: {
         name: "Hanna Tzuker Seltzer",
         bio: null,
@@ -16164,6 +17042,7 @@ export const sections = {
   ],
   "2321": [
     {
+      unique_id: 189438,
       instructor: {
         name: "Hanna Tzuker Seltzer",
         bio: null,
@@ -16187,6 +17066,7 @@ export const sections = {
   ],
   "2324": [
     {
+      unique_id: 188864,
       instructor: {
         name: "Ragy H Ibrahim Mikhaeel",
         bio: null,
@@ -16208,6 +17088,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188865,
       instructor: {
         name: "Ragy H Ibrahim Mikhaeel",
         bio: null,
@@ -16229,6 +17110,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188866,
       instructor: {
         name: "",
         bio: null,
@@ -16252,6 +17134,7 @@ export const sections = {
   ],
   "2327": [
     {
+      unique_id: 188868,
       instructor: {
         name: "",
         bio: null,
@@ -16273,6 +17156,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188867,
       instructor: {
         name: "Fatima Zehra Khan",
         bio: null,
@@ -16296,6 +17180,7 @@ export const sections = {
   ],
   "2331": [
     {
+      unique_id: 189189,
       instructor: {
         name: "Hsiu-ling Robertson",
         bio: null,
@@ -16317,6 +17202,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189190,
       instructor: {
         name: "Hsiu-ling Robertson",
         bio: null,
@@ -16338,6 +17224,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189188,
       instructor: {
         name: "Jingjing Ji",
         bio: null,
@@ -16359,6 +17246,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189187,
       instructor: {
         name: "Jili Sun",
         bio: null,
@@ -16382,6 +17270,7 @@ export const sections = {
   ],
   "2334": [
     {
+      unique_id: 189193,
       instructor: {
         name: "Hong Jiang",
         bio: null,
@@ -16403,6 +17292,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189192,
       instructor: {
         name: "Hong Jiang",
         bio: null,
@@ -16424,6 +17314,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189194,
       instructor: {
         name: "Wen-pin Hsieh",
         bio: null,
@@ -16445,6 +17336,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189195,
       instructor: {
         name: "Wen-pin Hsieh",
         bio: null,
@@ -16468,6 +17360,7 @@ export const sections = {
   ],
   "2337": [
     {
+      unique_id: 189691,
       instructor: {
         name: "Noriko Taira Yasohama",
         bio: null,
@@ -16484,6 +17377,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189689,
       instructor: {
         name: "Noriko Taira Yasohama",
         bio: null,
@@ -16500,6 +17394,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189690,
       instructor: {
         name: "Noriko Taira Yasohama",
         bio: null,
@@ -16518,6 +17413,7 @@ export const sections = {
   ],
   "2340": [
     {
+      unique_id: 189692,
       instructor: {
         name: "Junko Sato",
         bio: null,
@@ -16534,6 +17430,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189693,
       instructor: {
         name: "Junko Sato",
         bio: null,
@@ -16552,6 +17449,7 @@ export const sections = {
   ],
   "2343": [
     {
+      unique_id: 190327,
       instructor: {
         name: "Peter Nderitu Mwangi",
         bio: null,
@@ -16573,6 +17471,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190328,
       instructor: {
         name: "Peter Nderitu Mwangi",
         bio: null,
@@ -16596,6 +17495,7 @@ export const sections = {
   ],
   "2346": [
     {
+      unique_id: 190329,
       instructor: {
         name: "Peter Nderitu Mwangi",
         bio: null,
@@ -16619,6 +17519,7 @@ export const sections = {
   ],
   "2349": [
     {
+      unique_id: 189700,
       instructor: {
         name: "Eunmi Lee",
         bio: null,
@@ -16640,6 +17541,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189699,
       instructor: {
         name: "Eunmi Lee",
         bio: null,
@@ -16661,6 +17563,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189701,
       instructor: {
         name: "Eunmi Lee",
         bio: null,
@@ -16684,6 +17587,7 @@ export const sections = {
   ],
   "2352": [
     {
+      unique_id: 189703,
       instructor: {
         name: "Ihnhee L Kim",
         bio: null,
@@ -16705,6 +17609,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189702,
       instructor: {
         name: "Ihnhee L Kim",
         bio: null,
@@ -16728,6 +17633,7 @@ export const sections = {
   ],
   "2355": [
     {
+      unique_id: 189441,
       instructor: {
         name: "Rami Nair",
         bio: null,
@@ -16749,6 +17655,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189440,
       instructor: {
         name: "Rami Nair",
         bio: null,
@@ -16772,6 +17679,7 @@ export const sections = {
   ],
   "2358": [
     {
+      unique_id: 189443,
       instructor: {
         name: "Rami Nair",
         bio: null,
@@ -16795,6 +17703,7 @@ export const sections = {
   ],
   "2359": [
     {
+      unique_id: 189439,
       instructor: {
         name: "Hanna Tzuker Seltzer",
         bio: null,
@@ -16818,6 +17727,7 @@ export const sections = {
   ],
   "2362": [
     {
+      unique_id: 188869,
       instructor: {
         name: "Fadia M Antabli",
         bio: null,
@@ -16841,6 +17751,7 @@ export const sections = {
   ],
   "2365": [
     {
+      unique_id: 189199,
       instructor: {
         name: "Chin-Hung Chang",
         bio: null,
@@ -16862,6 +17773,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189198,
       instructor: {
         name: "Chin-Hung Chang",
         bio: null,
@@ -16885,6 +17797,7 @@ export const sections = {
   ],
   "2368": [
     {
+      unique_id: 189694,
       instructor: {
         name: "Yumi Shiojima",
         bio: null,
@@ -16908,6 +17821,7 @@ export const sections = {
   ],
   "2387": [
     {
+      unique_id: 189722,
       instructor: {
         name: "Robert A Gundlach",
         bio: null,
@@ -16931,6 +17845,7 @@ export const sections = {
   ],
   "2392": [
     {
+      unique_id: 189724,
       instructor: {
         name: "Jennifer Alexandra Alexander",
         bio: null,
@@ -16954,6 +17869,7 @@ export const sections = {
   ],
   "2393": [
     {
+      unique_id: 189723,
       instructor: {
         name: "Annette Kumsun D'onofrio",
         bio: null,
@@ -16977,6 +17893,7 @@ export const sections = {
   ],
   "2396": [
     {
+      unique_id: 189727,
       instructor: {
         name: "Masaya Yoshida",
         bio: null,
@@ -17000,6 +17917,7 @@ export const sections = {
   ],
   "2402": [
     {
+      unique_id: 189726,
       instructor: {
         name: "Jennifer Sandra Cole",
         bio: null,
@@ -17023,6 +17941,7 @@ export const sections = {
   ],
   "2410": [
     {
+      unique_id: 190415,
       instructor: {
         name: "Patricia L Scarampi",
         bio: null,
@@ -17041,6 +17960,7 @@ export const sections = {
   ],
   "2417": [
     {
+      unique_id: 189731,
       instructor: {
         name: "Autumn Bryant",
         bio: null,
@@ -17062,6 +17982,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189728,
       instructor: {
         name: "",
         bio: null,
@@ -17083,6 +18004,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189730,
       instructor: {
         name: "Erin M. Leddon",
         bio: null,
@@ -17104,6 +18026,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189729,
       instructor: {
         name: "Erin M. Leddon",
         bio: null,
@@ -17127,6 +18050,7 @@ export const sections = {
   ],
   "2427": [
     {
+      unique_id: 190416,
       instructor: {
         name: "Patricia L Scarampi",
         bio: null,
@@ -17145,6 +18069,7 @@ export const sections = {
   ],
   "2446": [
     {
+      unique_id: 189743,
       instructor: {
         name: "",
         bio: null,
@@ -17168,6 +18093,7 @@ export const sections = {
   ],
   "2453": [
     {
+      unique_id: 189781,
       instructor: {
         name: "Emmett Lyons Wyman",
         bio: null,
@@ -17189,6 +18115,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189782,
       instructor: {
         name: "Emmett Lyons Wyman",
         bio: null,
@@ -17212,6 +18139,7 @@ export const sections = {
   ],
   "2458": [
     {
+      unique_id: 189785,
       instructor: {
         name: "Eric Chang",
         bio: null,
@@ -17235,6 +18163,7 @@ export const sections = {
   ],
   "2459": [
     {
+      unique_id: 189789,
       instructor: {
         name: "",
         bio: null,
@@ -17256,6 +18185,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189791,
       instructor: {
         name: "Clive William Newstead",
         bio: null,
@@ -17277,6 +18207,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189790,
       instructor: {
         name: "",
         bio: null,
@@ -17298,6 +18229,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189788,
       instructor: {
         name: "",
         bio: null,
@@ -17321,6 +18253,7 @@ export const sections = {
   ],
   "2462": [
     {
+      unique_id: 189786,
       instructor: {
         name: "Sean Patrick Gomes",
         bio: null,
@@ -17344,6 +18277,7 @@ export const sections = {
   ],
   "2465": [
     {
+      unique_id: 189787,
       instructor: {
         name: "Elizabeth Anne Burslem",
         bio: null,
@@ -17367,6 +18301,7 @@ export const sections = {
   ],
   "2472": [
     {
+      unique_id: 189793,
       instructor: {
         name: "",
         bio: null,
@@ -17388,6 +18323,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189794,
       instructor: {
         name: "Daniel Cuzzocreo",
         bio: null,
@@ -17411,6 +18347,7 @@ export const sections = {
   ],
   "2473": [
     {
+      unique_id: 189798,
       instructor: {
         name: "Santiago Canez",
         bio:
@@ -17435,6 +18372,7 @@ export const sections = {
   ],
   "2479": [
     {
+      unique_id: 189804,
       instructor: {
         name: "Laura Grace DeMarco",
         bio: null,
@@ -17458,6 +18396,7 @@ export const sections = {
   ],
   "2481": [
     {
+      unique_id: 189803,
       instructor: {
         name: "",
         bio: null,
@@ -17481,6 +18420,7 @@ export const sections = {
   ],
   "2488": [
     {
+      unique_id: 189802,
       instructor: {
         name: "Valentino Tosatti",
         bio: null,
@@ -17504,6 +18444,7 @@ export const sections = {
   ],
   "2489": [
     {
+      unique_id: 189795,
       instructor: {
         name: "Yuan Wang",
         bio: null,
@@ -17525,6 +18466,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189796,
       instructor: {
         name: "Yuan Wang",
         bio: null,
@@ -17548,6 +18490,7 @@ export const sections = {
   ],
   "2495": [
     {
+      unique_id: 189800,
       instructor: {
         name: "Clive William Newstead",
         bio: null,
@@ -17571,6 +18514,7 @@ export const sections = {
   ],
   "2498": [
     {
+      unique_id: 189801,
       instructor: {
         name: "",
         bio: null,
@@ -17594,6 +18538,7 @@ export const sections = {
   ],
   "2501": [
     {
+      unique_id: 189805,
       instructor: {
         name: "Santiago Canez",
         bio:
@@ -17618,6 +18563,7 @@ export const sections = {
   ],
   "2506": [
     {
+      unique_id: 189806,
       instructor: {
         name: "Eric Zaslow",
         bio: null,
@@ -17641,6 +18587,7 @@ export const sections = {
   ],
   "2509": [
     {
+      unique_id: 189807,
       instructor: {
         name: "Eugene Kushnirsky",
         bio: null,
@@ -17664,6 +18611,7 @@ export const sections = {
   ],
   "2515": [
     {
+      unique_id: 189808,
       instructor: {
         name: "Ezra Getzler",
         bio: null,
@@ -17687,6 +18635,7 @@ export const sections = {
   ],
   "2523": [
     {
+      unique_id: 189809,
       instructor: {
         name: "Benjamin Weinkove",
         bio: null,
@@ -17710,6 +18659,7 @@ export const sections = {
   ],
   "2528": [
     {
+      unique_id: 189813,
       instructor: {
         name: "John N K Francis",
         bio: null,
@@ -17733,6 +18683,7 @@ export const sections = {
   ],
   "2531": [
     {
+      unique_id: 189811,
       instructor: {
         name: "",
         bio: null,
@@ -17756,6 +18707,7 @@ export const sections = {
   ],
   "2542": [
     {
+      unique_id: 189812,
       instructor: {
         name: "Julian Thomas Gold",
         bio: null,
@@ -17779,6 +18731,7 @@ export const sections = {
   ],
   "2548": [
     {
+      unique_id: 189814,
       instructor: {
         name: "Paul G Goerss",
         bio: null,
@@ -17802,6 +18755,7 @@ export const sections = {
   ],
   "2554": [
     {
+      unique_id: 189815,
       instructor: {
         name: "Bao Viet Le Hung",
         bio: null,
@@ -17825,6 +18779,7 @@ export const sections = {
   ],
   "2559": [
     {
+      unique_id: 189816,
       instructor: {
         name: "Ezra Getzler",
         bio: null,
@@ -17848,6 +18803,7 @@ export const sections = {
   ],
   "2573": [
     {
+      unique_id: 189817,
       instructor: {
         name: "Aaron Charles Naber",
         bio: null,
@@ -17871,6 +18827,7 @@ export const sections = {
   ],
   "2579": [
     {
+      unique_id: 189818,
       instructor: {
         name: "John N K Francis",
         bio: null,
@@ -17894,6 +18851,7 @@ export const sections = {
   ],
   "2582": [
     {
+      unique_id: 189821,
       instructor: {
         name: "Eugene Kushnirsky",
         bio: null,
@@ -17917,6 +18875,7 @@ export const sections = {
   ],
   "2584": [
     {
+      unique_id: 189830,
       instructor: {
         name: "Eric Gerald Schulz",
         bio: null,
@@ -17940,6 +18899,7 @@ export const sections = {
   ],
   "2591": [
     {
+      unique_id: 189832,
       instructor: {
         name: "Joseph P Ferrie",
         bio: null,
@@ -17961,6 +18921,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189833,
       instructor: {
         name: "Mark Iris",
         bio: null,
@@ -17979,6 +18940,7 @@ export const sections = {
   ],
   "2595": [
     {
+      unique_id: 189844,
       instructor: {
         name: "Sean Christopher Ebels Duggan",
         bio: null,
@@ -17995,6 +18957,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189843,
       instructor: {
         name: "Megan Alexandra Hyska",
         bio:
@@ -18017,6 +18980,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189846,
       instructor: {
         name: "Stephen John White",
         bio: null,
@@ -18033,6 +18997,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189845,
       instructor: {
         name: "Axel Mueller",
         bio: null,
@@ -18051,6 +19016,7 @@ export const sections = {
   ],
   "2596": [
     {
+      unique_id: 189847,
       instructor: {
         name: "Jennifer Amy Lackey",
         bio: null,
@@ -18074,6 +19040,7 @@ export const sections = {
   ],
   "2599": [
     {
+      unique_id: 189848,
       instructor: {
         name: "Sean Christopher Ebels Duggan",
         bio: null,
@@ -18097,6 +19064,7 @@ export const sections = {
   ],
   "2602": [
     {
+      unique_id: 189849,
       instructor: {
         name: "Patricia Marechal",
         bio: null,
@@ -18120,6 +19088,7 @@ export const sections = {
   ],
   "2609": [
     {
+      unique_id: 189852,
       instructor: {
         name: "Stephen John White",
         bio: null,
@@ -18143,6 +19112,7 @@ export const sections = {
   ],
   "2619": [
     {
+      unique_id: 189857,
       instructor: {
         name: "Kenneth R Seeskin",
         bio: null,
@@ -18164,6 +19134,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189856,
       instructor: {
         name: "Kenneth R Seeskin",
         bio: null,
@@ -18187,6 +19158,7 @@ export const sections = {
   ],
   "2624": [
     {
+      unique_id: 189860,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -18208,6 +19180,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189861,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -18231,6 +19204,7 @@ export const sections = {
   ],
   "2625": [
     {
+      unique_id: 189862,
       instructor: {
         name: "Megan Alexandra Hyska",
         bio:
@@ -18253,6 +19227,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189863,
       instructor: {
         name: "Megan Alexandra Hyska",
         bio:
@@ -18277,6 +19252,7 @@ export const sections = {
   ],
   "2634": [
     {
+      unique_id: 189865,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -18293,6 +19269,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189864,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -18311,6 +19288,7 @@ export const sections = {
   ],
   "2635": [
     {
+      unique_id: 189867,
       instructor: {
         name: "Kyla Sue Ebels Duggan",
         bio: null,
@@ -18327,6 +19305,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189866,
       instructor: {
         name: "Kyla Sue Ebels Duggan",
         bio: null,
@@ -18345,6 +19324,7 @@ export const sections = {
   ],
   "2645": [
     {
+      unique_id: 189871,
       instructor: {
         name: "Fabrizio Cariani",
         bio: null,
@@ -18361,6 +19341,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189887,
       instructor: {
         name: "",
         bio: null,
@@ -18377,6 +19358,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189889,
       instructor: {
         name: "Megan Alexandra Hyska",
         bio:
@@ -18394,6 +19376,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189870,
       instructor: {
         name: "Mark Vinzenz Alznauer",
         bio: null,
@@ -18410,6 +19393,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189872,
       instructor: {
         name: "Penelope L Deutscher",
         bio: null,
@@ -18426,6 +19410,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189873,
       instructor: {
         name: "Kyla Sue Ebels Duggan",
         bio: null,
@@ -18442,6 +19427,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189874,
       instructor: {
         name: "Sean Christopher Ebels Duggan",
         bio: null,
@@ -18458,6 +19444,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189875,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -18474,6 +19461,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189876,
       instructor: {
         name: "Sanford C Goldberg",
         bio: null,
@@ -18490,6 +19478,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189877,
       instructor: {
         name: "Richard H Kraut",
         bio: null,
@@ -18506,6 +19495,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189878,
       instructor: {
         name: "Jennifer Amy Lackey",
         bio: null,
@@ -18522,6 +19512,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189884,
       instructor: {
         name: "Stephen John White",
         bio: null,
@@ -18538,6 +19529,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189885,
       instructor: {
         name: "Rachel E Zuckert",
         bio: null,
@@ -18554,6 +19546,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189879,
       instructor: {
         name: "Cristina Lafont",
         bio: null,
@@ -18570,6 +19563,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189880,
       instructor: {
         name: "Axel Mueller",
         bio: null,
@@ -18586,6 +19580,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189881,
       instructor: {
         name: "Baron Wayne Reed",
         bio: null,
@@ -18602,6 +19597,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189882,
       instructor: {
         name: "Kenneth R Seeskin",
         bio: null,
@@ -18618,6 +19614,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189883,
       instructor: {
         name: "Mark P Sheldon",
         bio:
@@ -18635,6 +19632,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189886,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -18651,6 +19649,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189888,
       instructor: {
         name: "Patricia Marechal",
         bio: null,
@@ -18669,6 +19668,7 @@ export const sections = {
   ],
   "2646": [
     {
+      unique_id: 189908,
       instructor: {
         name: "Patricia Marechal",
         bio: null,
@@ -18685,6 +19685,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189896,
       instructor: {
         name: "Sanford C Goldberg",
         bio: null,
@@ -18701,6 +19702,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189897,
       instructor: {
         name: "Richard H Kraut",
         bio: null,
@@ -18717,6 +19719,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189898,
       instructor: {
         name: "Jennifer Amy Lackey",
         bio: null,
@@ -18733,6 +19736,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189899,
       instructor: {
         name: "Cristina Lafont",
         bio: null,
@@ -18749,6 +19753,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189900,
       instructor: {
         name: "Axel Mueller",
         bio: null,
@@ -18765,6 +19770,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189901,
       instructor: {
         name: "Baron Wayne Reed",
         bio: null,
@@ -18781,6 +19787,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189909,
       instructor: {
         name: "Megan Alexandra Hyska",
         bio:
@@ -18798,6 +19805,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189902,
       instructor: {
         name: "Kenneth R Seeskin",
         bio: null,
@@ -18814,6 +19822,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189903,
       instructor: {
         name: "Mark P Sheldon",
         bio:
@@ -18831,6 +19840,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189904,
       instructor: {
         name: "Stephen John White",
         bio: null,
@@ -18847,6 +19857,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189905,
       instructor: {
         name: "Rachel E Zuckert",
         bio: null,
@@ -18863,6 +19874,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189907,
       instructor: {
         name: "",
         bio: null,
@@ -18879,6 +19891,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189895,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -18895,6 +19908,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189891,
       instructor: {
         name: "Fabrizio Cariani",
         bio: null,
@@ -18911,6 +19925,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189894,
       instructor: {
         name: "Sean Christopher Ebels Duggan",
         bio: null,
@@ -18927,6 +19942,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189892,
       instructor: {
         name: "Penelope L Deutscher",
         bio: null,
@@ -18943,6 +19959,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189890,
       instructor: {
         name: "Mark Vinzenz Alznauer",
         bio: null,
@@ -18959,6 +19976,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189893,
       instructor: {
         name: "Kyla Sue Ebels Duggan",
         bio: null,
@@ -18975,6 +19993,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189906,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -18993,6 +20012,7 @@ export const sections = {
   ],
   "2649": [
     {
+      unique_id: 189910,
       instructor: {
         name: "Rachel E Zuckert",
         bio: null,
@@ -19011,6 +20031,7 @@ export const sections = {
   ],
   "2651": [
     {
+      unique_id: 189911,
       instructor: {
         name: "Richard H Kraut",
         bio: null,
@@ -19029,6 +20050,7 @@ export const sections = {
   ],
   "2655": [
     {
+      unique_id: 189913,
       instructor: {
         name: "Fabrizio Cariani",
         bio: null,
@@ -19045,6 +20067,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189912,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -19063,6 +20086,7 @@ export const sections = {
   ],
   "2699": [
     {
+      unique_id: 189916,
       instructor: {
         name: "Carl Eric Dahl",
         bio: null,
@@ -19084,6 +20108,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189915,
       instructor: {
         name: "Zosia Anna Celina Krusberg",
         bio: null,
@@ -19107,6 +20132,7 @@ export const sections = {
   ],
   "2700": [
     {
+      unique_id: 189917,
       instructor: {
         name: "Enectali Figueroa-Feliciano",
         bio: null,
@@ -19130,6 +20156,7 @@ export const sections = {
   ],
   "2703": [
     {
+      unique_id: 189919,
       instructor: {
         name: "Shane Louis Larson",
         bio: null,
@@ -19151,6 +20178,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189920,
       instructor: {
         name: "Michael F Smutko",
         bio: null,
@@ -19174,6 +20202,7 @@ export const sections = {
   ],
   "2706": [
     {
+      unique_id: 189921,
       instructor: {
         name: "Deborah Anne Brown",
         bio: null,
@@ -19198,6 +20227,7 @@ export const sections = {
   ],
   "2707": [
     {
+      unique_id: 189923,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19221,6 +20251,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189922,
       instructor: {
         name: "",
         bio: null,
@@ -19244,6 +20275,7 @@ export const sections = {
   ],
   "2709": [
     {
+      unique_id: 189931,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19267,6 +20299,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190622,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19290,6 +20323,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190623,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19313,6 +20347,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189925,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19336,6 +20371,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189926,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19359,6 +20395,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189927,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19382,6 +20419,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189924,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19405,6 +20443,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189928,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19428,6 +20467,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189929,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19451,6 +20491,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189930,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19474,6 +20515,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189935,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19497,6 +20539,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189937,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19520,6 +20563,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189932,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19543,6 +20587,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189933,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19566,6 +20611,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189934,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19589,6 +20635,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189936,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19614,6 +20661,7 @@ export const sections = {
   ],
   "2710": [
     {
+      unique_id: 189943,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19637,6 +20685,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189947,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19660,6 +20709,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189945,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19683,6 +20733,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189946,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19706,6 +20757,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189944,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19729,6 +20781,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189938,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19752,6 +20805,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189939,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19775,6 +20829,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189940,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19798,6 +20853,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189941,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19821,6 +20877,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189942,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -19846,6 +20903,7 @@ export const sections = {
   ],
   "2716": [
     {
+      unique_id: 189950,
       instructor: {
         name: "William P Halperin",
         bio: null,
@@ -19870,6 +20928,7 @@ export const sections = {
   ],
   "2721": [
     {
+      unique_id: 189951,
       instructor: {
         name: "Carl Eric Dahl",
         bio: null,
@@ -19893,6 +20952,7 @@ export const sections = {
   ],
   "2728": [
     {
+      unique_id: 189952,
       instructor: {
         name: "Kristian Allan Hahn",
         bio: null,
@@ -19916,6 +20976,7 @@ export const sections = {
   ],
   "2730": [
     {
+      unique_id: 190437,
       instructor: {
         name: "Michelle Millan Driscoll",
         bio: null,
@@ -19939,6 +21000,7 @@ export const sections = {
   ],
   "2732": [
     {
+      unique_id: 189956,
       instructor: {
         name: "Michelle Millan Driscoll",
         bio: null,
@@ -19955,6 +21017,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189957,
       instructor: {
         name: "Pulak Dutta",
         bio: null,
@@ -19972,6 +21035,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189958,
       instructor: {
         name: "Donald E Ellis",
         bio: null,
@@ -19989,6 +21053,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189959,
       instructor: {
         name: "Arthur J Freeman",
         bio: null,
@@ -20006,6 +21071,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189960,
       instructor: {
         name: "Enectali Figueroa-Feliciano",
         bio: null,
@@ -20022,6 +21088,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189961,
       instructor: {
         name: "Anupam K Garg",
         bio: null,
@@ -20039,6 +21106,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189962,
       instructor: {
         name: "Kristian Allan Hahn",
         bio: null,
@@ -20055,6 +21123,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189963,
       instructor: {
         name: "William P Halperin",
         bio: null,
@@ -20072,6 +21141,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189964,
       instructor: {
         name: "Chris Johnson Jacobsen",
         bio: null,
@@ -20089,6 +21159,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189965,
       instructor: {
         name: "John B Ketterson",
         bio: null,
@@ -20106,6 +21177,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189966,
       instructor: {
         name: "Jens Koch",
         bio: null,
@@ -20123,6 +21195,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189967,
       instructor: {
         name: "Ian Low",
         bio: null,
@@ -20140,6 +21213,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189968,
       instructor: {
         name: "John F Marko",
         bio: null,
@@ -20156,6 +21230,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189969,
       instructor: {
         name: "Adilson E Motter",
         bio: null,
@@ -20173,6 +21248,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189970,
       instructor: {
         name: "Brian C Odom",
         bio: null,
@@ -20190,6 +21266,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189971,
       instructor: {
         name: "Francis John Petriello",
         bio: null,
@@ -20207,6 +21284,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189972,
       instructor: {
         name: "Andrew J Rivers",
         bio: null,
@@ -20223,6 +21301,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189973,
       instructor: {
         name: "James A Sauls",
         bio: null,
@@ -20240,6 +21319,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189974,
       instructor: {
         name: "Heidi M Schellman",
         bio: null,
@@ -20257,6 +21337,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189975,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -20275,6 +21356,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189976,
       instructor: {
         name: "Michael H Schmitt",
         bio: null,
@@ -20292,6 +21374,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189978,
       instructor: {
         name: "Sara A Solla",
         bio: null,
@@ -20308,6 +21391,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189980,
       instructor: {
         name: "Mayda Velasco",
         bio: null,
@@ -20325,6 +21409,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189955,
       instructor: {
         name: "Andre Luiz De Gouvea",
         bio: null,
@@ -20342,6 +21427,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189954,
       instructor: {
         name: "Carl Eric Dahl",
         bio: null,
@@ -20358,6 +21444,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189953,
       instructor: {
         name: "Venkat Chandrasekhar",
         bio: null,
@@ -20375,6 +21462,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189977,
       instructor: {
         name: "Kamal K Seth",
         bio: null,
@@ -20392,6 +21480,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189979,
       instructor: {
         name: "Nathaniel Patrick Stern",
         bio: null,
@@ -20408,6 +21497,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190418,
       instructor: {
         name: "John Joseph Carrasco",
         bio: null,
@@ -20426,6 +21516,7 @@ export const sections = {
   ],
   "2734": [
     {
+      unique_id: 189982,
       instructor: {
         name: "Francis John Petriello",
         bio: null,
@@ -20450,6 +21541,7 @@ export const sections = {
   ],
   "2736": [
     {
+      unique_id: 189983,
       instructor: {
         name: "Brian C Odom",
         bio: null,
@@ -20474,6 +21566,7 @@ export const sections = {
   ],
   "2741": [
     {
+      unique_id: 189986,
       instructor: {
         name: "Ian Low",
         bio: null,
@@ -20498,6 +21591,7 @@ export const sections = {
   ],
   "2749": [
     {
+      unique_id: 189985,
       instructor: {
         name: "Venkat Chandrasekhar",
         bio: null,
@@ -20522,6 +21616,7 @@ export const sections = {
   ],
   "2765": [
     {
+      unique_id: 189993,
       instructor: {
         name: "Jason W Seawright",
         bio: null,
@@ -20543,6 +21638,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189992,
       instructor: {
         name: "Lawrence L Stuelpnagel",
         bio: null,
@@ -20564,6 +21660,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189991,
       instructor: {
         name: "Susan Sara Monoson-Berns",
         bio: null,
@@ -20585,6 +21682,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189994,
       instructor: {
         name: "Ricardo Galliano Court",
         bio: null,
@@ -20606,6 +21704,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189995,
       instructor: {
         name: "William S Reno",
         bio: null,
@@ -20629,6 +21728,7 @@ export const sections = {
   ],
   "2768": [
     {
+      unique_id: 189998,
       instructor: {
         name: "Thomas Kenneth Ogorzalek",
         bio:
@@ -20653,6 +21753,7 @@ export const sections = {
   ],
   "2769": [
     {
+      unique_id: 190003,
       instructor: {
         name: "Reuel R Rogers",
         bio:
@@ -20677,6 +21778,7 @@ export const sections = {
   ],
   "2771": [
     {
+      unique_id: 189999,
       instructor: {
         name: "Hendrik Spruyt",
         bio: null,
@@ -20700,6 +21802,7 @@ export const sections = {
   ],
   "2772": [
     {
+      unique_id: 190000,
       instructor: {
         name: "Andrew L Roberts",
         bio: null,
@@ -20724,6 +21827,7 @@ export const sections = {
   ],
   "2790": [
     {
+      unique_id: 190005,
       instructor: {
         name: "Galya Benarieh Ruffer",
         bio: null,
@@ -20747,6 +21851,7 @@ export const sections = {
   ],
   "2797": [
     {
+      unique_id: 190007,
       instructor: {
         name: "Jeffrey Rice",
         bio:
@@ -20771,6 +21876,7 @@ export const sections = {
   ],
   "2811": [
     {
+      unique_id: 190010,
       instructor: {
         name: "Andrew L Roberts",
         bio: null,
@@ -20795,6 +21901,7 @@ export const sections = {
   ],
   "2818": [
     {
+      unique_id: 190013,
       instructor: {
         name: "Julianne Lee Merseth Cook",
         bio: null,
@@ -20816,6 +21923,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190012,
       instructor: {
         name: "Loubna El Amine",
         bio:
@@ -20839,6 +21947,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190014,
       instructor: {
         name: "Shmuel Nili",
         bio:
@@ -20864,6 +21973,7 @@ export const sections = {
   ],
   "2819": [
     {
+      unique_id: 190015,
       instructor: {
         name: "Cody S Keenan",
         bio: null,
@@ -20885,6 +21995,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190016,
       instructor: {
         name: "Jonathan J Allen",
         bio: null,
@@ -20903,6 +22014,7 @@ export const sections = {
   ],
   "2820": [
     {
+      unique_id: 190018,
       instructor: {
         name: "Jeffrey Rice",
         bio:
@@ -20925,6 +22037,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190017,
       instructor: {
         name: "Jeffrey A Winters",
         bio: null,
@@ -20946,6 +22059,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190019,
       instructor: {
         name: "Reuel R Rogers",
         bio:
@@ -20968,6 +22082,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190020,
       instructor: {
         name: "Alvin Bernard Tillery",
         bio: "http://www.polisci.northwestern.edu/people/AlvinTillery.html",
@@ -20991,6 +22106,7 @@ export const sections = {
   ],
   "2822": [
     {
+      unique_id: 190021,
       instructor: {
         name: "Stephen C Nelson",
         bio: "http://faculty.wcas.northwestern.edu/~scn407/",
@@ -21014,6 +22130,7 @@ export const sections = {
   ],
   "2827": [
     {
+      unique_id: 190022,
       instructor: {
         name: "Jean Marie Clipperton",
         bio: null,
@@ -21037,6 +22154,7 @@ export const sections = {
   ],
   "2833": [
     {
+      unique_id: 190024,
       instructor: {
         name: "Alvin Bernard Tillery",
         bio: "http://www.polisci.northwestern.edu/people/AlvinTillery.html",
@@ -21060,6 +22178,7 @@ export const sections = {
   ],
   "2845": [
     {
+      unique_id: 190026,
       instructor: {
         name: "Jeffrey A Winters",
         bio: null,
@@ -21083,6 +22202,7 @@ export const sections = {
   ],
   "2861": [
     {
+      unique_id: 190025,
       instructor: {
         name: "Stephen C Nelson",
         bio: "http://faculty.wcas.northwestern.edu/~scn407/",
@@ -21106,6 +22226,7 @@ export const sections = {
   ],
   "2862": [
     {
+      unique_id: 190031,
       instructor: {
         name: "Hendrik Spruyt",
         bio: null,
@@ -21127,6 +22248,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190030,
       instructor: {
         name: "Zekeria Ahmed Salem Denna",
         bio:
@@ -21149,6 +22271,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190029,
       instructor: {
         name: "Jordan Luc Gans-Morse",
         bio: null,
@@ -21170,6 +22293,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190028,
       instructor: {
         name: "Shmuel Nili",
         bio:
@@ -21193,6 +22317,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190027,
       instructor: {
         name: "Jacqueline Stevens",
         bio: null,
@@ -21216,6 +22341,7 @@ export const sections = {
   ],
   "2873": [
     {
+      unique_id: 190037,
       instructor: {
         name: "Marcia F Grabowecky",
         bio: null,
@@ -21237,6 +22363,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190036,
       instructor: {
         name: "Benjamin J Gorvine",
         bio:
@@ -21254,6 +22381,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190038,
       instructor: {
         name: "Ginger L. Pennington",
         bio:
@@ -21278,6 +22406,7 @@ export const sections = {
   ],
   "2874": [
     {
+      unique_id: 190039,
       instructor: {
         name: "Wendi L Gardner",
         bio:
@@ -21302,6 +22431,7 @@ export const sections = {
   ],
   "2875": [
     {
+      unique_id: 190040,
       instructor: {
         name: "John Michael Bailey",
         bio:
@@ -21326,6 +22456,7 @@ export const sections = {
   ],
   "2876": [
     {
+      unique_id: 190045,
       instructor: {
         name: "Galen V Bodenhausen",
         bio: null,
@@ -21349,6 +22480,7 @@ export const sections = {
   ],
   "2877": [
     {
+      unique_id: 190043,
       instructor: {
         name: "Melisa Menceloglu",
         bio: null,
@@ -21370,6 +22502,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190041,
       instructor: {
         name: "David H Uttal",
         bio: null,
@@ -21386,6 +22519,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190044,
       instructor: {
         name: "Alissa Levy Chung",
         bio: null,
@@ -21407,6 +22541,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190042,
       instructor: {
         name: "Benjamin J Gorvine",
         bio:
@@ -21426,6 +22561,7 @@ export const sections = {
   ],
   "2878": [
     {
+      unique_id: 190047,
       instructor: {
         name: "Robin Nusslock",
         bio: null,
@@ -21449,6 +22585,7 @@ export const sections = {
   ],
   "2879": [
     {
+      unique_id: 190046,
       instructor: {
         name: "Dan P McAdams",
         bio: null,
@@ -21472,6 +22609,7 @@ export const sections = {
   ],
   "2880": [
     {
+      unique_id: 190049,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -21496,6 +22634,7 @@ export const sections = {
   ],
   "2881": [
     {
+      unique_id: 190048,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -21520,6 +22659,7 @@ export const sections = {
   ],
   "2884": [
     {
+      unique_id: 190051,
       instructor: {
         name: "Renee Suzanne Engeln",
         bio: null,
@@ -21543,6 +22683,7 @@ export const sections = {
   ],
   "2887": [
     {
+      unique_id: 190053,
       instructor: {
         name: "Joel P Rosenfeld",
         bio: null,
@@ -21566,6 +22707,7 @@ export const sections = {
   ],
   "2894": [
     {
+      unique_id: 190054,
       instructor: {
         name: "Satoru Suzuki",
         bio: null,
@@ -21589,6 +22731,7 @@ export const sections = {
   ],
   "2895": [
     {
+      unique_id: 190056,
       instructor: {
         name: "Alissa Levy Chung",
         bio: null,
@@ -21612,6 +22755,7 @@ export const sections = {
   ],
   "2899": [
     {
+      unique_id: 190057,
       instructor: {
         name: "Harry David Smith",
         bio: null,
@@ -21635,6 +22779,7 @@ export const sections = {
   ],
   "2903": [
     {
+      unique_id: 190058,
       instructor: {
         name: "Harry David Smith",
         bio: null,
@@ -21658,6 +22803,7 @@ export const sections = {
   ],
   "2905": [
     {
+      unique_id: 190055,
       instructor: {
         name: "Kenneth Alan Paller",
         bio: null,
@@ -21681,6 +22827,7 @@ export const sections = {
   ],
   "2908": [
     {
+      unique_id: 190052,
       instructor: {
         name: "Galen V Bodenhausen",
         bio: null,
@@ -21704,6 +22851,7 @@ export const sections = {
   ],
   "2913": [
     {
+      unique_id: 190071,
       instructor: {
         name: "Renee Suzanne Engeln",
         bio: null,
@@ -21720,6 +22868,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190072,
       instructor: {
         name: "Dan P McAdams",
         bio: null,
@@ -21736,6 +22885,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190073,
       instructor: {
         name: "Leoandra Elaine Rogers",
         bio: null,
@@ -21752,6 +22902,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190077,
       instructor: {
         name: "Eli J Finkel",
         bio: null,
@@ -21768,6 +22919,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190078,
       instructor: {
         name: "Douglas L Medin",
         bio: null,
@@ -21784,6 +22936,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190079,
       instructor: {
         name: "William S Horton",
         bio: null,
@@ -21800,6 +22953,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190080,
       instructor: {
         name: "Mark Elliot Beeman",
         bio: null,
@@ -21816,6 +22970,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190081,
       instructor: {
         name: "Joel P Rosenfeld",
         bio: null,
@@ -21832,6 +22987,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190085,
       instructor: {
         name: "Harry David Smith",
         bio: null,
@@ -21848,6 +23004,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190086,
       instructor: {
         name: "Marcia F Grabowecky",
         bio: null,
@@ -21864,6 +23021,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190087,
       instructor: {
         name: "Lance Jeffrey Rips",
         bio: null,
@@ -21880,6 +23038,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190088,
       instructor: {
         name: "Paul J Reber",
         bio: null,
@@ -21896,6 +23055,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190089,
       instructor: {
         name: "Richard E Zinbarg",
         bio: null,
@@ -21912,6 +23072,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190090,
       instructor: {
         name: "Daniel C Molden",
         bio: null,
@@ -21928,6 +23089,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190091,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -21945,6 +23107,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190092,
       instructor: {
         name: "Andrew J Ortony",
         bio: null,
@@ -21961,6 +23124,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190094,
       instructor: {
         name: "Jennifer Lee Tackett",
         bio: null,
@@ -21977,6 +23141,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190082,
       instructor: {
         name: "Sylvia Patrice Perry",
         bio: null,
@@ -21993,6 +23158,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190083,
       instructor: {
         name: "David Neil Rapp",
         bio: null,
@@ -22009,6 +23175,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190084,
       instructor: {
         name: "Satoru Suzuki",
         bio: null,
@@ -22025,6 +23192,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190069,
       instructor: {
         name: "Dedre Gentner",
         bio: null,
@@ -22041,6 +23209,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190074,
       instructor: {
         name: "Susan J Hespos",
         bio: null,
@@ -22057,6 +23226,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190076,
       instructor: {
         name: "William R Revelle",
         bio: null,
@@ -22073,6 +23243,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190068,
       instructor: {
         name: "Galen V Bodenhausen",
         bio: null,
@@ -22089,6 +23260,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190066,
       instructor: {
         name: "Wendi L Gardner",
         bio:
@@ -22106,6 +23278,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190065,
       instructor: {
         name: "Sandra R Waxman",
         bio: null,
@@ -22122,6 +23295,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190064,
       instructor: {
         name: "David H Uttal",
         bio: null,
@@ -22138,6 +23312,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190063,
       instructor: {
         name: "Robin Nusslock",
         bio: null,
@@ -22154,6 +23329,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190062,
       instructor: {
         name: "Susan Mineka",
         bio: null,
@@ -22170,6 +23346,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190061,
       instructor: {
         name: "Alice H Eagly",
         bio: null,
@@ -22186,6 +23363,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190093,
       instructor: {
         name: "Vijay Anand Mittal",
         bio: null,
@@ -22202,6 +23380,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190070,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -22218,6 +23397,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190075,
       instructor: {
         name: "Kenneth Alan Paller",
         bio: null,
@@ -22234,6 +23414,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190067,
       instructor: {
         name: "John Michael Bailey",
         bio:
@@ -22253,6 +23434,7 @@ export const sections = {
   ],
   "2914": [
     {
+      unique_id: 190127,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -22270,6 +23452,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190110,
       instructor: {
         name: "Susan Mineka",
         bio: null,
@@ -22286,6 +23469,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190111,
       instructor: {
         name: "Kenneth Alan Paller",
         bio: null,
@@ -22302,6 +23486,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190112,
       instructor: {
         name: "Gregory Evan Miller",
         bio: null,
@@ -22318,6 +23503,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190113,
       instructor: {
         name: "William R Revelle",
         bio: null,
@@ -22334,6 +23520,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190118,
       instructor: {
         name: "Jennifer Lee Tackett",
         bio: null,
@@ -22350,6 +23537,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190119,
       instructor: {
         name: "Satoru Suzuki",
         bio: null,
@@ -22366,6 +23554,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190114,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -22382,6 +23571,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190120,
       instructor: {
         name: "Leoandra Elaine Rogers",
         bio: null,
@@ -22398,6 +23588,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190115,
       instructor: {
         name: "Douglas L Medin",
         bio: null,
@@ -22414,6 +23605,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190116,
       instructor: {
         name: "Renee Suzanne Engeln",
         bio: null,
@@ -22430,6 +23622,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190117,
       instructor: {
         name: "David Neil Rapp",
         bio: null,
@@ -22446,6 +23639,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190109,
       instructor: {
         name: "Harry David Smith",
         bio: null,
@@ -22462,6 +23656,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190128,
       instructor: {
         name: "Lance Jeffrey Rips",
         bio: null,
@@ -22478,6 +23673,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190122,
       instructor: {
         name: "Richard E Zinbarg",
         bio: null,
@@ -22494,6 +23690,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190123,
       instructor: {
         name: "Mark Elliot Beeman",
         bio: null,
@@ -22510,6 +23707,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190124,
       instructor: {
         name: "Susan J Hespos",
         bio: null,
@@ -22526,6 +23724,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190125,
       instructor: {
         name: "Eli J Finkel",
         bio: null,
@@ -22542,6 +23741,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190126,
       instructor: {
         name: "Daniel C Molden",
         bio: null,
@@ -22558,6 +23758,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190129,
       instructor: {
         name: "Sylvia Patrice Perry",
         bio: null,
@@ -22574,6 +23775,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190121,
       instructor: {
         name: "Paul J Reber",
         bio: null,
@@ -22590,6 +23792,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190095,
       instructor: {
         name: "Galen V Bodenhausen",
         bio: null,
@@ -22606,6 +23809,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190096,
       instructor: {
         name: "Alice H Eagly",
         bio: null,
@@ -22622,6 +23826,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190097,
       instructor: {
         name: "Emma K Adam",
         bio: null,
@@ -22638,6 +23843,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190098,
       instructor: {
         name: "Wendi L Gardner",
         bio:
@@ -22655,6 +23861,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190100,
       instructor: {
         name: "William S Horton",
         bio: null,
@@ -22671,6 +23878,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190099,
       instructor: {
         name: "Joel P Rosenfeld",
         bio: null,
@@ -22687,6 +23895,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190101,
       instructor: {
         name: "David H Uttal",
         bio: null,
@@ -22703,6 +23912,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190102,
       instructor: {
         name: "Sandra R Waxman",
         bio: null,
@@ -22719,6 +23929,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190103,
       instructor: {
         name: "Marcia F Grabowecky",
         bio: null,
@@ -22735,6 +23946,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190104,
       instructor: {
         name: "John Michael Bailey",
         bio:
@@ -22752,6 +23964,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190105,
       instructor: {
         name: "Dedre Gentner",
         bio: null,
@@ -22768,6 +23981,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190106,
       instructor: {
         name: "Vijay Anand Mittal",
         bio: null,
@@ -22784,6 +23998,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190107,
       instructor: {
         name: "Robin Nusslock",
         bio: null,
@@ -22800,6 +24015,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190108,
       instructor: {
         name: "Dan P McAdams",
         bio: null,
@@ -22818,6 +24034,7 @@ export const sections = {
   ],
   "2915": [
     {
+      unique_id: 190130,
       instructor: {
         name: "Daniel C Molden",
         bio: null,
@@ -22841,6 +24058,7 @@ export const sections = {
   ],
   "2919": [
     {
+      unique_id: 190131,
       instructor: {
         name: "",
         bio: null,
@@ -22864,6 +24082,7 @@ export const sections = {
   ],
   "2926": [
     {
+      unique_id: 190133,
       instructor: {
         name: "",
         bio: null,
@@ -22882,6 +24101,7 @@ export const sections = {
   ],
   "2946": [
     {
+      unique_id: 190137,
       instructor: {
         name: "John Michael Bailey",
         bio:
@@ -22906,6 +24126,7 @@ export const sections = {
   ],
   "2949": [
     {
+      unique_id: 190140,
       instructor: {
         name: "Sandra R Waxman",
         bio: null,
@@ -22927,6 +24148,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190139,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -22950,6 +24172,7 @@ export const sections = {
   ],
   "2952": [
     {
+      unique_id: 190141,
       instructor: {
         name: "Caterina Gratton",
         bio: null,
@@ -22973,6 +24196,7 @@ export const sections = {
   ],
   "2956": [
     {
+      unique_id: 190142,
       instructor: {
         name: "Mesmin Patrick Destin",
         bio: null,
@@ -22996,6 +24220,7 @@ export const sections = {
   ],
   "2961": [
     {
+      unique_id: 190143,
       instructor: {
         name: "Wendi L Gardner",
         bio:
@@ -23020,6 +24245,7 @@ export const sections = {
   ],
   "2965": [
     {
+      unique_id: 190144,
       instructor: {
         name: "Jennifer Lee Tackett",
         bio: null,
@@ -23043,6 +24269,7 @@ export const sections = {
   ],
   "2971": [
     {
+      unique_id: 190145,
       instructor: {
         name: "Daniel K Mroczek",
         bio: null,
@@ -23066,6 +24293,7 @@ export const sections = {
   ],
   "2977": [
     {
+      unique_id: 189210,
       instructor: {
         name: "Kenneth D Forbus",
         bio: null,
@@ -23089,6 +24317,7 @@ export const sections = {
   ],
   "2981": [
     {
+      unique_id: 189211,
       instructor: {
         name: "William S Horton",
         bio: null,
@@ -23112,6 +24341,7 @@ export const sections = {
   ],
   "2982": [
     {
+      unique_id: 189212,
       instructor: {
         name: "Michael John Glanzberg",
         bio: null,
@@ -23130,6 +24360,7 @@ export const sections = {
   ],
   "2987": [
     {
+      unique_id: 189374,
       instructor: {
         name: "Lam-Thao Nguyen",
         bio: null,
@@ -23151,6 +24382,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189376,
       instructor: {
         name: "Fanny Alice Cleo Marchaisse",
         bio: null,
@@ -23172,6 +24404,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189378,
       instructor: {
         name: "Margaret M Dempster",
         bio: null,
@@ -23193,6 +24426,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189377,
       instructor: {
         name: "Xinyi Wei",
         bio: null,
@@ -23214,6 +24448,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189375,
       instructor: {
         name: "Celine Brigitte Jeanine Cotton",
         bio: null,
@@ -23237,6 +24472,7 @@ export const sections = {
   ],
   "2990": [
     {
+      unique_id: 189380,
       instructor: {
         name: "Margaret M Dempster",
         bio: null,
@@ -23253,6 +24489,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189379,
       instructor: {
         name: "Margaret M Dempster",
         bio: null,
@@ -23271,6 +24508,7 @@ export const sections = {
   ],
   "2993": [
     {
+      unique_id: 189381,
       instructor: {
         name: "Katia Viot-Southard",
         bio: null,
@@ -23292,6 +24530,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189382,
       instructor: {
         name: "Raja Ben Hammed",
         bio: null,
@@ -23313,6 +24552,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189385,
       instructor: {
         name: "Eloisa Bressan",
         bio: null,
@@ -23334,6 +24574,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189384,
       instructor: {
         name: "Caitlyn Patricia Doyle",
         bio: null,
@@ -23355,6 +24596,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189383,
       instructor: {
         name: "Caitlyn Patricia Doyle",
         bio: null,
@@ -23373,6 +24615,7 @@ export const sections = {
   ],
   "2997": [
     {
+      unique_id: 189392,
       instructor: {
         name: "",
         bio: null,
@@ -23394,6 +24637,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189391,
       instructor: {
         name: "Marie-Therese Pent",
         bio: null,
@@ -23415,6 +24659,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189393,
       instructor: {
         name: "Marie-Therese Pent",
         bio: null,
@@ -23438,6 +24683,7 @@ export const sections = {
   ],
   "2999": [
     {
+      unique_id: 189394,
       instructor: {
         name: "Christiane H E Rey",
         bio: null,
@@ -23461,6 +24707,7 @@ export const sections = {
   ],
   "3000": [
     {
+      unique_id: 189395,
       instructor: {
         name: "Marie-Therese Pent",
         bio: null,
@@ -23484,6 +24731,7 @@ export const sections = {
   ],
   "3002": [
     {
+      unique_id: 189396,
       instructor: {
         name: "Cynthia Nyree Nazarian",
         bio: null,
@@ -23502,6 +24750,7 @@ export const sections = {
   ],
   "3003": [
     {
+      unique_id: 189398,
       instructor: {
         name: "Dominique Mary Licops",
         bio:
@@ -23526,6 +24775,7 @@ export const sections = {
   ],
   "3012": [
     {
+      unique_id: 189400,
       instructor: {
         name: "Katia Viot-Southard",
         bio: null,
@@ -23544,6 +24794,7 @@ export const sections = {
   ],
   "3018": [
     {
+      unique_id: 189401,
       instructor: {
         name: "Aude Raymond",
         bio: null,
@@ -23567,6 +24818,7 @@ export const sections = {
   ],
   "3040": [
     {
+      unique_id: 189403,
       instructor: {
         name: "Jane Bradley Winston",
         bio: null,
@@ -23590,6 +24842,7 @@ export const sections = {
   ],
   "3063": [
     {
+      unique_id: 189406,
       instructor: {
         name: "Scott P Durham",
         bio: null,
@@ -23608,6 +24861,7 @@ export const sections = {
   ],
   "3066": [
     {
+      unique_id: 189407,
       instructor: {
         name: "Jane Bradley Winston",
         bio: null,
@@ -23626,6 +24880,7 @@ export const sections = {
   ],
   "3067": [
     {
+      unique_id: 189408,
       instructor: {
         name: "Christopher Paul Bush",
         bio: null,
@@ -23649,6 +24904,7 @@ export const sections = {
   ],
   "3073": [
     {
+      unique_id: 189409,
       instructor: {
         name: "",
         bio: null,
@@ -23667,6 +24923,7 @@ export const sections = {
   ],
   "3077": [
     {
+      unique_id: 189410,
       instructor: {
         name: "Nasrin Qader",
         bio: null,
@@ -23683,6 +24940,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189411,
       instructor: {
         name: "",
         bio: null,
@@ -23701,6 +24959,7 @@ export const sections = {
   ],
   "3078": [
     {
+      unique_id: 189677,
       instructor: {
         name: "Daniela Pozzi Pavan",
         bio: null,
@@ -23717,6 +24976,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189678,
       instructor: {
         name: "Lindsay Eufusia",
         bio: null,
@@ -23738,6 +24998,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189680,
       instructor: {
         name: "Alexandra Visconti McAdoo",
         bio: null,
@@ -23759,6 +25020,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189679,
       instructor: {
         name: "Daniela Pozzi Pavan",
         bio: null,
@@ -23782,6 +25044,7 @@ export const sections = {
   ],
   "3082": [
     {
+      unique_id: 189681,
       instructor: {
         name: "Daniela Pozzi Pavan",
         bio: null,
@@ -23798,6 +25061,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189683,
       instructor: {
         name: "Paola Morgavi",
         bio: null,
@@ -23814,6 +25078,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189682,
       instructor: {
         name: "Lindsay Eufusia",
         bio: null,
@@ -23837,6 +25102,7 @@ export const sections = {
   ],
   "3086": [
     {
+      unique_id: 189684,
       instructor: {
         name: "Alexandra Visconti McAdoo",
         bio: null,
@@ -23855,6 +25121,7 @@ export const sections = {
   ],
   "3089": [
     {
+      unique_id: 189685,
       instructor: {
         name: "Alexandra Visconti McAdoo",
         bio: null,
@@ -23873,6 +25140,7 @@ export const sections = {
   ],
   "3093": [
     {
+      unique_id: 189686,
       instructor: {
         name: "Paola Morgavi",
         bio: null,
@@ -23891,6 +25159,7 @@ export const sections = {
   ],
   "3097": [
     {
+      unique_id: 189687,
       instructor: {
         name: "Paola Nasti",
         bio: null,
@@ -23914,6 +25183,7 @@ export const sections = {
   ],
   "3136": [
     {
+      unique_id: 190233,
       instructor: {
         name: "Raquel Amorese",
         bio: null,
@@ -23930,6 +25200,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190232,
       instructor: {
         name: "Raquel Amorese",
         bio: null,
@@ -23946,6 +25217,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190234,
       instructor: {
         name: "Benay W Stein",
         bio: null,
@@ -23962,6 +25234,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190235,
       instructor: {
         name: "Benay W Stein",
         bio: null,
@@ -23978,6 +25251,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190239,
       instructor: {
         name: "Heather L Colburn",
         bio: null,
@@ -23999,6 +25273,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190240,
       instructor: {
         name: "Susan D. Pechter",
         bio: null,
@@ -24015,6 +25290,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190241,
       instructor: {
         name: "Susan D. Pechter",
         bio: null,
@@ -24036,6 +25312,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190236,
       instructor: {
         name: "",
         bio: null,
@@ -24052,6 +25329,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190237,
       instructor: {
         name: "Susan D. Pechter",
         bio: null,
@@ -24073,6 +25351,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190238,
       instructor: {
         name: "Benay W Stein",
         bio: null,
@@ -24091,6 +25370,7 @@ export const sections = {
   ],
   "3139": [
     {
+      unique_id: 190264,
       instructor: {
         name: "Maria Reyes Moran",
         bio:
@@ -24108,6 +25388,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190252,
       instructor: {
         name: "Maria Jesus Barros Garcia",
         bio: null,
@@ -24129,6 +25410,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190249,
       instructor: {
         name: "",
         bio: null,
@@ -24145,6 +25427,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190258,
       instructor: {
         name: "Anna G Diakow",
         bio: null,
@@ -24161,6 +25444,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190257,
       instructor: {
         name: "",
         bio: null,
@@ -24177,6 +25461,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190261,
       instructor: {
         name: "Shannon Nicole Millikin",
         bio: null,
@@ -24198,6 +25483,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190262,
       instructor: {
         name: "Jill M Felten",
         bio: null,
@@ -24214,6 +25500,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190260,
       instructor: {
         name: "",
         bio: null,
@@ -24230,6 +25517,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190259,
       instructor: {
         name: "Shannon Nicole Millikin",
         bio: null,
@@ -24251,6 +25539,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190247,
       instructor: {
         name: "Tasha Ann Seago-Ramaly",
         bio: null,
@@ -24272,6 +25561,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190248,
       instructor: {
         name: "Tasha Ann Seago-Ramaly",
         bio: null,
@@ -24293,6 +25583,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190250,
       instructor: {
         name: "Anna G Diakow",
         bio: null,
@@ -24309,6 +25600,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190251,
       instructor: {
         name: "Anna G Diakow",
         bio: null,
@@ -24325,6 +25617,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190255,
       instructor: {
         name: "Tasha Ann Seago-Ramaly",
         bio: null,
@@ -24346,6 +25639,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190256,
       instructor: {
         name: "Jill M Felten",
         bio: null,
@@ -24367,6 +25661,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190254,
       instructor: {
         name: "Chyi Chung",
         bio:
@@ -24389,6 +25684,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190244,
       instructor: {
         name: "",
         bio: null,
@@ -24405,6 +25701,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190246,
       instructor: {
         name: "",
         bio: null,
@@ -24426,6 +25723,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190265,
       instructor: {
         name: "Jill M Felten",
         bio: null,
@@ -24442,6 +25740,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190253,
       instructor: {
         name: "Elena Lanza",
         bio:
@@ -24464,6 +25763,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190263,
       instructor: {
         name: "",
         bio: null,
@@ -24480,6 +25780,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190245,
       instructor: {
         name: "",
         bio: null,
@@ -24503,6 +25804,7 @@ export const sections = {
   ],
   "3142": [
     {
+      unique_id: 190243,
       instructor: {
         name: "Patricia Ellen Nichols",
         bio: null,
@@ -24524,6 +25826,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190242,
       instructor: {
         name: "Deborah S Rosenberg",
         bio: null,
@@ -24547,6 +25850,7 @@ export const sections = {
   ],
   "3157": [
     {
+      unique_id: 190284,
       instructor: {
         name: "",
         bio: null,
@@ -24568,6 +25872,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190283,
       instructor: {
         name: "Maria Reyes Moran",
         bio:
@@ -24592,6 +25897,7 @@ export const sections = {
   ],
   "3158": [
     {
+      unique_id: 190290,
       instructor: {
         name: "Elisa Baena",
         bio: null,
@@ -24608,6 +25914,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190288,
       instructor: {
         name: "Denise Bouras",
         bio: null,
@@ -24629,6 +25936,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190286,
       instructor: {
         name: "Elisa Baena",
         bio: null,
@@ -24645,6 +25953,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190287,
       instructor: {
         name: "",
         bio: null,
@@ -24666,6 +25975,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190289,
       instructor: {
         name: "Elisa Baena",
         bio: null,
@@ -24687,6 +25997,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190291,
       instructor: {
         name: "",
         bio: null,
@@ -24710,6 +26021,7 @@ export const sections = {
   ],
   "3160": [
     {
+      unique_id: 190295,
       instructor: {
         name: "",
         bio: null,
@@ -24728,6 +26040,7 @@ export const sections = {
   ],
   "3162": [
     {
+      unique_id: 190297,
       instructor: {
         name: "Jeronimo Duarte Riascos",
         bio: null,
@@ -24749,6 +26062,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190296,
       instructor: {
         name: "Lucille Kerr",
         bio: null,
@@ -24767,6 +26081,7 @@ export const sections = {
   ],
   "3167": [
     {
+      unique_id: 190438,
       instructor: {
         name: "",
         bio: null,
@@ -24790,6 +26105,7 @@ export const sections = {
   ],
   "3168": [
     {
+      unique_id: 190298,
       instructor: {
         name: "Nathalie Bouzaglou",
         bio: null,
@@ -24813,6 +26129,7 @@ export const sections = {
   ],
   "3169": [
     {
+      unique_id: 190293,
       instructor: {
         name: "Denise Bouras",
         bio: null,
@@ -24834,6 +26151,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190294,
       instructor: {
         name: "Denise Bouras",
         bio: null,
@@ -24850,6 +26168,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190292,
       instructor: {
         name: "",
         bio: null,
@@ -24868,6 +26187,7 @@ export const sections = {
   ],
   "3170": [
     {
+      unique_id: 190285,
       instructor: {
         name: "",
         bio: null,
@@ -24891,6 +26211,7 @@ export const sections = {
   ],
   "3187": [
     {
+      unique_id: 190299,
       instructor: {
         name: "Jorge F Coronado",
         bio: null,
@@ -24909,6 +26230,7 @@ export const sections = {
   ],
   "3194": [
     {
+      unique_id: 190301,
       instructor: {
         name: "Jorge F Coronado",
         bio: null,
@@ -24927,6 +26249,7 @@ export const sections = {
   ],
   "3198": [
     {
+      unique_id: 190302,
       instructor: {
         name: "Maria Alejandra Uslenghi",
         bio: null,
@@ -24943,6 +26266,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190354,
       instructor: {
         name: "",
         bio: null,
@@ -24961,6 +26285,7 @@ export const sections = {
   ],
   "3216": [
     {
+      unique_id: 190176,
       instructor: {
         name: "Natalia Malinina",
         bio: null,
@@ -24977,6 +26302,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190175,
       instructor: {
         name: "Natalia Malinina",
         bio: null,
@@ -24995,6 +26321,7 @@ export const sections = {
   ],
   "3219": [
     {
+      unique_id: 190177,
       instructor: {
         name: "Nadezhda Vinogradova",
         bio: null,
@@ -25013,6 +26340,7 @@ export const sections = {
   ],
   "3222": [
     {
+      unique_id: 190180,
       instructor: {
         name: "Elisabeth M Elliott",
         bio: null,
@@ -25031,6 +26359,7 @@ export const sections = {
   ],
   "3227": [
     {
+      unique_id: 190178,
       instructor: {
         name: "Natalia Malinina",
         bio: null,
@@ -25049,6 +26378,7 @@ export const sections = {
   ],
   "3234": [
     {
+      unique_id: 190181,
       instructor: {
         name: "Gary S Morson",
         bio: null,
@@ -25072,6 +26402,7 @@ export const sections = {
   ],
   "3246": [
     {
+      unique_id: 190179,
       instructor: {
         name: "Thomas Feerick",
         bio: null,
@@ -25090,6 +26421,7 @@ export const sections = {
   ],
   "3252": [
     {
+      unique_id: 190182,
       instructor: {
         name: "Susan McReynolds Oddo",
         bio: null,
@@ -25113,6 +26445,7 @@ export const sections = {
   ],
   "3262": [
     {
+      unique_id: 190183,
       instructor: {
         name: "Ilya Kutik",
         bio: null,
@@ -25136,6 +26469,7 @@ export const sections = {
   ],
   "3267": [
     {
+      unique_id: 190184,
       instructor: {
         name: "Ilya Kutik",
         bio: null,
@@ -25159,6 +26493,7 @@ export const sections = {
   ],
   "3273": [
     {
+      unique_id: 190185,
       instructor: {
         name: "Ian C Kelly",
         bio: null,
@@ -25182,6 +26517,7 @@ export const sections = {
   ],
   "3283": [
     {
+      unique_id: 190186,
       instructor: {
         name: "Clare A Cavanagh",
         bio: null,
@@ -25205,6 +26541,7 @@ export const sections = {
   ],
   "3297": [
     {
+      unique_id: 190191,
       instructor: {
         name: "Susan McReynolds Oddo",
         bio: null,
@@ -25221,6 +26558,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190189,
       instructor: {
         name: "Gary S Morson",
         bio: null,
@@ -25237,6 +26575,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190188,
       instructor: {
         name: "Ilya Kutik",
         bio: null,
@@ -25253,6 +26592,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190190,
       instructor: {
         name: "Clare A Cavanagh",
         bio: null,
@@ -25269,6 +26609,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190187,
       instructor: {
         name: "Elisabeth M Elliott",
         bio: null,
@@ -25287,6 +26628,7 @@ export const sections = {
   ],
   "3305": [
     {
+      unique_id: 190193,
       instructor: {
         name: "Karrie A Snyder",
         bio:
@@ -25309,6 +26651,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190192,
       instructor: {
         name: "Wendy Griswold",
         bio: null,
@@ -25332,6 +26675,7 @@ export const sections = {
   ],
   "3306": [
     {
+      unique_id: 190194,
       instructor: {
         name: "",
         bio: null,
@@ -25355,6 +26699,7 @@ export const sections = {
   ],
   "3307": [
     {
+      unique_id: 190195,
       instructor: {
         name: "Beth Jane Ortiz Ott Red Bird",
         bio: null,
@@ -25378,6 +26723,7 @@ export const sections = {
   ],
   "3312": [
     {
+      unique_id: 190196,
       instructor: {
         name: "Laura B Nielsen",
         bio: null,
@@ -25401,6 +26747,7 @@ export const sections = {
   ],
   "3315": [
     {
+      unique_id: 190199,
       instructor: {
         name: "Julia Andrea Behrman",
         bio: null,
@@ -25424,6 +26771,7 @@ export const sections = {
   ],
   "3316": [
     {
+      unique_id: 190200,
       instructor: {
         name: "Karrie A Snyder",
         bio:
@@ -25448,6 +26796,7 @@ export const sections = {
   ],
   "3317": [
     {
+      unique_id: 190201,
       instructor: {
         name: "Albert Dale Hunter",
         bio: null,
@@ -25471,6 +26820,7 @@ export const sections = {
   ],
   "3318": [
     {
+      unique_id: 190202,
       instructor: {
         name: "",
         bio: null,
@@ -25494,6 +26844,7 @@ export const sections = {
   ],
   "3321": [
     {
+      unique_id: 190204,
       instructor: {
         name: "Wendy N Espeland",
         bio: null,
@@ -25517,6 +26868,7 @@ export const sections = {
   ],
   "3322": [
     {
+      unique_id: 190205,
       instructor: {
         name: "Karrie A Snyder",
         bio:
@@ -25541,6 +26893,7 @@ export const sections = {
   ],
   "3329": [
     {
+      unique_id: 190208,
       instructor: {
         name: "Robert L Nelson",
         bio: null,
@@ -25564,6 +26917,7 @@ export const sections = {
   ],
   "3333": [
     {
+      unique_id: 190211,
       instructor: {
         name: "",
         bio: null,
@@ -25587,6 +26941,7 @@ export const sections = {
   ],
   "3335": [
     {
+      unique_id: 190212,
       instructor: {
         name: "Michael D Rodriguez",
         bio: null,
@@ -25610,6 +26965,7 @@ export const sections = {
   ],
   "3337": [
     {
+      unique_id: 190213,
       instructor: {
         name: "Ann Shola Orloff",
         bio: null,
@@ -25633,6 +26989,7 @@ export const sections = {
   ],
   "3345": [
     {
+      unique_id: 190215,
       instructor: {
         name: "Steven G Epstein",
         bio: null,
@@ -25656,6 +27013,7 @@ export const sections = {
   ],
   "3348": [
     {
+      unique_id: 190216,
       instructor: {
         name: "Charles M Camic",
         bio: null,
@@ -25679,6 +27037,7 @@ export const sections = {
   ],
   "3354": [
     {
+      unique_id: 190218,
       instructor: {
         name: "Gary A Fine",
         bio: null,
@@ -25702,6 +27061,7 @@ export const sections = {
   ],
   "3359": [
     {
+      unique_id: 190219,
       instructor: {
         name: "Charles M Camic",
         bio: null,
@@ -25725,6 +27085,7 @@ export const sections = {
   ],
   "3366": [
     {
+      unique_id: 190220,
       instructor: {
         name: "Wendy Griswold",
         bio: null,
@@ -25748,6 +27109,7 @@ export const sections = {
   ],
   "3371": [
     {
+      unique_id: 190225,
       instructor: {
         name: "Celeste Michele Watkins-Hayes",
         bio: null,
@@ -25764,6 +27126,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190427,
       instructor: {
         name: "",
         bio: null,
@@ -25785,6 +27148,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190224,
       instructor: {
         name: "Susan L Thistle",
         bio: null,
@@ -25806,6 +27170,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190223,
       instructor: {
         name: "Ann Shola Orloff",
         bio: null,
@@ -25827,6 +27192,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190222,
       instructor: {
         name: "Hector G Carrillo",
         bio: null,
@@ -25848,6 +27214,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190221,
       instructor: {
         name: "Gary A Fine",
         bio: null,
@@ -25871,6 +27238,7 @@ export const sections = {
   ],
   "3379": [
     {
+      unique_id: 190227,
       instructor: {
         name: "",
         bio: null,
@@ -25894,6 +27262,7 @@ export const sections = {
   ],
   "3384": [
     {
+      unique_id: 190230,
       instructor: {
         name: "Gary A Fine",
         bio: null,
@@ -25915,6 +27284,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190228,
       instructor: {
         name: "Wendy Griswold",
         bio: null,
@@ -25936,6 +27306,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190231,
       instructor: {
         name: "Albert Dale Hunter",
         bio: null,
@@ -25957,6 +27328,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190229,
       instructor: {
         name: "Christine Marie Percheski",
         bio: null,
@@ -25980,6 +27352,7 @@ export const sections = {
   ],
   "3386": [
     {
+      unique_id: 190313,
       instructor: {
         name: "Sandy L Zabell",
         bio: null,
@@ -26003,6 +27376,7 @@ export const sections = {
   ],
   "3388": [
     {
+      unique_id: 190314,
       instructor: {
         name: "Arend Matthew Kuyper",
         bio: null,
@@ -26026,6 +27400,7 @@ export const sections = {
   ],
   "3390": [
     {
+      unique_id: 190315,
       instructor: {
         name: "Jeffrey Thomas Lewis",
         bio: null,
@@ -26049,6 +27424,7 @@ export const sections = {
   ],
   "3393": [
     {
+      unique_id: 190319,
       instructor: {
         name: "Bruce David Spencer",
         bio: null,
@@ -26072,6 +27448,7 @@ export const sections = {
   ],
   "3394": [
     {
+      unique_id: 190320,
       instructor: {
         name: "Martin A Tanner",
         bio: null,
@@ -26095,6 +27472,7 @@ export const sections = {
   ],
   "3403": [
     {
+      unique_id: 190323,
       instructor: {
         name: "Noelle I Samia",
         bio: null,
@@ -26118,6 +27496,7 @@ export const sections = {
   ],
   "3409": [
     {
+      unique_id: 190325,
       instructor: {
         name: "Noelle I Samia",
         bio: null,
@@ -26141,6 +27520,7 @@ export const sections = {
   ],
   "3418": [
     {
+      unique_id: 189414,
       instructor: {
         name: "Amy Ruth Partridge",
         bio: null,
@@ -26164,6 +27544,7 @@ export const sections = {
   ],
   "3425": [
     {
+      unique_id: 189426,
       instructor: {
         name: "Steven William Thrasher",
         bio: null,
@@ -26187,6 +27568,7 @@ export const sections = {
   ],
   "3432": [
     {
+      unique_id: 189428,
       instructor: {
         name: "Erin Leigh Andrews",
         bio: null,
@@ -26210,6 +27592,7 @@ export const sections = {
   ],
   "3433": [
     {
+      unique_id: 189429,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -26228,6 +27611,7 @@ export const sections = {
   ],
   "3444": [
     {
+      unique_id: 189655,
       instructor: {
         name: "Curt Michael Horvath",
         bio: null,
@@ -26244,6 +27628,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189657,
       instructor: {
         name: "Brian C Odom",
         bio: null,
@@ -26261,6 +27646,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189658,
       instructor: {
         name: "Neal E Blair",
         bio: null,
@@ -26277,6 +27663,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189659,
       instructor: {
         name: "Richard I Morimoto",
         bio: null,
@@ -26293,6 +27680,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189660,
       instructor: {
         name: "Douglas C Downey",
         bio: null,
@@ -26309,6 +27697,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189661,
       instructor: {
         name: "Danna E Freedman",
         bio: null,
@@ -26325,6 +27714,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189662,
       instructor: {
         name: "William P Halperin",
         bio: null,
@@ -26342,6 +27732,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189663,
       instructor: {
         name: "George C Schatz",
         bio: null,
@@ -26358,6 +27749,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189664,
       instructor: {
         name: "Timothy Light Kovachy",
         bio: null,
@@ -26374,6 +27766,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189665,
       instructor: {
         name: "William Robert Dichtel",
         bio: null,
@@ -26390,6 +27783,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189651,
       instructor: {
         name: "Frederic A Rasio",
         bio: null,
@@ -26407,6 +27801,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189652,
       instructor: {
         name: "Jason H Brickner",
         bio: null,
@@ -26423,6 +27818,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189654,
       instructor: {
         name: "Klinton O'Neal Bicknell",
         bio: null,
@@ -26439,6 +27835,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189646,
       instructor: {
         name: "Cynthia K Thompson",
         bio: null,
@@ -26455,6 +27852,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189647,
       instructor: {
         name: "Aleksandar Kuzmanovic",
         bio: null,
@@ -26471,6 +27869,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189648,
       instructor: {
         name: "Paul Umbanhowar",
         bio: null,
@@ -26487,6 +27886,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189649,
       instructor: {
         name: "Carl Eric Dahl",
         bio: null,
@@ -26503,6 +27903,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189650,
       instructor: {
         name: "Richard Bruce Silverman",
         bio: null,
@@ -26519,6 +27920,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189666,
       instructor: {
         name: "Yan Chen",
         bio: null,
@@ -26535,6 +27937,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189667,
       instructor: {
         name: "Laura Lynn Lackner",
         bio: null,
@@ -26551,6 +27954,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189668,
       instructor: {
         name: "Hao Zhang",
         bio: null,
@@ -26567,6 +27971,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189653,
       instructor: {
         name: "Thomas J Meade",
         bio: null,
@@ -26583,6 +27988,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189656,
       instructor: {
         name: "Andrew Lee",
         bio: null,
@@ -26601,6 +28007,7 @@ export const sections = {
   ],
   "3470": [
     {
+      unique_id: 189142,
       instructor: {
         name: "Monique Brunson Jones",
         bio: null,
@@ -26622,6 +28029,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189143,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -26643,6 +28051,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189144,
       instructor: {
         name: "Ryan M. Garino",
         bio: null,
@@ -26666,6 +28075,7 @@ export const sections = {
   ],
   "3477": [
     {
+      unique_id: 189669,
       instructor: {
         name: "Peter D Slevin",
         bio: null,
@@ -26687,6 +28097,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189670,
       instructor: {
         name: "Galya Benarieh Ruffer",
         bio: null,
@@ -26708,6 +28119,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189671,
       instructor: {
         name: "Ian C Kelly",
         bio: null,
@@ -26731,6 +28143,7 @@ export const sections = {
   ],
   "3484": [
     {
+      unique_id: 186868,
       instructor: {
         name: "Ryan Wayne Dohoney",
         bio:
@@ -26750,6 +28163,7 @@ export const sections = {
   ],
   "3485": [
     {
+      unique_id: 186893,
       instructor: {
         name: "Simon Amadeus Nugent",
         bio: null,
@@ -26766,6 +28180,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186894,
       instructor: {
         name: "Benjamin Isaac Weissman",
         bio: null,
@@ -26782,6 +28197,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186895,
       instructor: {
         name: "Thomas David Hicks",
         bio: null,
@@ -26800,6 +28216,7 @@ export const sections = {
   ],
   "3486": [
     {
+      unique_id: 186896,
       instructor: {
         name: "Brandon Michael Quarles",
         bio: null,
@@ -26818,6 +28235,7 @@ export const sections = {
   ],
   "3487": [
     {
+      unique_id: 186897,
       instructor: {
         name: "Taichi Fukumura",
         bio: null,
@@ -26836,6 +28254,7 @@ export const sections = {
   ],
   "3491": [
     {
+      unique_id: 186898,
       instructor: {
         name: "Benjamin Bartels Zucker",
         bio: null,
@@ -26854,6 +28273,7 @@ export const sections = {
   ],
   "3508": [
     {
+      unique_id: 186869,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -26870,6 +28290,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186870,
       instructor: {
         name: "Margaret M Kemper",
         bio: null,
@@ -26886,6 +28307,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186871,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -26904,6 +28326,7 @@ export const sections = {
   ],
   "3509": [
     {
+      unique_id: 186874,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -26920,6 +28343,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186875,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -26936,6 +28360,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186873,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -26952,6 +28377,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186876,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -26968,6 +28394,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186877,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -26986,6 +28413,7 @@ export const sections = {
   ],
   "3510": [
     {
+      unique_id: 186886,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27002,6 +28430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186889,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27018,6 +28447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186884,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27034,6 +28464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186888,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27050,6 +28481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186879,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27066,6 +28498,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186880,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27082,6 +28515,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186881,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27098,6 +28532,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186882,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27114,6 +28549,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186883,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27130,6 +28566,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186885,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27146,6 +28583,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186887,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27164,6 +28602,7 @@ export const sections = {
   ],
   "3511": [
     {
+      unique_id: 186890,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -27182,6 +28621,7 @@ export const sections = {
   ],
   "3515": [
     {
+      unique_id: 186962,
       instructor: {
         name: "Susan M. Piagentini",
         bio: null,
@@ -27198,6 +28638,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186960,
       instructor: {
         name: "Kenn Kumpf",
         bio: null,
@@ -27214,6 +28655,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186961,
       instructor: {
         name: "Liza Anna Sobel",
         bio: null,
@@ -27230,6 +28672,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186963,
       instructor: {
         name: "David S Carter",
         bio: null,
@@ -27246,6 +28689,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186964,
       instructor: {
         name: "David S Carter",
         bio: null,
@@ -27262,6 +28706,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186959,
       instructor: {
         name: "Susan M. Piagentini",
         bio: null,
@@ -27280,6 +28725,7 @@ export const sections = {
   ],
   "3518": [
     {
+      unique_id: 186965,
       instructor: {
         name: "",
         bio: null,
@@ -27296,6 +28742,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186969,
       instructor: {
         name: "Kenn Kumpf",
         bio: null,
@@ -27312,6 +28759,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186966,
       instructor: {
         name: "Kenn Kumpf",
         bio: null,
@@ -27328,6 +28776,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186967,
       instructor: {
         name: "Stefan Xavier Greenfield-Casas",
         bio: null,
@@ -27344,6 +28793,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186968,
       instructor: {
         name: "Evan Fojtik",
         bio: null,
@@ -27362,6 +28812,7 @@ export const sections = {
   ],
   "3522": [
     {
+      unique_id: 186984,
       instructor: {
         name: "Tomas Ignacio Gueglio Saccone",
         bio: null,
@@ -27378,6 +28829,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186985,
       instructor: {
         name: "Yangmingtian Zhao",
         bio: null,
@@ -27394,6 +28846,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186980,
       instructor: {
         name: "Frederick William Harvey Hosken",
         bio: null,
@@ -27410,6 +28863,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186981,
       instructor: {
         name: "Robert Andrew Reinhart",
         bio: null,
@@ -27426,6 +28880,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186982,
       instructor: {
         name: "Cella Caley Westray",
         bio: null,
@@ -27442,6 +28897,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186983,
       instructor: {
         name: "Aubrey Elizabeth Leaman",
         bio: null,
@@ -27460,6 +28916,7 @@ export const sections = {
   ],
   "3526": [
     {
+      unique_id: 186986,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -27481,6 +28938,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186987,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -27504,6 +28962,7 @@ export const sections = {
   ],
   "3530": [
     {
+      unique_id: 186992,
       instructor: {
         name: "David S Carter",
         bio: null,
@@ -27520,6 +28979,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186990,
       instructor: {
         name: "Miriam Shulman Piilonen",
         bio: null,
@@ -27536,6 +28996,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186991,
       instructor: {
         name: "Miriam Shulman Piilonen",
         bio: null,
@@ -27552,6 +29013,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186989,
       instructor: {
         name: "Yangmingtian Zhao",
         bio: null,
@@ -27568,6 +29030,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186988,
       instructor: {
         name: "Tomas Ignacio Gueglio Saccone",
         bio: null,
@@ -27586,6 +29049,7 @@ export const sections = {
   ],
   "3533": [
     {
+      unique_id: 186993,
       instructor: {
         name: "Annie Chia-Chien Hsiao",
         bio: null,
@@ -27604,6 +29068,7 @@ export const sections = {
   ],
   "3546": [
     {
+      unique_id: 186998,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27620,6 +29085,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186995,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27636,6 +29102,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186996,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27652,6 +29119,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186997,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27668,6 +29136,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186999,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27684,6 +29153,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187000,
       instructor: {
         name: "John M Henes",
         bio: null,
@@ -27702,6 +29172,7 @@ export const sections = {
   ],
   "3549": [
     {
+      unique_id: 187002,
       instructor: {
         name: "Linda Ann Jacobs",
         bio: null,
@@ -27720,6 +29191,7 @@ export const sections = {
   ],
   "3572": [
     {
+      unique_id: 187007,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -27738,6 +29210,7 @@ export const sections = {
   ],
   "3575": [
     {
+      unique_id: 187008,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -27756,6 +29229,7 @@ export const sections = {
   ],
   "3578": [
     {
+      unique_id: 187009,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -27774,6 +29248,7 @@ export const sections = {
   ],
   "3581": [
     {
+      unique_id: 187010,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -27792,6 +29267,7 @@ export const sections = {
   ],
   "3587": [
     {
+      unique_id: 187038,
       instructor: {
         name: "",
         bio: null,
@@ -27810,6 +29286,7 @@ export const sections = {
   ],
   "3595": [
     {
+      unique_id: 187039,
       instructor: {
         name: "",
         bio: null,
@@ -27828,6 +29305,7 @@ export const sections = {
   ],
   "3602": [
     {
+      unique_id: 187086,
       instructor: {
         name: "Samuel Robert Scranton",
         bio: null,
@@ -27846,6 +29324,7 @@ export const sections = {
   ],
   "3603": [
     {
+      unique_id: 187040,
       instructor: {
         name: "Sarah J Bartolome",
         bio: null,
@@ -27864,6 +29343,7 @@ export const sections = {
   ],
   "3609": [
     {
+      unique_id: 187042,
       instructor: {
         name: "Sarah J Bartolome",
         bio: null,
@@ -27882,6 +29362,7 @@ export const sections = {
   ],
   "3620": [
     {
+      unique_id: 187048,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27900,6 +29381,7 @@ export const sections = {
   ],
   "3621": [
     {
+      unique_id: 187049,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27918,6 +29400,7 @@ export const sections = {
   ],
   "3622": [
     {
+      unique_id: 187050,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27936,6 +29419,7 @@ export const sections = {
   ],
   "3623": [
     {
+      unique_id: 187051,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27954,6 +29438,7 @@ export const sections = {
   ],
   "3624": [
     {
+      unique_id: 187052,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27972,6 +29457,7 @@ export const sections = {
   ],
   "3625": [
     {
+      unique_id: 187053,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -27990,6 +29476,7 @@ export const sections = {
   ],
   "3627": [
     {
+      unique_id: 187055,
       instructor: {
         name: "Steven McGregor Demorest",
         bio: null,
@@ -28008,6 +29495,7 @@ export const sections = {
   ],
   "3630": [
     {
+      unique_id: 187056,
       instructor: {
         name: "Steven McGregor Demorest",
         bio: null,
@@ -28026,6 +29514,7 @@ export const sections = {
   ],
   "3637": [
     {
+      unique_id: 187057,
       instructor: {
         name: "",
         bio: null,
@@ -28044,6 +29533,7 @@ export const sections = {
   ],
   "3657": [
     {
+      unique_id: 187015,
       instructor: {
         name: "Linda P Austern",
         bio:
@@ -28063,6 +29553,7 @@ export const sections = {
   ],
   "3660": [
     {
+      unique_id: 187016,
       instructor: {
         name: "Jesse Rosenberg",
         bio:
@@ -28082,6 +29573,7 @@ export const sections = {
   ],
   "3661": [
     {
+      unique_id: 187017,
       instructor: {
         name: "Scott Douglas Paulin",
         bio:
@@ -28101,6 +29593,7 @@ export const sections = {
   ],
   "3662": [
     {
+      unique_id: 187020,
       instructor: {
         name: "Jesse Rosenberg",
         bio:
@@ -28118,6 +29611,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187021,
       instructor: {
         name: "Drew Edward Davies",
         bio:
@@ -28135,6 +29629,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187022,
       instructor: {
         name: "Ryan Wayne Dohoney",
         bio:
@@ -28152,6 +29647,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187023,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -28168,6 +29664,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187019,
       instructor: {
         name: "Inna I Naroditskaya",
         bio: null,
@@ -28184,6 +29681,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187018,
       instructor: {
         name: "Linda P Austern",
         bio:
@@ -28203,6 +29701,7 @@ export const sections = {
   ],
   "3704": [
     {
+      unique_id: 187089,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -28222,6 +29721,7 @@ export const sections = {
   ],
   "3714": [
     {
+      unique_id: 187092,
       instructor: {
         name: "Mark Jonathan Butler",
         bio: "www.music.northwestern.edu/faculty/profiles/mark-butler.html",
@@ -28238,6 +29738,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187093,
       instructor: {
         name: "Vasileios Byros",
         bio: null,
@@ -28254,6 +29755,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187091,
       instructor: {
         name: "Danuta Mirka",
         bio: null,
@@ -28272,6 +29774,7 @@ export const sections = {
   ],
   "3727": [
     {
+      unique_id: 187095,
       instructor: {
         name: "Richard D Ashley",
         bio:
@@ -28289,6 +29792,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187096,
       instructor: {
         name: "Vasileios Byros",
         bio: null,
@@ -28305,6 +29809,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187094,
       instructor: {
         name: "Mark Jonathan Butler",
         bio: "www.music.northwestern.edu/faculty/profiles/mark-butler.html",
@@ -28323,6 +29828,7 @@ export const sections = {
   ],
   "3733": [
     {
+      unique_id: 187099,
       instructor: {
         name: "Danuta Mirka",
         bio: null,
@@ -28339,6 +29845,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187101,
       instructor: {
         name: "Richard D Ashley",
         bio:
@@ -28356,6 +29863,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187100,
       instructor: {
         name: "Mark Jonathan Butler",
         bio: "www.music.northwestern.edu/faculty/profiles/mark-butler.html",
@@ -28374,6 +29882,7 @@ export const sections = {
   ],
   "3734": [
     {
+      unique_id: 187104,
       instructor: {
         name: "Mark Jonathan Butler",
         bio: "www.music.northwestern.edu/faculty/profiles/mark-butler.html",
@@ -28390,6 +29899,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187106,
       instructor: {
         name: "Vasileios Byros",
         bio: null,
@@ -28406,6 +29916,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187105,
       instructor: {
         name: "Richard D Ashley",
         bio:
@@ -28425,6 +29936,7 @@ export const sections = {
   ],
   "3737": [
     {
+      unique_id: 187062,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28441,6 +29953,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187059,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -28458,6 +29971,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187060,
       instructor: {
         name: "Milan Alex Mincek",
         bio: null,
@@ -28474,6 +29988,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187061,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -28492,6 +30007,7 @@ export const sections = {
   ],
   "3738": [
     {
+      unique_id: 187063,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -28509,6 +30025,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187066,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28525,6 +30042,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187065,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -28541,6 +30059,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187064,
       instructor: {
         name: "Milan Alex Mincek",
         bio: null,
@@ -28559,6 +30078,7 @@ export const sections = {
   ],
   "3739": [
     {
+      unique_id: 187067,
       instructor: {
         name: "Mathew Arrellin",
         bio: null,
@@ -28577,6 +30097,7 @@ export const sections = {
   ],
   "3742": [
     {
+      unique_id: 187069,
       instructor: {
         name: "Milan Alex Mincek",
         bio: null,
@@ -28593,6 +30114,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187070,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -28609,6 +30131,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187071,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28625,6 +30148,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187068,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -28644,6 +30168,7 @@ export const sections = {
   ],
   "3743": [
     {
+      unique_id: 187072,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28662,6 +30187,7 @@ export const sections = {
   ],
   "3752": [
     {
+      unique_id: 187074,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28680,6 +30206,7 @@ export const sections = {
   ],
   "3753": [
     {
+      unique_id: 187075,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -28698,6 +30225,7 @@ export const sections = {
   ],
   "3758": [
     {
+      unique_id: 187079,
       instructor: {
         name: "Milan Alex Mincek",
         bio: null,
@@ -28714,6 +30242,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187078,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -28731,6 +30260,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187080,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -28747,6 +30277,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187081,
       instructor: {
         name: "Jay Alan Yim",
         bio: null,
@@ -28765,6 +30296,7 @@ export const sections = {
   ],
   "3759": [
     {
+      unique_id: 187082,
       instructor: {
         name: "",
         bio: null,
@@ -28783,6 +30315,7 @@ export const sections = {
   ],
   "3803": [
     {
+      unique_id: 186832,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -28799,6 +30332,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186831,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -28822,6 +30356,7 @@ export const sections = {
   ],
   "3809": [
     {
+      unique_id: 186833,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -28845,6 +30380,7 @@ export const sections = {
   ],
   "3814": [
     {
+      unique_id: 186838,
       instructor: {
         name: "",
         bio: null,
@@ -28861,6 +30397,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186834,
       instructor: {
         name: "Albert Michael Pinsonneault",
         bio: null,
@@ -28877,6 +30414,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186835,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -28893,6 +30431,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186836,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -28909,6 +30448,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186837,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -28927,6 +30467,7 @@ export const sections = {
   ],
   "3816": [
     {
+      unique_id: 186841,
       instructor: {
         name: "Daniel Farris",
         bio: null,
@@ -28948,6 +30489,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186842,
       instructor: {
         name: "Daniel Farris",
         bio: null,
@@ -28964,6 +30506,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186839,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -28985,6 +30528,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186840,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -29008,6 +30552,7 @@ export const sections = {
   ],
   "3818": [
     {
+      unique_id: 186843,
       instructor: {
         name: "Benjamin C Bolter",
         bio: null,
@@ -29031,6 +30576,7 @@ export const sections = {
   ],
   "3819": [
     {
+      unique_id: 186848,
       instructor: {
         name: "Robert Gene Hasty",
         bio: null,
@@ -29052,6 +30598,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186849,
       instructor: {
         name: "Victor Yampolsky",
         bio: null,
@@ -29073,6 +30620,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186850,
       instructor: {
         name: "Robert Gene Hasty",
         bio: null,
@@ -29096,6 +30644,7 @@ export const sections = {
   ],
   "3820": [
     {
+      unique_id: 186851,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -29114,6 +30663,7 @@ export const sections = {
   ],
   "3822": [
     {
+      unique_id: 186854,
       instructor: {
         name: "Victor Yampolsky",
         bio: null,
@@ -29135,6 +30685,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186852,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -29156,6 +30707,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186853,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -29174,6 +30726,7 @@ export const sections = {
   ],
   "3824": [
     {
+      unique_id: 186856,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -29192,6 +30745,7 @@ export const sections = {
   ],
   "3827": [
     {
+      unique_id: 186861,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -29213,6 +30767,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186862,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -29229,6 +30784,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186863,
       instructor: {
         name: "Victor Yampolsky",
         bio: null,
@@ -29252,6 +30808,7 @@ export const sections = {
   ],
   "3829": [
     {
+      unique_id: 186864,
       instructor: {
         name: "",
         bio: null,
@@ -29270,6 +30827,7 @@ export const sections = {
   ],
   "3830": [
     {
+      unique_id: 186865,
       instructor: {
         name: "",
         bio: null,
@@ -29286,6 +30844,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186866,
       instructor: {
         name: "",
         bio: null,
@@ -29304,6 +30863,7 @@ export const sections = {
   ],
   "3833": [
     {
+      unique_id: 186867,
       instructor: {
         name: "",
         bio: null,
@@ -29322,6 +30882,7 @@ export const sections = {
   ],
   "3834": [
     {
+      unique_id: 187107,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29338,6 +30899,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187109,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29354,6 +30916,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187108,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29372,6 +30935,7 @@ export const sections = {
   ],
   "3836": [
     {
+      unique_id: 187111,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29388,6 +30952,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187112,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29404,6 +30969,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187110,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29422,6 +30988,7 @@ export const sections = {
   ],
   "3838": [
     {
+      unique_id: 187114,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -29440,6 +31007,7 @@ export const sections = {
   ],
   "3841": [
     {
+      unique_id: 187115,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -29458,6 +31026,7 @@ export const sections = {
   ],
   "3845": [
     {
+      unique_id: 187116,
       instructor: {
         name: "Yasuko Oura",
         bio: null,
@@ -29476,6 +31045,7 @@ export const sections = {
   ],
   "3850": [
     {
+      unique_id: 187122,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29492,6 +31062,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187123,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29508,6 +31079,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187124,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29526,6 +31098,7 @@ export const sections = {
   ],
   "3852": [
     {
+      unique_id: 187128,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29542,6 +31115,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187130,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29558,6 +31132,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187129,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29576,6 +31151,7 @@ export const sections = {
   ],
   "3854": [
     {
+      unique_id: 187134,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29594,6 +31170,7 @@ export const sections = {
   ],
   "3856": [
     {
+      unique_id: 187135,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -29612,6 +31189,7 @@ export const sections = {
   ],
   "3863": [
     {
+      unique_id: 187136,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -29630,6 +31208,7 @@ export const sections = {
   ],
   "3864": [
     {
+      unique_id: 187137,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29648,6 +31227,7 @@ export const sections = {
   ],
   "3873": [
     {
+      unique_id: 187141,
       instructor: {
         name: "Margaret M Kemper",
         bio: null,
@@ -29664,6 +31244,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187140,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -29682,6 +31263,7 @@ export const sections = {
   ],
   "3878": [
     {
+      unique_id: 187142,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29698,6 +31280,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187143,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29714,6 +31297,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187144,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29732,6 +31316,7 @@ export const sections = {
   ],
   "3882": [
     {
+      unique_id: 187146,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29748,6 +31333,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187147,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29764,6 +31350,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187145,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29782,6 +31369,7 @@ export const sections = {
   ],
   "3885": [
     {
+      unique_id: 187152,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -29798,6 +31386,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187153,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29814,6 +31403,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187154,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -29832,6 +31422,7 @@ export const sections = {
   ],
   "3886": [
     {
+      unique_id: 187155,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -29850,6 +31441,7 @@ export const sections = {
   ],
   "3889": [
     {
+      unique_id: 187156,
       instructor: {
         name: "",
         bio: null,
@@ -29868,6 +31460,7 @@ export const sections = {
   ],
   "3890": [
     {
+      unique_id: 187158,
       instructor: {
         name: "",
         bio: null,
@@ -29884,6 +31477,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187159,
       instructor: {
         name: "",
         bio: null,
@@ -29902,6 +31496,7 @@ export const sections = {
   ],
   "3893": [
     {
+      unique_id: 187160,
       instructor: {
         name: "",
         bio: null,
@@ -29920,6 +31515,7 @@ export const sections = {
   ],
   "3894": [
     {
+      unique_id: 187165,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -29936,6 +31532,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187163,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -29952,6 +31549,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187162,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -29968,6 +31566,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187164,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -29984,6 +31583,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187161,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -30002,6 +31602,7 @@ export const sections = {
   ],
   "3895": [
     {
+      unique_id: 187166,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30020,6 +31621,7 @@ export const sections = {
   ],
   "3896": [
     {
+      unique_id: 187167,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30038,6 +31640,7 @@ export const sections = {
   ],
   "3897": [
     {
+      unique_id: 187168,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30056,6 +31659,7 @@ export const sections = {
   ],
   "3898": [
     {
+      unique_id: 187169,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30074,6 +31678,7 @@ export const sections = {
   ],
   "3899": [
     {
+      unique_id: 187170,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30092,6 +31697,7 @@ export const sections = {
   ],
   "3900": [
     {
+      unique_id: 187173,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -30108,6 +31714,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187172,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30124,6 +31731,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187175,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -30140,6 +31748,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187174,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -30156,6 +31765,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187171,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -30174,6 +31784,7 @@ export const sections = {
   ],
   "3901": [
     {
+      unique_id: 187176,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30192,6 +31803,7 @@ export const sections = {
   ],
   "3902": [
     {
+      unique_id: 187177,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30210,6 +31822,7 @@ export const sections = {
   ],
   "3903": [
     {
+      unique_id: 187178,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30228,6 +31841,7 @@ export const sections = {
   ],
   "3904": [
     {
+      unique_id: 187179,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30246,6 +31860,7 @@ export const sections = {
   ],
   "3905": [
     {
+      unique_id: 187180,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30264,6 +31879,7 @@ export const sections = {
   ],
   "3911": [
     {
+      unique_id: 187183,
       instructor: {
         name: "Stacia C Spencer",
         bio: null,
@@ -30282,6 +31898,7 @@ export const sections = {
   ],
   "3915": [
     {
+      unique_id: 187184,
       instructor: {
         name: "Cornelia Watkins Dyer",
         bio: null,
@@ -30300,6 +31917,7 @@ export const sections = {
   ],
   "3925": [
     {
+      unique_id: 187187,
       instructor: {
         name: "Li-Kuo Chang",
         bio: null,
@@ -30316,6 +31934,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187185,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30332,6 +31951,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187189,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30348,6 +31968,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187190,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30364,6 +31985,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187188,
       instructor: {
         name: "Calum Drummond Cook",
         bio: null,
@@ -30380,6 +32002,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187186,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30398,6 +32021,7 @@ export const sections = {
   ],
   "3935": [
     {
+      unique_id: 187193,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -30414,6 +32038,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187191,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -30430,6 +32055,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187195,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -30446,6 +32072,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187192,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30462,6 +32089,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187194,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -30480,6 +32108,7 @@ export const sections = {
   ],
   "3936": [
     {
+      unique_id: 187196,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30498,6 +32127,7 @@ export const sections = {
   ],
   "3937": [
     {
+      unique_id: 187197,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30516,6 +32146,7 @@ export const sections = {
   ],
   "3938": [
     {
+      unique_id: 187198,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30534,6 +32165,7 @@ export const sections = {
   ],
   "3940": [
     {
+      unique_id: 187199,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30552,6 +32184,7 @@ export const sections = {
   ],
   "3941": [
     {
+      unique_id: 187210,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30570,6 +32203,7 @@ export const sections = {
   ],
   "3942": [
     {
+      unique_id: 187211,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30588,6 +32222,7 @@ export const sections = {
   ],
   "3943": [
     {
+      unique_id: 187212,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30606,6 +32241,7 @@ export const sections = {
   ],
   "3949": [
     {
+      unique_id: 187215,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30622,6 +32258,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187220,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30638,6 +32275,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187221,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30654,6 +32292,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187219,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30670,6 +32309,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187217,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -30686,6 +32326,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187213,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -30702,6 +32343,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187214,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30718,6 +32360,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187218,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -30734,6 +32377,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187216,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -30750,6 +32394,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187222,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30768,6 +32413,7 @@ export const sections = {
   ],
   "3952": [
     {
+      unique_id: 187237,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -30784,6 +32430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187239,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -30800,6 +32447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187236,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -30816,6 +32464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187238,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -30832,6 +32481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187235,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -30850,6 +32500,7 @@ export const sections = {
   ],
   "3953": [
     {
+      unique_id: 187240,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30868,6 +32519,7 @@ export const sections = {
   ],
   "3954": [
     {
+      unique_id: 187241,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30886,6 +32538,7 @@ export const sections = {
   ],
   "3955": [
     {
+      unique_id: 187242,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -30904,6 +32557,7 @@ export const sections = {
   ],
   "3956": [
     {
+      unique_id: 187243,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30922,6 +32576,7 @@ export const sections = {
   ],
   "3957": [
     {
+      unique_id: 187244,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -30940,6 +32595,7 @@ export const sections = {
   ],
   "3958": [
     {
+      unique_id: 187252,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -30956,6 +32612,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187255,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -30972,6 +32629,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187253,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -30988,6 +32646,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187251,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -31004,6 +32663,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187249,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -31020,6 +32680,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187247,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -31036,6 +32697,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187246,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -31052,6 +32714,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187248,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -31068,6 +32731,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187250,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -31084,6 +32748,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187254,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -31102,6 +32767,7 @@ export const sections = {
   ],
   "3959": [
     {
+      unique_id: 187256,
       instructor: {
         name: "Stacia C Spencer",
         bio: null,
@@ -31120,6 +32786,7 @@ export const sections = {
   ],
   "3961": [
     {
+      unique_id: 187271,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -31136,6 +32803,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187270,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -31152,6 +32820,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187272,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -31168,6 +32837,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187268,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -31184,6 +32854,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187269,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -31202,6 +32873,7 @@ export const sections = {
   ],
   "3962": [
     {
+      unique_id: 187273,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -31220,6 +32892,7 @@ export const sections = {
   ],
   "3963": [
     {
+      unique_id: 187274,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -31238,6 +32911,7 @@ export const sections = {
   ],
   "3964": [
     {
+      unique_id: 187275,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -31256,6 +32930,7 @@ export const sections = {
   ],
   "3965": [
     {
+      unique_id: 187276,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -31274,6 +32949,7 @@ export const sections = {
   ],
   "3966": [
     {
+      unique_id: 187277,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -31292,6 +32968,7 @@ export const sections = {
   ],
   "3968": [
     {
+      unique_id: 187279,
       instructor: {
         name: "",
         bio: null,
@@ -31310,6 +32987,7 @@ export const sections = {
   ],
   "3969": [
     {
+      unique_id: 187281,
       instructor: {
         name: "",
         bio: null,
@@ -31326,6 +33004,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187280,
       instructor: {
         name: "",
         bio: null,
@@ -31344,6 +33023,7 @@ export const sections = {
   ],
   "3972": [
     {
+      unique_id: 187282,
       instructor: {
         name: "",
         bio: null,
@@ -31362,6 +33042,7 @@ export const sections = {
   ],
   "3973": [
     {
+      unique_id: 187378,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -31380,6 +33061,7 @@ export const sections = {
   ],
   "3974": [
     {
+      unique_id: 187380,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -31396,6 +33078,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187379,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -31414,6 +33097,7 @@ export const sections = {
   ],
   "3975": [
     {
+      unique_id: 187381,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -31430,6 +33114,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187382,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -31448,6 +33133,7 @@ export const sections = {
   ],
   "3976": [
     {
+      unique_id: 187383,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -31466,6 +33152,7 @@ export const sections = {
   ],
   "3977": [
     {
+      unique_id: 187384,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -31484,6 +33171,7 @@ export const sections = {
   ],
   "3978": [
     {
+      unique_id: 187385,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -31502,6 +33190,7 @@ export const sections = {
   ],
   "3979": [
     {
+      unique_id: 187386,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -31520,6 +33209,7 @@ export const sections = {
   ],
   "3980": [
     {
+      unique_id: 187387,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -31538,6 +33228,7 @@ export const sections = {
   ],
   "3981": [
     {
+      unique_id: 187388,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -31556,6 +33247,7 @@ export const sections = {
   ],
   "3982": [
     {
+      unique_id: 187389,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -31574,6 +33266,7 @@ export const sections = {
   ],
   "3983": [
     {
+      unique_id: 187390,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -31592,6 +33285,7 @@ export const sections = {
   ],
   "3984": [
     {
+      unique_id: 187391,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -31610,6 +33304,7 @@ export const sections = {
   ],
   "3985": [
     {
+      unique_id: 187392,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -31626,6 +33321,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187393,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -31644,6 +33340,7 @@ export const sections = {
   ],
   "3986": [
     {
+      unique_id: 187394,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -31660,6 +33357,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187395,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -31678,6 +33376,7 @@ export const sections = {
   ],
   "3987": [
     {
+      unique_id: 187396,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -31696,6 +33395,7 @@ export const sections = {
   ],
   "3988": [
     {
+      unique_id: 187397,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -31714,6 +33414,7 @@ export const sections = {
   ],
   "3989": [
     {
+      unique_id: 187398,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -31732,6 +33433,7 @@ export const sections = {
   ],
   "3990": [
     {
+      unique_id: 187399,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -31750,6 +33452,7 @@ export const sections = {
   ],
   "3991": [
     {
+      unique_id: 187400,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -31768,6 +33471,7 @@ export const sections = {
   ],
   "3992": [
     {
+      unique_id: 187401,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -31786,6 +33490,7 @@ export const sections = {
   ],
   "3993": [
     {
+      unique_id: 187402,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -31804,6 +33509,7 @@ export const sections = {
   ],
   "3994": [
     {
+      unique_id: 187403,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -31822,6 +33528,7 @@ export const sections = {
   ],
   "3995": [
     {
+      unique_id: 187419,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -31840,6 +33547,7 @@ export const sections = {
   ],
   "3996": [
     {
+      unique_id: 187420,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -31856,6 +33564,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187421,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -31874,6 +33583,7 @@ export const sections = {
   ],
   "3997": [
     {
+      unique_id: 187422,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -31890,6 +33600,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187423,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -31908,6 +33619,7 @@ export const sections = {
   ],
   "3998": [
     {
+      unique_id: 187424,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -31926,6 +33638,7 @@ export const sections = {
   ],
   "3999": [
     {
+      unique_id: 187425,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -31944,6 +33657,7 @@ export const sections = {
   ],
   "4000": [
     {
+      unique_id: 187426,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -31962,6 +33676,7 @@ export const sections = {
   ],
   "4001": [
     {
+      unique_id: 187427,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -31980,6 +33695,7 @@ export const sections = {
   ],
   "4002": [
     {
+      unique_id: 187428,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -31998,6 +33714,7 @@ export const sections = {
   ],
   "4003": [
     {
+      unique_id: 187429,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -32016,6 +33733,7 @@ export const sections = {
   ],
   "4004": [
     {
+      unique_id: 187430,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32034,6 +33752,7 @@ export const sections = {
   ],
   "4005": [
     {
+      unique_id: 187431,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -32052,6 +33771,7 @@ export const sections = {
   ],
   "4020": [
     {
+      unique_id: 187432,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32068,6 +33788,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187433,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32086,6 +33807,7 @@ export const sections = {
   ],
   "4022": [
     {
+      unique_id: 187434,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -32104,6 +33826,7 @@ export const sections = {
   ],
   "4023": [
     {
+      unique_id: 187436,
       instructor: {
         name: "",
         bio: null,
@@ -32122,6 +33845,7 @@ export const sections = {
   ],
   "4025": [
     {
+      unique_id: 187453,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -32138,6 +33862,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187457,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -32154,6 +33879,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187449,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -32170,6 +33896,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187450,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -32186,6 +33913,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187451,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32202,6 +33930,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187452,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -32218,6 +33947,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187454,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32234,6 +33964,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187456,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -32250,6 +33981,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187458,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -32266,6 +33998,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187460,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -32282,6 +34015,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187455,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -32298,6 +34032,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187459,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -32316,6 +34051,7 @@ export const sections = {
   ],
   "4028": [
     {
+      unique_id: 187483,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -32334,6 +34070,7 @@ export const sections = {
   ],
   "4029": [
     {
+      unique_id: 187485,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32350,6 +34087,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187484,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -32368,6 +34106,7 @@ export const sections = {
   ],
   "4030": [
     {
+      unique_id: 187486,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -32384,6 +34123,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187487,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -32402,6 +34142,7 @@ export const sections = {
   ],
   "4031": [
     {
+      unique_id: 187488,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -32420,6 +34161,7 @@ export const sections = {
   ],
   "4032": [
     {
+      unique_id: 187489,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -32438,6 +34180,7 @@ export const sections = {
   ],
   "4033": [
     {
+      unique_id: 187490,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -32456,6 +34199,7 @@ export const sections = {
   ],
   "4034": [
     {
+      unique_id: 187491,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -32474,6 +34218,7 @@ export const sections = {
   ],
   "4035": [
     {
+      unique_id: 187492,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32492,6 +34237,7 @@ export const sections = {
   ],
   "4036": [
     {
+      unique_id: 187493,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -32510,6 +34256,7 @@ export const sections = {
   ],
   "4037": [
     {
+      unique_id: 187494,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32528,6 +34275,7 @@ export const sections = {
   ],
   "4038": [
     {
+      unique_id: 187495,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -32546,6 +34294,7 @@ export const sections = {
   ],
   "4046": [
     {
+      unique_id: 187503,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -32562,6 +34311,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187504,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -32578,6 +34328,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187505,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -32594,6 +34345,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187506,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -32610,6 +34362,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187507,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -32626,6 +34379,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187496,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -32642,6 +34396,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187497,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -32658,6 +34413,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187498,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32674,6 +34430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187499,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -32690,6 +34447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187501,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32706,6 +34464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187500,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -32722,6 +34481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187502,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -32740,6 +34500,7 @@ export const sections = {
   ],
   "4048": [
     {
+      unique_id: 187530,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -32758,6 +34519,7 @@ export const sections = {
   ],
   "4049": [
     {
+      unique_id: 187531,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -32774,6 +34536,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187532,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -32792,6 +34555,7 @@ export const sections = {
   ],
   "4050": [
     {
+      unique_id: 187534,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -32808,6 +34572,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187533,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -32826,6 +34591,7 @@ export const sections = {
   ],
   "4051": [
     {
+      unique_id: 187535,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -32844,6 +34610,7 @@ export const sections = {
   ],
   "4052": [
     {
+      unique_id: 187536,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -32862,6 +34629,7 @@ export const sections = {
   ],
   "4053": [
     {
+      unique_id: 187537,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -32880,6 +34648,7 @@ export const sections = {
   ],
   "4054": [
     {
+      unique_id: 187538,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -32898,6 +34667,7 @@ export const sections = {
   ],
   "4055": [
     {
+      unique_id: 187539,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32916,6 +34686,7 @@ export const sections = {
   ],
   "4056": [
     {
+      unique_id: 187540,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -32934,6 +34705,7 @@ export const sections = {
   ],
   "4057": [
     {
+      unique_id: 187541,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -32952,6 +34724,7 @@ export const sections = {
   ],
   "4058": [
     {
+      unique_id: 187542,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -32970,6 +34743,7 @@ export const sections = {
   ],
   "4060": [
     {
+      unique_id: 187543,
       instructor: {
         name: "",
         bio: null,
@@ -32988,6 +34762,7 @@ export const sections = {
   ],
   "4061": [
     {
+      unique_id: 187544,
       instructor: {
         name: "",
         bio: null,
@@ -33004,6 +34779,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187545,
       instructor: {
         name: "",
         bio: null,
@@ -33022,6 +34798,7 @@ export const sections = {
   ],
   "4064": [
     {
+      unique_id: 187546,
       instructor: {
         name: "",
         bio: null,
@@ -33040,6 +34817,7 @@ export const sections = {
   ],
   "4066": [
     {
+      unique_id: 187286,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33056,6 +34834,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187285,
       instructor: {
         name: "Sunny J Hall",
         bio: null,
@@ -33072,6 +34851,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187287,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33088,6 +34868,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187289,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33104,6 +34885,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187283,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33120,6 +34902,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190379,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33136,6 +34919,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190378,
       instructor: {
         name: "",
         bio: null,
@@ -33152,6 +34936,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190377,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33168,6 +34953,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190376,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33184,6 +34970,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190375,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33200,6 +34987,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190374,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33216,6 +35004,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190373,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33232,6 +35021,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187288,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33248,6 +35038,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187284,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33266,6 +35057,7 @@ export const sections = {
   ],
   "4067": [
     {
+      unique_id: 187290,
       instructor: {
         name: "Richard L Boldrey",
         bio: null,
@@ -33284,6 +35076,7 @@ export const sections = {
   ],
   "4071": [
     {
+      unique_id: 187291,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33300,6 +35093,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187297,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33316,6 +35110,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187296,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33332,6 +35127,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187295,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33348,6 +35144,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190386,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33364,6 +35161,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190385,
       instructor: {
         name: "",
         bio: null,
@@ -33380,6 +35178,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190384,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33396,6 +35195,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190383,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33412,6 +35212,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190382,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33428,6 +35229,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190381,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33444,6 +35246,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190380,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33460,6 +35263,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187294,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33476,6 +35280,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187292,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33492,6 +35297,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187293,
       instructor: {
         name: "Sunny J Hall",
         bio: null,
@@ -33510,6 +35316,7 @@ export const sections = {
   ],
   "4075": [
     {
+      unique_id: 187301,
       instructor: {
         name: "Sunny J Hall",
         bio: null,
@@ -33526,6 +35333,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190392,
       instructor: {
         name: "",
         bio: null,
@@ -33542,6 +35350,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190389,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33558,6 +35367,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187302,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33574,6 +35384,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187303,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33590,6 +35401,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187304,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33606,6 +35418,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187305,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33622,6 +35435,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190393,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33638,6 +35452,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190390,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33654,6 +35469,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190391,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33670,6 +35486,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190388,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33686,6 +35503,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190387,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33702,6 +35520,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187299,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33718,6 +35537,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187300,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33736,6 +35556,7 @@ export const sections = {
   ],
   "4082": [
     {
+      unique_id: 187314,
       instructor: {
         name: "Margaret A Thalken",
         bio: null,
@@ -33752,6 +35573,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187313,
       instructor: {
         name: "Margaret A Thalken",
         bio: null,
@@ -33770,6 +35592,7 @@ export const sections = {
   ],
   "4090": [
     {
+      unique_id: 187326,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33786,6 +35609,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187331,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33802,6 +35626,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187329,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33818,6 +35643,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187327,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33834,6 +35660,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187328,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33850,6 +35677,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187325,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -33866,6 +35694,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187330,
       instructor: {
         name: "",
         bio: null,
@@ -33884,6 +35713,7 @@ export const sections = {
   ],
   "4093": [
     {
+      unique_id: 187343,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33900,6 +35730,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190403,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -33916,6 +35747,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190404,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -33932,6 +35764,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190405,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -33948,6 +35781,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190406,
       instructor: {
         name: "",
         bio: null,
@@ -33964,6 +35798,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190407,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -33980,6 +35815,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190402,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -33996,6 +35832,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190401,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -34012,6 +35849,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187344,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -34028,6 +35866,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187345,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -34044,6 +35883,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187342,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -34060,6 +35900,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187340,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -34076,6 +35917,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187341,
       instructor: {
         name: "Sunny J Hall",
         bio: null,
@@ -34092,6 +35934,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187339,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -34110,6 +35953,7 @@ export const sections = {
   ],
   "4094": [
     {
+      unique_id: 187346,
       instructor: {
         name: "Richard L Boldrey",
         bio: null,
@@ -34128,6 +35972,7 @@ export const sections = {
   ],
   "4098": [
     {
+      unique_id: 187347,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -34146,6 +35991,7 @@ export const sections = {
   ],
   "4102": [
     {
+      unique_id: 187348,
       instructor: {
         name: "Joachim Bernd Schamberger",
         bio: null,
@@ -34164,6 +36010,7 @@ export const sections = {
   ],
   "4106": [
     {
+      unique_id: 187349,
       instructor: {
         name: "Richard L Boldrey",
         bio: null,
@@ -34180,6 +36027,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187350,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -34196,6 +36044,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187351,
       instructor: {
         name: "Laurann Gilley",
         bio: null,
@@ -34214,6 +36063,7 @@ export const sections = {
   ],
   "4109": [
     {
+      unique_id: 187352,
       instructor: {
         name: "Joachim Bernd Schamberger",
         bio: null,
@@ -34232,6 +36082,7 @@ export const sections = {
   ],
   "4110": [
     {
+      unique_id: 187355,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -34248,6 +36099,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187356,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -34264,6 +36116,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187357,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -34280,6 +36133,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187358,
       instructor: {
         name: "",
         bio: null,
@@ -34296,6 +36150,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187353,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -34312,6 +36167,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187359,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -34328,6 +36184,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187354,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -34346,6 +36203,7 @@ export const sections = {
   ],
   "4112": [
     {
+      unique_id: 187370,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -34362,6 +36220,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187372,
       instructor: {
         name: "",
         bio: null,
@@ -34378,6 +36237,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187371,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -34394,6 +36254,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187367,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -34410,6 +36271,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187368,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -34426,6 +36288,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187373,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -34442,6 +36305,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187369,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -34460,6 +36324,7 @@ export const sections = {
   ],
   "4114": [
     {
+      unique_id: 187374,
       instructor: {
         name: "",
         bio: null,
@@ -34478,6 +36343,7 @@ export const sections = {
   ],
   "4115": [
     {
+      unique_id: 187376,
       instructor: {
         name: "",
         bio: null,
@@ -34494,6 +36360,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187375,
       instructor: {
         name: "",
         bio: null,
@@ -34512,6 +36379,7 @@ export const sections = {
   ],
   "4117": [
     {
+      unique_id: 187377,
       instructor: {
         name: "",
         bio: null,
@@ -34530,6 +36398,7 @@ export const sections = {
   ],
   "4118": [
     {
+      unique_id: 186918,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34546,6 +36415,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186920,
       instructor: {
         name: "Thomas James Garling",
         bio: null,
@@ -34562,6 +36432,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186921,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -34578,6 +36449,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186924,
       instructor: {
         name: "John Paul Moulder",
         bio: null,
@@ -34594,6 +36466,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186923,
       instructor: {
         name: "Willie Jones III",
         bio: null,
@@ -34610,6 +36483,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186922,
       instructor: {
         name: "Carlos G Henriquez",
         bio: null,
@@ -34626,6 +36500,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186919,
       instructor: {
         name: "Bradley Stuart Mason",
         bio: null,
@@ -34644,6 +36519,7 @@ export const sections = {
   ],
   "4119": [
     {
+      unique_id: 186933,
       instructor: {
         name: "John Paul Moulder",
         bio: null,
@@ -34660,6 +36536,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186930,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -34676,6 +36553,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186931,
       instructor: {
         name: "Carlos G Henriquez",
         bio: null,
@@ -34692,6 +36570,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186927,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34708,6 +36587,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186928,
       instructor: {
         name: "Bradley Stuart Mason",
         bio: null,
@@ -34724,6 +36604,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186929,
       instructor: {
         name: "Thomas James Garling",
         bio: null,
@@ -34740,6 +36621,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186932,
       instructor: {
         name: "Willie Jones III",
         bio: null,
@@ -34758,6 +36640,7 @@ export const sections = {
   ],
   "4122": [
     {
+      unique_id: 186935,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -34781,6 +36664,7 @@ export const sections = {
   ],
   "4123": [
     {
+      unique_id: 186938,
       instructor: {
         name: "Bradley Stuart Mason",
         bio: null,
@@ -34797,6 +36681,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186942,
       instructor: {
         name: "Willie Jones III",
         bio: null,
@@ -34813,6 +36698,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186937,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34829,6 +36715,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186943,
       instructor: {
         name: "John Paul Moulder",
         bio: null,
@@ -34845,6 +36732,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186939,
       instructor: {
         name: "Thomas James Garling",
         bio: null,
@@ -34861,6 +36749,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186940,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -34877,6 +36766,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186941,
       instructor: {
         name: "Carlos G Henriquez",
         bio: null,
@@ -34895,6 +36785,7 @@ export const sections = {
   ],
   "4124": [
     {
+      unique_id: 186945,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34918,6 +36809,7 @@ export const sections = {
   ],
   "4125": [
     {
+      unique_id: 186946,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34936,6 +36828,7 @@ export const sections = {
   ],
   "4126": [
     {
+      unique_id: 186947,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -34952,6 +36845,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186949,
       instructor: {
         name: "Jarrard Lemir Harris",
         bio: null,
@@ -34968,6 +36862,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186950,
       instructor: {
         name: "Joseph Charles Clark",
         bio: null,
@@ -34989,6 +36884,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186948,
       instructor: {
         name: "Joseph Charles Clark",
         bio: null,
@@ -35012,6 +36908,7 @@ export const sections = {
   ],
   "4131": [
     {
+      unique_id: 186958,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -35030,6 +36927,7 @@ export const sections = {
   ],
   "4134": [
     {
+      unique_id: 188233,
       instructor: {
         name: "",
         bio: null,
@@ -35051,6 +36949,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188230,
       instructor: {
         name: "",
         bio: null,
@@ -35072,6 +36971,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188231,
       instructor: {
         name: "",
         bio: null,
@@ -35093,6 +36993,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188232,
       instructor: {
         name: "",
         bio: null,
@@ -35114,6 +37015,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188234,
       instructor: {
         name: "",
         bio: null,
@@ -35135,6 +37037,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188235,
       instructor: {
         name: "",
         bio: null,
@@ -35156,6 +37059,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188236,
       instructor: {
         name: "",
         bio: null,
@@ -35177,6 +37081,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188237,
       instructor: {
         name: "Daniel Edward Moser",
         bio:
@@ -35199,6 +37104,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188238,
       instructor: {
         name: "",
         bio: null,
@@ -35222,6 +37128,7 @@ export const sections = {
   ],
   "4135": [
     {
+      unique_id: 188372,
       instructor: {
         name: "Michell Nicole Miller",
         bio: null,
@@ -35245,6 +37152,7 @@ export const sections = {
   ],
   "4139": [
     {
+      unique_id: 188456,
       instructor: {
         name: "Sandra U Marquez",
         bio: null,
@@ -35261,6 +37169,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188455,
       instructor: {
         name: "Linda H. Gates",
         bio: null,
@@ -35279,6 +37188,7 @@ export const sections = {
   ],
   "4141": [
     {
+      unique_id: 187894,
       instructor: {
         name: "Todd Edward Murphy",
         bio: null,
@@ -35297,6 +37207,7 @@ export const sections = {
   ],
   "4149": [
     {
+      unique_id: 188376,
       instructor: {
         name: "Jocelyn Suzette Prince",
         bio: null,
@@ -35318,6 +37229,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188375,
       instructor: {
         name: "Lori Danielle Barcliff Baptista",
         bio: null,
@@ -35341,6 +37253,7 @@ export const sections = {
   ],
   "4171": [
     {
+      unique_id: 188378,
       instructor: {
         name: "Shayna Mei Silverstein",
         bio:
@@ -35365,6 +37278,7 @@ export const sections = {
   ],
   "4176": [
     {
+      unique_id: 188379,
       instructor: {
         name: "Deidra Soyini Madison",
         bio: null,
@@ -35388,6 +37302,7 @@ export const sections = {
   ],
   "4187": [
     {
+      unique_id: 188380,
       instructor: {
         name: "Ramon H Rivera-Servera",
         bio: null,
@@ -35404,6 +37319,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188381,
       instructor: {
         name: "Afua A Osseo - Asare",
         bio: null,
@@ -35422,6 +37338,7 @@ export const sections = {
   ],
   "4189": [
     {
+      unique_id: 188382,
       instructor: {
         name: "Joshua Takano Chambers-Letson",
         bio: null,
@@ -35440,6 +37357,7 @@ export const sections = {
   ],
   "4201": [
     {
+      unique_id: 188239,
       instructor: {
         name: "Maria A Mastronardi",
         bio: null,
@@ -35463,6 +37381,7 @@ export const sections = {
   ],
   "4231": [
     {
+      unique_id: 188247,
       instructor: {
         name: "Paul Howard Arntson",
         bio: null,
@@ -35481,6 +37400,7 @@ export const sections = {
   ],
   "4240": [
     {
+      unique_id: 188248,
       instructor: {
         name: "Michael Elwood Roloff",
         bio: null,
@@ -35504,6 +37424,7 @@ export const sections = {
   ],
   "4244": [
     {
+      unique_id: 188249,
       instructor: {
         name: "Emoke-Agnes Horvat",
         bio: null,
@@ -35527,6 +37448,7 @@ export const sections = {
   ],
   "4255": [
     {
+      unique_id: 191344,
       instructor: {
         name: "Emoke-Agnes Horvat",
         bio: null,
@@ -35545,6 +37467,7 @@ export const sections = {
   ],
   "4259": [
     {
+      unique_id: 188255,
       instructor: {
         name: "Brent Jaron Hecht",
         bio: null,
@@ -35566,6 +37489,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190425,
       instructor: {
         name: "Rachel Frances Kornfield",
         bio: null,
@@ -35587,6 +37511,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188254,
       instructor: {
         name: "Michelle Dawn Shumate",
         bio: null,
@@ -35610,6 +37535,7 @@ export const sections = {
   ],
   "4274": [
     {
+      unique_id: 188257,
       instructor: {
         name: "Robert Donald Hariman",
         bio: null,
@@ -35628,6 +37554,7 @@ export const sections = {
   ],
   "4275": [
     {
+      unique_id: 188258,
       instructor: {
         name: "Dilip P Gaonkar",
         bio: null,
@@ -35651,6 +37578,7 @@ export const sections = {
   ],
   "4293": [
     {
+      unique_id: 188345,
       instructor: {
         name: "Anne Marie Adams",
         bio: null,
@@ -35674,6 +37602,7 @@ export const sections = {
   ],
   "4314": [
     {
+      unique_id: 188351,
       instructor: {
         name: "Kimberly Brook Pusateri",
         bio: null,
@@ -35697,6 +37626,7 @@ export const sections = {
   ],
   "4336": [
     {
+      unique_id: 188384,
       instructor: {
         name: "Miriam Joanna Petty",
         bio: null,
@@ -35720,6 +37650,7 @@ export const sections = {
   ],
   "4343": [
     {
+      unique_id: 188388,
       instructor: {
         name: "Ashley R Smith",
         bio: null,
@@ -35743,6 +37674,7 @@ export const sections = {
   ],
   "4353": [
     {
+      unique_id: 188389,
       instructor: {
         name: "Ilya Kutik",
         bio: null,
@@ -35766,6 +37698,7 @@ export const sections = {
   ],
   "4354": [
     {
+      unique_id: 188390,
       instructor: {
         name: "Jacob Arnaud Smith",
         bio: null,
@@ -35787,6 +37720,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188391,
       instructor: {
         name: "Miriam Joanna Petty",
         bio: null,
@@ -35810,6 +37744,7 @@ export const sections = {
   ],
   "4368": [
     {
+      unique_id: 188224,
       instructor: {
         name: "David A Downs",
         bio: null,
@@ -35826,6 +37761,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188223,
       instructor: {
         name: "John M Haas",
         bio: null,
@@ -35844,6 +37780,7 @@ export const sections = {
   ],
   "4370": [
     {
+      unique_id: 190343,
       instructor: {
         name: "So Hye Kim",
         bio: null,
@@ -35867,6 +37804,7 @@ export const sections = {
   ],
   "4373": [
     {
+      unique_id: 188397,
       instructor: {
         name: "Jeb Stuart",
         bio: null,
@@ -35888,6 +37826,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188398,
       instructor: {
         name: "Barbara Wallace",
         bio: null,
@@ -35909,6 +37848,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188394,
       instructor: {
         name: "David E. Tolchinsky",
         bio: null,
@@ -35930,6 +37870,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188393,
       instructor: {
         name: "Brett Louis Neveu",
         bio: null,
@@ -35951,6 +37892,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188396,
       instructor: {
         name: "Jeb Stuart",
         bio: null,
@@ -35972,6 +37914,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188395,
       instructor: {
         name: "Zina Adrienne Camblin",
         bio: null,
@@ -35993,6 +37936,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188392,
       instructor: {
         name: "Brett Louis Neveu",
         bio: null,
@@ -36016,6 +37960,7 @@ export const sections = {
   ],
   "4376": [
     {
+      unique_id: 188409,
       instructor: {
         name: "Calum Michel Walter",
         bio: null,
@@ -36039,6 +37984,7 @@ export const sections = {
   ],
   "4383": [
     {
+      unique_id: 188411,
       instructor: {
         name: "Eric Adrian Patrick",
         bio: null,
@@ -36062,6 +38008,7 @@ export const sections = {
   ],
   "4385": [
     {
+      unique_id: 188414,
       instructor: {
         name: "Jeffrey A Sconce",
         bio: null,
@@ -36085,6 +38032,7 @@ export const sections = {
   ],
   "4388": [
     {
+      unique_id: 188415,
       instructor: {
         name: "Miriam B White",
         bio: null,
@@ -36108,6 +38056,7 @@ export const sections = {
   ],
   "4397": [
     {
+      unique_id: 188416,
       instructor: {
         name: "Jeffrey A Sconce",
         bio: null,
@@ -36131,6 +38080,7 @@ export const sections = {
   ],
   "4402": [
     {
+      unique_id: 188418,
       instructor: {
         name: "Meredith Claire Zielke",
         bio: null,
@@ -36152,6 +38102,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188417,
       instructor: {
         name: "Zina Adrienne Camblin",
         bio: null,
@@ -36175,6 +38126,7 @@ export const sections = {
   ],
   "4405": [
     {
+      unique_id: 188419,
       instructor: {
         name: "Erik Steven Gernand",
         bio: null,
@@ -36198,6 +38150,7 @@ export const sections = {
   ],
   "4408": [
     {
+      unique_id: 188420,
       instructor: {
         name: "Ines R Sommer-Simpson",
         bio: null,
@@ -36219,6 +38172,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188421,
       instructor: {
         name: "Jeff Clayton Brown",
         bio: null,
@@ -36242,6 +38196,7 @@ export const sections = {
   ],
   "4412": [
     {
+      unique_id: 188428,
       instructor: {
         name: "Neil Kanwar Harish Verma",
         bio: null,
@@ -36265,6 +38220,7 @@ export const sections = {
   ],
   "4420": [
     {
+      unique_id: 188260,
       instructor: {
         name: "Charles Larson",
         bio: null,
@@ -36288,6 +38244,7 @@ export const sections = {
   ],
   "4421": [
     {
+      unique_id: 188261,
       instructor: {
         name: "Jonathan H Siegel",
         bio: null,
@@ -36311,6 +38268,7 @@ export const sections = {
   ],
   "4423": [
     {
+      unique_id: 188262,
       instructor: {
         name: "",
         bio: null,
@@ -36329,6 +38287,7 @@ export const sections = {
   ],
   "4436": [
     {
+      unique_id: 188285,
       instructor: {
         name: "",
         bio: null,
@@ -36347,6 +38306,7 @@ export const sections = {
   ],
   "4440": [
     {
+      unique_id: 188295,
       instructor: {
         name: "Belma Hadziselimovic",
         bio: null,
@@ -36370,6 +38330,7 @@ export const sections = {
   ],
   "4454": [
     {
+      unique_id: 188290,
       instructor: {
         name: "Jennifer Mary Phelan",
         bio: null,
@@ -36388,6 +38349,7 @@ export const sections = {
   ],
   "4455": [
     {
+      unique_id: 188291,
       instructor: {
         name: "Jeanane Marie Ferre",
         bio: null,
@@ -36411,6 +38373,7 @@ export const sections = {
   ],
   "4457": [
     {
+      unique_id: 188293,
       instructor: {
         name: "Catherine Anne Fabian",
         bio: null,
@@ -36429,6 +38392,7 @@ export const sections = {
   ],
   "4463": [
     {
+      unique_id: 188288,
       instructor: {
         name: "Kristine Marie Grohne Riley",
         bio: null,
@@ -36447,6 +38411,7 @@ export const sections = {
   ],
   "4468": [
     {
+      unique_id: 188307,
       instructor: {
         name: "Jason Tait Sanchez",
         bio: null,
@@ -36470,6 +38435,7 @@ export const sections = {
   ],
   "4487": [
     {
+      unique_id: 188265,
       instructor: {
         name: "Steven G Zecker",
         bio: null,
@@ -36493,6 +38459,7 @@ export const sections = {
   ],
   "4490": [
     {
+      unique_id: 188266,
       instructor: {
         name: "Frank W. Vansanten",
         bio: null,
@@ -36516,6 +38483,7 @@ export const sections = {
   ],
   "4528": [
     {
+      unique_id: 188298,
       instructor: {
         name: "Frances K Block",
         bio: null,
@@ -36539,6 +38507,7 @@ export const sections = {
   ],
   "4529": [
     {
+      unique_id: 188264,
       instructor: {
         name: "Kristin Ann Larsen",
         bio: null,
@@ -36562,6 +38531,7 @@ export const sections = {
   ],
   "4541": [
     {
+      unique_id: 188303,
       instructor: {
         name: "Frances K Block",
         bio: null,
@@ -36580,6 +38550,7 @@ export const sections = {
   ],
   "4559": [
     {
+      unique_id: 188304,
       instructor: {
         name: "William Nathan Waller",
         bio: null,
@@ -36598,6 +38569,7 @@ export const sections = {
   ],
   "4565": [
     {
+      unique_id: 188308,
       instructor: {
         name: "",
         bio: null,
@@ -36616,6 +38588,7 @@ export const sections = {
   ],
   "4571": [
     {
+      unique_id: 188442,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36632,6 +38605,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188443,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36648,6 +38622,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188449,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36664,6 +38639,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188451,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36680,6 +38656,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188438,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36696,6 +38673,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188441,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36712,6 +38690,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188448,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36728,6 +38707,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188446,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36744,6 +38724,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188453,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36760,6 +38741,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188444,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36776,6 +38758,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188447,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36792,6 +38775,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188445,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36808,6 +38792,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188437,
       instructor: {
         name: "Joel Valentin-Martinez",
         bio: null,
@@ -36824,6 +38809,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188439,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36840,6 +38826,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188452,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36856,6 +38843,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188450,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36872,6 +38860,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188440,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36890,6 +38879,7 @@ export const sections = {
   ],
   "4573": [
     {
+      unique_id: 188454,
       instructor: {
         name: "Tracy Cecile Davis",
         bio: null,
@@ -36908,6 +38898,7 @@ export const sections = {
   ],
   "4577": [
     {
+      unique_id: 188436,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36924,6 +38915,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188435,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -36942,6 +38934,7 @@ export const sections = {
   ],
   "4581": [
     {
+      unique_id: 190409,
       instructor: {
         name: "Shawn T Douglass",
         bio: null,
@@ -36961,6 +38954,7 @@ export const sections = {
   ],
   "4595": [
     {
+      unique_id: 188458,
       instructor: {
         name: "",
         bio: null,
@@ -36979,6 +38973,7 @@ export const sections = {
   ],
   "4597": [
     {
+      unique_id: 188468,
       instructor: {
         name: "Dawn A Mora",
         bio: null,
@@ -36995,6 +38990,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188466,
       instructor: {
         name: "David S Catlin",
         bio: null,
@@ -37011,6 +39007,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188469,
       instructor: {
         name: "John Thomas Rapley",
         bio: null,
@@ -37027,6 +39024,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188470,
       instructor: {
         name: "Gail S Shapiro",
         bio: null,
@@ -37043,6 +39041,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188467,
       instructor: {
         name: "Henry Dominic Godinez",
         bio: null,
@@ -37062,6 +39061,7 @@ export const sections = {
   ],
   "4601": [
     {
+      unique_id: 190367,
       instructor: {
         name: "Matthew Gordon Bent",
         bio: null,
@@ -37080,6 +39080,7 @@ export const sections = {
   ],
   "4602": [
     {
+      unique_id: 188518,
       instructor: {
         name: "",
         bio: null,
@@ -37098,6 +39099,7 @@ export const sections = {
   ],
   "4605": [
     {
+      unique_id: 188473,
       instructor: {
         name: "Shoshana Ela Cooper",
         bio: null,
@@ -37114,6 +39116,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188474,
       instructor: {
         name: "Jessica Margaret Thebus",
         bio: null,
@@ -37137,6 +39140,7 @@ export const sections = {
   ],
   "4607": [
     {
+      unique_id: 188519,
       instructor: {
         name: "",
         bio: null,
@@ -37155,6 +39159,7 @@ export const sections = {
   ],
   "4608": [
     {
+      unique_id: 188507,
       instructor: {
         name: "Shawn T Douglass",
         bio: null,
@@ -37172,6 +39177,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188511,
       instructor: {
         name: "Mary Margaret Poole",
         bio: null,
@@ -37188,6 +39194,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188510,
       instructor: {
         name: "Dawn A Mora",
         bio: null,
@@ -37204,6 +39211,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188508,
       instructor: {
         name: "Henry Dominic Godinez",
         bio: null,
@@ -37221,6 +39229,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188509,
       instructor: {
         name: "Cynthia Lynn Gold",
         bio: null,
@@ -37239,6 +39248,7 @@ export const sections = {
   ],
   "4612": [
     {
+      unique_id: 188504,
       instructor: {
         name: "Cynthia Lynn Gold",
         bio: null,
@@ -37255,6 +39265,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188506,
       instructor: {
         name: "Gail S Shapiro",
         bio: null,
@@ -37271,6 +39282,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188505,
       instructor: {
         name: "John Thomas Rapley",
         bio: null,
@@ -37287,6 +39299,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188502,
       instructor: {
         name: "David S Catlin",
         bio: null,
@@ -37303,6 +39316,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188503,
       instructor: {
         name: "Shawn T Douglass",
         bio: null,
@@ -37322,6 +39336,7 @@ export const sections = {
   ],
   "4627": [
     {
+      unique_id: 188517,
       instructor: {
         name: "Laura J. Schellhardt",
         bio: null,
@@ -37340,6 +39355,7 @@ export const sections = {
   ],
   "4632": [
     {
+      unique_id: 188481,
       instructor: {
         name: "Rives B Collins",
         bio: null,
@@ -37358,6 +39374,7 @@ export const sections = {
   ],
   "4642": [
     {
+      unique_id: 188497,
       instructor: {
         name: "David Howard Bell",
         bio: null,
@@ -37374,6 +39391,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188498,
       instructor: {
         name: "David Howard Bell",
         bio: null,
@@ -37392,6 +39410,7 @@ export const sections = {
   ],
   "4647": [
     {
+      unique_id: 188476,
       instructor: {
         name: "Andrew Chamberlain Boyce",
         bio: null,
@@ -37410,6 +39429,7 @@ export const sections = {
   ],
   "4650": [
     {
+      unique_id: 188477,
       instructor: {
         name: "Linda Roethke",
         bio: null,
@@ -37428,6 +39448,7 @@ export const sections = {
   ],
   "4666": [
     {
+      unique_id: 188463,
       instructor: {
         name: "Afua A Osseo - Asare",
         bio: null,
@@ -37451,6 +39472,7 @@ export const sections = {
   ],
   "4672": [
     {
+      unique_id: 188479,
       instructor: {
         name: "",
         bio: null,
@@ -37467,6 +39489,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188478,
       instructor: {
         name: "",
         bio: null,
@@ -37485,6 +39508,7 @@ export const sections = {
   ],
   "4673": [
     {
+      unique_id: 188475,
       instructor: {
         name: "Halena S Kays",
         bio: null,
@@ -37503,6 +39527,7 @@ export const sections = {
   ],
   "4676": [
     {
+      unique_id: 188512,
       instructor: {
         name: "Spencer W Parsons",
         bio: null,
@@ -37521,6 +39546,7 @@ export const sections = {
   ],
   "4689": [
     {
+      unique_id: 188521,
       instructor: {
         name: "",
         bio: null,
@@ -37539,6 +39565,7 @@ export const sections = {
   ],
   "4704": [
     {
+      unique_id: 188522,
       instructor: {
         name: "Jessica Margaret Thebus",
         bio: null,
@@ -37557,6 +39584,7 @@ export const sections = {
   ],
   "4713": [
     {
+      unique_id: 188526,
       instructor: {
         name: "Dassia N Posner",
         bio: null,
@@ -37573,6 +39601,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190410,
       instructor: {
         name: "Afua A Osseo - Asare",
         bio: null,
@@ -37591,6 +39620,7 @@ export const sections = {
   ],
   "4717": [
     {
+      unique_id: 188333,
       instructor: {
         name: "Danielle Nicole Ross",
         bio: null,
@@ -37609,6 +39639,7 @@ export const sections = {
   ],
   "4719": [
     {
+      unique_id: 188334,
       instructor: {
         name: "Erin Dawn Barnett",
         bio: null,
@@ -37627,6 +39658,7 @@ export const sections = {
   ],
   "4726": [
     {
+      unique_id: 188330,
       instructor: {
         name: "Susan A Lee",
         bio: null,
@@ -37645,6 +39677,7 @@ export const sections = {
   ],
   "4728": [
     {
+      unique_id: 188338,
       instructor: {
         name: "Vanessa Valecillos",
         bio: null,
@@ -37663,6 +39696,7 @@ export const sections = {
   ],
   "4729": [
     {
+      unique_id: 188337,
       instructor: {
         name: "Jeffery M Hancock",
         bio: null,
@@ -37681,6 +39715,7 @@ export const sections = {
   ],
   "4739": [
     {
+      unique_id: 188341,
       instructor: {
         name: "Corrine Nicole Springer",
         bio: null,
@@ -37699,6 +39734,7 @@ export const sections = {
   ],
   "4753": [
     {
+      unique_id: 190342,
       instructor: {
         name: "Ramon H Rivera-Servera",
         bio: null,
@@ -37715,6 +39751,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188340,
       instructor: {
         name: "Susan A Manning",
         bio: null,
@@ -37738,6 +39775,7 @@ export const sections = {
   ],
   "4758": [
     {
+      unique_id: 191353,
       instructor: {
         name: "Susan A Lee",
         bio: null,
@@ -37756,6 +39794,7 @@ export const sections = {
   ],
   "4765": [
     {
+      unique_id: 188226,
       instructor: {
         name: "",
         bio: null,
@@ -37772,6 +39811,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188225,
       instructor: {
         name: "",
         bio: null,
@@ -37788,6 +39828,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188227,
       instructor: {
         name: "",
         bio: null,
@@ -37806,6 +39847,7 @@ export const sections = {
   ],
   "4773": [
     {
+      unique_id: 187754,
       instructor: {
         name: "",
         bio: null,
@@ -37827,6 +39869,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187758,
       instructor: {
         name: "",
         bio: null,
@@ -37848,6 +39891,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187757,
       instructor: {
         name: "",
         bio: null,
@@ -37869,6 +39913,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187763,
       instructor: {
         name: "",
         bio: null,
@@ -37890,6 +39935,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187765,
       instructor: {
         name: "",
         bio: null,
@@ -37911,6 +39957,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187767,
       instructor: {
         name: "",
         bio: null,
@@ -37932,6 +39979,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187752,
       instructor: {
         name: "",
         bio: null,
@@ -37953,6 +40001,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187759,
       instructor: {
         name: "",
         bio: null,
@@ -37974,6 +40023,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187753,
       instructor: {
         name: "",
         bio: null,
@@ -37995,6 +40045,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187755,
       instructor: {
         name: "",
         bio: null,
@@ -38016,6 +40067,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187756,
       instructor: {
         name: "",
         bio: null,
@@ -38037,6 +40089,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187760,
       instructor: {
         name: "",
         bio: null,
@@ -38058,6 +40111,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187761,
       instructor: {
         name: "",
         bio: null,
@@ -38079,6 +40133,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187762,
       instructor: {
         name: "",
         bio: null,
@@ -38100,6 +40155,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187764,
       instructor: {
         name: "",
         bio: null,
@@ -38121,6 +40177,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187766,
       instructor: {
         name: "",
         bio: null,
@@ -38144,6 +40201,7 @@ export const sections = {
   ],
   "4782": [
     {
+      unique_id: 187846,
       instructor: {
         name: "Prem Kumar",
         bio: null,
@@ -38165,6 +40223,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187847,
       instructor: {
         name: "Prem Kumar",
         bio: null,
@@ -38188,6 +40247,7 @@ export const sections = {
   ],
   "4784": [
     {
+      unique_id: 187848,
       instructor: {
         name: "Todd David Murphey",
         bio: null,
@@ -38210,6 +40270,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187849,
       instructor: {
         name: "Victor Lefevre",
         bio: null,
@@ -38233,6 +40294,7 @@ export const sections = {
   ],
   "4785": [
     {
+      unique_id: 187852,
       instructor: {
         name: "Daniel Bernard Poll",
         bio: null,
@@ -38254,6 +40316,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187850,
       instructor: {
         name: "Lae Un Kim",
         bio: null,
@@ -38275,6 +40338,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187851,
       instructor: {
         name: "Alvin Bayliss",
         bio: null,
@@ -38298,6 +40362,7 @@ export const sections = {
   ],
   "4791": [
     {
+      unique_id: 187570,
       instructor: {
         name: "William M Miller",
         bio: null,
@@ -38321,6 +40386,7 @@ export const sections = {
   ],
   "4792": [
     {
+      unique_id: 187571,
       instructor: {
         name: "Jeffrey John Richards",
         bio: null,
@@ -38344,6 +40410,7 @@ export const sections = {
   ],
   "4796": [
     {
+      unique_id: 187572,
       instructor: {
         name: "Wesley Roth Burghardt",
         bio: null,
@@ -38367,6 +40434,7 @@ export const sections = {
   ],
   "4800": [
     {
+      unique_id: 187573,
       instructor: {
         name: "Gregory Maher",
         bio: null,
@@ -38390,6 +40458,7 @@ export const sections = {
   ],
   "4803": [
     {
+      unique_id: 187574,
       instructor: {
         name: "Jennifer L Cole",
         bio: null,
@@ -38413,6 +40482,7 @@ export const sections = {
   ],
   "4805": [
     {
+      unique_id: 187575,
       instructor: {
         name: "John Mark Torkelson",
         bio: null,
@@ -38436,6 +40506,7 @@ export const sections = {
   ],
   "4811": [
     {
+      unique_id: 187579,
       instructor: {
         name: "Gregory Ryskin",
         bio: null,
@@ -38459,6 +40530,7 @@ export const sections = {
   ],
   "4817": [
     {
+      unique_id: 187580,
       instructor: {
         name: "Linsey Christine Seitz",
         bio: null,
@@ -38482,6 +40554,7 @@ export const sections = {
   ],
   "4832": [
     {
+      unique_id: 187582,
       instructor: {
         name: "Randall Q Snurr",
         bio: null,
@@ -38505,6 +40578,7 @@ export const sections = {
   ],
   "4838": [
     {
+      unique_id: 187587,
       instructor: {
         name: "David Patrick O'Neill",
         bio: null,
@@ -38528,6 +40602,7 @@ export const sections = {
   ],
   "4840": [
     {
+      unique_id: 187588,
       instructor: {
         name: "David J Corr",
         bio: null,
@@ -38551,6 +40626,7 @@ export const sections = {
   ],
   "4842": [
     {
+      unique_id: 187589,
       instructor: {
         name: "Giuseppe Buscarnera",
         bio: null,
@@ -38574,6 +40650,7 @@ export const sections = {
   ],
   "4848": [
     {
+      unique_id: 187591,
       instructor: {
         name: "Mark M Clark",
         bio: null,
@@ -38597,6 +40674,7 @@ export const sections = {
   ],
   "4855": [
     {
+      unique_id: 187603,
       instructor: {
         name: "John W Rudnicki",
         bio: null,
@@ -38621,6 +40699,7 @@ export const sections = {
   ],
   "4863": [
     {
+      unique_id: 187604,
       instructor: {
         name: "Arantzazu Alarcon-Fleming",
         bio: null,
@@ -38644,6 +40723,7 @@ export const sections = {
   ],
   "4864": [
     {
+      unique_id: 187592,
       instructor: {
         name: "Wing K Liu",
         bio: null,
@@ -38668,6 +40748,7 @@ export const sections = {
   ],
   "4866": [
     {
+      unique_id: 187593,
       instructor: {
         name: "Richard Tilghman",
         bio: null,
@@ -38691,6 +40772,7 @@ export const sections = {
   ],
   "4875": [
     {
+      unique_id: 187606,
       instructor: {
         name: "Aaron Packman",
         bio: null,
@@ -38714,6 +40796,7 @@ export const sections = {
   ],
   "4886": [
     {
+      unique_id: 187594,
       instructor: {
         name: "Luisa A Marcelino",
         bio: null,
@@ -38737,6 +40820,7 @@ export const sections = {
   ],
   "4893": [
     {
+      unique_id: 187595,
       instructor: {
         name: "Jean-Francois Gaillard",
         bio: null,
@@ -38760,6 +40844,7 @@ export const sections = {
   ],
   "4894": [
     {
+      unique_id: 187596,
       instructor: {
         name: "Kimberly A Gray",
         bio: null,
@@ -38783,6 +40868,7 @@ export const sections = {
   ],
   "4897": [
     {
+      unique_id: 187597,
       instructor: {
         name: "Joseph L Schofer",
         bio: null,
@@ -38806,6 +40892,7 @@ export const sections = {
   ],
   "4901": [
     {
+      unique_id: 187598,
       instructor: {
         name: "Yu Nie",
         bio: null,
@@ -38829,6 +40916,7 @@ export const sections = {
   ],
   "4910": [
     {
+      unique_id: 187602,
       instructor: {
         name: "Victor Lefevre",
         bio: null,
@@ -38850,6 +40938,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187974,
       instructor: {
         name: "Victor Lefevre",
         bio: null,
@@ -38873,6 +40962,7 @@ export const sections = {
   ],
   "4920": [
     {
+      unique_id: 187605,
       instructor: {
         name: "Zdenek P Bazant",
         bio: null,
@@ -38896,6 +40986,7 @@ export const sections = {
   ],
   "4946": [
     {
+      unique_id: 187607,
       instructor: {
         name: "Joseph L Schofer",
         bio: null,
@@ -38919,6 +41010,7 @@ export const sections = {
   ],
   "4951": [
     {
+      unique_id: 190621,
       instructor: {
         name: "Gianluca Cusatis",
         bio: null,
@@ -38937,6 +41029,7 @@ export const sections = {
   ],
   "4952": [
     {
+      unique_id: 187608,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -38955,6 +41048,7 @@ export const sections = {
   ],
   "4954": [
     {
+      unique_id: 187615,
       instructor: {
         name: "James Paul Hambleton",
         bio: null,
@@ -38978,6 +41072,7 @@ export const sections = {
   ],
   "4958": [
     {
+      unique_id: 187617,
       instructor: {
         name: "Amanda Irini Blomberg Stathopoulos",
         bio: null,
@@ -39001,6 +41096,7 @@ export const sections = {
   ],
   "4963": [
     {
+      unique_id: 187627,
       instructor: {
         name: "Sarah Jane Van Wart",
         bio: null,
@@ -39024,6 +41120,7 @@ export const sections = {
   ],
   "4964": [
     {
+      unique_id: 187628,
       instructor: {
         name: "Ian D Horswill",
         bio: null,
@@ -39047,6 +41144,7 @@ export const sections = {
   ],
   "4967": [
     {
+      unique_id: 187629,
       instructor: {
         name: "Sara Hodges Owsley",
         bio: null,
@@ -39070,6 +41168,7 @@ export const sections = {
   ],
   "4968": [
     {
+      unique_id: 187630,
       instructor: {
         name: "Aravindan Vijayaraghavan",
         bio: null,
@@ -39093,6 +41192,7 @@ export const sections = {
   ],
   "4969": [
     {
+      unique_id: 187633,
       instructor: {
         name: "Jesse Adam Tov",
         bio: null,
@@ -39116,6 +41216,7 @@ export const sections = {
   ],
   "4971": [
     {
+      unique_id: 187634,
       instructor: {
         name: "",
         bio: null,
@@ -39139,6 +41240,7 @@ export const sections = {
   ],
   "4975": [
     {
+      unique_id: 187638,
       instructor: {
         name: "Christopher K Riesbeck",
         bio: null,
@@ -39162,6 +41264,7 @@ export const sections = {
   ],
   "4980": [
     {
+      unique_id: 187641,
       instructor: {
         name: "Jason D Hartline",
         bio: null,
@@ -39185,6 +41288,7 @@ export const sections = {
   ],
   "4986": [
     {
+      unique_id: 187644,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -39208,6 +41312,7 @@ export const sections = {
   ],
   "4994": [
     {
+      unique_id: 190424,
       instructor: {
         name: "Hai Zhou",
         bio: null,
@@ -39229,6 +41334,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187813,
       instructor: {
         name: "Xin Chen",
         bio: null,
@@ -39245,6 +41351,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190408,
       instructor: {
         name: "Dongning Guo",
         bio: null,
@@ -39268,6 +41375,7 @@ export const sections = {
   ],
   "5010": [
     {
+      unique_id: 187818,
       instructor: {
         name: "Xin Chen",
         bio: null,
@@ -39286,6 +41394,7 @@ export const sections = {
   ],
   "5025": [
     {
+      unique_id: 187804,
       instructor: {
         name: "Dongning Guo",
         bio: null,
@@ -39309,6 +41418,7 @@ export const sections = {
   ],
   "5026": [
     {
+      unique_id: 187620,
       instructor: {
         name: "Fatma Seda Memik",
         bio: null,
@@ -39332,6 +41442,7 @@ export const sections = {
   ],
   "5034": [
     {
+      unique_id: 187805,
       instructor: {
         name: "Ying Wu",
         bio: null,
@@ -39355,6 +41466,7 @@ export const sections = {
   ],
   "5044": [
     {
+      unique_id: 187806,
       instructor: {
         name: "Thrasyvoulos N Pappas",
         bio: null,
@@ -39378,6 +41490,7 @@ export const sections = {
   ],
   "5046": [
     {
+      unique_id: 187622,
       instructor: {
         name: "Gokhan Memik",
         bio: null,
@@ -39401,6 +41514,7 @@ export const sections = {
   ],
   "5058": [
     {
+      unique_id: 187808,
       instructor: {
         name: "Seng-Tiong Ho",
         bio: null,
@@ -39424,6 +41538,7 @@ export const sections = {
   ],
   "5060": [
     {
+      unique_id: 187809,
       instructor: {
         name: "Pedram Khalili Amiri",
         bio: null,
@@ -39447,6 +41562,7 @@ export const sections = {
   ],
   "5063": [
     {
+      unique_id: 187810,
       instructor: {
         name: "Matthew A Grayson",
         bio: null,
@@ -39470,6 +41586,7 @@ export const sections = {
   ],
   "5064": [
     {
+      unique_id: 187811,
       instructor: {
         name: "Koray Aydin",
         bio: null,
@@ -39491,6 +41608,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187812,
       instructor: {
         name: "",
         bio: null,
@@ -39509,6 +41627,7 @@ export const sections = {
   ],
   "5073": [
     {
+      unique_id: 187654,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -39530,6 +41649,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190358,
       instructor: {
         name: "Bryan A. Pardo",
         bio: null,
@@ -39551,6 +41671,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187655,
       instructor: {
         name: "Marcelo Aaron Bonilla Worsley",
         bio: null,
@@ -39567,6 +41688,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187653,
       instructor: {
         name: "Simone Campanoni",
         bio: null,
@@ -39588,6 +41710,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190422,
       instructor: {
         name: "Sarah Jane Van Wart",
         bio: null,
@@ -39611,6 +41734,7 @@ export const sections = {
   ],
   "5079": [
     {
+      unique_id: 187814,
       instructor: {
         name: "Selim M Shahriar",
         bio: null,
@@ -39634,6 +41758,7 @@ export const sections = {
   ],
   "5086": [
     {
+      unique_id: 187815,
       instructor: {
         name: "Arthur Butz",
         bio: null,
@@ -39657,6 +41782,7 @@ export const sections = {
   ],
   "5097": [
     {
+      unique_id: 187816,
       instructor: {
         name: "Chung Chieh Lee",
         bio: null,
@@ -39680,6 +41806,7 @@ export const sections = {
   ],
   "5121": [
     {
+      unique_id: 187861,
       instructor: {
         name: "Bruce E Ankenman",
         bio: null,
@@ -39696,6 +41823,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187860,
       instructor: {
         name: "Bruce E Ankenman",
         bio: null,
@@ -39719,6 +41847,7 @@ export const sections = {
   ],
   "5122": [
     {
+      unique_id: 187862,
       instructor: {
         name: "Jill Hardin Wilson",
         bio: null,
@@ -39735,6 +41864,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187863,
       instructor: {
         name: "Jill Hardin Wilson",
         bio: null,
@@ -39753,6 +41883,7 @@ export const sections = {
   ],
   "5123": [
     {
+      unique_id: 187867,
       instructor: {
         name: "Matthew Plumlee",
         bio: null,
@@ -39774,6 +41905,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187866,
       instructor: {
         name: "Matthew Plumlee",
         bio: null,
@@ -39797,6 +41929,7 @@ export const sections = {
   ],
   "5124": [
     {
+      unique_id: 187869,
       instructor: {
         name: "Daniel Apley",
         bio: null,
@@ -39818,6 +41951,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187868,
       instructor: {
         name: "Daniel Apley",
         bio: null,
@@ -39841,6 +41975,7 @@ export const sections = {
   ],
   "5128": [
     {
+      unique_id: 190361,
       instructor: {
         name: "Simge Kucukyavuz",
         bio: null,
@@ -39862,6 +41997,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190360,
       instructor: {
         name: "Simge Kucukyavuz",
         bio: null,
@@ -39885,6 +42021,7 @@ export const sections = {
   ],
   "5129": [
     {
+      unique_id: 190362,
       instructor: {
         name: "Ohad Perry",
         bio: null,
@@ -39901,6 +42038,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190363,
       instructor: {
         name: "Ohad Perry",
         bio: null,
@@ -39919,6 +42057,7 @@ export const sections = {
   ],
   "5132": [
     {
+      unique_id: 187873,
       instructor: {
         name: "William J White",
         bio: null,
@@ -39942,6 +42081,7 @@ export const sections = {
   ],
   "5137": [
     {
+      unique_id: 190365,
       instructor: {
         name: "",
         bio: null,
@@ -39958,6 +42098,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190364,
       instructor: {
         name: "",
         bio: null,
@@ -39976,6 +42117,7 @@ export const sections = {
   ],
   "5142": [
     {
+      unique_id: 187870,
       instructor: {
         name: "Barry L Nelson",
         bio: null,
@@ -39997,6 +42139,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187871,
       instructor: {
         name: "Barry L Nelson",
         bio: null,
@@ -40020,6 +42163,7 @@ export const sections = {
   ],
   "5148": [
     {
+      unique_id: 187987,
       instructor: {
         name: "Amjed Shafique",
         bio: null,
@@ -40038,6 +42182,7 @@ export const sections = {
   ],
   "5169": [
     {
+      unique_id: 187879,
       instructor: {
         name: "Simge Kucukyavuz",
         bio: null,
@@ -40061,6 +42206,7 @@ export const sections = {
   ],
   "5194": [
     {
+      unique_id: 187988,
       instructor: {
         name: "Derek K Nelson",
         bio: null,
@@ -40079,6 +42225,7 @@ export const sections = {
   ],
   "5196": [
     {
+      unique_id: 187883,
       instructor: {
         name: "Ohad Perry",
         bio: null,
@@ -40102,6 +42249,7 @@ export const sections = {
   ],
   "5203": [
     {
+      unique_id: 187960,
       instructor: {
         name: "Malcolm Angus MacIver",
         bio: null,
@@ -40126,6 +42274,7 @@ export const sections = {
   ],
   "5205": [
     {
+      unique_id: 187963,
       instructor: {
         name: "Sandip Ghosal",
         bio: null,
@@ -40150,6 +42299,7 @@ export const sections = {
   ],
   "5207": [
     {
+      unique_id: 187964,
       instructor: {
         name: "Todd David Murphey",
         bio: null,
@@ -40174,6 +42324,7 @@ export const sections = {
   ],
   "5208": [
     {
+      unique_id: 187965,
       instructor: {
         name: "Qian Wang",
         bio: null,
@@ -40198,6 +42349,7 @@ export const sections = {
   ],
   "5210": [
     {
+      unique_id: 187967,
       instructor: {
         name: "Ping Guo",
         bio: null,
@@ -40220,6 +42372,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187968,
       instructor: {
         name: "Ping Guo",
         bio: null,
@@ -40244,6 +42397,7 @@ export const sections = {
   ],
   "5214": [
     {
+      unique_id: 187969,
       instructor: {
         name: "Qian Wang",
         bio: null,
@@ -40268,6 +42422,7 @@ export const sections = {
   ],
   "5221": [
     {
+      unique_id: 187966,
       instructor: {
         name: "Wing K Liu",
         bio: null,
@@ -40292,6 +42447,7 @@ export const sections = {
   ],
   "5228": [
     {
+      unique_id: 187971,
       instructor: {
         name: "James Edward Colgate",
         bio: null,
@@ -40316,6 +42472,7 @@ export const sections = {
   ],
   "5231": [
     {
+      unique_id: 187972,
       instructor: {
         name: "Kyoo Chul Park",
         bio: null,
@@ -40339,6 +42496,7 @@ export const sections = {
   ],
   "5237": [
     {
+      unique_id: 187977,
       instructor: {
         name: "Neelesh A Patankar",
         bio: null,
@@ -40363,6 +42521,7 @@ export const sections = {
   ],
   "5258": [
     {
+      unique_id: 187982,
       instructor: {
         name: "Matthew Lawrence Elwin",
         bio: null,
@@ -40384,6 +42543,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187984,
       instructor: {
         name: "Kyoo Chul Park",
         bio: null,
@@ -40405,6 +42565,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187983,
       instructor: {
         name: "Michael Rubenstein",
         bio: null,
@@ -40428,6 +42589,7 @@ export const sections = {
   ],
   "5261": [
     {
+      unique_id: 187985,
       instructor: {
         name: "Sandip Ghosal",
         bio: null,
@@ -40452,6 +42614,7 @@ export const sections = {
   ],
   "5265": [
     {
+      unique_id: 187897,
       instructor: {
         name: "Vinayak P Dravid",
         bio: null,
@@ -40475,6 +42638,7 @@ export const sections = {
   ],
   "5266": [
     {
+      unique_id: 187898,
       instructor: {
         name: "Christopher M Wolverton",
         bio: null,
@@ -40498,6 +42662,7 @@ export const sections = {
   ],
   "5268": [
     {
+      unique_id: 187899,
       instructor: {
         name: "Kathleen A. Stair",
         bio: null,
@@ -40521,6 +42686,7 @@ export const sections = {
   ],
   "5269": [
     {
+      unique_id: 187900,
       instructor: {
         name: "Scott A Barnett",
         bio: null,
@@ -40544,6 +42710,7 @@ export const sections = {
   ],
   "5272": [
     {
+      unique_id: 187901,
       instructor: {
         name: "Derk Joester",
         bio: null,
@@ -40567,6 +42734,7 @@ export const sections = {
   ],
   "5281": [
     {
+      unique_id: 187902,
       instructor: {
         name: "Gerald Jeffrey Snyder",
         bio: null,
@@ -40590,6 +42758,7 @@ export const sections = {
   ],
   "5290": [
     {
+      unique_id: 187904,
       instructor: {
         name: "Yip-Wah Chung",
         bio: null,
@@ -40613,6 +42782,7 @@ export const sections = {
   ],
   "5291": [
     {
+      unique_id: 187932,
       instructor: {
         name: "Ramille M Capito",
         bio: null,
@@ -40629,6 +42799,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187934,
       instructor: {
         name: "Gerald Jeffrey Snyder",
         bio: null,
@@ -40645,6 +42816,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187922,
       instructor: {
         name: "Phillip B Messersmith",
         bio: null,
@@ -40661,6 +42833,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187935,
       instructor: {
         name: "Samuel Isaac Stupp",
         bio: null,
@@ -40677,6 +42850,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187939,
       instructor: {
         name: "Christopher M Wolverton",
         bio: null,
@@ -40693,6 +42867,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187931,
       instructor: {
         name: "David N Seidman",
         bio: null,
@@ -40709,6 +42884,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187929,
       instructor: {
         name: "John A Rogers",
         bio: null,
@@ -40725,6 +42901,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187938,
       instructor: {
         name: "Bruce W Wessels",
         bio: null,
@@ -40741,6 +42918,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187927,
       instructor: {
         name: "Amanda K Long",
         bio: null,
@@ -40757,6 +42935,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187930,
       instructor: {
         name: "James M Rondinelli",
         bio: null,
@@ -40773,6 +42952,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187917,
       instructor: {
         name: "Lincoln James Lauhon",
         bio: null,
@@ -40789,6 +42969,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187919,
       instructor: {
         name: "Laurence Marks",
         bio: null,
@@ -40805,6 +42986,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187920,
       instructor: {
         name: "Tobin Jay Marks",
         bio: null,
@@ -40821,6 +43003,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187921,
       instructor: {
         name: "Thomas O Mason",
         bio: null,
@@ -40837,6 +43020,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187933,
       instructor: {
         name: "Kenneth R. Shull",
         bio: null,
@@ -40853,6 +43037,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187923,
       instructor: {
         name: "Chad A Mirkin",
         bio: null,
@@ -40869,6 +43054,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187924,
       instructor: {
         name: "Teri Wang Odom",
         bio: null,
@@ -40885,6 +43071,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187925,
       instructor: {
         name: "Gregory B Olson",
         bio: null,
@@ -40901,6 +43088,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187926,
       instructor: {
         name: "Monica D Olvera",
         bio: null,
@@ -40917,6 +43105,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187928,
       instructor: {
         name: "Mark A Ratner",
         bio: null,
@@ -40933,6 +43122,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187936,
       instructor: {
         name: "John Mark Torkelson",
         bio: null,
@@ -40949,6 +43139,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187937,
       instructor: {
         name: "Peter W Voorhees",
         bio: null,
@@ -40965,6 +43156,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187905,
       instructor: {
         name: "Scott A Barnett",
         bio: null,
@@ -40981,6 +43173,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187906,
       instructor: {
         name: "Michael J Bedzyk",
         bio: null,
@@ -40998,6 +43191,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187907,
       instructor: {
         name: "L Catherine Brinson",
         bio: null,
@@ -41015,6 +43209,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187908,
       instructor: {
         name: "R P H Chang",
         bio: null,
@@ -41031,6 +43226,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187909,
       instructor: {
         name: "Yip-Wah Chung",
         bio: null,
@@ -41047,6 +43243,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187918,
       instructor: {
         name: "Erik Luijten",
         bio: null,
@@ -41063,6 +43260,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187910,
       instructor: {
         name: "Vinayak P Dravid",
         bio: null,
@@ -41079,6 +43277,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187911,
       instructor: {
         name: "David C Dunand",
         bio: null,
@@ -41095,6 +43294,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187912,
       instructor: {
         name: "Katherine T Faber",
         bio: null,
@@ -41111,6 +43311,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187913,
       instructor: {
         name: "Sossina Mariam Haile",
         bio: null,
@@ -41127,6 +43328,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187914,
       instructor: {
         name: "Mark Hersam",
         bio: null,
@@ -41143,6 +43345,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187915,
       instructor: {
         name: "Jiaxing Huang",
         bio: null,
@@ -41159,6 +43362,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187916,
       instructor: {
         name: "Derk Joester",
         bio: null,
@@ -41177,6 +43381,7 @@ export const sections = {
   ],
   "5292": [
     {
+      unique_id: 187941,
       instructor: {
         name: "",
         bio: null,
@@ -41193,6 +43398,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187940,
       instructor: {
         name: "James M Rondinelli",
         bio: null,
@@ -41216,6 +43422,7 @@ export const sections = {
   ],
   "5294": [
     {
+      unique_id: 187942,
       instructor: {
         name: "Kathleen A. Stair",
         bio: null,
@@ -41234,6 +43441,7 @@ export const sections = {
   ],
   "5295": [
     {
+      unique_id: 187943,
       instructor: {
         name: "Kathleen A. Stair",
         bio: null,
@@ -41252,6 +43460,7 @@ export const sections = {
   ],
   "5298": [
     {
+      unique_id: 187944,
       instructor: {
         name: "Lincoln James Lauhon",
         bio: null,
@@ -41275,6 +43484,7 @@ export const sections = {
   ],
   "5315": [
     {
+      unique_id: 187947,
       instructor: {
         name: "Monica D Olvera",
         bio: null,
@@ -41298,6 +43508,7 @@ export const sections = {
   ],
   "5316": [
     {
+      unique_id: 187948,
       instructor: {
         name: "Mark Hersam",
         bio: null,
@@ -41321,6 +43532,7 @@ export const sections = {
   ],
   "5327": [
     {
+      unique_id: 187830,
       instructor: {
         name: "Daniel Bernard Poll",
         bio: null,
@@ -41344,6 +43556,7 @@ export const sections = {
   ],
   "5330": [
     {
+      unique_id: 187831,
       instructor: {
         name: "Petia Vlahovska",
         bio: null,
@@ -41368,6 +43581,7 @@ export const sections = {
   ],
   "5340": [
     {
+      unique_id: 187833,
       instructor: {
         name: "Vladimir Volpert",
         bio: null,
@@ -41391,6 +43605,7 @@ export const sections = {
   ],
   "5346": [
     {
+      unique_id: 187834,
       instructor: {
         name: "Vladimir Volpert",
         bio: null,
@@ -41414,6 +43629,7 @@ export const sections = {
   ],
   "5349": [
     {
+      unique_id: 187835,
       instructor: {
         name: "Michael J Miksis",
         bio: null,
@@ -41437,6 +43653,7 @@ export const sections = {
   ],
   "5354": [
     {
+      unique_id: 187836,
       instructor: {
         name: "Michael J Miksis",
         bio: null,
@@ -41460,6 +43677,7 @@ export const sections = {
   ],
   "5366": [
     {
+      unique_id: 187837,
       instructor: {
         name: "Alvin Bayliss",
         bio: null,
@@ -41483,6 +43701,7 @@ export const sections = {
   ],
   "5380": [
     {
+      unique_id: 187550,
       instructor: {
         name: "Suzanne A Olds",
         bio: null,
@@ -41506,6 +43725,7 @@ export const sections = {
   ],
   "5382": [
     {
+      unique_id: 187552,
       instructor: {
         name: "John B Troy",
         bio: null,
@@ -41529,6 +43749,7 @@ export const sections = {
   ],
   "5388": [
     {
+      unique_id: 187555,
       instructor: {
         name: "Tai Te Wu",
         bio: null,
@@ -41552,6 +43773,7 @@ export const sections = {
   ],
   "5396": [
     {
+      unique_id: 187556,
       instructor: {
         name: "Alan Varteres Sahakian",
         bio: null,
@@ -41575,6 +43797,7 @@ export const sections = {
   ],
   "5402": [
     {
+      unique_id: 187558,
       instructor: {
         name: "Evan Alexander Scott",
         bio: null,
@@ -41598,6 +43821,7 @@ export const sections = {
   ],
   "5412": [
     {
+      unique_id: 187560,
       instructor: {
         name: "Mark Johnson",
         bio: null,
@@ -41621,6 +43845,7 @@ export const sections = {
   ],
   "5418": [
     {
+      unique_id: 187561,
       instructor: {
         name: "Matthew R Glucksberg",
         bio: null,
@@ -41644,6 +43869,7 @@ export const sections = {
   ],
   "5419": [
     {
+      unique_id: 187562,
       instructor: {
         name: "Molly Bright",
         bio: null,
@@ -41667,6 +43893,7 @@ export const sections = {
   ],
   "5421": [
     {
+      unique_id: 187563,
       instructor: {
         name: "Malcolm Angus MacIver",
         bio: null,
@@ -41691,6 +43918,7 @@ export const sections = {
   ],
   "5429": [
     {
+      unique_id: 187568,
       instructor: {
         name: "Michael A Marasco",
         bio: null,
@@ -41707,6 +43935,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190428,
       instructor: {
         name: "Molly Bright",
         bio: null,
@@ -41730,6 +43959,7 @@ export const sections = {
   ],
   "5431": [
     {
+      unique_id: 187569,
       instructor: {
         name: "Suzanne A Olds",
         bio: null,
@@ -41753,6 +43983,7 @@ export const sections = {
   ],
   "5435": [
     {
+      unique_id: 187884,
       instructor: {
         name: "Michael L Honig",
         bio: null,
@@ -41776,6 +44007,7 @@ export const sections = {
   ],
   "5441": [
     {
+      unique_id: 187885,
       instructor: {
         name: "Dongning Guo",
         bio: null,
@@ -41794,6 +44026,7 @@ export const sections = {
   ],
   "5443": [
     {
+      unique_id: 191385,
       instructor: {
         name: "Tina M Hauri",
         bio: null,
@@ -41812,6 +44045,7 @@ export const sections = {
   ],
   "5451": [
     {
+      unique_id: 187893,
       instructor: {
         name: "",
         bio: null,
@@ -41835,6 +44069,7 @@ export const sections = {
   ],
   "5453": [
     {
+      unique_id: 188086,
       instructor: {
         name: "Ahmad Hadavi",
         bio: null,
@@ -41853,6 +44088,7 @@ export const sections = {
   ],
   "5455": [
     {
+      unique_id: 187751,
       instructor: {
         name: "Bruce A Lindvall",
         bio: null,
@@ -41871,6 +44107,7 @@ export const sections = {
   ],
   "5495": [
     {
+      unique_id: 191312,
       instructor: {
         name: "James F Baker",
         bio: null,
@@ -41889,6 +44126,7 @@ export const sections = {
   ],
   "5518": [
     {
+      unique_id: 188752,
       instructor: {
         name: "",
         bio: null,
@@ -41907,6 +44145,7 @@ export const sections = {
   ],
   "5521": [
     {
+      unique_id: 186826,
       instructor: {
         name: "Douglas Michael Ragsdale",
         bio: null,
@@ -41930,6 +44169,7 @@ export const sections = {
   ],
   "5524": [
     {
+      unique_id: 186827,
       instructor: {
         name: "Wesley Scott Sadler",
         bio: null,
@@ -41953,6 +44193,7 @@ export const sections = {
   ],
   "5528": [
     {
+      unique_id: 186829,
       instructor: {
         name: "Christopher Wayne Adams",
         bio: null,
@@ -41976,6 +44217,7 @@ export const sections = {
   ],
   "5531": [
     {
+      unique_id: 186830,
       instructor: {
         name: "Adam Michael North",
         bio: null,
@@ -41999,6 +44241,7 @@ export const sections = {
   ],
   "5608": [
     {
+      unique_id: 188708,
       instructor: {
         name: "Murali Prakriya",
         bio: null,
@@ -42017,6 +44260,7 @@ export const sections = {
   ],
   "5609": [
     {
+      unique_id: 188709,
       instructor: {
         name: "Edward Benjamin Thorp",
         bio: null,
@@ -42035,6 +44279,7 @@ export const sections = {
   ],
   "5625": [
     {
+      unique_id: 188710,
       instructor: {
         name: "Hiroaki Kiyokawa",
         bio: null,
@@ -42053,6 +44298,7 @@ export const sections = {
   ],
   "5631": [
     {
+      unique_id: 188711,
       instructor: {
         name: "Karla Jean Fullner Satchell",
         bio: null,
@@ -42071,6 +44317,7 @@ export const sections = {
   ],
   "5634": [
     {
+      unique_id: 188712,
       instructor: {
         name: "Ji-Yong Julie Kim",
         bio: null,
@@ -42089,6 +44336,7 @@ export const sections = {
   ],
   "5654": [
     {
+      unique_id: 188715,
       instructor: {
         name: "Pamela Ann Carpentier",
         bio: null,
@@ -42105,6 +44353,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188716,
       instructor: {
         name: "Pamela Ann Carpentier",
         bio: null,
@@ -42123,6 +44372,7 @@ export const sections = {
   ],
   "5659": [
     {
+      unique_id: 188678,
       instructor: {
         name: "James L Reilly",
         bio: null,
@@ -42146,6 +44396,7 @@ export const sections = {
   ],
   "5665": [
     {
+      unique_id: 188679,
       instructor: {
         name: "Walter F Burke",
         bio: null,
@@ -42164,6 +44415,7 @@ export const sections = {
   ],
   "5668": [
     {
+      unique_id: 188680,
       instructor: {
         name: "Jason J Washburn",
         bio: null,
@@ -42187,6 +44439,7 @@ export const sections = {
   ],
   "5671": [
     {
+      unique_id: 188681,
       instructor: {
         name: "Jason J Washburn",
         bio: null,
@@ -42210,6 +44463,7 @@ export const sections = {
   ],
   "5682": [
     {
+      unique_id: 188682,
       instructor: {
         name: "Beverly Gonzalez",
         bio: null,
@@ -42233,6 +44487,7 @@ export const sections = {
   ],
   "5697": [
     {
+      unique_id: 188683,
       instructor: {
         name: "Vicky Singh",
         bio: null,
@@ -42256,6 +44511,7 @@ export const sections = {
   ],
   "5708": [
     {
+      unique_id: 188684,
       instructor: {
         name: "Heather Jill Risser",
         bio: null,
@@ -42274,6 +44530,7 @@ export const sections = {
   ],
   "5739": [
     {
+      unique_id: 188686,
       instructor: {
         name: "Jason J Washburn",
         bio: null,
@@ -42292,6 +44549,7 @@ export const sections = {
   ],
   "5753": [
     {
+      unique_id: 188697,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -42310,6 +44568,7 @@ export const sections = {
   ],
   "5761": [
     {
+      unique_id: 188698,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -42328,6 +44587,7 @@ export const sections = {
   ],
   "5764": [
     {
+      unique_id: 188699,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -42346,6 +44606,7 @@ export const sections = {
   ],
   "5767": [
     {
+      unique_id: 188700,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -42364,6 +44625,7 @@ export const sections = {
   ],
   "5771": [
     {
+      unique_id: 188702,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -42382,6 +44644,7 @@ export const sections = {
   ],
   "5773": [
     {
+      unique_id: 188724,
       instructor: {
         name: "Angela Fidler Pfammatter",
         bio: null,
@@ -42400,6 +44663,7 @@ export const sections = {
   ],
   "5774": [
     {
+      unique_id: 188725,
       instructor: {
         name: "James M Sinacore",
         bio: null,
@@ -42418,6 +44682,7 @@ export const sections = {
   ],
   "5779": [
     {
+      unique_id: 188734,
       instructor: {
         name: "Grisel Marie Robles-Schrader",
         bio: null,
@@ -42436,6 +44701,7 @@ export const sections = {
   ],
   "5784": [
     {
+      unique_id: 188736,
       instructor: {
         name: "Jungwha Lee",
         bio: null,
@@ -42454,6 +44720,7 @@ export const sections = {
   ],
   "5788": [
     {
+      unique_id: 188738,
       instructor: {
         name: "Joseph M Feinglass",
         bio: null,
@@ -42472,6 +44739,7 @@ export const sections = {
   ],
   "5847": [
     {
+      unique_id: 191013,
       instructor: {
         name: "William J Arndt",
         bio: null,
@@ -42490,6 +44758,7 @@ export const sections = {
   ],
   "5851": [
     {
+      unique_id: 191014,
       instructor: {
         name: "William J Arndt",
         bio: null,
@@ -42508,6 +44777,7 @@ export const sections = {
   ],
   "6081": [
     {
+      unique_id: 190991,
       instructor: {
         name: "Vivian E Noble",
         bio:
@@ -42527,6 +44797,7 @@ export const sections = {
   ],
   "6108": [
     {
+      unique_id: 190993,
       instructor: {
         name: "Owen P Priest",
         bio: null,
@@ -42545,6 +44816,7 @@ export const sections = {
   ],
   "6147": [
     {
+      unique_id: 191003,
       instructor: {
         name: "Emily Anne Engel",
         bio: null,
@@ -42563,6 +44835,7 @@ export const sections = {
   ],
   "6158": [
     {
+      unique_id: 191005,
       instructor: {
         name: "Mark P Witte",
         bio:
@@ -42582,6 +44855,7 @@ export const sections = {
   ],
   "6179": [
     {
+      unique_id: 191006,
       instructor: {
         name: "Tricia Lee Hermes",
         bio:
@@ -42601,6 +44875,7 @@ export const sections = {
   ],
   "6181": [
     {
+      unique_id: 191007,
       instructor: {
         name: "Diane Novak Capitani",
         bio: null,
@@ -42619,6 +44894,7 @@ export const sections = {
   ],
   "6183": [
     {
+      unique_id: 191008,
       instructor: {
         name: "Leslie Fischer",
         bio: null,
@@ -42635,6 +44911,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191009,
       instructor: {
         name: "Katharine B Duke",
         bio: null,
@@ -42653,6 +44930,7 @@ export const sections = {
   ],
   "6203": [
     {
+      unique_id: 191012,
       instructor: {
         name: "Raymond E Gleason",
         bio:
@@ -42672,6 +44950,7 @@ export const sections = {
   ],
   "6434": [
     {
+      unique_id: 191018,
       instructor: {
         name: "Rodolfo Maglio",
         bio: null,
@@ -42690,6 +44969,7 @@ export const sections = {
   ],
   "6500": [
     {
+      unique_id: 191033,
       instructor: {
         name: "",
         bio: null,
@@ -42708,6 +44988,7 @@ export const sections = {
   ],
   "6504": [
     {
+      unique_id: 191035,
       instructor: {
         name: "",
         bio: null,
@@ -42724,6 +45005,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191036,
       instructor: {
         name: "",
         bio: null,
@@ -42740,6 +45022,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191034,
       instructor: {
         name: "",
         bio: null,
@@ -42758,6 +45041,7 @@ export const sections = {
   ],
   "6512": [
     {
+      unique_id: 191037,
       instructor: {
         name: "Shaul Notkin",
         bio: null,
@@ -42776,6 +45060,7 @@ export const sections = {
   ],
   "6550": [
     {
+      unique_id: 191038,
       instructor: {
         name: "Sean Matthew Diament",
         bio: null,
@@ -42794,6 +45079,7 @@ export const sections = {
   ],
   "6555": [
     {
+      unique_id: 191040,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -42813,6 +45099,7 @@ export const sections = {
   ],
   "6556": [
     {
+      unique_id: 191041,
       instructor: {
         name: "Benjamin J Gorvine",
         bio:
@@ -42832,6 +45119,7 @@ export const sections = {
   ],
   "6572": [
     {
+      unique_id: 191042,
       instructor: {
         name: "Matthew Myers Myers",
         bio: null,
@@ -42850,6 +45138,7 @@ export const sections = {
   ],
   "6614": [
     {
+      unique_id: 191015,
       instructor: {
         name: "Dominique Mary Licops",
         bio:
@@ -42869,6 +45158,7 @@ export const sections = {
   ],
   "6633": [
     {
+      unique_id: 191049,
       instructor: {
         name: "Elena Lanza",
         bio:
@@ -42888,6 +45178,7 @@ export const sections = {
   ],
   "6663": [
     {
+      unique_id: 191047,
       instructor: {
         name: "Joseph Michael Guisti",
         bio: null,
@@ -42906,6 +45197,7 @@ export const sections = {
   ],
   "6682": [
     {
+      unique_id: 191050,
       instructor: {
         name: "John Michael Bailey",
         bio:
@@ -42925,6 +45217,7 @@ export const sections = {
   ],
   "6724": [
     {
+      unique_id: 190995,
       instructor: {
         name: "Daniel Edward Moser",
         bio:
@@ -42944,6 +45237,7 @@ export const sections = {
   ],
   "6726": [
     {
+      unique_id: 190996,
       instructor: {
         name: "Samuel Robert Tepper",
         bio: null,
@@ -42962,6 +45256,7 @@ export const sections = {
   ],
   "6761": [
     {
+      unique_id: 191046,
       instructor: {
         name: "Marisela Carina Chavez",
         bio: null,
@@ -42980,6 +45275,7 @@ export const sections = {
   ],
   "6839": [
     {
+      unique_id: 190957,
       instructor: {
         name: "Faisal O Akkawi",
         bio: null,
@@ -42998,6 +45294,7 @@ export const sections = {
   ],
   "6893": [
     {
+      unique_id: 191210,
       instructor: {
         name: "Clare Gaynor Willis",
         bio: null,
@@ -43016,6 +45313,7 @@ export const sections = {
   ],
   "6900": [
     {
+      unique_id: 191161,
       instructor: {
         name: "John O McGinnis",
         bio: null,
@@ -43039,6 +45337,7 @@ export const sections = {
   ],
   "6911": [
     {
+      unique_id: 191267,
       instructor: {
         name: "Susan E Provenzano",
         bio: null,
@@ -43060,6 +45359,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191269,
       instructor: {
         name: "James E Pfander",
         bio: null,
@@ -43081,6 +45381,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191266,
       instructor: {
         name: "Susan E Provenzano",
         bio: null,
@@ -43097,6 +45398,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191268,
       instructor: {
         name: "Martin H Redish",
         bio: null,
@@ -43120,6 +45422,7 @@ export const sections = {
   ],
   "6915": [
     {
+      unique_id: 191162,
       instructor: {
         name: "Clinton William Francis",
         bio: null,
@@ -43138,6 +45441,7 @@ export const sections = {
   ],
   "6922": [
     {
+      unique_id: 191193,
       instructor: {
         name: "Tonja Jacobi",
         bio: null,
@@ -43161,6 +45465,7 @@ export const sections = {
   ],
   "6925": [
     {
+      unique_id: 191145,
       instructor: {
         name: "Emily Elizabeth Kadens",
         bio: null,
@@ -43182,6 +45487,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191146,
       instructor: {
         name: "Bruce Alan Markell",
         bio: null,
@@ -43203,6 +45509,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191147,
       instructor: {
         name: "James Lupo",
         bio: null,
@@ -43224,6 +45531,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191148,
       instructor: {
         name: "Jide Okechuku Nzelibe",
         bio: null,
@@ -43247,6 +45555,7 @@ export const sections = {
   ],
   "6926": [
     {
+      unique_id: 191245,
       instructor: {
         name: "Peter Charles DiCola",
         bio: null,
@@ -43270,6 +45579,7 @@ export const sections = {
   ],
   "6928": [
     {
+      unique_id: 191249,
       instructor: {
         name: "Charlotte Crane",
         bio: null,
@@ -43293,6 +45603,7 @@ export const sections = {
   ],
   "6930": [
     {
+      unique_id: 191189,
       instructor: {
         name: "Leonard S Rubinowitz",
         bio: null,
@@ -43314,6 +45625,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191191,
       instructor: {
         name: "Janice Nadler",
         bio: null,
@@ -43335,6 +45647,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191190,
       instructor: {
         name: "Deborah Tuerkheimer",
         bio: null,
@@ -43356,6 +45669,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191188,
       instructor: {
         name: "Joshua Seth Kleinfeld",
         bio: null,
@@ -43379,6 +45693,7 @@ export const sections = {
   ],
   "6932": [
     {
+      unique_id: 191196,
       instructor: {
         name: "Matthew M Schneider",
         bio: null,
@@ -43402,6 +45717,7 @@ export const sections = {
   ],
   "6934": [
     {
+      unique_id: 191158,
       instructor: {
         name: "Alton B Harris",
         bio: null,
@@ -43425,6 +45741,7 @@ export const sections = {
   ],
   "6942": [
     {
+      unique_id: 191155,
       instructor: {
         name: "Stephen F Reed",
         bio: null,
@@ -43448,6 +45765,7 @@ export const sections = {
   ],
   "6944": [
     {
+      unique_id: 191238,
       instructor: {
         name: "James T Lindgren",
         bio: null,
@@ -43471,6 +45789,7 @@ export const sections = {
   ],
   "6949": [
     {
+      unique_id: 191277,
       instructor: {
         name: "Robert P Burns",
         bio: null,
@@ -43494,6 +45813,7 @@ export const sections = {
   ],
   "6950": [
     {
+      unique_id: 191236,
       instructor: {
         name: "",
         bio: null,
@@ -43517,6 +45837,7 @@ export const sections = {
   ],
   "6952": [
     {
+      unique_id: 191167,
       instructor: {
         name: "Sarah Beth Lawsky",
         bio: null,
@@ -43540,6 +45861,7 @@ export const sections = {
   ],
   "6953": [
     {
+      unique_id: 191176,
       instructor: {
         name: "Martin H Redish",
         bio: null,
@@ -43563,6 +45885,7 @@ export const sections = {
   ],
   "6968": [
     {
+      unique_id: 191243,
       instructor: {
         name: "David A Schwartz",
         bio: null,
@@ -43586,6 +45909,7 @@ export const sections = {
   ],
   "6979": [
     {
+      unique_id: 191180,
       instructor: {
         name: "Dana L Hill",
         bio: null,
@@ -43609,6 +45933,7 @@ export const sections = {
   ],
   "6982": [
     {
+      unique_id: 191175,
       instructor: {
         name: "Cynthia A Wilson",
         bio: null,
@@ -43632,6 +45957,7 @@ export const sections = {
   ],
   "6992": [
     {
+      unique_id: 191221,
       instructor: {
         name: "",
         bio: null,
@@ -43653,6 +45979,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191222,
       instructor: {
         name: "",
         bio: null,
@@ -43669,6 +45996,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191223,
       instructor: {
         name: "",
         bio: null,
@@ -43685,6 +46013,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191224,
       instructor: {
         name: "",
         bio: null,
@@ -43706,6 +46035,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191225,
       instructor: {
         name: "",
         bio: null,
@@ -43729,6 +46059,7 @@ export const sections = {
   ],
   "6994": [
     {
+      unique_id: 191272,
       instructor: {
         name: "Wendy Muchman",
         bio: null,
@@ -43750,6 +46081,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191271,
       instructor: {
         name: "Wendy Muchman",
         bio: null,
@@ -43771,6 +46103,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191270,
       instructor: {
         name: "Wendy Muchman",
         bio: null,
@@ -43794,6 +46127,7 @@ export const sections = {
   ],
   "6996": [
     {
+      unique_id: 191278,
       instructor: {
         name: "Robert P Burns",
         bio: null,
@@ -43812,6 +46146,7 @@ export const sections = {
   ],
   "6997": [
     {
+      unique_id: 191205,
       instructor: {
         name: "",
         bio: null,
@@ -43833,6 +46168,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191207,
       instructor: {
         name: "",
         bio: null,
@@ -43854,6 +46190,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191201,
       instructor: {
         name: "",
         bio: null,
@@ -43870,6 +46207,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191202,
       instructor: {
         name: "",
         bio: null,
@@ -43891,6 +46229,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191203,
       instructor: {
         name: "",
         bio: null,
@@ -43912,6 +46251,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191204,
       instructor: {
         name: "",
         bio: null,
@@ -43933,6 +46273,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191206,
       instructor: {
         name: "",
         bio: null,
@@ -43949,6 +46290,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191208,
       instructor: {
         name: "",
         bio: null,
@@ -43972,6 +46314,7 @@ export const sections = {
   ],
   "7000": [
     {
+      unique_id: 191159,
       instructor: {
         name: "John M O'Hare",
         bio: null,
@@ -43995,6 +46338,7 @@ export const sections = {
   ],
   "7003": [
     {
+      unique_id: 191235,
       instructor: {
         name: "Michael R Barsa",
         bio: null,
@@ -44018,6 +46362,7 @@ export const sections = {
   ],
   "7005": [
     {
+      unique_id: 191288,
       instructor: {
         name: "Kevin Agnew",
         bio: null,
@@ -44039,6 +46384,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191286,
       instructor: {
         name: "Annalise Buth",
         bio: null,
@@ -44060,6 +46406,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191287,
       instructor: {
         name: "Daniel Gandert",
         bio: null,
@@ -44081,6 +46428,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191285,
       instructor: {
         name: "Edward D Shapiro",
         bio: null,
@@ -44104,6 +46452,7 @@ export const sections = {
   ],
   "7008": [
     {
+      unique_id: 191251,
       instructor: {
         name: "Philip F Postlewaite",
         bio: null,
@@ -44127,6 +46476,7 @@ export const sections = {
   ],
   "7009": [
     {
+      unique_id: 191244,
       instructor: {
         name: "Laura Gabriela Pedraza-Farina",
         bio: null,
@@ -44150,6 +46500,7 @@ export const sections = {
   ],
   "7017": [
     {
+      unique_id: 191229,
       instructor: {
         name: "Nadav Shoked",
         bio: null,
@@ -44173,6 +46524,7 @@ export const sections = {
   ],
   "7022": [
     {
+      unique_id: 191181,
       instructor: {
         name: "Joyce Anne Hughes",
         bio: null,
@@ -44196,6 +46548,7 @@ export const sections = {
   ],
   "7026": [
     {
+      unique_id: 191284,
       instructor: {
         name: "James E Pfander",
         bio: null,
@@ -44214,6 +46567,7 @@ export const sections = {
   ],
   "7031": [
     {
+      unique_id: 191153,
       instructor: {
         name: "Yoon-Ho Alex Lee",
         bio: null,
@@ -44235,6 +46589,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191152,
       instructor: {
         name: "Yoon-Ho Alex Lee",
         bio: null,
@@ -44253,6 +46608,7 @@ export const sections = {
   ],
   "7035": [
     {
+      unique_id: 191253,
       instructor: {
         name: "Rana H. Salti",
         bio: null,
@@ -44271,6 +46627,7 @@ export const sections = {
   ],
   "7038": [
     {
+      unique_id: 191239,
       instructor: {
         name: "Marshall S Shapo",
         bio: null,
@@ -44294,6 +46651,7 @@ export const sections = {
   ],
   "7039": [
     {
+      unique_id: 191232,
       instructor: {
         name: "Ellen S Mulaney",
         bio: null,
@@ -44315,6 +46673,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191231,
       instructor: {
         name: "Emily Elizabeth Kadens",
         bio: null,
@@ -44331,6 +46690,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191230,
       instructor: {
         name: "Ezra Friedman",
         bio: null,
@@ -44354,6 +46714,7 @@ export const sections = {
   ],
   "7042": [
     {
+      unique_id: 191275,
       instructor: {
         name: "Steven Lubet",
         bio: null,
@@ -44372,6 +46733,7 @@ export const sections = {
   ],
   "7046": [
     {
+      unique_id: 191199,
       instructor: {
         name: "Sunil R Harjani",
         bio: null,
@@ -44390,6 +46752,7 @@ export const sections = {
   ],
   "7071": [
     {
+      unique_id: 191282,
       instructor: {
         name: "Edmond E Min Chang",
         bio: null,
@@ -44413,6 +46776,7 @@ export const sections = {
   ],
   "7074": [
     {
+      unique_id: 191154,
       instructor: {
         name: "Susan E Provenzano",
         bio: null,
@@ -44431,6 +46795,7 @@ export const sections = {
   ],
   "7077": [
     {
+      unique_id: 191289,
       instructor: {
         name: "Shari Diamond",
         bio: null,
@@ -44454,6 +46819,7 @@ export const sections = {
   ],
   "7079": [
     {
+      unique_id: 191197,
       instructor: {
         name: "Alan Mills",
         bio: null,
@@ -44477,6 +46843,7 @@ export const sections = {
   ],
   "7084": [
     {
+      unique_id: 191290,
       instructor: {
         name: "Alyson M Carrel",
         bio: null,
@@ -44495,6 +46862,7 @@ export const sections = {
   ],
   "7089": [
     {
+      unique_id: 191174,
       instructor: {
         name: "Matthew Laurence Spitzer",
         bio: null,
@@ -44516,6 +46884,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191173,
       instructor: {
         name: "Robert P Burns",
         bio: null,
@@ -44539,6 +46908,7 @@ export const sections = {
   ],
   "7092": [
     {
+      unique_id: 189397,
       instructor: {
         name: "Caitlyn Patricia Doyle",
         bio: null,
@@ -44562,6 +46932,7 @@ export const sections = {
   ],
   "7098": [
     {
+      unique_id: 187639,
       instructor: {
         name: "Marcelo Aaron Bonilla Worsley",
         bio: null,
@@ -44585,6 +46956,7 @@ export const sections = {
   ],
   "7103": [
     {
+      unique_id: 187799,
       instructor: {
         name: "Allen Taflove",
         bio: null,
@@ -44608,6 +46980,7 @@ export const sections = {
   ],
   "7131": [
     {
+      unique_id: 187800,
       instructor: {
         name: "Thrasyvoulos N Pappas",
         bio: null,
@@ -44631,6 +47004,7 @@ export const sections = {
   ],
   "7170": [
     {
+      unique_id: 188549,
       instructor: {
         name: "Matthew Wayne Easterday",
         bio: null,
@@ -44654,6 +47028,7 @@ export const sections = {
   ],
   "7171": [
     {
+      unique_id: 189742,
       instructor: {
         name: "Michael Brian Maltenfort",
         bio: null,
@@ -44672,6 +47047,7 @@ export const sections = {
   ],
   "7172": [
     {
+      unique_id: 187886,
       instructor: {
         name: "",
         bio: null,
@@ -44695,6 +47071,7 @@ export const sections = {
   ],
   "8037": [
     {
+      unique_id: 188668,
       instructor: {
         name: "",
         bio: null,
@@ -44711,6 +47088,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190344,
       instructor: {
         name: "Timothy A. Dohrer",
         bio: null,
@@ -44734,6 +47112,7 @@ export const sections = {
   ],
   "8093": [
     {
+      unique_id: 187626,
       instructor: {
         name: "Lawrence A Birnbaum",
         bio: null,
@@ -44757,6 +47136,7 @@ export const sections = {
   ],
   "8141": [
     {
+      unique_id: 189359,
       instructor: {
         name: "Jay A Grossman",
         bio: null,
@@ -44780,6 +47160,7 @@ export const sections = {
   ],
   "8144": [
     {
+      unique_id: 190161,
       instructor: {
         name: "Cristina L.H. Traina",
         bio: null,
@@ -44796,6 +47177,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190160,
       instructor: {
         name: "George D Bond",
         bio: null,
@@ -44812,6 +47194,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190159,
       instructor: {
         name: "Sarah McFarland Taylor",
         bio: null,
@@ -44830,6 +47213,7 @@ export const sections = {
   ],
   "8159": [
     {
+      unique_id: 187058,
       instructor: {
         name: "Mathew Arrellin",
         bio: null,
@@ -44848,6 +47232,7 @@ export const sections = {
   ],
   "8177": [
     {
+      unique_id: 187645,
       instructor: {
         name: "Bryan A. Pardo",
         bio: null,
@@ -44871,6 +47256,7 @@ export const sections = {
   ],
   "8251": [
     {
+      unique_id: 187979,
       instructor: {
         name: "Wei Chen",
         bio: null,
@@ -44895,6 +47281,7 @@ export const sections = {
   ],
   "8265": [
     {
+      unique_id: 187090,
       instructor: {
         name: "Robert Andrew Reinhart",
         bio: null,
@@ -44913,6 +47300,7 @@ export const sections = {
   ],
   "8275": [
     {
+      unique_id: 191333,
       instructor: {
         name: "Robert S Bills",
         bio: null,
@@ -44931,6 +47319,7 @@ export const sections = {
   ],
   "8308": [
     {
+      unique_id: 191192,
       instructor: {
         name: "Scott Frederick Main",
         bio: null,
@@ -44954,6 +47343,7 @@ export const sections = {
   ],
   "8369": [
     {
+      unique_id: 190008,
       instructor: {
         name: "Nicole Louise Weygandt",
         bio: null,
@@ -44977,6 +47367,7 @@ export const sections = {
   ],
   "8393": [
     {
+      unique_id: 190352,
       instructor: {
         name: "Kenneth L Alder",
         bio: null,
@@ -45000,6 +47391,7 @@ export const sections = {
   ],
   "8404": [
     {
+      unique_id: 190009,
       instructor: {
         name: "James L Mahoney",
         bio:
@@ -45022,6 +47414,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190207,
       instructor: {
         name: "James L Mahoney",
         bio:
@@ -45046,6 +47439,7 @@ export const sections = {
   ],
   "8447": [
     {
+      unique_id: 187097,
       instructor: {
         name: "Gavin Paul Chuck",
         bio: null,
@@ -45064,6 +47458,7 @@ export const sections = {
   ],
   "8526": [
     {
+      unique_id: 190226,
       instructor: {
         name: "",
         bio: null,
@@ -45087,6 +47482,7 @@ export const sections = {
   ],
   "8643": [
     {
+      unique_id: 187619,
       instructor: {
         name: "Russell E Joseph",
         bio: null,
@@ -45110,6 +47506,7 @@ export const sections = {
   ],
   "8645": [
     {
+      unique_id: 187801,
       instructor: {
         name: "Manijeh Razeghi",
         bio: null,
@@ -45133,6 +47530,7 @@ export const sections = {
   ],
   "8646": [
     {
+      unique_id: 187802,
       instructor: {
         name: "Allen Taflove",
         bio: null,
@@ -45156,6 +47554,7 @@ export const sections = {
   ],
   "8660": [
     {
+      unique_id: 189784,
       instructor: {
         name: "",
         bio: null,
@@ -45177,6 +47576,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189783,
       instructor: {
         name: "Aaron Charles Naber",
         bio: null,
@@ -45200,6 +47600,7 @@ export const sections = {
   ],
   "8671": [
     {
+      unique_id: 188074,
       instructor: {
         name: "James J Blanusha",
         bio: null,
@@ -45221,6 +47622,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188073,
       instructor: {
         name: "James J Blanusha",
         bio: null,
@@ -45244,6 +47646,7 @@ export const sections = {
   ],
   "8673": [
     {
+      unique_id: 188075,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -45267,6 +47670,7 @@ export const sections = {
   ],
   "8725": [
     {
+      unique_id: 187803,
       instructor: {
         name: "Chi-Haur Wu",
         bio: null,
@@ -45290,6 +47694,7 @@ export const sections = {
   ],
   "8731": [
     {
+      unique_id: 191310,
       instructor: {
         name: "Yongchao Ma",
         bio: null,
@@ -45313,6 +47718,7 @@ export const sections = {
   ],
   "8739": [
     {
+      unique_id: 188727,
       instructor: {
         name: "Rola Kaakeh",
         bio: null,
@@ -45331,6 +47737,7 @@ export const sections = {
   ],
   "8740": [
     {
+      unique_id: 188741,
       instructor: {
         name: "Rishi K Agrawal",
         bio: null,
@@ -45349,6 +47756,7 @@ export const sections = {
   ],
   "8744": [
     {
+      unique_id: 188798,
       instructor: {
         name: "Huey Gene Copeland II",
         bio: null,
@@ -45367,6 +47775,7 @@ export const sections = {
   ],
   "10001": [
     {
+      unique_id: 188739,
       instructor: {
         name: "Phil B Fontanarosa",
         bio: null,
@@ -45385,6 +47794,7 @@ export const sections = {
   ],
   "10105": [
     {
+      unique_id: 190341,
       instructor: {
         name: "Janice A Radway",
         bio: null,
@@ -45408,6 +47818,7 @@ export const sections = {
   ],
   "10364": [
     {
+      unique_id: 189465,
       instructor: {
         name: "Scott Andrew Sowerby",
         bio: null,
@@ -45431,6 +47842,7 @@ export const sections = {
   ],
   "11018": [
     {
+      unique_id: 187970,
       instructor: {
         name: "Horacio Dante Espinosa",
         bio: null,
@@ -45455,6 +47867,7 @@ export const sections = {
   ],
   "11158": [
     {
+      unique_id: 186906,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -45471,6 +47884,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186905,
       instructor: {
         name: "Donald John Nally",
         bio: null,
@@ -45487,6 +47901,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186907,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -45503,6 +47918,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186908,
       instructor: {
         name: "",
         bio: null,
@@ -45519,6 +47935,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186904,
       instructor: {
         name: "Albert Michael Pinsonneault",
         bio: null,
@@ -45537,6 +47954,7 @@ export const sections = {
   ],
   "11159": [
     {
+      unique_id: 186909,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -45558,6 +47976,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186910,
       instructor: {
         name: "Mallory Beth Thompson",
         bio: null,
@@ -45579,6 +47998,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186911,
       instructor: {
         name: "Daniel Farris",
         bio: null,
@@ -45600,6 +48020,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186912,
       instructor: {
         name: "Daniel Farris",
         bio: null,
@@ -45618,6 +48039,7 @@ export const sections = {
   ],
   "11261": [
     {
+      unique_id: 188807,
       instructor: {
         name: "Sherwin K Bryant",
         bio: null,
@@ -45639,6 +48061,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189452,
       instructor: {
         name: "Sherwin K Bryant",
         bio: null,
@@ -45662,6 +48085,7 @@ export const sections = {
   ],
   "11399": [
     {
+      unique_id: 190023,
       instructor: {
         name: "James N Druckman",
         bio: null,
@@ -45685,6 +48109,7 @@ export const sections = {
   ],
   "11449": [
     {
+      unique_id: 187233,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -45703,6 +48128,7 @@ export const sections = {
   ],
   "11510": [
     {
+      unique_id: 187637,
       instructor: {
         name: "Vincent St Amour",
         bio: null,
@@ -45726,6 +48152,7 @@ export const sections = {
   ],
   "11674": [
     {
+      unique_id: 188763,
       instructor: {
         name: "John Crandall Hudson",
         bio: null,
@@ -45749,6 +48176,7 @@ export const sections = {
   ],
   "11778": [
     {
+      unique_id: 188407,
       instructor: {
         name: "Stephan Michael Moore",
         bio: null,
@@ -45765,6 +48193,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188406,
       instructor: {
         name: "Charles Stephen Evans",
         bio: null,
@@ -45786,6 +48215,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188405,
       instructor: {
         name: "Ozge Samanci",
         bio: null,
@@ -45807,6 +48237,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188404,
       instructor: {
         name: "Ozge Samanci",
         bio: null,
@@ -45830,6 +48261,7 @@ export const sections = {
   ],
   "11784": [
     {
+      unique_id: 188413,
       instructor: {
         name: "Jeff Clayton Brown",
         bio: null,
@@ -45853,6 +48285,7 @@ export const sections = {
   ],
   "11794": [
     {
+      unique_id: 188289,
       instructor: {
         name: "Kristine Marie Grohne Riley",
         bio: null,
@@ -45871,6 +48304,7 @@ export const sections = {
   ],
   "11974": [
     {
+      unique_id: 189855,
       instructor: {
         name: "Rachel E Zuckert",
         bio: null,
@@ -45889,6 +48323,7 @@ export const sections = {
   ],
   "12009": [
     {
+      unique_id: 190210,
       instructor: {
         name: "Hector G Carrillo",
         bio: null,
@@ -45912,6 +48347,7 @@ export const sections = {
   ],
   "12068": [
     {
+      unique_id: 187576,
       instructor: {
         name: "Harold H Kung",
         bio: null,
@@ -45935,6 +48371,7 @@ export const sections = {
   ],
   "12104": [
     {
+      unique_id: 187978,
       instructor: {
         name: "Sandip Ghosal",
         bio: null,
@@ -45959,6 +48396,7 @@ export const sections = {
   ],
   "12187": [
     {
+      unique_id: 188779,
       instructor: {
         name: "Jorg Kreienbrock",
         bio: null,
@@ -45977,6 +48415,7 @@ export const sections = {
   ],
   "12253": [
     {
+      unique_id: 191021,
       instructor: {
         name: "Clive William Newstead",
         bio: null,
@@ -45995,6 +48434,7 @@ export const sections = {
   ],
   "12281": [
     {
+      unique_id: 188937,
       instructor: {
         name: "Krissa A Skogen",
         bio: null,
@@ -46018,6 +48458,7 @@ export const sections = {
   ],
   "12470": [
     {
+      unique_id: 189627,
       instructor: {
         name: "Ann C Gunter",
         bio: null,
@@ -46041,6 +48482,7 @@ export const sections = {
   ],
   "12591": [
     {
+      unique_id: 186902,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -46059,6 +48501,7 @@ export const sections = {
   ],
   "12805": [
     {
+      unique_id: 188403,
       instructor: {
         name: "Niv Klainer",
         bio: null,
@@ -46082,6 +48525,7 @@ export const sections = {
   ],
   "13067": [
     {
+      unique_id: 187046,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -46100,6 +48544,7 @@ export const sections = {
   ],
   "13201": [
     {
+      unique_id: 189841,
       instructor: {
         name: "Seyede Pouye Khoshkhoosani",
         bio: null,
@@ -46123,6 +48568,7 @@ export const sections = {
   ],
   "13203": [
     {
+      unique_id: 190318,
       instructor: {
         name: "Margaret Elizabeth Andrews",
         bio: null,
@@ -46144,6 +48590,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190317,
       instructor: {
         name: "Margaret Elizabeth Andrews",
         bio: null,
@@ -46167,6 +48614,7 @@ export const sections = {
   ],
   "13298": [
     {
+      unique_id: 189842,
       instructor: {
         name: "Seyede Pouye Khoshkhoosani",
         bio: null,
@@ -46190,6 +48638,7 @@ export const sections = {
   ],
   "13391": [
     {
+      unique_id: 189696,
       instructor: {
         name: "Claire E Sufrin",
         bio: null,
@@ -46213,6 +48662,7 @@ export const sections = {
   ],
   "13466": [
     {
+      unique_id: 186915,
       instructor: {
         name: "Victor Yampolsky",
         bio: null,
@@ -46234,6 +48684,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186916,
       instructor: {
         name: "Robert Gene Hasty",
         bio: null,
@@ -46255,6 +48706,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 186914,
       instructor: {
         name: "Robert Gene Hasty",
         bio: null,
@@ -46278,6 +48730,7 @@ export const sections = {
   ],
   "13506": [
     {
+      unique_id: 190864,
       instructor: {
         name: "William J Savage",
         bio:
@@ -46297,6 +48750,7 @@ export const sections = {
   ],
   "13576": [
     {
+      unique_id: 190206,
       instructor: {
         name: "",
         bio: null,
@@ -46320,6 +48774,7 @@ export const sections = {
   ],
   "13600": [
     {
+      unique_id: 186936,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -46338,6 +48793,7 @@ export const sections = {
   ],
   "13638": [
     {
+      unique_id: 190368,
       instructor: {
         name: "Krista Angelique Thompson",
         bio: null,
@@ -46356,6 +48812,7 @@ export const sections = {
   ],
   "14198": [
     {
+      unique_id: 189138,
       instructor: {
         name: "Ginger L. Pennington",
         bio:
@@ -46378,6 +48835,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189139,
       instructor: {
         name: "Ginger L. Pennington",
         bio:
@@ -46402,6 +48860,7 @@ export const sections = {
   ],
   "14230": [
     {
+      unique_id: 191166,
       instructor: {
         name: "Paul H Dykstra",
         bio: null,
@@ -46425,6 +48884,7 @@ export const sections = {
   ],
   "14231": [
     {
+      unique_id: 188701,
       instructor: {
         name: "Elizabeth A Leeth",
         bio: null,
@@ -46443,6 +48903,7 @@ export const sections = {
   ],
   "14343": [
     {
+      unique_id: 187878,
       instructor: {
         name: "Noshir Contractor",
         bio: null,
@@ -46466,6 +48927,7 @@ export const sections = {
   ],
   "14511": [
     {
+      unique_id: 190151,
       instructor: {
         name: "",
         bio: null,
@@ -46489,6 +48951,7 @@ export const sections = {
   ],
   "14786": [
     {
+      unique_id: 189799,
       instructor: {
         name: "Bryna R Kra",
         bio: null,
@@ -46512,6 +48975,7 @@ export const sections = {
   ],
   "15047": [
     {
+      unique_id: 188579,
       instructor: {
         name: "Margaret Elizabeth Burke",
         bio: null,
@@ -46533,6 +48997,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188578,
       instructor: {
         name: "Julie Alice Payne-Kirchmeier",
         bio: null,
@@ -46556,6 +49021,7 @@ export const sections = {
   ],
   "15054": [
     {
+      unique_id: 187877,
       instructor: {
         name: "Matthew Plumlee",
         bio: null,
@@ -46579,6 +49045,7 @@ export const sections = {
   ],
   "15069": [
     {
+      unique_id: 189201,
       instructor: {
         name: "Chin-Hung Chang",
         bio: null,
@@ -46602,6 +49069,7 @@ export const sections = {
   ],
   "15149": [
     {
+      unique_id: 189350,
       instructor: {
         name: "Vivasvan Soni",
         bio: null,
@@ -46625,6 +49093,7 @@ export const sections = {
   ],
   "15192": [
     {
+      unique_id: 188560,
       instructor: {
         name: "Terrie E Bridgman",
         bio: null,
@@ -46643,6 +49112,7 @@ export const sections = {
   ],
   "15194": [
     {
+      unique_id: 188561,
       instructor: {
         name: "Jen Braden Munson",
         bio: null,
@@ -46666,6 +49136,7 @@ export const sections = {
   ],
   "15195": [
     {
+      unique_id: 188571,
       instructor: {
         name: "Janis E Morgan",
         bio: null,
@@ -46689,6 +49160,7 @@ export const sections = {
   ],
   "15199": [
     {
+      unique_id: 190776,
       instructor: {
         name: "Rebekah M Wrobbel",
         bio: null,
@@ -46710,6 +49182,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188572,
       instructor: {
         name: "Rebekah M Wrobbel",
         bio: null,
@@ -46731,6 +49204,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190633,
       instructor: {
         name: "Rebekah M Wrobbel",
         bio: null,
@@ -46752,6 +49226,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188674,
       instructor: {
         name: "Rebekah M Wrobbel",
         bio: null,
@@ -46775,6 +49250,7 @@ export const sections = {
   ],
   "15200": [
     {
+      unique_id: 188574,
       instructor: {
         name: "Dawn Novak",
         bio: null,
@@ -46791,6 +49267,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188573,
       instructor: {
         name: "Martha Louise Mulligan",
         bio: null,
@@ -46807,6 +49284,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188675,
       instructor: {
         name: "Martha Louise Mulligan",
         bio: null,
@@ -46823,6 +49301,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188676,
       instructor: {
         name: "Dawn Novak",
         bio: null,
@@ -46841,6 +49320,7 @@ export const sections = {
   ],
   "15201": [
     {
+      unique_id: 188575,
       instructor: {
         name: "",
         bio: null,
@@ -46859,6 +49339,7 @@ export const sections = {
   ],
   "15210": [
     {
+      unique_id: 188387,
       instructor: {
         name: "",
         bio: null,
@@ -46880,6 +49361,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188385,
       instructor: {
         name: "Billy Budd Vermillion",
         bio: null,
@@ -46901,6 +49383,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188386,
       instructor: {
         name: "",
         bio: null,
@@ -46924,6 +49407,7 @@ export const sections = {
   ],
   "15215": [
     {
+      unique_id: 187245,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -46942,6 +49426,7 @@ export const sections = {
   ],
   "15216": [
     {
+      unique_id: 187278,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -46960,6 +49445,7 @@ export const sections = {
   ],
   "15217": [
     {
+      unique_id: 189996,
       instructor: {
         name: "Loubna El Amine",
         bio:
@@ -46985,6 +49471,7 @@ export const sections = {
   ],
   "15224": [
     {
+      unique_id: 191321,
       instructor: {
         name: "Deborah Tuerkheimer",
         bio: null,
@@ -47008,6 +49495,7 @@ export const sections = {
   ],
   "15235": [
     {
+      unique_id: 187004,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -47026,6 +49514,7 @@ export const sections = {
   ],
   "15236": [
     {
+      unique_id: 187005,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -47044,6 +49533,7 @@ export const sections = {
   ],
   "15245": [
     {
+      unique_id: 187006,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -47062,6 +49552,7 @@ export const sections = {
   ],
   "15257": [
     {
+      unique_id: 189989,
       instructor: {
         name: "Kinga Kosmala",
         bio: null,
@@ -47080,6 +49571,7 @@ export const sections = {
   ],
   "15260": [
     {
+      unique_id: 189990,
       instructor: {
         name: "Kinga Kosmala",
         bio: null,
@@ -47098,6 +49590,7 @@ export const sections = {
   ],
   "15271": [
     {
+      unique_id: 187989,
       instructor: {
         name: "Donald R McNeeley",
         bio: null,
@@ -47116,6 +49609,7 @@ export const sections = {
   ],
   "15274": [
     {
+      unique_id: 187872,
       instructor: {
         name: "Neal Orlando Sales-Griffin",
         bio: null,
@@ -47134,6 +49628,7 @@ export const sections = {
   ],
   "15327": [
     {
+      unique_id: 191164,
       instructor: {
         name: "Geoffey A Richards",
         bio: null,
@@ -47157,6 +49652,7 @@ export const sections = {
   ],
   "15362": [
     {
+      unique_id: 187643,
       instructor: {
         name: "Fabian E Bustamante",
         bio: null,
@@ -47180,6 +49676,7 @@ export const sections = {
   ],
   "15382": [
     {
+      unique_id: 190411,
       instructor: {
         name: "",
         bio: null,
@@ -47198,6 +49695,7 @@ export const sections = {
   ],
   "15389": [
     {
+      unique_id: 187888,
       instructor: {
         name: "John R Twombly",
         bio: null,
@@ -47221,6 +49719,7 @@ export const sections = {
   ],
   "15391": [
     {
+      unique_id: 191254,
       instructor: {
         name: "Jeffrey Ted Sheffield",
         bio: null,
@@ -47244,6 +49743,7 @@ export const sections = {
   ],
   "15397": [
     {
+      unique_id: 191295,
       instructor: {
         name: "Stephen F Reed",
         bio: null,
@@ -47267,6 +49767,7 @@ export const sections = {
   ],
   "15399": [
     {
+      unique_id: 188733,
       instructor: {
         name: "William Leonard",
         bio: null,
@@ -47290,6 +49791,7 @@ export const sections = {
   ],
   "15409": [
     {
+      unique_id: 191296,
       instructor: {
         name: "Steven A Drizin",
         bio: null,
@@ -47313,6 +49815,7 @@ export const sections = {
   ],
   "15410": [
     {
+      unique_id: 191297,
       instructor: {
         name: "Laurie I Mikva",
         bio: null,
@@ -47336,6 +49839,7 @@ export const sections = {
   ],
   "15462": [
     {
+      unique_id: 188253,
       instructor: {
         name: "Reyhaneh Maktoufi",
         bio: null,
@@ -47357,6 +49861,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188252,
       instructor: {
         name: "Renwen Zhang",
         bio: null,
@@ -47380,6 +49885,7 @@ export const sections = {
   ],
   "15500": [
     {
+      unique_id: 188586,
       instructor: {
         name: "Vanessa Seiden",
         bio: null,
@@ -47403,6 +49909,7 @@ export const sections = {
   ],
   "15501": [
     {
+      unique_id: 188585,
       instructor: {
         name: "Byron K Simerson",
         bio: null,
@@ -47421,6 +49928,7 @@ export const sections = {
   ],
   "15504": [
     {
+      unique_id: 187551,
       instructor: {
         name: "David Patrick O'Neill",
         bio: null,
@@ -47444,6 +49952,7 @@ export const sections = {
   ],
   "15505": [
     {
+      unique_id: 187557,
       instructor: {
         name: "Hao Zhang",
         bio: null,
@@ -47467,6 +49976,7 @@ export const sections = {
   ],
   "15514": [
     {
+      unique_id: 187616,
       instructor: {
         name: "Jean-Francois Gaillard",
         bio: null,
@@ -47490,6 +50000,7 @@ export const sections = {
   ],
   "15515": [
     {
+      unique_id: 187618,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -47513,6 +50024,7 @@ export const sections = {
   ],
   "15519": [
     {
+      unique_id: 188318,
       instructor: {
         name: "Molly C Losh",
         bio: null,
@@ -47529,6 +50041,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188322,
       instructor: {
         name: "Elizabeth Spencer Norton",
         bio: null,
@@ -47545,6 +50058,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188323,
       instructor: {
         name: "Angela Christine Roberts",
         bio: null,
@@ -47561,6 +50075,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188325,
       instructor: {
         name: "Jason Tait Sanchez",
         bio: null,
@@ -47577,6 +50092,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188319,
       instructor: {
         name: "Jonathan H Siegel",
         bio: null,
@@ -47593,6 +50109,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188320,
       instructor: {
         name: "Steven G Zecker",
         bio: null,
@@ -47609,6 +50126,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188311,
       instructor: {
         name: "Nina Kraus",
         bio: null,
@@ -47625,6 +50143,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188326,
       instructor: {
         name: "Adriana Weisleder",
         bio: null,
@@ -47641,6 +50160,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188310,
       instructor: {
         name: "Sumitrajit Dhar",
         bio: null,
@@ -47657,6 +50177,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188321,
       instructor: {
         name: "Tina M Grieco-Calub",
         bio: null,
@@ -47673,6 +50194,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188312,
       instructor: {
         name: "Charles Larson",
         bio: null,
@@ -47689,6 +50211,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188313,
       instructor: {
         name: "Viorica Marian",
         bio: null,
@@ -47705,6 +50228,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188314,
       instructor: {
         name: "Bonnie Jean Martin",
         bio: null,
@@ -47721,6 +50245,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188315,
       instructor: {
         name: "Pamela Elizabeth Souza",
         bio: null,
@@ -47737,6 +50262,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188316,
       instructor: {
         name: "Cynthia K Thompson",
         bio: null,
@@ -47753,6 +50279,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188317,
       instructor: {
         name: "Beverly Ann Wright",
         bio: null,
@@ -47769,6 +50296,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188324,
       instructor: {
         name: "Megan York Roberts",
         bio: null,
@@ -47787,6 +50315,7 @@ export const sections = {
   ],
   "15543": [
     {
+      unique_id: 191252,
       instructor: {
         name: "David L Cameron",
         bio: null,
@@ -47810,6 +50339,7 @@ export const sections = {
   ],
   "15552": [
     {
+      unique_id: 191257,
       instructor: {
         name: "Michael S Melbinger",
         bio: null,
@@ -47833,6 +50363,7 @@ export const sections = {
   ],
   "15556": [
     {
+      unique_id: 191250,
       instructor: {
         name: "Kirk A Hoopingarner",
         bio: null,
@@ -47856,6 +50387,7 @@ export const sections = {
   ],
   "15557": [
     {
+      unique_id: 191258,
       instructor: {
         name: "David Anthony Hughes",
         bio: null,
@@ -47879,6 +50411,7 @@ export const sections = {
   ],
   "15569": [
     {
+      unique_id: 188592,
       instructor: {
         name: "Kimberly S Scott",
         bio: null,
@@ -47897,6 +50430,7 @@ export const sections = {
   ],
   "15576": [
     {
+      unique_id: 188583,
       instructor: {
         name: "Ryan Edward Smerek",
         bio: null,
@@ -47920,6 +50454,7 @@ export const sections = {
   ],
   "15579": [
     {
+      unique_id: 191150,
       instructor: {
         name: "Carole Silver",
         bio: null,
@@ -47936,6 +50471,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191149,
       instructor: {
         name: "Sarath Sanga",
         bio: null,
@@ -47954,6 +50490,7 @@ export const sections = {
   ],
   "15587": [
     {
+      unique_id: 189721,
       instructor: {
         name: "Joanna Lynn Grisinger",
         bio: null,
@@ -47977,6 +50514,7 @@ export const sections = {
   ],
   "15596": [
     {
+      unique_id: 191216,
       instructor: {
         name: "Sarath Sanga",
         bio: null,
@@ -48000,6 +50538,7 @@ export const sections = {
   ],
   "15611": [
     {
+      unique_id: 187632,
       instructor: {
         name: "Vincent St Amour",
         bio: null,
@@ -48021,6 +50560,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187631,
       instructor: {
         name: "Peter A Dinda",
         bio: null,
@@ -48044,6 +50584,7 @@ export const sections = {
   ],
   "15613": [
     {
+      unique_id: 191255,
       instructor: {
         name: "John J Comeau",
         bio: null,
@@ -48067,6 +50608,7 @@ export const sections = {
   ],
   "15639": [
     {
+      unique_id: 190217,
       instructor: {
         name: "Jean Marie Clipperton",
         bio: null,
@@ -48085,6 +50627,7 @@ export const sections = {
   ],
   "15662": [
     {
+      unique_id: 190612,
       instructor: {
         name: "David Stuart Dranove",
         bio: null,
@@ -48103,6 +50646,7 @@ export const sections = {
   ],
   "15664": [
     {
+      unique_id: 187853,
       instructor: {
         name: "Prem Kumar",
         bio: null,
@@ -48124,6 +50668,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187854,
       instructor: {
         name: "Prem Kumar",
         bio: null,
@@ -48147,6 +50692,7 @@ export const sections = {
   ],
   "15672": [
     {
+      unique_id: 187642,
       instructor: {
         name: "Lawrence A Birnbaum",
         bio: null,
@@ -48165,6 +50711,7 @@ export const sections = {
   ],
   "15674": [
     {
+      unique_id: 187549,
       instructor: {
         name: "Suzanne A Olds",
         bio: null,
@@ -48188,6 +50735,7 @@ export const sections = {
   ],
   "15688": [
     {
+      unique_id: 188309,
       instructor: {
         name: "Beverly Ann Wright",
         bio: null,
@@ -48211,6 +50759,7 @@ export const sections = {
   ],
   "15696": [
     {
+      unique_id: 188584,
       instructor: {
         name: "Melinda Turnley",
         bio: null,
@@ -48229,6 +50778,7 @@ export const sections = {
   ],
   "15698": [
     {
+      unique_id: 188598,
       instructor: {
         name: "Bahareh Sahebi",
         bio: null,
@@ -48250,6 +50800,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188599,
       instructor: {
         name: "Sepehr Vakil",
         bio: null,
@@ -48273,6 +50824,7 @@ export const sections = {
   ],
   "15700": [
     {
+      unique_id: 188589,
       instructor: {
         name: "Kimberly S Scott",
         bio: null,
@@ -48291,6 +50843,7 @@ export const sections = {
   ],
   "15701": [
     {
+      unique_id: 188595,
       instructor: {
         name: "Scott Richard Ogawa",
         bio: null,
@@ -48314,6 +50867,7 @@ export const sections = {
   ],
   "15714": [
     {
+      unique_id: 188472,
       instructor: {
         name: "Barbara A Butts",
         bio: null,
@@ -48332,6 +50886,7 @@ export const sections = {
   ],
   "15715": [
     {
+      unique_id: 187891,
       instructor: {
         name: "Goce P Trajcevski",
         bio: null,
@@ -48353,6 +50908,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187892,
       instructor: {
         name: "Lowell J Lindstrom",
         bio: null,
@@ -48374,6 +50930,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187890,
       instructor: {
         name: "Goce P Trajcevski",
         bio: null,
@@ -48397,6 +50954,7 @@ export const sections = {
   ],
   "15718": [
     {
+      unique_id: 187980,
       instructor: {
         name: "Kevin M Lynch",
         bio: null,
@@ -48421,6 +50979,7 @@ export const sections = {
   ],
   "15725": [
     {
+      unique_id: 188480,
       instructor: {
         name: "Lynn Thompson Kelso",
         bio: null,
@@ -48439,6 +50998,7 @@ export const sections = {
   ],
   "15737": [
     {
+      unique_id: 187309,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -48455,6 +51015,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190400,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -48471,6 +51032,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190399,
       instructor: {
         name: "",
         bio: null,
@@ -48487,6 +51049,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190398,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -48503,6 +51066,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190397,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -48519,6 +51083,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190396,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -48535,6 +51100,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190395,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -48551,6 +51117,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190394,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -48567,6 +51134,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187308,
       instructor: {
         name: "Sunny J Hall",
         bio: null,
@@ -48583,6 +51151,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187307,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -48599,6 +51168,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187310,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -48615,6 +51185,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187306,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -48631,6 +51202,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187312,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -48647,6 +51219,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187311,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -48665,6 +51238,7 @@ export const sections = {
   ],
   "15741": [
     {
+      unique_id: 189433,
       instructor: {
         name: "Jacqueline Stevens",
         bio: null,
@@ -48686,6 +51260,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189432,
       instructor: {
         name: "J Michelle Molina",
         bio: null,
@@ -48707,6 +51282,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189431,
       instructor: {
         name: "Hector G Carrillo",
         bio: null,
@@ -48728,6 +51304,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189434,
       instructor: {
         name: "Celeste Michele Watkins-Hayes",
         bio: null,
@@ -48746,6 +51323,7 @@ export const sections = {
   ],
   "15754": [
     {
+      unique_id: 190544,
       instructor: {
         name: "Nabil I Al-Najjar",
         bio: null,
@@ -48762,6 +51340,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190543,
       instructor: {
         name: "Nabil I Al-Najjar",
         bio: null,
@@ -48778,6 +51357,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190545,
       instructor: {
         name: "Nabil I Al-Najjar",
         bio: null,
@@ -48801,6 +51381,7 @@ export const sections = {
   ],
   "15783": [
     {
+      unique_id: 190326,
       instructor: {
         name: "Martin A Tanner",
         bio: null,
@@ -48824,6 +51405,7 @@ export const sections = {
   ],
   "15787": [
     {
+      unique_id: 188664,
       instructor: {
         name: "Tabitha Bonilla",
         bio: null,
@@ -48847,6 +51429,7 @@ export const sections = {
   ],
   "15793": [
     {
+      unique_id: 189257,
       instructor: {
         name: "Marciano Siniscalchi",
         bio: null,
@@ -48870,6 +51453,7 @@ export const sections = {
   ],
   "15802": [
     {
+      unique_id: 188590,
       instructor: {
         name: "",
         bio: null,
@@ -48888,6 +51472,7 @@ export const sections = {
   ],
   "15804": [
     {
+      unique_id: 187625,
       instructor: {
         name: "Jie Gu",
         bio: null,
@@ -48911,6 +51496,7 @@ export const sections = {
   ],
   "15844": [
     {
+      unique_id: 189914,
       instructor: {
         name: "Mark Vinzenz Alznauer",
         bio: null,
@@ -48929,6 +51515,7 @@ export const sections = {
   ],
   "15852": [
     {
+      unique_id: 186903,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -48947,6 +51534,7 @@ export const sections = {
   ],
   "15856": [
     {
+      unique_id: 190282,
       instructor: {
         name: "",
         bio: null,
@@ -48963,6 +51551,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190281,
       instructor: {
         name: "Heather L Colburn",
         bio: null,
@@ -48984,6 +51573,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190278,
       instructor: {
         name: "Heather L Colburn",
         bio: null,
@@ -49005,6 +51595,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190280,
       instructor: {
         name: "Patricia Ellen Nichols",
         bio: null,
@@ -49026,6 +51617,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190277,
       instructor: {
         name: "Elena Lanza",
         bio:
@@ -49048,6 +51640,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190279,
       instructor: {
         name: "Elena Lanza",
         bio:
@@ -49072,6 +51665,7 @@ export const sections = {
   ],
   "15860": [
     {
+      unique_id: 189853,
       instructor: {
         name: "",
         bio: null,
@@ -49095,6 +51689,7 @@ export const sections = {
   ],
   "15867": [
     {
+      unique_id: 189859,
       instructor: {
         name: "Mark Vinzenz Alznauer",
         bio: null,
@@ -49116,6 +51711,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189858,
       instructor: {
         name: "Mark Vinzenz Alznauer",
         bio: null,
@@ -49139,6 +51735,7 @@ export const sections = {
   ],
   "15874": [
     {
+      unique_id: 190060,
       instructor: {
         name: "Mark Elliot Beeman",
         bio: null,
@@ -49162,6 +51759,7 @@ export const sections = {
   ],
   "15877": [
     {
+      unique_id: 187120,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -49178,6 +51776,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187121,
       instructor: {
         name: "Margaret M Kemper",
         bio: null,
@@ -49196,6 +51795,7 @@ export const sections = {
   ],
   "15880": [
     {
+      unique_id: 191328,
       instructor: {
         name: "Nadav Shoked",
         bio: null,
@@ -49219,6 +51819,7 @@ export const sections = {
   ],
   "15881": [
     {
+      unique_id: 188256,
       instructor: {
         name: "Darren Robert Gergle",
         bio: null,
@@ -49237,6 +51838,7 @@ export const sections = {
   ],
   "15897": [
     {
+      unique_id: 188728,
       instructor: {
         name: "Geneva Maria Porter",
         bio: null,
@@ -49255,6 +51857,7 @@ export const sections = {
   ],
   "15911": [
     {
+      unique_id: 191010,
       instructor: {
         name: "Sarah Fay",
         bio: null,
@@ -49273,6 +51876,7 @@ export const sections = {
   ],
   "15922": [
     {
+      unique_id: 188580,
       instructor: {
         name: "Matthew Allen Holsapple",
         bio: null,
@@ -49296,6 +51900,7 @@ export const sections = {
   ],
   "15929": [
     {
+      unique_id: 186891,
       instructor: {
         name: "Natalia E Lyashenko",
         bio: null,
@@ -49314,6 +51919,7 @@ export const sections = {
   ],
   "15931": [
     {
+      unique_id: 186892,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -49332,6 +51938,7 @@ export const sections = {
   ],
   "15933": [
     {
+      unique_id: 186899,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -49348,6 +51955,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186900,
       instructor: {
         name: "Keven Keys",
         bio: null,
@@ -49366,6 +51974,7 @@ export const sections = {
   ],
   "15936": [
     {
+      unique_id: 190330,
       instructor: {
         name: "Oya Topcuoglu",
         bio: null,
@@ -49389,6 +51998,7 @@ export const sections = {
   ],
   "15940": [
     {
+      unique_id: 188364,
       instructor: {
         name: "Pablo J Boczkowski",
         bio: null,
@@ -49412,6 +52022,7 @@ export const sections = {
   ],
   "15942": [
     {
+      unique_id: 188371,
       instructor: {
         name: "Claudio Ezequiel Benzecry",
         bio: null,
@@ -49433,6 +52044,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188367,
       instructor: {
         name: "Brent Jaron Hecht",
         bio: null,
@@ -49454,6 +52066,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188365,
       instructor: {
         name: "Noshir Contractor",
         bio: null,
@@ -49475,6 +52088,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188369,
       instructor: {
         name: "Darren Robert Gergle",
         bio: null,
@@ -49496,6 +52110,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188366,
       instructor: {
         name: "James G Webster",
         bio: null,
@@ -49517,6 +52132,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188368,
       instructor: {
         name: "",
         bio: null,
@@ -49538,6 +52154,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190827,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -49559,6 +52176,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188370,
       instructor: {
         name: "Natan Valter",
         bio: null,
@@ -49582,6 +52200,7 @@ export const sections = {
   ],
   "15978": [
     {
+      unique_id: 188306,
       instructor: {
         name: "Tina M Grieco-Calub",
         bio: null,
@@ -49605,6 +52224,7 @@ export const sections = {
   ],
   "15986": [
     {
+      unique_id: 188305,
       instructor: {
         name: "William Nathan Waller",
         bio: null,
@@ -49623,6 +52243,7 @@ export const sections = {
   ],
   "15994": [
     {
+      unique_id: 188284,
       instructor: {
         name: "Jonathan H Siegel",
         bio: null,
@@ -49646,6 +52267,7 @@ export const sections = {
   ],
   "16043": [
     {
+      unique_id: 188735,
       instructor: {
         name: "Arthur B Elster",
         bio: null,
@@ -49664,6 +52286,7 @@ export const sections = {
   ],
   "16060": [
     {
+      unique_id: 189850,
       instructor: {
         name: "Axel Mueller",
         bio: null,
@@ -49687,6 +52310,7 @@ export const sections = {
   ],
   "16062": [
     {
+      unique_id: 189981,
       instructor: {
         name: "Alexander Dmitrievich Chekhovskoy",
         bio: null,
@@ -49710,6 +52334,7 @@ export const sections = {
   ],
   "16074": [
     {
+      unique_id: 187787,
       instructor: {
         name: "Stacy Benjamin",
         bio: null,
@@ -49728,6 +52353,7 @@ export const sections = {
   ],
   "16079": [
     {
+      unique_id: 189451,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -49752,6 +52378,7 @@ export const sections = {
   ],
   "16083": [
     {
+      unique_id: 191372,
       instructor: {
         name: "Jose Maria Medina",
         bio: null,
@@ -49770,6 +52397,7 @@ export const sections = {
   ],
   "16097": [
     {
+      unique_id: 188178,
       instructor: {
         name: "Brent E Huffman",
         bio: null,
@@ -49788,6 +52416,7 @@ export const sections = {
   ],
   "16109": [
     {
+      unique_id: 190034,
       instructor: {
         name: "Ana C Thome Williams",
         bio: null,
@@ -49811,6 +52440,7 @@ export const sections = {
   ],
   "16111": [
     {
+      unique_id: 190690,
       instructor: {
         name: "Donna Rosana Baptiste",
         bio: null,
@@ -49834,6 +52464,7 @@ export const sections = {
   ],
   "16115": [
     {
+      unique_id: 187780,
       instructor: {
         name: "Daniel P. Brown",
         bio: null,
@@ -49857,6 +52488,7 @@ export const sections = {
   ],
   "16123": [
     {
+      unique_id: 186878,
       instructor: {
         name: "Nander Nogueira de Novaes",
         bio: null,
@@ -49875,6 +52507,7 @@ export const sections = {
   ],
   "16137": [
     {
+      unique_id: 190619,
       instructor: {
         name: "Benjamin F Jones",
         bio: null,
@@ -49896,6 +52529,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190617,
       instructor: {
         name: "Benjamin F Jones",
         bio: null,
@@ -49912,6 +52546,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190618,
       instructor: {
         name: "Benjamin F Jones",
         bio: null,
@@ -49930,6 +52565,7 @@ export const sections = {
   ],
   "16179": [
     {
+      unique_id: 190870,
       instructor: {
         name: "Rebecca M Freeman",
         bio: null,
@@ -49948,6 +52584,7 @@ export const sections = {
   ],
   "16182": [
     {
+      unique_id: 190868,
       instructor: {
         name: "Naeem Murr",
         bio: null,
@@ -49966,6 +52603,7 @@ export const sections = {
   ],
   "16183": [
     {
+      unique_id: 190869,
       instructor: {
         name: "",
         bio: null,
@@ -49984,6 +52622,7 @@ export const sections = {
   ],
   "16185": [
     {
+      unique_id: 190331,
       instructor: {
         name: "Oya Topcuoglu",
         bio: null,
@@ -50007,6 +52646,7 @@ export const sections = {
   ],
   "16192": [
     {
+      unique_id: 188292,
       instructor: {
         name: "",
         bio: null,
@@ -50030,6 +52670,7 @@ export const sections = {
   ],
   "16214": [
     {
+      unique_id: 187874,
       instructor: {
         name: "Gail Ann Berger",
         bio: null,
@@ -50053,6 +52694,7 @@ export const sections = {
   ],
   "16216": [
     {
+      unique_id: 187952,
       instructor: {
         name: "Keith Alvares",
         bio: null,
@@ -50069,6 +52711,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187953,
       instructor: {
         name: "Packianathan Arthur Felse",
         bio: null,
@@ -50087,6 +52730,7 @@ export const sections = {
   ],
   "16217": [
     {
+      unique_id: 187956,
       instructor: {
         name: "Packianathan Arthur Felse",
         bio: null,
@@ -50110,6 +52754,7 @@ export const sections = {
   ],
   "16221": [
     {
+      unique_id: 187951,
       instructor: {
         name: "Igor V Kourkine",
         bio: null,
@@ -50133,6 +52778,7 @@ export const sections = {
   ],
   "16224": [
     {
+      unique_id: 187955,
       instructor: {
         name: "Packianathan Arthur Felse",
         bio: null,
@@ -50156,6 +52802,7 @@ export const sections = {
   ],
   "16239": [
     {
+      unique_id: 190150,
       instructor: {
         name: "",
         bio: null,
@@ -50179,6 +52826,7 @@ export const sections = {
   ],
   "16250": [
     {
+      unique_id: 190152,
       instructor: {
         name: "Cristina L.H. Traina",
         bio: null,
@@ -50202,6 +52850,7 @@ export const sections = {
   ],
   "16251": [
     {
+      unique_id: 190153,
       instructor: {
         name: "Claire E Sufrin",
         bio: null,
@@ -50220,6 +52869,7 @@ export const sections = {
   ],
   "16256": [
     {
+      unique_id: 191340,
       instructor: {
         name: "David L Cameron",
         bio: null,
@@ -50243,6 +52893,7 @@ export const sections = {
   ],
   "16291": [
     {
+      unique_id: 187773,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -50267,6 +52918,7 @@ export const sections = {
   ],
   "16303": [
     {
+      unique_id: 191298,
       instructor: {
         name: "Bridget Arimond",
         bio: null,
@@ -50290,6 +52942,7 @@ export const sections = {
   ],
   "16304": [
     {
+      unique_id: 191212,
       instructor: {
         name: "",
         bio: null,
@@ -50311,6 +52964,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191213,
       instructor: {
         name: "Monica L Llorente",
         bio: null,
@@ -50329,6 +52983,7 @@ export const sections = {
   ],
   "16319": [
     {
+      unique_id: 187784,
       instructor: {
         name: "Andrew Skwish",
         bio: null,
@@ -50352,6 +53007,7 @@ export const sections = {
   ],
   "16320": [
     {
+      unique_id: 187959,
       instructor: {
         name: "Packianathan Arthur Felse",
         bio: null,
@@ -50370,6 +53026,7 @@ export const sections = {
   ],
   "16337": [
     {
+      unique_id: 190339,
       instructor: {
         name: "Gail Ann Berger",
         bio: null,
@@ -50388,6 +53045,7 @@ export const sections = {
   ],
   "16344": [
     {
+      unique_id: 187621,
       instructor: {
         name: "David C Zaretsky",
         bio: null,
@@ -50411,6 +53069,7 @@ export const sections = {
   ],
   "16348": [
     {
+      unique_id: 187119,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -50429,6 +53088,7 @@ export const sections = {
   ],
   "16388": [
     {
+      unique_id: 189373,
       instructor: {
         name: "Patricia A Beddows",
         bio: null,
@@ -50452,6 +53112,7 @@ export const sections = {
   ],
   "16391": [
     {
+      unique_id: 189673,
       instructor: {
         name: "Coline Lisa Marguerite Ferrant",
         bio: null,
@@ -50473,6 +53134,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189672,
       instructor: {
         name: "Owen Rhys Brown",
         bio: null,
@@ -50496,6 +53158,7 @@ export const sections = {
   ],
   "16444": [
     {
+      unique_id: 190035,
       instructor: {
         name: "",
         bio: null,
@@ -50514,6 +53177,7 @@ export const sections = {
   ],
   "16452": [
     {
+      unique_id: 187472,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -50535,6 +53199,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187473,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -50551,6 +53216,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187471,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -50572,6 +53238,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187474,
       instructor: {
         name: "Christopher P Davis",
         bio: null,
@@ -50588,6 +53255,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187475,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -50611,6 +53279,7 @@ export const sections = {
   ],
   "16460": [
     {
+      unique_id: 189792,
       instructor: {
         name: "Eugene Kushnirsky",
         bio: null,
@@ -50634,6 +53303,7 @@ export const sections = {
   ],
   "16472": [
     {
+      unique_id: 190883,
       instructor: {
         name: "William W Stenzel",
         bio: null,
@@ -50652,6 +53322,7 @@ export const sections = {
   ],
   "16473": [
     {
+      unique_id: 190885,
       instructor: {
         name: "Angela Fontes",
         bio: null,
@@ -50670,6 +53341,7 @@ export const sections = {
   ],
   "16474": [
     {
+      unique_id: 190887,
       instructor: {
         name: "Meghann Theresa Pytka",
         bio: null,
@@ -50688,6 +53360,7 @@ export const sections = {
   ],
   "16480": [
     {
+      unique_id: 187127,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -50704,6 +53377,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187126,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -50720,6 +53394,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187125,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -50738,6 +53413,7 @@ export const sections = {
   ],
   "16481": [
     {
+      unique_id: 187320,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -50754,6 +53430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187318,
       instructor: {
         name: "Karen A Brunssen",
         bio: null,
@@ -50770,6 +53447,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187324,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -50786,6 +53464,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187322,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -50802,6 +53481,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187321,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -50818,6 +53498,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187319,
       instructor: {
         name: "Nancy J Gustafson",
         bio: null,
@@ -50834,6 +53515,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187323,
       instructor: {
         name: "",
         bio: null,
@@ -50852,6 +53534,7 @@ export const sections = {
   ],
   "16482": [
     {
+      unique_id: 187209,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -50868,6 +53551,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187200,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -50884,6 +53568,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187201,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -50900,6 +53585,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187202,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -50916,6 +53602,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187203,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -50932,6 +53619,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187204,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -50948,6 +53636,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187205,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -50964,6 +53653,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187206,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -50980,6 +53670,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187207,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -50996,6 +53687,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187208,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -51014,6 +53706,7 @@ export const sections = {
   ],
   "16483": [
     {
+      unique_id: 187438,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -51030,6 +53723,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187439,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -51046,6 +53740,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187437,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -51062,6 +53757,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187447,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -51078,6 +53774,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187448,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -51094,6 +53791,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187443,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -51110,6 +53808,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187442,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -51126,6 +53825,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187444,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -51142,6 +53842,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187446,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -51158,6 +53859,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187445,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -51174,6 +53876,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187441,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -51190,6 +53893,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187440,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -51208,6 +53912,7 @@ export const sections = {
   ],
   "16484": [
     {
+      unique_id: 186944,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -51226,6 +53931,7 @@ export const sections = {
   ],
   "16485": [
     {
+      unique_id: 188754,
       instructor: {
         name: "William Leonard",
         bio: null,
@@ -51247,6 +53953,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188753,
       instructor: {
         name: "Noelle Sullivan",
         bio: null,
@@ -51270,6 +53977,7 @@ export const sections = {
   ],
   "16487": [
     {
+      unique_id: 188755,
       instructor: {
         name: "Sarah B Rodriguez",
         bio: null,
@@ -51293,6 +54001,7 @@ export const sections = {
   ],
   "16518": [
     {
+      unique_id: 189206,
       instructor: {
         name: "Robert W Wallace",
         bio: null,
@@ -51316,6 +54025,7 @@ export const sections = {
   ],
   "16531": [
     {
+      unique_id: 188457,
       instructor: {
         name: "Nathan Solomon Cohen",
         bio: null,
@@ -51339,6 +54049,7 @@ export const sections = {
   ],
   "16542": [
     {
+      unique_id: 188520,
       instructor: {
         name: "Linda Roethke",
         bio: null,
@@ -51357,6 +54068,7 @@ export const sections = {
   ],
   "16549": [
     {
+      unique_id: 190956,
       instructor: {
         name: "Faig Garayev",
         bio: null,
@@ -51375,6 +54087,7 @@ export const sections = {
   ],
   "16573": [
     {
+      unique_id: 191337,
       instructor: {
         name: "Bridget Arimond",
         bio: null,
@@ -51398,6 +54111,7 @@ export const sections = {
   ],
   "16576": [
     {
+      unique_id: 191342,
       instructor: {
         name: "Faisal O Akkawi",
         bio: null,
@@ -51416,6 +54130,7 @@ export const sections = {
   ],
   "16578": [
     {
+      unique_id: 190958,
       instructor: {
         name: "Faisal O Akkawi",
         bio: null,
@@ -51434,6 +54149,7 @@ export const sections = {
   ],
   "16583": [
     {
+      unique_id: 190880,
       instructor: {
         name: "Patrick Rogers Higgins",
         bio: null,
@@ -51452,6 +54168,7 @@ export const sections = {
   ],
   "16600": [
     {
+      unique_id: 190519,
       instructor: {
         name: "Stephanie Gordon",
         bio: null,
@@ -51470,6 +54187,7 @@ export const sections = {
   ],
   "16603": [
     {
+      unique_id: 190897,
       instructor: {
         name: "William S Seiden",
         bio: null,
@@ -51488,6 +54206,7 @@ export const sections = {
   ],
   "16605": [
     {
+      unique_id: 187889,
       instructor: {
         name: "Yan Chen",
         bio: null,
@@ -51511,6 +54230,7 @@ export const sections = {
   ],
   "16619": [
     {
+      unique_id: 188251,
       instructor: {
         name: "",
         bio: null,
@@ -51534,6 +54254,7 @@ export const sections = {
   ],
   "16639": [
     {
+      unique_id: 190529,
       instructor: {
         name: "Bantwal Sandeep Baliga",
         bio: null,
@@ -51550,6 +54271,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190527,
       instructor: {
         name: "Bantwal Sandeep Baliga",
         bio: null,
@@ -51566,6 +54288,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190528,
       instructor: {
         name: "Jorg Ludwig Spenkuch",
         bio: null,
@@ -51582,6 +54305,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190534,
       instructor: {
         name: "Nicola Giuseppe Persico",
         bio: null,
@@ -51598,6 +54322,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190533,
       instructor: {
         name: "Timothy James Feddersen",
         bio: null,
@@ -51614,6 +54339,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190535,
       instructor: {
         name: "Michael D Austen-Smith",
         bio: null,
@@ -51630,6 +54356,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190530,
       instructor: {
         name: "Jorg Ludwig Spenkuch",
         bio: null,
@@ -51646,6 +54373,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190526,
       instructor: {
         name: "Michael D Austen-Smith",
         bio: null,
@@ -51662,6 +54390,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190531,
       instructor: {
         name: "Timothy James Feddersen",
         bio: null,
@@ -51678,6 +54407,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190532,
       instructor: {
         name: "Nicola Giuseppe Persico",
         bio: null,
@@ -51696,6 +54426,7 @@ export const sections = {
   ],
   "16643": [
     {
+      unique_id: 188410,
       instructor: {
         name: "",
         bio: null,
@@ -51719,6 +54450,7 @@ export const sections = {
   ],
   "16645": [
     {
+      unique_id: 188412,
       instructor: {
         name: "Charles Stephen Evans",
         bio: null,
@@ -51742,6 +54474,7 @@ export const sections = {
   ],
   "16648": [
     {
+      unique_id: 190538,
       instructor: {
         name: "Nicola Giuseppe Persico",
         bio: null,
@@ -51765,6 +54498,7 @@ export const sections = {
   ],
   "16665": [
     {
+      unique_id: 191177,
       instructor: {
         name: "Maureen Stratton",
         bio: null,
@@ -51788,6 +54522,7 @@ export const sections = {
   ],
   "16672": [
     {
+      unique_id: 188804,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -51812,6 +54547,7 @@ export const sections = {
   ],
   "16679": [
     {
+      unique_id: 191313,
       instructor: {
         name: "Ravi Allada",
         bio: null,
@@ -51835,6 +54571,7 @@ export const sections = {
   ],
   "16686": [
     {
+      unique_id: 190898,
       instructor: {
         name: "Cari A Grieb",
         bio: null,
@@ -51853,6 +54590,7 @@ export const sections = {
   ],
   "16708": [
     {
+      unique_id: 187435,
       instructor: {
         name: "",
         bio: null,
@@ -51871,6 +54609,7 @@ export const sections = {
   ],
   "16718": [
     {
+      unique_id: 191135,
       instructor: {
         name: "Robert S Bills",
         bio: null,
@@ -51889,6 +54628,7 @@ export const sections = {
   ],
   "16758": [
     {
+      unique_id: 188523,
       instructor: {
         name: "Edward F Southern",
         bio: null,
@@ -51907,6 +54647,7 @@ export const sections = {
   ],
   "16759": [
     {
+      unique_id: 188524,
       instructor: {
         name: "Todd A Rosenthal",
         bio: null,
@@ -51925,6 +54666,7 @@ export const sections = {
   ],
   "16760": [
     {
+      unique_id: 188525,
       instructor: {
         name: "Linda Roethke",
         bio: null,
@@ -51943,6 +54685,7 @@ export const sections = {
   ],
   "16805": [
     {
+      unique_id: 188760,
       instructor: {
         name: "Peter Andrew Locke",
         bio: null,
@@ -51964,6 +54707,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188761,
       instructor: {
         name: "Sarah B Rodriguez",
         bio: null,
@@ -51985,6 +54729,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188762,
       instructor: {
         name: "Cristina L.H. Traina",
         bio: null,
@@ -52006,6 +54751,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188759,
       instructor: {
         name: "Beatriz Oralia Reyes",
         bio: null,
@@ -52027,6 +54773,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188758,
       instructor: {
         name: "Sera Lewise Young",
         bio: null,
@@ -52050,6 +54797,7 @@ export const sections = {
   ],
   "16849": [
     {
+      unique_id: 190495,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -52068,6 +54816,7 @@ export const sections = {
   ],
   "16855": [
     {
+      unique_id: 190134,
       instructor: {
         name: "",
         bio: null,
@@ -52086,6 +54835,7 @@ export const sections = {
   ],
   "16856": [
     {
+      unique_id: 190135,
       instructor: {
         name: "Jay Lebow",
         bio: null,
@@ -52104,6 +54854,7 @@ export const sections = {
   ],
   "16862": [
     {
+      unique_id: 189387,
       instructor: {
         name: "Aude Raymond",
         bio: null,
@@ -52125,6 +54876,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189389,
       instructor: {
         name: "Christiane H E Rey",
         bio: null,
@@ -52146,6 +54898,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189386,
       instructor: {
         name: "Aude Raymond",
         bio: null,
@@ -52167,6 +54920,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189390,
       instructor: {
         name: "Christiane H E Rey",
         bio: null,
@@ -52188,6 +54942,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189388,
       instructor: {
         name: "Patricia L Scarampi",
         bio: null,
@@ -52211,6 +54966,7 @@ export const sections = {
   ],
   "16863": [
     {
+      unique_id: 188426,
       instructor: {
         name: "David E. Tolchinsky",
         bio: null,
@@ -52234,6 +54990,7 @@ export const sections = {
   ],
   "16877": [
     {
+      unique_id: 187986,
       instructor: {
         name: "David A. Semb",
         bio: null,
@@ -52252,6 +55009,7 @@ export const sections = {
   ],
   "16878": [
     {
+      unique_id: 189325,
       instructor: {
         name: "John Robert Bresland",
         bio: null,
@@ -52275,6 +55033,7 @@ export const sections = {
   ],
   "16879": [
     {
+      unique_id: 189704,
       instructor: {
         name: "Eun Jung Lee",
         bio: null,
@@ -52298,6 +55057,7 @@ export const sections = {
   ],
   "16884": [
     {
+      unique_id: 189168,
       instructor: {
         name: "Merkouri G Kanatzidis",
         bio: null,
@@ -52319,6 +55079,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189176,
       instructor: {
         name: "Merkouri G Kanatzidis",
         bio: null,
@@ -52342,6 +55103,7 @@ export const sections = {
   ],
   "16886": [
     {
+      unique_id: 189169,
       instructor: {
         name: "Samuel Isaac Stupp",
         bio: null,
@@ -52363,6 +55125,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189177,
       instructor: {
         name: "Samuel Isaac Stupp",
         bio: null,
@@ -52386,6 +55149,7 @@ export const sections = {
   ],
   "16894": [
     {
+      unique_id: 187567,
       instructor: {
         name: "Malcolm Angus MacIver",
         bio: null,
@@ -52410,6 +55174,7 @@ export const sections = {
   ],
   "16902": [
     {
+      unique_id: 191182,
       instructor: {
         name: "Stephen P Sawyer",
         bio: null,
@@ -52433,6 +55198,7 @@ export const sections = {
   ],
   "16911": [
     {
+      unique_id: 188720,
       instructor: {
         name: "Michael F Fleming",
         bio: null,
@@ -52451,6 +55217,7 @@ export const sections = {
   ],
   "17242": [
     {
+      unique_id: 188465,
       instructor: {
         name: "Linda H. Gates",
         bio: null,
@@ -52469,6 +55236,7 @@ export const sections = {
   ],
   "17243": [
     {
+      unique_id: 188331,
       instructor: {
         name: "Roger Ellis",
         bio: null,
@@ -52487,6 +55255,7 @@ export const sections = {
   ],
   "17245": [
     {
+      unique_id: 188342,
       instructor: {
         name: "Susan A Lee",
         bio: null,
@@ -52505,6 +55274,7 @@ export const sections = {
   ],
   "17249": [
     {
+      unique_id: 188748,
       instructor: {
         name: "",
         bio: null,
@@ -52523,6 +55293,7 @@ export const sections = {
   ],
   "17259": [
     {
+      unique_id: 188776,
       instructor: {
         name: "Christine M Helmer",
         bio: null,
@@ -52546,6 +55317,7 @@ export const sections = {
   ],
   "17268": [
     {
+      unique_id: 191299,
       instructor: {
         name: "David E Shapiro",
         bio: null,
@@ -52569,6 +55341,7 @@ export const sections = {
   ],
   "17271": [
     {
+      unique_id: 191300,
       instructor: {
         name: "Jeffrey T Green",
         bio: null,
@@ -52592,6 +55365,7 @@ export const sections = {
   ],
   "17282": [
     {
+      unique_id: 191183,
       instructor: {
         name: "Bridget Arimond",
         bio: null,
@@ -52615,6 +55389,7 @@ export const sections = {
   ],
   "17331": [
     {
+      unique_id: 188582,
       instructor: {
         name: "Ryan Edward Smerek",
         bio: null,
@@ -52638,6 +55413,7 @@ export const sections = {
   ],
   "17340": [
     {
+      unique_id: 191105,
       instructor: {
         name: "Bryna R Kra",
         bio: null,
@@ -52661,6 +55437,7 @@ export const sections = {
   ],
   "17366": [
     {
+      unique_id: 188540,
       instructor: {
         name: "Mindy Sue Magrane",
         bio: null,
@@ -52682,6 +55459,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188539,
       instructor: {
         name: "Jeannette A Colyvas",
         bio: null,
@@ -52705,6 +55483,7 @@ export const sections = {
   ],
   "17367": [
     {
+      unique_id: 188665,
       instructor: {
         name: "Elizabeth Rose Shulman",
         bio: null,
@@ -52723,6 +55502,7 @@ export const sections = {
   ],
   "17396": [
     {
+      unique_id: 191373,
       instructor: {
         name: "Tod S Chambers",
         bio: null,
@@ -52741,6 +55521,7 @@ export const sections = {
   ],
   "17400": [
     {
+      unique_id: 189147,
       instructor: {
         name: "",
         bio: null,
@@ -52764,6 +55545,7 @@ export const sections = {
   ],
   "17401": [
     {
+      unique_id: 189148,
       instructor: {
         name: "",
         bio: null,
@@ -52787,6 +55569,7 @@ export const sections = {
   ],
   "17410": [
     {
+      unique_id: 191209,
       instructor: {
         name: "Yolanda S Martinez",
         bio: null,
@@ -52810,6 +55593,7 @@ export const sections = {
   ],
   "17412": [
     {
+      unique_id: 188870,
       instructor: {
         name: "Fatima Zehra Khan",
         bio: null,
@@ -52833,6 +55617,7 @@ export const sections = {
   ],
   "17438": [
     {
+      unique_id: 191156,
       instructor: {
         name: "Darren M Green",
         bio: null,
@@ -52856,6 +55641,7 @@ export const sections = {
   ],
   "17441": [
     {
+      unique_id: 190955,
       instructor: {
         name: "William G Sunna",
         bio: null,
@@ -52874,6 +55660,7 @@ export const sections = {
   ],
   "17449": [
     {
+      unique_id: 188749,
       instructor: {
         name: "",
         bio: null,
@@ -52892,6 +55679,7 @@ export const sections = {
   ],
   "17451": [
     {
+      unique_id: 189819,
       instructor: {
         name: "Mihnea Popa",
         bio: null,
@@ -52915,6 +55703,7 @@ export const sections = {
   ],
   "17457": [
     {
+      unique_id: 191256,
       instructor: {
         name: "Andrew Ciaran O'Brien-Penney",
         bio: null,
@@ -52938,6 +55727,7 @@ export const sections = {
   ],
   "17460": [
     {
+      unique_id: 191280,
       instructor: {
         name: "Alan N Salpeter",
         bio: null,
@@ -52956,6 +55746,7 @@ export const sections = {
   ],
   "17463": [
     {
+      unique_id: 191375,
       instructor: {
         name: "Megan Crowley-Matoka",
         bio: null,
@@ -52974,6 +55765,7 @@ export const sections = {
   ],
   "17471": [
     {
+      unique_id: 191379,
       instructor: {
         name: "Maryam Kouchaki Nejad Eramsadati",
         bio: null,
@@ -52992,6 +55784,7 @@ export const sections = {
   ],
   "17507": [
     {
+      unique_id: 190762,
       instructor: {
         name: "Tamara Goldman Sher",
         bio: null,
@@ -53008,6 +55801,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190761,
       instructor: {
         name: "Douglas C Breunlin",
         bio: null,
@@ -53026,6 +55820,7 @@ export const sections = {
   ],
   "17515": [
     {
+      unique_id: 188161,
       instructor: {
         name: "Aubrey Bates Baron",
         bio: null,
@@ -53049,6 +55844,7 @@ export const sections = {
   ],
   "17517": [
     {
+      unique_id: 189674,
       instructor: {
         name: "Ian F Hurd",
         bio:
@@ -53073,6 +55869,7 @@ export const sections = {
   ],
   "17526": [
     {
+      unique_id: 190856,
       instructor: {
         name: "Faisal O Akkawi",
         bio: null,
@@ -53091,6 +55888,7 @@ export const sections = {
   ],
   "17544": [
     {
+      unique_id: 188823,
       instructor: {
         name: "John David Marquez",
         bio: null,
@@ -53107,6 +55905,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188824,
       instructor: {
         name: "Tracy L Vaughn",
         bio: null,
@@ -53123,6 +55922,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188825,
       instructor: {
         name: "Elondust Johnson",
         bio: null,
@@ -53139,6 +55939,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188826,
       instructor: {
         name: "Celeste Michele Watkins-Hayes",
         bio: null,
@@ -53155,6 +55956,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188817,
       instructor: {
         name: "Herman Barnor Hesse",
         bio: null,
@@ -53171,6 +55973,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188818,
       instructor: {
         name: "Martha Biondi",
         bio: null,
@@ -53187,6 +55990,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188819,
       instructor: {
         name: "Jennifer Christine Nash",
         bio: null,
@@ -53203,6 +56007,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188820,
       instructor: {
         name: "Nitasha Tamar Sharma",
         bio: null,
@@ -53219,6 +56024,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188821,
       instructor: {
         name: "Alexander G Weheliye",
         bio: null,
@@ -53235,6 +56041,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188827,
       instructor: {
         name: "Kihana Miraya Ross",
         bio: null,
@@ -53251,6 +56058,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188822,
       instructor: {
         name: "Sherwin K Bryant",
         bio: null,
@@ -53269,6 +56077,7 @@ export const sections = {
   ],
   "17556": [
     {
+      unique_id: 188597,
       instructor: {
         name: "Daniel Maurice Cohen",
         bio: null,
@@ -53292,6 +56101,7 @@ export const sections = {
   ],
   "17629": [
     {
+      unique_id: 191084,
       instructor: {
         name: "Daniel J Carmody",
         bio: null,
@@ -53310,6 +56120,7 @@ export const sections = {
   ],
   "17630": [
     {
+      unique_id: 191091,
       instructor: {
         name: "Margaret S Powers",
         bio: null,
@@ -53328,6 +56139,7 @@ export const sections = {
   ],
   "17666": [
     {
+      unique_id: 191097,
       instructor: {
         name: "Carlann Ruth Fergusson",
         bio: null,
@@ -53346,6 +56158,7 @@ export const sections = {
   ],
   "17669": [
     {
+      unique_id: 191098,
       instructor: {
         name: "John Mackey Steele",
         bio: null,
@@ -53364,6 +56177,7 @@ export const sections = {
   ],
   "17670": [
     {
+      unique_id: 191099,
       instructor: {
         name: "Caroline Goldthorpe",
         bio: null,
@@ -53382,6 +56196,7 @@ export const sections = {
   ],
   "17671": [
     {
+      unique_id: 191100,
       instructor: {
         name: "Debra Bea Kerr",
         bio: null,
@@ -53400,6 +56215,7 @@ export const sections = {
   ],
   "17672": [
     {
+      unique_id: 191101,
       instructor: {
         name: "Caroline Goldthorpe",
         bio: null,
@@ -53418,6 +56234,7 @@ export const sections = {
   ],
   "17675": [
     {
+      unique_id: 191103,
       instructor: {
         name: "",
         bio: null,
@@ -53436,6 +56253,7 @@ export const sections = {
   ],
   "17708": [
     {
+      unique_id: 191093,
       instructor: {
         name: "James W Zacher",
         bio: null,
@@ -53454,6 +56272,7 @@ export const sections = {
   ],
   "17710": [
     {
+      unique_id: 191094,
       instructor: {
         name: "Howard L Sorkin",
         bio: null,
@@ -53472,6 +56291,7 @@ export const sections = {
   ],
   "17732": [
     {
+      unique_id: 189538,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -53489,6 +56309,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189539,
       instructor: {
         name: "Michael J. Allen",
         bio:
@@ -53506,6 +56327,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189540,
       instructor: {
         name: "Laura E Hein",
         bio:
@@ -53523,6 +56345,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189541,
       instructor: {
         name: "Daniel Sepinuck Immerwahr",
         bio: null,
@@ -53539,6 +56362,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189542,
       instructor: {
         name: "Douglas Kiel",
         bio: null,
@@ -53555,6 +56379,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189543,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -53572,6 +56397,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189545,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -53588,6 +56414,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189547,
       instructor: {
         name: "Katherine Masur",
         bio: null,
@@ -53604,6 +56431,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189549,
       instructor: {
         name: "Joel Mokyr",
         bio: null,
@@ -53620,6 +56448,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189551,
       instructor: {
         name: "Edward Wallace Muir Jr",
         bio: null,
@@ -53636,6 +56465,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189553,
       instructor: {
         name: "Yohanan Petrovsky-Shtern",
         bio:
@@ -53653,6 +56483,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189555,
       instructor: {
         name: "Paul F Ramirez",
         bio:
@@ -53670,6 +56501,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189563,
       instructor: {
         name: "Helen Louise Tilley",
         bio: null,
@@ -53686,6 +56518,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189566,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -53703,6 +56536,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189568,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -53719,6 +56553,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189571,
       instructor: {
         name: "Lane Fenrich",
         bio: null,
@@ -53735,6 +56570,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189572,
       instructor: {
         name: "Kevin Gerard Boyle",
         bio:
@@ -53752,6 +56588,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189573,
       instructor: {
         name: "Ashish Koul",
         bio: null,
@@ -53768,6 +56605,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189574,
       instructor: {
         name: "Lina M Britto",
         bio:
@@ -53785,6 +56623,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189575,
       instructor: {
         name: "John Starkes Bushnell",
         bio:
@@ -53802,6 +56641,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189576,
       instructor: {
         name: "Geraldo L Cadava",
         bio: null,
@@ -53818,6 +56658,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189577,
       instructor: {
         name: "Peter J Carroll",
         bio:
@@ -53835,6 +56676,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189537,
       instructor: {
         name: "Sean Allen Hanretta",
         bio:
@@ -53852,6 +56694,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189536,
       instructor: {
         name: "Jonathon P Glassman",
         bio:
@@ -53869,6 +56712,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189535,
       instructor: {
         name: "Paul James Gillingham",
         bio: null,
@@ -53885,6 +56729,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189534,
       instructor: {
         name: "Brett V. Gadsden",
         bio:
@@ -53902,6 +56747,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189533,
       instructor: {
         name: "Benjamin Frommer",
         bio: null,
@@ -53918,6 +56764,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189532,
       instructor: {
         name: "Caitlin Annette Fitz",
         bio: null,
@@ -53934,6 +56781,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189531,
       instructor: {
         name: "Dyan H Elliott",
         bio:
@@ -53951,6 +56799,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189561,
       instructor: {
         name: "Henry Claxton Binford",
         bio:
@@ -53968,6 +56817,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189570,
       instructor: {
         name: "Diana Kurkovsky West",
         bio: null,
@@ -53984,6 +56834,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189559,
       instructor: {
         name: "Scott Andrew Sowerby",
         bio: null,
@@ -54000,6 +56851,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189557,
       instructor: {
         name: "Michael S Sherry",
         bio:
@@ -54017,6 +56869,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189529,
       instructor: {
         name: "Haydon Leslie Cherry",
         bio: null,
@@ -54033,6 +56886,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189569,
       instructor: {
         name: "Justin K Tse",
         bio:
@@ -54050,6 +56904,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189560,
       instructor: {
         name: "Amy Beth Stanley",
         bio: null,
@@ -54066,6 +56921,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189558,
       instructor: {
         name: "David Shyovitz",
         bio:
@@ -54083,6 +56939,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189556,
       instructor: {
         name: "David Lee Schoenbrun",
         bio: null,
@@ -54099,6 +56956,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189554,
       instructor: {
         name: "Carl Forbes Petry",
         bio:
@@ -54116,6 +56974,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189567,
       instructor: {
         name: "",
         bio: null,
@@ -54132,6 +56991,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189565,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -54149,6 +57009,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189564,
       instructor: {
         name: "Keith Mako Woodhouse",
         bio: null,
@@ -54165,6 +57026,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189562,
       instructor: {
         name: "Lauren K Stokes",
         bio:
@@ -54182,6 +57044,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189552,
       instructor: {
         name: "Susan Pearson",
         bio:
@@ -54199,6 +57062,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189550,
       instructor: {
         name: "Lydia Barnett",
         bio: null,
@@ -54215,6 +57079,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189548,
       instructor: {
         name: "Sarah C Maza",
         bio: null,
@@ -54231,6 +57096,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189546,
       instructor: {
         name: "Melissa A Macauley",
         bio: null,
@@ -54247,6 +57113,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189530,
       instructor: {
         name: "Deborah Anne Cohen",
         bio:
@@ -54264,6 +57131,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189544,
       instructor: {
         name: "Henri Lauziere",
         bio: null,
@@ -54280,6 +57148,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189528,
       instructor: {
         name: "Kenneth L Alder",
         bio: null,
@@ -54298,6 +57167,7 @@ export const sections = {
   ],
   "17744": [
     {
+      unique_id: 191004,
       instructor: {
         name: "Deepasriya Sampath-Kumar",
         bio: null,
@@ -54316,6 +57186,7 @@ export const sections = {
   ],
   "17771": [
     {
+      unique_id: 190855,
       instructor: {
         name: "Faisal O Akkawi",
         bio: null,
@@ -54334,6 +57205,7 @@ export const sections = {
   ],
   "17778": [
     {
+      unique_id: 188704,
       instructor: {
         name: "Julie Karen Johnson",
         bio: null,
@@ -54352,6 +57224,7 @@ export const sections = {
   ],
   "17782": [
     {
+      unique_id: 189149,
       instructor: {
         name: "Nina Anatolievna Wieda",
         bio: null,
@@ -54375,6 +57248,7 @@ export const sections = {
   ],
   "17783": [
     {
+      unique_id: 189150,
       instructor: {
         name: "Nina Anatolievna Wieda",
         bio: null,
@@ -54393,6 +57267,7 @@ export const sections = {
   ],
   "17789": [
     {
+      unique_id: 189810,
       instructor: {
         name: "",
         bio: null,
@@ -54416,6 +57291,7 @@ export const sections = {
   ],
   "17794": [
     {
+      unique_id: 189173,
       instructor: {
         name: "Frederick J Northrup",
         bio: null,
@@ -54439,6 +57315,7 @@ export const sections = {
   ],
   "17802": [
     {
+      unique_id: 188778,
       instructor: {
         name: "Jan Behrs",
         bio: null,
@@ -54462,6 +57339,7 @@ export const sections = {
   ],
   "17805": [
     {
+      unique_id: 189416,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -54483,6 +57361,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189418,
       instructor: {
         name: "Scott Anthony De Orio",
         bio: null,
@@ -54504,6 +57383,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189417,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -54528,6 +57408,7 @@ export const sections = {
   ],
   "17806": [
     {
+      unique_id: 189419,
       instructor: {
         name: "Ann Shola Orloff",
         bio: null,
@@ -54551,6 +57432,7 @@ export const sections = {
   ],
   "17807": [
     {
+      unique_id: 189421,
       instructor: {
         name: "Steven G Epstein",
         bio: null,
@@ -54572,6 +57454,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189420,
       instructor: {
         name: "Amy Ruth Partridge",
         bio: null,
@@ -54590,6 +57473,7 @@ export const sections = {
   ],
   "17812": [
     {
+      unique_id: 189422,
       instructor: {
         name: "Jacqueline Stevens",
         bio: null,
@@ -54613,6 +57497,7 @@ export const sections = {
   ],
   "17813": [
     {
+      unique_id: 189423,
       instructor: {
         name: "Todd G Nordgren",
         bio: null,
@@ -54636,6 +57521,7 @@ export const sections = {
   ],
   "17816": [
     {
+      unique_id: 189424,
       instructor: {
         name: "Janice A Radway",
         bio: null,
@@ -54659,6 +57545,7 @@ export const sections = {
   ],
   "17819": [
     {
+      unique_id: 190350,
       instructor: {
         name: "Eric Andrew James",
         bio: null,
@@ -54682,6 +57569,7 @@ export const sections = {
   ],
   "17821": [
     {
+      unique_id: 190351,
       instructor: {
         name: "Courtney Leeanne Rabada",
         bio: null,
@@ -54698,6 +57586,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189425,
       instructor: {
         name: "Raymond A Sandiego",
         bio: null,
@@ -54721,6 +57610,7 @@ export const sections = {
   ],
   "17824": [
     {
+      unique_id: 189744,
       instructor: {
         name: "Daniel Cuzzocreo",
         bio: null,
@@ -54744,6 +57634,7 @@ export const sections = {
   ],
   "17830": [
     {
+      unique_id: 189223,
       instructor: {
         name: "Susannah Gottlieb",
         bio: null,
@@ -54767,6 +57658,7 @@ export const sections = {
   ],
   "17841": [
     {
+      unique_id: 189239,
       instructor: {
         name: "Seth A Stein",
         bio: null,
@@ -54790,6 +57682,7 @@ export const sections = {
   ],
   "17843": [
     {
+      unique_id: 188427,
       instructor: {
         name: "Zayd Dohrn",
         bio: null,
@@ -54808,6 +57701,7 @@ export const sections = {
   ],
   "17846": [
     {
+      unique_id: 189362,
       instructor: {
         name: "Kathryn Sydney Evans",
         bio: null,
@@ -54831,6 +57725,7 @@ export const sections = {
   ],
   "17847": [
     {
+      unique_id: 188773,
       instructor: {
         name: "Denise M Meuser",
         bio: null,
@@ -54849,6 +57744,7 @@ export const sections = {
   ],
   "17850": [
     {
+      unique_id: 189628,
       instructor: {
         name: "Jules D Law",
         bio: null,
@@ -54872,6 +57768,7 @@ export const sections = {
   ],
   "17852": [
     {
+      unique_id: 190875,
       instructor: {
         name: "Susan E Hahn-Reizner",
         bio: null,
@@ -54890,6 +57787,7 @@ export const sections = {
   ],
   "17856": [
     {
+      unique_id: 189641,
       instructor: {
         name: "Ishwar Radhakrishnan",
         bio: null,
@@ -54908,6 +57806,7 @@ export const sections = {
   ],
   "17861": [
     {
+      unique_id: 187041,
       instructor: {
         name: "Sarah J Bartolome",
         bio: null,
@@ -54926,6 +57825,7 @@ export const sections = {
   ],
   "17872": [
     {
+      unique_id: 190001,
       instructor: {
         name: "Susan Sara Monoson-Berns",
         bio: null,
@@ -54949,6 +57849,7 @@ export const sections = {
   ],
   "17881": [
     {
+      unique_id: 190902,
       instructor: {
         name: "",
         bio: null,
@@ -54967,6 +57868,7 @@ export const sections = {
   ],
   "17886": [
     {
+      unique_id: 191198,
       instructor: {
         name: "Meredith Martin Rountree",
         bio: null,
@@ -54990,6 +57892,7 @@ export const sections = {
   ],
   "17895": [
     {
+      unique_id: 191240,
       instructor: {
         name: "Jonathan Gunn",
         bio: null,
@@ -55013,6 +57916,7 @@ export const sections = {
   ],
   "17941": [
     {
+      unique_id: 188693,
       instructor: {
         name: "David Alton Aaby",
         bio: null,
@@ -55031,6 +57935,7 @@ export const sections = {
   ],
   "17946": [
     {
+      unique_id: 187667,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55052,6 +57957,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187671,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55073,6 +57979,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187670,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55094,6 +58001,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187669,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55115,6 +58023,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187668,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55138,6 +58047,7 @@ export const sections = {
   ],
   "17947": [
     {
+      unique_id: 187672,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55156,6 +58066,7 @@ export const sections = {
   ],
   "17948": [
     {
+      unique_id: 187674,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55174,6 +58085,7 @@ export const sections = {
   ],
   "17949": [
     {
+      unique_id: 187676,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55192,6 +58104,7 @@ export const sections = {
   ],
   "17950": [
     {
+      unique_id: 187678,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55210,6 +58123,7 @@ export const sections = {
   ],
   "17951": [
     {
+      unique_id: 187680,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55228,6 +58142,7 @@ export const sections = {
   ],
   "17952": [
     {
+      unique_id: 187682,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55246,6 +58161,7 @@ export const sections = {
   ],
   "17953": [
     {
+      unique_id: 187686,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55264,6 +58180,7 @@ export const sections = {
   ],
   "17954": [
     {
+      unique_id: 187688,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55282,6 +58199,7 @@ export const sections = {
   ],
   "17955": [
     {
+      unique_id: 187690,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55300,6 +58218,7 @@ export const sections = {
   ],
   "17956": [
     {
+      unique_id: 187710,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55318,6 +58237,7 @@ export const sections = {
   ],
   "17957": [
     {
+      unique_id: 187712,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55336,6 +58256,7 @@ export const sections = {
   ],
   "17958": [
     {
+      unique_id: 187714,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55354,6 +58275,7 @@ export const sections = {
   ],
   "17959": [
     {
+      unique_id: 187716,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55372,6 +58294,7 @@ export const sections = {
   ],
   "17960": [
     {
+      unique_id: 187720,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55390,6 +58313,7 @@ export const sections = {
   ],
   "17961": [
     {
+      unique_id: 187722,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55408,6 +58332,7 @@ export const sections = {
   ],
   "17962": [
     {
+      unique_id: 187724,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -55426,6 +58351,7 @@ export const sections = {
   ],
   "17980": [
     {
+      unique_id: 187774,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -55450,6 +58376,7 @@ export const sections = {
   ],
   "17983": [
     {
+      unique_id: 187781,
       instructor: {
         name: "Gregory James Holderfield",
         bio: null,
@@ -55468,6 +58395,7 @@ export const sections = {
   ],
   "17985": [
     {
+      unique_id: 187790,
       instructor: {
         name: "James Edward Wicks",
         bio: null,
@@ -55486,6 +58414,7 @@ export const sections = {
   ],
   "17988": [
     {
+      unique_id: 190433,
       instructor: {
         name: "",
         bio: null,
@@ -55502,6 +58431,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187797,
       instructor: {
         name: "Andrew C Burroughs",
         bio: null,
@@ -55518,6 +58448,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187798,
       instructor: {
         name: "Andrew C Burroughs",
         bio: null,
@@ -55536,6 +58467,7 @@ export const sections = {
   ],
   "17990": [
     {
+      unique_id: 190824,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -55557,6 +58489,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187795,
       instructor: {
         name: "Craig F Sampson",
         bio: null,
@@ -55578,6 +58511,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187796,
       instructor: {
         name: "Gregory James Holderfield",
         bio: null,
@@ -55596,6 +58530,7 @@ export const sections = {
   ],
   "18008": [
     {
+      unique_id: 187623,
       instructor: {
         name: "Jie Gu",
         bio: null,
@@ -55619,6 +58554,7 @@ export const sections = {
   ],
   "18013": [
     {
+      unique_id: 190521,
       instructor: {
         name: "Dean A DeBiase",
         bio: null,
@@ -55642,6 +58578,7 @@ export const sections = {
   ],
   "18022": [
     {
+      unique_id: 190498,
       instructor: {
         name: "Peter Hamilton McNerney",
         bio: null,
@@ -55665,6 +58602,7 @@ export const sections = {
   ],
   "18026": [
     {
+      unique_id: 187553,
       instructor: {
         name: "Hao Zhang",
         bio: null,
@@ -55688,6 +58626,7 @@ export const sections = {
   ],
   "18027": [
     {
+      unique_id: 187554,
       instructor: {
         name: "Kenneth Lee Gentry",
         bio: null,
@@ -55711,6 +58650,7 @@ export const sections = {
   ],
   "18031": [
     {
+      unique_id: 188831,
       instructor: {
         name: "Nitasha Tamar Sharma",
         bio: null,
@@ -55727,6 +58667,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188828,
       instructor: {
         name: "Herman Barnor Hesse",
         bio: null,
@@ -55743,6 +58684,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188830,
       instructor: {
         name: "Jennifer Christine Nash",
         bio: null,
@@ -55759,6 +58701,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188832,
       instructor: {
         name: "Mary E Pattillo",
         bio: null,
@@ -55775,6 +58718,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188834,
       instructor: {
         name: "Alexander G Weheliye",
         bio: null,
@@ -55791,6 +58735,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188836,
       instructor: {
         name: "John David Marquez",
         bio: null,
@@ -55807,6 +58752,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188838,
       instructor: {
         name: "Celeste Michele Watkins-Hayes",
         bio: null,
@@ -55823,6 +58769,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188839,
       instructor: {
         name: "Kihana Miraya Ross",
         bio: null,
@@ -55839,6 +58786,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188837,
       instructor: {
         name: "Elondust Johnson",
         bio: null,
@@ -55855,6 +58803,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188835,
       instructor: {
         name: "Sherwin K Bryant",
         bio: null,
@@ -55871,6 +58820,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188833,
       instructor: {
         name: "Tracy L Vaughn",
         bio: null,
@@ -55887,6 +58837,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188829,
       instructor: {
         name: "Martha Biondi",
         bio: null,
@@ -55905,6 +58856,7 @@ export const sections = {
   ],
   "18032": [
     {
+      unique_id: 187838,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -55923,6 +58875,7 @@ export const sections = {
   ],
   "18033": [
     {
+      unique_id: 187839,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -55941,6 +58894,7 @@ export const sections = {
   ],
   "18034": [
     {
+      unique_id: 187840,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -55959,6 +58913,7 @@ export const sections = {
   ],
   "18035": [
     {
+      unique_id: 187841,
       instructor: {
         name: "Fatma Seda Memik",
         bio: null,
@@ -55977,6 +58932,7 @@ export const sections = {
   ],
   "18037": [
     {
+      unique_id: 188199,
       instructor: {
         name: "",
         bio: null,
@@ -55993,6 +58949,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191358,
       instructor: {
         name: "Ivan Jason Meyers",
         bio: null,
@@ -56014,6 +58971,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188200,
       instructor: {
         name: "",
         bio: null,
@@ -56030,6 +58988,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188198,
       instructor: {
         name: "Andrew S Hullinger",
         bio: null,
@@ -56048,6 +59007,7 @@ export const sections = {
   ],
   "18045": [
     {
+      unique_id: 191374,
       instructor: {
         name: "Megan Crowley-Matoka",
         bio: null,
@@ -56066,6 +59026,7 @@ export const sections = {
   ],
   "18061": [
     {
+      unique_id: 188694,
       instructor: {
         name: "Laura Jarmila Rasmussen-Torvik",
         bio: null,
@@ -56084,6 +59045,7 @@ export const sections = {
   ],
   "18062": [
     {
+      unique_id: 188695,
       instructor: {
         name: "Maria Nikolai Kocherginsky",
         bio: null,
@@ -56102,6 +59064,7 @@ export const sections = {
   ],
   "18067": [
     {
+      unique_id: 187547,
       instructor: {
         name: "Phillip A Braun",
         bio: null,
@@ -56125,6 +59088,7 @@ export const sections = {
   ],
   "18074": [
     {
+      unique_id: 188228,
       instructor: {
         name: "",
         bio: null,
@@ -56143,6 +59107,7 @@ export const sections = {
   ],
   "18087": [
     {
+      unique_id: 191311,
       instructor: {
         name: "Indira M Raman",
         bio: null,
@@ -56161,6 +59126,7 @@ export const sections = {
   ],
   "18095": [
     {
+      unique_id: 190540,
       instructor: {
         name: "Therese J McGuire",
         bio: null,
@@ -56179,6 +59145,7 @@ export const sections = {
   ],
   "18118": [
     {
+      unique_id: 190493,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -56197,6 +59164,7 @@ export const sections = {
   ],
   "18129": [
     {
+      unique_id: 188299,
       instructor: {
         name: "Leigh Cohen",
         bio: null,
@@ -56213,6 +59181,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188300,
       instructor: {
         name: "Leigh Cohen",
         bio: null,
@@ -56231,6 +59200,7 @@ export const sections = {
   ],
   "18139": [
     {
+      unique_id: 189838,
       instructor: {
         name: "Fred W Turek",
         bio: null,
@@ -56254,6 +59224,7 @@ export const sections = {
   ],
   "18145": [
     {
+      unique_id: 191377,
       instructor: {
         name: "Teri Lombardi Yohn",
         bio: null,
@@ -56272,6 +59243,7 @@ export const sections = {
   ],
   "18149": [
     {
+      unique_id: 189402,
       instructor: {
         name: "Scott P Durham",
         bio: null,
@@ -56295,6 +59267,7 @@ export const sections = {
   ],
   "18154": [
     {
+      unique_id: 188871,
       instructor: {
         name: "Fadia M Antabli",
         bio: null,
@@ -56318,6 +59291,7 @@ export const sections = {
   ],
   "18158": [
     {
+      unique_id: 188814,
       instructor: {
         name: "Celeste Michele Watkins-Hayes",
         bio: null,
@@ -56336,6 +59310,7 @@ export const sections = {
   ],
   "18162": [
     {
+      unique_id: 187794,
       instructor: {
         name: "Martha Jane Cotton",
         bio: null,
@@ -56352,6 +59327,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187793,
       instructor: {
         name: "Martha Jane Cotton",
         bio: null,
@@ -56370,6 +59346,7 @@ export const sections = {
   ],
   "18164": [
     {
+      unique_id: 190494,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -56388,6 +59365,7 @@ export const sections = {
   ],
   "18188": [
     {
+      unique_id: 188131,
       instructor: {
         name: "Randy A Hlavac",
         bio: null,
@@ -56406,6 +59384,7 @@ export const sections = {
   ],
   "18189": [
     {
+      unique_id: 188124,
       instructor: {
         name: "Nancy Hobor",
         bio: null,
@@ -56429,6 +59408,7 @@ export const sections = {
   ],
   "18199": [
     {
+      unique_id: 190865,
       instructor: {
         name: "Russell Leo Roberson",
         bio: null,
@@ -56445,6 +59425,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190866,
       instructor: {
         name: "Mark Clare",
         bio: null,
@@ -56463,6 +59444,7 @@ export const sections = {
   ],
   "18215": [
     {
+      unique_id: 191048,
       instructor: {
         name: "Miri Eliyahu",
         bio: null,
@@ -56481,6 +59463,7 @@ export const sections = {
   ],
   "18226": [
     {
+      unique_id: 191276,
       instructor: {
         name: "Steven Lubet",
         bio: null,
@@ -56499,6 +59482,7 @@ export const sections = {
   ],
   "18238": [
     {
+      unique_id: 191104,
       instructor: {
         name: "Holly J Falk-Krzesinski",
         bio: null,
@@ -56517,6 +59501,7 @@ export const sections = {
   ],
   "18241": [
     {
+      unique_id: 187962,
       instructor: {
         name: "Michael Aaron Peshkin",
         bio: null,
@@ -56539,6 +59524,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187961,
       instructor: {
         name: "Michael Aaron Peshkin",
         bio: null,
@@ -56563,6 +59549,7 @@ export const sections = {
   ],
   "18243": [
     {
+      unique_id: 190268,
       instructor: {
         name: "Asha Nagaraj",
         bio: null,
@@ -56579,6 +59566,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190271,
       instructor: {
         name: "Rifka Cook",
         bio: null,
@@ -56595,6 +59583,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190266,
       instructor: {
         name: "Maria Teresa Villanueva",
         bio: null,
@@ -56616,6 +59605,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190267,
       instructor: {
         name: "",
         bio: null,
@@ -56632,6 +59622,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190269,
       instructor: {
         name: "Asha Nagaraj",
         bio: null,
@@ -56648,6 +59639,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190270,
       instructor: {
         name: "Rifka Cook",
         bio: null,
@@ -56664,6 +59656,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190274,
       instructor: {
         name: "",
         bio: null,
@@ -56680,6 +59673,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190272,
       instructor: {
         name: "Rifka Cook",
         bio: null,
@@ -56696,6 +59690,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190273,
       instructor: {
         name: "Maria Teresa Villanueva",
         bio: null,
@@ -56719,6 +59714,7 @@ export const sections = {
   ],
   "18257": [
     {
+      unique_id: 188799,
       instructor: {
         name: "Patricia Thanhtruc Nguyen",
         bio: null,
@@ -56742,6 +59738,7 @@ export const sections = {
   ],
   "18260": [
     {
+      unique_id: 189642,
       instructor: {
         name: "John F Marko",
         bio: null,
@@ -56765,6 +59762,7 @@ export const sections = {
   ],
   "18263": [
     {
+      unique_id: 188383,
       instructor: {
         name: "Stephen Daniel Cone",
         bio: null,
@@ -56788,6 +59786,7 @@ export const sections = {
   ],
   "18265": [
     {
+      unique_id: 189854,
       instructor: {
         name: "Richard H Kraut",
         bio: null,
@@ -56806,6 +59805,7 @@ export const sections = {
   ],
   "18268": [
     {
+      unique_id: 188089,
       instructor: {
         name: "Stephen I Hersh",
         bio: null,
@@ -56822,6 +59822,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188090,
       instructor: {
         name: "Judy U Franks",
         bio: null,
@@ -56845,6 +59846,7 @@ export const sections = {
   ],
   "18269": [
     {
+      unique_id: 188088,
       instructor: {
         name: "Paul Wang",
         bio: null,
@@ -56868,6 +59870,7 @@ export const sections = {
   ],
   "18270": [
     {
+      unique_id: 188800,
       instructor: {
         name: "Patricia Thanhtruc Nguyen",
         bio: null,
@@ -56891,6 +59894,7 @@ export const sections = {
   ],
   "18274": [
     {
+      unique_id: 187182,
       instructor: {
         name: "",
         bio: null,
@@ -56907,6 +59911,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187181,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -56925,6 +59930,7 @@ export const sections = {
   ],
   "18275": [
     {
+      unique_id: 191376,
       instructor: {
         name: "",
         bio: null,
@@ -56941,6 +59947,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187298,
       instructor: {
         name: "Kurt R Hansen",
         bio: null,
@@ -56959,6 +59966,7 @@ export const sections = {
   ],
   "18276": [
     {
+      unique_id: 187417,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -56975,6 +59983,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187418,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -56991,6 +60000,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187409,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -57007,6 +60017,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187408,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -57023,6 +60034,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187412,
       instructor: {
         name: "Robert E Morgan",
         bio: null,
@@ -57039,6 +60051,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187411,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -57055,6 +60068,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187407,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -57071,6 +60085,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187410,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -57087,6 +60102,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187413,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -57103,6 +60119,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187414,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -57119,6 +60136,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187415,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -57135,6 +60153,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187416,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -57153,6 +60172,7 @@ export const sections = {
   ],
   "18277": [
     {
+      unique_id: 186934,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -57171,6 +60191,7 @@ export const sections = {
   ],
   "18278": [
     {
+      unique_id: 187113,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -57189,6 +60210,7 @@ export const sections = {
   ],
   "18306": [
     {
+      unique_id: 190867,
       instructor: {
         name: "Helen F Thompson",
         bio: null,
@@ -57207,6 +60229,7 @@ export const sections = {
   ],
   "18311": [
     {
+      unique_id: 190611,
       instructor: {
         name: "James G Conley",
         bio: null,
@@ -57225,6 +60248,7 @@ export const sections = {
   ],
   "18337": [
     {
+      unique_id: 191028,
       instructor: {
         name: "Aleen Marcia Bayard",
         bio: null,
@@ -57243,6 +60267,7 @@ export const sections = {
   ],
   "18347": [
     {
+      unique_id: 191178,
       instructor: {
         name: "Michael Seokhyun Kang",
         bio: null,
@@ -57261,6 +60286,7 @@ export const sections = {
   ],
   "18351": [
     {
+      unique_id: 190597,
       instructor: {
         name: "Sunil Chopra",
         bio: null,
@@ -57279,6 +60305,7 @@ export const sections = {
   ],
   "18352": [
     {
+      unique_id: 191301,
       instructor: {
         name: "Uzoamaka Emeka Nzelibe",
         bio: null,
@@ -57302,6 +60329,7 @@ export const sections = {
   ],
   "18368": [
     {
+      unique_id: 188130,
       instructor: {
         name: "Tom Collinger",
         bio: null,
@@ -57325,6 +60353,7 @@ export const sections = {
   ],
   "18386": [
     {
+      unique_id: 187590,
       instructor: {
         name: "Keith I Harley",
         bio: null,
@@ -57348,6 +60377,7 @@ export const sections = {
   ],
   "18387": [
     {
+      unique_id: 187788,
       instructor: {
         name: "Daniel P. Brown",
         bio: null,
@@ -57364,6 +60394,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187789,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -57388,6 +60419,7 @@ export const sections = {
   ],
   "18388": [
     {
+      unique_id: 187776,
       instructor: {
         name: "John David Hartman",
         bio: null,
@@ -57409,6 +60441,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187775,
       instructor: {
         name: "John David Hartman",
         bio: null,
@@ -57432,6 +60465,7 @@ export const sections = {
   ],
   "18396": [
     {
+      unique_id: 187085,
       instructor: {
         name: "",
         bio: null,
@@ -57450,6 +60484,7 @@ export const sections = {
   ],
   "18401": [
     {
+      unique_id: 187103,
       instructor: {
         name: "Richard D Ashley",
         bio:
@@ -57469,6 +60504,7 @@ export const sections = {
   ],
   "18423": [
     {
+      unique_id: 188080,
       instructor: {
         name: "Christian R Burger",
         bio: null,
@@ -57487,6 +60523,7 @@ export const sections = {
   ],
   "18425": [
     {
+      unique_id: 186901,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -57505,6 +60542,7 @@ export const sections = {
   ],
   "18426": [
     {
+      unique_id: 187157,
       instructor: {
         name: "",
         bio: null,
@@ -57523,6 +60561,7 @@ export const sections = {
   ],
   "18430": [
     {
+      unique_id: 188147,
       instructor: {
         name: "Samantha Kaitlyn Nissen",
         bio: null,
@@ -57541,6 +60580,7 @@ export const sections = {
   ],
   "18437": [
     {
+      unique_id: 191030,
       instructor: {
         name: "Patricia B McNally",
         bio: null,
@@ -57559,6 +60599,7 @@ export const sections = {
   ],
   "18440": [
     {
+      unique_id: 191031,
       instructor: {
         name: "",
         bio: null,
@@ -57577,6 +60618,7 @@ export const sections = {
   ],
   "18454": [
     {
+      unique_id: 190158,
       instructor: {
         name: "Sarah Hieatt Jacoby",
         bio: null,
@@ -57596,6 +60638,7 @@ export const sections = {
   ],
   "18460": [
     {
+      unique_id: 188722,
       instructor: {
         name: "Krissa A Skogen",
         bio: null,
@@ -57619,6 +60662,7 @@ export const sections = {
   ],
   "18464": [
     {
+      unique_id: 188098,
       instructor: {
         name: "Alan K Cubbage",
         bio: null,
@@ -57635,6 +60679,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188097,
       instructor: {
         name: "Ernest Duplessis",
         bio: null,
@@ -57653,6 +60698,7 @@ export const sections = {
   ],
   "18477": [
     {
+      unique_id: 190569,
       instructor: {
         name: "Florian Zettelmeyer",
         bio: null,
@@ -57671,6 +60717,7 @@ export const sections = {
   ],
   "18481": [
     {
+      unique_id: 187864,
       instructor: {
         name: "William P Banks",
         bio: null,
@@ -57692,6 +60739,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187865,
       instructor: {
         name: "Heather Anne Aranyi",
         bio: null,
@@ -57715,6 +60763,7 @@ export const sections = {
   ],
   "18493": [
     {
+      unique_id: 188703,
       instructor: {
         name: "Joel Ira Shalowitz",
         bio: null,
@@ -57733,6 +60782,7 @@ export const sections = {
   ],
   "18504": [
     {
+      unique_id: 191302,
       instructor: {
         name: "Nancy Carol Loeb",
         bio: null,
@@ -57756,6 +60806,7 @@ export const sections = {
   ],
   "18515": [
     {
+      unique_id: 189151,
       instructor: {
         name: "Elizabeth Caitlin McCabe",
         bio: null,
@@ -57774,6 +60825,7 @@ export const sections = {
   ],
   "18524": [
     {
+      unique_id: 188786,
       instructor: {
         name: "Huey Gene Copeland II",
         bio: null,
@@ -57792,6 +60844,7 @@ export const sections = {
   ],
   "18525": [
     {
+      unique_id: 191102,
       instructor: {
         name: "Jimmie W Croft",
         bio: null,
@@ -57810,6 +60863,7 @@ export const sections = {
   ],
   "18527": [
     {
+      unique_id: 188941,
       instructor: {
         name: "Xiaomin Bao",
         bio: null,
@@ -57833,6 +60887,7 @@ export const sections = {
   ],
   "18537": [
     {
+      unique_id: 187548,
       instructor: {
         name: "Martin A Lariviere",
         bio: null,
@@ -57856,6 +60911,7 @@ export const sections = {
   ],
   "18539": [
     {
+      unique_id: 188099,
       instructor: {
         name: "Randy A Hlavac",
         bio: null,
@@ -57874,6 +60930,7 @@ export const sections = {
   ],
   "18546": [
     {
+      unique_id: 188100,
       instructor: {
         name: "Thomas H Hayden",
         bio: null,
@@ -57892,6 +60949,7 @@ export const sections = {
   ],
   "18549": [
     {
+      unique_id: 186846,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -57908,6 +60966,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186847,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -57924,6 +60983,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186844,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -57940,6 +61000,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186845,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -57958,6 +61019,7 @@ export const sections = {
   ],
   "18550": [
     {
+      unique_id: 186860,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -57974,6 +61036,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186859,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -57990,6 +61053,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186858,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -58006,6 +61070,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186857,
       instructor: {
         name: "Leslie A Grimm",
         bio: null,
@@ -58024,6 +61089,7 @@ export const sections = {
   ],
   "18557": [
     {
+      unique_id: 189676,
       instructor: {
         name: "Yarrow Larue Axford",
         bio: null,
@@ -58047,6 +61113,7 @@ export const sections = {
   ],
   "18572": [
     {
+      unique_id: 189372,
       instructor: {
         name: "Melissa Rosenzweig",
         bio: null,
@@ -58068,6 +61135,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190778,
       instructor: {
         name: "Rebecca Elizabeth Zorach",
         bio: null,
@@ -58091,6 +61159,7 @@ export const sections = {
   ],
   "18583": [
     {
+      unique_id: 190505,
       instructor: {
         name: "Brenda Ellington Booth",
         bio: null,
@@ -58107,6 +61176,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190506,
       instructor: {
         name: "Paul L Corona",
         bio: null,
@@ -58123,6 +61193,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190504,
       instructor: {
         name: "Brooke O Vuckovic",
         bio: null,
@@ -58139,6 +61210,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190503,
       instructor: {
         name: "Brooke O Vuckovic",
         bio: null,
@@ -58155,6 +61227,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190502,
       instructor: {
         name: "Robert Vernon Langewisch",
         bio: null,
@@ -58171,6 +61244,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190507,
       instructor: {
         name: "Brenda Ellington Booth",
         bio: null,
@@ -58187,6 +61261,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190508,
       instructor: {
         name: "Kevin M Murnane",
         bio: null,
@@ -58203,6 +61278,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190509,
       instructor: {
         name: "Ellen Connelly Taaffe",
         bio: null,
@@ -58219,6 +61295,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190510,
       instructor: {
         name: "Paul L Corona",
         bio: null,
@@ -58235,6 +61312,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190511,
       instructor: {
         name: "Kevin M Murnane",
         bio: null,
@@ -58253,6 +61331,7 @@ export const sections = {
   ],
   "18585": [
     {
+      unique_id: 190879,
       instructor: {
         name: "Seth Brian Payton",
         bio: null,
@@ -58271,6 +61350,7 @@ export const sections = {
   ],
   "18586": [
     {
+      unique_id: 190881,
       instructor: {
         name: "Morris Anthony Taylor",
         bio: null,
@@ -58289,6 +61369,7 @@ export const sections = {
   ],
   "18592": [
     {
+      unique_id: 190884,
       instructor: {
         name: "Debra L Brucker",
         bio: null,
@@ -58307,6 +61388,7 @@ export const sections = {
   ],
   "18593": [
     {
+      unique_id: 190886,
       instructor: {
         name: "Wendy Lynn Hassett",
         bio: null,
@@ -58325,6 +61407,7 @@ export const sections = {
   ],
   "18594": [
     {
+      unique_id: 190888,
       instructor: {
         name: "Pamela Estelle Ransom",
         bio: null,
@@ -58343,6 +61426,7 @@ export const sections = {
   ],
   "18600": [
     {
+      unique_id: 190894,
       instructor: {
         name: "William Leon Lester",
         bio: null,
@@ -58361,6 +61445,7 @@ export const sections = {
   ],
   "18603": [
     {
+      unique_id: 188891,
       instructor: {
         name: "Corey Byrnes",
         bio: null,
@@ -58382,6 +61467,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188892,
       instructor: {
         name: "So Hye Kim",
         bio: null,
@@ -58405,6 +61491,7 @@ export const sections = {
   ],
   "18604": [
     {
+      unique_id: 188893,
       instructor: {
         name: "",
         bio: null,
@@ -58426,6 +61513,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188894,
       instructor: {
         name: "Rajeev Kumar Kinra",
         bio:
@@ -58450,6 +61538,7 @@ export const sections = {
   ],
   "18614": [
     {
+      unique_id: 188803,
       instructor: {
         name: "Raymond A Sandiego",
         bio: null,
@@ -58473,6 +61562,7 @@ export const sections = {
   ],
   "18616": [
     {
+      unique_id: 188815,
       instructor: {
         name: "Herman Barnor Hesse",
         bio: null,
@@ -58491,6 +61581,7 @@ export const sections = {
   ],
   "18639": [
     {
+      unique_id: 191233,
       instructor: {
         name: "Myles D Berman",
         bio: null,
@@ -58514,6 +61605,7 @@ export const sections = {
   ],
   "18642": [
     {
+      unique_id: 189328,
       instructor: {
         name: "John Alba Cutler",
         bio: null,
@@ -58537,6 +61629,7 @@ export const sections = {
   ],
   "18643": [
     {
+      unique_id: 189348,
       instructor: {
         name: "John Alba Cutler",
         bio: null,
@@ -58560,6 +61653,7 @@ export const sections = {
   ],
   "18649": [
     {
+      unique_id: 189715,
       instructor: {
         name: "Hector G Carrillo",
         bio: null,
@@ -58581,6 +61675,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189716,
       instructor: {
         name: "John Alba Cutler",
         bio: null,
@@ -58602,6 +61697,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189714,
       instructor: {
         name: "Henry Dominic Godinez",
         bio: null,
@@ -58619,6 +61715,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189713,
       instructor: {
         name: "Elvia Mendoza",
         bio: null,
@@ -58642,6 +61739,7 @@ export const sections = {
   ],
   "18650": [
     {
+      unique_id: 190149,
       instructor: {
         name: "",
         bio: null,
@@ -58665,6 +61763,7 @@ export const sections = {
   ],
   "18651": [
     {
+      unique_id: 190430,
       instructor: {
         name: "",
         bio: null,
@@ -58686,6 +61785,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189450,
       instructor: {
         name: "Douglas Kiel",
         bio: null,
@@ -58707,6 +61807,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189449,
       instructor: {
         name: "Paul F Ramirez",
         bio:
@@ -58731,6 +61832,7 @@ export const sections = {
   ],
   "18652": [
     {
+      unique_id: 189460,
       instructor: {
         name: "Michael S Sherry",
         bio:
@@ -58753,6 +61855,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189458,
       instructor: {
         name: "Leslie Maria Harris",
         bio:
@@ -58775,6 +61878,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189457,
       instructor: {
         name: "Tessie P Liu",
         bio: null,
@@ -58796,6 +61900,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189459,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -58818,6 +61923,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189461,
       instructor: {
         name: "Scott Anthony De Orio",
         bio: null,
@@ -58841,6 +61947,7 @@ export const sections = {
   ],
   "18656": [
     {
+      unique_id: 188721,
       instructor: {
         name: "Nyree J C Zerega",
         bio: null,
@@ -58859,6 +61966,7 @@ export const sections = {
   ],
   "18658": [
     {
+      unique_id: 189213,
       instructor: {
         name: "Evan M Mwangi",
         bio: null,
@@ -58882,6 +61990,7 @@ export const sections = {
   ],
   "18661": [
     {
+      unique_id: 189217,
       instructor: {
         name: "Jonah Flanagan Radding",
         bio: null,
@@ -58903,6 +62012,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189218,
       instructor: {
         name: "Rebecca Carol Johnson",
         bio: null,
@@ -58926,6 +62036,7 @@ export const sections = {
   ],
   "18665": [
     {
+      unique_id: 189220,
       instructor: {
         name: "Scott P Durham",
         bio: null,
@@ -58949,6 +62060,7 @@ export const sections = {
   ],
   "18668": [
     {
+      unique_id: 186925,
       instructor: {
         name: "John McDonough",
         bio: null,
@@ -58967,6 +62079,7 @@ export const sections = {
   ],
   "18670": [
     {
+      unique_id: 186952,
       instructor: {
         name: "Bradley Stuart Mason",
         bio: null,
@@ -58983,6 +62096,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186955,
       instructor: {
         name: "Carlos G Henriquez",
         bio: null,
@@ -58999,6 +62113,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186957,
       instructor: {
         name: "John Paul Moulder",
         bio: null,
@@ -59015,6 +62130,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186951,
       instructor: {
         name: "Victor L Goines",
         bio: null,
@@ -59031,6 +62147,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186953,
       instructor: {
         name: "Thomas James Garling",
         bio: null,
@@ -59047,6 +62164,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186956,
       instructor: {
         name: "Willie Jones III",
         bio: null,
@@ -59063,6 +62181,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 186954,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -59081,6 +62200,7 @@ export const sections = {
   ],
   "18674": [
     {
+      unique_id: 187073,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -59099,6 +62219,7 @@ export const sections = {
   ],
   "18677": [
     {
+      unique_id: 187077,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -59117,6 +62238,7 @@ export const sections = {
   ],
   "18683": [
     {
+      unique_id: 187098,
       instructor: {
         name: "Mark Jonathan Butler",
         bio: "www.music.northwestern.edu/faculty/profiles/mark-butler.html",
@@ -59135,6 +62257,7 @@ export const sections = {
   ],
   "18685": [
     {
+      unique_id: 187024,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -59153,6 +62276,7 @@ export const sections = {
   ],
   "18686": [
     {
+      unique_id: 187054,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -59171,6 +62295,7 @@ export const sections = {
   ],
   "18688": [
     {
+      unique_id: 187151,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -59189,6 +62314,7 @@ export const sections = {
   ],
   "18694": [
     {
+      unique_id: 187337,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -59205,6 +62331,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187338,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -59221,6 +62348,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187336,
       instructor: {
         name: "",
         bio: null,
@@ -59239,6 +62367,7 @@ export const sections = {
   ],
   "18695": [
     {
+      unique_id: 187365,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -59255,6 +62384,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187366,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -59271,6 +62401,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187364,
       instructor: {
         name: "",
         bio: null,
@@ -59289,6 +62420,7 @@ export const sections = {
   ],
   "18696": [
     {
+      unique_id: 187464,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -59305,6 +62437,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187461,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -59326,6 +62459,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187463,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -59347,6 +62481,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187467,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -59368,6 +62503,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187465,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -59384,6 +62520,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187462,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -59405,6 +62542,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187466,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -59421,6 +62559,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187468,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -59442,6 +62581,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187469,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -59458,6 +62598,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187470,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -59481,6 +62622,7 @@ export const sections = {
   ],
   "18697": [
     {
+      unique_id: 187481,
       instructor: {
         name: "Jonathan C Boen",
         bio: null,
@@ -59497,6 +62639,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187482,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -59518,6 +62661,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187479,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -59534,6 +62678,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187476,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -59555,6 +62700,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187477,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -59576,6 +62722,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187478,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -59592,6 +62739,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187480,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -59615,6 +62763,7 @@ export const sections = {
   ],
   "18698": [
     {
+      unique_id: 187510,
       instructor: {
         name: "Michael L Henoch",
         bio: null,
@@ -59636,6 +62785,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187512,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -59652,6 +62802,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187516,
       instructor: {
         name: "Michael John Mulcahy",
         bio: null,
@@ -59668,6 +62819,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187515,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -59689,6 +62841,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187514,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -59710,6 +62863,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187517,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -59731,6 +62885,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187513,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -59747,6 +62902,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187508,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -59768,6 +62924,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187509,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -59789,6 +62946,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187511,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -59807,6 +62965,7 @@ export const sections = {
   ],
   "18699": [
     {
+      unique_id: 187524,
       instructor: {
         name: "John W Thorne",
         bio: null,
@@ -59828,6 +62987,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187527,
       instructor: {
         name: "David Edward Bilger",
         bio: null,
@@ -59849,6 +63009,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187529,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -59870,6 +63031,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187526,
       instructor: {
         name: "David Edward McGill",
         bio: null,
@@ -59886,6 +63048,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187525,
       instructor: {
         name: "Steven H Cohen",
         bio: null,
@@ -59902,6 +63065,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187523,
       instructor: {
         name: "Shawn David Vondran",
         bio: null,
@@ -59923,6 +63087,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187528,
       instructor: {
         name: "Jonathan C Boen",
         bio: null,
@@ -59941,6 +63106,7 @@ export const sections = {
   ],
   "18700": [
     {
+      unique_id: 187520,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -59957,6 +63123,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187522,
       instructor: {
         name: "Hsin-Yi Wu",
         bio: null,
@@ -59978,6 +63145,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187518,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -59999,6 +63167,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187519,
       instructor: {
         name: "Taimur Edward Sullivan",
         bio: null,
@@ -60020,6 +63189,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187521,
       instructor: {
         name: "Christopher P Davis",
         bio: null,
@@ -60038,6 +63208,7 @@ export const sections = {
   ],
   "18701": [
     {
+      unique_id: 187267,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -60056,6 +63227,7 @@ export const sections = {
   ],
   "18711": [
     {
+      unique_id: 191246,
       instructor: {
         name: "David A Dana",
         bio: null,
@@ -60074,6 +63246,7 @@ export const sections = {
   ],
   "18715": [
     {
+      unique_id: 189225,
       instructor: {
         name: "Jorg Kreienbrock",
         bio: null,
@@ -60092,6 +63265,7 @@ export const sections = {
   ],
   "18736": [
     {
+      unique_id: 191184,
       instructor: {
         name: "Stephen P Sawyer",
         bio: null,
@@ -60115,6 +63289,7 @@ export const sections = {
   ],
   "18737": [
     {
+      unique_id: 190488,
       instructor: {
         name: "Linda Vincent",
         bio: null,
@@ -60133,6 +63308,7 @@ export const sections = {
   ],
   "18741": [
     {
+      unique_id: 191380,
       instructor: {
         name: "Edward J Zajac",
         bio: null,
@@ -60151,6 +63327,7 @@ export const sections = {
   ],
   "18748": [
     {
+      unique_id: 190426,
       instructor: {
         name: "Hector G Carrillo",
         bio: null,
@@ -60174,6 +63351,7 @@ export const sections = {
   ],
   "18759": [
     {
+      unique_id: 191029,
       instructor: {
         name: "",
         bio: null,
@@ -60192,6 +63370,7 @@ export const sections = {
   ],
   "18779": [
     {
+      unique_id: 191349,
       instructor: {
         name: "",
         bio: null,
@@ -60210,6 +63389,7 @@ export const sections = {
   ],
   "18795": [
     {
+      unique_id: 187265,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -60226,6 +63406,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187258,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -60247,6 +63428,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187257,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -60268,6 +63450,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187266,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -60284,6 +63467,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187259,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -60305,6 +63489,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187260,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -60326,6 +63511,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187263,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -60347,6 +63533,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187261,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -60363,6 +63550,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187262,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -60384,6 +63572,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187264,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -60407,6 +63596,7 @@ export const sections = {
   ],
   "18796": [
     {
+      unique_id: 187223,
       instructor: {
         name: "Gerardo Ribeiro",
         bio: null,
@@ -60428,6 +63618,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187231,
       instructor: {
         name: "Andrew Jarrod Raciti",
         bio: null,
@@ -60444,6 +63635,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187230,
       instructor: {
         name: "Hans J Jensen",
         bio: null,
@@ -60465,6 +63657,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187229,
       instructor: {
         name: "Helen Sarah Callus",
         bio: null,
@@ -60486,6 +63679,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187228,
       instructor: {
         name: "Robert A Hanford",
         bio: null,
@@ -60507,6 +63701,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187227,
       instructor: {
         name: "Yuan-Qing Yu",
         bio: null,
@@ -60523,6 +63718,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187232,
       instructor: {
         name: "Marguerite Lynn Williams",
         bio: null,
@@ -60539,6 +63735,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187226,
       instructor: {
         name: "Desiree U Ruhstrat",
         bio: null,
@@ -60560,6 +63757,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187225,
       instructor: {
         name: "Blair Milton",
         bio: null,
@@ -60581,6 +63779,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187224,
       instructor: {
         name: "Anne E Waller",
         bio: null,
@@ -60604,6 +63803,7 @@ export const sections = {
   ],
   "18804": [
     {
+      unique_id: 188747,
       instructor: {
         name: "",
         bio: null,
@@ -60622,6 +63822,7 @@ export const sections = {
   ],
   "18808": [
     {
+      unique_id: 187895,
       instructor: {
         name: "Adam Joseph Goodman",
         bio:
@@ -60641,6 +63842,7 @@ export const sections = {
   ],
   "18809": [
     {
+      unique_id: 187118,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -60657,6 +63859,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187117,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -60675,6 +63878,7 @@ export const sections = {
   ],
   "18810": [
     {
+      unique_id: 187139,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -60691,6 +63895,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187138,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -60709,6 +63914,7 @@ export const sections = {
   ],
   "18823": [
     {
+      unique_id: 188087,
       instructor: {
         name: "Wei Chen",
         bio: null,
@@ -60733,6 +63939,7 @@ export const sections = {
   ],
   "18839": [
     {
+      unique_id: 191092,
       instructor: {
         name: "Thomas J Canale",
         bio: null,
@@ -60751,6 +63958,7 @@ export const sections = {
   ],
   "18851": [
     {
+      unique_id: 187887,
       instructor: {
         name: "Peter Charles DiCola",
         bio: null,
@@ -60774,6 +63982,7 @@ export const sections = {
   ],
   "18859": [
     {
+      unique_id: 188881,
       instructor: {
         name: "Jeanne Dunning",
         bio: null,
@@ -60792,6 +64001,7 @@ export const sections = {
   ],
   "18866": [
     {
+      unique_id: 191370,
       instructor: {
         name: "Jan A Van Mieghem",
         bio: null,
@@ -60810,6 +64020,7 @@ export const sections = {
   ],
   "18870": [
     {
+      unique_id: 187949,
       instructor: {
         name: "Sossina Mariam Haile",
         bio: null,
@@ -60833,6 +64044,7 @@ export const sections = {
   ],
   "18872": [
     {
+      unique_id: 187903,
       instructor: {
         name: "David C Dunand",
         bio: null,
@@ -60856,6 +64068,7 @@ export const sections = {
   ],
   "18879": [
     {
+      unique_id: 191017,
       instructor: {
         name: "Jeffrey Rice",
         bio:
@@ -60875,6 +64088,7 @@ export const sections = {
   ],
   "18887": [
     {
+      unique_id: 188353,
       instructor: {
         name: "David Andres Bernal",
         bio: null,
@@ -60898,6 +64112,7 @@ export const sections = {
   ],
   "18888": [
     {
+      unique_id: 188354,
       instructor: {
         name: "",
         bio: null,
@@ -60921,6 +64136,7 @@ export const sections = {
   ],
   "18908": [
     {
+      unique_id: 190033,
       instructor: {
         name: "Ana C Thome Williams",
         bio: null,
@@ -60942,6 +64158,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190624,
       instructor: {
         name: "Ana C Thome Williams",
         bio: null,
@@ -60960,6 +64177,7 @@ export const sections = {
   ],
   "18956": [
     {
+      unique_id: 190321,
       instructor: {
         name: "Jiping Wang",
         bio: null,
@@ -60984,6 +64202,7 @@ export const sections = {
   ],
   "18957": [
     {
+      unique_id: 188809,
       instructor: {
         name: "Herman Barnor Hesse",
         bio: null,
@@ -61007,6 +64226,7 @@ export const sections = {
   ],
   "19001": [
     {
+      unique_id: 190574,
       instructor: {
         name: "Rick Piyush Desai",
         bio: null,
@@ -61025,6 +64245,7 @@ export const sections = {
   ],
   "19005": [
     {
+      unique_id: 188538,
       instructor: {
         name: "Peter David Meyerhoff",
         bio: null,
@@ -61048,6 +64269,7 @@ export const sections = {
   ],
   "19009": [
     {
+      unique_id: 187694,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61066,6 +64288,7 @@ export const sections = {
   ],
   "19010": [
     {
+      unique_id: 187696,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61084,6 +64307,7 @@ export const sections = {
   ],
   "19011": [
     {
+      unique_id: 187698,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61102,6 +64326,7 @@ export const sections = {
   ],
   "19012": [
     {
+      unique_id: 187728,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61120,6 +64345,7 @@ export const sections = {
   ],
   "19013": [
     {
+      unique_id: 187730,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61138,6 +64364,7 @@ export const sections = {
   ],
   "19014": [
     {
+      unique_id: 187732,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61156,6 +64383,7 @@ export const sections = {
   ],
   "19048": [
     {
+      unique_id: 188591,
       instructor: {
         name: "Terri L Cramer",
         bio: null,
@@ -61174,6 +64402,7 @@ export const sections = {
   ],
   "19092": [
     {
+      unique_id: 189191,
       instructor: {
         name: "Jingjing Ji",
         bio: null,
@@ -61197,6 +64426,7 @@ export const sections = {
   ],
   "19095": [
     {
+      unique_id: 189196,
       instructor: {
         name: "Hsiu-ling Robertson",
         bio: null,
@@ -61218,6 +64448,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189197,
       instructor: {
         name: "Hsiu-ling Robertson",
         bio: null,
@@ -61241,6 +64472,7 @@ export const sections = {
   ],
   "19098": [
     {
+      unique_id: 189200,
       instructor: {
         name: "Li-Cheng Gu",
         bio: null,
@@ -61264,6 +64496,7 @@ export const sections = {
   ],
   "19146": [
     {
+      unique_id: 189869,
       instructor: {
         name: "Richard H Kraut",
         bio: null,
@@ -61282,6 +64515,7 @@ export const sections = {
   ],
   "19152": [
     {
+      unique_id: 187027,
       instructor: {
         name: "Linda P Austern",
         bio:
@@ -61301,6 +64535,7 @@ export const sections = {
   ],
   "19153": [
     {
+      unique_id: 187028,
       instructor: {
         name: "Scott Douglas Paulin",
         bio:
@@ -61320,6 +64555,7 @@ export const sections = {
   ],
   "19158": [
     {
+      unique_id: 191303,
       instructor: {
         name: "Jack Samuel Tenenbaum",
         bio: null,
@@ -61341,6 +64577,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191304,
       instructor: {
         name: "Jack Samuel Tenenbaum",
         bio: null,
@@ -61359,6 +64596,7 @@ export const sections = {
   ],
   "19162": [
     {
+      unique_id: 189688,
       instructor: {
         name: "Paola Nasti",
         bio: null,
@@ -61382,6 +64620,7 @@ export const sections = {
   ],
   "19166": [
     {
+      unique_id: 191026,
       instructor: {
         name: "Paula Carney",
         bio: null,
@@ -61400,6 +64639,7 @@ export const sections = {
   ],
   "19169": [
     {
+      unique_id: 190857,
       instructor: {
         name: "Kevin D Vaccaro",
         bio: null,
@@ -61418,6 +64658,7 @@ export const sections = {
   ],
   "19176": [
     {
+      unique_id: 190859,
       instructor: {
         name: "Jeffrey M Gott",
         bio: null,
@@ -61436,6 +64677,7 @@ export const sections = {
   ],
   "19177": [
     {
+      unique_id: 190861,
       instructor: {
         name: "William G Sunna",
         bio: null,
@@ -61454,6 +64696,7 @@ export const sections = {
   ],
   "19179": [
     {
+      unique_id: 190903,
       instructor: {
         name: "George S Kirkpatrick",
         bio: null,
@@ -61472,6 +64715,7 @@ export const sections = {
   ],
   "19196": [
     {
+      unique_id: 187702,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61490,6 +64734,7 @@ export const sections = {
   ],
   "19197": [
     {
+      unique_id: 187704,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61508,6 +64753,7 @@ export const sections = {
   ],
   "19198": [
     {
+      unique_id: 187706,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -61526,6 +64772,7 @@ export const sections = {
   ],
   "19210": [
     {
+      unique_id: 186926,
       instructor: {
         name: "Jeremy Martin Kahn",
         bio: null,
@@ -61549,6 +64796,7 @@ export const sections = {
   ],
   "19245": [
     {
+      unique_id: 187037,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -61567,6 +64815,7 @@ export const sections = {
   ],
   "19257": [
     {
+      unique_id: 191357,
       instructor: {
         name: "",
         bio: null,
@@ -61585,6 +64834,7 @@ export const sections = {
   ],
   "19282": [
     {
+      unique_id: 190496,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -61603,6 +64853,7 @@ export const sections = {
   ],
   "19283": [
     {
+      unique_id: 188816,
       instructor: {
         name: "Sherwin K Bryant",
         bio: null,
@@ -61621,6 +64872,7 @@ export const sections = {
   ],
   "19287": [
     {
+      unique_id: 190994,
       instructor: {
         name: "Chyi Chung",
         bio:
@@ -61640,6 +64892,7 @@ export const sections = {
   ],
   "19289": [
     {
+      unique_id: 188588,
       instructor: {
         name: "Michelle Lee Albaugh",
         bio: null,
@@ -61658,6 +64911,7 @@ export const sections = {
   ],
   "19294": [
     {
+      unique_id: 191279,
       instructor: {
         name: "Leonard Louis Riskin",
         bio: null,
@@ -61681,6 +64935,7 @@ export const sections = {
   ],
   "19297": [
     {
+      unique_id: 191163,
       instructor: {
         name: "Mark Samuel Hacker",
         bio: null,
@@ -61704,6 +64959,7 @@ export const sections = {
   ],
   "19299": [
     {
+      unique_id: 191179,
       instructor: {
         name: "Renai Rodney",
         bio: null,
@@ -61727,6 +64983,7 @@ export const sections = {
   ],
   "19306": [
     {
+      unique_id: 190539,
       instructor: {
         name: "Megan R. Kashner",
         bio: null,
@@ -61745,6 +65002,7 @@ export const sections = {
   ],
   "19371": [
     {
+      unique_id: 191291,
       instructor: {
         name: "Jason C DeSanto",
         bio: "Jason C DeSanto",
@@ -61768,6 +65026,7 @@ export const sections = {
   ],
   "19374": [
     {
+      unique_id: 188113,
       instructor: {
         name: "Vijaymahadev Viswanathan",
         bio: null,
@@ -61786,6 +65045,7 @@ export const sections = {
   ],
   "19398": [
     {
+      unique_id: 190155,
       instructor: {
         name: "Robert A Orsi",
         bio: null,
@@ -61809,6 +65069,7 @@ export const sections = {
   ],
   "19421": [
     {
+      unique_id: 188296,
       instructor: {
         name: "Cynthia K Thompson",
         bio: null,
@@ -61832,6 +65093,7 @@ export const sections = {
   ],
   "19428": [
     {
+      unique_id: 190568,
       instructor: {
         name: "Homi Patel",
         bio: null,
@@ -61850,6 +65112,7 @@ export const sections = {
   ],
   "19444": [
     {
+      unique_id: 189185,
       instructor: {
         name: "Tobin Jay Marks",
         bio: null,
@@ -61873,6 +65136,7 @@ export const sections = {
   ],
   "19446": [
     {
+      unique_id: 189280,
       instructor: {
         name: "Wojciech Olszewski",
         bio: null,
@@ -61891,6 +65155,7 @@ export const sections = {
   ],
   "19448": [
     {
+      unique_id: 189741,
       instructor: {
         name: "Masaya Yoshida",
         bio: null,
@@ -61914,6 +65179,7 @@ export const sections = {
   ],
   "19449": [
     {
+      unique_id: 187012,
       instructor: {
         name: "Scott Douglas Paulin",
         bio:
@@ -61933,6 +65199,7 @@ export const sections = {
   ],
   "19450": [
     {
+      unique_id: 189820,
       instructor: {
         name: "Antonio C Auffinger",
         bio: null,
@@ -61951,6 +65218,7 @@ export const sections = {
   ],
   "19454": [
     {
+      unique_id: 187013,
       instructor: {
         name: "Ryan Wayne Dohoney",
         bio:
@@ -61970,6 +65238,7 @@ export const sections = {
   ],
   "19456": [
     {
+      unique_id: 187014,
       instructor: {
         name: "Jesse Rosenberg",
         bio:
@@ -61989,6 +65258,7 @@ export const sections = {
   ],
   "19463": [
     {
+      unique_id: 187025,
       instructor: {
         name: "Scott Douglas Paulin",
         bio:
@@ -62008,6 +65278,7 @@ export const sections = {
   ],
   "19467": [
     {
+      unique_id: 187029,
       instructor: {
         name: "Drew Edward Davies",
         bio:
@@ -62027,6 +65298,7 @@ export const sections = {
   ],
   "19470": [
     {
+      unique_id: 187030,
       instructor: {
         name: "Linda P Austern",
         bio:
@@ -62046,6 +65318,7 @@ export const sections = {
   ],
   "19508": [
     {
+      unique_id: 190032,
       instructor: {
         name: "Jean Marie Clipperton",
         bio: null,
@@ -62064,6 +65337,7 @@ export const sections = {
   ],
   "19520": [
     {
+      unique_id: 187076,
       instructor: {
         name: "Hans Christian Thomalla",
         bio: null,
@@ -62082,6 +65356,7 @@ export const sections = {
   ],
   "19525": [
     {
+      unique_id: 188297,
       instructor: {
         name: "Megan York Roberts",
         bio: null,
@@ -62105,6 +65380,7 @@ export const sections = {
   ],
   "19543": [
     {
+      unique_id: 187875,
       instructor: {
         name: "Sanjay Mehrotra",
         bio: null,
@@ -62128,6 +65404,7 @@ export const sections = {
   ],
   "19616": [
     {
+      unique_id: 187581,
       instructor: {
         name: "Muzhou Wang",
         bio: null,
@@ -62151,6 +65428,7 @@ export const sections = {
   ],
   "19619": [
     {
+      unique_id: 187585,
       instructor: {
         name: "Erica Marie Hartmann",
         bio: null,
@@ -62174,6 +65452,7 @@ export const sections = {
   ],
   "19631": [
     {
+      unique_id: 190138,
       instructor: {
         name: "Renee Suzanne Engeln",
         bio: null,
@@ -62192,6 +65471,7 @@ export const sections = {
   ],
   "19722": [
     {
+      unique_id: 190891,
       instructor: {
         name: "Justine Ann Bulgar-Medina",
         bio: null,
@@ -62210,6 +65490,7 @@ export const sections = {
   ],
   "19739": [
     {
+      unique_id: 190333,
       instructor: {
         name: "Mary K Foster",
         bio: null,
@@ -62228,6 +65509,7 @@ export const sections = {
   ],
   "19749": [
     {
+      unique_id: 189453,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -62252,6 +65534,7 @@ export const sections = {
   ],
   "19761": [
     {
+      unique_id: 187599,
       instructor: {
         name: "Laurence O Booth",
         bio: null,
@@ -62275,6 +65558,7 @@ export const sections = {
   ],
   "19766": [
     {
+      unique_id: 188801,
       instructor: {
         name: "Ji-Yeon Yuh",
         bio:
@@ -62299,6 +65583,7 @@ export const sections = {
   ],
   "19799": [
     {
+      unique_id: 188246,
       instructor: {
         name: "Dilip P Gaonkar",
         bio: null,
@@ -62322,6 +65607,7 @@ export const sections = {
   ],
   "19808": [
     {
+      unique_id: 188596,
       instructor: {
         name: "Paul Howard Arntson",
         bio: null,
@@ -62345,6 +65631,7 @@ export const sections = {
   ],
   "19811": [
     {
+      unique_id: 189466,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -62369,6 +65656,7 @@ export const sections = {
   ],
   "19813": [
     {
+      unique_id: 189236,
       instructor: {
         name: "Yarrow Larue Axford",
         bio: null,
@@ -62392,6 +65680,7 @@ export const sections = {
   ],
   "19814": [
     {
+      unique_id: 187738,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -62410,6 +65699,7 @@ export const sections = {
   ],
   "19815": [
     {
+      unique_id: 187740,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -62428,6 +65718,7 @@ export const sections = {
   ],
   "19816": [
     {
+      unique_id: 187736,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -62446,6 +65737,7 @@ export const sections = {
   ],
   "19826": [
     {
+      unique_id: 189725,
       instructor: {
         name: "Masaya Yoshida",
         bio: null,
@@ -62469,6 +65761,7 @@ export const sections = {
   ],
   "19828": [
     {
+      unique_id: 188211,
       instructor: {
         name: "Jessica Randi Stahl",
         bio: null,
@@ -62490,6 +65783,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188210,
       instructor: {
         name: "Janet Adamy Booker",
         bio: null,
@@ -62513,6 +65807,7 @@ export const sections = {
   ],
   "19843": [
     {
+      unique_id: 188581,
       instructor: {
         name: "Lois C Trautvetter",
         bio: null,
@@ -62531,6 +65826,7 @@ export const sections = {
   ],
   "19851": [
     {
+      unique_id: 188242,
       instructor: {
         name: "Anne Marie Piper",
         bio: null,
@@ -62552,6 +65848,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188243,
       instructor: {
         name: "Maria A Mastronardi",
         bio: null,
@@ -62573,6 +65870,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188245,
       instructor: {
         name: "Robert Donald Hariman",
         bio: null,
@@ -62594,6 +65892,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188244,
       instructor: {
         name: "James J Schwoch",
         bio: null,
@@ -62617,6 +65916,7 @@ export const sections = {
   ],
   "19854": [
     {
+      unique_id: 190585,
       instructor: {
         name: "Dashun Wang",
         bio: null,
@@ -62633,6 +65933,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190586,
       instructor: {
         name: "Dashun Wang",
         bio: null,
@@ -62651,6 +65952,7 @@ export const sections = {
   ],
   "19886": [
     {
+      unique_id: 188918,
       instructor: {
         name: "Christine Amanda McCary",
         bio: null,
@@ -62672,6 +65974,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188919,
       instructor: {
         name: "Christine Amanda McCary",
         bio: null,
@@ -62695,6 +65998,7 @@ export const sections = {
   ],
   "19888": [
     {
+      unique_id: 188930,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62711,6 +66015,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188928,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62727,6 +66032,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188924,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62743,6 +66049,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188920,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62759,6 +66066,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188921,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62775,6 +66083,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188922,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62791,6 +66100,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188927,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62807,6 +66117,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188931,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62823,6 +66134,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188929,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62839,6 +66151,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188925,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62855,6 +66168,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188932,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62871,6 +66185,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188923,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62887,6 +66202,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188926,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -62905,6 +66221,7 @@ export const sections = {
   ],
   "19899": [
     {
+      unique_id: 190764,
       instructor: {
         name: "Douglas C Breunlin",
         bio: null,
@@ -62923,6 +66240,7 @@ export const sections = {
   ],
   "19901": [
     {
+      unique_id: 191248,
       instructor: {
         name: "Herbert Neil Beller",
         bio: null,
@@ -62946,6 +66264,7 @@ export const sections = {
   ],
   "19915": [
     {
+      unique_id: 187791,
       instructor: {
         name: "Daniel Murphy Mac Donald",
         bio: null,
@@ -62969,6 +66288,7 @@ export const sections = {
   ],
   "19925": [
     {
+      unique_id: 191292,
       instructor: {
         name: "Monica L Llorente",
         bio: null,
@@ -62987,6 +66307,7 @@ export const sections = {
   ],
   "19926": [
     {
+      unique_id: 191305,
       instructor: {
         name: "Shobha L Mahadev",
         bio: null,
@@ -63005,6 +66326,7 @@ export const sections = {
   ],
   "19927": [
     {
+      unique_id: 191306,
       instructor: {
         name: "Alison R Flaum",
         bio: null,
@@ -63028,6 +66350,7 @@ export const sections = {
   ],
   "19930": [
     {
+      unique_id: 188229,
       instructor: {
         name: "",
         bio: null,
@@ -63046,6 +66369,7 @@ export const sections = {
   ],
   "19957": [
     {
+      unique_id: 191131,
       instructor: {
         name: "Megan Colleen McHugh",
         bio: null,
@@ -63064,6 +66388,7 @@ export const sections = {
   ],
   "19958": [
     {
+      unique_id: 191132,
       instructor: {
         name: "Megan Colleen McHugh",
         bio: null,
@@ -63082,6 +66407,7 @@ export const sections = {
   ],
   "19960": [
     {
+      unique_id: 191129,
       instructor: {
         name: "Neil Jordan",
         bio: null,
@@ -63100,6 +66426,7 @@ export const sections = {
   ],
   "19963": [
     {
+      unique_id: 187033,
       instructor: {
         name: "Jesse Rosenberg",
         bio:
@@ -63117,6 +66444,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187031,
       instructor: {
         name: "Linda P Austern",
         bio:
@@ -63134,6 +66462,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187032,
       instructor: {
         name: "Inna I Naroditskaya",
         bio: null,
@@ -63150,6 +66479,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187036,
       instructor: {
         name: "Andrew J. Talle",
         bio: null,
@@ -63166,6 +66496,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187035,
       instructor: {
         name: "Ryan Wayne Dohoney",
         bio:
@@ -63183,6 +66514,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187034,
       instructor: {
         name: "Drew Edward Davies",
         bio:
@@ -63202,6 +66534,7 @@ export const sections = {
   ],
   "19970": [
     {
+      unique_id: 188081,
       instructor: {
         name: "Melvin Douglas Meyer",
         bio: null,
@@ -63220,6 +66553,7 @@ export const sections = {
   ],
   "19971": [
     {
+      unique_id: 188082,
       instructor: {
         name: "Eric S Odderstol",
         bio: null,
@@ -63238,6 +66572,7 @@ export const sections = {
   ],
   "19980": [
     {
+      unique_id: 188730,
       instructor: {
         name: "Aida Luz Giachello",
         bio: null,
@@ -63256,6 +66591,7 @@ export const sections = {
   ],
   "19985": [
     {
+      unique_id: 188192,
       instructor: {
         name: "Brent E Huffman",
         bio: null,
@@ -63272,6 +66608,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188189,
       instructor: {
         name: "",
         bio: null,
@@ -63288,6 +66625,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188190,
       instructor: {
         name: "Ivan Jason Meyers",
         bio: null,
@@ -63309,6 +66647,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188191,
       instructor: {
         name: "Craig Weldon Duff",
         bio: null,
@@ -63327,6 +66666,7 @@ export const sections = {
   ],
   "20000": [
     {
+      unique_id: 188688,
       instructor: {
         name: "Kristine Elizabeth Emrich",
         bio: null,
@@ -63343,6 +66683,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188689,
       instructor: {
         name: "Kristine Elizabeth Emrich",
         bio: null,
@@ -63359,6 +66700,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188690,
       instructor: {
         name: "Kristine Elizabeth Emrich",
         bio: null,
@@ -63377,6 +66719,7 @@ export const sections = {
   ],
   "20001": [
     {
+      unique_id: 189152,
       instructor: {
         name: "Elizabeth Caitlin McCabe",
         bio: null,
@@ -63395,6 +66738,7 @@ export const sections = {
   ],
   "20033": [
     {
+      unique_id: 187132,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -63416,6 +66760,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187133,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -63437,6 +66782,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187131,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -63460,6 +66806,7 @@ export const sections = {
   ],
   "20034": [
     {
+      unique_id: 187148,
       instructor: {
         name: "James F Giles",
         bio: null,
@@ -63481,6 +66828,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187150,
       instructor: {
         name: "Jose Ramon Mendez",
         bio: null,
@@ -63502,6 +66850,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187149,
       instructor: {
         name: "Sylvia Wang",
         bio: null,
@@ -63525,6 +66874,7 @@ export const sections = {
   ],
   "20035": [
     {
+      unique_id: 187334,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -63541,6 +66891,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187333,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -63557,6 +66908,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187332,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -63573,6 +66925,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187335,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -63591,6 +66944,7 @@ export const sections = {
   ],
   "20036": [
     {
+      unique_id: 187360,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -63607,6 +66961,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187363,
       instructor: {
         name: "William Stephen Smith",
         bio: null,
@@ -63623,6 +66978,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187362,
       instructor: {
         name: "Pamela J Hinchman",
         bio: null,
@@ -63639,6 +66995,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187361,
       instructor: {
         name: "Theresa A Hansen",
         bio: null,
@@ -63657,6 +67014,7 @@ export const sections = {
   ],
   "20045": [
     {
+      unique_id: 189370,
       instructor: {
         name: "Susan L Thistle",
         bio: null,
@@ -63678,6 +67036,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190198,
       instructor: {
         name: "Susan L Thistle",
         bio: null,
@@ -63701,6 +67060,7 @@ export const sections = {
   ],
   "20064": [
     {
+      unique_id: 189712,
       instructor: {
         name: "John Alba Cutler",
         bio: null,
@@ -63724,6 +67084,7 @@ export const sections = {
   ],
   "20071": [
     {
+      unique_id: 191130,
       instructor: {
         name: "Elisa J Gordon",
         bio: null,
@@ -63742,6 +67103,7 @@ export const sections = {
   ],
   "20076": [
     {
+      unique_id: 187718,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63760,6 +67122,7 @@ export const sections = {
   ],
   "20077": [
     {
+      unique_id: 187726,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63778,6 +67141,7 @@ export const sections = {
   ],
   "20078": [
     {
+      unique_id: 187742,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63796,6 +67160,7 @@ export const sections = {
   ],
   "20079": [
     {
+      unique_id: 187684,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63814,6 +67179,7 @@ export const sections = {
   ],
   "20080": [
     {
+      unique_id: 187708,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63832,6 +67198,7 @@ export const sections = {
   ],
   "20081": [
     {
+      unique_id: 187692,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63850,6 +67217,7 @@ export const sections = {
   ],
   "20082": [
     {
+      unique_id: 187700,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63868,6 +67236,7 @@ export const sections = {
   ],
   "20083": [
     {
+      unique_id: 187734,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -63886,6 +67255,7 @@ export const sections = {
   ],
   "20089": [
     {
+      unique_id: 190353,
       instructor: {
         name: "",
         bio: null,
@@ -63904,6 +67274,7 @@ export const sections = {
   ],
   "20092": [
     {
+      unique_id: 189283,
       instructor: {
         name: "Lori A Beaman",
         bio: null,
@@ -63922,6 +67293,7 @@ export const sections = {
   ],
   "20094": [
     {
+      unique_id: 191095,
       instructor: {
         name: "Warren D Arnold",
         bio: null,
@@ -63940,6 +67312,7 @@ export const sections = {
   ],
   "20121": [
     {
+      unique_id: 188554,
       instructor: {
         name: "",
         bio: null,
@@ -63958,6 +67331,7 @@ export const sections = {
   ],
   "20126": [
     {
+      unique_id: 189638,
       instructor: {
         name: "Ann C Gunter",
         bio: null,
@@ -63981,6 +67355,7 @@ export const sections = {
   ],
   "20127": [
     {
+      unique_id: 188787,
       instructor: {
         name: "Ann C Gunter",
         bio: null,
@@ -64004,6 +67379,7 @@ export const sections = {
   ],
   "20128": [
     {
+      unique_id: 189209,
       instructor: {
         name: "Ann C Gunter",
         bio: null,
@@ -64027,6 +67403,7 @@ export const sections = {
   ],
   "20133": [
     {
+      unique_id: 189473,
       instructor: {
         name: "Haydon Leslie Cherry",
         bio: null,
@@ -64043,6 +67420,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189474,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -64065,6 +67443,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189472,
       instructor: {
         name: "Sean Allen Hanretta",
         bio:
@@ -64089,6 +67468,7 @@ export const sections = {
   ],
   "20141": [
     {
+      unique_id: 187999,
       instructor: {
         name: "Diego Klabjan",
         bio: null,
@@ -64107,6 +67487,7 @@ export const sections = {
   ],
   "20156": [
     {
+      unique_id: 189717,
       instructor: {
         name: "Laura B Nielsen",
         bio: null,
@@ -64130,6 +67511,7 @@ export const sections = {
   ],
   "20178": [
     {
+      unique_id: 189675,
       instructor: {
         name: "Eric R Masanet",
         bio: null,
@@ -64153,6 +67535,7 @@ export const sections = {
   ],
   "20244": [
     {
+      unique_id: 189161,
       instructor: {
         name: "Veronica Meryl Berns",
         bio: null,
@@ -64176,6 +67559,7 @@ export const sections = {
   ],
   "20245": [
     {
+      unique_id: 189167,
       instructor: {
         name: "Derek Ward Nelson",
         bio: null,
@@ -64199,6 +67583,7 @@ export const sections = {
   ],
   "20248": [
     {
+      unique_id: 188267,
       instructor: {
         name: "Sumitrajit Dhar",
         bio: null,
@@ -64215,6 +67600,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188268,
       instructor: {
         name: "Nina Kraus",
         bio: null,
@@ -64231,6 +67617,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188269,
       instructor: {
         name: "Charles Larson",
         bio: null,
@@ -64247,6 +67634,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188270,
       instructor: {
         name: "Viorica Marian",
         bio: null,
@@ -64263,6 +67651,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188271,
       instructor: {
         name: "Bonnie Jean Martin",
         bio: null,
@@ -64279,6 +67668,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188272,
       instructor: {
         name: "Pamela Elizabeth Souza",
         bio: null,
@@ -64295,6 +67685,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188273,
       instructor: {
         name: "Cynthia K Thompson",
         bio: null,
@@ -64311,6 +67702,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188281,
       instructor: {
         name: "Megan York Roberts",
         bio: null,
@@ -64327,6 +67719,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188283,
       instructor: {
         name: "Adriana Weisleder",
         bio: null,
@@ -64343,6 +67736,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188274,
       instructor: {
         name: "Beverly Ann Wright",
         bio: null,
@@ -64359,6 +67753,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188279,
       instructor: {
         name: "Elizabeth Spencer Norton",
         bio: null,
@@ -64375,6 +67770,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188280,
       instructor: {
         name: "Angela Christine Roberts",
         bio: null,
@@ -64391,6 +67787,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188282,
       instructor: {
         name: "Jason Tait Sanchez",
         bio: null,
@@ -64407,6 +67804,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188275,
       instructor: {
         name: "Molly C Losh",
         bio: null,
@@ -64423,6 +67821,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188276,
       instructor: {
         name: "Jonathan H Siegel",
         bio: null,
@@ -64439,6 +67838,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188277,
       instructor: {
         name: "Steven G Zecker",
         bio: null,
@@ -64455,6 +67855,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188278,
       instructor: {
         name: "Tina M Grieco-Calub",
         bio: null,
@@ -64473,6 +67874,7 @@ export const sections = {
   ],
   "20249": [
     {
+      unique_id: 189415,
       instructor: {
         name: "Paola Zamperini",
         bio: null,
@@ -64496,6 +67898,7 @@ export const sections = {
   ],
   "20251": [
     {
+      unique_id: 189988,
       instructor: {
         name: "John F Marko",
         bio: null,
@@ -64519,6 +67922,7 @@ export const sections = {
   ],
   "20253": [
     {
+      unique_id: 188696,
       instructor: {
         name: "Rosemary I Braun",
         bio: null,
@@ -64537,6 +67941,7 @@ export const sections = {
   ],
   "20255": [
     {
+      unique_id: 190304,
       instructor: {
         name: "Lucille Kerr",
         bio: null,
@@ -64555,6 +67960,7 @@ export const sections = {
   ],
   "20257": [
     {
+      unique_id: 190303,
       instructor: {
         name: "Nathalie Bouzaglou",
         bio: null,
@@ -64573,6 +67979,7 @@ export const sections = {
   ],
   "20264": [
     {
+      unique_id: 189427,
       instructor: {
         name: "Kathryn Sydney Evans",
         bio: null,
@@ -64591,6 +67998,7 @@ export const sections = {
   ],
   "20277": [
     {
+      unique_id: 187234,
       instructor: {
         name: "David Franklin Douglass",
         bio: null,
@@ -64609,6 +68017,7 @@ export const sections = {
   ],
   "20284": [
     {
+      unique_id: 187001,
       instructor: {
         name: "Gavin Paul Chuck",
         bio: null,
@@ -64627,6 +68036,7 @@ export const sections = {
   ],
   "20285": [
     {
+      unique_id: 187087,
       instructor: {
         name: "",
         bio: null,
@@ -64650,6 +68060,7 @@ export const sections = {
   ],
   "20286": [
     {
+      unique_id: 188530,
       instructor: {
         name: "Clement Kirabo Jackson",
         bio: null,
@@ -64673,6 +68084,7 @@ export const sections = {
   ],
   "20287": [
     {
+      unique_id: 190197,
       instructor: {
         name: "Quincy Thomas Stewart",
         bio: null,
@@ -64696,6 +68108,7 @@ export const sections = {
   ],
   "20288": [
     {
+      unique_id: 190322,
       instructor: {
         name: "Bruce David Spencer",
         bio: null,
@@ -64719,6 +68132,7 @@ export const sections = {
   ],
   "20289": [
     {
+      unique_id: 187975,
       instructor: {
         name: "Wing K Liu",
         bio: null,
@@ -64743,6 +68157,7 @@ export const sections = {
   ],
   "20295": [
     {
+      unique_id: 188104,
       instructor: {
         name: "Gregory A Green",
         bio: null,
@@ -64761,6 +68176,7 @@ export const sections = {
   ],
   "20297": [
     {
+      unique_id: 188108,
       instructor: {
         name: "Francis Xavier Dudley",
         bio: null,
@@ -64779,6 +68195,7 @@ export const sections = {
   ],
   "20300": [
     {
+      unique_id: 188112,
       instructor: {
         name: "N Fredric Crandall",
         bio: null,
@@ -64797,6 +68214,7 @@ export const sections = {
   ],
   "20301": [
     {
+      unique_id: 188111,
       instructor: {
         name: "Pamela S Menaker",
         bio: null,
@@ -64815,6 +68233,7 @@ export const sections = {
   ],
   "20302": [
     {
+      unique_id: 188109,
       instructor: {
         name: "Jenna Luo Massey",
         bio: null,
@@ -64833,6 +68252,7 @@ export const sections = {
   ],
   "20307": [
     {
+      unique_id: 188125,
       instructor: {
         name: "Harry A Englehart",
         bio: null,
@@ -64851,6 +68271,7 @@ export const sections = {
   ],
   "20309": [
     {
+      unique_id: 188122,
       instructor: {
         name: "Christopher B Cahill",
         bio: null,
@@ -64869,6 +68290,7 @@ export const sections = {
   ],
   "20311": [
     {
+      unique_id: 188146,
       instructor: {
         name: "Richard Gordon",
         bio: null,
@@ -64887,6 +68309,7 @@ export const sections = {
   ],
   "20324": [
     {
+      unique_id: 188462,
       instructor: {
         name: "Kelli Nichol Morgan",
         bio: null,
@@ -64903,6 +68326,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188461,
       instructor: {
         name: "John M Haas",
         bio: null,
@@ -64919,6 +68343,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188460,
       instructor: {
         name: "Melissa Louise Foster",
         bio: null,
@@ -64935,6 +68360,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188459,
       instructor: {
         name: "Michael Lawrence Brown",
         bio: null,
@@ -64953,6 +68379,7 @@ export const sections = {
   ],
   "20326": [
     {
+      unique_id: 188490,
       instructor: {
         name: "Melissa Louise Foster",
         bio: null,
@@ -64969,6 +68396,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188491,
       instructor: {
         name: "John M Haas",
         bio: null,
@@ -64985,6 +68413,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188489,
       instructor: {
         name: "Michael Lawrence Brown",
         bio: null,
@@ -65001,6 +68430,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188492,
       instructor: {
         name: "Kelli Nichol Morgan",
         bio: null,
@@ -65019,6 +68449,7 @@ export const sections = {
   ],
   "20330": [
     {
+      unique_id: 188332,
       instructor: {
         name: "Jeffery M Hancock",
         bio: null,
@@ -65037,6 +68468,7 @@ export const sections = {
   ],
   "20333": [
     {
+      unique_id: 191119,
       instructor: {
         name: "Alyssa Faith Dickman",
         bio: null,
@@ -65055,6 +68487,7 @@ export const sections = {
   ],
   "20335": [
     {
+      unique_id: 190989,
       instructor: {
         name: "Rosa Vincenza Ventrella",
         bio: null,
@@ -65073,6 +68506,7 @@ export const sections = {
   ],
   "20353": [
     {
+      unique_id: 191211,
       instructor: {
         name: "Helene S Shapo",
         bio: null,
@@ -65096,6 +68530,7 @@ export const sections = {
   ],
   "20354": [
     {
+      unique_id: 191217,
       instructor: {
         name: "Steven Lubet",
         bio: null,
@@ -65119,6 +68554,7 @@ export const sections = {
   ],
   "20355": [
     {
+      unique_id: 191214,
       instructor: {
         name: "James T Lindgren",
         bio: null,
@@ -65142,6 +68578,7 @@ export const sections = {
   ],
   "20372": [
     {
+      unique_id: 188373,
       instructor: {
         name: "Chaunesti Nichelle Webb",
         bio: null,
@@ -65163,6 +68600,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188374,
       instructor: {
         name: "Enzo Enrique Vasquez Toral",
         bio: null,
@@ -65186,6 +68624,7 @@ export const sections = {
   ],
   "20376": [
     {
+      unique_id: 188677,
       instructor: {
         name: "Ann Shola Orloff",
         bio: null,
@@ -65209,6 +68648,7 @@ export const sections = {
   ],
   "20382": [
     {
+      unique_id: 191061,
       instructor: {
         name: "Perla J Castro",
         bio: null,
@@ -65225,6 +68665,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191060,
       instructor: {
         name: "Lisa-Ann L Barnes",
         bio: null,
@@ -65243,6 +68684,7 @@ export const sections = {
   ],
   "20383": [
     {
+      unique_id: 191063,
       instructor: {
         name: "Balajirao S Ryali",
         bio: null,
@@ -65259,6 +68701,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191062,
       instructor: {
         name: "Lisa-Ann L Barnes",
         bio: null,
@@ -65277,6 +68720,7 @@ export const sections = {
   ],
   "20384": [
     {
+      unique_id: 190546,
       instructor: {
         name: "Russell Franklin Walker",
         bio: null,
@@ -65300,6 +68744,7 @@ export const sections = {
   ],
   "20387": [
     {
+      unique_id: 191194,
       instructor: {
         name: "Meghan M Stack",
         bio: null,
@@ -65323,6 +68768,7 @@ export const sections = {
   ],
   "20388": [
     {
+      unique_id: 188548,
       instructor: {
         name: "Clement Kirabo Jackson",
         bio: null,
@@ -65346,6 +68792,7 @@ export const sections = {
   ],
   "20400": [
     {
+      unique_id: 190620,
       instructor: {
         name: "Cesare R Mainardi",
         bio: null,
@@ -65364,6 +68811,7 @@ export const sections = {
   ],
   "20407": [
     {
+      unique_id: 188001,
       instructor: {
         name: "Russell Franklin Walker",
         bio: null,
@@ -65382,6 +68830,7 @@ export const sections = {
   ],
   "20412": [
     {
+      unique_id: 188004,
       instructor: {
         name: "Michael Stephen Watson",
         bio: null,
@@ -65400,6 +68849,7 @@ export const sections = {
   ],
   "20414": [
     {
+      unique_id: 188008,
       instructor: {
         name: "Noshir Contractor",
         bio: null,
@@ -65416,6 +68866,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188006,
       instructor: {
         name: "Corina Roxana Girju",
         bio: null,
@@ -65432,6 +68883,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188007,
       instructor: {
         name: "",
         bio: null,
@@ -65448,6 +68900,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188009,
       instructor: {
         name: "Diego Klabjan",
         bio: null,
@@ -65466,6 +68919,7 @@ export const sections = {
   ],
   "20417": [
     {
+      unique_id: 188005,
       instructor: {
         name: "Diego Klabjan",
         bio: null,
@@ -65484,6 +68938,7 @@ export const sections = {
   ],
   "20426": [
     {
+      unique_id: 187772,
       instructor: {
         name: "John David Hartman",
         bio: null,
@@ -65507,6 +68962,7 @@ export const sections = {
   ],
   "20427": [
     {
+      unique_id: 188063,
       instructor: {
         name: "Heather Kathleen Klok",
         bio: null,
@@ -65528,6 +68984,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188062,
       instructor: {
         name: "Elizabeth Daley",
         bio: null,
@@ -65551,6 +69008,7 @@ export const sections = {
   ],
   "20458": [
     {
+      unique_id: 190983,
       instructor: {
         name: "Jeannine D Russo",
         bio: null,
@@ -65569,6 +69027,7 @@ export const sections = {
   ],
   "20459": [
     {
+      unique_id: 190984,
       instructor: {
         name: "Ronald J Jastrzebski",
         bio: null,
@@ -65587,6 +69046,7 @@ export const sections = {
   ],
   "20462": [
     {
+      unique_id: 190985,
       instructor: {
         name: "Simona S Citron",
         bio: null,
@@ -65605,6 +69065,7 @@ export const sections = {
   ],
   "20464": [
     {
+      unique_id: 190986,
       instructor: {
         name: "Ronald J Jastrzebski",
         bio: null,
@@ -65623,6 +69084,7 @@ export const sections = {
   ],
   "20468": [
     {
+      unique_id: 191170,
       instructor: {
         name: "David Paul Stowell",
         bio: null,
@@ -65641,6 +69103,7 @@ export const sections = {
   ],
   "20470": [
     {
+      unique_id: 189454,
       instructor: {
         name: "Amy Beth Stanley",
         bio: null,
@@ -65664,6 +69127,7 @@ export const sections = {
   ],
   "20473": [
     {
+      unique_id: 189720,
       instructor: {
         name: "Galya Benarieh Ruffer",
         bio: null,
@@ -65687,6 +69151,7 @@ export const sections = {
   ],
   "20484": [
     {
+      unique_id: 191057,
       instructor: {
         name: "Alyssa Faith Dickman",
         bio: null,
@@ -65705,6 +69170,7 @@ export const sections = {
   ],
   "20485": [
     {
+      unique_id: 191058,
       instructor: {
         name: "Lisa-Ann L Barnes",
         bio: null,
@@ -65723,6 +69189,7 @@ export const sections = {
   ],
   "20493": [
     {
+      unique_id: 188576,
       instructor: {
         name: "Lois C Trautvetter",
         bio: null,
@@ -65746,6 +69213,7 @@ export const sections = {
   ],
   "20519": [
     {
+      unique_id: 189146,
       instructor: {
         name: "",
         bio: null,
@@ -65764,6 +69232,7 @@ export const sections = {
   ],
   "20520": [
     {
+      unique_id: 187635,
       instructor: {
         name: "Robert Findler",
         bio: null,
@@ -65787,6 +69256,7 @@ export const sections = {
   ],
   "20522": [
     {
+      unique_id: 188707,
       instructor: {
         name: "Justin B Starren",
         bio: null,
@@ -65805,6 +69275,7 @@ export const sections = {
   ],
   "20526": [
     {
+      unique_id: 188094,
       instructor: {
         name: "Gerald Joseph Chiaro",
         bio: null,
@@ -65821,6 +69292,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188095,
       instructor: {
         name: "Gerald Joseph Chiaro",
         bio: null,
@@ -65839,6 +69311,7 @@ export const sections = {
   ],
   "20546": [
     {
+      unique_id: 190209,
       instructor: {
         name: "Wendy N Espeland",
         bio: null,
@@ -65862,6 +69335,7 @@ export const sections = {
   ],
   "20548": [
     {
+      unique_id: 190878,
       instructor: {
         name: "Anand Sharma",
         bio: null,
@@ -65880,6 +69354,7 @@ export const sections = {
   ],
   "20551": [
     {
+      unique_id: 188536,
       instructor: {
         name: "Jolie C Matthews",
         bio: null,
@@ -65903,6 +69378,7 @@ export const sections = {
   ],
   "20556": [
     {
+      unique_id: 190520,
       instructor: {
         name: "Pavel Sokolovsky",
         bio: null,
@@ -65926,6 +69402,7 @@ export const sections = {
   ],
   "20558": [
     {
+      unique_id: 190525,
       instructor: {
         name: "Carter Alvin Cast",
         bio: null,
@@ -65944,6 +69421,7 @@ export const sections = {
   ],
   "20566": [
     {
+      unique_id: 188917,
       instructor: {
         name: "John C Mordacq",
         bio: null,
@@ -65962,6 +69440,7 @@ export const sections = {
   ],
   "20568": [
     {
+      unique_id: 186917,
       instructor: {
         name: "Stephen W Alltop",
         bio: null,
@@ -65980,6 +69459,7 @@ export const sections = {
   ],
   "20570": [
     {
+      unique_id: 191200,
       instructor: {
         name: "Annalise Buth",
         bio: null,
@@ -66003,6 +69483,7 @@ export const sections = {
   ],
   "20572": [
     {
+      unique_id: 188740,
       instructor: {
         name: "Maureen B Moran",
         bio: null,
@@ -66021,6 +69502,7 @@ export const sections = {
   ],
   "20576": [
     {
+      unique_id: 187043,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -66039,6 +69521,7 @@ export const sections = {
   ],
   "20577": [
     {
+      unique_id: 187044,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -66057,6 +69540,7 @@ export const sections = {
   ],
   "20578": [
     {
+      unique_id: 187045,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -66075,6 +69559,7 @@ export const sections = {
   ],
   "20580": [
     {
+      unique_id: 187047,
       instructor: {
         name: "Stevi Marks",
         bio: null,
@@ -66093,6 +69578,7 @@ export const sections = {
   ],
   "20582": [
     {
+      unique_id: 188687,
       instructor: {
         name: "Jason J Washburn",
         bio: null,
@@ -66111,6 +69597,7 @@ export const sections = {
   ],
   "20583": [
     {
+      unique_id: 191128,
       instructor: {
         name: "Charlesnika T Evans",
         bio: null,
@@ -66129,6 +69616,7 @@ export const sections = {
   ],
   "20586": [
     {
+      unique_id: 188723,
       instructor: {
         name: "Yingying Xie",
         bio: null,
@@ -66147,6 +69635,7 @@ export const sections = {
   ],
   "20591": [
     {
+      unique_id: 190002,
       instructor: {
         name: "Jacqueline Stevens",
         bio: null,
@@ -66170,6 +69659,7 @@ export const sections = {
   ],
   "20619": [
     {
+      unique_id: 188718,
       instructor: {
         name: "John L Gatta",
         bio: null,
@@ -66188,6 +69678,7 @@ export const sections = {
   ],
   "20629": [
     {
+      unique_id: 190882,
       instructor: {
         name: "Ellen R. Rissman",
         bio: null,
@@ -66206,6 +69697,7 @@ export const sections = {
   ],
   "20641": [
     {
+      unique_id: 191367,
       instructor: {
         name: "Michael Leslie Powell",
         bio: null,
@@ -66224,6 +69716,7 @@ export const sections = {
   ],
   "20647": [
     {
+      unique_id: 190523,
       instructor: {
         name: "Joseph Dwyer",
         bio: null,
@@ -66242,6 +69735,7 @@ export const sections = {
   ],
   "20662": [
     {
+      unique_id: 187771,
       instructor: {
         name: "Sabrina Louis Katz",
         bio: null,
@@ -66258,6 +69752,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187770,
       instructor: {
         name: "Walter B Herbst",
         bio: null,
@@ -66276,6 +69771,7 @@ export const sections = {
   ],
   "20667": [
     {
+      unique_id: 187782,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -66300,6 +69796,7 @@ export const sections = {
   ],
   "20669": [
     {
+      unique_id: 187783,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -66324,6 +69821,7 @@ export const sections = {
   ],
   "20672": [
     {
+      unique_id: 187792,
       instructor: {
         name: "Anthony Michael Garcia, JR",
         bio: null,
@@ -66347,6 +69845,7 @@ export const sections = {
   ],
   "20679": [
     {
+      unique_id: 187819,
       instructor: {
         name: "William P Banks",
         bio: null,
@@ -66368,6 +69867,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187820,
       instructor: {
         name: "Heather Anne Aranyi",
         bio: null,
@@ -66391,6 +69891,7 @@ export const sections = {
   ],
   "20680": [
     {
+      unique_id: 187822,
       instructor: {
         name: "Neal Orlando Sales-Griffin",
         bio: null,
@@ -66409,6 +69910,7 @@ export const sections = {
   ],
   "20683": [
     {
+      unique_id: 187829,
       instructor: {
         name: "Birju Ashvin Shah",
         bio: null,
@@ -66425,6 +69927,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187828,
       instructor: {
         name: "Joseph Moskal",
         bio: null,
@@ -66443,6 +69946,7 @@ export const sections = {
   ],
   "20700": [
     {
+      unique_id: 189797,
       instructor: {
         name: "Julian Thomas Gold",
         bio: null,
@@ -66466,6 +69970,7 @@ export const sections = {
   ],
   "20719": [
     {
+      unique_id: 188705,
       instructor: {
         name: "Neil Jordan",
         bio: null,
@@ -66484,6 +69989,7 @@ export const sections = {
   ],
   "20728": [
     {
+      unique_id: 190512,
       instructor: {
         name: "Brenda Ellington Booth",
         bio: null,
@@ -66507,6 +70013,7 @@ export const sections = {
   ],
   "20729": [
     {
+      unique_id: 190455,
       instructor: {
         name: "James P Schummer Jr",
         bio: null,
@@ -66523,6 +70030,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190456,
       instructor: {
         name: "James P Schummer Jr",
         bio: null,
@@ -66539,6 +70047,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190457,
       instructor: {
         name: "Brett A Saraniti",
         bio: null,
@@ -66555,6 +70064,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190458,
       instructor: {
         name: "Brett A Saraniti",
         bio: null,
@@ -66571,6 +70081,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190459,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -66587,6 +70098,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190460,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -66603,6 +70115,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190461,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -66626,6 +70139,7 @@ export const sections = {
   ],
   "20730": [
     {
+      unique_id: 190471,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -66647,6 +70161,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190463,
       instructor: {
         name: "Daniel Joseph Martin",
         bio: null,
@@ -66663,6 +70178,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190464,
       instructor: {
         name: "Nicola Bianchi",
         bio: null,
@@ -66679,6 +70195,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190465,
       instructor: {
         name: "Nicola Bianchi",
         bio: null,
@@ -66695,6 +70212,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190466,
       instructor: {
         name: "Nicola Bianchi",
         bio: null,
@@ -66711,6 +70229,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190467,
       instructor: {
         name: "Donald J Dale",
         bio: null,
@@ -66727,6 +70246,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190468,
       instructor: {
         name: "Donald J Dale",
         bio: null,
@@ -66743,6 +70263,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190469,
       instructor: {
         name: "Donald J Dale",
         bio: null,
@@ -66759,6 +70280,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190470,
       instructor: {
         name: "Peter L Klibanoff",
         bio: null,
@@ -66780,6 +70302,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190462,
       instructor: {
         name: "Daniel Joseph Martin",
         bio: null,
@@ -66798,6 +70321,7 @@ export const sections = {
   ],
   "20731": [
     {
+      unique_id: 189823,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -66822,6 +70346,7 @@ export const sections = {
   ],
   "20735": [
     {
+      unique_id: 187011,
       instructor: {
         name: "David J Hoek",
         bio: null,
@@ -66840,6 +70365,7 @@ export const sections = {
   ],
   "20737": [
     {
+      unique_id: 187003,
       instructor: {
         name: "Gregory S MacAyeal",
         bio: null,
@@ -66858,6 +70384,7 @@ export const sections = {
   ],
   "20741": [
     {
+      unique_id: 190893,
       instructor: {
         name: "Maryjane Osa",
         bio: null,
@@ -66876,6 +70403,7 @@ export const sections = {
   ],
   "20761": [
     {
+      unique_id: 188604,
       instructor: {
         name: "Cheryl Yvette Judice",
         bio: null,
@@ -66899,6 +70427,7 @@ export const sections = {
   ],
   "20762": [
     {
+      unique_id: 188603,
       instructor: {
         name: "Ryan Neill Mack",
         bio: null,
@@ -66922,6 +70451,7 @@ export const sections = {
   ],
   "20763": [
     {
+      unique_id: 188602,
       instructor: {
         name: "Cheryl Yvette Judice",
         bio: null,
@@ -66945,6 +70475,7 @@ export const sections = {
   ],
   "20781": [
     {
+      unique_id: 191059,
       instructor: {
         name: "Anthony C Mersino",
         bio: null,
@@ -66963,6 +70494,7 @@ export const sections = {
   ],
   "20798": [
     {
+      unique_id: 188471,
       instructor: {
         name: "Laura J. Schellhardt",
         bio: null,
@@ -66981,6 +70513,7 @@ export const sections = {
   ],
   "20799": [
     {
+      unique_id: 188516,
       instructor: {
         name: "Julie Marie Myatt",
         bio: null,
@@ -66997,6 +70530,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188515,
       instructor: {
         name: "Julie Marie Myatt",
         bio: null,
@@ -67015,6 +70549,7 @@ export const sections = {
   ],
   "20800": [
     {
+      unique_id: 190627,
       instructor: {
         name: "Brett A Saraniti",
         bio: null,
@@ -67031,6 +70566,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190628,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -67047,6 +70583,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190630,
       instructor: {
         name: "Brett A Saraniti",
         bio: null,
@@ -67063,6 +70600,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190631,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -67079,6 +70617,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190629,
       instructor: {
         name: "James P Schummer Jr",
         bio: null,
@@ -67095,6 +70634,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190626,
       instructor: {
         name: "James P Schummer Jr",
         bio: null,
@@ -67113,6 +70653,7 @@ export const sections = {
   ],
   "20802": [
     {
+      unique_id: 191260,
       instructor: {
         name: "Tory Robert Lindley",
         bio: null,
@@ -67131,6 +70672,7 @@ export const sections = {
   ],
   "20805": [
     {
+      unique_id: 191261,
       instructor: {
         name: "Tory Robert Lindley",
         bio: null,
@@ -67149,6 +70691,7 @@ export const sections = {
   ],
   "20806": [
     {
+      unique_id: 190779,
       instructor: {
         name: "Emily A Maguire",
         bio: null,
@@ -67165,6 +70708,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190305,
       instructor: {
         name: "Nathalie Bouzaglou",
         bio: null,
@@ -67181,6 +70725,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190306,
       instructor: {
         name: "Maria Alejandra Uslenghi",
         bio: null,
@@ -67197,6 +70742,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190307,
       instructor: {
         name: "Lucille Kerr",
         bio: null,
@@ -67213,6 +70759,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190308,
       instructor: {
         name: "Cesar A Braga-Pinto",
         bio: null,
@@ -67229,6 +70776,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190309,
       instructor: {
         name: "Jorge F Coronado",
         bio: null,
@@ -67245,6 +70793,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190310,
       instructor: {
         name: "Frances R Aparicio",
         bio: null,
@@ -67261,6 +70810,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190311,
       instructor: {
         name: "Dario Fernandez-Morera",
         bio: null,
@@ -67277,6 +70827,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190312,
       instructor: {
         name: "Laura Monica Leon Llerena",
         bio: null,
@@ -67293,6 +70844,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190431,
       instructor: {
         name: "Ryan Christopher Platte",
         bio: null,
@@ -67311,6 +70863,7 @@ export const sections = {
   ],
   "20812": [
     {
+      unique_id: 190332,
       instructor: {
         name: "Mary K Foster",
         bio: null,
@@ -67329,6 +70882,7 @@ export const sections = {
   ],
   "20829": [
     {
+      unique_id: 191054,
       instructor: {
         name: "",
         bio: null,
@@ -67347,6 +70901,7 @@ export const sections = {
   ],
   "20830": [
     {
+      unique_id: 191055,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -67365,6 +70920,7 @@ export const sections = {
   ],
   "20835": [
     {
+      unique_id: 191056,
       instructor: {
         name: "Shana Gabrielle Carroll",
         bio: null,
@@ -67383,6 +70939,7 @@ export const sections = {
   ],
   "20843": [
     {
+      unique_id: 191168,
       instructor: {
         name: "Jide Okechuku Nzelibe",
         bio: null,
@@ -67404,6 +70961,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191169,
       instructor: {
         name: "Max M Schanzenbach",
         bio: null,
@@ -67422,6 +70980,7 @@ export const sections = {
   ],
   "20871": [
     {
+      unique_id: 191234,
       instructor: {
         name: "Nancy Carol Loeb",
         bio: null,
@@ -67440,6 +70999,7 @@ export const sections = {
   ],
   "20879": [
     {
+      unique_id: 191281,
       instructor: {
         name: "Daniel Gandert",
         bio: null,
@@ -67463,6 +71023,7 @@ export const sections = {
   ],
   "20897": [
     {
+      unique_id: 190823,
       instructor: {
         name: "Michael Mazzeo",
         bio: null,
@@ -67481,6 +71042,7 @@ export const sections = {
   ],
   "20911": [
     {
+      unique_id: 188084,
       instructor: {
         name: "Ronald Wayne Deverman",
         bio: null,
@@ -67499,6 +71061,7 @@ export const sections = {
   ],
   "20914": [
     {
+      unique_id: 186855,
       instructor: {
         name: "Albert Michael Pinsonneault",
         bio: null,
@@ -67517,6 +71080,7 @@ export const sections = {
   ],
   "20916": [
     {
+      unique_id: 188076,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -67540,6 +71104,7 @@ export const sections = {
   ],
   "20917": [
     {
+      unique_id: 188071,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -67558,6 +71123,7 @@ export const sections = {
   ],
   "20919": [
     {
+      unique_id: 188000,
       instructor: {
         name: "Ajit C Tamhane",
         bio: null,
@@ -67576,6 +71142,7 @@ export const sections = {
   ],
   "20942": [
     {
+      unique_id: 189824,
       instructor: {
         name: "Shayna Mei Silverstein",
         bio:
@@ -67600,6 +71167,7 @@ export const sections = {
   ],
   "20945": [
     {
+      unique_id: 189825,
       instructor: {
         name: "Emrah Yildiz",
         bio:
@@ -67624,6 +71192,7 @@ export const sections = {
   ],
   "20946": [
     {
+      unique_id: 188890,
       instructor: {
         name: "David Sol Boyk",
         bio: null,
@@ -67647,6 +71216,7 @@ export const sections = {
   ],
   "20966": [
     {
+      unique_id: 191000,
       instructor: {
         name: "Jason Tait Sanchez",
         bio: null,
@@ -67665,6 +71235,7 @@ export const sections = {
   ],
   "20967": [
     {
+      unique_id: 191002,
       instructor: {
         name: "Jordan Sarah Sadler",
         bio: null,
@@ -67683,6 +71254,7 @@ export const sections = {
   ],
   "20972": [
     {
+      unique_id: 190892,
       instructor: {
         name: "William F Abolt",
         bio: null,
@@ -67701,6 +71273,7 @@ export const sections = {
   ],
   "20977": [
     {
+      unique_id: 191237,
       instructor: {
         name: "Laura Gabriela Pedraza-Farina",
         bio: null,
@@ -67724,6 +71297,7 @@ export const sections = {
   ],
   "20991": [
     {
+      unique_id: 189719,
       instructor: {
         name: "Robert L Nelson",
         bio: null,
@@ -67747,6 +71321,7 @@ export const sections = {
   ],
   "20992": [
     {
+      unique_id: 188717,
       instructor: {
         name: "Brian L Hitsman",
         bio: null,
@@ -67765,6 +71340,7 @@ export const sections = {
   ],
   "20993": [
     {
+      unique_id: 188719,
       instructor: {
         name: "Denise Louise Drane",
         bio: null,
@@ -67785,6 +71361,7 @@ export const sections = {
   ],
   "21017": [
     {
+      unique_id: 189430,
       instructor: {
         name: "Paola Zamperini",
         bio: null,
@@ -67808,6 +71385,7 @@ export const sections = {
   ],
   "21035": [
     {
+      unique_id: 190589,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -67824,6 +71402,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190813,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -67840,6 +71419,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190814,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -67856,6 +71436,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190590,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -67874,6 +71455,7 @@ export const sections = {
   ],
   "21040": [
     {
+      unique_id: 189274,
       instructor: {
         name: "Marti Mestieri Ferrer",
         bio: null,
@@ -67892,6 +71474,7 @@ export const sections = {
   ],
   "21041": [
     {
+      unique_id: 188115,
       instructor: {
         name: "John M Greening",
         bio: null,
@@ -67910,6 +71493,7 @@ export const sections = {
   ],
   "21053": [
     {
+      unique_id: 188862,
       instructor: {
         name: "Rebecca A Seligman",
         bio: null,
@@ -67933,6 +71517,7 @@ export const sections = {
   ],
   "21057": [
     {
+      unique_id: 190808,
       instructor: {
         name: "David A Matsa",
         bio: null,
@@ -67949,6 +71534,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190807,
       instructor: {
         name: "David A Matsa",
         bio: null,
@@ -67967,6 +71553,7 @@ export const sections = {
   ],
   "21066": [
     {
+      unique_id: 187584,
       instructor: {
         name: "Kimberly A Gray",
         bio: null,
@@ -67990,6 +71577,7 @@ export const sections = {
   ],
   "21069": [
     {
+      unique_id: 188085,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -68008,6 +71596,7 @@ export const sections = {
   ],
   "21077": [
     {
+      unique_id: 190011,
       instructor: {
         name: "Galya Benarieh Ruffer",
         bio: null,
@@ -68031,6 +71620,7 @@ export const sections = {
   ],
   "21079": [
     {
+      unique_id: 187825,
       instructor: {
         name: "Verinder Kumar Syal",
         bio: null,
@@ -68049,6 +71639,7 @@ export const sections = {
   ],
   "21095": [
     {
+      unique_id: 189826,
       instructor: {
         name: "Katherine Elizabeth Hoffman",
         bio: null,
@@ -68067,6 +71658,7 @@ export const sections = {
   ],
   "21096": [
     {
+      unique_id: 189827,
       instructor: {
         name: "Katherine Elizabeth Hoffman",
         bio: null,
@@ -68085,6 +71677,7 @@ export const sections = {
   ],
   "21097": [
     {
+      unique_id: 189828,
       instructor: {
         name: "Katherine Elizabeth Hoffman",
         bio: null,
@@ -68103,6 +71696,7 @@ export const sections = {
   ],
   "21103": [
     {
+      unique_id: 187102,
       instructor: {
         name: "Danuta Mirka",
         bio: null,
@@ -68121,6 +71715,7 @@ export const sections = {
   ],
   "21109": [
     {
+      unique_id: 188729,
       instructor: {
         name: "Amy R Eisenstein",
         bio: null,
@@ -68139,6 +71734,7 @@ export const sections = {
   ],
   "21111": [
     {
+      unique_id: 189829,
       instructor: {
         name: "Katherine Elizabeth Hoffman",
         bio: null,
@@ -68157,6 +71753,7 @@ export const sections = {
   ],
   "21114": [
     {
+      unique_id: 188070,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -68178,6 +71775,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188069,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -68196,6 +71794,7 @@ export const sections = {
   ],
   "21115": [
     {
+      unique_id: 188072,
       instructor: {
         name: "Melvin Douglas Meyer",
         bio: null,
@@ -68214,6 +71813,7 @@ export const sections = {
   ],
   "21120": [
     {
+      unique_id: 190975,
       instructor: {
         name: "Arda Gucler",
         bio: null,
@@ -68232,6 +71832,7 @@ export const sections = {
   ],
   "21121": [
     {
+      unique_id: 190949,
       instructor: {
         name: "Robert Leo Murphy",
         bio: null,
@@ -68250,6 +71851,7 @@ export const sections = {
   ],
   "21127": [
     {
+      unique_id: 190973,
       instructor: {
         name: "Leah Christina Neubauer",
         bio: null,
@@ -68268,6 +71870,7 @@ export const sections = {
   ],
   "21128": [
     {
+      unique_id: 190974,
       instructor: {
         name: "Leslie Cordes",
         bio: null,
@@ -68286,6 +71889,7 @@ export const sections = {
   ],
   "21131": [
     {
+      unique_id: 189918,
       instructor: {
         name: "Arthur Gerard Schmidt",
         bio:
@@ -68311,6 +71915,7 @@ export const sections = {
   ],
   "21154": [
     {
+      unique_id: 188240,
       instructor: {
         name: "Jeremy P Birnholtz",
         bio: null,
@@ -68334,6 +71939,7 @@ export const sections = {
   ],
   "21162": [
     {
+      unique_id: 188565,
       instructor: {
         name: "Anne Elizabeth Roloff",
         bio: null,
@@ -68357,6 +71963,7 @@ export const sections = {
   ],
   "21163": [
     {
+      unique_id: 188424,
       instructor: {
         name: "",
         bio: null,
@@ -68380,6 +71987,7 @@ export const sections = {
   ],
   "21166": [
     {
+      unique_id: 188425,
       instructor: {
         name: "",
         bio: null,
@@ -68403,6 +72011,7 @@ export const sections = {
   ],
   "21209": [
     {
+      unique_id: 189219,
       instructor: {
         name: "Ilya Kutik",
         bio: null,
@@ -68424,6 +72033,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190349,
       instructor: {
         name: "",
         bio: null,
@@ -68442,6 +72052,7 @@ export const sections = {
   ],
   "21210": [
     {
+      unique_id: 189868,
       instructor: {
         name: "",
         bio: null,
@@ -68465,6 +72076,7 @@ export const sections = {
   ],
   "21213": [
     {
+      unique_id: 189834,
       instructor: {
         name: "Mark Segraves",
         bio: null,
@@ -68483,6 +72095,7 @@ export const sections = {
   ],
   "21218": [
     {
+      unique_id: 191185,
       instructor: {
         name: "Destiny Semone Peery",
         bio: null,
@@ -68506,6 +72119,7 @@ export const sections = {
   ],
   "21219": [
     {
+      unique_id: 188750,
       instructor: {
         name: "Michelle Lynn Paulsen",
         bio: null,
@@ -68524,6 +72138,7 @@ export const sections = {
   ],
   "21221": [
     {
+      unique_id: 188336,
       instructor: {
         name: "William Lewis Siegenfeld",
         bio: null,
@@ -68542,6 +72157,7 @@ export const sections = {
   ],
   "21228": [
     {
+      unique_id: 190567,
       instructor: {
         name: "Neal Joseph Roese",
         bio: null,
@@ -68563,6 +72179,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190566,
       instructor: {
         name: "Neal Joseph Roese",
         bio: null,
@@ -68581,6 +72198,7 @@ export const sections = {
   ],
   "21229": [
     {
+      unique_id: 191151,
       instructor: {
         name: "",
         bio: null,
@@ -68604,6 +72222,7 @@ export const sections = {
   ],
   "21230": [
     {
+      unique_id: 188357,
       instructor: {
         name: "Jacob Arnaud Smith",
         bio: null,
@@ -68627,6 +72246,7 @@ export const sections = {
   ],
   "21235": [
     {
+      unique_id: 191215,
       instructor: {
         name: "Janet Siegel Brown",
         bio: null,
@@ -68650,6 +72270,7 @@ export const sections = {
   ],
   "21237": [
     {
+      unique_id: 191273,
       instructor: {
         name: "Wendy Muchman",
         bio: null,
@@ -68673,6 +72294,7 @@ export const sections = {
   ],
   "21238": [
     {
+      unique_id: 191274,
       instructor: {
         name: "Wendy Muchman",
         bio: null,
@@ -68696,6 +72318,7 @@ export const sections = {
   ],
   "21249": [
     {
+      unique_id: 188343,
       instructor: {
         name: "David Todd Liss",
         bio: null,
@@ -68714,6 +72337,7 @@ export const sections = {
   ],
   "21263": [
     {
+      unique_id: 188344,
       instructor: {
         name: "Kimberley Nightingale Cornwell",
         bio: null,
@@ -68732,6 +72356,7 @@ export const sections = {
   ],
   "21286": [
     {
+      unique_id: 190987,
       instructor: {
         name: "Thomas A Volpe",
         bio: null,
@@ -68750,6 +72375,7 @@ export const sections = {
   ],
   "21288": [
     {
+      unique_id: 191157,
       instructor: {
         name: "John E Freechack",
         bio: null,
@@ -68773,6 +72399,7 @@ export const sections = {
   ],
   "21313": [
     {
+      unique_id: 191165,
       instructor: {
         name: "R A Wentz",
         bio: null,
@@ -68796,6 +72423,7 @@ export const sections = {
   ],
   "21321": [
     {
+      unique_id: 189404,
       instructor: {
         name: "Patricia L Scarampi",
         bio: null,
@@ -68814,6 +72442,7 @@ export const sections = {
   ],
   "21326": [
     {
+      unique_id: 189405,
       instructor: {
         name: "Patricia L Scarampi",
         bio: null,
@@ -68832,6 +72461,7 @@ export const sections = {
   ],
   "21327": [
     {
+      unique_id: 191065,
       instructor: {
         name: "Anthony C Mersino",
         bio: null,
@@ -68850,6 +72480,7 @@ export const sections = {
   ],
   "21333": [
     {
+      unique_id: 187083,
       instructor: {
         name: "",
         bio: null,
@@ -68866,6 +72497,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187084,
       instructor: {
         name: "",
         bio: null,
@@ -68884,6 +72516,7 @@ export const sections = {
   ],
   "21359": [
     {
+      unique_id: 187973,
       instructor: {
         name: "Michael Joseph Beltran",
         bio: null,
@@ -68908,6 +72541,7 @@ export const sections = {
   ],
   "21363": [
     {
+      unique_id: 187656,
       instructor: {
         name: "Brenna Dee Argall",
         bio: null,
@@ -68931,6 +72565,7 @@ export const sections = {
   ],
   "21367": [
     {
+      unique_id: 187855,
       instructor: {
         name: "Deborah Ann Klos",
         bio: null,
@@ -68952,6 +72587,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187856,
       instructor: {
         name: "Pamela Ann Carpentier",
         bio: null,
@@ -68973,6 +72609,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187857,
       instructor: {
         name: "Maria Antonietta Gutierrez",
         bio: null,
@@ -68996,6 +72633,7 @@ export const sections = {
   ],
   "21376": [
     {
+      unique_id: 188065,
       instructor: {
         name: "Deborah Leigh Wood",
         bio: null,
@@ -69017,6 +72655,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188066,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -69038,6 +72677,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188064,
       instructor: {
         name: "",
         bio: null,
@@ -69059,6 +72699,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188067,
       instructor: {
         name: "Raymond John Krizek",
         bio: null,
@@ -69080,6 +72721,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188068,
       instructor: {
         name: "Katharine B Duke",
         bio: null,
@@ -69103,6 +72745,7 @@ export const sections = {
   ],
   "21377": [
     {
+      unique_id: 188079,
       instructor: {
         name: "Michael S Stopka",
         bio: null,
@@ -69121,6 +72764,7 @@ export const sections = {
   ],
   "21379": [
     {
+      unique_id: 191070,
       instructor: {
         name: "Lance F Levenson",
         bio: null,
@@ -69139,6 +72783,7 @@ export const sections = {
   ],
   "21382": [
     {
+      unique_id: 191069,
       instructor: {
         name: "Irene Tsapara",
         bio: null,
@@ -69157,6 +72802,7 @@ export const sections = {
   ],
   "21394": [
     {
+      unique_id: 187858,
       instructor: {
         name: "Ajit C Tamhane",
         bio: null,
@@ -69175,6 +72821,7 @@ export const sections = {
   ],
   "21395": [
     {
+      unique_id: 187859,
       instructor: {
         name: "Ajit C Tamhane",
         bio: null,
@@ -69193,6 +72840,7 @@ export const sections = {
   ],
   "21396": [
     {
+      unique_id: 187583,
       instructor: {
         name: "Randall Q Snurr",
         bio: null,
@@ -69216,6 +72864,7 @@ export const sections = {
   ],
   "21403": [
     {
+      unique_id: 188896,
       instructor: {
         name: "",
         bio: null,
@@ -69234,6 +72883,7 @@ export const sections = {
   ],
   "21418": [
     {
+      unique_id: 188563,
       instructor: {
         name: "",
         bio: null,
@@ -69252,6 +72902,7 @@ export const sections = {
   ],
   "21422": [
     {
+      unique_id: 188339,
       instructor: {
         name: "William Lewis Siegenfeld",
         bio: null,
@@ -69270,6 +72921,7 @@ export const sections = {
   ],
   "21440": [
     {
+      unique_id: 189706,
       instructor: {
         name: "Eun Jung Lee",
         bio: null,
@@ -69293,6 +72945,7 @@ export const sections = {
   ],
   "21441": [
     {
+      unique_id: 190988,
       instructor: {
         name: "Emily Parker Updegraff",
         bio:
@@ -69312,6 +72965,7 @@ export const sections = {
   ],
   "21442": [
     {
+      unique_id: 188335,
       instructor: {
         name: "Vanessa Valecillos",
         bio: null,
@@ -69330,6 +72984,7 @@ export const sections = {
   ],
   "21444": [
     {
+      unique_id: 188206,
       instructor: {
         name: "Abigail M Foerstner",
         bio: null,
@@ -69346,6 +73001,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188204,
       instructor: {
         name: "Karen E Springen",
         bio: null,
@@ -69362,6 +73018,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188207,
       instructor: {
         name: "Mary Ellen Shearer",
         bio: null,
@@ -69383,6 +73040,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188203,
       instructor: {
         name: "",
         bio: null,
@@ -69399,6 +73057,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188205,
       instructor: {
         name: "Elena Carla Eboh",
         bio: null,
@@ -69417,6 +73076,7 @@ export const sections = {
   ],
   "21454": [
     {
+      unique_id: 188756,
       instructor: {
         name: "Beatriz Oralia Reyes",
         bio: null,
@@ -69440,6 +73100,7 @@ export const sections = {
   ],
   "21472": [
     {
+      unique_id: 187842,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -69458,6 +73119,7 @@ export const sections = {
   ],
   "21473": [
     {
+      unique_id: 187843,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -69476,6 +73138,7 @@ export const sections = {
   ],
   "21474": [
     {
+      unique_id: 187844,
       instructor: {
         name: "Joshua N Leonard",
         bio: null,
@@ -69494,6 +73157,7 @@ export const sections = {
   ],
   "21475": [
     {
+      unique_id: 187845,
       instructor: {
         name: "Fatma Seda Memik",
         bio: null,
@@ -69512,6 +73176,7 @@ export const sections = {
   ],
   "21480": [
     {
+      unique_id: 190715,
       instructor: {
         name: "Eric Tod Beeson",
         bio: null,
@@ -69528,6 +73193,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190716,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69544,6 +73210,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190717,
       instructor: {
         name: "Eric Tod Beeson",
         bio: null,
@@ -69560,6 +73227,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190718,
       instructor: {
         name: "Eric Tod Beeson",
         bio: null,
@@ -69576,6 +73244,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190719,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69592,6 +73261,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190720,
       instructor: {
         name: "Eric Tod Beeson",
         bio: null,
@@ -69610,6 +73280,7 @@ export const sections = {
   ],
   "21482": [
     {
+      unique_id: 191071,
       instructor: {
         name: "Jeffrey D Strauss",
         bio: null,
@@ -69628,6 +73299,7 @@ export const sections = {
   ],
   "21483": [
     {
+      unique_id: 190665,
       instructor: {
         name: "Russell Fulmer",
         bio: null,
@@ -69644,6 +73316,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190663,
       instructor: {
         name: "Nona Leigh Wilson",
         bio: null,
@@ -69660,6 +73333,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190662,
       instructor: {
         name: "Russell Fulmer",
         bio: null,
@@ -69676,6 +73350,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190664,
       instructor: {
         name: "Nona Leigh Wilson",
         bio: null,
@@ -69692,6 +73367,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190666,
       instructor: {
         name: "Russell Fulmer",
         bio: null,
@@ -69710,6 +73386,7 @@ export const sections = {
   ],
   "21484": [
     {
+      unique_id: 190679,
       instructor: {
         name: "Nona Leigh Wilson",
         bio: null,
@@ -69726,6 +73403,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190678,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69742,6 +73420,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190680,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69758,6 +73437,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190673,
       instructor: {
         name: "Carolyn Annette Russo",
         bio: null,
@@ -69774,6 +73454,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190674,
       instructor: {
         name: "Nona Leigh Wilson",
         bio: null,
@@ -69790,6 +73471,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190675,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69806,6 +73488,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190676,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69822,6 +73505,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190677,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -69840,6 +73524,7 @@ export const sections = {
   ],
   "21485": [
     {
+      unique_id: 190745,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -69856,6 +73541,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190742,
       instructor: {
         name: "Anita Ann Neuer Colburn",
         bio: null,
@@ -69872,6 +73558,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190746,
       instructor: {
         name: "James R Ruby",
         bio: null,
@@ -69888,6 +73575,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190747,
       instructor: {
         name: "Anita Ann Neuer Colburn",
         bio: null,
@@ -69904,6 +73592,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190748,
       instructor: {
         name: "Anita Ann Neuer Colburn",
         bio: null,
@@ -69920,6 +73609,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190749,
       instructor: {
         name: "Anita Ann Neuer Colburn",
         bio: null,
@@ -69936,6 +73626,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190750,
       instructor: {
         name: "Allen Keith Mobley",
         bio: null,
@@ -69952,6 +73643,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190751,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -69968,6 +73660,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190752,
       instructor: {
         name: "Allen Keith Mobley",
         bio: null,
@@ -69984,6 +73677,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190753,
       instructor: {
         name: "Tonya Charise Davis",
         bio: null,
@@ -70000,6 +73694,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190743,
       instructor: {
         name: "Allen Keith Mobley",
         bio: null,
@@ -70016,6 +73711,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190744,
       instructor: {
         name: "Tonya Charise Davis",
         bio: null,
@@ -70032,6 +73728,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190755,
       instructor: {
         name: "Allen Keith Mobley",
         bio: null,
@@ -70048,6 +73745,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190756,
       instructor: {
         name: "Tonya Charise Davis",
         bio: null,
@@ -70064,6 +73762,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190757,
       instructor: {
         name: "James R Ruby",
         bio: null,
@@ -70080,6 +73779,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190758,
       instructor: {
         name: "Allen Keith Mobley",
         bio: null,
@@ -70096,6 +73796,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190754,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -70114,6 +73815,7 @@ export const sections = {
   ],
   "21489": [
     {
+      unique_id: 191066,
       instructor: {
         name: "Paul Douglas Young",
         bio: null,
@@ -70132,6 +73834,7 @@ export const sections = {
   ],
   "21490": [
     {
+      unique_id: 191067,
       instructor: {
         name: "Andrew Stein",
         bio: null,
@@ -70148,6 +73851,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191068,
       instructor: {
         name: "Paul Douglas Young",
         bio: null,
@@ -70166,6 +73870,7 @@ export const sections = {
   ],
   "21508": [
     {
+      unique_id: 190810,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -70182,6 +73887,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190811,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -70198,6 +73904,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190809,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -70216,6 +73923,7 @@ export const sections = {
   ],
   "21511": [
     {
+      unique_id: 189145,
       instructor: {
         name: "Nicholas Arjuna Dorzweiler",
         bio: null,
@@ -70234,6 +73942,7 @@ export const sections = {
   ],
   "21526": [
     {
+      unique_id: 188060,
       instructor: {
         name: "Joseph J Holtgreive",
         bio: null,
@@ -70257,6 +73966,7 @@ export const sections = {
   ],
   "21531": [
     {
+      unique_id: 189839,
       instructor: {
         name: "Valerie Kilman",
         bio: null,
@@ -70280,6 +73990,7 @@ export const sections = {
   ],
   "21532": [
     {
+      unique_id: 190978,
       instructor: {
         name: "Lauren T Johnson",
         bio: null,
@@ -70298,6 +74009,7 @@ export const sections = {
   ],
   "21533": [
     {
+      unique_id: 190979,
       instructor: {
         name: "Jennifer Lindsy Baker",
         bio:
@@ -70317,6 +74029,7 @@ export const sections = {
   ],
   "21534": [
     {
+      unique_id: 191381,
       instructor: {
         name: "",
         bio: null,
@@ -70335,6 +74048,7 @@ export const sections = {
   ],
   "21536": [
     {
+      unique_id: 191360,
       instructor: {
         name: "Kevin Dean Budelmann",
         bio: null,
@@ -70353,6 +74067,7 @@ export const sections = {
   ],
   "21538": [
     {
+      unique_id: 190980,
       instructor: {
         name: "Michael Brian Dain",
         bio: null,
@@ -70371,6 +74086,7 @@ export const sections = {
   ],
   "21541": [
     {
+      unique_id: 190950,
       instructor: {
         name: "Reba-Anna Clare-Elizabeth Lee",
         bio: null,
@@ -70389,6 +74105,7 @@ export const sections = {
   ],
   "21544": [
     {
+      unique_id: 190981,
       instructor: {
         name: "Randy A Hlavac",
         bio: null,
@@ -70407,6 +74124,7 @@ export const sections = {
   ],
   "21546": [
     {
+      unique_id: 190982,
       instructor: {
         name: "Russell Leo Roberson",
         bio: null,
@@ -70425,6 +74143,7 @@ export const sections = {
   ],
   "21548": [
     {
+      unique_id: 189837,
       instructor: {
         name: "Yevgenia Kozorovitskiy",
         bio: null,
@@ -70448,6 +74167,7 @@ export const sections = {
   ],
   "21550": [
     {
+      unique_id: 190951,
       instructor: {
         name: "Jennifer Lindsy Baker",
         bio:
@@ -70467,6 +74187,7 @@ export const sections = {
   ],
   "21552": [
     {
+      unique_id: 189835,
       instructor: {
         name: "David McLean",
         bio: null,
@@ -70490,6 +74211,7 @@ export const sections = {
   ],
   "21561": [
     {
+      unique_id: 187404,
       instructor: {
         name: "Gail Marie Williams",
         bio: null,
@@ -70511,6 +74233,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187405,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -70532,6 +74255,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187406,
       instructor: {
         name: "John Eugene Pokorny",
         bio: null,
@@ -70555,6 +74279,7 @@ export const sections = {
   ],
   "21566": [
     {
+      unique_id: 187954,
       instructor: {
         name: "Eric Daniel Benson",
         bio: null,
@@ -70578,6 +74303,7 @@ export const sections = {
   ],
   "21568": [
     {
+      unique_id: 187957,
       instructor: {
         name: "Natalie Jeane Champagne",
         bio: null,
@@ -70601,6 +74327,7 @@ export const sections = {
   ],
   "21571": [
     {
+      unique_id: 188557,
       instructor: {
         name: "Bahareh Sahebi",
         bio: null,
@@ -70624,6 +74351,7 @@ export const sections = {
   ],
   "21580": [
     {
+      unique_id: 188849,
       instructor: {
         name: "Matthew H Johnson",
         bio:
@@ -70648,6 +74376,7 @@ export const sections = {
   ],
   "21588": [
     {
+      unique_id: 190136,
       instructor: {
         name: "Michael Maslar",
         bio: null,
@@ -70666,6 +74395,7 @@ export const sections = {
   ],
   "21589": [
     {
+      unique_id: 188533,
       instructor: {
         name: "Diane Whitmore Schanzenbach",
         bio: null,
@@ -70682,6 +74412,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188555,
       instructor: {
         name: "Diane Whitmore Schanzenbach",
         bio: null,
@@ -70700,6 +74431,7 @@ export const sections = {
   ],
   "21592": [
     {
+      unique_id: 188802,
       instructor: {
         name: "Raymond A Sandiego",
         bio: null,
@@ -70723,6 +74455,7 @@ export const sections = {
   ],
   "21595": [
     {
+      unique_id: 189630,
       instructor: {
         name: "Francesca Tataranni",
         bio: null,
@@ -70746,6 +74479,7 @@ export const sections = {
   ],
   "21597": [
     {
+      unique_id: 189629,
       instructor: {
         name: "Susan A Manning",
         bio: null,
@@ -70769,6 +74503,7 @@ export const sections = {
   ],
   "21598": [
     {
+      unique_id: 189631,
       instructor: {
         name: "Brett V. Gadsden",
         bio:
@@ -70786,6 +74521,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 189632,
       instructor: {
         name: "Douglas Kiel",
         bio: null,
@@ -70809,6 +74545,7 @@ export const sections = {
   ],
   "21599": [
     {
+      unique_id: 189634,
       instructor: {
         name: "Christine M Helmer",
         bio: null,
@@ -70830,6 +74567,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189635,
       instructor: {
         name: "Shmuel Nili",
         bio:
@@ -70853,6 +74591,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189633,
       instructor: {
         name: "Steven G Epstein",
         bio: null,
@@ -70876,6 +74615,7 @@ export const sections = {
   ],
   "21600": [
     {
+      unique_id: 189636,
       instructor: {
         name: "Rebecca Carol Johnson",
         bio: null,
@@ -70897,6 +74637,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189637,
       instructor: {
         name: "Shayna Mei Silverstein",
         bio:
@@ -70921,6 +74662,7 @@ export const sections = {
   ],
   "21605": [
     {
+      unique_id: 189997,
       instructor: {
         name: "Jason W Seawright",
         bio: null,
@@ -70944,6 +74686,7 @@ export const sections = {
   ],
   "21607": [
     {
+      unique_id: 189705,
       instructor: {
         name: "Ihnhee L Kim",
         bio: null,
@@ -70967,6 +74710,7 @@ export const sections = {
   ],
   "21608": [
     {
+      unique_id: 189202,
       instructor: {
         name: "Wen-pin Hsieh",
         bio: null,
@@ -70990,6 +74734,7 @@ export const sections = {
   ],
   "21624": [
     {
+      unique_id: 191027,
       instructor: {
         name: "Kelly A Carroll",
         bio: null,
@@ -71008,6 +74753,7 @@ export const sections = {
   ],
   "21626": [
     {
+      unique_id: 188726,
       instructor: {
         name: "Abigail Shubat Baldridge",
         bio: null,
@@ -71026,6 +74772,7 @@ export const sections = {
   ],
   "21627": [
     {
+      unique_id: 191359,
       instructor: {
         name: "Mlondolozi Bradley Zondi",
         bio: null,
@@ -71044,6 +74791,7 @@ export const sections = {
   ],
   "21632": [
     {
+      unique_id: 188377,
       instructor: {
         name: "Joshua Takano Chambers-Letson",
         bio: null,
@@ -71062,6 +74810,7 @@ export const sections = {
   ],
   "21633": [
     {
+      unique_id: 190276,
       instructor: {
         name: "Maria Teresa Villanueva",
         bio: null,
@@ -71083,6 +74832,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190275,
       instructor: {
         name: "",
         bio: null,
@@ -71106,6 +74856,7 @@ export const sections = {
   ],
   "21650": [
     {
+      unique_id: 188358,
       instructor: {
         name: "Rick Gene Morris",
         bio: null,
@@ -71129,6 +74880,7 @@ export const sections = {
   ],
   "21652": [
     {
+      unique_id: 188362,
       instructor: {
         name: "Jonah David Zeiger",
         bio: null,
@@ -71147,6 +74899,7 @@ export const sections = {
   ],
   "21653": [
     {
+      unique_id: 188356,
       instructor: {
         name: "Pablo J Boczkowski",
         bio: null,
@@ -71170,6 +74923,7 @@ export const sections = {
   ],
   "21660": [
     {
+      unique_id: 190706,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71186,6 +74940,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190707,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71202,6 +74957,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190704,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71218,6 +74974,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190705,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71236,6 +74993,7 @@ export const sections = {
   ],
   "21661": [
     {
+      unique_id: 190701,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71252,6 +75010,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190700,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71268,6 +75027,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190702,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71284,6 +75044,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190703,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71302,6 +75063,7 @@ export const sections = {
   ],
   "21662": [
     {
+      unique_id: 190710,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71318,6 +75080,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190711,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71334,6 +75097,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190712,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71350,6 +75114,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190713,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -71368,6 +75133,7 @@ export const sections = {
   ],
   "21663": [
     {
+      unique_id: 190724,
       instructor: {
         name: "Cori Marie Costello",
         bio: null,
@@ -71384,6 +75150,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190722,
       instructor: {
         name: "Martha E Singleton",
         bio: null,
@@ -71400,6 +75167,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190723,
       instructor: {
         name: "Cori Marie Costello",
         bio: null,
@@ -71418,6 +75186,7 @@ export const sections = {
   ],
   "21664": [
     {
+      unique_id: 190671,
       instructor: {
         name: "Carolyn Annette Russo",
         bio: null,
@@ -71436,6 +75205,7 @@ export const sections = {
   ],
   "21665": [
     {
+      unique_id: 190669,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -71452,6 +75222,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190670,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -71470,6 +75241,7 @@ export const sections = {
   ],
   "21667": [
     {
+      unique_id: 190815,
       instructor: {
         name: "Nour Sami Kteily",
         bio: null,
@@ -71486,6 +75258,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190816,
       instructor: {
         name: "Nour Sami Kteily",
         bio: null,
@@ -71502,6 +75275,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190817,
       instructor: {
         name: "Leigh Thompson",
         bio: null,
@@ -71518,6 +75292,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190593,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -71534,6 +75309,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190594,
       instructor: {
         name: "Nicholas Alan Pearce",
         bio: null,
@@ -71552,6 +75328,7 @@ export const sections = {
   ],
   "21670": [
     {
+      unique_id: 188402,
       instructor: {
         name: "Eric Adrian Patrick",
         bio: null,
@@ -71575,6 +75352,7 @@ export const sections = {
   ],
   "21674": [
     {
+      unique_id: 188408,
       instructor: {
         name: "Jeff Clayton Brown",
         bio: null,
@@ -71598,6 +75376,7 @@ export const sections = {
   ],
   "21678": [
     {
+      unique_id: 188399,
       instructor: {
         name: "Spencer W Parsons",
         bio: null,
@@ -71616,6 +75395,7 @@ export const sections = {
   ],
   "21679": [
     {
+      unique_id: 188401,
       instructor: {
         name: "Stephen Daniel Cone",
         bio: null,
@@ -71637,6 +75417,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188400,
       instructor: {
         name: "Spencer W Parsons",
         bio: null,
@@ -71660,6 +75441,7 @@ export const sections = {
   ],
   "21691": [
     {
+      unique_id: 191171,
       instructor: {
         name: "Allan Horwich",
         bio: null,
@@ -71683,6 +75465,7 @@ export const sections = {
   ],
   "21692": [
     {
+      unique_id: 191186,
       instructor: {
         name: "Yana Karnaukhov",
         bio: null,
@@ -71706,6 +75489,7 @@ export const sections = {
   ],
   "21698": [
     {
+      unique_id: 191226,
       instructor: {
         name: "Andrew M M Koppelman",
         bio: null,
@@ -71729,6 +75513,7 @@ export const sections = {
   ],
   "21705": [
     {
+      unique_id: 191032,
       instructor: {
         name: "Peter Paul Kaye",
         bio:
@@ -71748,6 +75533,7 @@ export const sections = {
   ],
   "21706": [
     {
+      unique_id: 191024,
       instructor: {
         name: "Alberto Cusi",
         bio: null,
@@ -71766,6 +75552,7 @@ export const sections = {
   ],
   "21708": [
     {
+      unique_id: 191187,
       instructor: {
         name: "Destiny Semone Peery",
         bio: null,
@@ -71789,6 +75576,7 @@ export const sections = {
   ],
   "21717": [
     {
+      unique_id: 188294,
       instructor: {
         name: "Stacy Lyn Kaplan",
         bio: null,
@@ -71812,6 +75600,7 @@ export const sections = {
   ],
   "21718": [
     {
+      unique_id: 188302,
       instructor: {
         name: "Stacy Lyn Kaplan",
         bio: null,
@@ -71830,6 +75619,7 @@ export const sections = {
   ],
   "21719": [
     {
+      unique_id: 188301,
       instructor: {
         name: "Stacy Lyn Kaplan",
         bio: null,
@@ -71848,6 +75638,7 @@ export const sections = {
   ],
   "21724": [
     {
+      unique_id: 191227,
       instructor: {
         name: "Clifford Zimmerman",
         bio: null,
@@ -71869,6 +75660,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191228,
       instructor: {
         name: "Clifford Zimmerman",
         bio: null,
@@ -71892,6 +75684,7 @@ export const sections = {
   ],
   "21753": [
     {
+      unique_id: 188751,
       instructor: {
         name: "Donna R Leff",
         bio: null,
@@ -71915,6 +75708,7 @@ export const sections = {
   ],
   "21773": [
     {
+      unique_id: 190660,
       instructor: {
         name: "Russell Fulmer",
         bio: null,
@@ -71933,6 +75727,7 @@ export const sections = {
   ],
   "21774": [
     {
+      unique_id: 190738,
       instructor: {
         name: "Tonya Charise Davis",
         bio: null,
@@ -71949,6 +75744,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190739,
       instructor: {
         name: "Martha E Singleton",
         bio: null,
@@ -71965,6 +75761,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190737,
       instructor: {
         name: "Tonya Charise Davis",
         bio: null,
@@ -71983,6 +75780,7 @@ export const sections = {
   ],
   "21775": [
     {
+      unique_id: 190727,
       instructor: {
         name: "Joy Sharon Whitman",
         bio: null,
@@ -72001,6 +75799,7 @@ export const sections = {
   ],
   "21776": [
     {
+      unique_id: 190300,
       instructor: {
         name: "Jeronimo Duarte Riascos",
         bio: null,
@@ -72019,6 +75818,7 @@ export const sections = {
   ],
   "21781": [
     {
+      unique_id: 190417,
       instructor: {
         name: "Matthew Gordon Bent",
         bio: null,
@@ -72037,6 +75837,7 @@ export const sections = {
   ],
   "21784": [
     {
+      unique_id: 190668,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -72053,6 +75854,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190667,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -72071,6 +75873,7 @@ export const sections = {
   ],
   "21789": [
     {
+      unique_id: 186872,
       instructor: {
         name: "Marcia L Bosits",
         bio: null,
@@ -72089,6 +75892,7 @@ export const sections = {
   ],
   "21791": [
     {
+      unique_id: 190316,
       instructor: {
         name: "Arend Matthew Kuyper",
         bio: null,
@@ -72112,6 +75916,7 @@ export const sections = {
   ],
   "21792": [
     {
+      unique_id: 189740,
       instructor: {
         name: "",
         bio: null,
@@ -72130,6 +75935,7 @@ export const sections = {
   ],
   "21793": [
     {
+      unique_id: 189734,
       instructor: {
         name: "",
         bio: null,
@@ -72146,6 +75952,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189736,
       instructor: {
         name: "",
         bio: null,
@@ -72162,6 +75969,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189737,
       instructor: {
         name: "",
         bio: null,
@@ -72178,6 +75986,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189732,
       instructor: {
         name: "",
         bio: null,
@@ -72194,6 +76003,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189738,
       instructor: {
         name: "",
         bio: null,
@@ -72210,6 +76020,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189739,
       instructor: {
         name: "",
         bio: null,
@@ -72226,6 +76037,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189735,
       instructor: {
         name: "",
         bio: null,
@@ -72242,6 +76054,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 189733,
       instructor: {
         name: "Autumn Bryant",
         bio: null,
@@ -72260,6 +76073,7 @@ export const sections = {
   ],
   "21796": [
     {
+      unique_id: 189371,
       instructor: {
         name: "Susan L Thistle",
         bio: null,
@@ -72281,6 +76095,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190214,
       instructor: {
         name: "Susan L Thistle",
         bio: null,
@@ -72304,6 +76119,7 @@ export const sections = {
   ],
   "21800": [
     {
+      unique_id: 188250,
       instructor: {
         name: "James J Schwoch",
         bio: null,
@@ -72327,6 +76143,7 @@ export const sections = {
   ],
   "21813": [
     {
+      unique_id: 190812,
       instructor: {
         name: "Alexander Kan Schneider",
         bio: null,
@@ -72345,6 +76162,7 @@ export const sections = {
   ],
   "21815": [
     {
+      unique_id: 189181,
       instructor: {
         name: "Neil L Kelleher",
         bio: null,
@@ -72368,6 +76186,7 @@ export const sections = {
   ],
   "21826": [
     {
+      unique_id: 188936,
       instructor: {
         name: "Eric Ardon Mosser",
         bio: null,
@@ -72391,6 +76210,7 @@ export const sections = {
   ],
   "21837": [
     {
+      unique_id: 190871,
       instructor: {
         name: "Wei-An Andy Chang",
         bio: null,
@@ -72409,6 +76229,7 @@ export const sections = {
   ],
   "21838": [
     {
+      unique_id: 190873,
       instructor: {
         name: "Melanie Ann Meyer",
         bio: null,
@@ -72427,6 +76248,7 @@ export const sections = {
   ],
   "21839": [
     {
+      unique_id: 190876,
       instructor: {
         name: "Eric Bruce Abbott",
         bio: null,
@@ -72445,6 +76267,7 @@ export const sections = {
   ],
   "21842": [
     {
+      unique_id: 190900,
       instructor: {
         name: "Brice Thomas Clinton",
         bio: null,
@@ -72463,6 +76286,7 @@ export const sections = {
   ],
   "21843": [
     {
+      unique_id: 191219,
       instructor: {
         name: "James Lupo",
         bio: null,
@@ -72481,6 +76305,7 @@ export const sections = {
   ],
   "21850": [
     {
+      unique_id: 191023,
       instructor: {
         name: "Gerald Joseph Chiaro",
         bio: null,
@@ -72499,6 +76324,7 @@ export const sections = {
   ],
   "21865": [
     {
+      unique_id: 190729,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72515,6 +76341,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190731,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72531,6 +76358,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190732,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72547,6 +76375,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190733,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72563,6 +76392,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190734,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72579,6 +76409,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190735,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72595,6 +76426,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190736,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72611,6 +76443,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190730,
       instructor: {
         name: "Michele C Kerulis",
         bio: null,
@@ -72629,6 +76462,7 @@ export const sections = {
   ],
   "21867": [
     {
+      unique_id: 190692,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -72645,6 +76479,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190691,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -72663,6 +76498,7 @@ export const sections = {
   ],
   "21873": [
     {
+      unique_id: 188713,
       instructor: {
         name: "Rosemary I Braun",
         bio: null,
@@ -72681,6 +76517,7 @@ export const sections = {
   ],
   "21874": [
     {
+      unique_id: 188714,
       instructor: {
         name: "Elizabeth Thomas Bartom",
         bio: null,
@@ -72699,6 +76536,7 @@ export const sections = {
   ],
   "21878": [
     {
+      unique_id: 189643,
       instructor: {
         name: "Neil L Kelleher",
         bio: null,
@@ -72722,6 +76560,7 @@ export const sections = {
   ],
   "21892": [
     {
+      unique_id: 188174,
       instructor: {
         name: "Peter D Slevin",
         bio: null,
@@ -72745,6 +76584,7 @@ export const sections = {
   ],
   "21896": [
     {
+      unique_id: 188162,
       instructor: {
         name: "Susan Yvonne Curtis",
         bio: null,
@@ -72763,6 +76603,7 @@ export const sections = {
   ],
   "21903": [
     {
+      unique_id: 187881,
       instructor: {
         name: "Ajit C Tamhane",
         bio: null,
@@ -72786,6 +76627,7 @@ export const sections = {
   ],
   "21908": [
     {
+      unique_id: 187601,
       instructor: {
         name: "Gianluca Cusatis",
         bio: null,
@@ -72809,6 +76651,7 @@ export const sections = {
   ],
   "21909": [
     {
+      unique_id: 187026,
       instructor: {
         name: "Ryan Wayne Dohoney",
         bio:
@@ -72828,6 +76671,7 @@ export const sections = {
   ],
   "21911": [
     {
+      unique_id: 189987,
       instructor: {
         name: "Michael H Schmitt",
         bio: null,
@@ -72852,6 +76696,7 @@ export const sections = {
   ],
   "21912": [
     {
+      unique_id: 187768,
       instructor: {
         name: "Kimberly S Hahn",
         bio: null,
@@ -72868,6 +76713,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187769,
       instructor: {
         name: "William Michael Carlson Jr",
         bio: null,
@@ -72886,6 +76732,7 @@ export const sections = {
   ],
   "21916": [
     {
+      unique_id: 188587,
       instructor: {
         name: "Lynda Rose Hollister",
         bio: null,
@@ -72904,6 +76751,7 @@ export const sections = {
   ],
   "21922": [
     {
+      unique_id: 188241,
       instructor: {
         name: "Kimberly Brook Pusateri",
         bio: null,
@@ -72927,6 +76775,7 @@ export const sections = {
   ],
   "21926": [
     {
+      unique_id: 188347,
       instructor: {
         name: "Randall Edward Iden",
         bio:
@@ -72951,6 +76800,7 @@ export const sections = {
   ],
   "22008": [
     {
+      unique_id: 190874,
       instructor: {
         name: "Christian Thomas Wallis",
         bio: null,
@@ -72969,6 +76819,7 @@ export const sections = {
   ],
   "22009": [
     {
+      unique_id: 190899,
       instructor: {
         name: "David Scott DeVries",
         bio: null,
@@ -72987,6 +76838,7 @@ export const sections = {
   ],
   "22015": [
     {
+      unique_id: 191064,
       instructor: {
         name: "Daniel C Baumgartner",
         bio:
@@ -73006,6 +76858,7 @@ export const sections = {
   ],
   "22016": [
     {
+      unique_id: 189697,
       instructor: {
         name: "Ipek Kocaomer Yosmaoglu",
         bio:
@@ -73030,6 +76883,7 @@ export const sections = {
   ],
   "22017": [
     {
+      unique_id: 189356,
       instructor: {
         name: "Averill A Curdy",
         bio: null,
@@ -73048,6 +76902,7 @@ export const sections = {
   ],
   "22020": [
     {
+      unique_id: 189357,
       instructor: {
         name: "Sheila Patricia Donohue",
         bio: null,
@@ -73071,6 +76926,7 @@ export const sections = {
   ],
   "22023": [
     {
+      unique_id: 189358,
       instructor: {
         name: "John Robert Bresland",
         bio: null,
@@ -73094,6 +76950,7 @@ export const sections = {
   ],
   "22031": [
     {
+      unique_id: 190684,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -73110,6 +76967,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190683,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -73126,6 +76984,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190685,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -73142,6 +77001,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190686,
       instructor: {
         name: "Lee Anne Teufel-Prida",
         bio: null,
@@ -73160,6 +77020,7 @@ export const sections = {
   ],
   "22032": [
     {
+      unique_id: 190687,
       instructor: {
         name: "Eric Tod Beeson",
         bio: null,
@@ -73178,6 +77039,7 @@ export const sections = {
   ],
   "22033": [
     {
+      unique_id: 190696,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -73194,6 +77056,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190693,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -73210,6 +77073,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190695,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -73226,6 +77090,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190697,
       instructor: {
         name: "Kari Marie Mika",
         bio: null,
@@ -73242,6 +77107,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190694,
       instructor: {
         name: "Kari Marie Mika",
         bio: null,
@@ -73260,6 +77126,7 @@ export const sections = {
   ],
   "22038": [
     {
+      unique_id: 189347,
       instructor: {
         name: "Kelly E Wisecup",
         bio: null,
@@ -73283,6 +77150,7 @@ export const sections = {
   ],
   "22039": [
     {
+      unique_id: 189352,
       instructor: {
         name: "William Casey Caldwell",
         bio: null,
@@ -73306,6 +77174,7 @@ export const sections = {
   ],
   "22040": [
     {
+      unique_id: 189319,
       instructor: {
         name: "",
         bio: null,
@@ -73327,6 +77196,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189318,
       instructor: {
         name: "",
         bio: null,
@@ -73345,6 +77215,7 @@ export const sections = {
   ],
   "22049": [
     {
+      unique_id: 190004,
       instructor: {
         name: "Thomas Kenneth Ogorzalek",
         bio:
@@ -73369,6 +77240,7 @@ export const sections = {
   ],
   "22051": [
     {
+      unique_id: 190497,
       instructor: {
         name: "Phillip A Braun",
         bio: null,
@@ -73387,6 +77259,7 @@ export const sections = {
   ],
   "22052": [
     {
+      unique_id: 189412,
       instructor: {
         name: "Christopher Paul Bush",
         bio: null,
@@ -73410,6 +77283,7 @@ export const sections = {
   ],
   "22065": [
     {
+      unique_id: 189413,
       instructor: {
         name: "Christopher Paul Bush",
         bio: null,
@@ -73428,6 +77302,7 @@ export const sections = {
   ],
   "22072": [
     {
+      unique_id: 188745,
       instructor: {
         name: "Francesca Elizabeth Duncan",
         bio: null,
@@ -73446,6 +77321,7 @@ export const sections = {
   ],
   "22074": [
     {
+      unique_id: 188746,
       instructor: {
         name: "Elizabeth Crenshaw Sefton",
         bio: null,
@@ -73464,6 +77340,7 @@ export const sections = {
   ],
   "22085": [
     {
+      unique_id: 189442,
       instructor: {
         name: "David Sol Boyk",
         bio: null,
@@ -73487,6 +77364,7 @@ export const sections = {
   ],
   "22088": [
     {
+      unique_id: 188346,
       instructor: {
         name: "Alexis Re Lauricella",
         bio: null,
@@ -73505,6 +77383,7 @@ export const sections = {
   ],
   "22089": [
     {
+      unique_id: 188348,
       instructor: {
         name: "Michelle Dawn Shumate",
         bio: null,
@@ -73523,6 +77402,7 @@ export const sections = {
   ],
   "22091": [
     {
+      unique_id: 188349,
       instructor: {
         name: "Amy J Hauenstein",
         bio: null,
@@ -73541,6 +77421,7 @@ export const sections = {
   ],
   "22097": [
     {
+      unique_id: 188895,
       instructor: {
         name: "Thomas Martin Gaubatz",
         bio: null,
@@ -73564,6 +77445,7 @@ export const sections = {
   ],
   "22099": [
     {
+      unique_id: 189639,
       instructor: {
         name: "Cynthia Nyree Nazarian",
         bio: null,
@@ -73582,6 +77464,7 @@ export const sections = {
   ],
   "22101": [
     {
+      unique_id: 188559,
       instructor: {
         name: "John Shanahan O'Connor",
         bio: null,
@@ -73605,6 +77488,7 @@ export const sections = {
   ],
   "22103": [
     {
+      unique_id: 190571,
       instructor: {
         name: "Gregory Sloan Carpenter",
         bio: null,
@@ -73626,6 +77510,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190570,
       instructor: {
         name: "Gregory Sloan Carpenter",
         bio: null,
@@ -73649,6 +77534,7 @@ export const sections = {
   ],
   "22104": [
     {
+      unique_id: 188350,
       instructor: {
         name: "Amy J Hauenstein",
         bio: null,
@@ -73667,6 +77553,7 @@ export const sections = {
   ],
   "22107": [
     {
+      unique_id: 188541,
       instructor: {
         name: "Bruce L Sherin",
         bio: null,
@@ -73690,6 +77577,7 @@ export const sections = {
   ],
   "22109": [
     {
+      unique_id: 188543,
       instructor: {
         name: "Nichole Pinkard",
         bio: null,
@@ -73713,6 +77601,7 @@ export const sections = {
   ],
   "22110": [
     {
+      unique_id: 188544,
       instructor: {
         name: "Elizabeth Rose Shulman",
         bio: null,
@@ -73731,6 +77620,7 @@ export const sections = {
   ],
   "22113": [
     {
+      unique_id: 188545,
       instructor: {
         name: "Peter David Meyerhoff",
         bio: null,
@@ -73754,6 +77644,7 @@ export const sections = {
   ],
   "22115": [
     {
+      unique_id: 188542,
       instructor: {
         name: "Jolie C Matthews",
         bio: null,
@@ -73777,6 +77668,7 @@ export const sections = {
   ],
   "22131": [
     {
+      unique_id: 187577,
       instructor: {
         name: "Keith Edward Jaggard Tyo",
         bio: null,
@@ -73800,6 +77692,7 @@ export const sections = {
   ],
   "22132": [
     {
+      unique_id: 187578,
       instructor: {
         name: "Michael Christopher Jewett",
         bio: null,
@@ -73823,6 +77716,7 @@ export const sections = {
   ],
   "22137": [
     {
+      unique_id: 188513,
       instructor: {
         name: "Spencer W Parsons",
         bio: null,
@@ -73844,6 +77738,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188514,
       instructor: {
         name: "Stephen Daniel Cone",
         bio: null,
@@ -73867,6 +77762,7 @@ export const sections = {
   ],
   "22139": [
     {
+      unique_id: 187673,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73885,6 +77781,7 @@ export const sections = {
   ],
   "22140": [
     {
+      unique_id: 187675,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73903,6 +77800,7 @@ export const sections = {
   ],
   "22141": [
     {
+      unique_id: 187677,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73921,6 +77819,7 @@ export const sections = {
   ],
   "22142": [
     {
+      unique_id: 187685,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73939,6 +77838,7 @@ export const sections = {
   ],
   "22143": [
     {
+      unique_id: 187687,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73957,6 +77857,7 @@ export const sections = {
   ],
   "22144": [
     {
+      unique_id: 187689,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73975,6 +77876,7 @@ export const sections = {
   ],
   "22145": [
     {
+      unique_id: 187691,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -73993,6 +77895,7 @@ export const sections = {
   ],
   "22146": [
     {
+      unique_id: 187990,
       instructor: {
         name: "Birju Ashvin Shah",
         bio: null,
@@ -74011,6 +77914,7 @@ export const sections = {
   ],
   "22147": [
     {
+      unique_id: 187693,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74029,6 +77933,7 @@ export const sections = {
   ],
   "22150": [
     {
+      unique_id: 187695,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74047,6 +77952,7 @@ export const sections = {
   ],
   "22151": [
     {
+      unique_id: 187697,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74065,6 +77971,7 @@ export const sections = {
   ],
   "22152": [
     {
+      unique_id: 187699,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74083,6 +77990,7 @@ export const sections = {
   ],
   "22153": [
     {
+      unique_id: 187701,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74101,6 +78009,7 @@ export const sections = {
   ],
   "22154": [
     {
+      unique_id: 187703,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74119,6 +78028,7 @@ export const sections = {
   ],
   "22155": [
     {
+      unique_id: 187705,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74137,6 +78047,7 @@ export const sections = {
   ],
   "22156": [
     {
+      unique_id: 187707,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74155,6 +78066,7 @@ export const sections = {
   ],
   "22157": [
     {
+      unique_id: 187709,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74173,6 +78085,7 @@ export const sections = {
   ],
   "22158": [
     {
+      unique_id: 187711,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74191,6 +78104,7 @@ export const sections = {
   ],
   "22159": [
     {
+      unique_id: 187713,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74209,6 +78123,7 @@ export const sections = {
   ],
   "22160": [
     {
+      unique_id: 187715,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74227,6 +78142,7 @@ export const sections = {
   ],
   "22161": [
     {
+      unique_id: 187719,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74245,6 +78161,7 @@ export const sections = {
   ],
   "22162": [
     {
+      unique_id: 187721,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74263,6 +78180,7 @@ export const sections = {
   ],
   "22163": [
     {
+      unique_id: 187723,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74281,6 +78199,7 @@ export const sections = {
   ],
   "22164": [
     {
+      unique_id: 187725,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74299,6 +78218,7 @@ export const sections = {
   ],
   "22165": [
     {
+      unique_id: 187727,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74317,6 +78237,7 @@ export const sections = {
   ],
   "22166": [
     {
+      unique_id: 187729,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74335,6 +78256,7 @@ export const sections = {
   ],
   "22167": [
     {
+      unique_id: 187731,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74353,6 +78275,7 @@ export const sections = {
   ],
   "22168": [
     {
+      unique_id: 187733,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74371,6 +78294,7 @@ export const sections = {
   ],
   "22169": [
     {
+      unique_id: 187735,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74389,6 +78313,7 @@ export const sections = {
   ],
   "22170": [
     {
+      unique_id: 187737,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74407,6 +78332,7 @@ export const sections = {
   ],
   "22171": [
     {
+      unique_id: 187739,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74425,6 +78351,7 @@ export const sections = {
   ],
   "22172": [
     {
+      unique_id: 187741,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74443,6 +78370,7 @@ export const sections = {
   ],
   "22173": [
     {
+      unique_id: 187743,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74461,6 +78389,7 @@ export const sections = {
   ],
   "22174": [
     {
+      unique_id: 187679,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74479,6 +78408,7 @@ export const sections = {
   ],
   "22175": [
     {
+      unique_id: 187681,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74497,6 +78427,7 @@ export const sections = {
   ],
   "22176": [
     {
+      unique_id: 187683,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74515,6 +78446,7 @@ export const sections = {
   ],
   "22177": [
     {
+      unique_id: 187717,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -74533,6 +78465,7 @@ export const sections = {
   ],
   "22182": [
     {
+      unique_id: 188422,
       instructor: {
         name: "",
         bio: null,
@@ -74551,6 +78484,7 @@ export const sections = {
   ],
   "22183": [
     {
+      unique_id: 188423,
       instructor: {
         name: "",
         bio: null,
@@ -74569,6 +78503,7 @@ export const sections = {
   ],
   "22186": [
     {
+      unique_id: 189140,
       instructor: {
         name: "Paul M Hirsch",
         bio: null,
@@ -74592,6 +78527,7 @@ export const sections = {
   ],
   "22187": [
     {
+      unique_id: 189141,
       instructor: {
         name: "Konstantin Wilhelm Milbradt",
         bio: null,
@@ -74615,6 +78551,7 @@ export const sections = {
   ],
   "22190": [
     {
+      unique_id: 188757,
       instructor: {
         name: "Peter Andrew Locke",
         bio: null,
@@ -74638,6 +78575,7 @@ export const sections = {
   ],
   "22206": [
     {
+      unique_id: 189331,
       instructor: {
         name: "Laura Pigozzi",
         bio: null,
@@ -74659,6 +78597,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189330,
       instructor: {
         name: "Meaghan Morrissa Fritz",
         bio: null,
@@ -74680,6 +78619,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189333,
       instructor: {
         name: "Meaghan Morrissa Fritz",
         bio: null,
@@ -74701,6 +78641,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189332,
       instructor: {
         name: "Laura Pigozzi",
         bio: null,
@@ -74722,6 +78663,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189329,
       instructor: {
         name: "Charles S Yarnoff",
         bio: null,
@@ -74745,6 +78687,7 @@ export const sections = {
   ],
   "22217": [
     {
+      unique_id: 188691,
       instructor: {
         name: "Michael H Schmitt",
         bio: null,
@@ -74769,6 +78712,7 @@ export const sections = {
   ],
   "22219": [
     {
+      unique_id: 190689,
       instructor: {
         name: "Sandra Lee Kakacek",
         bio: null,
@@ -74787,6 +78731,7 @@ export const sections = {
   ],
   "22220": [
     {
+      unique_id: 190740,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -74803,6 +78748,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190741,
       instructor: {
         name: "Nathan Claude David Perron",
         bio: null,
@@ -74821,6 +78767,7 @@ export const sections = {
   ],
   "22221": [
     {
+      unique_id: 190688,
       instructor: {
         name: "Sandra Lee Kakacek",
         bio: null,
@@ -74839,6 +78786,7 @@ export const sections = {
   ],
   "22222": [
     {
+      unique_id: 188170,
       instructor: {
         name: "Mei-Ling Hopgood Reel",
         bio: null,
@@ -74862,6 +78810,7 @@ export const sections = {
   ],
   "22225": [
     {
+      unique_id: 188692,
       instructor: {
         name: "Aggelos K Katsaggelos",
         bio: null,
@@ -74885,6 +78834,7 @@ export const sections = {
   ],
   "22230": [
     {
+      unique_id: 188429,
       instructor: {
         name: "Jacob Arnaud Smith",
         bio: null,
@@ -74906,6 +78856,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190775,
       instructor: {
         name: "Afua A Osseo - Asare",
         bio: null,
@@ -74924,6 +78875,7 @@ export const sections = {
   ],
   "22231": [
     {
+      unique_id: 188430,
       instructor: {
         name: "Calum Michel Walter",
         bio: null,
@@ -74945,6 +78897,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188431,
       instructor: {
         name: "Sarah Emily Geis",
         bio: null,
@@ -74963,6 +78916,7 @@ export const sections = {
   ],
   "22233": [
     {
+      unique_id: 188432,
       instructor: {
         name: "Neil Kanwar Harish Verma",
         bio: null,
@@ -74986,6 +78940,7 @@ export const sections = {
   ],
   "22234": [
     {
+      unique_id: 188433,
       instructor: {
         name: "Stephan Michael Moore",
         bio: null,
@@ -75007,6 +78962,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188434,
       instructor: {
         name: "Stephan Michael Moore",
         bio: null,
@@ -75030,6 +78986,7 @@ export const sections = {
   ],
   "22238": [
     {
+      unique_id: 191076,
       instructor: {
         name: "",
         bio: null,
@@ -75046,6 +79003,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191072,
       instructor: {
         name: "",
         bio: null,
@@ -75062,6 +79020,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191074,
       instructor: {
         name: "",
         bio: null,
@@ -75078,6 +79037,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191078,
       instructor: {
         name: "",
         bio: null,
@@ -75094,6 +79054,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191080,
       instructor: {
         name: "",
         bio: null,
@@ -75110,6 +79071,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191082,
       instructor: {
         name: "",
         bio: null,
@@ -75128,6 +79090,7 @@ export const sections = {
   ],
   "22248": [
     {
+      unique_id: 191314,
       instructor: {
         name: "Cassandra Marie VanDunk",
         bio: null,
@@ -75146,6 +79109,7 @@ export const sections = {
   ],
   "22251": [
     {
+      unique_id: 188360,
       instructor: {
         name: "Laverne A McKinnon",
         bio: null,
@@ -75169,6 +79133,7 @@ export const sections = {
   ],
   "22256": [
     {
+      unique_id: 190999,
       instructor: {
         name: "Megan E Powell",
         bio:
@@ -75188,6 +79153,7 @@ export const sections = {
   ],
   "22263": [
     {
+      unique_id: 188259,
       instructor: {
         name: "Jeanette Alisa Ortiz",
         bio: null,
@@ -75211,6 +79177,7 @@ export const sections = {
   ],
   "22264": [
     {
+      unique_id: 188263,
       instructor: {
         name: "Amy Lynn Mack Sindelar",
         bio: null,
@@ -75234,6 +79201,7 @@ export const sections = {
   ],
   "22265": [
     {
+      unique_id: 191319,
       instructor: {
         name: "Herbert Neil Beller",
         bio: null,
@@ -75257,6 +79225,7 @@ export const sections = {
   ],
   "22271": [
     {
+      unique_id: 190895,
       instructor: {
         name: "Adam Randall Grossman",
         bio: null,
@@ -75275,6 +79244,7 @@ export const sections = {
   ],
   "22273": [
     {
+      unique_id: 191294,
       instructor: {
         name: "James R Ferguson",
         bio: null,
@@ -75298,6 +79268,7 @@ export const sections = {
   ],
   "22274": [
     {
+      unique_id: 191293,
       instructor: {
         name: "Adam Lawrence Hoeflich",
         bio: null,
@@ -75321,6 +79292,7 @@ export const sections = {
   ],
   "22280": [
     {
+      unique_id: 190203,
       instructor: {
         name: "Michael D Rodriguez",
         bio: null,
@@ -75344,6 +79316,7 @@ export const sections = {
   ],
   "22285": [
     {
+      unique_id: 191160,
       instructor: {
         name: "",
         bio: null,
@@ -75362,6 +79335,7 @@ export const sections = {
   ],
   "22286": [
     {
+      unique_id: 191039,
       instructor: {
         name: "Katherine E Schultz",
         bio: null,
@@ -75380,6 +79354,7 @@ export const sections = {
   ],
   "22287": [
     {
+      unique_id: 190990,
       instructor: {
         name: "Brian T Shea",
         bio:
@@ -75399,6 +79374,7 @@ export const sections = {
   ],
   "22294": [
     {
+      unique_id: 191051,
       instructor: {
         name: "Scott Brandon Levy",
         bio: null,
@@ -75417,6 +79393,7 @@ export const sections = {
   ],
   "22296": [
     {
+      unique_id: 186828,
       instructor: {
         name: "Adam Michael North",
         bio: null,
@@ -75440,6 +79417,7 @@ export const sections = {
   ],
   "22299": [
     {
+      unique_id: 187785,
       instructor: {
         name: "Bruce E Ankenman",
         bio: null,
@@ -75458,6 +79436,7 @@ export const sections = {
   ],
   "22302": [
     {
+      unique_id: 191073,
       instructor: {
         name: "",
         bio: null,
@@ -75474,6 +79453,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191077,
       instructor: {
         name: "",
         bio: null,
@@ -75490,6 +79470,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191075,
       instructor: {
         name: "",
         bio: null,
@@ -75506,6 +79487,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191079,
       instructor: {
         name: "",
         bio: null,
@@ -75522,6 +79504,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191081,
       instructor: {
         name: "",
         bio: null,
@@ -75538,6 +79521,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191083,
       instructor: {
         name: "",
         bio: null,
@@ -75556,6 +79540,7 @@ export const sections = {
   ],
   "22305": [
     {
+      unique_id: 188078,
       instructor: {
         name: "Richard Michael Seiler",
         bio: null,
@@ -75572,6 +79557,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188077,
       instructor: {
         name: "Richard Michael Seiler",
         bio: null,
@@ -75590,6 +79576,7 @@ export const sections = {
   ],
   "22306": [
     {
+      unique_id: 190536,
       instructor: {
         name: "Michael D Austen-Smith",
         bio: null,
@@ -75611,6 +79598,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190537,
       instructor: {
         name: "Michael D Austen-Smith",
         bio: null,
@@ -75634,6 +79622,7 @@ export const sections = {
   ],
   "22317": [
     {
+      unique_id: 187826,
       instructor: {
         name: "Michael A Marasco",
         bio: null,
@@ -75652,6 +79641,7 @@ export const sections = {
   ],
   "22318": [
     {
+      unique_id: 187827,
       instructor: {
         name: "Mark W Werwath",
         bio: null,
@@ -75670,6 +79660,7 @@ export const sections = {
   ],
   "22320": [
     {
+      unique_id: 190698,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -75686,6 +79677,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190699,
       instructor: {
         name: "Dawn Marie Wirick",
         bio: null,
@@ -75704,6 +79696,7 @@ export const sections = {
   ],
   "22323": [
     {
+      unique_id: 188221,
       instructor: {
         name: "",
         bio: null,
@@ -75722,6 +79715,7 @@ export const sections = {
   ],
   "22328": [
     {
+      unique_id: 187976,
       instructor: {
         name: "Seth H Lichter",
         bio: null,
@@ -75746,6 +79740,7 @@ export const sections = {
   ],
   "22339": [
     {
+      unique_id: 187958,
       instructor: {
         name: "Gail Ann Berger",
         bio: null,
@@ -75764,6 +79759,7 @@ export const sections = {
   ],
   "22341": [
     {
+      unique_id: 188002,
       instructor: {
         name: "Nikolaos Hardavellas",
         bio: null,
@@ -75782,6 +79778,7 @@ export const sections = {
   ],
   "22342": [
     {
+      unique_id: 188003,
       instructor: {
         name: "Anan Yousef Yaagoub",
         bio: null,
@@ -75800,6 +79797,7 @@ export const sections = {
   ],
   "22343": [
     {
+      unique_id: 189695,
       instructor: {
         name: "Thomas Martin Gaubatz",
         bio: null,
@@ -75823,6 +79821,7 @@ export const sections = {
   ],
   "22350": [
     {
+      unique_id: 188352,
       instructor: {
         name: "Anne Marie Adams",
         bio: null,
@@ -75841,6 +79840,7 @@ export const sections = {
   ],
   "22359": [
     {
+      unique_id: 191345,
       instructor: {
         name: "Yana Karnaukhov",
         bio: null,
@@ -75864,6 +79864,7 @@ export const sections = {
   ],
   "22366": [
     {
+      unique_id: 187779,
       instructor: {
         name: "Pamela A. Forgianni Daniels",
         bio: null,
@@ -75887,6 +79888,7 @@ export const sections = {
   ],
   "22369": [
     {
+      unique_id: 188327,
       instructor: {
         name: "Joseph P Carr",
         bio: null,
@@ -75905,6 +79907,7 @@ export const sections = {
   ],
   "22372": [
     {
+      unique_id: 188328,
       instructor: {
         name: "Stacy Lyn Kaplan",
         bio: null,
@@ -75923,6 +79926,7 @@ export const sections = {
   ],
   "22378": [
     {
+      unique_id: 188329,
       instructor: {
         name: "Megan York Roberts",
         bio: null,
@@ -75941,6 +79945,7 @@ export const sections = {
   ],
   "22382": [
     {
+      unique_id: 187316,
       instructor: {
         name: "Alan T Darling",
         bio: null,
@@ -75957,6 +79962,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187317,
       instructor: {
         name: "Laurann Gilley",
         bio: null,
@@ -75973,6 +79979,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187315,
       instructor: {
         name: "Richard L Boldrey",
         bio: null,
@@ -75991,6 +79998,7 @@ export const sections = {
   ],
   "22383": [
     {
+      unique_id: 186994,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -76009,6 +80017,7 @@ export const sections = {
   ],
   "22388": [
     {
+      unique_id: 190977,
       instructor: {
         name: "Sudesh Sivarasu",
         bio: null,
@@ -76027,6 +80036,7 @@ export const sections = {
   ],
   "22399": [
     {
+      unique_id: 188355,
       instructor: {
         name: "Leslie Ann DeChurch",
         bio: null,
@@ -76050,6 +80060,7 @@ export const sections = {
   ],
   "22401": [
     {
+      unique_id: 189262,
       instructor: {
         name: "Mark P Witte",
         bio:
@@ -76074,6 +80085,7 @@ export const sections = {
   ],
   "22411": [
     {
+      unique_id: 188172,
       instructor: {
         name: "Karen E Springen",
         bio: null,
@@ -76092,6 +80104,7 @@ export const sections = {
   ],
   "22426": [
     {
+      unique_id: 188848,
       instructor: {
         name: "Erin Beth Waxenbaum Dennison",
         bio:
@@ -76116,6 +80129,7 @@ export const sections = {
   ],
   "22430": [
     {
+      unique_id: 190340,
       instructor: {
         name: "Bradley Jay Hamm",
         bio: null,
@@ -76134,6 +80148,7 @@ export const sections = {
   ],
   "22431": [
     {
+      unique_id: 190517,
       instructor: {
         name: "Suzanne E Muchin",
         bio: null,
@@ -76150,6 +80165,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190518,
       instructor: {
         name: "Suzanne E Muchin",
         bio: null,
@@ -76173,6 +80189,7 @@ export const sections = {
   ],
   "22432": [
     {
+      unique_id: 190524,
       instructor: {
         name: "Craig D Wortmann",
         bio: null,
@@ -76191,6 +80208,7 @@ export const sections = {
   ],
   "22437": [
     {
+      unique_id: 188601,
       instructor: {
         name: "Ryan Neill Mack",
         bio: null,
@@ -76214,6 +80232,7 @@ export const sections = {
   ],
   "22441": [
     {
+      unique_id: 188666,
       instructor: {
         name: "John Shanahan O'Connor",
         bio: null,
@@ -76237,6 +80256,7 @@ export const sections = {
   ],
   "22444": [
     {
+      unique_id: 190872,
       instructor: {
         name: "Raymond Robinson",
         bio: null,
@@ -76255,6 +80275,7 @@ export const sections = {
   ],
   "22450": [
     {
+      unique_id: 190976,
       instructor: {
         name: "Kara Marie Palamountain",
         bio: null,
@@ -76273,6 +80294,7 @@ export const sections = {
   ],
   "22453": [
     {
+      unique_id: 191022,
       instructor: {
         name: "Bryan Nathanael Bennett",
         bio: null,
@@ -76291,6 +80313,7 @@ export const sections = {
   ],
   "22455": [
     {
+      unique_id: 191025,
       instructor: {
         name: "",
         bio: null,
@@ -76309,6 +80332,7 @@ export const sections = {
   ],
   "22457": [
     {
+      unique_id: 190901,
       instructor: {
         name: "Christopher J Russo",
         bio: null,
@@ -76327,6 +80351,7 @@ export const sections = {
   ],
   "22460": [
     {
+      unique_id: 189155,
       instructor: {
         name: "Frederick J Northrup",
         bio: null,
@@ -76348,6 +80373,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189154,
       instructor: {
         name: "Frederick J Northrup",
         bio: null,
@@ -76371,6 +80397,7 @@ export const sections = {
   ],
   "22465": [
     {
+      unique_id: 189157,
       instructor: {
         name: "Emily Allyn Weiss",
         bio: null,
@@ -76392,6 +80419,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189156,
       instructor: {
         name: "Emily Allyn Weiss",
         bio: null,
@@ -76415,6 +80443,7 @@ export const sections = {
   ],
   "22467": [
     {
+      unique_id: 189158,
       instructor: {
         name: "Stephanie Nicole Knezz",
         bio: null,
@@ -76436,6 +80465,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189159,
       instructor: {
         name: "Stephanie Nicole Knezz",
         bio: null,
@@ -76459,6 +80489,7 @@ export const sections = {
   ],
   "22478": [
     {
+      unique_id: 190516,
       instructor: {
         name: "Bernard Banks",
         bio: null,
@@ -76480,6 +80511,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190515,
       instructor: {
         name: "Bernard Banks",
         bio: null,
@@ -76498,6 +80530,7 @@ export const sections = {
   ],
   "22481": [
     {
+      unique_id: 188742,
       instructor: {
         name: "Pamela Monahan",
         bio: null,
@@ -76516,6 +80549,7 @@ export const sections = {
   ],
   "22482": [
     {
+      unique_id: 188743,
       instructor: {
         name: "Pamela Monahan",
         bio: null,
@@ -76534,6 +80568,7 @@ export const sections = {
   ],
   "22483": [
     {
+      unique_id: 188744,
       instructor: {
         name: "Elizabeth Crenshaw Sefton",
         bio: null,
@@ -76552,6 +80587,7 @@ export const sections = {
   ],
   "22493": [
     {
+      unique_id: 189949,
       instructor: {
         name: "Jens Koch",
         bio: null,
@@ -76576,6 +80612,7 @@ export const sections = {
   ],
   "22497": [
     {
+      unique_id: 189698,
       instructor: {
         name: "Marcus G Moseley",
         bio: null,
@@ -76599,6 +80636,7 @@ export const sections = {
   ],
   "22502": [
     {
+      unique_id: 189207,
       instructor: {
         name: "Jonah Flanagan Radding",
         bio: null,
@@ -76622,6 +80660,7 @@ export const sections = {
   ],
   "22506": [
     {
+      unique_id: 187564,
       instructor: {
         name: "Eric Perreault",
         bio: null,
@@ -76645,6 +80684,7 @@ export const sections = {
   ],
   "22509": [
     {
+      unique_id: 187566,
       instructor: {
         name: "Patrick Franklin Kiser",
         bio: null,
@@ -76663,6 +80703,7 @@ export const sections = {
   ],
   "22510": [
     {
+      unique_id: 187586,
       instructor: {
         name: "Pablo Luis Durango-Cohen",
         bio: null,
@@ -76686,6 +80727,7 @@ export const sections = {
   ],
   "22512": [
     {
+      unique_id: 187609,
       instructor: {
         name: "Amanda Irini Blomberg Stathopoulos",
         bio: null,
@@ -76702,6 +80744,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187611,
       instructor: {
         name: "Pablo Luis Durango-Cohen",
         bio: null,
@@ -76718,6 +80761,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187612,
       instructor: {
         name: "Hani S Mahmassani",
         bio: null,
@@ -76735,6 +80779,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187613,
       instructor: {
         name: "Joseph L Schofer",
         bio: null,
@@ -76751,6 +80796,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187614,
       instructor: {
         name: "Ying Chen",
         bio: null,
@@ -76767,6 +80813,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187610,
       instructor: {
         name: "Yu Nie",
         bio: null,
@@ -76785,6 +80832,7 @@ export const sections = {
   ],
   "22519": [
     {
+      unique_id: 190059,
       instructor: {
         name: "Sara Cantonia Broaders",
         bio:
@@ -76809,6 +80857,7 @@ export const sections = {
   ],
   "22520": [
     {
+      unique_id: 190514,
       instructor: {
         name: "Shana Gabrielle Carroll",
         bio: null,
@@ -76827,6 +80876,7 @@ export const sections = {
   ],
   "22523": [
     {
+      unique_id: 187636,
       instructor: {
         name: "Haoqi Zhang",
         bio: null,
@@ -76845,6 +80895,7 @@ export const sections = {
   ],
   "22525": [
     {
+      unique_id: 187640,
       instructor: {
         name: "Oliver Strides Cossairt",
         bio: null,
@@ -76868,6 +80919,7 @@ export const sections = {
   ],
   "22527": [
     {
+      unique_id: 187646,
       instructor: {
         name: "John E Tumblin",
         bio: null,
@@ -76892,6 +80944,7 @@ export const sections = {
   ],
   "22536": [
     {
+      unique_id: 187650,
       instructor: {
         name: "Michael Rubenstein",
         bio: null,
@@ -76913,6 +80966,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187652,
       instructor: {
         name: "Jennie M Rogers",
         bio: null,
@@ -76934,6 +80988,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187651,
       instructor: {
         name: "Jessica Ruth Hullman",
         bio: null,
@@ -76955,6 +81010,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187649,
       instructor: {
         name: "Stephen Patrick Tarzia",
         bio: null,
@@ -76978,6 +81034,7 @@ export const sections = {
   ],
   "22537": [
     {
+      unique_id: 187658,
       instructor: {
         name: "Jessica Ruth Hullman",
         bio: null,
@@ -76999,6 +81056,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187661,
       instructor: {
         name: "Xiao Wang",
         bio: null,
@@ -77020,6 +81078,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187657,
       instructor: {
         name: "Michael Rubenstein",
         bio: null,
@@ -77041,6 +81100,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191120,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -77062,6 +81122,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191335,
       instructor: {
         name: "Fabian E Bustamante",
         bio: null,
@@ -77078,6 +81139,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191334,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -77099,6 +81161,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 191265,
       instructor: {
         name: "Fabian E Bustamante",
         bio: null,
@@ -77115,6 +81178,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187660,
       instructor: {
         name: "Xue Chen",
         bio: null,
@@ -77136,6 +81200,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187659,
       instructor: {
         name: "Jennie M Rogers",
         bio: null,
@@ -77157,6 +81222,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187662,
       instructor: {
         name: "Aravindan Vijayaraghavan",
         bio: null,
@@ -77180,6 +81246,7 @@ export const sections = {
   ],
   "22538": [
     {
+      unique_id: 187664,
       instructor: {
         name: "Haoqi Zhang",
         bio: null,
@@ -77196,6 +81263,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 187665,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -77217,6 +81285,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187663,
       instructor: {
         name: "Simone Campanoni",
         bio: null,
@@ -77238,6 +81307,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190359,
       instructor: {
         name: "Bryan A. Pardo",
         bio: null,
@@ -77259,6 +81329,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 187666,
       instructor: {
         name: "Marcelo Aaron Bonilla Worsley",
         bio: null,
@@ -77275,6 +81346,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190423,
       instructor: {
         name: "Sarah Jane Van Wart",
         bio: null,
@@ -77298,6 +81370,7 @@ export const sections = {
   ],
   "22539": [
     {
+      unique_id: 187950,
       instructor: {
         name: "John A Rogers",
         bio: null,
@@ -77314,6 +81387,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191386,
       instructor: {
         name: "Scott A Barnett",
         bio: null,
@@ -77332,6 +81406,7 @@ export const sections = {
   ],
   "22541": [
     {
+      unique_id: 190573,
       instructor: {
         name: "Thomas F O'Toole",
         bio: null,
@@ -77353,6 +81428,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190572,
       instructor: {
         name: "Thomas F O'Toole",
         bio: null,
@@ -77371,6 +81447,7 @@ export const sections = {
   ],
   "22542": [
     {
+      unique_id: 188546,
       instructor: {
         name: "Marcelo Aaron Bonilla Worsley",
         bio: null,
@@ -77389,6 +81466,7 @@ export const sections = {
   ],
   "22544": [
     {
+      unique_id: 191362,
       instructor: {
         name: "David Stuart Dranove",
         bio: null,
@@ -77407,6 +81485,7 @@ export const sections = {
   ],
   "22552": [
     {
+      unique_id: 187088,
       instructor: {
         name: "Christopher A Mercer",
         bio:
@@ -77426,6 +81505,7 @@ export const sections = {
   ],
   "22556": [
     {
+      unique_id: 189711,
       instructor: {
         name: "Myrna Garcia",
         bio:
@@ -77450,6 +81530,7 @@ export const sections = {
   ],
   "22558": [
     {
+      unique_id: 188010,
       instructor: {
         name: "Luis A N Amaral",
         bio: null,
@@ -77473,6 +81554,7 @@ export const sections = {
   ],
   "22559": [
     {
+      unique_id: 190434,
       instructor: {
         name: "Luis A N Amaral",
         bio: null,
@@ -77491,6 +81573,7 @@ export const sections = {
   ],
   "22562": [
     {
+      unique_id: 188359,
       instructor: {
         name: "Emoke-Agnes Horvat",
         bio: null,
@@ -77514,6 +81597,7 @@ export const sections = {
   ],
   "22566": [
     {
+      unique_id: 188061,
       instructor: {
         name: "Joseph J Holtgreive",
         bio: null,
@@ -77532,6 +81616,7 @@ export const sections = {
   ],
   "22570": [
     {
+      unique_id: 187945,
       instructor: {
         name: "James M Rondinelli",
         bio: null,
@@ -77555,6 +81640,7 @@ export const sections = {
   ],
   "22571": [
     {
+      unique_id: 189822,
       instructor: {
         name: "Oya Topcuoglu",
         bio: null,
@@ -77578,6 +81664,7 @@ export const sections = {
   ],
   "22575": [
     {
+      unique_id: 190777,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -77599,6 +81686,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 190050,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -77622,6 +81710,7 @@ export const sections = {
   ],
   "22579": [
     {
+      unique_id: 189353,
       instructor: {
         name: "Ean Christian High",
         bio: null,
@@ -77643,6 +81732,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189354,
       instructor: {
         name: "Harrison Hall King",
         bio: null,
@@ -77666,6 +81756,7 @@ export const sections = {
   ],
   "22587": [
     {
+      unique_id: 189984,
       instructor: {
         name: "John B Ketterson",
         bio: null,
@@ -77690,6 +81781,7 @@ export const sections = {
   ],
   "22588": [
     {
+      unique_id: 190132,
       instructor: {
         name: "Jennifer Lee Tackett",
         bio: null,
@@ -77713,6 +81805,7 @@ export const sections = {
   ],
   "22598": [
     {
+      unique_id: 190992,
       instructor: {
         name: "Derek Ward Nelson",
         bio: null,
@@ -77731,6 +81824,7 @@ export const sections = {
   ],
   "22613": [
     {
+      unique_id: 188706,
       instructor: {
         name: "Zeeshan A Butt",
         bio: null,
@@ -77749,6 +81843,7 @@ export const sections = {
   ],
   "22614": [
     {
+      unique_id: 188737,
       instructor: {
         name: "Naomi Sugar",
         bio: null,
@@ -77767,6 +81862,7 @@ export const sections = {
   ],
   "22623": [
     {
+      unique_id: 191016,
       instructor: {
         name: "William Forest Fitzsimons",
         bio: null,
@@ -77785,6 +81881,7 @@ export const sections = {
   ],
   "22625": [
     {
+      unique_id: 188732,
       instructor: {
         name: "Naomi Sugar",
         bio: null,
@@ -77803,6 +81900,7 @@ export const sections = {
   ],
   "22629": [
     {
+      unique_id: 191140,
       instructor: {
         name: "",
         bio: null,
@@ -77819,6 +81917,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 191141,
       instructor: {
         name: "",
         bio: null,
@@ -77837,6 +81936,7 @@ export const sections = {
   ],
   "22631": [
     {
+      unique_id: 191242,
       instructor: {
         name: "William Drew Henderson",
         bio: null,
@@ -77853,6 +81953,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191241,
       instructor: {
         name: "William Drew Henderson",
         bio: null,
@@ -77876,6 +81977,7 @@ export const sections = {
   ],
   "22632": [
     {
+      unique_id: 191218,
       instructor: {
         name: "Shari Diamond",
         bio: null,
@@ -77899,6 +82001,7 @@ export const sections = {
   ],
   "22633": [
     {
+      unique_id: 191172,
       instructor: {
         name: "Ira Raphaelson",
         bio: null,
@@ -77922,6 +82025,7 @@ export const sections = {
   ],
   "22635": [
     {
+      unique_id: 191247,
       instructor: {
         name: "Leigh B Bienen",
         bio: null,
@@ -77945,6 +82049,7 @@ export const sections = {
   ],
   "22637": [
     {
+      unique_id: 191143,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -77961,6 +82066,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191142,
       instructor: {
         name: "Alireza Tahbaz-Salehi",
         bio: null,
@@ -77979,6 +82085,7 @@ export const sections = {
   ],
   "22648": [
     {
+      unique_id: 191144,
       instructor: {
         name: "Holly Jane Raider",
         bio: null,
@@ -77997,6 +82104,7 @@ export const sections = {
   ],
   "22653": [
     {
+      unique_id: 191307,
       instructor: {
         name: "Brian Samuel Citro",
         bio: null,
@@ -78020,6 +82128,7 @@ export const sections = {
   ],
   "22675": [
     {
+      unique_id: 188135,
       instructor: {
         name: "",
         bio: null,
@@ -78036,6 +82145,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188133,
       instructor: {
         name: "Jenna Luo Massey",
         bio: null,
@@ -78052,6 +82162,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188132,
       instructor: {
         name: "Jenna Luo Massey",
         bio: null,
@@ -78068,6 +82179,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188134,
       instructor: {
         name: "Jenna Luo Massey",
         bio: null,
@@ -78086,6 +82198,7 @@ export const sections = {
   ],
   "22687": [
     {
+      unique_id: 187981,
       instructor: {
         name: "Brenna Dee Argall",
         bio: null,
@@ -78109,6 +82222,7 @@ export const sections = {
   ],
   "22710": [
     {
+      unique_id: 187880,
       instructor: {
         name: "Jorge Nocedal",
         bio: null,
@@ -78132,6 +82246,7 @@ export const sections = {
   ],
   "22731": [
     {
+      unique_id: 188083,
       instructor: {
         name: "Christian R Burger",
         bio: null,
@@ -78150,6 +82265,7 @@ export const sections = {
   ],
   "22743": [
     {
+      unique_id: 188860,
       instructor: {
         name: "Thomas McDade",
         bio: null,
@@ -78173,6 +82289,7 @@ export const sections = {
   ],
   "22746": [
     {
+      unique_id: 187823,
       instructor: {
         name: "Curt Michael Mastio",
         bio: null,
@@ -78196,6 +82313,7 @@ export const sections = {
   ],
   "22748": [
     {
+      unique_id: 187824,
       instructor: {
         name: "Verinder Kumar Syal",
         bio: null,
@@ -78219,6 +82337,7 @@ export const sections = {
   ],
   "22750": [
     {
+      unique_id: 188171,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -78242,6 +82361,7 @@ export const sections = {
   ],
   "22757": [
     {
+      unique_id: 191011,
       instructor: {
         name: "Jeanine M Casler",
         bio:
@@ -78261,6 +82381,7 @@ export const sections = {
   ],
   "22761": [
     {
+      unique_id: 191087,
       instructor: {
         name: "",
         bio: null,
@@ -78277,6 +82398,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191089,
       instructor: {
         name: "",
         bio: null,
@@ -78293,6 +82415,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191383,
       instructor: {
         name: "",
         bio: null,
@@ -78311,6 +82434,7 @@ export const sections = {
   ],
   "22762": [
     {
+      unique_id: 191088,
       instructor: {
         name: "",
         bio: null,
@@ -78327,6 +82451,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191090,
       instructor: {
         name: "",
         bio: null,
@@ -78343,6 +82468,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 191382,
       instructor: {
         name: "",
         bio: null,
@@ -78361,6 +82487,7 @@ export const sections = {
   ],
   "22769": [
     {
+      unique_id: 190522,
       instructor: {
         name: "Karin Dommermuth",
         bio: null,
@@ -78384,6 +82511,7 @@ export const sections = {
   ],
   "22773": [
     {
+      unique_id: 190829,
       instructor: {
         name: "Steven Franconeri",
         bio: null,
@@ -78407,6 +82535,7 @@ export const sections = {
   ],
   "22774": [
     {
+      unique_id: 188209,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -78430,6 +82559,7 @@ export const sections = {
   ],
   "22776": [
     {
+      unique_id: 190907,
       instructor: {
         name: "Philip Marc Goldfeder",
         bio: null,
@@ -78446,6 +82576,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190906,
       instructor: {
         name: "Philip Marc Goldfeder",
         bio: null,
@@ -78462,6 +82593,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190908,
       instructor: {
         name: "Philip Marc Goldfeder",
         bio: null,
@@ -78478,6 +82610,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190905,
       instructor: {
         name: "Carrie Toth Dugan",
         bio: null,
@@ -78496,6 +82629,7 @@ export const sections = {
   ],
   "22777": [
     {
+      unique_id: 190909,
       instructor: {
         name: "Syamala Srinivasan",
         bio: null,
@@ -78512,6 +82646,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190910,
       instructor: {
         name: "Lawrence Van Fulton",
         bio: null,
@@ -78528,6 +82663,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190911,
       instructor: {
         name: "William Thornton Mickelson",
         bio: null,
@@ -78546,6 +82682,7 @@ export const sections = {
   ],
   "22778": [
     {
+      unique_id: 190913,
       instructor: {
         name: "Candice Bradley",
         bio: null,
@@ -78562,6 +82699,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190912,
       instructor: {
         name: "Candice Bradley",
         bio: null,
@@ -78578,6 +82716,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190915,
       instructor: {
         name: "John Joseph Kang Derwent",
         bio: null,
@@ -78594,6 +82733,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190914,
       instructor: {
         name: "Marianne Seiler",
         bio: null,
@@ -78612,6 +82752,7 @@ export const sections = {
   ],
   "22779": [
     {
+      unique_id: 190916,
       instructor: {
         name: "William Thornton Mickelson",
         bio: null,
@@ -78630,6 +82771,7 @@ export const sections = {
   ],
   "22780": [
     {
+      unique_id: 190918,
       instructor: {
         name: "Joseph Hubert Wilck lV",
         bio: null,
@@ -78646,6 +82788,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190917,
       instructor: {
         name: "William Thornton Mickelson",
         bio: null,
@@ -78664,6 +82807,7 @@ export const sections = {
   ],
   "22782": [
     {
+      unique_id: 190921,
       instructor: {
         name: "Nethra Sambamoorthi",
         bio: null,
@@ -78680,6 +82824,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190919,
       instructor: {
         name: "Atef J Bader",
         bio: null,
@@ -78696,6 +82841,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190920,
       instructor: {
         name: "Sharon F. Dill",
         bio: null,
@@ -78712,6 +82858,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190922,
       instructor: {
         name: "Edward Arroyo",
         bio: null,
@@ -78730,6 +82877,7 @@ export const sections = {
   ],
   "22783": [
     {
+      unique_id: 190924,
       instructor: {
         name: "Anil D Chaturvedi",
         bio: null,
@@ -78746,6 +82894,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190926,
       instructor: {
         name: "Lynd Dalton Bacon",
         bio: null,
@@ -78762,6 +82911,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190925,
       instructor: {
         name: "Noah David Gift",
         bio: null,
@@ -78778,6 +82928,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190923,
       instructor: {
         name: "Lawrence Van Fulton",
         bio: null,
@@ -78796,6 +82947,7 @@ export const sections = {
   ],
   "22784": [
     {
+      unique_id: 190930,
       instructor: {
         name: "Melvin L Ott",
         bio: null,
@@ -78812,6 +82964,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190927,
       instructor: {
         name: "Carrie Toth Dugan",
         bio: null,
@@ -78828,6 +82981,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190928,
       instructor: {
         name: "Edward Arroyo",
         bio: null,
@@ -78844,6 +82998,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190929,
       instructor: {
         name: "",
         bio: null,
@@ -78862,6 +83017,7 @@ export const sections = {
   ],
   "22785": [
     {
+      unique_id: 190931,
       instructor: {
         name: "Abid Ali",
         bio: null,
@@ -78880,6 +83036,7 @@ export const sections = {
   ],
   "22786": [
     {
+      unique_id: 190932,
       instructor: {
         name: "Lance F Levenson",
         bio: null,
@@ -78898,6 +83055,7 @@ export const sections = {
   ],
   "22787": [
     {
+      unique_id: 190933,
       instructor: {
         name: "Shreenidhi Bharadwaj",
         bio: null,
@@ -78916,6 +83074,7 @@ export const sections = {
   ],
   "22788": [
     {
+      unique_id: 190935,
       instructor: {
         name: "Syamala Srinivasan",
         bio: null,
@@ -78934,6 +83093,7 @@ export const sections = {
   ],
   "22789": [
     {
+      unique_id: 190936,
       instructor: {
         name: "Ernest Pun Chan",
         bio: null,
@@ -78952,6 +83112,7 @@ export const sections = {
   ],
   "22791": [
     {
+      unique_id: 190938,
       instructor: {
         name: "Thomas William Miller",
         bio: null,
@@ -78968,6 +83129,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190937,
       instructor: {
         name: "Alianna JeanAnn Maren",
         bio: null,
@@ -78986,6 +83148,7 @@ export const sections = {
   ],
   "22792": [
     {
+      unique_id: 190939,
       instructor: {
         name: "Chad R Bhatti",
         bio: null,
@@ -79004,6 +83167,7 @@ export const sections = {
   ],
   "22793": [
     {
+      unique_id: 190940,
       instructor: {
         name: "Kathryn Ann Daugherty",
         bio: null,
@@ -79022,6 +83186,7 @@ export const sections = {
   ],
   "22795": [
     {
+      unique_id: 190941,
       instructor: {
         name: "Bradley Ryan Smith",
         bio: null,
@@ -79040,6 +83205,7 @@ export const sections = {
   ],
   "22796": [
     {
+      unique_id: 190944,
       instructor: {
         name: "Thomas William Miller",
         bio: null,
@@ -79056,6 +83222,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190943,
       instructor: {
         name: "Thomas William Miller",
         bio: null,
@@ -79072,6 +83239,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190942,
       instructor: {
         name: "Alianna JeanAnn Maren",
         bio: null,
@@ -79090,6 +83258,7 @@ export const sections = {
   ],
   "22798": [
     {
+      unique_id: 190945,
       instructor: {
         name: "Nathaniel Drew Bastian",
         bio: null,
@@ -79106,6 +83275,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190948,
       instructor: {
         name: "Irene Tsapara",
         bio: null,
@@ -79122,6 +83292,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190946,
       instructor: {
         name: "Nathaniel Drew Bastian",
         bio: null,
@@ -79138,6 +83309,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190947,
       instructor: {
         name: "Joseph Hubert Wilck lV",
         bio: null,
@@ -79156,6 +83328,7 @@ export const sections = {
   ],
   "22799": [
     {
+      unique_id: 190962,
       instructor: {
         name: "Kimberly Chulis",
         bio: null,
@@ -79174,6 +83347,7 @@ export const sections = {
   ],
   "22801": [
     {
+      unique_id: 190963,
       instructor: {
         name: "",
         bio: null,
@@ -79192,6 +83366,7 @@ export const sections = {
   ],
   "22802": [
     {
+      unique_id: 190964,
       instructor: {
         name: "Daniel C Baumgartner",
         bio:
@@ -79209,6 +83384,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190965,
       instructor: {
         name: "Daniel Walter Roth",
         bio: null,
@@ -79227,6 +83403,7 @@ export const sections = {
   ],
   "22803": [
     {
+      unique_id: 190966,
       instructor: {
         name: "Ciju T R Nair",
         bio: null,
@@ -79243,6 +83420,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190967,
       instructor: {
         name: "Mark Clare",
         bio: null,
@@ -79261,6 +83439,7 @@ export const sections = {
   ],
   "22808": [
     {
+      unique_id: 190968,
       instructor: {
         name: "Donald K Wedding",
         bio: null,
@@ -79277,6 +83456,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190969,
       instructor: {
         name: "Donald K Wedding",
         bio: null,
@@ -79293,6 +83473,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190970,
       instructor: {
         name: "Chad R Bhatti",
         bio: null,
@@ -79311,6 +83492,7 @@ export const sections = {
   ],
   "22811": [
     {
+      unique_id: 188173,
       instructor: {
         name: "Karen E Springen",
         bio: null,
@@ -79329,6 +83511,7 @@ export const sections = {
   ],
   "22829": [
     {
+      unique_id: 189235,
       instructor: {
         name: "Daniel Ethan Horton",
         bio: null,
@@ -79352,6 +83535,7 @@ export const sections = {
   ],
   "22835": [
     {
+      unique_id: 190896,
       instructor: {
         name: "Alexander Christopher Kerr",
         bio: null,
@@ -79370,6 +83554,7 @@ export const sections = {
   ],
   "22857": [
     {
+      unique_id: 188028,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79391,6 +83576,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188050,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79407,6 +83593,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188026,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79423,6 +83610,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188036,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79444,6 +83632,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188039,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79465,6 +83654,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188043,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79486,6 +83676,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188046,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79507,6 +83698,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188059,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79523,6 +83715,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188058,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79544,6 +83737,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188053,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79560,6 +83754,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188011,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79581,6 +83776,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188012,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79597,6 +83793,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188022,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79618,6 +83815,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188013,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79639,6 +83837,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188021,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79655,6 +83854,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188014,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79676,6 +83876,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188016,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79697,6 +83898,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188017,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79718,6 +83920,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188018,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79739,6 +83942,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188019,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79760,6 +83964,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188023,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79781,6 +83986,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188024,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79802,6 +84008,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188025,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79823,6 +84030,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188015,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79839,6 +84047,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188027,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79860,6 +84069,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188020,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79881,6 +84091,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188030,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79902,6 +84113,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188034,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79923,6 +84135,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188029,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79939,6 +84152,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188031,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79960,6 +84174,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188032,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79976,6 +84191,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188033,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -79992,6 +84208,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188048,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80008,6 +84225,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188045,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80029,6 +84247,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188047,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80050,6 +84269,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188049,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80071,6 +84291,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188051,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80087,6 +84308,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188052,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80103,6 +84325,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188037,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80119,6 +84342,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188040,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80135,6 +84359,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188044,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80151,6 +84376,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188035,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80172,6 +84398,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188038,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80193,6 +84420,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188041,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80214,6 +84442,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188042,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80235,6 +84464,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188054,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80256,6 +84486,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188055,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80277,6 +84508,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 188057,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80293,6 +84525,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188056,
       instructor: {
         name: "Jennifer Marie Handel",
         bio: null,
@@ -80316,6 +84549,7 @@ export const sections = {
   ],
   "22879": [
     {
+      unique_id: 188286,
       instructor: {
         name: "Kristine Marie Grohne Riley",
         bio: null,
@@ -80334,6 +84568,7 @@ export const sections = {
   ],
   "22883": [
     {
+      unique_id: 188287,
       instructor: {
         name: "Tracy Hagan Winn",
         bio: null,
@@ -80357,6 +84592,7 @@ export const sections = {
   ],
   "22889": [
     {
+      unique_id: 190366,
       instructor: {
         name: "James Weston Twardowski",
         bio: null,
@@ -80375,6 +84611,7 @@ export const sections = {
   ],
   "22892": [
     {
+      unique_id: 190890,
       instructor: {
         name: "William Leon Lester",
         bio: null,
@@ -80393,6 +84630,7 @@ export const sections = {
   ],
   "22901": [
     {
+      unique_id: 188464,
       instructor: {
         name: "Ryan Scott Cunningham",
         bio: null,
@@ -80411,6 +84649,7 @@ export const sections = {
   ],
   "22907": [
     {
+      unique_id: 188500,
       instructor: {
         name: "Amanda R Dehnert",
         bio: null,
@@ -80429,6 +84668,7 @@ export const sections = {
   ],
   "22910": [
     {
+      unique_id: 188499,
       instructor: {
         name: "Ryan T Nelson",
         bio: null,
@@ -80447,6 +84687,7 @@ export const sections = {
   ],
   "22912": [
     {
+      unique_id: 190889,
       instructor: {
         name: "Patrick Rogers Higgins",
         bio: null,
@@ -80465,6 +84706,7 @@ export const sections = {
   ],
   "22917": [
     {
+      unique_id: 189240,
       instructor: {
         name: "Seth Andrew Jacobson",
         bio: null,
@@ -80488,6 +84730,7 @@ export const sections = {
   ],
   "22930": [
     {
+      unique_id: 191001,
       instructor: {
         name: "Kristine Marie Grohne Riley",
         bio: null,
@@ -80506,6 +84749,7 @@ export const sections = {
   ],
   "22934": [
     {
+      unique_id: 188482,
       instructor: {
         name: "Danielle Bainbridge",
         bio: null,
@@ -80522,6 +84766,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188483,
       instructor: {
         name: "Roxane H Heinze-Bradshaw",
         bio: null,
@@ -80540,6 +84785,7 @@ export const sections = {
   ],
   "22935": [
     {
+      unique_id: 188488,
       instructor: {
         name: "Ryan T Nelson",
         bio: null,
@@ -80558,6 +84804,7 @@ export const sections = {
   ],
   "22936": [
     {
+      unique_id: 188487,
       instructor: {
         name: "James Weston Twardowski",
         bio: null,
@@ -80574,6 +84821,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188486,
       instructor: {
         name: "Matthew Gordon Bent",
         bio: null,
@@ -80592,6 +84840,7 @@ export const sections = {
   ],
   "22938": [
     {
+      unique_id: 188484,
       instructor: {
         name: "Maria De Simone",
         bio: null,
@@ -80615,6 +84864,7 @@ export const sections = {
   ],
   "22942": [
     {
+      unique_id: 188485,
       instructor: {
         name: "Danielle Bainbridge",
         bio: null,
@@ -80638,6 +84888,7 @@ export const sections = {
   ],
   "22964": [
     {
+      unique_id: 188731,
       instructor: {
         name: "Margaret Katherine Wente",
         bio: null,
@@ -80656,6 +84907,7 @@ export const sections = {
   ],
   "22970": [
     {
+      unique_id: 188685,
       instructor: {
         name: "Jason J Washburn",
         bio: null,
@@ -80679,6 +84931,7 @@ export const sections = {
   ],
   "22987": [
     {
+      unique_id: 187647,
       instructor: {
         name: "Ian D Horswill",
         bio: null,
@@ -80702,6 +84955,7 @@ export const sections = {
   ],
   "22989": [
     {
+      unique_id: 187817,
       instructor: {
         name: "Aggelos K Katsaggelos",
         bio: null,
@@ -80725,6 +84979,7 @@ export const sections = {
   ],
   "22990": [
     {
+      unique_id: 187832,
       instructor: {
         name: "Niall M Mangan",
         bio: null,
@@ -80748,6 +85003,7 @@ export const sections = {
   ],
   "22992": [
     {
+      unique_id: 187876,
       instructor: {
         name: "Barry L Nelson",
         bio: null,
@@ -80771,6 +85027,7 @@ export const sections = {
   ],
   "22993": [
     {
+      unique_id: 187882,
       instructor: {
         name: "Daniel Apley",
         bio: null,
@@ -80794,6 +85051,7 @@ export const sections = {
   ],
   "22994": [
     {
+      unique_id: 187896,
       instructor: {
         name: "Todd Edward Murphy",
         bio: null,
@@ -80812,6 +85070,7 @@ export const sections = {
   ],
   "22999": [
     {
+      unique_id: 189831,
       instructor: {
         name: "Eddie Dekel",
         bio: null,
@@ -80835,6 +85094,7 @@ export const sections = {
   ],
   "23011": [
     {
+      unique_id: 188495,
       instructor: {
         name: "John M Haas",
         bio: null,
@@ -80851,6 +85111,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188493,
       instructor: {
         name: "Michael Lawrence Brown",
         bio: null,
@@ -80867,6 +85128,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188494,
       instructor: {
         name: "Melissa Louise Foster",
         bio: null,
@@ -80883,6 +85145,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 188496,
       instructor: {
         name: "Kelli Nichol Morgan",
         bio: null,
@@ -80901,6 +85164,7 @@ export const sections = {
   ],
   "23015": [
     {
+      unique_id: 188361,
       instructor: {
         name: "Jennifer Leigh Novak",
         bio: null,
@@ -80924,6 +85188,7 @@ export const sections = {
   ],
   "23020": [
     {
+      unique_id: 188501,
       instructor: {
         name: "William Lewis Siegenfeld",
         bio: null,
@@ -80942,6 +85207,7 @@ export const sections = {
   ],
   "23023": [
     {
+      unique_id: 187998,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -80965,6 +85231,7 @@ export const sections = {
   ],
   "23024": [
     {
+      unique_id: 190862,
       instructor: {
         name: "Kimberly L Rusk",
         bio: null,
@@ -80983,6 +85250,7 @@ export const sections = {
   ],
   "23025": [
     {
+      unique_id: 190863,
       instructor: {
         name: "Eytan S Dallal",
         bio: null,
@@ -81001,6 +85269,7 @@ export const sections = {
   ],
   "23026": [
     {
+      unique_id: 190952,
       instructor: {
         name: "Valerie A Followell",
         bio: null,
@@ -81019,6 +85288,7 @@ export const sections = {
   ],
   "23027": [
     {
+      unique_id: 189170,
       instructor: {
         name: "Karl A Scheidt",
         bio: null,
@@ -81042,6 +85312,7 @@ export const sections = {
   ],
   "23029": [
     {
+      unique_id: 186913,
       instructor: {
         name: "Benjamin C Bolter",
         bio: null,
@@ -81065,6 +85336,7 @@ export const sections = {
   ],
   "23031": [
     {
+      unique_id: 187996,
       instructor: {
         name: "Douglas C Downey",
         bio: null,
@@ -81088,6 +85360,7 @@ export const sections = {
   ],
   "23032": [
     {
+      unique_id: 187994,
       instructor: {
         name: "Jennie M Rogers",
         bio: null,
@@ -81111,6 +85384,7 @@ export const sections = {
   ],
   "23033": [
     {
+      unique_id: 187995,
       instructor: {
         name: "",
         bio: null,
@@ -81134,6 +85408,7 @@ export const sections = {
   ],
   "23037": [
     {
+      unique_id: 189361,
       instructor: {
         name: "William Reginald Gibbons Jr",
         bio: null,
@@ -81152,6 +85427,7 @@ export const sections = {
   ],
   "23038": [
     {
+      unique_id: 189368,
       instructor: {
         name: "Juan M Martinez",
         bio: null,
@@ -81170,6 +85446,7 @@ export const sections = {
   ],
   "23041": [
     {
+      unique_id: 189948,
       instructor: {
         name: "Zosia Anna Celina Krusberg",
         bio: null,
@@ -81193,6 +85470,7 @@ export const sections = {
   ],
   "23044": [
     {
+      unique_id: 187807,
       instructor: {
         name: "Aggelos K Katsaggelos",
         bio: null,
@@ -81216,6 +85494,7 @@ export const sections = {
   ],
   "23045": [
     {
+      unique_id: 189216,
       instructor: {
         name: "Corey Byrnes",
         bio: null,
@@ -81239,6 +85518,7 @@ export const sections = {
   ],
   "23049": [
     {
+      unique_id: 186972,
       instructor: {
         name: "Susan R Osborn",
         bio: null,
@@ -81255,6 +85535,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186970,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -81271,6 +85552,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186971,
       instructor: {
         name: "Annie Chia-Chien Hsiao",
         bio: null,
@@ -81287,6 +85569,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186973,
       instructor: {
         name: "Susan R Osborn",
         bio: null,
@@ -81305,6 +85588,7 @@ export const sections = {
   ],
   "23050": [
     {
+      unique_id: 186974,
       instructor: {
         name: "Annie Chia-Chien Hsiao",
         bio: null,
@@ -81321,6 +85605,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186975,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -81337,6 +85622,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186976,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -81353,6 +85639,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 186977,
       instructor: {
         name: "Susan R Osborn",
         bio: null,
@@ -81371,6 +85658,7 @@ export const sections = {
   ],
   "23051": [
     {
+      unique_id: 186978,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -81389,6 +85677,7 @@ export const sections = {
   ],
   "23052": [
     {
+      unique_id: 186979,
       instructor: {
         name: "Karen Chih-Pah Kan-Walsh",
         bio: null,
@@ -81407,6 +85696,7 @@ export const sections = {
   ],
   "23058": [
     {
+      unique_id: 190500,
       instructor: {
         name: "",
         bio: null,
@@ -81423,6 +85713,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 190501,
       instructor: {
         name: "",
         bio: null,
@@ -81446,6 +85737,7 @@ export const sections = {
   ],
   "23105": [
     {
+      unique_id: 190499,
       instructor: {
         name: "Peter Hamilton McNerney",
         bio: null,
@@ -81469,6 +85761,7 @@ export const sections = {
   ],
   "23107": [
     {
+      unique_id: 189468,
       instructor: {
         name: "Haydon Leslie Cherry",
         bio: null,
@@ -81492,6 +85785,7 @@ export const sections = {
   ],
   "23112": [
     {
+      unique_id: 189840,
       instructor: {
         name: "Justin Emmanuel Brown",
         bio: null,
@@ -81510,6 +85804,7 @@ export const sections = {
   ],
   "23128": [
     {
+      unique_id: 191195,
       instructor: {
         name: "Sheila A Bedi",
         bio: null,
@@ -81528,6 +85823,7 @@ export const sections = {
   ],
   "23131": [
     {
+      unique_id: 191220,
       instructor: {
         name: "Daniel Waino Linna",
         bio: null,
@@ -81546,6 +85842,7 @@ export const sections = {
   ],
   "23133": [
     {
+      unique_id: 190858,
       instructor: {
         name: "Nebiyou M Kedir",
         bio: null,
@@ -81564,6 +85861,7 @@ export const sections = {
   ],
   "23134": [
     {
+      unique_id: 190860,
       instructor: {
         name: "William R Waas",
         bio: null,
@@ -81582,6 +85880,7 @@ export const sections = {
   ],
   "23144": [
     {
+      unique_id: 190959,
       instructor: {
         name: "William R Waas",
         bio: null,
@@ -81600,6 +85899,7 @@ export const sections = {
   ],
   "23145": [
     {
+      unique_id: 190997,
       instructor: {
         name: "Jennifer Lindsy Baker",
         bio:
@@ -81619,6 +85919,7 @@ export const sections = {
   ],
   "23153": [
     {
+      unique_id: 187600,
       instructor: {
         name: "Tom James Mozina",
         bio: null,
@@ -81642,6 +85943,7 @@ export const sections = {
   ],
   "23157": [
     {
+      unique_id: 187777,
       instructor: {
         name: "Pamela A. Forgianni Daniels",
         bio: null,
@@ -81658,6 +85960,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 187778,
       instructor: {
         name: "Bruce E Ankenman",
         bio: null,
@@ -81676,6 +85979,7 @@ export const sections = {
   ],
   "23161": [
     {
+      unique_id: 187992,
       instructor: {
         name: "Eleanor Mary O'Rourke",
         bio: null,
@@ -81699,6 +86003,7 @@ export const sections = {
   ],
   "23162": [
     {
+      unique_id: 187993,
       instructor: {
         name: "Lawrence A Birnbaum",
         bio: null,
@@ -81722,6 +86027,7 @@ export const sections = {
   ],
   "23163": [
     {
+      unique_id: 187997,
       instructor: {
         name: "",
         bio: null,
@@ -81745,6 +86051,7 @@ export const sections = {
   ],
   "23164": [
     {
+      unique_id: 187821,
       instructor: {
         name: "Heather Anne Aranyi",
         bio: null,
@@ -81768,6 +86075,7 @@ export const sections = {
   ],
   "23173": [
     {
+      unique_id: 191283,
       instructor: {
         name: "Ronald J Allen",
         bio: null,
@@ -81786,6 +86094,7 @@ export const sections = {
   ],
   "23176": [
     {
+      unique_id: 190821,
       instructor: {
         name: "Benjamin F Jones",
         bio: null,
@@ -81802,6 +86111,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190822,
       instructor: {
         name: "Benjamin F Jones",
         bio: null,
@@ -81820,6 +86130,7 @@ export const sections = {
   ],
   "23177": [
     {
+      unique_id: 190819,
       instructor: {
         name: "Daniel F Spulber",
         bio: null,
@@ -81838,6 +86149,7 @@ export const sections = {
   ],
   "23178": [
     {
+      unique_id: 190818,
       instructor: {
         name: "David Stuart Dranove",
         bio: null,
@@ -81856,6 +86168,7 @@ export const sections = {
   ],
   "23179": [
     {
+      unique_id: 191384,
       instructor: {
         name: "",
         bio: null,
@@ -81874,6 +86187,7 @@ export const sections = {
   ],
   "23180": [
     {
+      unique_id: 190806,
       instructor: {
         name: "R Mark McCareins",
         bio: null,
@@ -81892,6 +86206,7 @@ export const sections = {
   ],
   "23185": [
     {
+      unique_id: 188114,
       instructor: {
         name: "Candy Lee",
         bio: null,
@@ -81910,6 +86225,7 @@ export const sections = {
   ],
   "23187": [
     {
+      unique_id: 188116,
       instructor: {
         name: "Elizabeth T Harris",
         bio: null,
@@ -81926,6 +86242,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188117,
       instructor: {
         name: "Dana Matthew Stotts",
         bio: null,
@@ -81944,6 +86261,7 @@ export const sections = {
   ],
   "23189": [
     {
+      unique_id: 188120,
       instructor: {
         name: "Jonathan R Copulsky",
         bio: null,
@@ -81962,6 +86280,7 @@ export const sections = {
   ],
   "23218": [
     {
+      unique_id: 190324,
       instructor: {
         name: "Bruce David Spencer",
         bio: null,
@@ -81985,6 +86304,7 @@ export const sections = {
   ],
   "23227": [
     {
+      unique_id: 190904,
       instructor: {
         name: "Philip Marc Goldfeder",
         bio: null,
@@ -82003,6 +86323,7 @@ export const sections = {
   ],
   "23242": [
     {
+      unique_id: 188363,
       instructor: {
         name: "Jennifer Leigh Novak",
         bio: null,
@@ -82021,6 +86342,7 @@ export const sections = {
   ],
   "23260": [
     {
+      unique_id: 190440,
       instructor: {
         name: "Joachim Bernd Schamberger",
         bio: null,
@@ -82039,6 +86361,7 @@ export const sections = {
   ],
   "23271": [
     {
+      unique_id: 188119,
       instructor: {
         name: "Ariel Goldfarb",
         bio: null,
@@ -82055,6 +86378,7 @@ export const sections = {
       room: null,
     },
     {
+      unique_id: 188118,
       instructor: {
         name: "Ariel Goldfarb",
         bio: null,
@@ -82073,6 +86397,7 @@ export const sections = {
   ],
   "23272": [
     {
+      unique_id: 188121,
       instructor: {
         name: "Kelly Cutler",
         bio: null,
@@ -82091,6 +86416,7 @@ export const sections = {
   ],
   "23277": [
     {
+      unique_id: 188126,
       instructor: {
         name: "Robert Joseph Wisniewski",
         bio: null,
@@ -82109,6 +86435,7 @@ export const sections = {
   ],
   "23279": [
     {
+      unique_id: 188128,
       instructor: {
         name: "",
         bio: null,
@@ -82132,6 +86459,7 @@ export const sections = {
   ],
   "23280": [
     {
+      unique_id: 188129,
       instructor: {
         name: "Edward Carl Malthouse",
         bio: null,
@@ -82150,6 +86478,7 @@ export const sections = {
   ],
   "23292": [
     {
+      unique_id: 187744,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82168,6 +86497,7 @@ export const sections = {
   ],
   "23293": [
     {
+      unique_id: 187745,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82186,6 +86516,7 @@ export const sections = {
   ],
   "23294": [
     {
+      unique_id: 187746,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82204,6 +86535,7 @@ export const sections = {
   ],
   "23295": [
     {
+      unique_id: 187747,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82222,6 +86554,7 @@ export const sections = {
   ],
   "23296": [
     {
+      unique_id: 187748,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82240,6 +86573,7 @@ export const sections = {
   ],
   "23297": [
     {
+      unique_id: 187749,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82258,6 +86592,7 @@ export const sections = {
   ],
   "23298": [
     {
+      unique_id: 187750,
       instructor: {
         name: "Helen Claire Oloroso",
         bio: null,
@@ -82276,6 +86611,7 @@ export const sections = {
   ],
   "23316": [
     {
+      unique_id: 190825,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -82294,6 +86630,7 @@ export const sections = {
   ],
   "23328": [
     {
+      unique_id: 187786,
       instructor: {
         name: "Eric J Edinberg",
         bio: null,
@@ -82317,6 +86654,7 @@ export const sections = {
   ],
   "23330": [
     {
+      unique_id: 191085,
       instructor: {
         name: "",
         bio: null,
@@ -82335,6 +86673,7 @@ export const sections = {
   ],
   "23331": [
     {
+      unique_id: 191086,
       instructor: {
         name: "",
         bio: null,
@@ -82353,6 +86692,7 @@ export const sections = {
   ],
   "23337": [
     {
+      unique_id: 189745,
       instructor: {
         name: "",
         bio: null,
@@ -82374,6 +86714,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189746,
       instructor: {
         name: "Elizabeth Anne Burslem",
         bio: null,
@@ -82397,6 +86738,7 @@ export const sections = {
   ],
   "23340": [
     {
+      unique_id: 189754,
       instructor: {
         name: "Zhihong Xia",
         bio: null,
@@ -82418,6 +86760,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189748,
       instructor: {
         name: "Robin Tonra Neumayer",
         bio: null,
@@ -82439,6 +86782,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189749,
       instructor: {
         name: "Charles Henry Stibitz",
         bio: null,
@@ -82460,6 +86804,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189747,
       instructor: {
         name: "Robin Tonra Neumayer",
         bio: null,
@@ -82481,6 +86826,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189750,
       instructor: {
         name: "Charles Henry Stibitz",
         bio: null,
@@ -82502,6 +86848,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189753,
       instructor: {
         name: "",
         bio: null,
@@ -82523,6 +86870,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189751,
       instructor: {
         name: "John Michael Alongi",
         bio: null,
@@ -82544,6 +86892,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189752,
       instructor: {
         name: "John Michael Alongi",
         bio: null,
@@ -82565,6 +86914,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189755,
       instructor: {
         name: "Zhihong Xia",
         bio: null,
@@ -82588,6 +86938,7 @@ export const sections = {
   ],
   "23341": [
     {
+      unique_id: 189762,
       instructor: {
         name: "Aaron James Peterson",
         bio: null,
@@ -82609,6 +86960,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189759,
       instructor: {
         name: "",
         bio: null,
@@ -82630,6 +86982,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189757,
       instructor: {
         name: "",
         bio: null,
@@ -82651,6 +87004,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189758,
       instructor: {
         name: "",
         bio: null,
@@ -82672,6 +87026,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189756,
       instructor: {
         name: "",
         bio: null,
@@ -82693,6 +87048,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189761,
       instructor: {
         name: "Eric Chang",
         bio: null,
@@ -82714,6 +87070,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189763,
       instructor: {
         name: "Aaron James Peterson",
         bio: null,
@@ -82735,6 +87092,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189760,
       instructor: {
         name: "Dmitry E Tamarkin",
         bio: null,
@@ -82758,6 +87116,7 @@ export const sections = {
   ],
   "23342": [
     {
+      unique_id: 189764,
       instructor: {
         name: "Santiago Canez",
         bio:
@@ -82782,6 +87141,7 @@ export const sections = {
   ],
   "23343": [
     {
+      unique_id: 189767,
       instructor: {
         name: "",
         bio: null,
@@ -82803,6 +87163,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189770,
       instructor: {
         name: "",
         bio: null,
@@ -82824,6 +87185,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189773,
       instructor: {
         name: "Ursula Porod",
         bio: null,
@@ -82845,6 +87207,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189772,
       instructor: {
         name: "Ursula Porod",
         bio: null,
@@ -82866,6 +87229,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189766,
       instructor: {
         name: "",
         bio: null,
@@ -82887,6 +87251,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189768,
       instructor: {
         name: "Jianchun Chu",
         bio: null,
@@ -82908,6 +87273,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189769,
       instructor: {
         name: "Jianchun Chu",
         bio: null,
@@ -82929,6 +87295,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189771,
       instructor: {
         name: "",
         bio: null,
@@ -82950,6 +87317,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189765,
       instructor: {
         name: "",
         bio: null,
@@ -82973,6 +87341,7 @@ export const sections = {
   ],
   "23344": [
     {
+      unique_id: 189774,
       instructor: {
         name: "",
         bio: null,
@@ -82996,6 +87365,7 @@ export const sections = {
   ],
   "23345": [
     {
+      unique_id: 189777,
       instructor: {
         name: "Aaron Greicius",
         bio: null,
@@ -83017,6 +87387,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189778,
       instructor: {
         name: "Aaron Greicius",
         bio: null,
@@ -83038,6 +87409,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189780,
       instructor: {
         name: "Eva Kinoshita Belmont",
         bio: null,
@@ -83059,6 +87431,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189775,
       instructor: {
         name: "Florian Karl Richter",
         bio: null,
@@ -83080,6 +87453,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189779,
       instructor: {
         name: "Eva Kinoshita Belmont",
         bio: null,
@@ -83101,6 +87475,7 @@ export const sections = {
       },
     },
     {
+      unique_id: 189776,
       instructor: {
         name: "Florian Karl Richter",
         bio: null,
@@ -83124,6 +87499,7 @@ export const sections = {
   ],
   "23364": [
     {
+      unique_id: 190961,
       instructor: {
         name: "Shreenidhi Bharadwaj",
         bio: null,
@@ -83142,6 +87518,7 @@ export const sections = {
   ],
   "23381": [
     {
+      unique_id: 187624,
       instructor: {
         name: "Hai Zhou",
         bio: null,
@@ -83165,6 +87542,7 @@ export const sections = {
   ],
   "23393": [
     {
+      unique_id: 187648,
       instructor: {
         name: "Christos Dimoulas",
         bio: null,
@@ -83188,6 +87566,7 @@ export const sections = {
   ],
   "23396": [
     {
+      unique_id: 191096,
       instructor: {
         name: "",
         bio: null,
@@ -83206,6 +87585,7 @@ export const sections = {
   ],
   "23400": [
     {
+      unique_id: 189851,
       instructor: {
         name: "Fabrizio Cariani",
         bio: null,
@@ -83229,6 +87609,7 @@ export const sections = {
   ],
   "23402": [
     {
+      unique_id: 190960,
       instructor: {
         name: "Noah David Gift",
         bio: null,
@@ -83247,6 +87628,7 @@ export const sections = {
   ],
   "23408": [
     {
+      unique_id: 187991,
       instructor: {
         name: "Kenneth D Forbus",
         bio: null,
@@ -83270,6 +87652,7 @@ export const sections = {
   ],
   "23413": [
     {
+      unique_id: 187559,
       instructor: {
         name: "Shu Qian Liu",
         bio: null,
@@ -83293,6 +87676,7 @@ export const sections = {
   ],
   "23416": [
     {
+      unique_id: 187565,
       instructor: {
         name: "Nathan C Gianneschi",
         bio: null,
@@ -83316,6 +87700,7 @@ export const sections = {
   ],
   "23417": [
     {
+      unique_id: 187946,
       instructor: {
         name: "Nathan C Gianneschi",
         bio: null,
@@ -83339,6 +87724,7 @@ export const sections = {
   ],
   "23425": [
     {
+      unique_id: 191259,
       instructor: {
         name: "Susan Dun",
         bio: null,
@@ -83357,6 +87743,7 @@ export const sections = {
   ],
   "23431": [
     {
+      unique_id: 190770,
       instructor: {
         name: "Victoria M. N. Wangia-Anderson",
         bio: null,
@@ -83375,6 +87762,7 @@ export const sections = {
   ],
   "23432": [
     {
+      unique_id: 190771,
       instructor: {
         name: "Imran A Khan",
         bio: null,
@@ -83393,6 +87781,7 @@ export const sections = {
   ],
   "23433": [
     {
+      unique_id: 190772,
       instructor: {
         name: "Andrew M Naidech",
         bio: null,
@@ -83411,6 +87800,7 @@ export const sections = {
   ],
   "23437": [
     {
+      unique_id: 190006,
       instructor: {
         name: "Julianne Lee Merseth Cook",
         bio: null,
@@ -83434,6 +87824,7 @@ export const sections = {
   ],
   "23440": [
     {
+      unique_id: 188847,
       instructor: {
         name: "Hirokazu Miyazaki",
         bio: null,
@@ -83457,6 +87848,7 @@ export const sections = {
   ],
   "23443": [
     {
+      unique_id: 189399,
       instructor: {
         name: "Fay E Rosner",
         bio: null,
@@ -83475,6 +87867,7 @@ export const sections = {
   ],
   "23444": [
     {
+      unique_id: 190435,
       instructor: {
         name: "Luis A N Amaral",
         bio: null,
@@ -83498,6 +87891,7 @@ export const sections = {
   ],
   "23445": [
     {
+      unique_id: 190436,
       instructor: {
         name: "Luis A N Amaral",
         bio: null,
@@ -83516,6 +87910,7 @@ export const sections = {
   ],
   "23446": [
     {
+      unique_id: 189369,
       instructor: {
         name: "William Reginald Gibbons Jr",
         bio: null,
@@ -83534,6 +87929,7 @@ export const sections = {
   ],
   "23448": [
     {
+      unique_id: 190877,
       instructor: {
         name: "Imran A Khan",
         bio: null,
@@ -83552,6 +87948,7 @@ export const sections = {
   ],
   "23452": [
     {
+      unique_id: 190773,
       instructor: {
         name: "Ekta S Punwani",
         bio: null,
@@ -83570,6 +87967,7 @@ export const sections = {
   ],
   "23474": [
     {
+      unique_id: 191044,
       instructor: {
         name: "Lydia Fiske Emery",
         bio: null,
@@ -83588,6 +87986,7 @@ export const sections = {
   ],
   "23479": [
     {
+      unique_id: 191045,
       instructor: {
         name: "Elena Borisovna Labkovsky",
         bio: null,
@@ -83606,6 +88005,7 @@ export const sections = {
   ],
   "23480": [
     {
+      unique_id: 191043,
       instructor: {
         name: "Gary L Phillips",
         bio:
@@ -83625,6 +88025,7 @@ export const sections = {
   ],
   "23484": [
     {
+      unique_id: 190998,
       instructor: {
         name: "Jennifer Lindsy Baker",
         bio:
@@ -83644,6 +88045,7 @@ export const sections = {
   ],
   "23485": [
     {
+      unique_id: 191019,
       instructor: {
         name: "Amy Beth Alznauer",
         bio:
@@ -83663,6 +88065,7 @@ export const sections = {
   ],
   "23489": [
     {
+      unique_id: 191020,
       instructor: {
         name: "Martina Bode",
         bio: null,
@@ -83681,6 +88084,7 @@ export const sections = {
   ],
   "23492": [
     {
+      unique_id: 190971,
       instructor: {
         name: "Kimberly Chulis",
         bio: null,
@@ -83697,6 +88101,7 @@ export const sections = {
       room: { id: 545, building_id: 118, building_name: "TBA", name: "" },
     },
     {
+      unique_id: 190972,
       instructor: {
         name: "Kimberly Chulis",
         bio: null,
@@ -83715,6 +88120,7 @@ export const sections = {
   ],
   "23493": [
     {
+      unique_id: 190934,
       instructor: {
         name: "Atef J Bader",
         bio: null,
@@ -83733,6 +88139,7 @@ export const sections = {
   ],
   "23494": [
     {
+      unique_id: 190826,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -83751,6 +88158,7 @@ export const sections = {
   ],
   "23501": [
     {
+      unique_id: 191338,
       instructor: {
         name: "",
         bio: null,
@@ -83769,6 +88177,7 @@ export const sections = {
   ],
   "23504": [
     {
+      unique_id: 191339,
       instructor: {
         name: "Sandra U Marquez",
         bio: null,
@@ -83787,6 +88196,7 @@ export const sections = {
   ],
   "23508": [
     {
+      unique_id: 191133,
       instructor: {
         name: "Caitlyn Patricia Doyle",
         bio: null,
@@ -83805,6 +88215,7 @@ export const sections = {
   ],
   "23509": [
     {
+      unique_id: 191134,
       instructor: {
         name: "Caitlyn Patricia Doyle",
         bio: null,
@@ -83823,6 +88234,7 @@ export const sections = {
   ],
   "23511": [
     {
+      unique_id: 190774,
       instructor: {
         name: "Sally E Blount",
         bio: null,
@@ -83841,6 +88253,7 @@ export const sections = {
   ],
   "23513": [
     {
+      unique_id: 191351,
       instructor: {
         name: "Jeffrey Rice",
         bio:
@@ -83860,6 +88273,7 @@ export const sections = {
   ],
   "23517": [
     {
+      unique_id: 191052,
       instructor: {
         name: "Luke Christopher Flores",
         bio: null,
@@ -83883,6 +88297,7 @@ export const sections = {
   ],
   "23520": [
     {
+      unique_id: 191350,
       instructor: {
         name: "",
         bio: null,
@@ -83901,6 +88316,7 @@ export const sections = {
   ],
   "23521": [
     {
+      unique_id: 191136,
       instructor: {
         name: "Maryjane Osa",
         bio: null,
@@ -83919,6 +88335,7 @@ export const sections = {
   ],
   "23523": [
     {
+      unique_id: 191137,
       instructor: {
         name: "Kristian J Hammond",
         bio: null,
@@ -83942,6 +88359,7 @@ export const sections = {
   ],
   "23525": [
     {
+      unique_id: 191354,
       instructor: {
         name: "Grisel Marie Robles-Schrader",
         bio: null,
@@ -83965,6 +88383,7 @@ export const sections = {
   ],
   "23547": [
     {
+      unique_id: 191322,
       instructor: {
         name: "Shannon P Bartlett",
         bio: null,
@@ -83988,6 +88407,7 @@ export const sections = {
   ],
   "23548": [
     {
+      unique_id: 191323,
       instructor: {
         name: "",
         bio: null,
@@ -84011,6 +88431,7 @@ export const sections = {
   ],
   "23549": [
     {
+      unique_id: 191318,
       instructor: {
         name: "Zachary David Clopton",
         bio: null,
@@ -84034,6 +88455,7 @@ export const sections = {
   ],
   "23550": [
     {
+      unique_id: 191326,
       instructor: {
         name: "",
         bio: null,
@@ -84057,6 +88479,7 @@ export const sections = {
   ],
   "23551": [
     {
+      unique_id: 191329,
       instructor: {
         name: "Katherine Valerie Litvak",
         bio: null,
@@ -84080,6 +88503,7 @@ export const sections = {
   ],
   "23552": [
     {
+      unique_id: 191320,
       instructor: {
         name: "Bruce Alan Markell",
         bio: null,
@@ -84103,6 +88527,7 @@ export const sections = {
   ],
   "23554": [
     {
+      unique_id: 191324,
       instructor: {
         name: "Daniel B Rodriguez",
         bio: null,
@@ -84126,6 +88551,7 @@ export const sections = {
   ],
   "23555": [
     {
+      unique_id: 191330,
       instructor: {
         name: "Meredith Martin Rountree",
         bio: null,
@@ -84149,6 +88575,7 @@ export const sections = {
   ],
   "23556": [
     {
+      unique_id: 191325,
       instructor: {
         name: "",
         bio: null,
@@ -84172,6 +88599,7 @@ export const sections = {
   ],
   "23557": [
     {
+      unique_id: 191331,
       instructor: {
         name: "Liisa Marie Thomas",
         bio: null,
@@ -84195,6 +88623,7 @@ export const sections = {
   ],
   "23561": [
     {
+      unique_id: 191336,
       instructor: {
         name: "",
         bio: null,
@@ -84218,6 +88647,7 @@ export const sections = {
   ],
   "23562": [
     {
+      unique_id: 191327,
       instructor: {
         name: "Jocelyn D Francoeur",
         bio: null,
@@ -84241,6 +88671,7 @@ export const sections = {
   ],
   "23572": [
     {
+      unique_id: 191343,
       instructor: {
         name: "",
         bio: null,
@@ -84259,6 +88690,7 @@ export const sections = {
   ],
   "23574": [
     {
+      unique_id: 191361,
       instructor: {
         name: "Carolyn E Frazier",
         bio: null,
@@ -84282,6 +88714,7 @@ export const sections = {
   ],
   "23587": [
     {
+      unique_id: 191387,
       instructor: {
         name: "Ronald J Allen",
         bio: null,
@@ -84305,6 +88738,7 @@ export const sections = {
   ],
   "23588": [
     {
+      unique_id: 191363,
       instructor: {
         name: "Erica Wilke Bova",
         bio: null,
@@ -84323,6 +88757,7 @@ export const sections = {
   ],
   "23589": [
     {
+      unique_id: 191364,
       instructor: {
         name: "Anil D Chaturvedi",
         bio: null,

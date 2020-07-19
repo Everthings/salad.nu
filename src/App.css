@@ -75,7 +75,7 @@
   display: none;
 }
 
-.course-card {
+.info-card {
   background: rgba(226, 231, 226, 0.5);
   border: 0.2rem solid #f6fdf4;
   border-radius: 10px;
@@ -83,15 +83,20 @@
   margin-bottom: 0.5rem;
 }
 
-.course-card:hover {
+.info-card:hover {
   border: 0.2rem solid #aed19e;
   border-radius: 10px;
 }
 
-.course-card hr {
+.info-card hr {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.section-card p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .schedule-card {
@@ -119,9 +124,15 @@
 
 .sections-list-header {
   margin-top: 1vh;
-  opacity: 0.65;
+  opacity: 0.75;
 }
 
 .sections-list-header hr {
   border-top: 4px dashed #aed19e;
+}
+
+.back-arrow {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }

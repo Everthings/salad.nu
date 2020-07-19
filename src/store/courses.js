@@ -28,6 +28,14 @@ const slice = createSlice({
       courses.list = filterdCourses;
       courses.loading = false;
     },
+    coursesRecievedFromStore: (courses, action) => {
+      const searchStr = action.payload.searchStr;
+      const filterdCourses = courses.list.filter((course) => {
+        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
+        return courseStr.includes(searchStr.toLowerCase());
+      });
+      courses.list = filterdCourses;
+    },
   },
 });
 
@@ -35,6 +43,7 @@ const {
   coursesRequested,
   coursesRequestFailed,
   coursesRecieved,
+  coursesRecievedFromStore,
 } = slice.actions;
 export default slice.reducer;
 
@@ -49,6 +58,10 @@ export const loadCourses = (searchStr) => (dispatch, getState) => {
       onSuccess: coursesRecieved.type,
     })
   );
+};
+
+export const loadCoursesFromStore = (searchStr) => {
+  return coursesRecievedFromStore({ searchStr });
 };
 
 // Selectors
