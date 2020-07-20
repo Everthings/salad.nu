@@ -58,10 +58,7 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   height: 25vh;
-}
-
-::-webkit-scrollbar {
-  display: none;
+  z-index: 0;
 }
 
 .info-card {
@@ -135,6 +132,22 @@
   margin-bottom: 0.5rem;
 }
 
-.modal-container {
-  height: 100%;
+.ReactModal__Content {
+  top: 20% !important;
+  left: 20% !important;
+  transform: translate(-10%, -10%) !important;
+  border-radius: 1rem !important;
+  border: 0.5rem solid purple !important;
+}
+
+.modal-buttons {
+}
+
+.modal-description-name {
+}
+
+.modal-description-desc {
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
 }

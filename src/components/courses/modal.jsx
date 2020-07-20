@@ -6,16 +6,8 @@ import {
   getSelectedSection,
   clearSelectedSection,
 } from "./../../store/slices/search";
-
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    borderRadius: "1rem",
-    border: "0.5rem solid purple",
-  },
-};
+import { getSection } from "../../store/slices/sections";
+import ModalBody from "./modalBody";
 
 Modal.setAppElement(document.getElementById("root"));
 
@@ -34,36 +26,31 @@ const CourseModal = () => {
     setIsOpen(false);
   }
 
-  const { sectionId: id } = useSelector(getSelectedSection);
+  const { sectionId: id, name } = useSelector(getSelectedSection);
+  const section = useSelector(getSection(id));
+
   if (id !== -1 && !modalIsOpen) openModal();
 
+  const handleAdd = () => {
+    addToast(`${name} Added!`, {
+      appearance: "success",
+      autoDismiss: true,
+    });
+  };
+
+  const handleExit = closeModal;
+
   return (
-    <Modal
-      isOpen={modalIsOpen}
-      onRequestClose={closeModal}
-      style={customStyles}
-    >
-      <div className="modal-container">
-        <h2>Hello</h2>
+    <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
+      {section && <ModalBody name={name} {...section} />}
+      <div className="modal-buttons">
+        <button className="btn btn-outline-secondary mr-3" onClick={handleExit}>
+          Exit
+        </button>
 
-        <p>I am a modal</p>
-        <div>
-          <button className="btn btn-secondary mr-2" onClick={closeModal}>
-            Exit
-          </button>
-
-          <button
-            className="btn btn-success"
-            onClick={() =>
-              addToast("Course added successfully!", {
-                appearance: "success",
-                autoDismiss: true,
-              })
-            }
-          >
-            Add
-          </button>
-        </div>
+        <button className="btn btn-outline-success" onClick={handleAdd}>
+          Add
+        </button>
       </div>
     </Modal>
   );

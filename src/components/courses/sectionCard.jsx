@@ -1,9 +1,10 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   updateSelectedSection,
   updateCurrentBuilding,
   clearCurrentBuilding,
+  getSelectedCourse,
 } from "./../../store/slices/search";
 
 const SectionCard = ({
@@ -26,13 +27,15 @@ const SectionCard = ({
     dispatch(clearCurrentBuilding());
   };
 
+  const { name: courseName } = useSelector(getSelectedCourse);
+
   return (
     <React.Fragment>
       <div
         className="card info-card section-card"
         onMouseEnter={handleEnter}
         onMouseLeave={handleLeave}
-        onClick={() => dispatch(updateSelectedSection(unique_id))}
+        onClick={() => dispatch(updateSelectedSection(unique_id, courseName))}
       >
         <div className="card-body">
           <h5 className="card-title">{section}</h5>

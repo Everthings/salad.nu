@@ -3,7 +3,7 @@ import { createSelector } from "reselect";
 import * as apiActions from "../api";
 
 const defaultSelectedCourse = { id: -1, name: "" };
-const defaultSelectedSection = { sectionId: -1 };
+const defaultSelectedSection = { sectionId: -1, name: "" };
 const defaultBuilding = { lat: -360, lon: -360 };
 
 // Reducers
@@ -28,6 +28,7 @@ const slice = createSlice({
     },
     updatedSelectedSection: (search, action) => {
       search.selectedSection.sectionId = action.payload.sectionId;
+      search.selectedSection.name = action.payload.name;
     },
     clearedSelectedSection: (search, action) => {
       search.selectedSection = defaultSelectedSection;
@@ -67,8 +68,8 @@ export const clearSelectedCourse = () => {
   return clearedSelectedCourse();
 };
 
-export const updateSelectedSection = (id) => {
-  return updatedSelectedSection({ sectionId: id });
+export const updateSelectedSection = (id, name) => {
+  return updatedSelectedSection({ sectionId: id, name });
 };
 
 export const clearSelectedSection = () => {
