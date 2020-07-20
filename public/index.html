@@ -37,6 +37,19 @@
     ></script>
 
     <title>salad.nu</title>
+
+    <!--
+      Redirect to https!
+    -->
+    <script>
+      const host = "www.salad.nu";
+      if (
+        host == window.location.host &&
+        window.location.protocol != "https:"
+      ) {
+        window.location.protocol = "https";
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
