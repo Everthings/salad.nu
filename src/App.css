@@ -134,3 +134,7 @@
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 }
+
+.modal-container {
+  height: 100%;
+}

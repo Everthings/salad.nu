@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "react-modal";
 import { useDispatch, useSelector } from "react-redux";
+import { useToasts } from "react-toast-notifications";
 import {
   getSelectedSection,
   clearSelectedSection,
@@ -11,6 +12,8 @@ const customStyles = {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
+    borderRadius: "1rem",
+    border: "0.5rem solid purple",
   },
 };
 
@@ -18,17 +21,12 @@ Modal.setAppElement(document.getElementById("root"));
 
 const CourseModal = () => {
   const dispatch = useDispatch();
+  const { addToast } = useToasts();
 
-  var subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal() {
     setIsOpen(true);
-  }
-
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    subtitle.style.color = "#f00";
   }
 
   function closeModal() {
@@ -42,13 +40,31 @@ const CourseModal = () => {
   return (
     <Modal
       isOpen={modalIsOpen}
-      onAfterOpen={afterOpenModal}
       onRequestClose={closeModal}
       style={customStyles}
     >
-      <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-      <div>I am a modal</div>
-      <button onClick={closeModal}>close</button>
+      <div className="modal-container">
+        <h2>Hello</h2>
+
+        <p>I am a modal</p>
+        <div>
+          <button className="btn btn-secondary mr-2" onClick={closeModal}>
+            Exit
+          </button>
+
+          <button
+            className="btn btn-success"
+            onClick={() =>
+              addToast("Course added successfully!", {
+                appearance: "success",
+                autoDismiss: true,
+              })
+            }
+          >
+            Add
+          </button>
+        </div>
+      </div>
     </Modal>
   );
 };
