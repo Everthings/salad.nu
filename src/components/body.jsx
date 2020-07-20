@@ -37,7 +37,7 @@ const Body = () => {
                   variant="pills"
                   className="mt-3 mb-3 justify-content-center"
                 >
-                  <Nav.Item>
+                  <Nav.Item className="mr-2">
                     <Nav.Link eventKey="courses">Courses</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
