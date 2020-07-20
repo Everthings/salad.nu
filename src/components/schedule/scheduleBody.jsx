@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 
 const times = [
   "8 am",
@@ -15,8 +16,15 @@ const times = [
 ];
 
 const ScheduleBody = () => {
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
+  let containerClass = "salad-container-schedule";
+  if (!bigScreen) containerClass += "-tabs";
+
   return (
-    <div className="salad-container-schedule">
+    <div className={containerClass}>
       <div className="container schedule-body">
         <div className="row">
           <div className="col-2"></div>

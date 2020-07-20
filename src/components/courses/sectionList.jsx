@@ -5,14 +5,22 @@ import { clearSelectedCourse } from "../../store/slices/search";
 import CardList from "./cardList";
 import SectionCard from "./sectionCard";
 import CourseModal from "./modal";
+import { useMediaQuery } from "react-responsive";
 
 const SectionList = ({ selectedCourse }) => {
   const dispatch = useDispatch();
 
   const sections = useSelector(getSections());
 
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
+  let containerClass = "salad-container-courses";
+  if (!bigScreen) containerClass += "-tabs";
+
   return (
-    <div className="salad-container-courses overflow-auto">
+    <div className={`${containerClass} overflow-auto `}>
       {
         <div className="sections-list-header">
           <button

@@ -9,7 +9,7 @@ const CampusMap = () => {
   const validLatLon = lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
   const nuLatLon = [42.055909, -87.672709];
 
-  const zoom = validLatLon ? 15.5 : 14;
+  const zoom = validLatLon ? 14 : 14; // no zoom change as it can be disorientating
   const position = validLatLon ? [lat, lon] : nuLatLon;
 
   return (
@@ -24,7 +24,7 @@ const CampusMap = () => {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
       />
-      {validLatLon && <Circle center={position} color="purple" radius={20} />}
+      {validLatLon && <Circle center={position} color="purple" radius={30} />}
     </Map>
   );
 };

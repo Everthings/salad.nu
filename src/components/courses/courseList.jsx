@@ -4,6 +4,7 @@ import CourseCard from "./courseCard";
 import { getCourses } from "../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
+import { useMediaQuery } from "react-responsive";
 
 const CourseList = ({ search }) => {
   const courses = useSelector(getCourses());
@@ -16,8 +17,15 @@ const CourseList = ({ search }) => {
   const shouldDisplaySections =
     search.length >= MIN_SEARCH_LENGTH && courses.length > 0;
 
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
+  let containerClass = "salad-container-courses";
+  if (!bigScreen) containerClass += "-tabs";
+
   return (
-    <div className="salad-container-courses overflow-auto">
+    <div className={`${containerClass} overflow-auto`}>
       {shouldContinueTyping && <center>Continue typing...</center>}
       {noResults && (
         <center>

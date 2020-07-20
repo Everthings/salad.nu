@@ -25,7 +25,6 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 0.75rem solid #dcf0da;
   border-radius: 1rem;
-  margin-top: 1.5rem;
 }
 
 .salad-container-courses {
@@ -41,6 +40,19 @@
   height: calc(75vh - 9rem);
 }
 
+.salad-container-courses-tabs {
+  background-color: #f6fdf4;
+  border-top: 0.25rem solid #f6fdf4;
+  border-bottom: 0.25rem solid #f6fdf4;
+  border-left: 0.75rem solid #f6fdf4;
+  border-right: 0.75rem solid #f6fdf4;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: calc(70vh - 9rem);
+}
+
 .salad-container-schedule {
   background-color: #f6fdf4;
   border-top: 0.25rem solid #f6fdf4;
@@ -51,6 +63,16 @@
   height: calc(100vh - 9rem);
 }
 
+.salad-container-schedule-tabs {
+  background-color: #f6fdf4;
+  border-top: 0.25rem solid #f6fdf4;
+  border-bottom: 0.25rem solid #f6fdf4;
+  border-left: 0.75rem solid #f6fdf4;
+  border-right: 0.75rem solid #f6fdf4;
+  border-radius: 1rem;
+  height: calc(95vh - 9rem);
+}
+
 .salad-container-maps {
   background-color: #94128dd8;
   border-top-left-radius: 0px;
@@ -58,6 +80,7 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   height: 25vh;
+  width: 100%;
   z-index: 0;
 }
 
@@ -150,4 +173,18 @@
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 6px;
   padding: 0.2em 0.4em;
+}
+
+.nav-link {
+  color: #7ecc86 !important;
+  background-color: #ffffff !important;
+}
+
+.nav-link.active {
+  color: #ffffff !important;
+  background-color: #7ecc86 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
