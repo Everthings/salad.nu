@@ -29,11 +29,20 @@ const slice = createSlice({
       courses.loading = false;
     },
     coursesRecievedFromStore: (courses, action) => {
-      const searchStr = action.payload.searchStr;
-      const filterdCourses = courses.list.filter((course) => {
-        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
-        return courseStr.includes(searchStr.toLowerCase());
-      });
+      const searchStr = action.payload.searchStr.toLowerCase();
+      const filterdCoursesName = [];
+      const filterdCoursesTitle = [];
+      for (const course of courses.list) {
+        const courseName = `${course.subject} ${course.number}`.toLowerCase();
+        const courseTitle = `${course.title}`.toLowerCase();
+
+        if (courseName.includes(searchStr)) {
+          filterdCoursesName.push(course);
+        } else if (courseTitle.includes(searchStr)) {
+          filterdCoursesTitle.push(course);
+        }
+      }
+      const filterdCourses = [...filterdCoursesName, ...filterdCoursesTitle];
       courses.list = filterdCourses;
     },
   },
