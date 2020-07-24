@@ -6,7 +6,7 @@ import {
   clearCurrentBuilding,
   getSelectedCourse,
 } from "./../../store/slices/search";
-import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
+import { getScheduledCourses } from "./../../store/slices/schedule";
 
 const SectionCard = ({
   unique_id,

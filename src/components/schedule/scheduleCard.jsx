@@ -6,15 +6,22 @@ import {
   getHoveredCourse,
 } from "../../store/slices/search";
 import { clearHoveredCourse } from "./../../store/slices/search";
+import { useToasts } from "react-toast-notifications";
 
 const ScheduleCard = ({ data, style, color }) => {
   const dispatch = useDispatch();
+  const { addToast } = useToasts();
 
   const { id } = useSelector(getHoveredCourse);
   const showDelete = data.unique_id === id;
 
   const handleClick = () => {
     dispatch(removeCourse(data.unique_id));
+
+    addToast(`${data.name} Removed!`, {
+      appearance: "error",
+      autoDismiss: true,
+    });
   };
 
   const handleMouseEnter = () => {

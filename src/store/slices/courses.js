@@ -20,7 +20,7 @@ const slice = createSlice({
     },
     coursesRecieved: (courses, action) => {
       const reponse = action.payload.data;
-      const searchStr = action.payload.searchStr;
+      const searchStr = action.payload.searchStr.toLowerCase();
       const filterdCoursesName = [];
       const filterdCoursesTitle = [];
       for (const course of reponse) {
