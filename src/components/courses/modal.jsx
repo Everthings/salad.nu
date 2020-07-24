@@ -6,7 +6,8 @@ import {
   getSelectedSection,
   clearSelectedSection,
 } from "./../../store/slices/search";
-import { getSection } from "../../store/slices/sections";
+import { getSection } from "./../../store/slices/sections";
+import { addCourse } from "./../../store/slices/schedule";
 import ModalBody from "./modalBody";
 
 Modal.setAppElement(document.getElementById("root"));
@@ -32,6 +33,11 @@ const CourseModal = () => {
   if (id !== -1 && !modalIsOpen) openModal();
 
   const handleAdd = () => {
+    const sectionDetails = { name, ...section };
+    dispatch(addCourse(sectionDetails));
+
+    closeModal();
+
     addToast(`${name} Added!`, {
       appearance: "success",
       autoDismiss: true,

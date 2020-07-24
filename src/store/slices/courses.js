@@ -21,18 +21,9 @@ const slice = createSlice({
     coursesRecieved: (courses, action) => {
       const reponse = action.payload.data;
       const searchStr = action.payload.searchStr;
-      const filterdCourses = reponse.filter((course) => {
-        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
-        return courseStr.includes(searchStr.toLowerCase());
-      });
-      courses.list = filterdCourses;
-      courses.loading = false;
-    },
-    coursesRecievedFromStore: (courses, action) => {
-      const searchStr = action.payload.searchStr.toLowerCase();
       const filterdCoursesName = [];
       const filterdCoursesTitle = [];
-      for (const course of courses.list) {
+      for (const course of reponse) {
         const courseName = `${course.subject} ${course.number}`.toLowerCase();
         const courseTitle = `${course.title}`.toLowerCase();
 
@@ -43,6 +34,15 @@ const slice = createSlice({
         }
       }
       const filterdCourses = [...filterdCoursesName, ...filterdCoursesTitle];
+      courses.list = filterdCourses;
+      courses.loading = false;
+    },
+    coursesRecievedFromStore: (courses, action) => {
+      const searchStr = action.payload.searchStr.toLowerCase();
+      const filterdCourses = courses.list.filter((course) => {
+        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
+        return courseStr.includes(searchStr.toLowerCase());
+      });
       courses.list = filterdCourses;
     },
   },

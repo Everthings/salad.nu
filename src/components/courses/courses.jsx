@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import { getSearch, getSelectedCourse } from "../../store/slices/search";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
-import CampusMap from "./campusMap";
 
 const Courses = () => {
   const search = useSelector(getSearch);
@@ -12,14 +11,13 @@ const Courses = () => {
   const courseSelected = selectedCourse.id !== -1;
 
   return (
-    <div className="salad-container-outer">
+    <React.Fragment>
       {courseSelected ? (
         <SectionList search={search} selectedCourse={selectedCourse} />
       ) : (
         <CourseList search={search} selectedCourse={selectedCourse} />
       )}
-      <CampusMap />
-    </div>
+    </React.Fragment>
   );
 };
 

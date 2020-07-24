@@ -109,16 +109,16 @@
 }
 
 .schedule-card {
-  background: rgba(226, 231, 226, 0.5);
+  background: rgb(232, 245, 232);
   border: none;
   border-left: 7px solid;
   border-radius: 10px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  height: 100%;
+  width: 100%;
 }
 
 .schedule-card p {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   margin: 0px;
 }
 
@@ -126,18 +126,52 @@
   height: 100%;
 }
 
-.schedule-body .schedule-divider {
-  height: calc(9.5% - 0.25rem);
-}
-
-.schedule-body .schedule-divider hr {
-  border: 0.75px dashed #000000;
-  opacity: 0.25;
-}
-
-.schedule-body .schedule-text {
+.schedule-body .hour-text {
   text-align: right;
-  width: 3rem;
+  margin: 0;
+}
+
+.schedule-body .hour-cell {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px dashed rgb(226, 231, 226);
+  position: relative;
+}
+
+.hour-cell p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.schedule-body .days-col {
+  margin-bottom: 0.6rem;
+  padding: 0;
+  width: 100%;
+}
+
+.schedule-body .hours-col {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  flex: 0 0 3rem;
+}
+
+.class-placeholder {
+  width: 100%;
+}
+
+.schedule-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.schedule-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sections-list-header {
@@ -161,6 +195,10 @@
   transform: translate(-10%, -10%) !important;
   border-radius: 1rem !important;
   border: 0.5rem solid purple !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 3 !important;
 }
 
 .modal-buttons {
@@ -187,4 +225,9 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
 }

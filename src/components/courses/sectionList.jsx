@@ -5,28 +5,21 @@ import { clearSelectedCourse } from "../../store/slices/search";
 import CardList from "./cardList";
 import SectionCard from "./sectionCard";
 import CourseModal from "./modal";
-import { useMediaQuery } from "react-responsive";
 
 const SectionList = ({ selectedCourse }) => {
   const dispatch = useDispatch();
 
   const sections = useSelector(getSections());
 
-  const bigScreen = useMediaQuery({
-    query: "(min-width: 992px)",
-  });
-
-  let containerClass = "salad-container-courses";
-  if (!bigScreen) containerClass += "-tabs";
+  const handleClick = () => {
+    dispatch(clearSelectedCourse());
+  };
 
   return (
-    <div className={`${containerClass} overflow-auto `}>
+    <div className="salad-container-courses overflow-auto">
       {
         <div className="sections-list-header">
-          <button
-            className="btn btn-danger back-btn"
-            onClick={() => dispatch(clearSelectedCourse())}
-          >
+          <button className="btn btn-danger back-btn" onClick={handleClick}>
             Back
           </button>
           <h4>
