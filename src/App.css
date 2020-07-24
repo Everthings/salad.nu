@@ -117,13 +117,31 @@
   width: 100%;
 }
 
+.schedule-card-body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .schedule-card p {
   font-size: 0.75rem;
   margin: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.schedule-card .schedule-x-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 8pt;
 }
 
 .schedule-body {
   height: 100%;
+  width: 100%;
 }
 
 .schedule-body .hour-text {

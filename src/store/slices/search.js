@@ -5,6 +5,7 @@ import * as apiActions from "../api";
 const defaultSelectedCourse = { id: -1, name: "" };
 const defaultSelectedSection = { sectionId: -1, name: "" };
 const defaultBuilding = { lat: -360, lon: -360 };
+const defaultHovered = { id: -1 };
 
 // Reducers
 const slice = createSlice({
@@ -14,6 +15,7 @@ const slice = createSlice({
     selectedCourse: defaultSelectedCourse,
     selectedSection: defaultSelectedSection,
     currentBuilding: defaultBuilding,
+    hoveredScheduledCourse: defaultHovered,
   },
   reducers: {
     updatedSearch: (search, action) => {
@@ -41,6 +43,12 @@ const slice = createSlice({
     clearedCurrentBuilding: (search, action) => {
       search.currentBuilding = defaultBuilding;
     },
+    updatedHoveredCourse: (search, action) => {
+      search.hoveredScheduledCourse.id = action.payload.id;
+    },
+    clearedHoveredCourse: (search, action) => {
+      search.hoveredScheduledCourse = defaultHovered;
+    },
   },
 });
 
@@ -52,6 +60,8 @@ const {
   clearedSelectedSection,
   updatedCurrentBuilding,
   clearedCurrentBuilding,
+  updatedHoveredCourse,
+  clearedHoveredCourse,
 } = slice.actions;
 export default slice.reducer;
 
@@ -91,6 +101,14 @@ export const clearCurrentBuilding = () => {
   return clearedCurrentBuilding();
 };
 
+export const updateHoveredCourse = (id) => {
+  return updatedHoveredCourse({ id });
+};
+
+export const clearHoveredCourse = () => {
+  return clearedHoveredCourse();
+};
+
 // Selectors
 export const getSearch = createSelector(
   (state) => state.entities.search,
@@ -110,4 +128,9 @@ export const getSelectedSection = createSelector(
 export const getCurrentBuilding = createSelector(
   (state) => state.entities.search,
   (search) => search.currentBuilding
+);
+
+export const getHoveredCourse = createSelector(
+  (state) => state.entities.search,
+  (search) => search.hoveredScheduledCourse
 );
