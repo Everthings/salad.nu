@@ -5,7 +5,8 @@ import * as apiActions from "../api";
 const defaultSelectedCourse = { id: -1 };
 const defaultSelectedSection = { id: -1 };
 const defaultBuilding = { lat: -360, lon: -360 };
-const defaultHovered = { id: -1 };
+const defaultHoveredCourse = { id: -1 };
+const defaultHoveredSection = { id: -1 };
 
 // Reducers
 const slice = createSlice({
@@ -15,7 +16,8 @@ const slice = createSlice({
     selectedCourse: defaultSelectedCourse,
     selectedSection: defaultSelectedSection,
     currentBuilding: defaultBuilding,
-    hoveredScheduledCourse: defaultHovered,
+    hoveredScheduledCourse: defaultHoveredCourse,
+    hoveredSection: defaultHoveredSection,
   },
   reducers: {
     updatedSearch: (search, action) => {
@@ -46,7 +48,13 @@ const slice = createSlice({
       search.hoveredScheduledCourse.id = action.payload.id;
     },
     clearedHoveredCourse: (search, action) => {
-      search.hoveredScheduledCourse = defaultHovered;
+      search.hoveredScheduledCourse = defaultHoveredCourse;
+    },
+    updatedHoveredSection: (search, action) => {
+      search.hoveredSection.id = action.payload.id;
+    },
+    clearedHoveredSection: (search, action) => {
+      search.hoveredSection = defaultHoveredSection;
     },
   },
 });
@@ -61,6 +69,8 @@ const {
   clearedCurrentBuilding,
   updatedHoveredCourse,
   clearedHoveredCourse,
+  updatedHoveredSection,
+  clearedHoveredSection,
 } = slice.actions;
 export default slice.reducer;
 
@@ -108,6 +118,14 @@ export const clearHoveredCourse = () => {
   return clearedHoveredCourse();
 };
 
+export const updateHoveredSection = (id) => {
+  return updatedHoveredSection({ id });
+};
+
+export const clearHoveredSection = () => {
+  return clearedHoveredSection();
+};
+
 // Selectors
 export const getSearch = createSelector(
   (state) => state.entities.search,
@@ -132,4 +150,9 @@ export const getCurrentBuilding = createSelector(
 export const getHoveredCourse = createSelector(
   (state) => state.entities.search,
   (search) => search.hoveredScheduledCourse
+);
+
+export const getHoveredSection = createSelector(
+  (state) => state.entities.search,
+  (search) => search.hoveredSection
 );

@@ -10,6 +10,8 @@ import {
   getCollisionColumns,
   applyStyles,
 } from "../../utils/layoutUtils";
+import { getHoveredSection } from "../../store/slices/search";
+import { getSections } from "../../store/slices/sections";
 
 const days = ["Mo", "Tu", "We", "Th", "Fr"];
 
@@ -36,8 +38,17 @@ const ScheduleContents = styled.div`
 
 const ScheduleBody = () => {
   const courses = useSelector(getScheduledCourses);
-  const dayBins = binCoursesToDays(courses, days, hours);
 
+  const { id } = useSelector(getHoveredSection);
+  const sections = useSelector(getSections);
+  const section = sections.find((section) => section.unique_id === id);
+
+  const coursesCpy = [...courses];
+  if (section && section["start_time"] && section["end_time"]) {
+    coursesCpy.push({ temp: true, ...section });
+  }
+
+  const dayBins = binCoursesToDays(coursesCpy, days, hours);
   for (const day of days) {
     const groups = getCollisionGroups(dayBins[day]);
     const columns = getCollisionColumns(groups);

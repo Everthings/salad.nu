@@ -133,9 +133,9 @@ const applyStyles = (collisionColumns) => {
 
         course.style = {
           position: "absolute",
-          top: `${offset}%`,
+          top: `calc(${offset}% - 1px)`,
           left: `${leftOffset}%`,
-          height: `${height}%`,
+          height: `calc(${height}% + ${height}/100 * 2px)`,
           width: `${width}%`,
           zIndex: 1,
         };

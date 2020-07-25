@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getCourses } from "../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
-import { updateSelectedCourse } from "./../../store/slices/search";
+import { getSearch, updateSelectedCourse } from "./../../store/slices/search";
 import { loadSections } from "../../store/slices/sections";
 
 const CoursesContainer = styled.div`
@@ -21,9 +21,11 @@ const CoursesContainer = styled.div`
   overflow: auto;
 `;
 
-const CourseList = ({ search }) => {
+const CourseList = () => {
   const dispatch = useDispatch();
   const courses = useSelector(getCourses());
+
+  const search = useSelector(getSearch);
 
   const shouldContinueTyping =
     search.length < MIN_SEARCH_LENGTH && search.length !== 0;

@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
+import { getName, getFullName } from "../../utils/courseUtils";
 import * as apiActions from "../api";
 
 // Reducers
@@ -24,7 +25,7 @@ const slice = createSlice({
       const filterdCoursesName = [];
       const filterdCoursesTitle = [];
       for (const course of reponse) {
-        const courseName = `${course.subject} ${course.number}`.toLowerCase();
+        const courseName = getName(course).toLowerCase();
         const courseTitle = `${course.title}`.toLowerCase();
 
         if (courseName.includes(searchStr)) {
@@ -40,7 +41,7 @@ const slice = createSlice({
     coursesRecievedFromStore: (courses, action) => {
       const searchStr = action.payload.searchStr.toLowerCase();
       const filterdCourses = courses.list.filter((course) => {
-        const courseStr = `${course.subject} ${course.number} ${course.title}`.toLowerCase();
+        const courseStr = getFullName(course).toLowerCase();
         return courseStr.includes(searchStr.toLowerCase());
       });
       courses.list = filterdCourses;

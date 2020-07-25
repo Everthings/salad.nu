@@ -5,13 +5,16 @@ import { removeCourse } from "../../store/slices/schedule";
 import {
   updateHoveredCourse,
   getHoveredCourse,
+  updateCurrentBuilding,
+  clearCurrentBuilding,
 } from "../../store/slices/search";
+import { getName } from "../../utils/courseUtils";
 import { clearHoveredCourse } from "./../../store/slices/search";
 import { useToasts } from "react-toast-notifications";
 
 const Card = styled.div`
-  background: rgb(232, 245, 232);
-  border: none;
+  background: rgb(237, 245, 239);
+  border: 1px solid;
   border-left: 7px solid;
   border-radius: 10px;
   height: 100%;
@@ -40,6 +43,7 @@ const Text = styled.p`
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 `;
 
 const ScheduleCard = ({ data, style, color }) => {
@@ -49,33 +53,43 @@ const ScheduleCard = ({ data, style, color }) => {
   const { id } = useSelector(getHoveredCourse);
   const showDelete = data.unique_id === id;
 
+  const name = getName(data);
+  const temp = data.temp;
+  const classes = temp ? "opaque" : "";
+
   const handleClick = () => {
     dispatch(removeCourse(data.unique_id));
+    dispatch(clearHoveredCourse());
 
-    addToast(`${data.name} Removed!`, {
+    addToast(`Removed ${name}`, {
       appearance: "error",
       autoDismiss: true,
     });
   };
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (room) => {
     dispatch(updateHoveredCourse(data.unique_id));
+
+    if (!room || !room.building_id) return;
+    dispatch(updateCurrentBuilding(room.building_id));
   };
 
   const handleMouseLeave = () => {
     dispatch(clearHoveredCourse());
+    dispatch(clearCurrentBuilding());
   };
 
   return (
     <Card
       style={{ ...style, borderColor: color }}
-      onMouseEnter={handleMouseEnter}
+      onMouseEnter={() => handleMouseEnter(data.room)}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
+      className={classes}
     >
       <CardBody>
         {showDelete && <Button>x</Button>}
-        <Text>{data.name}</Text>
+        <Text>{name}</Text>
       </CardBody>
     </Card>
   );

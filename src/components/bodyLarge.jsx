@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Courses from "./courses/courses";
 import Schedule from "./schedule/schedule";
-import CampusMap from "./courses/campusMap";
+import CampusMap from "./map/campusMap";
 
 const SaladContainer = styled.div`
   background-color: #dcf0da;

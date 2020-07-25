@@ -7,10 +7,14 @@ import {
   updateSelectedSection,
   updateCurrentBuilding,
   clearCurrentBuilding,
+  clearHoveredSection,
 } from "../../store/slices/search";
 import { getScheduledCourses } from "./../../store/slices/schedule";
 import CardList from "./cardList";
 import CourseModal from "./modal";
+import { updateHoveredSection } from "./../../store/slices/search";
+import { parseTime2Standard } from "./../../utils/parseUtils";
+import { getName } from "../../utils/courseUtils";
 
 const CoursesContainer = styled.div`
   background-color: #f6fdf4;
@@ -41,11 +45,13 @@ const Button = styled.button`
   margin-bottom: 0.5rem;
 `;
 
-const SectionList = ({ selectedCourse }) => {
+const SectionList = () => {
   const dispatch = useDispatch();
 
   const sections = useSelector(getSections);
   const scheduledCourses = useSelector(getScheduledCourses);
+
+  const name = sections.length > 0 ? getName(sections[0]) : "";
 
   const handleBackClick = () => {
     dispatch(clearSelectedCourse());
@@ -55,12 +61,14 @@ const SectionList = ({ selectedCourse }) => {
     dispatch(updateSelectedSection(unique_id));
   };
 
-  const handleMouseEnter = ({ room }) => {
+  const handleMouseEnter = ({ room, unique_id }) => {
+    dispatch(updateHoveredSection(unique_id));
     if (!room || !room.building_id) return;
     dispatch(updateCurrentBuilding(room.building_id));
   };
 
   const handleMouseLeave = () => {
+    dispatch(clearHoveredSection());
     dispatch(clearCurrentBuilding());
   };
 
@@ -70,17 +78,24 @@ const SectionList = ({ selectedCourse }) => {
     return "";
   };
   const meetingDaysFn = ({ meeting_days }) => meeting_days;
-  const meetingTimesFn = ({ start_time, end_time }) =>
-    `${start_time} - ${end_time}`;
+  const meetingTimesFn = ({ start_time, end_time }) => {
+    if (!start_time || !end_time) return "";
+
+    return `${parseTime2Standard(start_time)} - ${parseTime2Standard(
+      end_time
+    )}`;
+  };
   const roomFn = ({ room }) => {
     if (room) return `${room.building_name} ${room.name}`;
     return "";
   };
-  const disabledFn = ({ unique_id }) => {
+  const disabledFn = ({ unique_id, start_time, end_time }) => {
     const found = scheduledCourses.some(
       (course) => course.unique_id === unique_id
     );
-    return found;
+
+    const hasTimes = start_time && end_time;
+    return found || !hasTimes;
   };
 
   return (
@@ -91,7 +106,7 @@ const SectionList = ({ selectedCourse }) => {
             Back
           </Button>
           <h4>
-            <center>{selectedCourse.name}</center>
+            <center>{name}</center>
           </h4>
           <Line />
         </Header>
@@ -100,7 +115,7 @@ const SectionList = ({ selectedCourse }) => {
         list={sections}
         idKey={"unique_id"}
         titleFn={sectionFn}
-        textFns={[instructorFn, meetingDaysFn, meetingTimesFn, roomFn]}
+        textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn]}
         disabledFn={disabledFn}
         handleClick={handleClick}
         handleMouseEnter={handleMouseEnter}
