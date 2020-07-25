@@ -1,7 +1,7 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import Navbar from "./header/navbar";
 import salad_logo from "./../images/cover_green.png";
-import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
   const bigScreen = useMediaQuery({

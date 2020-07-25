@@ -12,8 +12,6 @@ const slice = createSlice({
       schdule.list.push(action.payload);
     },
     courseRemoved: (schdule, action) => {
-      console.log(schdule);
-      console.log(action);
       schdule.list = schdule.list.filter(
         (course) => course.unique_id !== action.payload
       );

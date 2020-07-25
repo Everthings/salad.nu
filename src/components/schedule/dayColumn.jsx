@@ -1,15 +1,47 @@
 import React from "react";
-import HourCell from "./hourCell";
+import styled from "styled-components";
+import ScheduleCard from "./scheduleCard";
+
+const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+  padding: 0;
+  width: 100%;
+`;
+
+const Cell = styled.div`
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px dashed rgb(226, 231, 226);
+  position: relative;
+`;
+
+const Text = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+`;
+
 const DayColumn = ({ day, hours, data }) => {
   return (
-    <div className="schedule-col days-col">
-      <div className="hour-cell">
-        <p>{day}</p>
-      </div>
+    <Column>
+      <Cell>
+        <Text>{day}</Text>
+      </Cell>
       {hours.map((hour) => {
-        return <HourCell key={hour} data={data[hour]} />;
+        return (
+          <Cell key={hour}>
+            {data[hour].map((course) => {
+              return <ScheduleCard key={course.data.unique_id} {...course} />;
+            })}
+          </Cell>
+        );
       })}
-    </div>
+    </Column>
   );
 };
 

@@ -1,11 +1,28 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import CourseCard from "./courseCard";
+import styled from "styled-components";
+import { useDispatch, useSelector } from "react-redux";
 import { getCourses } from "../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
+import { updateSelectedCourse } from "./../../store/slices/search";
+import { loadSections } from "../../store/slices/sections";
+
+const CoursesContainer = styled.div`
+  background-color: #f6fdf4;
+  border-top: 0.25rem solid #f6fdf4;
+  border-bottom: 0.25rem solid #f6fdf4;
+  border-left: 0.75rem solid #f6fdf4;
+  border-right: 0.75rem solid #f6fdf4;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: calc(75vh - 9rem);
+  overflow: auto;
+`;
 
 const CourseList = ({ search }) => {
+  const dispatch = useDispatch();
   const courses = useSelector(getCourses());
 
   const shouldContinueTyping =
@@ -16,8 +33,16 @@ const CourseList = ({ search }) => {
   const shouldDisplaySections =
     search.length >= MIN_SEARCH_LENGTH && courses.length > 0;
 
+  const handleClick = ({ course_id }) => {
+    dispatch(updateSelectedCourse(course_id));
+    dispatch(loadSections(course_id));
+  };
+
+  const titleFn = ({ subject, number }) => `${subject} ${number}`;
+  const nameFn = ({ title }) => title;
+
   return (
-    <div className="salad-container-courses overflow-auto">
+    <CoursesContainer>
       {shouldContinueTyping && <center>Continue typing...</center>}
       {noResults && (
         <center>
@@ -28,9 +53,15 @@ const CourseList = ({ search }) => {
         </center>
       )}
       {shouldDisplaySections && (
-        <CardList list={courses} Card={CourseCard} id={"unique_id"} />
+        <CardList
+          list={courses}
+          idKey={"unique_id"}
+          titleFn={titleFn}
+          textFns={[nameFn]}
+          handleClick={handleClick}
+        />
       )}
-    </div>
+    </CoursesContainer>
   );
 };
 

@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
 import * as apiActions from "../api";
 
-const defaultSelectedCourse = { id: -1, name: "" };
-const defaultSelectedSection = { sectionId: -1, name: "" };
+const defaultSelectedCourse = { id: -1 };
+const defaultSelectedSection = { id: -1 };
 const defaultBuilding = { lat: -360, lon: -360 };
 const defaultHovered = { id: -1 };
 
@@ -29,8 +29,7 @@ const slice = createSlice({
       search.selectedCourse = defaultSelectedCourse;
     },
     updatedSelectedSection: (search, action) => {
-      search.selectedSection.sectionId = action.payload.sectionId;
-      search.selectedSection.name = action.payload.name;
+      search.selectedSection = action.payload;
     },
     clearedSelectedSection: (search, action) => {
       search.selectedSection = defaultSelectedSection;
@@ -70,16 +69,16 @@ export const updateSearch = (searchStr) => {
   return updatedSearch({ searchStr });
 };
 
-export const updateSelectedCourse = (id, name) => {
-  return updatedSelectedCourse({ id, name });
+export const updateSelectedCourse = (id) => {
+  return updatedSelectedCourse({ id });
 };
 
 export const clearSelectedCourse = () => {
   return clearedSelectedCourse();
 };
 
-export const updateSelectedSection = (id, name) => {
-  return updatedSelectedSection({ sectionId: id, name });
+export const updateSelectedSection = (id) => {
+  return updatedSelectedSection({ id });
 };
 
 export const clearSelectedSection = () => {

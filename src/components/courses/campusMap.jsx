@@ -3,6 +3,17 @@ import { Map, Circle, TileLayer } from "react-leaflet";
 import { useSelector } from "react-redux";
 import { getCurrentBuilding } from "../../store/slices/search";
 
+const style = {
+  backgroundColor: "#94128dd8",
+  borderTopLeftRadius: "0px",
+  borderTopRightRadius: "0px",
+  borderBottomLeftRadius: "1rem",
+  borderBottomRightRadius: "1rem",
+  height: "25vh",
+  width: "100%",
+  zIndex: "0",
+};
+
 const CampusMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
 
@@ -18,7 +29,7 @@ const CampusMap = () => {
       zoom={zoom}
       attributionControl={false}
       zoomAnimationThreshold={10}
-      className="salad-container-maps"
+      style={style}
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

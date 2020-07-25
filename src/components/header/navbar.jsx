@@ -6,6 +6,19 @@ import SearchBar from "./searchBar";
 import { loadCourses, loadCoursesFromStore } from "../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import { updateSearch } from "../../store/slices/search";
+import styled from "styled-components";
+
+const Nav = styled.nav`
+  background-color: #dcf0da;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+`;
+
+const Logo = styled.img`
+  width: 8rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+`;
 
 const Navbar = ({ logo }) => {
   const dispatch = useDispatch();
@@ -26,16 +39,16 @@ const Navbar = ({ logo }) => {
   };
 
   return (
-    <nav className="navbar navbar-light my-navbar d-flex justify-content-start flex-row">
+    <Nav className="navbar navbar-light">
       {logo && (
         <div>
-          <img src={logo} className="logo" alt="Logo" />
+          <Logo src={logo} alt="Logo" />
         </div>
       )}
       <div className="flex-fill">
         <SearchBar handleChange={handleChange} />
       </div>
-    </nav>
+    </Nav>
   );
 };
 

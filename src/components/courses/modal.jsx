@@ -12,6 +12,20 @@ import ModalBody from "./modalBody";
 
 Modal.setAppElement(document.getElementById("root"));
 
+const style = {
+  content: {
+    top: "20%",
+    left: "20%",
+    transform: "translate(-10%, -10%)",
+    borderRadius: "1rem",
+    border: "0.5rem solid purple",
+  },
+
+  overlay: {
+    zIndex: "3",
+  },
+};
+
 const CourseModal = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();
@@ -27,8 +41,10 @@ const CourseModal = () => {
     setIsOpen(false);
   }
 
-  const { sectionId: id, name } = useSelector(getSelectedSection);
+  const { id } = useSelector(getSelectedSection);
   const section = useSelector(getSection(id));
+  let name = "";
+  if (section) name = `${section.subject} ${section.number}`;
 
   if (id !== -1 && !modalIsOpen) openModal();
 
@@ -47,9 +63,9 @@ const CourseModal = () => {
   const handleExit = closeModal;
 
   return (
-    <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
+    <Modal style={style} isOpen={modalIsOpen} onRequestClose={closeModal}>
       {section && <ModalBody name={name} {...section} />}
-      <div className="modal-buttons">
+      <div>
         <button className="btn btn-outline-secondary mr-3" onClick={handleExit}>
           Exit
         </button>

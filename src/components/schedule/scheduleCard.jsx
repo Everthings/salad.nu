@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { removeCourse } from "../../store/slices/schedule";
 import {
@@ -7,6 +8,39 @@ import {
 } from "../../store/slices/search";
 import { clearHoveredCourse } from "./../../store/slices/search";
 import { useToasts } from "react-toast-notifications";
+
+const Card = styled.div`
+  background: rgb(232, 245, 232);
+  border: none;
+  border-left: 7px solid;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+`;
+
+const CardBody = styled.div`
+  height: 100%;
+  width: 100%;
+  position: relative;
+`;
+
+const Button = styled.button`
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 10pt;
+`;
+
+const Text = styled.p`
+  font-size: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+`;
 
 const ScheduleCard = ({ data, style, color }) => {
   const dispatch = useDispatch();
@@ -33,18 +67,17 @@ const ScheduleCard = ({ data, style, color }) => {
   };
 
   return (
-    <div
-      className="card text-center schedule-card"
+    <Card
       style={{ ...style, borderColor: color }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
-      <div className="schedule-card-body">
-        {showDelete && <button className="schedule-x-button">x</button>}
-        <p className="card-title">{data.name}</p>
-      </div>
-    </div>
+      <CardBody>
+        {showDelete && <Button>x</Button>}
+        <Text>{data.name}</Text>
+      </CardBody>
+    </Card>
   );
 };
 

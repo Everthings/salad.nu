@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useMediaQuery } from "react-responsive";
 import BodyLarge from "./bodyLarge";
 import BodySmall from "./bodySmall";
@@ -10,10 +9,10 @@ const Body = () => {
   });
 
   return (
-    <div>
+    <React.Fragment>
       {bigScreen && <BodyLarge />}
       {!bigScreen && <BodySmall />}
-    </div>
+    </React.Fragment>
   );
 };
 
