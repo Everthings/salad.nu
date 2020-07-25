@@ -7,6 +7,7 @@ const Card = styled.div`
   border-radius: 10px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  width: 100%;
 
   :hover {
     border: 0.2rem solid #aed19e;
@@ -29,14 +30,30 @@ const Text = styled.p`
   margin-block-end: 0px;
 `;
 
+const Button = styled.button`
+  margin-top: 0.5rem;
+  margin-left: 0;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  background-color: #e4edea;
+`;
+
 const InfoCard = ({
   title,
   handleClick,
   handleMouseEnter,
   handleMouseLeave,
   info,
+  moreInfoClick,
   disabled,
 }) => {
+  const handleMoreInfoClick = (e) => {
+    e.stopPropagation();
+    moreInfoClick();
+  };
+
   return (
     <Card
       onMouseEnter={handleMouseEnter}
@@ -50,6 +67,9 @@ const InfoCard = ({
         {info.map((text) => {
           return <Text key={text}>{text}</Text>;
         })}
+        {moreInfoClick && (
+          <Button onClick={handleMoreInfoClick}>More Info</Button>
+        )}
       </div>
     </Card>
   );

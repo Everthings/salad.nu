@@ -10,6 +10,8 @@ const CardList = ({
   handleClick,
   handleMouseEnter,
   handleMouseLeave,
+  showMoreInfoFn,
+  moreInfoClick,
 }) => {
   return (
     <React.Fragment>
@@ -34,6 +36,12 @@ const CardList = ({
               handleMouseLeave && (() => handleMouseLeave(data))
             }
             info={info}
+            moreInfoClick={
+              moreInfoClick &&
+              showMoreInfoFn &&
+              showMoreInfoFn(data) &&
+              (() => moreInfoClick(data))
+            }
             disabled={disabled}
           />
         );

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
+import { useToasts } from "react-toast-notifications";
 import { getSections } from "../../store/slices/sections";
 import {
   clearSelectedCourse,
@@ -8,8 +9,9 @@ import {
   updateCurrentBuilding,
   clearCurrentBuilding,
   clearHoveredSection,
+  clearSelectedSection,
 } from "../../store/slices/search";
-import { getScheduledCourses } from "./../../store/slices/schedule";
+import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
 import CardList from "./cardList";
 import CourseModal from "./modal";
 import { updateHoveredSection } from "./../../store/slices/search";
@@ -47,6 +49,7 @@ const Button = styled.button`
 
 const SectionList = () => {
   const dispatch = useDispatch();
+  const { addToast } = useToasts();
 
   const sections = useSelector(getSections);
   const scheduledCourses = useSelector(getScheduledCourses);
@@ -55,10 +58,6 @@ const SectionList = () => {
 
   const handleBackClick = () => {
     dispatch(clearSelectedCourse());
-  };
-
-  const handleClick = ({ unique_id }) => {
-    dispatch(updateSelectedSection(unique_id));
   };
 
   const handleMouseEnter = ({ room, unique_id }) => {
@@ -70,6 +69,16 @@ const SectionList = () => {
   const handleMouseLeave = () => {
     dispatch(clearHoveredSection());
     dispatch(clearCurrentBuilding());
+  };
+
+  const handleClick = (section) => {
+    dispatch(clearSelectedSection());
+    dispatch(clearHoveredSection());
+    dispatch(addCourse(section));
+    addToast(`Added ${name}`, {
+      appearance: "success",
+      autoDismiss: true,
+    });
   };
 
   const sectionFn = ({ section }) => section;
@@ -98,6 +107,13 @@ const SectionList = () => {
     return found || !hasTimes;
   };
 
+  const showMoreInfo = ({ course_descriptions }) =>
+    course_descriptions.length > 0;
+
+  const moreInfoClick = ({ unique_id }) => {
+    dispatch(updateSelectedSection(unique_id));
+  };
+
   return (
     <CoursesContainer>
       {
@@ -120,6 +136,8 @@ const SectionList = () => {
         handleClick={handleClick}
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
+        showMoreInfoFn={showMoreInfo}
+        moreInfoClick={moreInfoClick}
       />
       <CourseModal />
     </CoursesContainer>

@@ -1,13 +1,11 @@
 import React from "react";
 import Modal from "react-modal";
 import { useDispatch, useSelector } from "react-redux";
-import { useToasts } from "react-toast-notifications";
 import {
   getSelectedSection,
   clearSelectedSection,
 } from "./../../store/slices/search";
 import { getSection } from "./../../store/slices/sections";
-import { addCourse } from "./../../store/slices/schedule";
 import { getName } from "../../utils/courseUtils";
 import ModalBody from "./modalBody";
 
@@ -29,7 +27,6 @@ const style = {
 
 const CourseModal = () => {
   const dispatch = useDispatch();
-  const { addToast } = useToasts();
 
   const { id } = useSelector(getSelectedSection);
   const section = useSelector(getSection(id));
@@ -40,15 +37,6 @@ const CourseModal = () => {
     isOpen = true;
   }
 
-  const handleAdd = () => {
-    dispatch(addCourse(section));
-    handleExit();
-    addToast(`Added ${name}`, {
-      appearance: "success",
-      autoDismiss: true,
-    });
-  };
-
   const handleExit = () => {
     dispatch(clearSelectedSection());
   };
@@ -57,12 +45,8 @@ const CourseModal = () => {
     <Modal style={style} isOpen={isOpen}>
       {section && <ModalBody name={name} {...section} />}
       <div>
-        <button className="btn btn-outline-secondary mr-3" onClick={handleExit}>
+        <button className="btn btn-outline-secondary" onClick={handleExit}>
           Exit
-        </button>
-
-        <button className="btn btn-outline-success" onClick={handleAdd}>
-          Add
         </button>
       </div>
     </Modal>
