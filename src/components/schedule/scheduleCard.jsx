@@ -47,6 +47,7 @@ const Text = styled.p`
   transform: translate(-50%, -50%);
   text-align: center;
   width: 80%;
+  overflow: auto;
 `;
 
 const ScheduleCard = ({ data, style, color }) => {

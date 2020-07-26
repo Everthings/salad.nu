@@ -39,6 +39,14 @@ const Button = styled.button`
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem;
   background-color: #e4edea;
+
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+  :hover {
+    background-color: #c1d6cf;
+  }
 `;
 
 const InfoCard = ({

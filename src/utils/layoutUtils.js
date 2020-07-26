@@ -1,13 +1,6 @@
 import { parseTime, parseTime2Seconds } from "./parseUtils";
-import { randomColor } from "randomcolor";
-
-const numColors = 100;
-const randomSeed = Math.floor(Math.random() * numColors);
-const colors = randomColor({
-  luminosity: "light",
-  seed: randomSeed,
-  count: numColors,
-});
+import { getColor } from "./colorUtils";
+import { getName } from "./courseUtils";
 
 const isOverlapping = (c1, c2) => {
   const c1End = parseTime2Seconds(c1.data.end_time);
@@ -34,12 +27,11 @@ const binCoursesToDays = (courses, days, hours) => {
     }
   }
 
-  let i = 0;
   for (const course of courses) {
     const { meeting_days, start_time } = course;
     const meetingDays = meeting_days.split(/(?=[A-Z])/);
     const { hour } = parseTime(start_time);
-    const color = colors[i++ % numColors];
+    const color = getColor(getName(course));
 
     for (const day of meetingDays) {
       bins[day][hour].push({ data: course, color });
