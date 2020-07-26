@@ -144,9 +144,16 @@ const applyStyles = (collisionColumns) => {
   }
 };
 
-export {
-  binCoursesToDays,
-  getCollisionGroups,
-  getCollisionColumns,
-  applyStyles,
+const binAndStyle = (courses, days, hours) => {
+  const dayBins = binCoursesToDays(courses, days, hours);
+
+  for (const day of days) {
+    const groups = getCollisionGroups(dayBins[day]);
+    const columns = getCollisionColumns(groups);
+    applyStyles(columns);
+  }
+
+  return dayBins;
 };
+
+export { binAndStyle };

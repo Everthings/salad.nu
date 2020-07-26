@@ -7,6 +7,7 @@ import {
   getHoveredCourse,
   updateCurrentBuilding,
   clearCurrentBuilding,
+  updateSelectedSection,
 } from "../../store/slices/search";
 import { getName } from "../../utils/courseUtils";
 import { clearHoveredCourse } from "./../../store/slices/search";
@@ -19,6 +20,7 @@ const Card = styled.div`
   border-radius: 10px;
   height: 100%;
   width: 100%;
+  cursor: pointer;
 `;
 
 const CardBody = styled.div`
@@ -34,6 +36,7 @@ const Button = styled.button`
   border: 0;
   background-color: rgba(0, 0, 0, 0);
   font-size: 10pt;
+  z-index: 1;
 `;
 
 const Text = styled.p`
@@ -43,7 +46,7 @@ const Text = styled.p`
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
+  width: 80%;
 `;
 
 const ScheduleCard = ({ data, style, color }) => {
@@ -57,7 +60,9 @@ const ScheduleCard = ({ data, style, color }) => {
   const temp = data.temp;
   const classes = temp ? "opaque" : "";
 
-  const handleClick = () => {
+  const handleXClick = (e) => {
+    e.stopPropagation();
+
     dispatch(removeCourse(data.unique_id));
     dispatch(clearHoveredCourse());
 
@@ -65,6 +70,10 @@ const ScheduleCard = ({ data, style, color }) => {
       appearance: "error",
       autoDismiss: true,
     });
+  };
+
+  const handleClick = () => {
+    dispatch(updateSelectedSection(data));
   };
 
   const handleMouseEnter = (room) => {
@@ -88,7 +97,7 @@ const ScheduleCard = ({ data, style, color }) => {
       className={classes}
     >
       <CardBody>
-        {showDelete && <Button>x</Button>}
+        {showDelete && <Button onClick={handleXClick}>x</Button>}
         <Text>{name}</Text>
       </CardBody>
     </Card>

@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   getSelectedSection,
   clearSelectedSection,
-} from "./../../store/slices/search";
-import { getSection } from "./../../store/slices/sections";
+} from "../../store/slices/search";
 import { getName } from "../../utils/courseUtils";
 import ModalBody from "./modalBody";
 
@@ -28,8 +27,7 @@ const style = {
 const CourseModal = () => {
   const dispatch = useDispatch();
 
-  const { id } = useSelector(getSelectedSection);
-  const section = useSelector(getSection(id));
+  const { info: section } = useSelector(getSelectedSection);
   let name = "";
   let isOpen = false;
   if (section) {
@@ -42,7 +40,7 @@ const CourseModal = () => {
   };
 
   return (
-    <Modal style={style} isOpen={isOpen}>
+    <Modal style={style} isOpen={isOpen} onRequestClose={handleExit}>
       {section && <ModalBody name={name} {...section} />}
       <div>
         <button className="btn btn-outline-secondary" onClick={handleExit}>

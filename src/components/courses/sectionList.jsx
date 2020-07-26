@@ -12,11 +12,10 @@ import {
   clearSelectedSection,
 } from "../../store/slices/search";
 import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
-import CardList from "./cardList";
-import CourseModal from "./modal";
 import { updateHoveredSection } from "./../../store/slices/search";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "../../utils/courseUtils";
+import CardList from "./cardList";
 
 const CoursesContainer = styled.div`
   background-color: #f6fdf4;
@@ -110,8 +109,8 @@ const SectionList = () => {
   const showMoreInfo = ({ course_descriptions }) =>
     course_descriptions.length > 0;
 
-  const moreInfoClick = ({ unique_id }) => {
-    dispatch(updateSelectedSection(unique_id));
+  const moreInfoClick = (sectionInfo) => {
+    dispatch(updateSelectedSection(sectionInfo));
   };
 
   return (
@@ -139,7 +138,6 @@ const SectionList = () => {
         showMoreInfoFn={showMoreInfo}
         moreInfoClick={moreInfoClick}
       />
-      <CourseModal />
     </CoursesContainer>
   );
 };

@@ -3,7 +3,7 @@ import { createSelector } from "reselect";
 import * as apiActions from "../api";
 
 const defaultSelectedCourse = { id: -1 };
-const defaultSelectedSection = { id: -1 };
+const defaultSelectedSection = { info: null };
 const defaultBuilding = { lat: -360, lon: -360 };
 const defaultHoveredCourse = { id: -1 };
 const defaultHoveredSection = { id: -1 };
@@ -24,8 +24,7 @@ const slice = createSlice({
       search.searchStr = action.payload.searchStr;
     },
     updatedSelectedCourse: (search, action) => {
-      search.selectedCourse.id = action.payload.id;
-      search.selectedCourse.name = action.payload.name;
+      search.selectedCourse = action.payload;
     },
     clearedSelectedCourse: (search, action) => {
       search.selectedCourse = defaultSelectedCourse;
@@ -87,8 +86,8 @@ export const clearSelectedCourse = () => {
   return clearedSelectedCourse();
 };
 
-export const updateSelectedSection = (id) => {
-  return updatedSelectedSection({ id });
+export const updateSelectedSection = (info) => {
+  return updatedSelectedSection({ info });
 };
 
 export const clearSelectedSection = () => {

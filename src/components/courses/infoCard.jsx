@@ -8,6 +8,7 @@ const Card = styled.div`
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   width: 100%;
+  cursor: pointer;
 
   :hover {
     border: 0.2rem solid #aed19e;
