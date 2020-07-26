@@ -9,6 +9,7 @@ import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
 
 const days = ["Mo", "Tu", "We", "Th", "Fr"];
+const weekends = ["Sa", "Su"];
 
 const hours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
 const startHours = hours.slice(0, -1);
@@ -43,13 +44,26 @@ const ScheduleBody = () => {
     coursesCpy.push({ temp: true, ...section });
   }
 
-  const dayBins = binAndStyle(coursesCpy, days, hours);
+  let totalDays = [...days, ...weekends];
+  const dayBins = binAndStyle(coursesCpy, totalDays, hours);
+
+  for (const weekendDay of weekends) {
+    let filled = false;
+    for (const hour of hours) {
+      if (dayBins[weekendDay][hour].length > 0) {
+        filled = true;
+        break;
+      }
+    }
+
+    if (!filled) totalDays = totalDays.filter((day) => day !== weekendDay);
+  }
 
   return (
     <ScheduleContainer>
       <ScheduleContents>
         <HoursColumn hours={hours} />
-        {days.map((day) => {
+        {totalDays.map((day) => {
           return (
             <DayColumn
               key={day}
