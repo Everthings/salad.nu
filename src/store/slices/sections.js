@@ -9,7 +9,7 @@ const slice = createSlice({
   name: "sections",
   initialState: {
     list: [],
-    str: "",
+    loading: false,
   },
   reducers: {
     sectionsRequested: (sections, action) => {
@@ -51,7 +51,6 @@ export const getSections = createSelector(
   (sections) => sections
 );
 
-// Selectors
 export const getSection = (id) =>
   createSelector(
     (state) => state.entities.sections.list,

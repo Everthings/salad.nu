@@ -1,1 +1,4 @@
-export const MIN_SEARCH_LENGTH = 4;
+const MIN_SEARCH_LENGTH = 4;
+const CURRENT_TERM_ID = 4760;
+
+export { MIN_SEARCH_LENGTH, CURRENT_TERM_ID };

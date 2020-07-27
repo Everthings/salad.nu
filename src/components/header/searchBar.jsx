@@ -8,14 +8,16 @@ const Input = styled.input`
   color: #000000;
 `;
 
-const SearchBar = ({ search, handleChange }) => {
+const SearchBar = ({ term, search, handleChange }) => {
+  const termName = term ? `(${term.name})` : "";
+
   return (
     <form>
       <Input
         autoFocus
         className="form-control mr-sm-2"
         type="search"
-        placeholder="Search Courses"
+        placeholder={`Search Courses ${termName}`}
         aria-label="Search"
         value={search}
         onChange={handleChange}
