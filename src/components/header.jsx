@@ -15,7 +15,7 @@ const Header = () => {
 
   useEffect(() => {
     dispatch(loadTerm(CURRENT_TERM_ID));
-  }, []);
+  }, [dispatch]);
 
   const logo = bigScreen ? salad_logo : null;
 

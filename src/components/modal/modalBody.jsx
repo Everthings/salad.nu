@@ -17,14 +17,15 @@ const ModalBody = ({ name, course_descriptions }) => {
     <React.Fragment>
       <h2>{name}</h2>
 
-      {course_descriptions.map((description) => {
-        return (
-          <div key={description.name}>
-            <NameText>{description.name}</NameText>
-            <DescriptionText>{description.desc}</DescriptionText>
-          </div>
-        );
-      })}
+      {course_descriptions &&
+        course_descriptions.map((description) => {
+          return (
+            <div key={description.name}>
+              <NameText>{description.name}</NameText>
+              <DescriptionText>{description.desc}</DescriptionText>
+            </div>
+          );
+        })}
     </React.Fragment>
   );
 };

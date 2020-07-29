@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "../../store/slices/sections";
+import { getSections } from "./../../store/slices/sections";
+import { getDiscussions } from "./../../store/slices/discussions";
 import {
   clearSelectedCourse,
   updateSelectedSection,
@@ -10,11 +11,11 @@ import {
   clearCurrentBuilding,
   clearHoveredSection,
   clearSelectedSection,
-} from "../../store/slices/search";
+} from "./../../store/slices/search";
 import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
 import { updateHoveredSection } from "./../../store/slices/search";
 import { parseTime2Standard } from "./../../utils/parseUtils";
-import { getName } from "../../utils/courseUtils";
+import { getName } from "./../../utils/courseUtils";
 import CardList from "./cardList";
 
 const CoursesContainer = styled.div`
@@ -51,6 +52,9 @@ const SectionList = () => {
   const { addToast } = useToasts();
 
   const sections = useSelector(getSections);
+  const discussions = useSelector(getDiscussions);
+  const results = [...sections, ...discussions];
+
   const scheduledCourses = useSelector(getScheduledCourses);
 
   const name = sections.length > 0 ? getName(sections[0]) : "";
@@ -80,7 +84,10 @@ const SectionList = () => {
     });
   };
 
-  const sectionFn = ({ section }) => section;
+  const sectionFn = ({ component, section }) => {
+    if (component !== "LEC") return `${component} - ${section}`;
+    return section;
+  };
   const instructorFn = ({ instructor }) => {
     if (instructor) return instructor.name;
     return "";
@@ -94,7 +101,10 @@ const SectionList = () => {
     )}`;
   };
   const roomFn = ({ room }) => {
-    if (room) return `${room.building_name} ${room.name}`;
+    if (room && room.building_name) {
+      if (room.name) return `${room.building_name} ${room.name}`;
+      else return `${room.building_name}`;
+    }
     return "";
   };
   const disabledFn = ({ unique_id, start_time, end_time }) => {
@@ -107,7 +117,7 @@ const SectionList = () => {
   };
 
   const showMoreInfo = ({ course_descriptions }) =>
-    course_descriptions.length > 0;
+    course_descriptions && course_descriptions.length > 0;
 
   const moreInfoClick = (sectionInfo) => {
     dispatch(updateSelectedSection(sectionInfo));
@@ -127,7 +137,7 @@ const SectionList = () => {
         </Header>
       }
       <CardList
-        list={sections}
+        list={results}
         idKey={"unique_id"}
         titleFn={sectionFn}
         textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn]}

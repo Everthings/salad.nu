@@ -2,6 +2,7 @@ import * as actions from "./../api";
 import { getTerm } from "./../../fakeServices/termsService";
 import { getCourses } from "./../../fakeServices/coursesService";
 import { getSection } from "./../../fakeServices/sectionsService";
+import { getDiscussion } from "./../../fakeServices/discussionsService";
 import { getBuilding } from "./../../fakeServices/buildingsService";
 
 const api = ({ dispatch }) => (next) => async (action) => {
@@ -28,6 +29,8 @@ const api = ({ dispatch }) => (next) => async (action) => {
         response = getCourses();
       } else if (resource === "sections") {
         response = getSection(data);
+      } else if (resource === "discussions") {
+        response = getDiscussion(data);
       } else if (resource === "buildings") {
         response = getBuilding(data);
       }

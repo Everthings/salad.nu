@@ -6,6 +6,7 @@ import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
 import { getSearch, updateSelectedCourse } from "./../../store/slices/search";
 import { loadSections } from "../../store/slices/sections";
+import { loadDiscussions } from "../../store/slices/discussions";
 
 const CoursesContainer = styled.div`
   background-color: #f6fdf4;
@@ -38,6 +39,7 @@ const CourseList = () => {
   const handleClick = ({ course_id }) => {
     dispatch(updateSelectedCourse(course_id));
     dispatch(loadSections(course_id));
+    dispatch(loadDiscussions(course_id));
   };
 
   const titleFn = ({ subject, number }) => `${subject} ${number}`;

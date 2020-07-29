@@ -31,23 +31,43 @@ const CardBody = styled.div`
 
 const Button = styled.button`
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -3px;
+  right: -3px;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
+  color: rgba(245, 99, 66, 50);
   font-size: 10pt;
   z-index: 1;
 `;
 
-const Text = styled.p`
-  font-size: 0.8rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+const TextWrapper = styled.div`
+  margin: auto;
   width: 80%;
-  overflow: auto;
+  height: 100%;
+  text-align: center;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Title = styled.p`
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+
+  :only-child {
+    margin: auto;
+  }
+`;
+
+const NoBr = styled.span`
+  white-space: nowrap;
+`;
+
+const Text = styled.p`
+  margin-top: 0;
+  margin-bottom: auto;
+  font-size: 0.7rem;
 `;
 
 const ScheduleCard = ({ data, style, color }) => {
@@ -56,10 +76,6 @@ const ScheduleCard = ({ data, style, color }) => {
 
   const { id } = useSelector(getHoveredCourse);
   const showDelete = data.unique_id === id;
-
-  const name = getName(data);
-  const temp = data.temp;
-  const classes = temp ? "opaque" : "";
 
   const handleXClick = (e) => {
     e.stopPropagation();
@@ -89,6 +105,18 @@ const ScheduleCard = ({ data, style, color }) => {
     dispatch(clearCurrentBuilding());
   };
 
+  const name = getName(data);
+  const nameParts = name.split(" ");
+  const temp = data.temp;
+  const classes = temp ? "opaque" : "";
+
+  let instructor_name = "";
+  if (data.instructor && data.instructor.name) {
+    const parts = data.instructor.name.split(" ");
+    const lastName = parts.slice(-1)[0];
+    instructor_name = lastName;
+  }
+
   return (
     <Card
       style={{ ...style, borderColor: color }}
@@ -99,7 +127,19 @@ const ScheduleCard = ({ data, style, color }) => {
     >
       <CardBody>
         {showDelete && <Button onClick={handleXClick}>x</Button>}
-        <Text>{name}</Text>
+        <TextWrapper>
+          <Title textBreakStrategy={"simple"}>
+            {nameParts.map((txt) => {
+              return (
+                <React.Fragment key={txt}>
+                  <NoBr>{txt}</NoBr>
+                  <span> </span>
+                </React.Fragment>
+              );
+            })}
+          </Title>
+          {instructor_name && <Text>{instructor_name}</Text>}
+        </TextWrapper>
       </CardBody>
     </Card>
   );

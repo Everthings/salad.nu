@@ -7,6 +7,7 @@ import { getHoveredSection } from "../../store/slices/search";
 import { getSections } from "../../store/slices/sections";
 import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
+import { getDiscussions } from "./../../store/slices/discussions";
 
 const days = ["Mo", "Tu", "We", "Th", "Fr"];
 const weekends = ["Sa", "Su"];
@@ -37,11 +38,14 @@ const ScheduleBody = () => {
 
   const { id } = useSelector(getHoveredSection);
   const sections = useSelector(getSections);
-  const section = sections.find((section) => section.unique_id === id);
+  const discussions = useSelector(getDiscussions);
+  const results = [...sections, ...discussions];
+
+  const result = results.find((result) => result.unique_id === id);
 
   const coursesCpy = [...courses];
-  if (section && section["start_time"] && section["end_time"]) {
-    coursesCpy.push({ temp: true, ...section });
+  if (result && result["start_time"] && result["end_time"]) {
+    coursesCpy.push({ temp: true, ...result });
   }
 
   let totalDays = [...days, ...weekends];

@@ -74,6 +74,7 @@ const InfoCard = ({
         <Title>{title}</Title>
         <Line />
         {info.map((text) => {
+          if (text === "") return undefined;
           return <Text key={text}>{text}</Text>;
         })}
         {moreInfoClick && (
