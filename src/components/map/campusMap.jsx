@@ -17,7 +17,8 @@ const style = {
 const CampusMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
 
-  const validLatLon = lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
+  const validLatLon =
+    lat && lon && lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
   const nuLatLon = [42.055909, -87.672709];
 
   const zoom = validLatLon ? 14 : 14; // no zoom change as it can be disorientating

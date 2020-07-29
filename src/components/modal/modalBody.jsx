@@ -12,11 +12,22 @@ const DescriptionText = styled.p`
   padding: 0.2em 0.4em;
 `;
 
-const ModalBody = ({ name, course_descriptions }) => {
+const ModalBody = ({ name, instructor, room, course_descriptions }) => {
   return (
     <React.Fragment>
       <h2>{name}</h2>
-
+      {instructor && instructor.name && (
+        <div>
+          <NameText>Teacher</NameText>
+          <DescriptionText>{instructor.name}</DescriptionText>
+        </div>
+      )}
+      {room && room.building_name && (
+        <div>
+          <NameText>Location</NameText>
+          <DescriptionText>{room.building_name}</DescriptionText>
+        </div>
+      )}
       {course_descriptions &&
         course_descriptions.map((description) => {
           return (

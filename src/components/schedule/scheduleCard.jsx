@@ -105,7 +105,8 @@ const ScheduleCard = ({ data, style, color }) => {
     dispatch(clearCurrentBuilding());
   };
 
-  const name = getName(data);
+  let name = getName(data);
+  if (data && data.component !== "LEC") name = `*${data.component}* ${name}`;
   const nameParts = name.split(" ");
   const temp = data.temp;
   const classes = temp ? "opaque" : "";

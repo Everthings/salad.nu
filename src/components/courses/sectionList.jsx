@@ -100,13 +100,8 @@ const SectionList = () => {
       end_time
     )}`;
   };
-  const roomFn = ({ room }) => {
-    if (room && room.building_name) {
-      if (room.name) return `${room.building_name} ${room.name}`;
-      else return `${room.building_name}`;
-    }
-    return "";
-  };
+  const roomFn = ({ room }) =>
+    room && room.building_name ? room.building_name : "";
   const disabledFn = ({ unique_id, start_time, end_time }) => {
     const found = scheduledCourses.some(
       (course) => course.unique_id === unique_id
