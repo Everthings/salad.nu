@@ -1,13 +1,16 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getSearch, clearSelectedCourse } from "./../../store/slices/search";
+import {
+  updateSearch,
+  getSearch,
+  clearSelectedCourse,
+} from "./../../store/slices/interactions";
 import { getTerm } from "./../../store/slices/term";
 import {
   loadCourses,
   loadCoursesFromStore,
 } from "./../../store/slices/courses";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
-import { updateSearch } from "./../../store/slices/search";
 import styled from "styled-components";
 import SearchBar from "./searchBar";
 

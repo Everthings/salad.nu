@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
-import { getName, getFullName } from "../../utils/courseUtils";
-import * as apiActions from "../api";
+import * as apiActions from "./../api";
+import { getName, getFullName } from "./../../utils/courseUtils";
 
 // Reducers
 const resource = "courses";

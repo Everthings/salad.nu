@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
 import { getScheduledCourses } from "./../../store/slices/schedule";
-import { binAndStyle } from "../../utils/layoutUtils";
-import { getHoveredSection } from "../../store/slices/search";
-import { getSections } from "../../store/slices/sections";
+import { getHoveredSection } from "./../../store/slices/interactions";
+import { getSections } from "./../../store/slices/sections";
+import { getDiscussions } from "./../../store/slices/discussions";
+import { binAndStyle } from "./../../utils/layoutUtils";
 import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
-import { getDiscussions } from "./../../store/slices/discussions";
 
 const days = ["Mo", "Tu", "We", "Th", "Fr"];
 const weekends = ["Sa", "Su"];

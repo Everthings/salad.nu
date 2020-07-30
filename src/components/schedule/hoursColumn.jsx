@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { convertHour2Text } from "../../utils/scheduleUtils";
+import { convertHour2Text } from "./../../utils/scheduleUtils";
 
 const Column = styled.div`
   display: flex;

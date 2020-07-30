@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
-import * as apiActions from "../api";
+import * as apiActions from "./../api";
 
 const defaultSelectedCourse = { id: -1 };
 const defaultSelectedSection = { info: null };
@@ -10,7 +10,7 @@ const defaultHoveredSection = { id: -1 };
 
 // Reducers
 const slice = createSlice({
-  name: "search",
+  name: "interactions",
   initialState: {
     searchStr: "",
     selectedCourse: defaultSelectedCourse,
@@ -20,40 +20,40 @@ const slice = createSlice({
     hoveredSection: defaultHoveredSection,
   },
   reducers: {
-    updatedSearch: (search, action) => {
-      search.searchStr = action.payload.searchStr;
+    updatedSearch: (interactions, action) => {
+      interactions.searchStr = action.payload.searchStr;
     },
-    updatedSelectedCourse: (search, action) => {
-      search.selectedCourse = action.payload;
+    updatedSelectedCourse: (interactions, action) => {
+      interactions.selectedCourse = action.payload;
     },
-    clearedSelectedCourse: (search, action) => {
-      search.selectedCourse = defaultSelectedCourse;
+    clearedSelectedCourse: (interactions, action) => {
+      interactions.selectedCourse = defaultSelectedCourse;
     },
-    updatedSelectedSection: (search, action) => {
-      search.selectedSection = action.payload;
+    updatedSelectedSection: (interactions, action) => {
+      interactions.selectedSection = action.payload;
     },
-    clearedSelectedSection: (search, action) => {
-      search.selectedSection = defaultSelectedSection;
+    clearedSelectedSection: (interactions, action) => {
+      interactions.selectedSection = defaultSelectedSection;
     },
-    updatedCurrentBuilding: (search, action) => {
+    updatedCurrentBuilding: (interactions, action) => {
       const { lat, lon } = action.payload.data;
-      if (!lat || !lon) search.currentBuilding = defaultBuilding;
-      else search.currentBuilding = { lat, lon };
+      if (!lat || !lon) interactions.currentBuilding = defaultBuilding;
+      else interactions.currentBuilding = { lat, lon };
     },
-    clearedCurrentBuilding: (search, action) => {
-      search.currentBuilding = defaultBuilding;
+    clearedCurrentBuilding: (interactions, action) => {
+      interactions.currentBuilding = defaultBuilding;
     },
-    updatedHoveredCourse: (search, action) => {
-      search.hoveredScheduledCourse.id = action.payload.id;
+    updatedHoveredCourse: (interactions, action) => {
+      interactions.hoveredScheduledCourse.id = action.payload.id;
     },
-    clearedHoveredCourse: (search, action) => {
-      search.hoveredScheduledCourse = defaultHoveredCourse;
+    clearedHoveredCourse: (interactions, action) => {
+      interactions.hoveredScheduledCourse = defaultHoveredCourse;
     },
-    updatedHoveredSection: (search, action) => {
-      search.hoveredSection.id = action.payload.id;
+    updatedHoveredSection: (interactions, action) => {
+      interactions.hoveredSection.id = action.payload.id;
     },
-    clearedHoveredSection: (search, action) => {
-      search.hoveredSection = defaultHoveredSection;
+    clearedHoveredSection: (interactions, action) => {
+      interactions.hoveredSection = defaultHoveredSection;
     },
   },
 });
@@ -127,31 +127,31 @@ export const clearHoveredSection = () => {
 
 // Selectors
 export const getSearch = createSelector(
-  (state) => state.entities.search,
-  (search) => search.searchStr
+  (state) => state.entities.interactions,
+  (interactions) => interactions.searchStr
 );
 
 export const getSelectedCourse = createSelector(
-  (state) => state.entities.search,
-  (search) => search.selectedCourse
+  (state) => state.entities.interactions,
+  (interactions) => interactions.selectedCourse
 );
 
 export const getSelectedSection = createSelector(
-  (state) => state.entities.search,
-  (search) => search.selectedSection
+  (state) => state.entities.interactions,
+  (interactions) => interactions.selectedSection
 );
 
 export const getCurrentBuilding = createSelector(
-  (state) => state.entities.search,
-  (search) => search.currentBuilding
+  (state) => state.entities.interactions,
+  (interactions) => interactions.currentBuilding
 );
 
 export const getHoveredCourse = createSelector(
-  (state) => state.entities.search,
-  (search) => search.hoveredScheduledCourse
+  (state) => state.entities.interactions,
+  (interactions) => interactions.hoveredScheduledCourse
 );
 
 export const getHoveredSection = createSelector(
-  (state) => state.entities.search,
-  (search) => search.hoveredSection
+  (state) => state.entities.interactions,
+  (interactions) => interactions.hoveredSection
 );

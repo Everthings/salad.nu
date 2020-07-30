@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { removeCourse } from "../../store/slices/schedule";
+import { useToasts } from "react-toast-notifications";
+import { removeCourse } from "./../../store/slices/schedule";
 import {
-  updateHoveredCourse,
   getHoveredCourse,
   updateCurrentBuilding,
   clearCurrentBuilding,
   updateSelectedSection,
-} from "../../store/slices/search";
+  updateHoveredCourse,
+  clearHoveredCourse,
+} from "../../store/slices/interactions";
 import { getName } from "../../utils/courseUtils";
-import { clearHoveredCourse } from "./../../store/slices/search";
-import { useToasts } from "react-toast-notifications";
 
 const Card = styled.div`
   background: rgb(237, 245, 239);

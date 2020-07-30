@@ -9,11 +9,11 @@ import {
   updateSelectedSection,
   updateCurrentBuilding,
   clearCurrentBuilding,
+  updateHoveredSection,
   clearHoveredSection,
   clearSelectedSection,
-} from "./../../store/slices/search";
+} from "./../../store/slices/interactions";
 import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
-import { updateHoveredSection } from "./../../store/slices/search";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import CardList from "./cardList";

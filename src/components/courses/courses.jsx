@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { getSelectedCourse } from "../../store/slices/search";
-import CourseModal from "../modal/modal";
+import { getSelectedCourse } from "./../../store/slices/interactions";
+import CourseModal from "./../modal/modal";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
 

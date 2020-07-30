@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { getCourses } from "../../store/slices/courses";
+import { getCourses } from "./../../store/slices/courses";
+import {
+  getSearch,
+  updateSelectedCourse,
+} from "./../../store/slices/interactions";
+import { loadSections } from "./../../store/slices/sections";
+import { loadDiscussions } from "./../../store/slices/discussions";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
-import { getSearch, updateSelectedCourse } from "./../../store/slices/search";
-import { loadSections } from "../../store/slices/sections";
-import { loadDiscussions } from "../../store/slices/discussions";
 
 const CoursesContainer = styled.div`
   background-color: #f6fdf4;

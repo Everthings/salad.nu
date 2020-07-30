@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
-import * as apiActions from "../api";
+import * as apiActions from "./../api";
 
 // Reducers
 const resource = "term";

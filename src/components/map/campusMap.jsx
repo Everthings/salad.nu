@@ -1,7 +1,7 @@
 import React from "react";
-import { Map, Circle, TileLayer } from "react-leaflet";
 import { useSelector } from "react-redux";
-import { getCurrentBuilding } from "../../store/slices/search";
+import { Map, Circle, TileLayer } from "react-leaflet";
+import { getCurrentBuilding } from "./../../store/slices/interactions";
 
 const style = {
   backgroundColor: "#94128dd8",

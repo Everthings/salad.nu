@@ -1,11 +1,11 @@
 import React from "react";
-import Modal from "react-modal";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getSelectedSection,
   clearSelectedSection,
-} from "../../store/slices/search";
-import { getName } from "../../utils/courseUtils";
+} from "./../../store/slices/interactions";
+import { getName } from "./../../utils/courseUtils";
+import Modal from "react-modal";
 import ModalBody from "./modalBody";
 
 Modal.setAppElement(document.getElementById("root"));
