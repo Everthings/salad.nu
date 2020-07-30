@@ -48,6 +48,8 @@ const TextWrapper = styled.div`
   overflow: scroll;
   display: flex;
   flex-direction: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 `;
 
 const Title = styled.p`

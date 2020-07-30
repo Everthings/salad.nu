@@ -27,8 +27,7 @@ const Title = styled.h5`
 `;
 
 const Text = styled.p`
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin: 0;
 `;
 
 const Button = styled.button`
@@ -85,4 +84,4 @@ const InfoCard = ({
   );
 };
 
-export default InfoCard;
+export default React.memo(InfoCard);

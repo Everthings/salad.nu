@@ -45,4 +45,4 @@ const DayColumn = ({ day, hours, data }) => {
   );
 };
 
-export default DayColumn;
+export default React.memo(DayColumn);

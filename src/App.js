@@ -14,8 +14,10 @@ function App() {
     <Sentry.ErrorBoundary showDialog>
       <Provider store={store}>
         <ToastProvider>
-          <Header />
-          <Body />
+          <div className="App">
+            <Header />
+            <Body />
+          </div>
         </ToastProvider>
       </Provider>
     </Sentry.ErrorBoundary>

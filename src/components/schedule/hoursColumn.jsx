@@ -30,4 +30,4 @@ const HoursColumn = ({ hours }) => {
   );
 };
 
-export default HoursColumn;
+export default React.memo(HoursColumn);
