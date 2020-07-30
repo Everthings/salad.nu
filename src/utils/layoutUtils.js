@@ -1,10 +1,10 @@
-import { parseTime, parseTime2Seconds } from "./parseUtils";
+import { parseTime, parseTime2Minutes } from "./parseUtils";
 import { getColor } from "./colorUtils";
 import { getName } from "./courseUtils";
 
 const isOverlapping = (c1, c2) => {
-  const c1End = parseTime2Seconds(c1.data.end_time);
-  const c2Start = parseTime2Seconds(c2.data.start_time);
+  const c1End = parseTime2Minutes(c1.data.end_time);
+  const c2Start = parseTime2Minutes(c2.data.start_time);
   return c1End > c2Start;
 };
 
@@ -41,8 +41,8 @@ const binCoursesToDays = (courses, days, hours) => {
   for (const day of days) {
     for (const hour of hours) {
       bins[day][hour].sort((c1, c2) =>
-        parseTime2Seconds(c1.data.start_time) >
-        parseTime2Seconds(c2.data.start_time)
+        parseTime2Minutes(c1.data.start_time) >
+        parseTime2Minutes(c2.data.start_time)
           ? 1
           : -1
       );

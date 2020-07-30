@@ -99,7 +99,8 @@
     ]
   },
   "devDependencies": {
-    "coveralls": "^3.1.0"
+    "coveralls": "^3.1.0",
+    "jest-localstorage-mock": "^2.4.3"
   },
   "jest": {
     "roots": [
@@ -110,7 +111,8 @@
       "!src/**/*.d.ts"
     ],
     "setupFiles": [
-      "react-app-polyfill/jsdom"
+      "react-app-polyfill/jsdom",
+      "jest-localstorage-mock"
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"

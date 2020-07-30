@@ -8,7 +8,7 @@ const parseTime = (time) => {
   return { hour: parseInt(hourTxt, 10), minute: parseInt(minuteTxt, 10) };
 };
 
-const parseTime2Seconds = (time) => {
+const parseTime2Minutes = (time) => {
   const { hour, minute } = parseTime(time);
   return 60 * hour + minute;
 };
@@ -18,11 +18,13 @@ const parseTime2Standard = (time) => {
   let suffix = "am";
 
   let hour = parseInt(hourTxt, 10);
-  if (hour > 12) {
-    hour -= 12;
+  if (hour >= 12) {
     suffix = "pm";
+    if (hour > 12) {
+      hour -= 12;
+    }
   }
   return `${hour}:${minuteTxt}${suffix}`;
 };
 
-export { parseTime, parseTime2Seconds, parseTime2Standard };
+export { parseTime, parseTime2Minutes, parseTime2Standard };
