@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders correctly with logo 1`] = `
+<nav
+  className="sc-AxirZ dYmHNG navbar navbar-light"
+>
+  <div>
+    <img
+      alt="Logo"
+      className="sc-AxiKw bfWiUH"
+      src="cover_no_background.png"
+    />
+  </div>
+  <div
+    className="flex-fill"
+  >
+    <form>
+      <input
+        aria-label="Search"
+        autoFocus={true}
+        className="sc-AxjAm ewWaGj form-control mr-sm-2"
+        data-testid="search-bar"
+        onChange={[Function]}
+        placeholder="Search Courses "
+        type="search"
+        value=""
+      />
+    </form>
+  </div>
+</nav>
+`;
+
+exports[`NavBar renders correctly without logo 1`] = `
+<nav
+  className="sc-AxirZ dYmHNG navbar navbar-light"
+>
+  <div
+    className="flex-fill"
+  >
+    <form>
+      <input
+        aria-label="Search"
+        autoFocus={true}
+        className="sc-AxjAm ewWaGj form-control mr-sm-2"
+        data-testid="search-bar"
+        onChange={[Function]}
+        placeholder="Search Courses "
+        type="search"
+        value=""
+      />
+    </form>
+  </div>
+</nav>
+`;

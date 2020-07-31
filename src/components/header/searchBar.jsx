@@ -21,6 +21,7 @@ const SearchBar = ({ term, search, handleChange }) => {
         aria-label="Search"
         value={search}
         onChange={handleChange}
+        data-testid="search-bar"
       />
     </form>
   );

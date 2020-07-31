@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly 1`] = `
+<form>
+  <input
+    aria-label="Search"
+    autoFocus={true}
+    className="sc-AxjAm ewWaGj form-control mr-sm-2"
+    data-testid="search-bar"
+    placeholder="Search Courses "
+    type="search"
+  />
+</form>
+`;

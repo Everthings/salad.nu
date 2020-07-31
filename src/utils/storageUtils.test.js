@@ -30,6 +30,12 @@ describe("storageUtils", () => {
   });
 
   describe("loadState", () => {
+    it("should return undefined when loading from nonexistent key in localStorage", () => {
+      const loadedItem = loadState();
+
+      expect(loadedItem).toEqual(undefined);
+    });
+
     it("should load empty json from localStorage", () => {
       const saveItem = {
         entities: {

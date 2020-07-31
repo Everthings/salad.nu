@@ -1,10 +1,12 @@
 # salad.nu
+
 [![Build Status](https://travis-ci.com/Everthings/salad.nu.svg?branch=master)](https://travis-ci.com/Everthings/salad.nu)
 [![Coverage Status](https://coveralls.io/repos/github/Everthings/salad.nu/badge.svg)](https://coveralls.io/github/Everthings/salad.nu)
 
 Simple course planning for Northwestern.
 
-## CRA
+## create-react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
