@@ -13,6 +13,7 @@ import {
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import styled from "styled-components";
 import SearchBar from "./searchBar";
+import ExportButton from "./exportButton";
 
 const Nav = styled.nav`
   background-color: #dcf0da;
@@ -54,6 +55,9 @@ const Navbar = ({ logo }) => {
       )}
       <div className="flex-fill">
         <SearchBar term={term} search={search} handleChange={handleChange} />
+      </div>
+      <div>
+        <ExportButton />
       </div>
     </Nav>
   );

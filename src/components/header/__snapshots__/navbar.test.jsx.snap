@@ -27,6 +27,18 @@ exports[`NavBar renders correctly with logo 1`] = `
       />
     </form>
   </div>
+  <div>
+    <a
+      className="btn btn-success ml-3"
+      download="nu_schedule.csv"
+      href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
+      onClick={[Function]}
+      target="_self"
+      title="Export Schedule to CSV"
+    >
+      Export
+    </a>
+  </div>
 </nav>
 `;
 
@@ -49,6 +61,18 @@ exports[`NavBar renders correctly without logo 1`] = `
         value=""
       />
     </form>
+  </div>
+  <div>
+    <a
+      className="btn btn-success ml-3"
+      download="nu_schedule.csv"
+      href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
+      onClick={[Function]}
+      target="_self"
+      title="Export Schedule to CSV"
+    >
+      Export
+    </a>
   </div>
 </nav>
 `;

@@ -1,4 +1,4 @@
-import { parseTime, parseTime2Minutes } from "./parseUtils";
+import { parseTime, parseTime2Minutes, parseMeetingDays } from "./parseUtils";
 import { getColor } from "./colorUtils";
 import { getName } from "./courseUtils";
 
@@ -29,7 +29,7 @@ const binCoursesToDays = (courses, days, hours) => {
 
   for (const course of courses) {
     const { meeting_days, start_time } = course;
-    const meetingDays = meeting_days.split(/(?=[A-Z])/);
+    const meetingDays = parseMeetingDays(meeting_days);
     const { hour } = parseTime(start_time);
     const color = getColor(getName(course));
 

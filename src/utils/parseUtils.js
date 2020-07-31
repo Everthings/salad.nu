@@ -27,4 +27,9 @@ const parseTime2Standard = (time) => {
   return `${hour}:${minuteTxt}${suffix}`;
 };
 
-export { parseTime, parseTime2Minutes, parseTime2Standard };
+const parseMeetingDays = (meetingDays) => {
+  if (meetingDays === "") return [];
+  return meetingDays.split(/(?=[A-Z])/);
+};
+
+export { parseTime, parseTime2Minutes, parseTime2Standard, parseMeetingDays };

@@ -1,4 +1,9 @@
-import { parseTime, parseTime2Minutes, parseTime2Standard } from "./parseUtils";
+import {
+  parseTime,
+  parseTime2Minutes,
+  parseTime2Standard,
+  parseMeetingDays,
+} from "./parseUtils";
 
 describe("parseUtils", () => {
   describe("parseTime", () => {
@@ -87,6 +92,32 @@ describe("parseUtils", () => {
       const timeTxt = parseTime2Standard(time);
 
       expect(timeTxt).toEqual("1:41pm");
+    });
+  });
+
+  describe("parseMeetingDays", () => {
+    it("should parse 'Mo' to ['Mo']", () => {
+      const meetingDays = "Mo";
+
+      const days = parseMeetingDays(meetingDays);
+
+      expect(days).toEqual(["Mo"]);
+    });
+
+    it("should parse empty string to empty list", () => {
+      const meetingDays = "";
+
+      const days = parseMeetingDays(meetingDays);
+
+      expect(days).toEqual([]);
+    });
+
+    it("should parse 'MoTuWeThFrSaSu' to ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']", () => {
+      const meetingDays = "MoTuWeThFrSaSu";
+
+      const days = parseMeetingDays(meetingDays);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]);
     });
   });
 });
