@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { getScheduledCourses } from "./../../store/slices/schedule";
+import { getScheduledSections } from "./../../store/slices/schedule";
 import { exportSchedule2CSV } from "./../../utils/exportUtils";
 import { CSVLink } from "react-csv";
 
 const ExportButton = () => {
-  const scheduled = useSelector(getScheduledCourses);
+  const scheduled = useSelector(getScheduledSections);
   const csvData = exportSchedule2CSV(scheduled);
 
   return (

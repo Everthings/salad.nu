@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getScheduledCourses } from "./../../store/slices/schedule";
+import { getScheduledSections } from "./../../store/slices/schedule";
 import { getHoveredSection } from "./../../store/slices/interactions";
 import { getSections } from "./../../store/slices/sections";
 import { getDiscussions } from "./../../store/slices/discussions";
@@ -34,7 +34,7 @@ const ScheduleContents = styled.div`
 `;
 
 const ScheduleBody = () => {
-  const courses = useSelector(getScheduledCourses);
+  const courses = useSelector(getScheduledSections);
 
   const { id } = useSelector(getHoveredSection);
   const sections = useSelector(getSections);

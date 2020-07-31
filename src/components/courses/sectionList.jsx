@@ -13,7 +13,10 @@ import {
   clearHoveredSection,
   clearSelectedSection,
 } from "./../../store/slices/interactions";
-import { getScheduledCourses, addCourse } from "./../../store/slices/schedule";
+import {
+  getScheduledSections,
+  addSection,
+} from "./../../store/slices/schedule";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import CardList from "./cardList";
@@ -55,7 +58,7 @@ const SectionList = () => {
   const discussions = useSelector(getDiscussions);
   const results = [...sections, ...discussions];
 
-  const scheduledCourses = useSelector(getScheduledCourses);
+  const scheduledCourses = useSelector(getScheduledSections);
 
   const name = sections.length > 0 ? getName(sections[0]) : "";
 
@@ -77,7 +80,7 @@ const SectionList = () => {
   const handleClick = (section) => {
     dispatch(clearSelectedSection());
     dispatch(clearHoveredSection());
-    dispatch(addCourse(section));
+    dispatch(addSection(section));
     addToast(`Added ${name}`, {
       appearance: "success",
       autoDismiss: true,

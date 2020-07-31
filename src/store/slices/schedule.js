@@ -8,30 +8,30 @@ const slice = createSlice({
     list: [],
   },
   reducers: {
-    courseAdded: (schdule, action) => {
-      schdule.list.push(action.payload);
+    sectionAdded: (schedule, action) => {
+      schedule.list.push(action.payload);
     },
-    courseRemoved: (schdule, action) => {
-      schdule.list = schdule.list.filter(
-        (course) => course.unique_id !== action.payload
+    sectionRemoved: (schedule, action) => {
+      schedule.list = schedule.list.filter(
+        (section) => section.unique_id !== action.payload
       );
     },
   },
 });
 
-const { courseAdded, courseRemoved } = slice.actions;
+const { sectionAdded, sectionRemoved } = slice.actions;
 export default slice.reducer;
 
 // Action Creators
-export const addCourse = (course) => {
-  return courseAdded(course);
+export const addSection = (section) => {
+  return sectionAdded(section);
 };
 
-export const removeCourse = (id) => {
-  return courseRemoved(id);
+export const removeSection = (id) => {
+  return sectionRemoved(id);
 };
 
-export const getScheduledCourses = createSelector(
+export const getScheduledSections = createSelector(
   (state) => state.entities.schedule.list,
   (schedule) => schedule
 );

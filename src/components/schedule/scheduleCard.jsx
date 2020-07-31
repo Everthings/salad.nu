@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { removeCourse } from "./../../store/slices/schedule";
+import { removeSection } from "./../../store/slices/schedule";
 import {
   getHoveredCourse,
   updateCurrentBuilding,
@@ -82,7 +82,7 @@ const ScheduleCard = ({ data, style, color }) => {
   const handleXClick = (e) => {
     e.stopPropagation();
 
-    dispatch(removeCourse(data.unique_id));
+    dispatch(removeSection(data.unique_id));
     dispatch(clearHoveredCourse());
 
     addToast(`Removed ${name}`, {
