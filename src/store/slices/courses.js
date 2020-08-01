@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
 import * as apiActions from "./../api";
+import { getParts, strMatchesAllParts } from "./../../utils/searchUtils";
 import { getName, getFullName } from "./../../utils/courseUtils";
 
 // Reducers
@@ -22,15 +23,17 @@ const slice = createSlice({
     coursesRecieved: (courses, action) => {
       const reponse = action.payload.data;
       const searchStr = action.payload.searchStr.toLowerCase();
+      const searchParts = getParts(searchStr);
+
       const filterdCoursesName = [];
       const filterdCoursesTitle = [];
       for (const course of reponse) {
         const courseName = getName(course).toLowerCase();
         const courseTitle = `${course.title}`.toLowerCase();
 
-        if (courseName.includes(searchStr)) {
+        if (strMatchesAllParts(courseName, searchParts)) {
           filterdCoursesName.push(course);
-        } else if (courseTitle.includes(searchStr)) {
+        } else if (strMatchesAllParts(courseTitle, searchParts)) {
           filterdCoursesTitle.push(course);
         }
       }
@@ -40,9 +43,11 @@ const slice = createSlice({
     },
     coursesRecievedFromStore: (courses, action) => {
       const searchStr = action.payload.searchStr.toLowerCase();
+      const searchParts = getParts(searchStr);
+
       const filterdCourses = courses.list.filter((course) => {
         const courseStr = getFullName(course).toLowerCase();
-        return courseStr.includes(searchStr.toLowerCase());
+        return strMatchesAllParts(courseStr, searchParts);
       });
       courses.list = filterdCourses;
     },

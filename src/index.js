@@ -4,9 +4,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import logger from "./services/logService";
-
-logger.init();
 
 ReactDOM.render(
   <React.StrictMode>

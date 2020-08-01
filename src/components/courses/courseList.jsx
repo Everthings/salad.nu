@@ -8,6 +8,7 @@ import {
 } from "./../../store/slices/interactions";
 import { loadSections } from "./../../store/slices/sections";
 import { loadDiscussions } from "./../../store/slices/discussions";
+import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
 
@@ -30,14 +31,15 @@ const CourseList = () => {
   const courses = useSelector(getCourses());
 
   const search = useSelector(getSearch);
+  const searchLength = getMaximumPartLength(getParts(search));
 
   const shouldContinueTyping =
-    search.length < MIN_SEARCH_LENGTH && search.length !== 0;
+    searchLength < MIN_SEARCH_LENGTH && searchLength !== 0;
 
-  const noResults = search.length >= MIN_SEARCH_LENGTH && courses.length === 0;
+  const noResults = searchLength >= MIN_SEARCH_LENGTH && courses.length === 0;
 
   const shouldDisplaySections =
-    search.length >= MIN_SEARCH_LENGTH && courses.length > 0;
+    searchLength >= MIN_SEARCH_LENGTH && courses.length > 0;
 
   const handleClick = ({ course_id }) => {
     dispatch(updateSelectedCourse(course_id));

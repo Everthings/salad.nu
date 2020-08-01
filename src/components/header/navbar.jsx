@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import {
   updateSearch,
@@ -10,8 +11,8 @@ import {
   loadCourses,
   loadCoursesFromStore,
 } from "./../../store/slices/courses";
+import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
-import styled from "styled-components";
 import SearchBar from "./searchBar";
 import ExportButton from "./exportButton";
 
@@ -35,11 +36,13 @@ const Navbar = ({ logo }) => {
 
   const handleChange = (e) => {
     const { value } = e.currentTarget;
+    const length = getMaximumPartLength(getParts(value));
+
     dispatch(updateSearch(value));
     dispatch(clearSelectedCourse());
-    if (value.length >= MIN_SEARCH_LENGTH) {
+    if (length >= MIN_SEARCH_LENGTH) {
       const loadAction =
-        value.length > search.length && value.length !== MIN_SEARCH_LENGTH
+        value.includes(search) && length !== MIN_SEARCH_LENGTH
           ? loadCoursesFromStore(value)
           : loadCourses(value);
       dispatch(loadAction);
