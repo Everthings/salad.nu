@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Map, Circle, TileLayer } from "react-leaflet";
 import { getCurrentBuilding } from "./../../store/slices/interactions";
+import { DEFAULT_MAP_ZOOM } from "./../../configs";
 
 const style = {
   backgroundColor: "#94128dd8",
@@ -16,20 +17,22 @@ const style = {
 
 const CampusMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
+  const [zoom, setZoom] = useState(DEFAULT_MAP_ZOOM);
 
   const validLatLon =
     lat && lon && lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
   const nuLatLon = [42.055909, -87.672709];
 
-  const zoom = validLatLon ? 14 : 14; // no zoom change as it can be disorientating
   const position = validLatLon ? [lat, lon] : nuLatLon;
+
+  const handleZoomChange = (viewport, zoom) => setZoom(zoom);
 
   return (
     <Map
       center={position}
       zoom={zoom}
+      onViewportChanged={handleZoomChange}
       attributionControl={false}
-      zoomAnimationThreshold={10}
       style={style}
     >
       <TileLayer
