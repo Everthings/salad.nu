@@ -6,7 +6,7 @@ import {
 } from "./../../store/slices/interactions";
 import { getName } from "./../../utils/courseUtils";
 import Modal from "react-modal";
-import ModalBody from "./modalBody";
+import ModalContent from "./modalContent";
 
 Modal.setAppElement(document.getElementById("root"));
 
@@ -17,6 +17,7 @@ const style = {
     transform: "translate(-10%, -10%)",
     borderRadius: "1rem",
     border: "0.5rem solid purple",
+    padding: "0",
   },
 
   overlay: {
@@ -41,12 +42,9 @@ const CourseModal = () => {
 
   return (
     <Modal style={style} isOpen={isOpen} onRequestClose={handleExit}>
-      {section && <ModalBody name={name} {...section} />}
-      <div>
-        <button className="btn btn-outline-secondary" onClick={handleExit}>
-          Exit
-        </button>
-      </div>
+      {section && (
+        <ModalContent name={name} {...section} handleExit={handleExit} />
+      )}
     </Modal>
   );
 };
