@@ -6,14 +6,24 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-bottom: 0.6rem;
   margin-right: 0.5rem;
   flex: 0 0 3rem;
 `;
 
+const Cell = styled.div`
+  position: relative;
+  height: 100%;
+  width: 100%;
+`;
+
 const Text = styled.div`
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -1rem);
   text-align: right;
-  margin: 0;
 `;
 
 const HoursColumn = ({ hours }) => {
@@ -21,9 +31,9 @@ const HoursColumn = ({ hours }) => {
     <Column>
       {hours.map((time) => {
         return (
-          <div key={time}>
+          <Cell key={time}>
             <Text>{convertHour2Text(time)}</Text>
-          </div>
+          </Cell>
         );
       })}
     </Column>

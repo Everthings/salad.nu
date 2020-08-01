@@ -12,10 +12,10 @@ const Column = styled.div`
 `;
 
 const Cell = styled.div`
+  position: relative;
   height: 100%;
   width: 100%;
   border-bottom: 2px dashed rgb(226, 231, 226);
-  position: relative;
 `;
 
 const Text = styled.div`
