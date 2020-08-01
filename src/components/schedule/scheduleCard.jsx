@@ -84,6 +84,7 @@ const ScheduleCard = ({ data, style, color }) => {
 
     dispatch(removeSection(data.unique_id));
     dispatch(clearHoveredCourse());
+    dispatch(clearCurrentBuilding());
 
     addToast(`Removed ${name}`, {
       appearance: "error",
