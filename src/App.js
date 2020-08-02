@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureStore from "./store/configureStore";
 import * as Sentry from "@sentry/react";
@@ -8,6 +9,7 @@ import ReactGA from "react-ga";
 import "./App.css";
 import Header from "./components/header";
 import Body from "./components/body";
+import AboutPage from "./components/pages/aboutPage";
 
 const store = configureStore();
 
@@ -24,8 +26,17 @@ function App() {
     <Sentry.ErrorBoundary showDialog>
       <Provider store={store}>
         <ToastProvider>
-          <Header />
-          <Body />
+          <Router>
+            <Switch>
+              <Route path="/about">
+                <AboutPage />
+              </Route>
+              <Route path="/">
+                <Header />
+                <Body />
+              </Route>
+            </Switch>
+          </Router>
         </ToastProvider>
       </Provider>
     </Sentry.ErrorBoundary>
