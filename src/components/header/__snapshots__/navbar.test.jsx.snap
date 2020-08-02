@@ -7,7 +7,7 @@ exports[`NavBar renders correctly with logo 1`] = `
   <div>
     <img
       alt="Logo"
-      className="sc-AxiKw bfWiUH"
+      className="sc-AxhCb eeMyL"
       src="cover_no_background.png"
     />
   </div>
@@ -37,6 +37,20 @@ exports[`NavBar renders correctly with logo 1`] = `
       title="Export Schedule to CSV"
     >
       Export
+    </a>
+  </div>
+  <div>
+    <a
+      aria-current={null}
+      className="nav-item nav-link"
+      href="/about"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-AxiKw bCbCPW"
+      >
+        About
+      </div>
     </a>
   </div>
 </nav>
@@ -72,6 +86,20 @@ exports[`NavBar renders correctly without logo 1`] = `
       title="Export Schedule to CSV"
     >
       Export
+    </a>
+  </div>
+  <div>
+    <a
+      aria-current={null}
+      className="nav-item nav-link"
+      href="/about"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-AxiKw bCbCPW"
+      >
+        About
+      </div>
     </a>
   </div>
 </nav>

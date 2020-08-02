@@ -1,5 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
+import { BrowserRouter as Router } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
@@ -23,7 +24,9 @@ describe("NavBar", () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <NavBar logo={salad_logo} />
+          <Router>
+            <NavBar logo={salad_logo} />
+          </Router>
         </Provider>
       )
       .toJSON();
@@ -35,7 +38,9 @@ describe("NavBar", () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <NavBar />
+          <Router>
+            <NavBar />
+          </Router>
         </Provider>
       )
       .toJSON();
