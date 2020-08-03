@@ -24,8 +24,8 @@ function App() {
 
   return (
     <Sentry.ErrorBoundary showDialog>
-      <Provider store={store}>
-        <ToastProvider>
+      <ToastProvider>
+        <Provider store={store}>
           <Router>
             <Switch>
               <Route path="/about">
@@ -37,8 +37,8 @@ function App() {
               </Route>
             </Switch>
           </Router>
-        </ToastProvider>
-      </Provider>
+        </Provider>
+      </ToastProvider>
     </Sentry.ErrorBoundary>
   );
 }

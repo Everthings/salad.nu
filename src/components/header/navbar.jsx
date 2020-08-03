@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
+import { useMediaQuery } from "react-responsive";
 import { NavLink } from "react-router-dom";
 import {
   updateSearch,
@@ -16,6 +17,7 @@ import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import SearchBar from "./searchBar";
 import ExportButton from "./exportButton";
+import salad_logo from "./../../images/cover_no_background.png";
 
 const Nav = styled.nav`
   background-color: #dcf0da;
@@ -24,7 +26,6 @@ const Nav = styled.nav`
 `;
 
 const LinkText = styled.div`
-  background-color: #dcf0da;
   color: #28a745;
 `;
 
@@ -34,7 +35,7 @@ const Logo = styled.img`
   margin-right: 2rem;
 `;
 
-const Navbar = ({ logo }) => {
+const Navbar = () => {
   const dispatch = useDispatch();
 
   const search = useSelector(getSearch);
@@ -55,24 +56,32 @@ const Navbar = ({ logo }) => {
     }
   };
 
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
   return (
     <Nav className="navbar navbar-light">
-      {logo && (
+      {bigScreen && (
         <div>
-          <Logo src={logo} alt="Logo" />
+          <Logo src={salad_logo} alt="Logo" />
         </div>
       )}
       <div className="flex-fill">
         <SearchBar term={term} search={search} handleChange={handleChange} />
       </div>
-      <div>
-        <ExportButton />
-      </div>
-      <div>
-        <NavLink className="nav-item nav-link" to="/about">
-          <LinkText>About</LinkText>
-        </NavLink>
-      </div>
+      {bigScreen && (
+        <div>
+          <ExportButton />
+        </div>
+      )}
+      {bigScreen && (
+        <div>
+          <NavLink className="nav-item nav-link" to="/about">
+            <LinkText>About</LinkText>
+          </NavLink>
+        </div>
+      )}
     </Nav>
   );
 };

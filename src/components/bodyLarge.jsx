@@ -7,7 +7,7 @@ import CampusMap from "./map/campusMap";
 const SaladContainer = styled.div`
   background-color: #dcf0da;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 0.75rem solid #dcf0da;
+  border: 0.25rem solid #dcf0da;
   border-radius: 1rem;
 `;
 
