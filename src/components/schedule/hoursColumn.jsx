@@ -24,6 +24,7 @@ const Text = styled.div`
   left: 50%;
   transform: translate(-50%, -1rem);
   text-align: right;
+  color: ${({ theme }) => `${theme.colors.scheduleText}`};
 `;
 
 const HoursColumn = ({ hours }) => {

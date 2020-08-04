@@ -21,33 +21,31 @@ import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import CardList from "./cardList";
 
-const CoursesContainer = styled.div`
-  background-color: #f6fdf4;
-  border-top: 0.25rem solid #f6fdf4;
-  border-bottom: 0.25rem solid #f6fdf4;
-  border-left: 0.75rem solid #f6fdf4;
-  border-right: 0.75rem solid #f6fdf4;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  height: calc(75vh - 9rem);
-  overflow: auto;
-`;
-
 const Header = styled.div`
   margin-top: 1vh;
   opacity: 0.75;
 `;
 
+const ScrollContainer = styled.div`
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+`;
+
 const Line = styled.hr`
-  border-top: 4px dashed #aed19e;
+  border-top: ${({ theme }) =>
+    `4px dashed ${theme.colors.sectionsListDivider}`};
 `;
 
 const Button = styled.button`
   margin-left: 0.25rem;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
+`;
+
+const Text = styled.h4`
+  text-align: center;
+  color: ${({ theme }) => `${theme.colors.sectionsListText}`};
 `;
 
 const SectionList = () => {
@@ -122,15 +120,13 @@ const SectionList = () => {
   };
 
   return (
-    <CoursesContainer>
+    <ScrollContainer>
       {
         <Header>
           <Button className="btn btn-danger" onClick={handleBackClick}>
             Back
           </Button>
-          <h4>
-            <center>{name}</center>
-          </h4>
+          <Text>{name}</Text>
           <Line />
         </Header>
       }
@@ -146,7 +142,7 @@ const SectionList = () => {
         showMoreInfoFn={showMoreInfo}
         moreInfoClick={moreInfoClick}
       />
-    </CoursesContainer>
+    </ScrollContainer>
   );
 };
 

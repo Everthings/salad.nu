@@ -9,10 +9,10 @@ const Body = () => {
   });
 
   return (
-    <React.Fragment>
+    <>
       {bigScreen && <BodyLarge />}
       {!bigScreen && <BodySmall />}
-    </React.Fragment>
+    </>
   );
 };
 

@@ -14,8 +14,9 @@ import {
 import { getName } from "../../utils/courseUtils";
 
 const Card = styled.div`
-  background: rgb(237, 245, 239);
-  border: 1px solid;
+  background: ${({ theme }) => `${theme.colors.scheduleCardBackground}`};
+  color: ${({ theme }) => `${theme.colors.scheduleCardText}`};
+  border: 2px solid;
   border-left: 7px solid;
   border-radius: 10px;
   height: 100%;

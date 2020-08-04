@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-  background: rgba(226, 231, 226, 0.5);
-  border: 0.2rem solid #f6fdf4;
+  color: ${({ theme }) => `${theme.colors.infoCardText}`};
+  background: ${({ theme }) => `${theme.colors.infoCardBackground}`};
+  border: ${({ theme }) => `0.2rem solid ${theme.colors.infoCardBorder}`};
   border-radius: 10px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -11,13 +12,14 @@ const Card = styled.div`
   cursor: pointer;
 
   :hover {
-    border: 0.2rem solid #aed19e;
+    border: ${({ theme }) =>
+      `0.2rem solid ${theme.colors.infoCardBorderHighlight}`};
     border-radius: 10px;
   }
 `;
 
 const Line = styled.hr`
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: ${({ theme }) => `0.2rem solid ${theme.colors.infoCardDivider}`};
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 `;
@@ -31,20 +33,21 @@ const Text = styled.p`
 `;
 
 const Button = styled.button`
+  background-color: ${({ theme }) => `${theme.colors.moreInfoBackground}`};
+  color: ${({ theme }) => `${theme.colors.moreInfoText}`};
+  border: ${({ theme }) => `1px solid ${theme.colors.moreInfoBorder}`};
   margin-top: 0.5rem;
   margin-left: 0;
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
-  border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem;
-  background-color: #e4edea;
 
   display: inline-block;
   position: relative;
   transition: 0.5s;
 
   :hover {
-    background-color: #c1d6cf;
+    background-color: ${({ theme }) => `${theme.colors.moreInfoTextHighlight}`};
   }
 `;
 

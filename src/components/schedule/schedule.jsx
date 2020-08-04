@@ -16,13 +16,17 @@ const hours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
 const startHours = hours.slice(0, -1);
 
 const ScheduleContainer = styled.div`
-  background-color: #f6fdf4;
-  border-top: 0.25rem solid #f6fdf4;
-  border-bottom: 0.25rem solid #f6fdf4;
-  border-left: 0.75rem solid #f6fdf4;
-  border-right: 0.75rem solid #f6fdf4;
-  border-radius: 1rem;
-  height: calc(100vh - 9rem);
+  background-color: ${({ theme }) => `${theme.colors.containerBackground}`};
+  border-top: ${({ theme }) =>
+    `0.25rem solid ${theme.colors.containerBackground}`};
+  border-bottom: ${({ theme }) =>
+    `0.25rem solid ${theme.colors.containerBackground}`};
+  border-left: ${({ theme }) =>
+    `0.75rem solid ${theme.colors.containerBackground}`};
+  border-right: ${({ theme }) =>
+    `0.75rem solid ${theme.colors.containerBackground}`};
+  border-radius: 0.8rem;
+  height: 100%;
 `;
 
 const ScheduleContents = styled.div`

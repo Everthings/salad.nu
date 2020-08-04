@@ -20,13 +20,14 @@ import ExportButton from "./exportButton";
 import salad_logo from "./../../images/cover_no_background.png";
 
 const Nav = styled.nav`
-  background-color: #dcf0da;
+  background-color: ${({ theme }) => `${theme.colors.headerBackground}`};
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  flex: 0;
 `;
 
 const LinkText = styled.div`
-  color: #28a745;
+  color: ${({ theme }) => `${theme.colors.headerButton}`};
 `;
 
 const Logo = styled.img`

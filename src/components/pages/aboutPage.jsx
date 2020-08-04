@@ -18,11 +18,20 @@ const InnerContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #28a745;
+  color: ${({ theme }) => `${theme.colors.aboutText}`};
 `;
 
 const Text = styled.p`
-  color: #28a745;
+  color: ${({ theme }) => `${theme.colors.aboutText}`};
+`;
+
+const Button = styled.div`
+  background-color: ${({ theme }) => `${theme.colors.aboutButton}`};
+
+  & a {
+    color: ${({ theme }) => `${theme.colors.aboutButtonText}`};
+    text-decoration: none;
+  }
 `;
 
 const AboutPage = () => {
@@ -59,9 +68,9 @@ const AboutPage = () => {
           would be greatly appreciated. Thanks!
         </Text>
         <Text>- Andy '23</Text>
-        <NavLink className="btn btn-success ml-3" to="/">
-          Back
-        </NavLink>
+        <Button className="btn">
+          <NavLink to="/">Back</NavLink>
+        </Button>
       </InnerContainer>
     </Container>
   );

@@ -1,5 +1,11 @@
 import React from "react";
+import styled from "styled-components";
 import InfoCard from "./infoCard";
+
+const Text = styled.div`
+  text-align: center;
+  color: ${({ theme }) => `${theme.colors.scheduleCardText}`};
+`;
 
 const CardList = ({
   list,
@@ -14,8 +20,8 @@ const CardList = ({
   moreInfoClick,
 }) => {
   return (
-    <React.Fragment>
-      <center>{list.length} result(s)</center>
+    <>
+      <Text>{list.length} result(s)</Text>
       {list.map((data) => {
         const id = data[idKey];
         const title = titleFn(data);
@@ -46,7 +52,7 @@ const CardList = ({
           />
         );
       })}
-    </React.Fragment>
+    </>
   );
 };
 

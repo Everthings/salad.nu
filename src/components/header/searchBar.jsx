@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 const Input = styled.input`
   height: 3rem;
-  background-color: #e5fbe4;
-  border: 3px solid #aed19e;
-  color: #000000;
+  background-color: ${({ theme }) => `${theme.colors.searchBar}`};
+  color: ${({ theme }) => `${theme.colors.searchText}`};
+  border: ${({ theme }) => `3px solid ${theme.colors.searchBarBorder}`};
 `;
 
 const SearchBar = ({ term, search, handleChange }) => {

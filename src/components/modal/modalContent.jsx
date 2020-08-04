@@ -1,7 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-const Title = styled.div`
+const Content = styled.div`
+  background-color: ${({ theme }) => `${theme.colors.modalBackground}`};
+  height: 100%;
+  overflow: auto;
+`;
+
+const Heading = styled.div`
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -17,6 +23,7 @@ const Title = styled.div`
 `;
 
 const HeadingText = styled.h2`
+  color: ${({ theme }) => `${theme.colors.modalTitle}`};
   margin: 0px;
 `;
 
@@ -25,13 +32,18 @@ const Body = styled.div`
   margin-top: 5px;
 `;
 
+const Info = styled.div`
+  color: ${({ theme }) => `${theme.colors.modalText}`};
+  height: 100%;
+`;
+
 const NameText = styled.p`
   font-style: italic;
   margin-bottom: 0.5rem;
 `;
 
 const DescriptionText = styled.p`
-  background-color: rgba(27, 31, 35, 0.05);
+  background-color: ${({ theme }) => `${theme.colors.modalTextBox}`};
   border-radius: 6px;
   padding: 0.2em 0.4em;
 `;
@@ -44,37 +56,37 @@ const ModalContent = ({
   course_descriptions,
 }) => {
   return (
-    <React.Fragment>
-      <Title>
+    <Content>
+      <Heading>
         <HeadingText>{name}</HeadingText>
         <button className="btn btn-outline-secondary" onClick={handleExit}>
           Exit
         </button>
-      </Title>
+      </Heading>
       <Body>
         {instructor && instructor.name && (
-          <div>
+          <Info>
             <NameText>Teacher</NameText>
             <DescriptionText>{instructor.name}</DescriptionText>
-          </div>
+          </Info>
         )}
         {room && room.building_name && (
-          <div>
+          <Info>
             <NameText>Location</NameText>
             <DescriptionText>{room.building_name}</DescriptionText>
-          </div>
+          </Info>
         )}
         {course_descriptions &&
           course_descriptions.map((description) => {
             return (
-              <div key={description.name}>
+              <Info key={description.name}>
                 <NameText>{description.name}</NameText>
                 <DescriptionText>{description.desc}</DescriptionText>
-              </div>
+              </Info>
             );
           })}
       </Body>
-    </React.Fragment>
+    </Content>
   );
 };
 

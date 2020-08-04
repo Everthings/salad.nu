@@ -6,60 +6,68 @@ import CampusMap from "./map/campusMap";
 import { TabContainer, Tab, Nav } from "react-bootstrap";
 
 const StyleWrapper = styled.div`
+  height: 100%;
+  flex: 1;
+  min-height: 0;
   & .nav-link {
-    color: #7ecc86 !important;
-    background-color: #ffffff !important;
+    color: ${({ theme }) => `${theme.colors.navBackgroundActive} !important`};
+    background-color: ${({ theme }) =>
+      `${theme.colors.navBackground} !important`};
   }
 
   & .nav-link.active {
-    color: #ffffff !important;
-    background-color: #7ecc86 !important;
+    color: ${({ theme }) => `${theme.colors.navBackground} !important`};
+    background-color: ${({ theme }) =>
+      `${theme.colors.navBackgroundActive} !important`};
   }
 `;
 
+const FlexContainer = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+`;
+
 const SaladContainer = styled.div`
-  background-color: #dcf0da;
-  border: 0.75rem solid #dcf0da;
+  background-color: ${({ theme }) => `${theme.colors.containerBorder}`};
+  border: ${({ theme }) => `0.25rem solid ${theme.colors.containerBorder}`};
   border-radius: 1rem;
+  height: 100%;
 `;
 
 const BodySmall = () => {
   return (
     <StyleWrapper>
-      <div className="container-fluid fill-height">
-        <TabContainer
-          defaultActiveKey="courses"
-          transition={false}
-          variant="pills"
-        >
-          <div className="row">
-            <div className="col">
-              <Nav variant="pills" className="mt-3 mb-3 justify-content-center">
-                <Nav.Item className="mr-2">
-                  <Nav.Link eventKey="courses">Courses</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="schedule">Schedule</Nav.Link>
-                </Nav.Item>
-              </Nav>
+      <TabContainer
+        defaultActiveKey="courses"
+        transition={false}
+        variant="pills"
+      >
+        <FlexContainer>
+          <Nav variant="pills" className="mt-3 mb-3 justify-content-center">
+            <Nav.Item className="mr-2">
+              <Nav.Link eventKey="courses">Courses</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="schedule">Schedule</Nav.Link>
+            </Nav.Item>
+          </Nav>
 
-              <Tab.Content>
-                <Tab.Pane eventKey="courses">
-                  <SaladContainer>
-                    <Courses />
-                    <CampusMap />
-                  </SaladContainer>
-                </Tab.Pane>
-                <Tab.Pane eventKey="schedule">
-                  <SaladContainer>
-                    <Schedule />
-                  </SaladContainer>
-                </Tab.Pane>
-              </Tab.Content>
-            </div>
-          </div>
-        </TabContainer>
-      </div>
+          <Tab.Content className="flex-fill" style={{ overflow: "auto" }}>
+            <Tab.Pane className="h-100" eventKey="courses">
+              <SaladContainer>
+                <Courses />
+                <CampusMap />
+              </SaladContainer>
+            </Tab.Pane>
+            <Tab.Pane className="h-100" eventKey="schedule">
+              <SaladContainer>
+                <Schedule />
+              </SaladContainer>
+            </Tab.Pane>
+          </Tab.Content>
+        </FlexContainer>
+      </TabContainer>
     </StyleWrapper>
   );
 };

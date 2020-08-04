@@ -12,18 +12,15 @@ import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import CardList from "./cardList";
 
-const CoursesContainer = styled.div`
-  background-color: #f6fdf4;
-  border-top: 0.25rem solid #f6fdf4;
-  border-bottom: 0.25rem solid #f6fdf4;
-  border-left: 0.75rem solid #f6fdf4;
-  border-right: 0.75rem solid #f6fdf4;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  height: calc(75vh - 9rem);
-  overflow: auto;
+const ScrollContainer = styled.div`
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+`;
+
+const Text = styled.div`
+  text-align: center;
+  color: ${({ theme }) => `${theme.colors.coursesListText}`};
 `;
 
 const CourseList = () => {
@@ -51,15 +48,15 @@ const CourseList = () => {
   const nameFn = ({ title }) => title;
 
   return (
-    <CoursesContainer>
-      {shouldContinueTyping && <center>Continue typing...</center>}
+    <ScrollContainer>
+      {shouldContinueTyping && <Text>Continue typing...</Text>}
       {noResults && (
-        <center>
+        <Text>
           No Results{" "}
           <span role="img" aria-label="frown">
             🙁
           </span>
-        </center>
+        </Text>
       )}
       {shouldDisplaySections && (
         <CardList
@@ -70,7 +67,7 @@ const CourseList = () => {
           handleClick={handleClick}
         />
       )}
-    </CoursesContainer>
+    </ScrollContainer>
   );
 };
 

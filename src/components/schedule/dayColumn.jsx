@@ -15,7 +15,7 @@ const Cell = styled.div`
   position: relative;
   height: 100%;
   width: 100%;
-  border-bottom: 2px dashed rgb(226, 231, 226);
+  border-bottom: ${({ theme }) => `2px dashed ${theme.colors.scheduleDivider}`};
 `;
 
 const Text = styled.div`
@@ -24,6 +24,7 @@ const Text = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: ${({ theme }) => `${theme.colors.scheduleText}`};
 `;
 
 const DayColumn = ({ day, hours, data }) => {
