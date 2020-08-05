@@ -11,21 +11,27 @@ const Heading = styled.div`
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: rgba(243, 235, 245, 1);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 `;
 
 const HeadingText = styled.h2`
   color: ${({ theme }) => `${theme.colors.modalTitle}`};
-  margin: 0px;
+  margin: auto;
   flex: 1;
+`;
+
+const ButtonsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 const Body = styled.div`
@@ -62,17 +68,19 @@ const ModalContent = ({
     <Content>
       <Heading>
         <HeadingText>{name}</HeadingText>
-        {removable && (
-          <button
-            className="btn btn-outline-danger ml-2"
-            onClick={handleRemove}
-          >
-            Remove
+        <ButtonsContainer>
+          {removable && (
+            <button
+              className="btn btn-outline-danger mb-2"
+              onClick={handleRemove}
+            >
+              Remove
+            </button>
+          )}
+          <button className="btn btn-outline-secondary" onClick={handleExit}>
+            Exit
           </button>
-        )}
-        <button className="btn btn-outline-secondary ml-2" onClick={handleExit}>
-          Exit
-        </button>
+        </ButtonsContainer>
       </Heading>
       <Body>
         {instructor && instructor.name && (
