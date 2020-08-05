@@ -5,7 +5,7 @@ exports[`SearchBar renders correctly 1`] = `
   <input
     aria-label="Search"
     autoFocus={true}
-    className="sc-AxjAm ewWaGj form-control mr-sm-2"
+    className="sc-AxjAm gGRDat form-control mr-sm-2"
     data-testid="search-bar"
     placeholder="Search Courses "
     type="search"
