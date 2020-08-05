@@ -7,6 +7,8 @@ import {
   updateSearch,
   getSearch,
   clearSelectedCourse,
+  toggleTheme,
+  getTheme,
 } from "./../../store/slices/interactions";
 import { getTerm } from "./../../store/slices/term";
 import {
@@ -17,12 +19,16 @@ import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import SearchBar from "./searchBar";
 import ExportButton from "./exportButton";
+import Toggle from "react-toggle";
 import salad_logo from "./../../images/cover_no_background.png";
 
 const Nav = styled.nav`
   background-color: ${({ theme }) => `${theme.colors.headerBackground}`};
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   flex: 0;
 `;
 
@@ -41,6 +47,7 @@ const Navbar = () => {
 
   const search = useSelector(getSearch);
   const term = useSelector(getTerm);
+  const { theme } = useSelector(getTheme);
 
   const handleChange = (e) => {
     const { value } = e.currentTarget;
@@ -56,6 +63,12 @@ const Navbar = () => {
       dispatch(loadAction);
     }
   };
+
+  const handleToggle = () => {
+    dispatch(toggleTheme(theme));
+  };
+
+  const checked = theme === "green";
 
   const bigScreen = useMediaQuery({
     query: "(min-width: 992px)",
@@ -82,6 +95,16 @@ const Navbar = () => {
             <LinkText>About</LinkText>
           </NavLink>
         </div>
+      )}
+      {bigScreen && (
+        <Toggle
+          checked={checked}
+          icons={{
+            checked: null,
+            unchecked: null,
+          }}
+          onChange={handleToggle}
+        />
       )}
     </Nav>
   );

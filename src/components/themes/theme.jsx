@@ -1,5 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
+import { useSelector } from "react-redux";
+import { getTheme } from "../../store/slices/interactions";
 
 const greenTheme = {
   colors: {
@@ -8,8 +10,8 @@ const greenTheme = {
     containerBorder: "#dcf0da",
     containerBackground: "#f6fdf4",
 
-    navBackground: "#282828",
-    navBackgroundActive: "#ffffff",
+    navBackground: "#ffffff",
+    navBackgroundActive: "#28a745",
 
     headerBackground: "#dcf0da",
     headerButton: "#28a745",
@@ -99,8 +101,11 @@ const darkTheme = {
   },
 };
 
-const Theme = ({ children }) => (
-  <ThemeProvider theme={greenTheme}>{children}</ThemeProvider>
-);
+const Theme = ({ children }) => {
+  const { theme: themeName } = useSelector(getTheme);
+  const theme = themeName === "green" ? greenTheme : darkTheme;
+
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+};
 
 export default Theme;

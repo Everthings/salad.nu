@@ -2,15 +2,8 @@
 
 exports[`NavBar renders correctly with logo 1`] = `
 <nav
-  className="sc-AxirZ dYmHNG navbar navbar-light"
+  className="sc-AxhCb hxVMjr navbar navbar-light"
 >
-  <div>
-    <img
-      alt="Logo"
-      className="sc-AxhCb eeMyL"
-      src="cover_no_background.png"
-    />
-  </div>
   <div
     className="flex-fill"
   >
@@ -18,7 +11,7 @@ exports[`NavBar renders correctly with logo 1`] = `
       <input
         aria-label="Search"
         autoFocus={true}
-        className="sc-AxjAm ewWaGj form-control mr-sm-2"
+        className="sc-AxjAm gGRDat form-control mr-sm-2"
         data-testid="search-bar"
         onChange={[Function]}
         placeholder="Search Courses "
@@ -26,39 +19,13 @@ exports[`NavBar renders correctly with logo 1`] = `
         value=""
       />
     </form>
-  </div>
-  <div>
-    <a
-      className="btn btn-success ml-3"
-      download="nu_schedule.csv"
-      href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
-      onClick={[Function]}
-      target="_self"
-      title="Export Schedule to CSV"
-    >
-      Export
-    </a>
-  </div>
-  <div>
-    <a
-      aria-current={null}
-      className="nav-item nav-link"
-      href="/about"
-      onClick={[Function]}
-    >
-      <div
-        className="sc-AxiKw bCbCPW"
-      >
-        About
-      </div>
-    </a>
   </div>
 </nav>
 `;
 
 exports[`NavBar renders correctly without logo 1`] = `
 <nav
-  className="sc-AxirZ dYmHNG navbar navbar-light"
+  className="sc-AxhCb hxVMjr navbar navbar-light"
 >
   <div
     className="flex-fill"
@@ -67,7 +34,7 @@ exports[`NavBar renders correctly without logo 1`] = `
       <input
         aria-label="Search"
         autoFocus={true}
-        className="sc-AxjAm ewWaGj form-control mr-sm-2"
+        className="sc-AxjAm gGRDat form-control mr-sm-2"
         data-testid="search-bar"
         onChange={[Function]}
         placeholder="Search Courses "
@@ -75,32 +42,6 @@ exports[`NavBar renders correctly without logo 1`] = `
         value=""
       />
     </form>
-  </div>
-  <div>
-    <a
-      className="btn btn-success ml-3"
-      download="nu_schedule.csv"
-      href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
-      onClick={[Function]}
-      target="_self"
-      title="Export Schedule to CSV"
-    >
-      Export
-    </a>
-  </div>
-  <div>
-    <a
-      aria-current={null}
-      className="nav-item nav-link"
-      href="/about"
-      onClick={[Function]}
-    >
-      <div
-        className="sc-AxiKw bCbCPW"
-      >
-        About
-      </div>
-    </a>
   </div>
 </nav>
 `;

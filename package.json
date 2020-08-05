@@ -65,6 +65,7 @@
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-toast-notifications": "^2.4.0",
+    "react-toggle": "^4.1.1",
     "redux": "^4.0.5",
     "reselect": "^4.0.0",
     "resolve": "1.15.0",

@@ -4,12 +4,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
+import Theme from "../themes/theme";
 import NavBar from "./navbar";
 import salad_logo from "./../../images/cover_no_background.png";
 
 const initialState = {
   entities: {
-    interactions: { searchStr: "" },
+    interactions: { searchStr: "", currentTheme: { theme: "green" } },
     term: { name: "2019 Fall" },
     schedule: { list: [] },
   },
@@ -25,7 +26,9 @@ describe("NavBar", () => {
       .create(
         <Provider store={store}>
           <Router>
-            <NavBar logo={salad_logo} />
+            <Theme>
+              <NavBar logo={salad_logo} />
+            </Theme>
           </Router>
         </Provider>
       )
@@ -39,7 +42,9 @@ describe("NavBar", () => {
       .create(
         <Provider store={store}>
           <Router>
-            <NavBar />
+            <Theme>
+              <NavBar />
+            </Theme>
           </Router>
         </Provider>
       )

@@ -8,7 +8,7 @@ import { ToastProvider } from "react-toast-notifications";
 import "./App.css";
 import logger from "./services/logService";
 import ReactGA from "react-ga";
-import Theme from "./components/theme";
+import Theme from "./components/themes/theme";
 import Header from "./components/header";
 import Body from "./components/body";
 import AboutPage from "./components/pages/aboutPage";
