@@ -22,7 +22,7 @@ const ExportButton = () => {
   const csvData = exportSchedule2CSV(scheduled);
 
   return (
-    <Button className="btn ml-3">
+    <Button className="btn">
       <CSVLink
         title="Export Schedule to CSV"
         data={csvData}

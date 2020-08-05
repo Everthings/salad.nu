@@ -2,16 +2,18 @@
 
 exports[`NavBar renders correctly with logo 1`] = `
 <nav
-  className="sc-AxhCb hxVMjr navbar navbar-light"
+  className="sc-AxhCb dYJNSj navbar navbar-light"
 >
   <div
     className="flex-fill"
   >
-    <form>
+    <form
+      className="mr-3"
+    >
       <input
         aria-label="Search"
         autoFocus={true}
-        className="sc-AxjAm gGRDat form-control mr-sm-2"
+        className="sc-AxjAm gGRDat form-control"
         data-testid="search-bar"
         onChange={[Function]}
         placeholder="Search Courses "
@@ -20,21 +22,52 @@ exports[`NavBar renders correctly with logo 1`] = `
       />
     </form>
   </div>
+  <div
+    className="react-toggle react-toggle--checked"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="react-toggle-track"
+    >
+      <div
+        className="react-toggle-track-check"
+      />
+      <div
+        className="react-toggle-track-x"
+      />
+    </div>
+    <div
+      className="react-toggle-thumb"
+    />
+    <input
+      checked={true}
+      className="react-toggle-screenreader-only"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+  </div>
 </nav>
 `;
 
 exports[`NavBar renders correctly without logo 1`] = `
 <nav
-  className="sc-AxhCb hxVMjr navbar navbar-light"
+  className="sc-AxhCb dYJNSj navbar navbar-light"
 >
   <div
     className="flex-fill"
   >
-    <form>
+    <form
+      className="mr-3"
+    >
       <input
         aria-label="Search"
         autoFocus={true}
-        className="sc-AxjAm gGRDat form-control mr-sm-2"
+        className="sc-AxjAm gGRDat form-control"
         data-testid="search-bar"
         onChange={[Function]}
         placeholder="Search Courses "
@@ -42,6 +75,35 @@ exports[`NavBar renders correctly without logo 1`] = `
         value=""
       />
     </form>
+  </div>
+  <div
+    className="react-toggle react-toggle--checked"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="react-toggle-track"
+    >
+      <div
+        className="react-toggle-track-check"
+      />
+      <div
+        className="react-toggle-track-x"
+      />
+    </div>
+    <div
+      className="react-toggle-thumb"
+    />
+    <input
+      checked={true}
+      className="react-toggle-screenreader-only"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
   </div>
 </nav>
 `;

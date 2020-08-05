@@ -12,10 +12,10 @@ const SearchBar = ({ term, search, handleChange }) => {
   const termName = term ? `(${term.name})` : "";
 
   return (
-    <form>
+    <form className="mr-3">
       <Input
         autoFocus
-        className="form-control mr-sm-2"
+        className="form-control"
         type="search"
         placeholder={`Search Courses ${termName}`}
         aria-label="Search"

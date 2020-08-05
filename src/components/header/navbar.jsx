@@ -94,16 +94,14 @@ const Navbar = () => {
           </NavLink>
         </div>
       )}
-      {bigScreen && (
-        <Toggle
-          checked={checked}
-          icons={{
-            checked: null,
-            unchecked: null,
-          }}
-          onChange={handleToggle}
-        />
-      )}
+      <Toggle
+        checked={checked}
+        icons={{
+          checked: null,
+          unchecked: null,
+        }}
+        onChange={handleToggle}
+      />
     </Nav>
   );
 };
