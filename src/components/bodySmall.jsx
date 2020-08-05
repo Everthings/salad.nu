@@ -9,6 +9,7 @@ const StyleWrapper = styled.div`
   height: 100%;
   flex: 1;
   min-height: 0;
+
   & .nav-link {
     color: ${({ theme }) => `${theme.colors.navBackgroundActive} !important`};
     background-color: ${({ theme }) =>
@@ -24,6 +25,7 @@ const StyleWrapper = styled.div`
 
 const FlexContainer = styled.div`
   height: 100%;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
 `;
@@ -53,7 +55,7 @@ const BodySmall = () => {
             </Nav.Item>
           </Nav>
 
-          <Tab.Content className="flex-fill" style={{ overflow: "auto" }}>
+          <Tab.Content className="h-100" style={{ overflow: "auto" }}>
             <Tab.Pane className="h-100" eventKey="courses">
               <SaladContainer>
                 <Courses />

@@ -7,7 +7,7 @@ const loadState = () => {
     }
     const loadedSchedule = JSON.parse(serializedSchedule);
     const loadedTheme = JSON.parse(serializedTheme);
-    console.log(loadedTheme);
+
     return {
       entities: {
         schedule: loadedSchedule,

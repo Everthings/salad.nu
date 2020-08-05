@@ -21,6 +21,7 @@ const StyleWrapper = styled.div`
 
 const FlexContainer = styled.div`
   height: 100%;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
 `;
