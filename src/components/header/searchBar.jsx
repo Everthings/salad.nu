@@ -11,8 +11,12 @@ const Input = styled.input`
 const SearchBar = ({ term, search, handleChange }) => {
   const termName = term ? `(${term.name})` : "";
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <form className="mr-3">
+    <form className="mr-3" onSubmit={handleSubmit}>
       <Input
         autoFocus
         className="form-control"
