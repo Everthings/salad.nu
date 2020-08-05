@@ -3,6 +3,7 @@
 exports[`SearchBar renders correctly 1`] = `
 <form
   className="mr-3"
+  onSubmit={[Function]}
 >
   <input
     aria-label="Search"

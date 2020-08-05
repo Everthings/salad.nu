@@ -9,6 +9,7 @@ exports[`NavBar renders correctly with logo 1`] = `
   >
     <form
       className="mr-3"
+      onSubmit={[Function]}
     >
       <input
         aria-label="Search"
@@ -63,6 +64,7 @@ exports[`NavBar renders correctly without logo 1`] = `
   >
     <form
       className="mr-3"
+      onSubmit={[Function]}
     >
       <input
         aria-label="Search"
