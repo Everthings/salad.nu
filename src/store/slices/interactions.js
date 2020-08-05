@@ -90,6 +90,10 @@ export const updateSelectedSection = (info) => {
   return updatedSelectedSection({ info });
 };
 
+export const updateRemovableSelectedSection = (info) => {
+  return updatedSelectedSection({ info: { ...info, removable: true } });
+};
+
 export const clearSelectedSection = () => {
   return clearedSelectedSection();
 };

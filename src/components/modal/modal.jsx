@@ -1,12 +1,16 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useToasts } from "react-toast-notifications";
 import {
   getSelectedSection,
   clearSelectedSection,
+  clearHoveredCourse,
+  clearCurrentBuilding,
 } from "./../../store/slices/interactions";
 import { getName } from "./../../utils/courseUtils";
 import Modal from "react-modal";
 import ModalContent from "./modalContent";
+import { removeSection } from "../../store/slices/schedule";
 
 Modal.setAppElement(document.getElementById("root"));
 
@@ -27,6 +31,7 @@ const style = {
 
 const CourseModal = () => {
   const dispatch = useDispatch();
+  const { addToast } = useToasts();
 
   const { info: section } = useSelector(getSelectedSection);
   let name = "";
@@ -40,10 +45,27 @@ const CourseModal = () => {
     dispatch(clearSelectedSection());
   };
 
+  const handleRemove = () => {
+    dispatch(removeSection(section.unique_id));
+    dispatch(clearHoveredCourse());
+    dispatch(clearCurrentBuilding());
+    handleExit();
+
+    addToast(`Removed ${name}`, {
+      appearance: "error",
+      autoDismiss: true,
+    });
+  };
+
   return (
     <Modal style={style} isOpen={isOpen} onRequestClose={handleExit}>
       {section && (
-        <ModalContent name={name} {...section} handleExit={handleExit} />
+        <ModalContent
+          name={name}
+          {...section}
+          handleExit={handleExit}
+          handleRemove={handleRemove}
+        />
       )}
     </Modal>
   );

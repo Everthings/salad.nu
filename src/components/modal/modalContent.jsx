@@ -25,6 +25,7 @@ const Heading = styled.div`
 const HeadingText = styled.h2`
   color: ${({ theme }) => `${theme.colors.modalTitle}`};
   margin: 0px;
+  flex: 1;
 `;
 
 const Body = styled.div`
@@ -50,16 +51,26 @@ const DescriptionText = styled.p`
 
 const ModalContent = ({
   handleExit,
+  handleRemove,
   name,
   instructor,
   room,
   course_descriptions,
+  removable,
 }) => {
   return (
     <Content>
       <Heading>
         <HeadingText>{name}</HeadingText>
-        <button className="btn btn-outline-secondary" onClick={handleExit}>
+        {removable && (
+          <button
+            className="btn btn-outline-danger ml-2"
+            onClick={handleRemove}
+          >
+            Remove
+          </button>
+        )}
+        <button className="btn btn-outline-secondary ml-2" onClick={handleExit}>
           Exit
         </button>
       </Heading>

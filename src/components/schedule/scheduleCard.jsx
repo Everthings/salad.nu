@@ -7,7 +7,7 @@ import {
   getHoveredCourse,
   updateCurrentBuilding,
   clearCurrentBuilding,
-  updateSelectedSection,
+  updateRemovableSelectedSection,
   updateHoveredCourse,
   clearHoveredCourse,
 } from "../../store/slices/interactions";
@@ -94,7 +94,7 @@ const ScheduleCard = ({ data, style, color }) => {
   };
 
   const handleClick = () => {
-    dispatch(updateSelectedSection(data));
+    dispatch(updateRemovableSelectedSection(data));
   };
 
   const handleMouseEnter = (room) => {
