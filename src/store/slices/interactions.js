@@ -7,7 +7,6 @@ const defaultSelectedSection = { info: null };
 const defaultBuilding = { lat: -360, lon: -360 };
 const defaultHoveredCourse = { id: -1 };
 const defaultHoveredSection = { id: -1 };
-const defaultTheme = { theme: "green" };
 
 // Reducers
 const slice = createSlice({
@@ -19,7 +18,6 @@ const slice = createSlice({
     currentBuilding: defaultBuilding,
     hoveredScheduledCourse: defaultHoveredCourse,
     hoveredSection: defaultHoveredSection,
-    currentTheme: defaultTheme,
   },
   reducers: {
     updatedSearch: (interactions, action) => {
@@ -57,10 +55,6 @@ const slice = createSlice({
     clearedHoveredSection: (interactions, action) => {
       interactions.hoveredSection = defaultHoveredSection;
     },
-    toggledTheme: (interactions, action) => {
-      const theme = action.payload.theme === "green" ? "dark" : "green";
-      interactions.currentTheme.theme = theme;
-    },
   },
 });
 
@@ -76,7 +70,6 @@ const {
   clearedHoveredCourse,
   updatedHoveredSection,
   clearedHoveredSection,
-  toggledTheme,
 } = slice.actions;
 export default slice.reducer;
 
@@ -132,10 +125,6 @@ export const clearHoveredSection = () => {
   return clearedHoveredSection();
 };
 
-export const toggleTheme = (theme) => {
-  return toggledTheme({ theme });
-};
-
 // Selectors
 export const getSearch = createSelector(
   (state) => state.entities.interactions,
@@ -165,9 +154,4 @@ export const getHoveredCourse = createSelector(
 export const getHoveredSection = createSelector(
   (state) => state.entities.interactions,
   (interactions) => interactions.hoveredSection
-);
-
-export const getTheme = createSelector(
-  (state) => state.entities.interactions,
-  (interactions) => interactions.currentTheme
 );

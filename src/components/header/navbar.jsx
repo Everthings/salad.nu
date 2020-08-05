@@ -7,9 +7,8 @@ import {
   updateSearch,
   getSearch,
   clearSelectedCourse,
-  toggleTheme,
-  getTheme,
 } from "./../../store/slices/interactions";
+import { toggleTheme, getTheme } from "./../../store/slices/theme";
 import { getTerm } from "./../../store/slices/term";
 import {
   loadCourses,
@@ -47,7 +46,7 @@ const Navbar = () => {
 
   const search = useSelector(getSearch);
   const term = useSelector(getTerm);
-  const { theme } = useSelector(getTheme);
+  const theme = useSelector(getTheme);
 
   const handleChange = (e) => {
     const { value } = e.currentTarget;

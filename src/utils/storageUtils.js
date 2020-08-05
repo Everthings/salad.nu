@@ -1,11 +1,19 @@
 const loadState = () => {
   try {
-    const serializedState = localStorage.getItem("state");
-    if (serializedState === null) {
+    const serializedSchedule = localStorage.getItem("schedule");
+    const serializedTheme = localStorage.getItem("theme");
+    if (serializedSchedule === null || serializedTheme == null) {
       return undefined;
     }
-    const loadedState = JSON.parse(serializedState);
-    return { entities: { schedule: loadedState } };
+    const loadedSchedule = JSON.parse(serializedSchedule);
+    const loadedTheme = JSON.parse(serializedTheme);
+    console.log(loadedTheme);
+    return {
+      entities: {
+        schedule: loadedSchedule,
+        theme: loadedTheme,
+      },
+    };
   } catch (err) {
     return undefined;
   }
@@ -13,10 +21,12 @@ const loadState = () => {
 
 const saveState = (state) => {
   try {
-    const serializedState = JSON.stringify(state.entities.schedule); // only save schedule
-    localStorage.setItem("state", serializedState);
+    const serializedSchedule = JSON.stringify(state.entities.schedule); // only save schedule
+    const serializedTheme = JSON.stringify(state.entities.theme); // and theme as well
+    localStorage.setItem("schedule", serializedSchedule);
+    localStorage.setItem("theme", serializedTheme);
   } catch (err) {
-    // Ignore write errors
+    // ignore write errors
   }
 };
 
