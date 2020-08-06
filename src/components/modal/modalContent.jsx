@@ -19,7 +19,7 @@ const Heading = styled.div`
   text-align: center;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 `;
 
@@ -31,7 +31,14 @@ const HeadingText = styled.h2`
 
 const ButtonsContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+const Button = styled.button`
+  max-width: 100px;
+  margin: 0.5rem;
+  padding: 0.3rem;
 `;
 
 const Body = styled.div`
@@ -70,16 +77,13 @@ const ModalContent = ({
         <HeadingText>{name}</HeadingText>
         <ButtonsContainer>
           {removable && (
-            <button
-              className="btn btn-outline-danger mb-2"
-              onClick={handleRemove}
-            >
+            <Button className="btn btn-outline-danger" onClick={handleRemove}>
               Remove
-            </button>
+            </Button>
           )}
-          <button className="btn btn-outline-secondary" onClick={handleExit}>
+          <Button className="btn btn-outline-secondary" onClick={handleExit}>
             Exit
-          </button>
+          </Button>
         </ButtonsContainer>
       </Heading>
       <Body>

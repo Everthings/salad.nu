@@ -30,7 +30,7 @@ const CardBody = styled.div`
   position: relative;
 `;
 
-const Button = styled.button`
+const XButton = styled.button`
   position: absolute;
   top: -3px;
   right: -3px;
@@ -38,6 +38,7 @@ const Button = styled.button`
   background-color: rgba(0, 0, 0, 0);
   color: rgba(245, 99, 66, 50);
   font-size: 10pt;
+  padding: 1px 6px;
   z-index: 1;
 `;
 
@@ -131,7 +132,7 @@ const ScheduleCard = ({ data, style, color }) => {
       className={classes}
     >
       <CardBody>
-        {showDelete && <Button onClick={handleXClick}>x</Button>}
+        {showDelete && <XButton onClick={handleXClick}>x</XButton>}
         <TextWrapper>
           <Title textBreakStrategy={"simple"}>
             {nameParts.map((txt) => {
