@@ -90,7 +90,7 @@ const discussions = {
   "895": [],
   "899": [
     {
-      unique_id: -188045,
+      unique_id: -347,
       component: "DIS",
       subject: "IMC",
       number: "402-0",
@@ -103,7 +103,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3127" },
     },
     {
-      unique_id: -188044,
+      unique_id: -348,
       component: "DIS",
       subject: "IMC",
       number: "402-0",
@@ -116,7 +116,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3127" },
     },
     {
-      unique_id: -188043,
+      unique_id: -349,
       component: "DIS",
       subject: "IMC",
       number: "402-0",
@@ -131,7 +131,7 @@ const discussions = {
   ],
   "900": [
     {
-      unique_id: -188042,
+      unique_id: -344,
       component: "DIS",
       subject: "IMC",
       number: "401-0",
@@ -144,7 +144,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3119" },
     },
     {
-      unique_id: -188041,
+      unique_id: -345,
       component: "DIS",
       subject: "IMC",
       number: "401-0",
@@ -157,7 +157,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3119" },
     },
     {
-      unique_id: -188040,
+      unique_id: -346,
       component: "DIS",
       subject: "IMC",
       number: "401-0",
@@ -172,7 +172,7 @@ const discussions = {
   ],
   "901": [
     {
-      unique_id: -188046,
+      unique_id: -350,
       component: "DIS",
       subject: "IMC",
       number: "403-0",
@@ -185,7 +185,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3127" },
     },
     {
-      unique_id: -188045,
+      unique_id: -351,
       component: "DIS",
       subject: "IMC",
       number: "403-0",
@@ -198,7 +198,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3127" },
     },
     {
-      unique_id: -188044,
+      unique_id: -352,
       component: "DIS",
       subject: "IMC",
       number: "403-0",
@@ -213,7 +213,7 @@ const discussions = {
   ],
   "904": [
     {
-      unique_id: -188041,
+      unique_id: -343,
       component: "DIS",
       subject: "IMC",
       number: "400-0",
@@ -226,7 +226,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3119" },
     },
     {
-      unique_id: -188040,
+      unique_id: -341,
       component: "DIS",
       subject: "IMC",
       number: "400-0",
@@ -239,7 +239,7 @@ const discussions = {
       room: { building_name: "McCormick Foundation Ctr 3119" },
     },
     {
-      unique_id: -188039,
+      unique_id: -342,
       component: "DIS",
       subject: "IMC",
       number: "400-0",
@@ -276,7 +276,7 @@ const discussions = {
   "1089": [],
   "1096": [
     {
-      unique_id: -188785,
+      unique_id: -4,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -289,7 +289,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188784,
+      unique_id: -5,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -302,7 +302,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188783,
+      unique_id: -6,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -315,7 +315,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188782,
+      unique_id: -7,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -328,7 +328,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188781,
+      unique_id: -8,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -341,7 +341,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188780,
+      unique_id: -9,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -354,7 +354,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188779,
+      unique_id: -10,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -367,7 +367,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: -188778,
+      unique_id: -11,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -380,7 +380,7 @@ const discussions = {
       room: { building_name: "ANTHRO Sem Rm 104 - 1810 Hinmn" },
     },
     {
-      unique_id: null,
+      unique_id: -12,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -393,7 +393,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -13,
       component: "DIS",
       subject: "ANTHRO",
       number: "214-0",
@@ -419,7 +419,7 @@ const discussions = {
   "1195": [],
   "1218": [
     {
-      unique_id: -188750,
+      unique_id: -1,
       component: "DIS",
       subject: "AF_AM_ST",
       number: "380-0",
@@ -432,7 +432,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -188749,
+      unique_id: -2,
       component: "DIS",
       subject: "AF_AM_ST",
       number: "380-0",
@@ -445,7 +445,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -188748,
+      unique_id: -3,
       component: "DIS",
       subject: "AF_AM_ST",
       number: "380-0",
@@ -495,7 +495,7 @@ const discussions = {
   "1419": [],
   "1423": [
     {
-      unique_id: -188882,
+      unique_id: -38,
       component: "DIS",
       subject: "BIOL_SCI",
       number: "390-0",
@@ -508,7 +508,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -188881,
+      unique_id: -39,
       component: "DIS",
       subject: "BIOL_SCI",
       number: "390-0",
@@ -547,7 +547,7 @@ const discussions = {
   "1539": [],
   "1541": [
     {
-      unique_id: -189144,
+      unique_id: -107,
       component: "DIS",
       subject: "CLASSICS",
       number: "210-0",
@@ -560,7 +560,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 223", building_id: 99 },
     },
     {
-      unique_id: -189143,
+      unique_id: -106,
       component: "DIS",
       subject: "CLASSICS",
       number: "210-0",
@@ -575,7 +575,7 @@ const discussions = {
   ],
   "1551": [
     {
-      unique_id: -189145,
+      unique_id: -114,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -588,7 +588,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-329", building_id: 77 },
     },
     {
-      unique_id: -189144,
+      unique_id: -113,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -601,7 +601,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-329", building_id: 77 },
     },
     {
-      unique_id: -189143,
+      unique_id: -108,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -614,7 +614,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-329", building_id: 77 },
     },
     {
-      unique_id: -189142,
+      unique_id: -112,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -627,7 +627,7 @@ const discussions = {
       room: { building_name: "Locy Hall 106", building_id: 80 },
     },
     {
-      unique_id: -189141,
+      unique_id: -111,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -640,7 +640,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 4-410", building_id: 77 },
     },
     {
-      unique_id: -189140,
+      unique_id: -110,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -653,7 +653,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 213", building_id: 99 },
     },
     {
-      unique_id: -189139,
+      unique_id: -109,
       component: "DIS",
       subject: "CLASSICS",
       number: "260-0",
@@ -668,7 +668,7 @@ const discussions = {
   ],
   "1561": [
     {
-      unique_id: -189148,
+      unique_id: -115,
       component: "LAB",
       subject: "CLASSICS",
       number: "390-0",
@@ -685,7 +685,7 @@ const discussions = {
   "1573": [],
   "1588": [
     {
-      unique_id: -189155,
+      unique_id: -118,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -698,7 +698,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189154,
+      unique_id: -119,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -711,7 +711,7 @@ const discussions = {
       room: { building_name: "University Library 4722", building_id: 123 },
     },
     {
-      unique_id: -189153,
+      unique_id: -120,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -724,7 +724,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189152,
+      unique_id: -121,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -737,7 +737,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189151,
+      unique_id: -122,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -750,7 +750,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189150,
+      unique_id: -123,
       component: "DIS",
       subject: "COMP_LIT",
       number: "211-0",
@@ -773,7 +773,7 @@ const discussions = {
   "1645": [],
   "1646": [
     {
-      unique_id: -189224,
+      unique_id: -172,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -786,7 +786,7 @@ const discussions = {
       room: { building_name: "Technological Institute M164", building_id: 119 },
     },
     {
-      unique_id: -189223,
+      unique_id: -173,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -799,7 +799,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189222,
+      unique_id: -174,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -812,7 +812,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G21", building_id: 39 },
     },
     {
-      unique_id: -189221,
+      unique_id: -175,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -825,7 +825,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G21", building_id: 39 },
     },
     {
-      unique_id: -189220,
+      unique_id: -176,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -838,7 +838,7 @@ const discussions = {
       room: { building_name: "Locy Hall 214", building_id: 80 },
     },
     {
-      unique_id: -189219,
+      unique_id: -177,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -851,7 +851,7 @@ const discussions = {
       room: { building_name: "Technological Institute L160", building_id: 119 },
     },
     {
-      unique_id: -189218,
+      unique_id: -178,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -864,7 +864,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G15", building_id: 39 },
     },
     {
-      unique_id: -189217,
+      unique_id: -179,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -877,7 +877,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G15", building_id: 39 },
     },
     {
-      unique_id: -189216,
+      unique_id: -180,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -890,7 +890,7 @@ const discussions = {
       room: { building_name: "University Hall 102", building_id: 122 },
     },
     {
-      unique_id: -189215,
+      unique_id: -181,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -903,7 +903,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189205,
+      unique_id: -166,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -916,7 +916,7 @@ const discussions = {
       room: { building_name: "Willard Hall B72" },
     },
     {
-      unique_id: -189204,
+      unique_id: -167,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -929,7 +929,7 @@ const discussions = {
       room: { building_name: "Willard Hall B72" },
     },
     {
-      unique_id: -189203,
+      unique_id: -168,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -942,7 +942,7 @@ const discussions = {
       room: { building_name: "Technological Institute L221", building_id: 119 },
     },
     {
-      unique_id: -189202,
+      unique_id: -169,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -955,7 +955,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189201,
+      unique_id: -170,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -968,7 +968,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189200,
+      unique_id: -171,
       component: "DIS",
       subject: "ECON",
       number: "201-0",
@@ -983,7 +983,7 @@ const discussions = {
   ],
   "1647": [
     {
-      unique_id: -189226,
+      unique_id: -182,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -996,7 +996,7 @@ const discussions = {
       room: { building_name: "560 Lincoln St. Classroom 101B" },
     },
     {
-      unique_id: -189225,
+      unique_id: -183,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1009,7 +1009,7 @@ const discussions = {
       room: { building_name: "560 Lincoln St. Classroom 101B" },
     },
     {
-      unique_id: -189224,
+      unique_id: -184,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1022,7 +1022,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189223,
+      unique_id: -185,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1035,7 +1035,7 @@ const discussions = {
       room: { building_name: "Technological Institute M166", building_id: 119 },
     },
     {
-      unique_id: -189222,
+      unique_id: -186,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1048,7 +1048,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B25" },
     },
     {
-      unique_id: -189221,
+      unique_id: -187,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1061,7 +1061,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B25" },
     },
     {
-      unique_id: -189220,
+      unique_id: -188,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1074,7 +1074,7 @@ const discussions = {
       room: { building_name: "No Room Needed" },
     },
     {
-      unique_id: -189219,
+      unique_id: -189,
       component: "DIS",
       subject: "ECON",
       number: "202-0",
@@ -1090,7 +1090,7 @@ const discussions = {
   "1649": [],
   "1650": [
     {
-      unique_id: -189227,
+      unique_id: -190,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1103,7 +1103,7 @@ const discussions = {
       room: { building_name: "Technological Institute A110", building_id: 119 },
     },
     {
-      unique_id: -189226,
+      unique_id: -194,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1119,7 +1119,7 @@ const discussions = {
       },
     },
     {
-      unique_id: -189225,
+      unique_id: -191,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1132,7 +1132,7 @@ const discussions = {
       room: { building_name: "Technological Institute M177", building_id: 119 },
     },
     {
-      unique_id: -189224,
+      unique_id: -192,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1148,7 +1148,7 @@ const discussions = {
       },
     },
     {
-      unique_id: -189223,
+      unique_id: -193,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1161,7 +1161,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2107", building_id: 62 },
     },
     {
-      unique_id: -189222,
+      unique_id: -195,
       component: "DIS",
       subject: "ECON",
       number: "281-0",
@@ -1179,7 +1179,7 @@ const discussions = {
   "1656": [],
   "1657": [
     {
-      unique_id: -189231,
+      unique_id: -196,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1192,7 +1192,7 @@ const discussions = {
       room: { building_name: "Technological Institute A110", building_id: 119 },
     },
     {
-      unique_id: -189230,
+      unique_id: -197,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1205,7 +1205,7 @@ const discussions = {
       room: { building_name: "Technological Institute M152", building_id: 119 },
     },
     {
-      unique_id: -189229,
+      unique_id: -198,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1218,7 +1218,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 5" },
     },
     {
-      unique_id: -189228,
+      unique_id: -199,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1231,7 +1231,7 @@ const discussions = {
       room: { building_name: "Harris Hall L07", building_id: 68 },
     },
     {
-      unique_id: -189227,
+      unique_id: -200,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1244,7 +1244,7 @@ const discussions = {
       room: { building_name: "University Hall 102", building_id: 122 },
     },
     {
-      unique_id: -189226,
+      unique_id: -203,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1257,7 +1257,7 @@ const discussions = {
       room: { building_name: "University Hall 102", building_id: 122 },
     },
     {
-      unique_id: -189225,
+      unique_id: -201,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1270,7 +1270,7 @@ const discussions = {
       room: { building_name: "Technological Institute M345", building_id: 119 },
     },
     {
-      unique_id: -189224,
+      unique_id: -202,
       component: "DIS",
       subject: "ECON",
       number: "310-1",
@@ -1285,7 +1285,7 @@ const discussions = {
   ],
   "1658": [
     {
-      unique_id: -189232,
+      unique_id: -204,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1298,7 +1298,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 107", building_id: 83 },
     },
     {
-      unique_id: -189231,
+      unique_id: -205,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1311,7 +1311,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 107", building_id: 83 },
     },
     {
-      unique_id: -189230,
+      unique_id: -210,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1324,7 +1324,7 @@ const discussions = {
       room: { building_name: "Technological Institute A110", building_id: 119 },
     },
     {
-      unique_id: -189229,
+      unique_id: -206,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1340,7 +1340,7 @@ const discussions = {
       },
     },
     {
-      unique_id: -189228,
+      unique_id: -207,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1353,7 +1353,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 5" },
     },
     {
-      unique_id: -189227,
+      unique_id: -208,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1366,7 +1366,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2370", building_id: 62 },
     },
     {
-      unique_id: -189226,
+      unique_id: -211,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1379,7 +1379,7 @@ const discussions = {
       room: { building_name: "Technological Institute L251", building_id: 119 },
     },
     {
-      unique_id: -189225,
+      unique_id: -209,
       component: "DIS",
       subject: "ECON",
       number: "310-2",
@@ -1394,7 +1394,7 @@ const discussions = {
   ],
   "1659": [
     {
-      unique_id: -189233,
+      unique_id: -213,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1407,7 +1407,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189232,
+      unique_id: -214,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1420,7 +1420,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189231,
+      unique_id: -217,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1433,7 +1433,7 @@ const discussions = {
       room: { building_name: "Technological Institute L150", building_id: 119 },
     },
     {
-      unique_id: -189230,
+      unique_id: -212,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1446,7 +1446,7 @@ const discussions = {
       room: { building_name: "Locy Hall 111", building_id: 80 },
     },
     {
-      unique_id: -189229,
+      unique_id: -215,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1459,7 +1459,7 @@ const discussions = {
       room: { building_name: "Harris Hall L07", building_id: 68 },
     },
     {
-      unique_id: -189228,
+      unique_id: -216,
       component: "DIS",
       subject: "ECON",
       number: "311-0",
@@ -1475,7 +1475,7 @@ const discussions = {
   "1669": [],
   "1673": [
     {
-      unique_id: -189235,
+      unique_id: -218,
       component: "DIS",
       subject: "ECON",
       number: "330-0",
@@ -1497,7 +1497,7 @@ const discussions = {
   "1696": [],
   "1698": [
     {
-      unique_id: -189245,
+      unique_id: -219,
       component: "DIS",
       subject: "ECON",
       number: "410-1",
@@ -1510,7 +1510,7 @@ const discussions = {
       room: { building_name: "Kellogg Econ Classroom 1410" },
     },
     {
-      unique_id: -189244,
+      unique_id: -220,
       component: "DIS",
       subject: "ECON",
       number: "410-1",
@@ -1525,7 +1525,7 @@ const discussions = {
   ],
   "1701": [
     {
-      unique_id: -189246,
+      unique_id: -221,
       component: "DIS",
       subject: "ECON",
       number: "411-1",
@@ -1546,7 +1546,7 @@ const discussions = {
   "1723": [],
   "1728": [
     {
-      unique_id: -189254,
+      unique_id: -222,
       component: "DIS",
       subject: "ECON",
       number: "480-1",
@@ -1559,7 +1559,7 @@ const discussions = {
       room: { building_name: "Kellogg Econ Classroom 1410" },
     },
     {
-      unique_id: -189253,
+      unique_id: -223,
       component: "DIS",
       subject: "ECON",
       number: "480-1",
@@ -1592,7 +1592,7 @@ const discussions = {
   "1778": [],
   "1780": [
     {
-      unique_id: -189266,
+      unique_id: -234,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1605,7 +1605,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189265,
+      unique_id: -235,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1618,7 +1618,7 @@ const discussions = {
       room: { building_name: "University Library 4722", building_id: 123 },
     },
     {
-      unique_id: -189264,
+      unique_id: -237,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1631,7 +1631,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189263,
+      unique_id: -233,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1644,7 +1644,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189262,
+      unique_id: -232,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1657,7 +1657,7 @@ const discussions = {
       room: { building_name: "University Hall 018 English", building_id: 122 },
     },
     {
-      unique_id: -189261,
+      unique_id: -236,
       component: "DIS",
       subject: "ENGLISH",
       number: "211-0",
@@ -1672,7 +1672,7 @@ const discussions = {
   ],
   "1785": [
     {
-      unique_id: -189267,
+      unique_id: -240,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1685,7 +1685,7 @@ const discussions = {
       room: { building_name: "University Hall 318", building_id: 122 },
     },
     {
-      unique_id: -189266,
+      unique_id: -241,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1698,7 +1698,7 @@ const discussions = {
       room: { building_name: "University Hall 118", building_id: 122 },
     },
     {
-      unique_id: -189265,
+      unique_id: -238,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1711,7 +1711,7 @@ const discussions = {
       room: { building_name: "University Hall 118", building_id: 122 },
     },
     {
-      unique_id: -189264,
+      unique_id: -243,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1724,7 +1724,7 @@ const discussions = {
       room: { building_name: "University Hall 118", building_id: 122 },
     },
     {
-      unique_id: -189263,
+      unique_id: -242,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1737,7 +1737,7 @@ const discussions = {
       room: { building_name: "University Hall 118", building_id: 122 },
     },
     {
-      unique_id: -189262,
+      unique_id: -239,
       component: "DIS",
       subject: "ENGLISH",
       number: "270-1",
@@ -1773,7 +1773,7 @@ const discussions = {
   "1904": [],
   "1905": [
     {
-      unique_id: -189212,
+      unique_id: -163,
       component: "LAB",
       subject: "EARTH",
       number: "106-0",
@@ -1786,7 +1786,7 @@ const discussions = {
       room: { building_name: "Technological Institute F389", building_id: 119 },
     },
     {
-      unique_id: -189211,
+      unique_id: -162,
       component: "LAB",
       subject: "EARTH",
       number: "106-0",
@@ -1802,7 +1802,7 @@ const discussions = {
   "1912": [],
   "1925": [
     {
-      unique_id: -189216,
+      unique_id: -164,
       component: "DIS",
       subject: "EARTH",
       number: "350-0",
@@ -1831,7 +1831,7 @@ const discussions = {
   "2028": [],
   "2043": [
     {
-      unique_id: -189395,
+      unique_id: -292,
       component: "DIS",
       subject: "HISTORY",
       number: "275-1",
@@ -1844,7 +1844,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189394,
+      unique_id: -293,
       component: "DIS",
       subject: "HISTORY",
       number: "275-1",
@@ -1857,7 +1857,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189393,
+      unique_id: -294,
       component: "DIS",
       subject: "HISTORY",
       number: "275-1",
@@ -1872,7 +1872,7 @@ const discussions = {
   ],
   "2045": [
     {
-      unique_id: -189396,
+      unique_id: -296,
       component: "DIS",
       subject: "HISTORY",
       number: "281-0",
@@ -1885,7 +1885,7 @@ const discussions = {
       room: { building_name: "Harris Hall L06", building_id: 68 },
     },
     {
-      unique_id: -189395,
+      unique_id: -295,
       component: "DIS",
       subject: "HISTORY",
       number: "281-0",
@@ -1898,7 +1898,7 @@ const discussions = {
       room: { building_name: "Harris Hall L06", building_id: 68 },
     },
     {
-      unique_id: -189394,
+      unique_id: -297,
       component: "DIS",
       subject: "HISTORY",
       number: "281-0",
@@ -1914,7 +1914,7 @@ const discussions = {
   "2054": [],
   "2076": [
     {
-      unique_id: -189403,
+      unique_id: -304,
       component: "DIS",
       subject: "HISTORY",
       number: "322-1",
@@ -1927,7 +1927,7 @@ const discussions = {
       room: { building_name: "University Hall 318", building_id: 122 },
     },
     {
-      unique_id: -189402,
+      unique_id: -305,
       component: "DIS",
       subject: "HISTORY",
       number: "322-1",
@@ -1940,7 +1940,7 @@ const discussions = {
       room: { building_name: "University Hall 318", building_id: 122 },
     },
     {
-      unique_id: -189401,
+      unique_id: -306,
       component: "DIS",
       subject: "HISTORY",
       number: "322-1",
@@ -1955,7 +1955,7 @@ const discussions = {
   ],
   "2084": [
     {
-      unique_id: -189404,
+      unique_id: -307,
       component: "DIS",
       subject: "HISTORY",
       number: "333-0",
@@ -1968,7 +1968,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -189403,
+      unique_id: -308,
       component: "DIS",
       subject: "HISTORY",
       number: "333-0",
@@ -1981,7 +1981,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -189402,
+      unique_id: -309,
       component: "DIS",
       subject: "HISTORY",
       number: "333-0",
@@ -1996,7 +1996,7 @@ const discussions = {
   ],
   "2141": [
     {
-      unique_id: -189407,
+      unique_id: -316,
       component: "DIS",
       subject: "HISTORY",
       number: "385-1",
@@ -2009,7 +2009,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-415", building_id: 77 },
     },
     {
-      unique_id: -189406,
+      unique_id: -317,
       component: "DIS",
       subject: "HISTORY",
       number: "385-1",
@@ -2022,7 +2022,7 @@ const discussions = {
       room: { building_name: "Harris Hall L28", building_id: 68 },
     },
     {
-      unique_id: -189405,
+      unique_id: -318,
       component: "DIS",
       subject: "HISTORY",
       number: "385-1",
@@ -2048,7 +2048,7 @@ const discussions = {
   "2217": [],
   "2218": [
     {
-      unique_id: -190087,
+      unique_id: -563,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2061,7 +2061,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -190086,
+      unique_id: -569,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2074,7 +2074,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -190085,
+      unique_id: -567,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2087,7 +2087,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-425", building_id: 77 },
     },
     {
-      unique_id: -190084,
+      unique_id: -570,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2100,7 +2100,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-425", building_id: 77 },
     },
     {
-      unique_id: -190083,
+      unique_id: -568,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2113,7 +2113,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-415", building_id: 77 },
     },
     {
-      unique_id: -190082,
+      unique_id: -571,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2126,7 +2126,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-425", building_id: 77 },
     },
     {
-      unique_id: null,
+      unique_id: -564,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2139,7 +2139,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -566,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2152,7 +2152,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -565,
       component: "DIS",
       subject: "RELIGION",
       number: "170-0",
@@ -2167,7 +2167,7 @@ const discussions = {
   ],
   "2224": [
     {
-      unique_id: -190088,
+      unique_id: -572,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2180,7 +2180,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -190087,
+      unique_id: -573,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2193,7 +2193,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -190086,
+      unique_id: -574,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2206,7 +2206,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -190085,
+      unique_id: -575,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2219,7 +2219,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -190084,
+      unique_id: -577,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2232,7 +2232,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -190083,
+      unique_id: -578,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2245,7 +2245,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -190082,
+      unique_id: -579,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2258,7 +2258,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -190081,
+      unique_id: -576,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2271,7 +2271,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 212", building_id: 99 },
     },
     {
-      unique_id: -190080,
+      unique_id: -580,
       component: "DIS",
       subject: "RELIGION",
       number: "210-0",
@@ -2316,7 +2316,7 @@ const discussions = {
   "2427": [],
   "2446": [
     {
-      unique_id: -189702,
+      unique_id: -380,
       component: "DIS",
       subject: "MATH",
       number: "202-0",
@@ -2331,7 +2331,7 @@ const discussions = {
   ],
   "2453": [
     {
-      unique_id: -189730,
+      unique_id: -389,
       component: "DIS",
       subject: "MATH",
       number: "234-0",
@@ -2344,7 +2344,7 @@ const discussions = {
       room: { building_name: "Technological Institute M166", building_id: 119 },
     },
     {
-      unique_id: -189730,
+      unique_id: -390,
       component: "DIS",
       subject: "MATH",
       number: "234-0",
@@ -2357,7 +2357,7 @@ const discussions = {
       room: { building_name: "Technological Institute M166", building_id: 119 },
     },
     {
-      unique_id: -189711,
+      unique_id: -387,
       component: "DIS",
       subject: "MATH",
       number: "234-0",
@@ -2370,7 +2370,7 @@ const discussions = {
       room: { building_name: "Technological Institute L168", building_id: 119 },
     },
     {
-      unique_id: -189711,
+      unique_id: -388,
       component: "DIS",
       subject: "MATH",
       number: "234-0",
@@ -2385,7 +2385,7 @@ const discussions = {
   ],
   "2458": [
     {
-      unique_id: -189754,
+      unique_id: -393,
       component: "DIS",
       subject: "MATH",
       number: "250-0",
@@ -2400,7 +2400,7 @@ const discussions = {
   ],
   "2459": [
     {
-      unique_id: -189747,
+      unique_id: -398,
       component: "DIS",
       subject: "MATH",
       number: "290-1",
@@ -2413,7 +2413,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 4" },
     },
     {
-      unique_id: -189746,
+      unique_id: -397,
       component: "DIS",
       subject: "MATH",
       number: "290-1",
@@ -2426,7 +2426,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2370", building_id: 62 },
     },
     {
-      unique_id: -189729,
+      unique_id: -396,
       component: "DIS",
       subject: "MATH",
       number: "290-1",
@@ -2439,7 +2439,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189728,
+      unique_id: -399,
       component: "DIS",
       subject: "MATH",
       number: "290-1",
@@ -2454,7 +2454,7 @@ const discussions = {
   ],
   "2462": [
     {
-      unique_id: -189735,
+      unique_id: -394,
       component: "DIS",
       subject: "MATH",
       number: "281-1",
@@ -2469,7 +2469,7 @@ const discussions = {
   ],
   "2465": [
     {
-      unique_id: -189726,
+      unique_id: -395,
       component: "DIS",
       subject: "MATH",
       number: "285-1",
@@ -2484,7 +2484,7 @@ const discussions = {
   ],
   "2472": [
     {
-      unique_id: -189762,
+      unique_id: -402,
       component: "DIS",
       subject: "MATH",
       number: "300-0",
@@ -2497,7 +2497,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189723,
+      unique_id: -401,
       component: "DIS",
       subject: "MATH",
       number: "300-0",
@@ -2512,7 +2512,7 @@ const discussions = {
   ],
   "2473": [
     {
-      unique_id: -189727,
+      unique_id: -409,
       component: "DIS",
       subject: "MATH",
       number: "320-1",
@@ -2525,7 +2525,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG66", building_id: 119 },
     },
     {
-      unique_id: -189727,
+      unique_id: -410,
       component: "DIS",
       subject: "MATH",
       number: "320-1",
@@ -2540,7 +2540,7 @@ const discussions = {
   ],
   "2479": [
     {
-      unique_id: -189723,
+      unique_id: -416,
       component: "DIS",
       subject: "MATH",
       number: "354-1",
@@ -2555,7 +2555,7 @@ const discussions = {
   ],
   "2481": [
     {
-      unique_id: -189742,
+      unique_id: -415,
       component: "DIS",
       subject: "MATH",
       number: "351-0",
@@ -2570,7 +2570,7 @@ const discussions = {
   ],
   "2488": [
     {
-      unique_id: -189761,
+      unique_id: -414,
       component: "DIS",
       subject: "MATH",
       number: "342-0",
@@ -2585,7 +2585,7 @@ const discussions = {
   ],
   "2489": [
     {
-      unique_id: -189764,
+      unique_id: -406,
       component: "DIS",
       subject: "MATH",
       number: "310-1",
@@ -2598,7 +2598,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189764,
+      unique_id: -405,
       component: "DIS",
       subject: "MATH",
       number: "310-1",
@@ -2611,7 +2611,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189745,
+      unique_id: -403,
       component: "DIS",
       subject: "MATH",
       number: "310-1",
@@ -2624,7 +2624,7 @@ const discussions = {
       room: { building_name: "Technological Institute F280", building_id: 119 },
     },
     {
-      unique_id: -189745,
+      unique_id: -404,
       component: "DIS",
       subject: "MATH",
       number: "310-1",
@@ -2639,7 +2639,7 @@ const discussions = {
   ],
   "2495": [
     {
-      unique_id: -189759,
+      unique_id: -412,
       component: "DIS",
       subject: "MATH",
       number: "330-1",
@@ -2654,7 +2654,7 @@ const discussions = {
   ],
   "2498": [
     {
-      unique_id: -189760,
+      unique_id: -413,
       component: "DIS",
       subject: "MATH",
       number: "331-1",
@@ -2669,7 +2669,7 @@ const discussions = {
   ],
   "2501": [
     {
-      unique_id: -189724,
+      unique_id: -417,
       component: "DIS",
       subject: "MATH",
       number: "360-1",
@@ -2684,7 +2684,7 @@ const discussions = {
   ],
   "2506": [
     {
-      unique_id: -189745,
+      unique_id: -418,
       component: "DIS",
       subject: "MATH",
       number: "381-0",
@@ -2714,7 +2714,7 @@ const discussions = {
   "2595": [],
   "2596": [
     {
-      unique_id: -189787,
+      unique_id: -456,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2727,7 +2727,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -189786,
+      unique_id: -457,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2740,7 +2740,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -189785,
+      unique_id: -458,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2753,7 +2753,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -189784,
+      unique_id: -459,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2766,7 +2766,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: -189783,
+      unique_id: -460,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2779,7 +2779,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 114", building_id: 60 },
     },
     {
-      unique_id: -189782,
+      unique_id: -461,
       component: "DIS",
       subject: "PHIL",
       number: "110-0",
@@ -2794,7 +2794,7 @@ const discussions = {
   ],
   "2599": [
     {
-      unique_id: -189788,
+      unique_id: -462,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2807,7 +2807,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: -189786,
+      unique_id: -463,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2820,7 +2820,7 @@ const discussions = {
       room: { building_name: "Locy Hall 106", building_id: 80 },
     },
     {
-      unique_id: -189784,
+      unique_id: -464,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2833,7 +2833,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -189783,
+      unique_id: -465,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2846,7 +2846,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: null,
+      unique_id: -466,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2859,7 +2859,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -467,
       component: "DIS",
       subject: "PHIL",
       number: "150-0",
@@ -2874,7 +2874,7 @@ const discussions = {
   ],
   "2602": [
     {
-      unique_id: -189789,
+      unique_id: -471,
       component: "DIS",
       subject: "PHIL",
       number: "210-1",
@@ -2887,7 +2887,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -189788,
+      unique_id: -468,
       component: "DIS",
       subject: "PHIL",
       number: "210-1",
@@ -2900,7 +2900,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189787,
+      unique_id: -469,
       component: "DIS",
       subject: "PHIL",
       number: "210-1",
@@ -2913,7 +2913,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -189786,
+      unique_id: -470,
       component: "DIS",
       subject: "PHIL",
       number: "210-1",
@@ -2928,7 +2928,7 @@ const discussions = {
   ],
   "2609": [
     {
-      unique_id: -189792,
+      unique_id: -476,
       component: "DIS",
       subject: "PHIL",
       number: "260-0",
@@ -2941,7 +2941,7 @@ const discussions = {
       room: { building_name: "Harris Hall L06", building_id: 68 },
     },
     {
-      unique_id: -189791,
+      unique_id: -477,
       component: "DIS",
       subject: "PHIL",
       number: "260-0",
@@ -2954,7 +2954,7 @@ const discussions = {
       room: { building_name: "Harris Hall L06", building_id: 68 },
     },
     {
-      unique_id: -189790,
+      unique_id: -478,
       component: "DIS",
       subject: "PHIL",
       number: "260-0",
@@ -2967,7 +2967,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: -189789,
+      unique_id: -479,
       component: "DIS",
       subject: "PHIL",
       number: "260-0",
@@ -2994,7 +2994,7 @@ const discussions = {
   "2700": [],
   "2703": [
     {
-      unique_id: -189916,
+      unique_id: -496,
       component: "DIS",
       subject: "PHYSICS",
       number: "130-1",
@@ -3007,7 +3007,7 @@ const discussions = {
       room: { building_name: "Technological Institute L211", building_id: 119 },
     },
     {
-      unique_id: -189915,
+      unique_id: -497,
       component: "DIS",
       subject: "PHYSICS",
       number: "130-1",
@@ -3020,7 +3020,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189915,
+      unique_id: -494,
       component: "DIS",
       subject: "PHYSICS",
       number: "130-1",
@@ -3033,7 +3033,7 @@ const discussions = {
       room: { building_name: "Technological Institute L211", building_id: 119 },
     },
     {
-      unique_id: -189914,
+      unique_id: -495,
       component: "DIS",
       subject: "PHYSICS",
       number: "130-1",
@@ -3049,7 +3049,7 @@ const discussions = {
   "2706": [],
   "2707": [
     {
-      unique_id: -189919,
+      unique_id: -500,
       component: "DIS",
       subject: "PHYSICS",
       number: "135-2",
@@ -3062,7 +3062,7 @@ const discussions = {
       room: { building_name: "Technological Institute L211", building_id: 119 },
     },
     {
-      unique_id: -189918,
+      unique_id: -501,
       component: "DIS",
       subject: "PHYSICS",
       number: "135-2",
@@ -3075,7 +3075,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189918,
+      unique_id: -498,
       component: "DIS",
       subject: "PHYSICS",
       number: "135-2",
@@ -3088,7 +3088,7 @@ const discussions = {
       room: { building_name: "Technological Institute L211", building_id: 119 },
     },
     {
-      unique_id: -189917,
+      unique_id: -499,
       component: "DIS",
       subject: "PHYSICS",
       number: "135-2",
@@ -3101,7 +3101,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 5" },
     },
     {
-      unique_id: null,
+      unique_id: -502,
       component: "DIS",
       subject: "PHYSICS",
       number: "135-2",
@@ -3118,7 +3118,7 @@ const discussions = {
   "2710": [],
   "2716": [
     {
-      unique_id: -189929,
+      unique_id: -505,
       component: "DIS",
       subject: "PHYSICS",
       number: "330-1",
@@ -3133,7 +3133,7 @@ const discussions = {
   ],
   "2721": [
     {
-      unique_id: -189949,
+      unique_id: -506,
       component: "DIS",
       subject: "PHYSICS",
       number: "333-2",
@@ -3156,7 +3156,7 @@ const discussions = {
   "2765": [],
   "2768": [
     {
-      unique_id: -189938,
+      unique_id: -521,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3169,7 +3169,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B08/B09" },
     },
     {
-      unique_id: -189937,
+      unique_id: -522,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3182,7 +3182,7 @@ const discussions = {
       room: { building_name: "Elder Hall 030 Seminar Room", building_id: 57 },
     },
     {
-      unique_id: -189936,
+      unique_id: -523,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3195,7 +3195,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 213", building_id: 99 },
     },
     {
-      unique_id: -189935,
+      unique_id: -524,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3208,7 +3208,7 @@ const discussions = {
       room: { building_name: "University Hall 112", building_id: 122 },
     },
     {
-      unique_id: -189934,
+      unique_id: -525,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3221,7 +3221,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 213", building_id: 99 },
     },
     {
-      unique_id: -189933,
+      unique_id: -526,
       component: "DIS",
       subject: "POLI_SCI",
       number: "220-0",
@@ -3236,7 +3236,7 @@ const discussions = {
   ],
   "2769": [
     {
-      unique_id: -189943,
+      unique_id: -541,
       component: "DIS",
       subject: "POLI_SCI",
       number: "321-0",
@@ -3249,7 +3249,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 224", building_id: 99 },
     },
     {
-      unique_id: -189941,
+      unique_id: -542,
       component: "DIS",
       subject: "POLI_SCI",
       number: "321-0",
@@ -3264,7 +3264,7 @@ const discussions = {
   ],
   "2771": [
     {
-      unique_id: -189939,
+      unique_id: -527,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3277,7 +3277,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: -189938,
+      unique_id: -528,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3290,7 +3290,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 222", building_id: 99 },
     },
     {
-      unique_id: -189937,
+      unique_id: -529,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3303,7 +3303,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B08/B09" },
     },
     {
-      unique_id: -189936,
+      unique_id: -530,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3316,7 +3316,7 @@ const discussions = {
       room: { building_name: "Locy Hall 106", building_id: 80 },
     },
     {
-      unique_id: -189935,
+      unique_id: -531,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3329,7 +3329,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B08/B09" },
     },
     {
-      unique_id: -189934,
+      unique_id: -532,
       component: "DIS",
       subject: "POLI_SCI",
       number: "240-0",
@@ -3344,7 +3344,7 @@ const discussions = {
   ],
   "2772": [
     {
-      unique_id: -189940,
+      unique_id: -534,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3357,7 +3357,7 @@ const discussions = {
       room: { building_name: "Harris Hall L28", building_id: 68 },
     },
     {
-      unique_id: -189939,
+      unique_id: -533,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3370,7 +3370,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 212", building_id: 99 },
     },
     {
-      unique_id: -189938,
+      unique_id: -535,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3383,7 +3383,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 212", building_id: 99 },
     },
     {
-      unique_id: -189937,
+      unique_id: -536,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3396,7 +3396,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 224", building_id: 99 },
     },
     {
-      unique_id: -189936,
+      unique_id: -537,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3409,7 +3409,7 @@ const discussions = {
       room: { building_name: "Locy Hall 301", building_id: 80 },
     },
     {
-      unique_id: -189935,
+      unique_id: -538,
       component: "DIS",
       subject: "POLI_SCI",
       number: "250-0",
@@ -3424,7 +3424,7 @@ const discussions = {
   ],
   "2790": [
     {
-      unique_id: -189945,
+      unique_id: -546,
       component: "DIS",
       subject: "POLI_SCI",
       number: "332-0",
@@ -3437,7 +3437,7 @@ const discussions = {
       room: { building_name: "University Hall 121", building_id: 122 },
     },
     {
-      unique_id: -189944,
+      unique_id: -543,
       component: "DIS",
       subject: "POLI_SCI",
       number: "332-0",
@@ -3450,7 +3450,7 @@ const discussions = {
       room: { building_name: "555 Clark B03" },
     },
     {
-      unique_id: -189943,
+      unique_id: -544,
       component: "DIS",
       subject: "POLI_SCI",
       number: "332-0",
@@ -3463,7 +3463,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -189942,
+      unique_id: -545,
       component: "DIS",
       subject: "POLI_SCI",
       number: "332-0",
@@ -3478,7 +3478,7 @@ const discussions = {
   ],
   "2797": [
     {
-      unique_id: -189947,
+      unique_id: -547,
       component: "DIS",
       subject: "POLI_SCI",
       number: "345-0",
@@ -3491,7 +3491,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189946,
+      unique_id: -548,
       component: "DIS",
       subject: "POLI_SCI",
       number: "345-0",
@@ -3504,7 +3504,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189945,
+      unique_id: -549,
       component: "DIS",
       subject: "POLI_SCI",
       number: "345-0",
@@ -3517,7 +3517,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 105", building_id: 83 },
     },
     {
-      unique_id: -189944,
+      unique_id: -550,
       component: "DIS",
       subject: "POLI_SCI",
       number: "345-0",
@@ -3537,7 +3537,7 @@ const discussions = {
   "2822": [],
   "2827": [
     {
-      unique_id: -189962,
+      unique_id: -557,
       component: "DIS",
       subject: "POLI_SCI",
       number: "403-0",
@@ -3563,7 +3563,7 @@ const discussions = {
   "2879": [],
   "2880": [
     {
-      unique_id: -190028,
+      unique_id: -561,
       component: "DIS",
       subject: "PSYCH",
       number: "244-0",
@@ -3576,7 +3576,7 @@ const discussions = {
       room: { building_name: "Elder Hall 030 Seminar Room", building_id: 57 },
     },
     {
-      unique_id: -190027,
+      unique_id: -558,
       component: "DIS",
       subject: "PSYCH",
       number: "244-0",
@@ -3589,7 +3589,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G32", building_id: 39 },
     },
     {
-      unique_id: -190026,
+      unique_id: -559,
       component: "DIS",
       subject: "PSYCH",
       number: "244-0",
@@ -3602,7 +3602,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -560,
       component: "DIS",
       subject: "PSYCH",
       number: "244-0",
@@ -3662,7 +3662,7 @@ const discussions = {
   "3093": [],
   "3097": [
     {
-      unique_id: -189627,
+      unique_id: -357,
       component: "DIS",
       subject: "ITALIAN",
       number: "275-0",
@@ -3675,7 +3675,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189626,
+      unique_id: -356,
       component: "DIS",
       subject: "ITALIAN",
       number: "275-0",
@@ -3708,7 +3708,7 @@ const discussions = {
   "3227": [],
   "3234": [
     {
-      unique_id: -190121,
+      unique_id: -616,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3721,7 +3721,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B25" },
     },
     {
-      unique_id: -190118,
+      unique_id: -615,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3734,7 +3734,7 @@ const discussions = {
       room: { building_name: "University Hall 112", building_id: 122 },
     },
     {
-      unique_id: -190116,
+      unique_id: -614,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3747,7 +3747,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -190115,
+      unique_id: -613,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3760,7 +3760,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -190114,
+      unique_id: -612,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3773,7 +3773,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -190113,
+      unique_id: -611,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3786,7 +3786,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-440", building_id: 77 },
     },
     {
-      unique_id: -190110,
+      unique_id: -610,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3799,7 +3799,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -190108,
+      unique_id: -609,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3812,7 +3812,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-420", building_id: 77 },
     },
     {
-      unique_id: -190106,
+      unique_id: -606,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3825,7 +3825,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-420", building_id: 77 },
     },
     {
-      unique_id: -190105,
+      unique_id: -605,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3838,7 +3838,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-440", building_id: 77 },
     },
     {
-      unique_id: -190101,
+      unique_id: -604,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3851,7 +3851,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -190099,
+      unique_id: -603,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3864,7 +3864,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-440", building_id: 77 },
     },
     {
-      unique_id: null,
+      unique_id: -608,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3877,7 +3877,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -607,
       component: "DIS",
       subject: "SLAVIC",
       number: "210-2",
@@ -3902,7 +3902,7 @@ const discussions = {
   "3307": [],
   "3312": [
     {
-      unique_id: -190136,
+      unique_id: -617,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -3915,7 +3915,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-415", building_id: 77 },
     },
     {
-      unique_id: -190135,
+      unique_id: -618,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -3928,7 +3928,7 @@ const discussions = {
       room: { building_name: "555 Clark B03" },
     },
     {
-      unique_id: -190134,
+      unique_id: -619,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -3941,7 +3941,7 @@ const discussions = {
       room: { building_name: "555 Clark B01" },
     },
     {
-      unique_id: -190133,
+      unique_id: -620,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -3954,7 +3954,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -190132,
+      unique_id: -621,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -3967,7 +3967,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 104", building_id: 83 },
     },
     {
-      unique_id: -190131,
+      unique_id: -622,
       component: "DIS",
       subject: "SOCIOL",
       number: "206-0",
@@ -4002,7 +4002,7 @@ const discussions = {
   "3388": [],
   "3390": [
     {
-      unique_id: -190294,
+      unique_id: -624,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4015,7 +4015,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 107", building_id: 83 },
     },
     {
-      unique_id: -190293,
+      unique_id: -625,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4028,7 +4028,7 @@ const discussions = {
       room: { building_name: "Swift Hall 107", building_id: 116 },
     },
     {
-      unique_id: -190292,
+      unique_id: -626,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4041,7 +4041,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 105", building_id: 83 },
     },
     {
-      unique_id: -190291,
+      unique_id: -627,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4054,7 +4054,7 @@ const discussions = {
       room: { building_name: "Locy Hall 301", building_id: 80 },
     },
     {
-      unique_id: -190290,
+      unique_id: -628,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4067,7 +4067,7 @@ const discussions = {
       room: { building_name: "Harris Hall L07", building_id: 68 },
     },
     {
-      unique_id: -190289,
+      unique_id: -629,
       component: "DIS",
       subject: "STAT",
       number: "210-0",
@@ -4083,7 +4083,7 @@ const discussions = {
   "3393": [],
   "3394": [
     {
-      unique_id: -190260,
+      unique_id: -630,
       component: "DIS",
       subject: "STAT",
       number: "330-1",
@@ -4098,7 +4098,7 @@ const discussions = {
   ],
   "3400": [
     {
-      unique_id: -201540,
+      unique_id: -631,
       component: "DIS",
       subject: "STAT",
       number: "359-0",
@@ -4122,7 +4122,7 @@ const discussions = {
   "3470": [],
   "3477": [
     {
-      unique_id: -189609,
+      unique_id: -355,
       component: "DIS",
       subject: "INTL_ST",
       number: "390-0",
@@ -4135,7 +4135,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 309", building_id: 60 },
     },
     {
-      unique_id: -189608,
+      unique_id: -354,
       component: "DIS",
       subject: "INTL_ST",
       number: "390-0",
@@ -4148,7 +4148,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 309", building_id: 60 },
     },
     {
-      unique_id: -189607,
+      unique_id: -353,
       component: "DIS",
       subject: "INTL_ST",
       number: "390-0",
@@ -4397,7 +4397,7 @@ const discussions = {
   "4333": [],
   "4336": [
     {
-      unique_id: -188324,
+      unique_id: -586,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4410,7 +4410,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -188323,
+      unique_id: -587,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4423,7 +4423,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -188322,
+      unique_id: -583,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4436,7 +4436,7 @@ const discussions = {
       room: { building_name: "University Hall 121", building_id: 122 },
     },
     {
-      unique_id: -188321,
+      unique_id: -584,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4449,7 +4449,7 @@ const discussions = {
       room: { building_name: "University Hall 121", building_id: 122 },
     },
     {
-      unique_id: -188320,
+      unique_id: -585,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4462,7 +4462,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2107", building_id: 62 },
     },
     {
-      unique_id: -188319,
+      unique_id: -588,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4475,7 +4475,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2107", building_id: 62 },
     },
     {
-      unique_id: -188318,
+      unique_id: -589,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4488,7 +4488,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 1421", building_id: 62 },
     },
     {
-      unique_id: -188317,
+      unique_id: -590,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4501,7 +4501,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 1421", building_id: 62 },
     },
     {
-      unique_id: -188316,
+      unique_id: -591,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4514,7 +4514,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G28", building_id: 39 },
     },
     {
-      unique_id: -188315,
+      unique_id: -592,
       component: "DIS",
       subject: "RTVF",
       number: "220-0",
@@ -4536,7 +4536,7 @@ const discussions = {
   "4376": [],
   "4383": [
     {
-      unique_id: -188351,
+      unique_id: -594,
       component: "LAB",
       subject: "RTVF",
       number: "393-0",
@@ -4555,7 +4555,7 @@ const discussions = {
   "4402": [],
   "4405": [
     {
-      unique_id: -188359,
+      unique_id: -595,
       component: "LAB",
       subject: "RTVF",
       number: "475-0",
@@ -4572,7 +4572,7 @@ const discussions = {
   "4412": [],
   "4420": [
     {
-      unique_id: -188197,
+      unique_id: -150,
       component: "LAB",
       subject: "CSD",
       number: "301-0",
@@ -4585,7 +4585,7 @@ const discussions = {
       room: { building_name: "CSD Sem Rm B302 - Frances Srle" },
     },
     {
-      unique_id: -188196,
+      unique_id: -151,
       component: "LAB",
       subject: "CSD",
       number: "301-0",
@@ -4603,7 +4603,7 @@ const discussions = {
   "4436": [],
   "4440": [
     {
-      unique_id: -188235,
+      unique_id: -152,
       component: "LAB",
       subject: "CSD",
       number: "456-0",
@@ -4616,7 +4616,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 1421", building_id: 62 },
     },
     {
-      unique_id: -188234,
+      unique_id: -153,
       component: "LAB",
       subject: "CSD",
       number: "456-0",
@@ -4644,7 +4644,7 @@ const discussions = {
   "4571": [],
   "4573": [
     {
-      unique_id: -188394,
+      unique_id: -632,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4657,7 +4657,7 @@ const discussions = {
       room: { building_name: "Wirtz 235 Seminar Room 1" },
     },
     {
-      unique_id: -188393,
+      unique_id: -633,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4670,7 +4670,7 @@ const discussions = {
       room: { building_name: "Wirtz 235 Seminar Room 1" },
     },
     {
-      unique_id: -188392,
+      unique_id: -634,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4683,7 +4683,7 @@ const discussions = {
       room: { building_name: "Wirtz 235 Seminar Room 1" },
     },
     {
-      unique_id: -188391,
+      unique_id: -635,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4696,7 +4696,7 @@ const discussions = {
       room: { building_name: "Wirtz 235 Seminar Room 1" },
     },
     {
-      unique_id: -188390,
+      unique_id: -636,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4709,7 +4709,7 @@ const discussions = {
       room: { building_name: "Wirtz 240 Seminar Room 2" },
     },
     {
-      unique_id: -188389,
+      unique_id: -637,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4722,7 +4722,7 @@ const discussions = {
       room: { building_name: "Wirtz 240 Seminar Room 2" },
     },
     {
-      unique_id: -188388,
+      unique_id: -638,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4735,7 +4735,7 @@ const discussions = {
       room: { building_name: "Wirtz 240 Seminar Room 2" },
     },
     {
-      unique_id: -188387,
+      unique_id: -639,
       component: "DIS",
       subject: "THEATRE",
       number: "140-1",
@@ -4786,7 +4786,7 @@ const discussions = {
   "4785": [],
   "4791": [
     {
-      unique_id: -187510,
+      unique_id: -91,
       component: "LAB",
       subject: "CHEM_ENG",
       number: "210-0",
@@ -4799,7 +4799,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG68", building_id: 119 },
     },
     {
-      unique_id: -187509,
+      unique_id: -92,
       component: "LAB",
       subject: "CHEM_ENG",
       number: "210-0",
@@ -4812,7 +4812,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG62", building_id: 119 },
     },
     {
-      unique_id: -187508,
+      unique_id: -93,
       component: "LAB",
       subject: "CHEM_ENG",
       number: "210-0",
@@ -4835,7 +4835,7 @@ const discussions = {
   "4832": [],
   "4838": [
     {
-      unique_id: -187567,
+      unique_id: -96,
       component: "LAB",
       subject: "CIV_ENV",
       number: "216-0",
@@ -4848,7 +4848,7 @@ const discussions = {
       room: { building_name: "Technological Institute AG40", building_id: 119 },
     },
     {
-      unique_id: -187566,
+      unique_id: -97,
       component: "LAB",
       subject: "CIV_ENV",
       number: "216-0",
@@ -4861,7 +4861,7 @@ const discussions = {
       room: { building_name: "Technological Institute AG40", building_id: 119 },
     },
     {
-      unique_id: -187565,
+      unique_id: -98,
       component: "LAB",
       subject: "CIV_ENV",
       number: "216-0",
@@ -4874,7 +4874,7 @@ const discussions = {
       room: { building_name: "Technological Institute AG40", building_id: 119 },
     },
     {
-      unique_id: -187564,
+      unique_id: -99,
       component: "LAB",
       subject: "CIV_ENV",
       number: "216-0",
@@ -4887,7 +4887,7 @@ const discussions = {
       room: { building_name: "Technological Institute AG40", building_id: 119 },
     },
     {
-      unique_id: -187563,
+      unique_id: -100,
       component: "LAB",
       subject: "CIV_ENV",
       number: "216-0",
@@ -4902,7 +4902,7 @@ const discussions = {
   ],
   "4840": [
     {
-      unique_id: -187568,
+      unique_id: -101,
       component: "LAB",
       subject: "CIV_ENV",
       number: "221-0",
@@ -4917,7 +4917,7 @@ const discussions = {
   ],
   "4842": [
     {
-      unique_id: -187569,
+      unique_id: -102,
       component: "LAB",
       subject: "CIV_ENV",
       number: "250-0",
@@ -4937,7 +4937,7 @@ const discussions = {
   "4866": [],
   "4875": [
     {
-      unique_id: -187546,
+      unique_id: -104,
       component: "LAB",
       subject: "CIV_ENV",
       number: "440-0",
@@ -4953,7 +4953,7 @@ const discussions = {
   "4886": [],
   "4893": [
     {
-      unique_id: -187535,
+      unique_id: -103,
       component: "DIS",
       subject: "CIV_ENV",
       number: "367-0",
@@ -4973,7 +4973,7 @@ const discussions = {
   "4920": [],
   "4946": [
     {
-      unique_id: -187587,
+      unique_id: -105,
       component: "LAB",
       subject: "CIV_ENV",
       number: "479-0",
@@ -4999,7 +4999,7 @@ const discussions = {
   "4975": [],
   "4980": [
     {
-      unique_id: -187581,
+      unique_id: -145,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5012,7 +5012,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -187580,
+      unique_id: -144,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5025,7 +5025,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG68", building_id: 119 },
     },
     {
-      unique_id: -187579,
+      unique_id: -146,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5038,7 +5038,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG68", building_id: 119 },
     },
     {
-      unique_id: -187578,
+      unique_id: -147,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5051,7 +5051,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG62", building_id: 119 },
     },
     {
-      unique_id: -187577,
+      unique_id: -148,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5064,7 +5064,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG62", building_id: 119 },
     },
     {
-      unique_id: null,
+      unique_id: -149,
       component: "DIS",
       subject: "COMP_SCI",
       number: "336-0",
@@ -5096,7 +5096,7 @@ const discussions = {
   "5121": [],
   "5122": [
     {
-      unique_id: -187861,
+      unique_id: -327,
       component: "LEC",
       subject: "IEMS",
       number: "202-0",
@@ -5111,7 +5111,7 @@ const discussions = {
   ],
   "5123": [
     {
-      unique_id: -187865,
+      unique_id: -329,
       component: "LEC",
       subject: "IEMS",
       number: "303-0",
@@ -5126,7 +5126,7 @@ const discussions = {
   ],
   "5124": [
     {
-      unique_id: -187868,
+      unique_id: -331,
       component: "LEC",
       subject: "IEMS",
       number: "304-0",
@@ -5141,7 +5141,7 @@ const discussions = {
   ],
   "5128": [
     {
-      unique_id: -190359,
+      unique_id: -333,
       component: "LEC",
       subject: "IEMS",
       number: "313-0",
@@ -5156,7 +5156,7 @@ const discussions = {
   ],
   "5129": [
     {
-      unique_id: -190361,
+      unique_id: -335,
       component: "LEC",
       subject: "IEMS",
       number: "315-0",
@@ -5172,7 +5172,7 @@ const discussions = {
   "5132": [],
   "5137": [
     {
-      unique_id: -190364,
+      unique_id: -339,
       component: "LEC",
       subject: "IEMS",
       number: "381-0",
@@ -5187,7 +5187,7 @@ const discussions = {
   ],
   "5142": [
     {
-      unique_id: -187869,
+      unique_id: -337,
       component: "LEC",
       subject: "IEMS",
       number: "317-0",
@@ -5206,7 +5206,7 @@ const discussions = {
   "5196": [],
   "5203": [
     {
-      unique_id: -187940,
+      unique_id: -440,
       component: "LAB",
       subject: "MECH_ENG",
       number: "224-0",
@@ -5219,7 +5219,7 @@ const discussions = {
       room: { building_name: "Ford Eng Design Cntr B100" },
     },
     {
-      unique_id: -187939,
+      unique_id: -438,
       component: "LAB",
       subject: "MECH_ENG",
       number: "224-0",
@@ -5232,7 +5232,7 @@ const discussions = {
       room: { building_name: "Ford Eng Design Cntr B100" },
     },
     {
-      unique_id: -187938,
+      unique_id: -439,
       component: "LAB",
       subject: "MECH_ENG",
       number: "224-0",
@@ -5247,7 +5247,7 @@ const discussions = {
   ],
   "5205": [
     {
-      unique_id: -187943,
+      unique_id: -441,
       component: "LAB",
       subject: "MECH_ENG",
       number: "241-0",
@@ -5260,7 +5260,7 @@ const discussions = {
       room: { building_name: "Meets in Non-General PurposeRm" },
     },
     {
-      unique_id: -187942,
+      unique_id: -442,
       component: "LAB",
       subject: "MECH_ENG",
       number: "241-0",
@@ -5273,7 +5273,7 @@ const discussions = {
       room: { building_name: "Meets in Non-General PurposeRm" },
     },
     {
-      unique_id: -187941,
+      unique_id: -443,
       component: "LAB",
       subject: "MECH_ENG",
       number: "241-0",
@@ -5290,7 +5290,7 @@ const discussions = {
   "5208": [],
   "5210": [
     {
-      unique_id: -187906,
+      unique_id: -444,
       component: "LAB",
       subject: "MECH_ENG",
       number: "340-1",
@@ -5303,7 +5303,7 @@ const discussions = {
       room: { building_name: "Meets in Non-General PurposeRm" },
     },
     {
-      unique_id: -187904,
+      unique_id: -445,
       component: "LAB",
       subject: "MECH_ENG",
       number: "340-1",
@@ -5316,7 +5316,7 @@ const discussions = {
       room: { building_name: "Meets in Non-General PurposeRm" },
     },
     {
-      unique_id: -187903,
+      unique_id: -446,
       component: "LAB",
       subject: "MECH_ENG",
       number: "340-1",
@@ -5338,7 +5338,7 @@ const discussions = {
   "5261": [],
   "5265": [
     {
-      unique_id: -187837,
+      unique_id: -419,
       component: "LAB",
       subject: "MAT_SCI",
       number: "190-0",
@@ -5353,7 +5353,7 @@ const discussions = {
   ],
   "5266": [
     {
-      unique_id: -187838,
+      unique_id: -420,
       component: "DIS",
       subject: "MAT_SCI",
       number: "201-0",
@@ -5369,7 +5369,7 @@ const discussions = {
       },
     },
     {
-      unique_id: -187837,
+      unique_id: -423,
       component: "DIS",
       subject: "MAT_SCI",
       number: "201-0",
@@ -5382,7 +5382,7 @@ const discussions = {
       room: { building_name: "Technological Institute L170", building_id: 119 },
     },
     {
-      unique_id: -187836,
+      unique_id: -421,
       component: "LAB",
       subject: "MAT_SCI",
       number: "201-0",
@@ -5395,7 +5395,7 @@ const discussions = {
       room: { building_name: "Cook Hall 2-058 (a/b)", building_id: 50 },
     },
     {
-      unique_id: -187835,
+      unique_id: -422,
       component: "LAB",
       subject: "MAT_SCI",
       number: "201-0",
@@ -5408,7 +5408,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -187834,
+      unique_id: -424,
       component: "DIS",
       subject: "MAT_SCI",
       number: "201-0",
@@ -5423,7 +5423,7 @@ const discussions = {
   ],
   "5268": [
     {
-      unique_id: -187839,
+      unique_id: -427,
       component: "DIS",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5439,7 +5439,7 @@ const discussions = {
       },
     },
     {
-      unique_id: -187838,
+      unique_id: -428,
       component: "DIS",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5452,7 +5452,7 @@ const discussions = {
       room: { building_name: "Technological Institute L170", building_id: 119 },
     },
     {
-      unique_id: -187837,
+      unique_id: -429,
       component: "LAB",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5465,7 +5465,7 @@ const discussions = {
       room: { building_name: "Cook Hall 2-058 (a/b)", building_id: 50 },
     },
     {
-      unique_id: -187836,
+      unique_id: -430,
       component: "LAB",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5478,7 +5478,7 @@ const discussions = {
       room: { building_name: "Cook Hall 2-058 (a/b)", building_id: 50 },
     },
     {
-      unique_id: -187835,
+      unique_id: -433,
       component: "LAB",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5491,7 +5491,7 @@ const discussions = {
       room: { building_name: "Cook Hall 2-058 (a/b)", building_id: 50 },
     },
     {
-      unique_id: -187834,
+      unique_id: -434,
       component: "LAB",
       subject: "MAT_SCI",
       number: "301-0",
@@ -5514,7 +5514,7 @@ const discussions = {
   "5295": [],
   "5298": [
     {
-      unique_id: -187923,
+      unique_id: -435,
       component: "DIS",
       subject: "MAT_SCI",
       number: "401-0",
@@ -5539,7 +5539,7 @@ const discussions = {
   "5366": [],
   "5380": [
     {
-      unique_id: -187529,
+      unique_id: -40,
       component: "DIS",
       subject: "BMD_ENG",
       number: "220-0",
@@ -5552,7 +5552,7 @@ const discussions = {
       room: { building_name: "Technological Institute M152", building_id: 119 },
     },
     {
-      unique_id: -187528,
+      unique_id: -41,
       component: "DIS",
       subject: "BMD_ENG",
       number: "220-0",
@@ -5567,7 +5567,7 @@ const discussions = {
   ],
   "5382": [
     {
-      unique_id: -187492,
+      unique_id: -43,
       component: "DIS",
       subject: "BMD_ENG",
       number: "301-0",
@@ -5580,7 +5580,7 @@ const discussions = {
       room: { building_name: "Technological Institute L251", building_id: 119 },
     },
     {
-      unique_id: -187491,
+      unique_id: -44,
       component: "DIS",
       subject: "BMD_ENG",
       number: "301-0",
@@ -5598,7 +5598,7 @@ const discussions = {
   "5402": [],
   "5412": [
     {
-      unique_id: -187500,
+      unique_id: -47,
       component: "DIS",
       subject: "BMD_ENG",
       number: "377-0",
@@ -5657,7 +5657,7 @@ const discussions = {
   "6081": [],
   "6108": [
     {
-      unique_id: -190893,
+      unique_id: -81,
       component: "DIS",
       subject: "CHEM",
       number: "210-A",
@@ -5742,7 +5742,7 @@ const discussions = {
   "7092": [],
   "7098": [
     {
-      unique_id: -187579,
+      unique_id: -141,
       component: "DIS",
       subject: "COMP_SCI",
       number: "330-0",
@@ -5755,7 +5755,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -187578,
+      unique_id: -142,
       component: "DIS",
       subject: "COMP_SCI",
       number: "330-0",
@@ -5768,7 +5768,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -187577,
+      unique_id: -143,
       component: "DIS",
       subject: "COMP_SCI",
       number: "330-0",
@@ -5781,7 +5781,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -187576,
+      unique_id: -140,
       component: "DIS",
       subject: "COMP_SCI",
       number: "330-0",
@@ -5796,7 +5796,7 @@ const discussions = {
   ],
   "7103": [
     {
-      unique_id: -187738,
+      unique_id: -224,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "202-0",
@@ -5809,7 +5809,7 @@ const discussions = {
       room: { building_name: "Technological Institute MG18", building_id: 119 },
     },
     {
-      unique_id: -187737,
+      unique_id: -225,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "202-0",
@@ -5822,7 +5822,7 @@ const discussions = {
       room: { building_name: "Technological Institute MG18", building_id: 119 },
     },
     {
-      unique_id: -187736,
+      unique_id: -226,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "202-0",
@@ -5835,7 +5835,7 @@ const discussions = {
       room: { building_name: "Technological Institute MG18", building_id: 119 },
     },
     {
-      unique_id: -187734,
+      unique_id: -227,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "202-0",
@@ -5851,7 +5851,7 @@ const discussions = {
   "7131": [],
   "7170": [
     {
-      unique_id: -188489,
+      unique_id: -379,
       component: "DIS",
       subject: "LRN_SCI",
       number: "425-0",
@@ -5869,7 +5869,7 @@ const discussions = {
   "8037": [],
   "8093": [
     {
-      unique_id: -187565,
+      unique_id: -124,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5882,7 +5882,7 @@ const discussions = {
       room: { building_name: "Shepard Hall Classroom B05" },
     },
     {
-      unique_id: -187564,
+      unique_id: -125,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5895,7 +5895,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG62", building_id: 119 },
     },
     {
-      unique_id: -187563,
+      unique_id: -126,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5908,7 +5908,7 @@ const discussions = {
       room: { building_name: "Shepard Hall Classroom B05" },
     },
     {
-      unique_id: -187562,
+      unique_id: -127,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5921,7 +5921,7 @@ const discussions = {
       room: { building_name: "Technological Institute L158", building_id: 119 },
     },
     {
-      unique_id: -187561,
+      unique_id: -128,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5934,7 +5934,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG72", building_id: 119 },
     },
     {
-      unique_id: -187560,
+      unique_id: -129,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5947,7 +5947,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG68", building_id: 119 },
     },
     {
-      unique_id: -187559,
+      unique_id: -130,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5960,7 +5960,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG72", building_id: 119 },
     },
     {
-      unique_id: -187558,
+      unique_id: -131,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5973,7 +5973,7 @@ const discussions = {
       room: { building_name: "560 Lincoln St. Classroom 101B" },
     },
     {
-      unique_id: -187557,
+      unique_id: -132,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5986,7 +5986,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG62", building_id: 119 },
     },
     {
-      unique_id: -187556,
+      unique_id: -133,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -5999,7 +5999,7 @@ const discussions = {
       room: { building_name: "Technological Institute MG28", building_id: 119 },
     },
     {
-      unique_id: -187555,
+      unique_id: -134,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -6012,7 +6012,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG72", building_id: 119 },
     },
     {
-      unique_id: -187554,
+      unique_id: -135,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -6025,7 +6025,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG72", building_id: 119 },
     },
     {
-      unique_id: -187553,
+      unique_id: -136,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -6038,7 +6038,7 @@ const discussions = {
       room: { building_name: "560 Lincoln St. Classroom 101B" },
     },
     {
-      unique_id: -187552,
+      unique_id: -137,
       component: "DIS",
       subject: "COMP_SCI",
       number: "101-0",
@@ -6061,7 +6061,7 @@ const discussions = {
   "8308": [],
   "8369": [
     {
-      unique_id: -189948,
+      unique_id: -552,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6074,7 +6074,7 @@ const discussions = {
       room: { building_name: "Harris Hall L04", building_id: 68 },
     },
     {
-      unique_id: -189947,
+      unique_id: -553,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6087,7 +6087,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189946,
+      unique_id: -551,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6100,7 +6100,7 @@ const discussions = {
       room: { building_name: "Locy Hall 109", building_id: 80 },
     },
     {
-      unique_id: -189945,
+      unique_id: -554,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6113,7 +6113,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -555,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6126,7 +6126,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -556,
       component: "DIS",
       subject: "POLI_SCI",
       number: "348-0",
@@ -6145,7 +6145,7 @@ const discussions = {
   "8526": [],
   "8643": [
     {
-      unique_id: -187559,
+      unique_id: -116,
       component: "LAB",
       subject: "COMP_ENG",
       number: "203-0",
@@ -6160,7 +6160,7 @@ const discussions = {
   ],
   "8645": [
     {
-      unique_id: -187741,
+      unique_id: -228,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "223-0",
@@ -6173,7 +6173,7 @@ const discussions = {
       room: { building_name: "Technological Institute CG10", building_id: 119 },
     },
     {
-      unique_id: -187740,
+      unique_id: -229,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "223-0",
@@ -6189,7 +6189,7 @@ const discussions = {
   "8646": [],
   "8660": [
     {
-      unique_id: -189752,
+      unique_id: -392,
       component: "DIS",
       subject: "MATH",
       number: "240-0",
@@ -6202,7 +6202,7 @@ const discussions = {
       room: { building_name: "Technological Institute M128", building_id: 119 },
     },
     {
-      unique_id: -189733,
+      unique_id: -391,
       component: "DIS",
       subject: "MATH",
       number: "240-0",
@@ -6221,7 +6221,7 @@ const discussions = {
   "8698": [],
   "8725": [
     {
-      unique_id: -187743,
+      unique_id: -230,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "225-0",
@@ -6234,7 +6234,7 @@ const discussions = {
       room: { building_name: "Technological Institute CG10", building_id: 119 },
     },
     {
-      unique_id: -187742,
+      unique_id: -231,
       component: "LAB",
       subject: "ELEC_ENG",
       number: "225-0",
@@ -6255,7 +6255,7 @@ const discussions = {
   "10105": [],
   "10364": [
     {
-      unique_id: -189405,
+      unique_id: -311,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6268,7 +6268,7 @@ const discussions = {
       room: { building_name: "University Hall 318", building_id: 122 },
     },
     {
-      unique_id: -189404,
+      unique_id: -312,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6281,7 +6281,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-335", building_id: 77 },
     },
     {
-      unique_id: -189403,
+      unique_id: -313,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6294,7 +6294,7 @@ const discussions = {
       room: { building_name: "Locy Hall 303", building_id: 80 },
     },
     {
-      unique_id: -189402,
+      unique_id: -314,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6307,7 +6307,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-331", building_id: 77 },
     },
     {
-      unique_id: -189401,
+      unique_id: -315,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6320,7 +6320,7 @@ const discussions = {
       room: { building_name: "Locy Hall 303", building_id: 80 },
     },
     {
-      unique_id: -189400,
+      unique_id: -310,
       component: "DIS",
       subject: "HISTORY",
       number: "360-0",
@@ -6344,7 +6344,7 @@ const discussions = {
   "11674": [],
   "11778": [
     {
-      unique_id: -188345,
+      unique_id: -593,
       component: "LAB",
       subject: "RTVF",
       number: "376-0",
@@ -6361,7 +6361,7 @@ const discussions = {
   "11794": [],
   "11974": [
     {
-      unique_id: -189795,
+      unique_id: -491,
       component: "DIS",
       subject: "PHIL",
       number: "280-0",
@@ -6374,7 +6374,7 @@ const discussions = {
       room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
     },
     {
-      unique_id: -189794,
+      unique_id: -492,
       component: "DIS",
       subject: "PHIL",
       number: "280-0",
@@ -6395,7 +6395,7 @@ const discussions = {
   "12281": [],
   "12470": [
     {
-      unique_id: -189567,
+      unique_id: -324,
       component: "DIS",
       subject: "HUM",
       number: "205-0",
@@ -6408,7 +6408,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 223", building_id: 99 },
     },
     {
-      unique_id: -189566,
+      unique_id: -323,
       component: "DIS",
       subject: "HUM",
       number: "205-0",
@@ -6435,7 +6435,7 @@ const discussions = {
   "13600": [],
   "13638": [
     {
-      unique_id: -190366,
+      unique_id: -15,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6448,7 +6448,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -190365,
+      unique_id: -16,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6461,7 +6461,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-335", building_id: 77 },
     },
     {
-      unique_id: -190364,
+      unique_id: -17,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6474,7 +6474,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -190363,
+      unique_id: -18,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6487,7 +6487,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-319", building_id: 77 },
     },
     {
-      unique_id: null,
+      unique_id: -14,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6500,7 +6500,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -19,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6513,7 +6513,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -20,
       component: "DIS",
       subject: "ART_HIST",
       number: "222-0",
@@ -6533,7 +6533,7 @@ const discussions = {
   "14511": [],
   "14786": [
     {
-      unique_id: -189728,
+      unique_id: -411,
       component: "DIS",
       subject: "MATH",
       number: "321-1",
@@ -6561,7 +6561,7 @@ const discussions = {
   "15216": [],
   "15217": [
     {
-      unique_id: -189936,
+      unique_id: -507,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6574,7 +6574,7 @@ const discussions = {
       room: { building_name: "555 Clark 230" },
     },
     {
-      unique_id: -189935,
+      unique_id: -508,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6587,7 +6587,7 @@ const discussions = {
       room: { building_name: "Harris Hall L05", building_id: 68 },
     },
     {
-      unique_id: -189934,
+      unique_id: -509,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6600,7 +6600,7 @@ const discussions = {
       room: { building_name: "University Hall 112", building_id: 122 },
     },
     {
-      unique_id: -189933,
+      unique_id: -510,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6613,7 +6613,7 @@ const discussions = {
       room: { building_name: "University Hall 218", building_id: 122 },
     },
     {
-      unique_id: -189932,
+      unique_id: -511,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6626,7 +6626,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 224", building_id: 99 },
     },
     {
-      unique_id: -189931,
+      unique_id: -512,
       component: "DIS",
       subject: "POLI_SCI",
       number: "201-0",
@@ -6663,7 +6663,7 @@ const discussions = {
   "15501": [],
   "15504": [
     {
-      unique_id: -187491,
+      unique_id: -42,
       component: "DIS",
       subject: "BMD_ENG",
       number: "271-0",
@@ -6692,7 +6692,7 @@ const discussions = {
   "15602": [],
   "15611": [
     {
-      unique_id: -187571,
+      unique_id: -138,
       component: "DIS",
       subject: "COMP_SCI",
       number: "213-0",
@@ -6705,7 +6705,7 @@ const discussions = {
       room: { building_name: "Technological Institute L361", building_id: 119 },
     },
     {
-      unique_id: null,
+      unique_id: -139,
       component: "DIS",
       subject: "COMP_SCI",
       number: "213-0",
@@ -6721,7 +6721,7 @@ const discussions = {
   "15613": [],
   "15639": [
     {
-      unique_id: -190157,
+      unique_id: -623,
       component: "LAB",
       subject: "SOCIOL",
       number: "400-0",
@@ -6744,7 +6744,7 @@ const discussions = {
   "15700": [],
   "15701": [
     {
-      unique_id: -188535,
+      unique_id: -597,
       component: "LAB",
       subject: "SESP",
       number: "210-0",
@@ -6757,7 +6757,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall 101", building_id: 39 },
     },
     {
-      unique_id: -188534,
+      unique_id: -596,
       component: "LAB",
       subject: "SESP",
       number: "210-0",
@@ -6788,7 +6788,7 @@ const discussions = {
   "15856": [],
   "15860": [
     {
-      unique_id: -189792,
+      unique_id: -480,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6801,7 +6801,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 222", building_id: 99 },
     },
     {
-      unique_id: -189791,
+      unique_id: -481,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6814,7 +6814,7 @@ const discussions = {
       room: { building_name: "Locy Hall 106", building_id: 80 },
     },
     {
-      unique_id: -189789,
+      unique_id: -482,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6827,7 +6827,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189788,
+      unique_id: -483,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6840,7 +6840,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 114", building_id: 60 },
     },
     {
-      unique_id: -189787,
+      unique_id: -484,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6853,7 +6853,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -189786,
+      unique_id: -485,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6866,7 +6866,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -189785,
+      unique_id: -488,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6879,7 +6879,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-410", building_id: 77 },
     },
     {
-      unique_id: -189784,
+      unique_id: -489,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6892,7 +6892,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 223", building_id: 99 },
     },
     {
-      unique_id: null,
+      unique_id: -486,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6905,7 +6905,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -487,
       component: "DIS",
       subject: "PHIL",
       number: "269-0",
@@ -6941,7 +6941,7 @@ const discussions = {
   "16043": [],
   "16060": [
     {
-      unique_id: -189790,
+      unique_id: -473,
       component: "DIS",
       subject: "PHIL",
       number: "216-0",
@@ -6954,7 +6954,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 114", building_id: 60 },
     },
     {
-      unique_id: -189789,
+      unique_id: -472,
       component: "DIS",
       subject: "PHIL",
       number: "216-0",
@@ -6971,7 +6971,7 @@ const discussions = {
   "16074": [],
   "16079": [
     {
-      unique_id: -189391,
+      unique_id: -274,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -6984,7 +6984,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189390,
+      unique_id: -275,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -6997,7 +6997,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189389,
+      unique_id: -276,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -7010,7 +7010,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -277,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -7023,7 +7023,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -278,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -7036,7 +7036,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -279,
       component: "DIS",
       subject: "HISTORY",
       number: "203-2",
@@ -7051,7 +7051,7 @@ const discussions = {
   ],
   "16083": [
     {
-      unique_id: -191312,
+      unique_id: -493,
       component: "DIS",
       subject: "PHIL",
       number: "461-0",
@@ -7082,7 +7082,7 @@ const discussions = {
   "16221": [],
   "16224": [
     {
-      unique_id: -187895,
+      unique_id: -437,
       component: "DIS",
       subject: "MBIOTECH",
       number: "476-2",
@@ -7108,7 +7108,7 @@ const discussions = {
   "16337": [],
   "16344": [
     {
-      unique_id: -187561,
+      unique_id: -117,
       component: "LAB",
       subject: "COMP_ENG",
       number: "355-0",
@@ -7129,7 +7129,7 @@ const discussions = {
   "16452": [],
   "16460": [
     {
-      unique_id: -189731,
+      unique_id: -400,
       component: "DIS",
       subject: "MATH",
       number: "291-1",
@@ -7152,7 +7152,7 @@ const discussions = {
   "16484": [],
   "16485": [
     {
-      unique_id: -188693,
+      unique_id: -261,
       component: "DIS",
       subject: "GBL_HLTH",
       number: "301-0",
@@ -7165,7 +7165,7 @@ const discussions = {
       room: { building_name: "University Hall 312", building_id: 122 },
     },
     {
-      unique_id: -188692,
+      unique_id: -260,
       component: "DIS",
       subject: "GBL_HLTH",
       number: "301-0",
@@ -7178,7 +7178,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 213", building_id: 99 },
     },
     {
-      unique_id: -188691,
+      unique_id: -259,
       component: "DIS",
       subject: "GBL_HLTH",
       number: "301-0",
@@ -7191,7 +7191,7 @@ const discussions = {
       room: { building_name: "555 Clark 230" },
     },
     {
-      unique_id: -188690,
+      unique_id: -258,
       component: "DIS",
       subject: "GBL_HLTH",
       number: "301-0",
@@ -7299,7 +7299,7 @@ const discussions = {
   "17789": [],
   "17794": [
     {
-      unique_id: -189152,
+      unique_id: -88,
       component: "LAB",
       subject: "CHEM",
       number: "350-1",
@@ -7312,7 +7312,7 @@ const discussions = {
       room: { building_name: "Technological Institute B160", building_id: 119 },
     },
     {
-      unique_id: -189151,
+      unique_id: -89,
       component: "LAB",
       subject: "CHEM",
       number: "350-1",
@@ -7328,7 +7328,7 @@ const discussions = {
   "17802": [],
   "17805": [
     {
-      unique_id: -189357,
+      unique_id: -268,
       component: "DIS",
       subject: "GNDR_ST",
       number: "321-0",
@@ -7341,7 +7341,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -189356,
+      unique_id: -269,
       component: "DIS",
       subject: "GNDR_ST",
       number: "321-0",
@@ -7354,7 +7354,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -189355,
+      unique_id: -270,
       component: "DIS",
       subject: "GNDR_ST",
       number: "321-0",
@@ -7376,7 +7376,7 @@ const discussions = {
   "17821": [],
   "17824": [
     {
-      unique_id: -189663,
+      unique_id: -381,
       component: "DIS",
       subject: "MATH",
       number: "214-0",
@@ -7395,7 +7395,7 @@ const discussions = {
   "17843": [],
   "17846": [
     {
-      unique_id: -189302,
+      unique_id: -252,
       component: "DIS",
       subject: "ENGLISH",
       number: "410-0",
@@ -7416,7 +7416,7 @@ const discussions = {
   "17861": [],
   "17872": [
     {
-      unique_id: -189941,
+      unique_id: -539,
       component: "DIS",
       subject: "POLI_SCI",
       number: "301-0",
@@ -7429,7 +7429,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 213", building_id: 99 },
     },
     {
-      unique_id: -189940,
+      unique_id: -540,
       component: "DIS",
       subject: "POLI_SCI",
       number: "301-0",
@@ -7447,7 +7447,7 @@ const discussions = {
   "17895": [],
   "17941": [
     {
-      unique_id: -188672,
+      unique_id: -255,
       component: "LAB",
       subject: "EPI_BIO",
       number: "305-0",
@@ -7487,7 +7487,7 @@ const discussions = {
   "18022": [],
   "18026": [
     {
-      unique_id: -187532,
+      unique_id: -45,
       component: "LAB",
       subject: "BMD_ENG",
       number: "305-0",
@@ -7502,7 +7502,7 @@ const discussions = {
   ],
   "18027": [
     {
-      unique_id: -187552,
+      unique_id: -46,
       component: "LAB",
       subject: "BMD_ENG",
       number: "306-0",
@@ -7525,7 +7525,7 @@ const discussions = {
   "18045": [],
   "18061": [
     {
-      unique_id: -188674,
+      unique_id: -256,
       component: "LAB",
       subject: "EPI_BIO",
       number: "401-0",
@@ -7540,7 +7540,7 @@ const discussions = {
   ],
   "18062": [
     {
-      unique_id: -188675,
+      unique_id: -257,
       component: "LAB",
       subject: "EPI_BIO",
       number: "402-0",
@@ -7555,7 +7555,7 @@ const discussions = {
   ],
   "18067": [
     {
-      unique_id: -187487,
+      unique_id: -362,
       component: "DIS",
       subject: "KELLG_FE",
       number: "312-0",
@@ -7568,7 +7568,7 @@ const discussions = {
       room: { building_name: "555 Clark B01" },
     },
     {
-      unique_id: null,
+      unique_id: -361,
       component: "DIS",
       subject: "KELLG_FE",
       number: "312-0",
@@ -7605,7 +7605,7 @@ const discussions = {
   "18260": [],
   "18263": [
     {
-      unique_id: -188323,
+      unique_id: -581,
       component: "LAB",
       subject: "RTVF",
       number: "190-0",
@@ -7618,7 +7618,7 @@ const discussions = {
       room: { building_name: "Fisk Hall B-1", building_id: 60 },
     },
     {
-      unique_id: -188322,
+      unique_id: -582,
       component: "LAB",
       subject: "RTVF",
       number: "190-0",
@@ -7633,7 +7633,7 @@ const discussions = {
   ],
   "18265": [
     {
-      unique_id: -189833,
+      unique_id: -490,
       component: "DIS",
       subject: "PHIL",
       number: "273-1",
@@ -7650,7 +7650,7 @@ const discussions = {
   "18269": [],
   "18270": [
     {
-      unique_id: -188798,
+      unique_id: -30,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "210-0",
@@ -7663,7 +7663,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -188797,
+      unique_id: -29,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "210-0",
@@ -7676,7 +7676,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-440", building_id: 77 },
     },
     {
-      unique_id: -188796,
+      unique_id: -28,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "210-0",
@@ -7689,7 +7689,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-425", building_id: 77 },
     },
     {
-      unique_id: null,
+      unique_id: -27,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "210-0",
@@ -7736,7 +7736,7 @@ const discussions = {
   "18515": [],
   "18524": [
     {
-      unique_id: -188784,
+      unique_id: -21,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7749,7 +7749,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-319", building_id: 77 },
     },
     {
-      unique_id: -188783,
+      unique_id: -22,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7762,7 +7762,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-319", building_id: 77 },
     },
     {
-      unique_id: -188782,
+      unique_id: -23,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7775,7 +7775,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-329", building_id: 77 },
     },
     {
-      unique_id: -188781,
+      unique_id: -24,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7788,7 +7788,7 @@ const discussions = {
       room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
     },
     {
-      unique_id: -188780,
+      unique_id: -25,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7801,7 +7801,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -26,
       component: "DIS",
       subject: "ART_HIST",
       number: "255-0",
@@ -7834,7 +7834,7 @@ const discussions = {
   "18603": [],
   "18604": [
     {
-      unique_id: -188872,
+      unique_id: -36,
       component: "DIS",
       subject: "ASIAN_LC",
       number: "390-0",
@@ -7847,7 +7847,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-415", building_id: 77 },
     },
     {
-      unique_id: -188871,
+      unique_id: -35,
       component: "DIS",
       subject: "ASIAN_LC",
       number: "390-0",
@@ -7860,7 +7860,7 @@ const discussions = {
       room: { building_name: "Harris Hall L28", building_id: 68 },
     },
     {
-      unique_id: -188870,
+      unique_id: -34,
       component: "DIS",
       subject: "ASIAN_LC",
       number: "390-0",
@@ -7878,7 +7878,7 @@ const discussions = {
   "18639": [],
   "18642": [
     {
-      unique_id: -189268,
+      unique_id: -247,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7891,7 +7891,7 @@ const discussions = {
       room: { building_name: "University Library 3370", building_id: 123 },
     },
     {
-      unique_id: -189267,
+      unique_id: -248,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7904,7 +7904,7 @@ const discussions = {
       room: { building_name: "University Library 4670", building_id: 123 },
     },
     {
-      unique_id: -189266,
+      unique_id: -249,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7917,7 +7917,7 @@ const discussions = {
       room: { building_name: "University Library 4770", building_id: 123 },
     },
     {
-      unique_id: -189265,
+      unique_id: -244,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7930,7 +7930,7 @@ const discussions = {
       room: { building_name: "University Library 4670", building_id: 123 },
     },
     {
-      unique_id: -189264,
+      unique_id: -250,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7943,7 +7943,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189263,
+      unique_id: -251,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7956,7 +7956,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: null,
+      unique_id: -245,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7969,7 +7969,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -246,
       component: "DIS",
       subject: "ENGLISH",
       number: "277-0",
@@ -7987,7 +7987,7 @@ const discussions = {
   "18650": [],
   "18651": [
     {
-      unique_id: -189429,
+      unique_id: -271,
       component: "DIS",
       subject: "HISTORY",
       number: "200-0",
@@ -8000,7 +8000,7 @@ const discussions = {
       room: { building_name: "University Hall 312", building_id: 122 },
     },
     {
-      unique_id: -189429,
+      unique_id: -272,
       component: "DIS",
       subject: "HISTORY",
       number: "200-0",
@@ -8013,7 +8013,7 @@ const discussions = {
       room: { building_name: "University Hall 218", building_id: 122 },
     },
     {
-      unique_id: -189429,
+      unique_id: -273,
       component: "DIS",
       subject: "HISTORY",
       number: "200-0",
@@ -8028,7 +8028,7 @@ const discussions = {
   ],
   "18652": [
     {
-      unique_id: -189436,
+      unique_id: -298,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8041,7 +8041,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -189436,
+      unique_id: -299,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8054,7 +8054,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -189436,
+      unique_id: -300,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8067,7 +8067,7 @@ const discussions = {
       room: { building_name: "University Hall 412", building_id: 122 },
     },
     {
-      unique_id: -189434,
+      unique_id: -301,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8080,7 +8080,7 @@ const discussions = {
       room: { building_name: "University Hall 312", building_id: 122 },
     },
     {
-      unique_id: -189434,
+      unique_id: -302,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8093,7 +8093,7 @@ const discussions = {
       room: { building_name: "University Hall 312", building_id: 122 },
     },
     {
-      unique_id: -189434,
+      unique_id: -303,
       component: "DIS",
       subject: "HISTORY",
       number: "300-0",
@@ -8196,7 +8196,7 @@ const discussions = {
   "19398": [],
   "19421": [
     {
-      unique_id: -188236,
+      unique_id: -154,
       component: "LAB",
       subject: "CSD",
       number: "457-0",
@@ -8209,7 +8209,7 @@ const discussions = {
       room: { building_name: "Technological Institute M164", building_id: 119 },
     },
     {
-      unique_id: -188235,
+      unique_id: -155,
       component: "LAB",
       subject: "CSD",
       number: "457-0",
@@ -8244,7 +8244,7 @@ const discussions = {
   "19739": [],
   "19749": [
     {
-      unique_id: -189393,
+      unique_id: -280,
       component: "DIS",
       subject: "HISTORY",
       number: "216-0",
@@ -8257,7 +8257,7 @@ const discussions = {
       room: { building_name: "Locy Hall 214", building_id: 80 },
     },
     {
-      unique_id: -189392,
+      unique_id: -281,
       component: "DIS",
       subject: "HISTORY",
       number: "216-0",
@@ -8270,7 +8270,7 @@ const discussions = {
       room: { building_name: "Locy Hall 214", building_id: 80 },
     },
     {
-      unique_id: -189391,
+      unique_id: -282,
       component: "DIS",
       subject: "HISTORY",
       number: "216-0",
@@ -8286,7 +8286,7 @@ const discussions = {
   "19761": [],
   "19766": [
     {
-      unique_id: -188799,
+      unique_id: -33,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "216-0",
@@ -8299,7 +8299,7 @@ const discussions = {
       room: { building_name: "Locy Hall 214", building_id: 80 },
     },
     {
-      unique_id: -188798,
+      unique_id: -32,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "216-0",
@@ -8312,7 +8312,7 @@ const discussions = {
       room: { building_name: "Locy Hall 214", building_id: 80 },
     },
     {
-      unique_id: -188797,
+      unique_id: -31,
       component: "DIS",
       subject: "ASIAN_AM",
       number: "216-0",
@@ -8363,7 +8363,7 @@ const discussions = {
   "20045": [],
   "20064": [
     {
-      unique_id: -189652,
+      unique_id: -368,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8376,7 +8376,7 @@ const discussions = {
       room: { building_name: "University Library 3370", building_id: 123 },
     },
     {
-      unique_id: -189651,
+      unique_id: -367,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8389,7 +8389,7 @@ const discussions = {
       room: { building_name: "University Library 4670", building_id: 123 },
     },
     {
-      unique_id: -189650,
+      unique_id: -366,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8402,7 +8402,7 @@ const discussions = {
       room: { building_name: "University Library 4770", building_id: 123 },
     },
     {
-      unique_id: -189649,
+      unique_id: -365,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8415,7 +8415,7 @@ const discussions = {
       room: { building_name: "University Library 4670", building_id: 123 },
     },
     {
-      unique_id: -189648,
+      unique_id: -364,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8428,7 +8428,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189647,
+      unique_id: -363,
       component: "DIS",
       subject: "LATINO",
       number: "277-0",
@@ -8460,7 +8460,7 @@ const discussions = {
   "20133": [],
   "20141": [
     {
-      unique_id: -187939,
+      unique_id: -447,
       component: "LAB",
       subject: "MSIA",
       number: "400-0",
@@ -8475,7 +8475,7 @@ const discussions = {
   ],
   "20156": [
     {
-      unique_id: -189657,
+      unique_id: -374,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8488,7 +8488,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-415", building_id: 77 },
     },
     {
-      unique_id: -189656,
+      unique_id: -373,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8501,7 +8501,7 @@ const discussions = {
       room: { building_name: "555 Clark B03" },
     },
     {
-      unique_id: -189655,
+      unique_id: -372,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8514,7 +8514,7 @@ const discussions = {
       room: { building_name: "555 Clark B01" },
     },
     {
-      unique_id: -189654,
+      unique_id: -369,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8527,7 +8527,7 @@ const discussions = {
       room: { building_name: "Frances Searle Building 2407", building_id: 62 },
     },
     {
-      unique_id: -189653,
+      unique_id: -371,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8540,7 +8540,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 104", building_id: 83 },
     },
     {
-      unique_id: -189652,
+      unique_id: -370,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "206-0",
@@ -8556,7 +8556,7 @@ const discussions = {
   "20178": [],
   "20244": [
     {
-      unique_id: -189140,
+      unique_id: -78,
       component: "LAB",
       subject: "CHEM",
       number: "181-0",
@@ -8569,7 +8569,7 @@ const discussions = {
       room: { building_name: "Technological Institute HG10", building_id: 119 },
     },
     {
-      unique_id: -189139,
+      unique_id: -79,
       component: "LAB",
       subject: "CHEM",
       number: "181-0",
@@ -8582,7 +8582,7 @@ const discussions = {
       room: { building_name: "Technological Institute HG10", building_id: 119 },
     },
     {
-      unique_id: -189138,
+      unique_id: -80,
       component: "LAB",
       subject: "CHEM",
       number: "181-0",
@@ -8595,7 +8595,7 @@ const discussions = {
       room: { building_name: "Technological Institute HG10", building_id: 119 },
     },
     {
-      unique_id: -189062,
+      unique_id: -77,
       component: "LAB",
       subject: "CHEM",
       number: "181-0",
@@ -8610,7 +8610,7 @@ const discussions = {
   ],
   "20245": [
     {
-      unique_id: -189156,
+      unique_id: -82,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8623,7 +8623,7 @@ const discussions = {
       room: { building_name: "Technological Institute D220", building_id: 119 },
     },
     {
-      unique_id: -189155,
+      unique_id: -83,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8636,7 +8636,7 @@ const discussions = {
       room: { building_name: "Technological Institute D220", building_id: 119 },
     },
     {
-      unique_id: -189154,
+      unique_id: -84,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8649,7 +8649,7 @@ const discussions = {
       room: { building_name: "Technological Institute D220", building_id: 119 },
     },
     {
-      unique_id: -189153,
+      unique_id: -85,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8662,7 +8662,7 @@ const discussions = {
       room: { building_name: "Technological Institute D220", building_id: 119 },
     },
     {
-      unique_id: -189152,
+      unique_id: -86,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8675,7 +8675,7 @@ const discussions = {
       room: { building_name: "Technological Institute D220", building_id: 119 },
     },
     {
-      unique_id: -189068,
+      unique_id: -87,
       component: "LAB",
       subject: "CHEM",
       number: "232-1",
@@ -8691,7 +8691,7 @@ const discussions = {
   "20248": [],
   "20249": [
     {
-      unique_id: -189355,
+      unique_id: -262,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8704,7 +8704,7 @@ const discussions = {
       room: { building_name: "Locy Hall 213", building_id: 80 },
     },
     {
-      unique_id: -189354,
+      unique_id: -263,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8717,7 +8717,7 @@ const discussions = {
       room: { building_name: "555 Clark 230" },
     },
     {
-      unique_id: -189353,
+      unique_id: -264,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8730,7 +8730,7 @@ const discussions = {
       room: { building_name: "Locy Hall 213", building_id: 80 },
     },
     {
-      unique_id: -189352,
+      unique_id: -265,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8743,7 +8743,7 @@ const discussions = {
       room: { building_name: "555 Clark 230" },
     },
     {
-      unique_id: -189351,
+      unique_id: -266,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8756,7 +8756,7 @@ const discussions = {
       room: { building_name: "Locy Hall 213", building_id: 80 },
     },
     {
-      unique_id: -189350,
+      unique_id: -267,
       component: "DIS",
       subject: "GNDR_ST",
       number: "220-0",
@@ -8808,7 +8808,7 @@ const discussions = {
   "20407": [],
   "20412": [
     {
-      unique_id: -187944,
+      unique_id: -451,
       component: "LAB",
       subject: "MSIA",
       number: "440-0",
@@ -8823,7 +8823,7 @@ const discussions = {
   ],
   "20414": [
     {
-      unique_id: -187946,
+      unique_id: -452,
       component: "LAB",
       subject: "MSIA",
       number: "490-0",
@@ -8836,7 +8836,7 @@ const discussions = {
       room: { building_name: "North Garage Krebs Room 1440" },
     },
     {
-      unique_id: -187948,
+      unique_id: -453,
       component: "LAB",
       subject: "MSIA",
       number: "490-0",
@@ -8849,7 +8849,7 @@ const discussions = {
       room: { building_name: "North Garage Padula Room 1430" },
     },
     {
-      unique_id: -187946,
+      unique_id: -454,
       component: "LAB",
       subject: "MSIA",
       number: "490-0",
@@ -8872,7 +8872,7 @@ const discussions = {
   "20468": [],
   "20470": [
     {
-      unique_id: -189394,
+      unique_id: -287,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8885,7 +8885,7 @@ const discussions = {
       room: { building_name: "Elder Hall 030 Seminar Room", building_id: 57 },
     },
     {
-      unique_id: -189393,
+      unique_id: -288,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8898,7 +8898,7 @@ const discussions = {
       room: { building_name: "Shepard Hall B08/B09" },
     },
     {
-      unique_id: -189392,
+      unique_id: -289,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8911,7 +8911,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189391,
+      unique_id: -290,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8924,7 +8924,7 @@ const discussions = {
       room: { building_name: "University Hall 218", building_id: 122 },
     },
     {
-      unique_id: -189390,
+      unique_id: -291,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8937,7 +8937,7 @@ const discussions = {
       room: { building_name: "University Hall 418", building_id: 122 },
     },
     {
-      unique_id: -189389,
+      unique_id: -283,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8950,7 +8950,7 @@ const discussions = {
       room: { building_name: "University Hall 218", building_id: 122 },
     },
     {
-      unique_id: -189388,
+      unique_id: -284,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8963,7 +8963,7 @@ const discussions = {
       room: { building_name: "Willard Hall B72" },
     },
     {
-      unique_id: -189387,
+      unique_id: -285,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8976,7 +8976,7 @@ const discussions = {
       room: { building_name: "Harris Hall L04", building_id: 68 },
     },
     {
-      unique_id: -189386,
+      unique_id: -286,
       component: "DIS",
       subject: "HISTORY",
       number: "250-1",
@@ -8991,7 +8991,7 @@ const discussions = {
   ],
   "20473": [
     {
-      unique_id: -189660,
+      unique_id: -378,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "332-0",
@@ -9004,7 +9004,7 @@ const discussions = {
       room: { building_name: "University Hall 121", building_id: 122 },
     },
     {
-      unique_id: -189659,
+      unique_id: -377,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "332-0",
@@ -9017,7 +9017,7 @@ const discussions = {
       room: { building_name: "555 Clark B03" },
     },
     {
-      unique_id: -189658,
+      unique_id: -376,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "332-0",
@@ -9030,7 +9030,7 @@ const discussions = {
       room: { building_name: "University Hall 101", building_id: 122 },
     },
     {
-      unique_id: -189657,
+      unique_id: -375,
       component: "DIS",
       subject: "LEGAL_ST",
       number: "332-0",
@@ -9068,7 +9068,7 @@ const discussions = {
   "20583": [],
   "20586": [
     {
-      unique_id: -188663,
+      unique_id: -455,
       component: "LAB",
       subject: "PBC",
       number: "470-0",
@@ -9095,7 +9095,7 @@ const discussions = {
   "20683": [],
   "20700": [
     {
-      unique_id: -189716,
+      unique_id: -407,
       component: "DIS",
       subject: "MATH",
       number: "314-0",
@@ -9108,7 +9108,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G32", building_id: 39 },
     },
     {
-      unique_id: -189716,
+      unique_id: -408,
       component: "DIS",
       subject: "MATH",
       number: "314-0",
@@ -9132,7 +9132,7 @@ const discussions = {
   "20742": [],
   "20761": [
     {
-      unique_id: -188583,
+      unique_id: -602,
       component: "LAB",
       subject: "SESP",
       number: "388-0",
@@ -9147,7 +9147,7 @@ const discussions = {
   ],
   "20762": [
     {
-      unique_id: -188582,
+      unique_id: -601,
       component: "LAB",
       subject: "SESP",
       number: "387-0",
@@ -9162,7 +9162,7 @@ const discussions = {
   ],
   "20763": [
     {
-      unique_id: -188581,
+      unique_id: -600,
       component: "LAB",
       subject: "SESP",
       number: "386-0",
@@ -9200,7 +9200,7 @@ const discussions = {
   "20917": [],
   "20919": [
     {
-      unique_id: -187978,
+      unique_id: -448,
       component: "LAB",
       subject: "MSIA",
       number: "401-0",
@@ -9348,7 +9348,7 @@ const discussions = {
   "21592": [],
   "21595": [
     {
-      unique_id: -189570,
+      unique_id: -325,
       component: "LAB",
       subject: "HUM",
       number: "325-6",
@@ -9367,7 +9367,7 @@ const discussions = {
   "21600": [],
   "21605": [
     {
-      unique_id: -189937,
+      unique_id: -513,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9380,7 +9380,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189936,
+      unique_id: -514,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9393,7 +9393,7 @@ const discussions = {
       room: { building_name: "Locy Hall 318", building_id: 80 },
     },
     {
-      unique_id: -189935,
+      unique_id: -515,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9406,7 +9406,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -189934,
+      unique_id: -516,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9419,7 +9419,7 @@ const discussions = {
       room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
     },
     {
-      unique_id: -189933,
+      unique_id: -517,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9432,7 +9432,7 @@ const discussions = {
       room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
     },
     {
-      unique_id: -189932,
+      unique_id: -518,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9445,7 +9445,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -519,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9458,7 +9458,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -520,
       component: "DIS",
       subject: "POLI_SCI",
       number: "210-0",
@@ -9476,7 +9476,7 @@ const discussions = {
   "21624": [],
   "21626": [
     {
-      unique_id: -188705,
+      unique_id: -562,
       component: "LAB",
       subject: "PUB_HLTH",
       number: "305-0",
@@ -9536,7 +9536,7 @@ const discussions = {
   "21813": [],
   "21815": [
     {
-      unique_id: -189179,
+      unique_id: -90,
       component: "LAB",
       subject: "CHEM",
       number: "416-0",
@@ -9551,7 +9551,7 @@ const discussions = {
   ],
   "21826": [
     {
-      unique_id: -188934,
+      unique_id: -37,
       component: "LAB",
       subject: "BIOL_SCI",
       number: "328-0",
@@ -9577,7 +9577,7 @@ const discussions = {
   "21874": [],
   "21878": [
     {
-      unique_id: -189641,
+      unique_id: -326,
       component: "LAB",
       subject: "IBIS",
       number: "416-0",
@@ -9593,7 +9593,7 @@ const discussions = {
   "21884": [],
   "21892": [
     {
-      unique_id: -188114,
+      unique_id: -358,
       component: "LAB",
       subject: "JOUR",
       number: "353-0",
@@ -9606,7 +9606,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 309", building_id: 60 },
     },
     {
-      unique_id: -188113,
+      unique_id: -359,
       component: "LAB",
       subject: "JOUR",
       number: "353-0",
@@ -9619,7 +9619,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 309", building_id: 60 },
     },
     {
-      unique_id: -188112,
+      unique_id: -360,
       component: "LAB",
       subject: "JOUR",
       number: "353-0",
@@ -9720,7 +9720,7 @@ const discussions = {
   "22186": [],
   "22187": [
     {
-      unique_id: -189081,
+      unique_id: -48,
       component: "DIS",
       subject: "BUS_INST",
       number: "304-0",
@@ -9773,7 +9773,7 @@ const discussions = {
   "22314": [],
   "22317": [
     {
-      unique_id: -187824,
+      unique_id: -254,
       component: "LAB",
       subject: "ENTREP",
       number: "470-0",
@@ -9786,7 +9786,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -253,
       component: "LAB",
       subject: "ENTREP",
       number: "470-0",
@@ -9809,7 +9809,7 @@ const discussions = {
   "22340": [],
   "22341": [
     {
-      unique_id: -187942,
+      unique_id: -449,
       component: "LAB",
       subject: "MSIA",
       number: "413-0",
@@ -9824,7 +9824,7 @@ const discussions = {
   ],
   "22342": [
     {
-      unique_id: -188001,
+      unique_id: -450,
       component: "LAB",
       subject: "MSIA",
       number: "422-0",
@@ -9858,7 +9858,7 @@ const discussions = {
   "22432": [],
   "22437": [
     {
-      unique_id: -188580,
+      unique_id: -598,
       component: "DIS",
       subject: "SESP",
       number: "382-0",
@@ -9880,7 +9880,7 @@ const discussions = {
   "22460": [],
   "22465": [
     {
-      unique_id: -189056,
+      unique_id: -67,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9893,7 +9893,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 3" },
     },
     {
-      unique_id: -189055,
+      unique_id: -68,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9906,7 +9906,7 @@ const discussions = {
       room: { building_name: "Technological Institute L158", building_id: 119 },
     },
     {
-      unique_id: -189054,
+      unique_id: -69,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9919,7 +9919,7 @@ const discussions = {
       room: { building_name: "Technological Institute M166", building_id: 119 },
     },
     {
-      unique_id: -189053,
+      unique_id: -70,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9932,7 +9932,7 @@ const discussions = {
       room: { building_name: "Technological Institute M120", building_id: 119 },
     },
     {
-      unique_id: -189052,
+      unique_id: -71,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9945,7 +9945,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G31", building_id: 39 },
     },
     {
-      unique_id: -189051,
+      unique_id: -72,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9958,7 +9958,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G01", building_id: 39 },
     },
     {
-      unique_id: -189050,
+      unique_id: -73,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9971,7 +9971,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 103", building_id: 83 },
     },
     {
-      unique_id: -189049,
+      unique_id: -62,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9984,7 +9984,7 @@ const discussions = {
       room: { building_name: "Elder Hall 032 Seminar Room", building_id: 57 },
     },
     {
-      unique_id: -189048,
+      unique_id: -63,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -9997,7 +9997,7 @@ const discussions = {
       room: { building_name: "University Hall 218", building_id: 122 },
     },
     {
-      unique_id: -189047,
+      unique_id: -74,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10010,7 +10010,7 @@ const discussions = {
       room: { building_name: "University Hall 312", building_id: 122 },
     },
     {
-      unique_id: -189046,
+      unique_id: -75,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10023,7 +10023,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-339", building_id: 77 },
     },
     {
-      unique_id: -189045,
+      unique_id: -76,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10036,7 +10036,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-343", building_id: 77 },
     },
     {
-      unique_id: -189044,
+      unique_id: -64,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10049,7 +10049,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 4-410", building_id: 77 },
     },
     {
-      unique_id: -189043,
+      unique_id: -65,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10062,7 +10062,7 @@ const discussions = {
       room: { building_name: "Elder Hall 030 Seminar Room", building_id: 57 },
     },
     {
-      unique_id: -189042,
+      unique_id: -66,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10075,7 +10075,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -188957,
+      unique_id: -49,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10088,7 +10088,7 @@ const discussions = {
       room: { building_name: "Tech Institute Lecture Room 3" },
     },
     {
-      unique_id: -188956,
+      unique_id: -50,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10101,7 +10101,7 @@ const discussions = {
       room: { building_name: "Technological Institute F280", building_id: 119 },
     },
     {
-      unique_id: -188955,
+      unique_id: -51,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10114,7 +10114,7 @@ const discussions = {
       room: { building_name: "Technological Institute L170", building_id: 119 },
     },
     {
-      unique_id: -188954,
+      unique_id: -52,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10127,7 +10127,7 @@ const discussions = {
       room: { building_name: "Technological Institute F281", building_id: 119 },
     },
     {
-      unique_id: -188953,
+      unique_id: -53,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10140,7 +10140,7 @@ const discussions = {
       room: { building_name: "Technological Institute A110", building_id: 119 },
     },
     {
-      unique_id: -188952,
+      unique_id: -54,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10153,7 +10153,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G29", building_id: 39 },
     },
     {
-      unique_id: -188951,
+      unique_id: -55,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10166,7 +10166,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G31", building_id: 39 },
     },
     {
-      unique_id: -188950,
+      unique_id: -56,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10179,7 +10179,7 @@ const discussions = {
       room: { building_name: "Annenberg Hall G32", building_id: 39 },
     },
     {
-      unique_id: -188949,
+      unique_id: -57,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10192,7 +10192,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 103", building_id: 83 },
     },
     {
-      unique_id: -188948,
+      unique_id: -58,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10205,7 +10205,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-343", building_id: 77 },
     },
     {
-      unique_id: -188947,
+      unique_id: -59,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10218,7 +10218,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-440", building_id: 77 },
     },
     {
-      unique_id: -188946,
+      unique_id: -60,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10231,7 +10231,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 4-410", building_id: 77 },
     },
     {
-      unique_id: -188945,
+      unique_id: -61,
       component: "DIS",
       subject: "CHEM",
       number: "151-0",
@@ -10251,7 +10251,7 @@ const discussions = {
   "22483": [],
   "22493": [
     {
-      unique_id: -189947,
+      unique_id: -503,
       component: "DIS",
       subject: "PHYSICS",
       number: "311-1",
@@ -10264,7 +10264,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -504,
       component: "DIS",
       subject: "PHYSICS",
       number: "311-1",
@@ -10283,7 +10283,7 @@ const discussions = {
   "22509": [],
   "22510": [
     {
-      unique_id: -187584,
+      unique_id: -94,
       component: "DIS",
       subject: "CIV_ENV",
       number: "205-0",
@@ -10296,7 +10296,7 @@ const discussions = {
       room: { building_name: "Technological Institute L211", building_id: 119 },
     },
     {
-      unique_id: -187583,
+      unique_id: -95,
       component: "DIS",
       subject: "CIV_ENV",
       number: "205-0",
@@ -10331,7 +10331,7 @@ const discussions = {
   "22566": [],
   "22570": [
     {
-      unique_id: -187943,
+      unique_id: -436,
       component: "DIS",
       subject: "MAT_SCI",
       number: "402-0",
@@ -10425,7 +10425,7 @@ const discussions = {
   "22912": [],
   "22917": [
     {
-      unique_id: -189219,
+      unique_id: -165,
       component: "LAB",
       subject: "EARTH",
       number: "382-0",
@@ -10484,7 +10484,7 @@ const discussions = {
   "23105": [],
   "23107": [
     {
-      unique_id: -189408,
+      unique_id: -319,
       component: "DIS",
       subject: "HISTORY",
       number: "386-2",
@@ -10497,7 +10497,7 @@ const discussions = {
       room: { building_name: "Harris Hall L06", building_id: 68 },
     },
     {
-      unique_id: -189407,
+      unique_id: -320,
       component: "DIS",
       subject: "HISTORY",
       number: "386-2",
@@ -10510,7 +10510,7 @@ const discussions = {
       room: { building_name: "Harris Hall L28", building_id: 68 },
     },
     {
-      unique_id: -189406,
+      unique_id: -321,
       component: "DIS",
       subject: "HISTORY",
       number: "386-2",
@@ -10523,7 +10523,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: null,
+      unique_id: -322,
       component: "DIS",
       subject: "HISTORY",
       number: "386-2",
@@ -10547,7 +10547,7 @@ const discussions = {
   "23153": [],
   "23157": [
     {
-      unique_id: -187718,
+      unique_id: -156,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10560,7 +10560,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 212", building_id: 99 },
     },
     {
-      unique_id: -187716,
+      unique_id: -159,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10573,7 +10573,7 @@ const discussions = {
       room: { building_name: "Parkes Hall 215", building_id: 99 },
     },
     {
-      unique_id: -187716,
+      unique_id: -157,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10586,7 +10586,7 @@ const discussions = {
       room: { building_name: "Technological Institute LG66", building_id: 119 },
     },
     {
-      unique_id: -187714,
+      unique_id: -160,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10599,7 +10599,7 @@ const discussions = {
       room: { building_name: "Fisk Hall 114", building_id: 60 },
     },
     {
-      unique_id: -187714,
+      unique_id: -158,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10612,7 +10612,7 @@ const discussions = {
       room: { building_name: "Technological Institute L160", building_id: 119 },
     },
     {
-      unique_id: -187712,
+      unique_id: -161,
       component: "DIS",
       subject: "DSGN",
       number: "300-0",
@@ -10665,7 +10665,7 @@ const discussions = {
   "23331": [],
   "23337": [
     {
-      unique_id: -189694,
+      unique_id: -382,
       component: "DIS",
       subject: "MATH",
       number: "218-1",
@@ -10678,7 +10678,7 @@ const discussions = {
       room: { building_name: "Lunt Hall 107", building_id: 83 },
     },
     {
-      unique_id: -189665,
+      unique_id: -383,
       component: "DIS",
       subject: "MATH",
       number: "218-1",
@@ -10695,7 +10695,7 @@ const discussions = {
   "23341": [],
   "23342": [
     {
-      unique_id: -189713,
+      unique_id: -384,
       component: "DIS",
       subject: "MATH",
       number: "226-0",
@@ -10711,7 +10711,7 @@ const discussions = {
   "23343": [],
   "23344": [
     {
-      unique_id: -189687,
+      unique_id: -385,
       component: "DIS",
       subject: "MATH",
       number: "228-2",
@@ -10724,7 +10724,7 @@ const discussions = {
       room: { building_name: "Technological Institute M177", building_id: 119 },
     },
     {
-      unique_id: -189687,
+      unique_id: -386,
       component: "DIS",
       subject: "MATH",
       number: "228-2",
@@ -10753,7 +10753,7 @@ const discussions = {
   "23396": [],
   "23400": [
     {
-      unique_id: -189791,
+      unique_id: -474,
       component: "DIS",
       subject: "PHIL",
       number: "257-0",
@@ -10766,7 +10766,7 @@ const discussions = {
       room: { building_name: "Kresge Centennial Hall 2-430", building_id: 77 },
     },
     {
-      unique_id: -189790,
+      unique_id: -475,
       component: "DIS",
       subject: "PHIL",
       number: "257-0",

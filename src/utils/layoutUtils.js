@@ -1,6 +1,12 @@
 import { parseTime, parseTime2Minutes, parseMeetingDays } from "./parseUtils";
 import { getColor } from "./colorUtils";
 import { getName } from "./courseUtils";
+import {
+  DEFAULT_DAYS,
+  ADDITIONAL_DAYS,
+  DEFAULT_START_HOUR,
+  DEFAULT_END_HOUR,
+} from "./../configs";
 
 const isOverlapping = (c1, c2) => {
   const c1End = parseTime2Minutes(c1.data.end_time);
@@ -17,9 +23,56 @@ const aggregateBins = (bins) => {
   return list;
 };
 
+const computeHours = (courses, defaultStartHour, defaultEndHour) => {
+  let earliest = defaultStartHour;
+  let latest = defaultEndHour;
+  for (const course of courses) {
+    const { start_time, end_time } = course;
+    const startMinutes = parseTime2Minutes(start_time);
+    const endMinutes = parseTime2Minutes(end_time);
+
+    const startHour = Math.floor(startMinutes / 60);
+    const endHour = Math.floor((endMinutes - 1) / 60) + 1;
+
+    if (startHour < earliest) earliest = startHour;
+    if (endHour > latest) latest = endHour;
+  }
+
+  const hours = [];
+  for (let i = earliest; i <= latest; i++) {
+    hours.push(i);
+  }
+
+  return hours;
+};
+
+const computeDays = (courses, defaultDays, additionalDays) => {
+  const daysAdded = {};
+
+  for (const course of courses) {
+    const { meeting_days } = course;
+    const meetingDays = parseMeetingDays(meeting_days);
+
+    for (const day of meetingDays) {
+      if (day && !daysAdded[day]) {
+        daysAdded[day] = true;
+      }
+    }
+  }
+
+  const days = [...defaultDays];
+  for (let i = 0; i < additionalDays.length; i++) {
+    const day = additionalDays[i];
+    if (daysAdded[day]) {
+      days.push(day);
+    }
+  }
+
+  return days;
+};
+
 const binCoursesToDays = (courses, days, hours) => {
   const bins = {};
-
   for (const day of days) {
     bins[day] = {};
     for (const hour of hours) {
@@ -34,7 +87,7 @@ const binCoursesToDays = (courses, days, hours) => {
     const color = getColor(getName(course));
 
     for (const day of meetingDays) {
-      bins[day][hour].push({ data: course, color });
+      if (days.includes(day)) bins[day][hour].push({ data: course, color });
     }
   }
 
@@ -136,7 +189,9 @@ const applyStyles = (collisionColumns) => {
   }
 };
 
-const binAndStyle = (courses, days, hours) => {
+const binAndStyle = (courses) => {
+  const days = computeDays(courses, DEFAULT_DAYS, ADDITIONAL_DAYS);
+  const hours = computeHours(courses, DEFAULT_START_HOUR, DEFAULT_END_HOUR);
   const dayBins = binCoursesToDays(courses, days, hours);
 
   for (const day of days) {
@@ -145,7 +200,7 @@ const binAndStyle = (courses, days, hours) => {
     applyStyles(columns);
   }
 
-  return dayBins;
+  return { bins: dayBins, days, hours };
 };
 
 export { binAndStyle };

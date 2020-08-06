@@ -1,16 +1,180 @@
 import { binAndStyle } from "./layoutUtils";
 
-const days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
-const hours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
-
 describe("layoutUtils", () => {
+  describe("computeDays", () => {
+    it("should give all weekdays when no no courses", () => {
+      const courses = [];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr"]);
+    });
+
+    it("should give all weekdays when no meeting_days is null", () => {
+      const courses = [{ start_time: "10:00", end_time: "11:00" }];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr"]);
+    });
+
+    it("should give all weekdays when no meeting_days is empty string", () => {
+      const courses = [
+        { meeting_days: "", start_time: "10:00", end_time: "11:00" },
+      ];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr"]);
+    });
+
+    it("should give all weekdays when no meeting_days is only weekdays", () => {
+      const courses = [
+        { meeting_days: "MoWeFr", start_time: "10:00", end_time: "11:00" },
+      ];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr"]);
+    });
+
+    it("should give all weekdays plus Su when no meeting_days is 'Su'", () => {
+      const courses = [
+        { meeting_days: "Su", start_time: "10:00", end_time: "11:00" },
+      ];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr", "Su"]);
+    });
+
+    it("should give all weekdays plus Sa, Su when no meeting_days is 'SaSu'", () => {
+      const courses = [
+        { meeting_days: "SaSu", start_time: "10:00", end_time: "11:00" },
+      ];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]);
+    });
+
+    it("should give all weekdays when no meeting_days is 'ThisIsNotADay'", () => {
+      const courses = [
+        {
+          meeting_days: "ThisIsNotADay",
+          start_time: "10:00",
+          end_time: "11:00",
+        },
+      ];
+
+      const { days } = binAndStyle(courses);
+
+      expect(days).toEqual(["Mo", "Tu", "We", "Th", "Fr"]);
+    });
+  });
+
+  describe("computeHours", () => {
+    it("should give 9-18 when no courses", () => {
+      const courses = [];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([9, 10, 11, 12, 13, 14, 15, 16, 17, 18]);
+    });
+
+    it("should give 9-18 when course times within range", () => {
+      const courses = [
+        { start_time: "10:00", end_time: "11:00" },
+        { start_time: "9:00", end_time: "15:00" },
+        { start_time: "10:00", end_time: "16:00" },
+        { start_time: "17:00", end_time: "18:00" },
+      ];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([9, 10, 11, 12, 13, 14, 15, 16, 17, 18]);
+    });
+
+    it("should give 8-18 when course times earlier than range", () => {
+      const courses = [
+        { start_time: "8:00", end_time: "11:00" },
+        { start_time: "9:00", end_time: "15:00" },
+        { start_time: "10:00", end_time: "16:00" },
+        { start_time: "17:00", end_time: "18:00" },
+      ];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]);
+    });
+
+    it("should give 9-20 when course times later than range", () => {
+      const courses = [
+        { start_time: "9:00", end_time: "20:00" },
+        { start_time: "9:00", end_time: "15:00" },
+        { start_time: "10:00", end_time: "16:00" },
+        { start_time: "17:00", end_time: "18:00" },
+      ];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+    });
+
+    it("should give 8-18 when course starts at 8:01", () => {
+      const courses = [{ start_time: "8:01", end_time: "18:00" }];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]);
+    });
+
+    it("should give 8-18 when course starts at 8:59", () => {
+      const courses = [{ start_time: "8:59", end_time: "18:00" }];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]);
+    });
+
+    it("should give 9-20 when course ends exactly at 20:00", () => {
+      const courses = [{ start_time: "9:00", end_time: "20:00" }];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+    });
+
+    it("should give 9-21 when course ends exactly at 20:01", () => {
+      const courses = [{ start_time: "9:00", end_time: "20:01" }];
+
+      const { hours } = binAndStyle(courses);
+
+      expect(hours).toEqual([
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+      ]);
+    });
+  });
+
   describe("binning", () => {
     it("should bin single course into single day", () => {
       const courses = [
         { meeting_days: "Tu", start_time: "10:00", end_time: "11:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10]).toHaveLength(1);
     });
@@ -20,7 +184,7 @@ describe("layoutUtils", () => {
         { meeting_days: "MoTuFr", start_time: "10:00", end_time: "11:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Mo"][10]).toHaveLength(1);
       expect(bins["Tu"][10]).toHaveLength(1);
@@ -35,7 +199,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Mo", start_time: "12:00", end_time: "13:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Mo"][10]).toHaveLength(1);
       expect(bins["Mo"][11]).toHaveLength(1);
@@ -50,7 +214,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Mo", start_time: "10:00", end_time: "13:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Mo"][10]).toHaveLength(3);
       expect(bins["Mo"][11]).toHaveLength(0);
@@ -63,7 +227,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Tu", start_time: "10:00", end_time: "11:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10][0].style.width).toEqual("100%");
     });
@@ -75,7 +239,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Tu", start_time: "12:00", end_time: "13:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10][0].style.width).toEqual("100%");
       expect(bins["Tu"][11][0].style.width).toEqual("100%");
@@ -88,7 +252,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Tu", start_time: "10:30", end_time: "12:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10][0].style.width).toEqual("50%");
       expect(bins["Tu"][10][1].style.width).toEqual("50%");
@@ -102,7 +266,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Tu", start_time: "9:01", end_time: "12:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][9][0].style.width).toEqual("25%");
       expect(bins["Tu"][10][0].style.width).toEqual("25%");
@@ -117,7 +281,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Tu", start_time: "10:30", end_time: "11:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10][0].style.width).toEqual("50%");
       expect(bins["Tu"][10][1].style.width).toEqual("50%");
@@ -130,7 +294,7 @@ describe("layoutUtils", () => {
         { meeting_days: "Th", start_time: "10:00", end_time: "11:00" },
       ];
 
-      const bins = binAndStyle(courses, days, hours);
+      const { bins } = binAndStyle(courses);
 
       expect(bins["Tu"][10][0].style.width).toEqual("100%");
       expect(bins["Th"][10][0].style.width).toEqual("100%");

@@ -28,7 +28,7 @@ const parseTime2Standard = (time) => {
 };
 
 const parseMeetingDays = (meetingDays) => {
-  if (meetingDays === "") return [];
+  if (!meetingDays || meetingDays === "") return [];
   return meetingDays.split(/(?=[A-Z])/);
 };
 

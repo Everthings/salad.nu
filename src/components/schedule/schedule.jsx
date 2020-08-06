@@ -9,12 +9,6 @@ import { binAndStyle } from "./../../utils/layoutUtils";
 import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
 
-const days = ["Mo", "Tu", "We", "Th", "Fr"];
-const weekends = ["Sa", "Su"];
-
-const hours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
-const startHours = hours.slice(0, -1);
-
 const ScheduleContainer = styled.div`
   background-color: ${({ theme }) => `${theme.colors.containerBackground}`};
   border-top: ${({ theme }) =>
@@ -52,32 +46,20 @@ const ScheduleBody = () => {
     coursesCpy.push({ temp: true, ...result });
   }
 
-  let totalDays = [...days, ...weekends];
-  const dayBins = binAndStyle(coursesCpy, totalDays, hours);
-
-  for (const weekendDay of weekends) {
-    let filled = false;
-    for (const hour of hours) {
-      if (dayBins[weekendDay][hour].length > 0) {
-        filled = true;
-        break;
-      }
-    }
-
-    if (!filled) totalDays = totalDays.filter((day) => day !== weekendDay);
-  }
+  const { bins, days, hours } = binAndStyle(coursesCpy);
+  const startHours = hours.slice(0, -1);
 
   return (
     <ScheduleContainer>
       <ScheduleContents>
         <HoursColumn hours={hours} />
-        {totalDays.map((day) => {
+        {days.map((day) => {
           return (
             <DayColumn
               key={day}
               day={day}
               hours={startHours}
-              data={dayBins[day]}
+              data={bins[day]}
             />
           );
         })}
