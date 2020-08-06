@@ -1,20 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: safe center;
+  text-align: center;
   width: 100%;
   height: 100%;
 `;
 
 const InnerContainer = styled.div`
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
   max-width: 750px;
+  overflow: scroll;
 `;
 
 const Title = styled.h1`
@@ -27,9 +27,12 @@ const Text = styled.p`
 
 const Button = styled.div`
   background-color: ${({ theme }) => `${theme.colors.aboutButton}`};
+  padding-right: 0;
+  padding-left: 0;
 
   & a {
     color: ${({ theme }) => `${theme.colors.aboutButtonText}`};
+    padding: 0.375rem 0.75rem;
     text-decoration: none;
   }
 `;
@@ -67,9 +70,22 @@ const AboutPage = () => {
           . The site is still its early stages of development, so any feedback
           would be greatly appreciated. Thanks!
         </Text>
+        <Text>
+          A couple of people have asked about what the 'Export' button does.
+          Simply put, it just exports your schedule as a csv which you can then
+          import into google calendar (using this{" "}
+          <a
+            href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            link
+          </a>
+          ). At this moment, salad.nu only supports google calendar exports.
+        </Text>
         <Text>- Andy '23</Text>
-        <Button className="btn">
-          <NavLink to="/">Back</NavLink>
+        <Button className="btn mb-3">
+          <Link to="/">Back</Link>
         </Button>
       </InnerContainer>
     </Container>
