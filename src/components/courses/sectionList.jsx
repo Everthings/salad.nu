@@ -103,6 +103,7 @@ const SectionList = () => {
   };
   const roomFn = ({ room }) =>
     room && room.building_name ? room.building_name : "";
+  const modeFn = ({ mode }) => (mode ? mode : "");
   const disabledFn = ({ unique_id, start_time, end_time }) => {
     const found = scheduledCourses.some(
       (course) => course.unique_id === unique_id
@@ -134,7 +135,7 @@ const SectionList = () => {
         list={results}
         idKey={"unique_id"}
         titleFn={sectionFn}
-        textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn]}
+        textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn, modeFn]}
         disabledFn={disabledFn}
         handleClick={handleClick}
         handleMouseEnter={handleMouseEnter}

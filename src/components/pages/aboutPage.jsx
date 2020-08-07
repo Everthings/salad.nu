@@ -53,15 +53,17 @@ const AboutPage = () => {
           your course selections.
         </Text>
         <Text>
-          Right now, it's loaded with the FALL 2019 course data, but I'm
-          confident that I'll be able to migrate to FALL 2020 as soon as Caesar
-          makes that data available.
-        </Text>
-        <Text>
-          If you'd like to suggest additonal features to or give feedback on
-          your experience, please use this
+          If you'd like to give feedback on your experience, please use this
           <a
-            href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdh9C7yi1i3RHhIPctTKXApUdr1xUkcgS__ZLhwsZCbziYnQg/viewform?usp=sf_link"
+            href="https://airtable.com/shrkkzdKxTTlVSRqc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" form"}
+          </a>
+          . If you'd like to report any bugs, please use this{" "}
+          <a
+            href="https://airtable.com/shrNZZEGLM9sPx1s0"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -83,7 +85,19 @@ const AboutPage = () => {
           </a>
           ). At this moment, salad.nu only supports google calendar exports.
         </Text>
-        <Text>- Andy '23</Text>
+        <Text>
+          If you're wondering what the different modes of instruction mean,
+          please refer to this{" "}
+          <a
+            href="https://www.registrar.northwestern.edu/faculty-staff/fall-2020-scheduling.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            site
+          </a>{" "}
+          .
+        </Text>
+        <Text>Andy '23</Text>
         <Button className="btn mb-3">
           <Link to="/">Back</Link>
         </Button>

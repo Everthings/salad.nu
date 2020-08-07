@@ -68,6 +68,7 @@ const ModalContent = ({
   name,
   instructor,
   room,
+  mode,
   course_descriptions,
   removable,
 }) => {
@@ -97,6 +98,12 @@ const ModalContent = ({
           <Info>
             <NameText>Location</NameText>
             <DescriptionText>{room.building_name}</DescriptionText>
+          </Info>
+        )}
+        {mode && (
+          <Info>
+            <NameText>Mode</NameText>
+            <DescriptionText>{mode}</DescriptionText>
           </Info>
         )}
         {course_descriptions &&
