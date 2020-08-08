@@ -89,13 +89,13 @@ const ScheduleCard = ({
   return (
     <Card
       style={{ ...style, borderColor: color }}
-      onMouseEnter={() => handleMouseEnter(data)}
-      onMouseLeave={() => handleMouseLeave(data)}
-      onClick={() => handleClick(data)}
+      onMouseEnter={(e) => handleMouseEnter(e, data)}
+      onMouseLeave={(e) => handleMouseLeave(e, data)}
+      onClick={(e) => handleClick(e, data)}
       className={classes}
     >
       <CardBody>
-        {showX && <XButton onClick={() => handleXClick(data)}>x</XButton>}
+        {showX && <XButton onClick={(e) => handleXClick(e, data)}>x</XButton>}
         <TextWrapper>
           <Title textBreakStrategy={"simple"}>
             {nameParts.map((txt) => {

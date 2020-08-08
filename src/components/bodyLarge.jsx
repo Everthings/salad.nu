@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Courses from "./courses/courses";
+import Results from "./results/results";
 import Schedule from "./schedule/schedule";
 import CampusMap from "./map/campusMap";
 
@@ -26,7 +26,7 @@ const BodyLarge = () => {
       <div className="row ml-3 mr-3 h-100">
         <div className="col-3 h-100">
           <SaladContainer>
-            <Courses />
+            <Results />
             <CampusMap />
           </SaladContainer>
         </div>

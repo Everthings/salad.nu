@@ -65,11 +65,11 @@ const ScheduleBody = () => {
     });
   };
 
-  const handleClick = (data) => {
+  const handleClick = (e, data) => {
     dispatch(updateRemovableSelectedSection(data));
   };
 
-  const handleMouseEnter = ({ room, unique_id }) => {
+  const handleMouseEnter = (e, { room, unique_id }) => {
     dispatch(updateHoveredCourse(unique_id));
 
     let hasLocation = room && room.building_id;

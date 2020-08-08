@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getSelectedCourse } from "./../../store/slices/interactions";
-import CourseModal from "./../modal/modal";
+import { getSelectedCourse } from "../../store/slices/interactions";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
 
-const CoursesContainer = styled.div`
+const ResultsContainer = styled.div`
   background-color: ${({ theme }) => `${theme.colors.containerBackground}`};
   border-top: ${({ theme }) =>
     `0.25rem solid ${theme.colors.containerBackground}`};
@@ -28,10 +27,9 @@ const Courses = () => {
   const courseSelected = id !== -1;
 
   return (
-    <CoursesContainer>
+    <ResultsContainer>
       {courseSelected ? <SectionList /> : <CourseList />}
-      <CourseModal />
-    </CoursesContainer>
+    </ResultsContainer>
   );
 };
 

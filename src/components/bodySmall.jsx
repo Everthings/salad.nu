@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Courses from "./courses/courses";
+import Results from "./results/results";
 import Schedule from "./schedule/schedule";
 import CampusMap from "./map/campusMap";
 import { TabContainer, Tab, Nav } from "react-bootstrap";
@@ -58,7 +58,7 @@ const BodySmall = () => {
           <Tab.Content className="h-100" style={{ overflow: "auto" }}>
             <Tab.Pane className="h-100" eventKey="courses">
               <SaladContainer>
-                <Courses />
+                <Results />
                 <CampusMap />
               </SaladContainer>
             </Tab.Pane>

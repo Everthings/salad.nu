@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { getCourses } from "./../../store/slices/courses";
+import { getCourses } from "../../store/slices/courses";
 import {
   getSearch,
   updateSelectedCourse,
-} from "./../../store/slices/interactions";
-import { loadSections } from "./../../store/slices/sections";
-import { loadDiscussions } from "./../../store/slices/discussions";
-import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
-import { MIN_SEARCH_LENGTH } from "./../../configs";
+} from "../../store/slices/interactions";
+import { loadSections } from "../../store/slices/sections";
+import { loadDiscussions } from "../../store/slices/discussions";
+import { getParts, getMaximumPartLength } from "../../utils/searchUtils";
+import { MIN_SEARCH_LENGTH } from "../../configs";
 import CardList from "./cardList";
 
 const ScrollContainer = styled.div`

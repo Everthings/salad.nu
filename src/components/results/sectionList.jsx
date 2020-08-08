@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "./../../store/slices/sections";
-import { getDiscussions } from "./../../store/slices/discussions";
+import { getSections } from "../../store/slices/sections";
+import { getDiscussions } from "../../store/slices/discussions";
 import {
   clearSelectedCourse,
   updateSelectedSection,
@@ -13,13 +13,10 @@ import {
   updateHoveredSection,
   clearHoveredSection,
   clearSelectedSection,
-} from "./../../store/slices/interactions";
-import {
-  getScheduledSections,
-  addSection,
-} from "./../../store/slices/schedule";
-import { parseTime2Standard } from "./../../utils/parseUtils";
-import { getName } from "./../../utils/courseUtils";
+} from "../../store/slices/interactions";
+import { getScheduledSections, addSection } from "../../store/slices/schedule";
+import { parseTime2Standard } from "../../utils/parseUtils";
+import { getName } from "../../utils/courseUtils";
 import CardList from "./cardList";
 
 const Header = styled.div`
