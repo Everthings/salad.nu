@@ -43,7 +43,7 @@ const CampusMap = () => {
       />
       {validLatLon && <Circle center={position} color="purple" radius={30} />}
       {noLoc && (
-        <Circle center={position} color="purple" radius={0}>
+        <Circle center={position} color="purple" radius={1}>
           <Tooltip direction="center" opacity={1} permanent>
             No Location
           </Tooltip>

@@ -38,7 +38,7 @@ const slice = createSlice({
     },
     updatedCurrentBuilding: (interactions, action) => {
       const { lat, lon } = action.payload.data;
-      if (!lat || !lon) interactions.currentBuilding = defaultBuilding;
+      if (!lat || !lon) interactions.currentBuilding = noBuilding;
       else interactions.currentBuilding = { lat, lon };
     },
     updatedNoCurrentBuilding: (interactions, action) => {
