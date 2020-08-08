@@ -83,7 +83,9 @@ const AboutPage = () => {
           >
             instructions
           </a>
-          ). At this moment, salad.nu only supports google calendar exports.
+          ). I recommend performing this step in Chrome, as a few browsers have
+          known bugs with google calendar imports. At this moment, salad.nu only
+          supports google calendar.
         </Text>
         <Text>
           If you're wondering what the different modes of instruction mean,
