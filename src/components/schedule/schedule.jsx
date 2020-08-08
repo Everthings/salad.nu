@@ -1,11 +1,25 @@
 import React from "react";
 import styled from "styled-components";
-import { useSelector } from "react-redux";
-import { getScheduledSections } from "./../../store/slices/schedule";
-import { getHoveredSection } from "./../../store/slices/interactions";
+import { useDispatch, useSelector } from "react-redux";
+import { useToasts } from "react-toast-notifications";
+import {
+  getScheduledSections,
+  removeSection,
+} from "./../../store/slices/schedule";
+import {
+  getHoveredCourse,
+  getHoveredSection,
+  updateCurrentBuilding,
+  updateNoCurrentBuilding,
+  clearCurrentBuilding,
+  updateRemovableSelectedSection,
+  updateHoveredCourse,
+  clearHoveredCourse,
+} from "../../store/slices/interactions";
 import { getSections } from "./../../store/slices/sections";
 import { getDiscussions } from "./../../store/slices/discussions";
 import { binAndStyle } from "./../../utils/layoutUtils";
+import { getName } from "../../utils/courseUtils";
 import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
 
@@ -32,20 +46,57 @@ const ScheduleContents = styled.div`
 `;
 
 const ScheduleBody = () => {
+  const dispatch = useDispatch();
+  const { addToast } = useToasts();
+
+  // event handlers for schedule card
+  const handleXClick = (e, data) => {
+    e.stopPropagation();
+
+    let name = getName(data);
+
+    dispatch(removeSection(data.unique_id));
+    dispatch(clearHoveredCourse());
+    dispatch(clearCurrentBuilding());
+
+    addToast(`Removed ${name}`, {
+      appearance: "error",
+      autoDismiss: true,
+    });
+  };
+
+  const handleClick = (data) => {
+    dispatch(updateRemovableSelectedSection(data));
+  };
+
+  const handleMouseEnter = ({ room, unique_id }) => {
+    dispatch(updateHoveredCourse(unique_id));
+
+    let hasLocation = room && room.building_id;
+    if (!hasLocation) dispatch(updateNoCurrentBuilding());
+    else dispatch(updateCurrentBuilding(room.building_id));
+  };
+
+  const handleMouseLeave = () => {
+    dispatch(clearHoveredCourse());
+    dispatch(clearCurrentBuilding());
+  };
+
+  const { id: hoveredId } = useSelector(getHoveredCourse);
   const courses = useSelector(getScheduledSections);
 
+  // find and add hovered section to schedule
   const { id } = useSelector(getHoveredSection);
   const sections = useSelector(getSections);
   const discussions = useSelector(getDiscussions);
   const results = [...sections, ...discussions];
-
   const result = results.find((result) => result.unique_id === id);
-
   const coursesCpy = [...courses];
   if (result && result["start_time"] && result["end_time"]) {
     coursesCpy.push({ temp: true, ...result });
   }
 
+  // prepare courses for render
   const { bins, days, hours } = binAndStyle(coursesCpy);
   const startHours = hours.slice(0, -1);
 
@@ -60,6 +111,11 @@ const ScheduleBody = () => {
               day={day}
               hours={startHours}
               data={bins[day]}
+              hoveredId={hoveredId}
+              handleXClick={handleXClick}
+              handleClick={handleClick}
+              handleMouseEnter={handleMouseEnter}
+              handleMouseLeave={handleMouseLeave}
             />
           );
         })}

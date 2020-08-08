@@ -1,17 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useDispatch, useSelector } from "react-redux";
-import { useToasts } from "react-toast-notifications";
-import { removeSection } from "./../../store/slices/schedule";
-import {
-  getHoveredCourse,
-  updateCurrentBuilding,
-  updateNoCurrentBuilding,
-  clearCurrentBuilding,
-  updateRemovableSelectedSection,
-  updateHoveredCourse,
-  clearHoveredCourse,
-} from "../../store/slices/interactions";
 import { getName } from "../../utils/courseUtils";
 
 const Card = styled.div`
@@ -75,43 +63,16 @@ const Text = styled.p`
   font-size: 0.7rem;
 `;
 
-const ScheduleCard = ({ data, style, color }) => {
-  const dispatch = useDispatch();
-  const { addToast } = useToasts();
-
-  const { id } = useSelector(getHoveredCourse);
-  const showDelete = data.unique_id === id;
-
-  const handleXClick = (e) => {
-    e.stopPropagation();
-
-    dispatch(removeSection(data.unique_id));
-    dispatch(clearHoveredCourse());
-    dispatch(clearCurrentBuilding());
-
-    addToast(`Removed ${name}`, {
-      appearance: "error",
-      autoDismiss: true,
-    });
-  };
-
-  const handleClick = () => {
-    dispatch(updateRemovableSelectedSection(data));
-  };
-
-  const handleMouseEnter = (room) => {
-    dispatch(updateHoveredCourse(data.unique_id));
-
-    let hasLocation = room && room.building_id;
-    if (!hasLocation) dispatch(updateNoCurrentBuilding());
-    else dispatch(updateCurrentBuilding(room.building_id));
-  };
-
-  const handleMouseLeave = () => {
-    dispatch(clearHoveredCourse());
-    dispatch(clearCurrentBuilding());
-  };
-
+const ScheduleCard = ({
+  data,
+  style,
+  color,
+  showX,
+  handleXClick,
+  handleClick,
+  handleMouseEnter,
+  handleMouseLeave,
+}) => {
   let name = getName(data);
   if (data && data.component !== "LEC") name = `*${data.component}* ${name}`;
   const nameParts = name.split(" ");
@@ -128,13 +89,13 @@ const ScheduleCard = ({ data, style, color }) => {
   return (
     <Card
       style={{ ...style, borderColor: color }}
-      onMouseEnter={() => handleMouseEnter(data.room)}
-      onMouseLeave={handleMouseLeave}
-      onClick={handleClick}
+      onMouseEnter={() => handleMouseEnter(data)}
+      onMouseLeave={() => handleMouseLeave(data)}
+      onClick={() => handleClick(data)}
       className={classes}
     >
       <CardBody>
-        {showDelete && <XButton onClick={handleXClick}>x</XButton>}
+        {showX && <XButton onClick={() => handleXClick(data)}>x</XButton>}
         <TextWrapper>
           <Title textBreakStrategy={"simple"}>
             {nameParts.map((txt) => {
@@ -153,4 +114,4 @@ const ScheduleCard = ({ data, style, color }) => {
   );
 };
 
-export default ScheduleCard;
+export default React.memo(ScheduleCard);

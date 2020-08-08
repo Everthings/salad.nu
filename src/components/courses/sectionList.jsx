@@ -129,15 +129,13 @@ const SectionList = () => {
 
   return (
     <ScrollContainer>
-      {
-        <Header>
-          <Button className="btn btn-danger" onClick={handleBackClick}>
-            Back
-          </Button>
-          <Text>{name}</Text>
-          <Line />
-        </Header>
-      }
+      <Header>
+        <Button className="btn btn-danger" onClick={handleBackClick}>
+          Back
+        </Button>
+        <Text>{name}</Text>
+        <Line />
+      </Header>
       <CardList
         list={results}
         idKey={"unique_id"}

@@ -27,7 +27,16 @@ const Text = styled.div`
   color: ${({ theme }) => `${theme.colors.scheduleText}`};
 `;
 
-const DayColumn = ({ day, hours, data }) => {
+const DayColumn = ({
+  day,
+  hours,
+  data,
+  hoveredId,
+  handleXClick,
+  handleClick,
+  handleMouseEnter,
+  handleMouseLeave,
+}) => {
   return (
     <Column>
       <Cell>
@@ -36,8 +45,19 @@ const DayColumn = ({ day, hours, data }) => {
       {hours.map((hour) => {
         return (
           <Cell key={hour}>
-            {data[hour].map((course) => {
-              return <ScheduleCard key={course.data.unique_id} {...course} />;
+            {data[hour].map((section) => {
+              const unique_id = section.data.unique_id;
+              return (
+                <ScheduleCard
+                  key={unique_id}
+                  showX={unique_id === hoveredId}
+                  handleXClick={handleXClick}
+                  handleClick={handleClick}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                  {...section}
+                />
+              );
             })}
           </Cell>
         );
