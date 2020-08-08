@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { Map, Circle, TileLayer } from "react-leaflet";
+import { Map, Circle, TileLayer, Tooltip } from "react-leaflet";
 import { getCurrentBuilding } from "./../../store/slices/interactions";
 import { DEFAULT_MAP_ZOOM } from "./../../configs";
 
@@ -19,8 +19,10 @@ const CampusMap = () => {
   const { lat, lon } = useSelector(getCurrentBuilding);
   const [zoom, setZoom] = useState(DEFAULT_MAP_ZOOM);
 
+  const defaultLoc = !lat || !lon;
   const validLatLon =
     lat && lon && lat <= 90 && lat >= -90 && lon >= -180 && lon <= 180;
+  const noLoc = !validLatLon && !defaultLoc;
   const nuLatLon = [42.055909, -87.672709];
 
   const position = validLatLon ? [lat, lon] : nuLatLon;
@@ -29,8 +31,8 @@ const CampusMap = () => {
 
   return (
     <Map
-      center={position}
       zoom={zoom}
+      viewport={{ center: position }}
       onViewportChanged={handleZoomChange}
       attributionControl={false}
       style={style}
@@ -40,6 +42,13 @@ const CampusMap = () => {
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
       />
       {validLatLon && <Circle center={position} color="purple" radius={30} />}
+      {noLoc && (
+        <Circle center={position} color="purple" radius={0}>
+          <Tooltip direction="center" opacity={1} permanent>
+            No Location
+          </Tooltip>
+        </Circle>
+      )}
     </Map>
   );
 };

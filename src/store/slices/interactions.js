@@ -4,7 +4,8 @@ import * as apiActions from "./../api";
 
 const defaultSelectedCourse = { id: -1 };
 const defaultSelectedSection = { info: null };
-const defaultBuilding = { lat: -360, lon: -360 };
+const defaultBuilding = { lat: null, lon: null };
+const noBuilding = { lat: -360, lon: -360 };
 const defaultHoveredCourse = { id: -1 };
 const defaultHoveredSection = { id: -1 };
 
@@ -40,6 +41,9 @@ const slice = createSlice({
       if (!lat || !lon) interactions.currentBuilding = defaultBuilding;
       else interactions.currentBuilding = { lat, lon };
     },
+    updatedNoCurrentBuilding: (interactions, action) => {
+      interactions.currentBuilding = noBuilding;
+    },
     clearedCurrentBuilding: (interactions, action) => {
       interactions.currentBuilding = defaultBuilding;
     },
@@ -65,6 +69,7 @@ const {
   updatedSelectedSection,
   clearedSelectedSection,
   updatedCurrentBuilding,
+  updatedNoCurrentBuilding,
   clearedCurrentBuilding,
   updatedHoveredCourse,
   clearedHoveredCourse,
@@ -107,6 +112,10 @@ export const updateCurrentBuilding = (buildingId) => (dispatch, getState) => {
       onSuccess: updatedCurrentBuilding.type,
     })
   );
+};
+
+export const updateNoCurrentBuilding = () => {
+  return updatedNoCurrentBuilding();
 };
 
 export const clearCurrentBuilding = () => {

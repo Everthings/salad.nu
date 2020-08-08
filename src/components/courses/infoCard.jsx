@@ -32,6 +32,11 @@ const Text = styled.p`
   margin: 0;
 `;
 
+const RedText = styled.p`
+  margin: 0;
+  color: #e25959;
+`;
+
 const Button = styled.button`
   background-color: ${({ theme }) => `${theme.colors.moreInfoBackground}`};
   color: ${({ theme }) => `${theme.colors.moreInfoText}`};
@@ -75,6 +80,7 @@ const InfoCard = ({
       <div className="card-body">
         <Title>{title}</Title>
         <Line />
+        {disabled && <RedText>{disabled}</RedText>}
         {info.map((text) => {
           if (text === "") return undefined;
           return <Text key={text}>{text}</Text>;

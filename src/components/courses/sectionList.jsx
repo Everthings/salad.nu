@@ -8,6 +8,7 @@ import {
   clearSelectedCourse,
   updateSelectedSection,
   updateCurrentBuilding,
+  updateNoCurrentBuilding,
   clearCurrentBuilding,
   updateHoveredSection,
   clearHoveredSection,
@@ -66,8 +67,9 @@ const SectionList = () => {
 
   const handleMouseEnter = ({ room, unique_id }) => {
     dispatch(updateHoveredSection(unique_id));
-    if (!room || !room.building_id) return;
-    dispatch(updateCurrentBuilding(room.building_id));
+    let hasLocation = room && room.building_id;
+    if (!hasLocation) dispatch(updateNoCurrentBuilding());
+    else dispatch(updateCurrentBuilding(room.building_id));
   };
 
   const handleMouseLeave = () => {
@@ -102,15 +104,20 @@ const SectionList = () => {
     )}`;
   };
   const roomFn = ({ room }) =>
-    room && room.building_name ? room.building_name : "";
+    room && room.building_name && room.building_name !== "Online"
+      ? room.building_name
+      : "";
   const modeFn = ({ mode }) => (mode ? mode : "");
-  const disabledFn = ({ unique_id, start_time, end_time }) => {
+  const disabledFn = ({ unique_id, start_time, end_time, meeting_days }) => {
     const found = scheduledCourses.some(
       (course) => course.unique_id === unique_id
     );
+    if (found) return "already added";
 
-    const hasTimes = start_time && end_time;
-    return found || !hasTimes;
+    const hasTimes = start_time && end_time && meeting_days;
+    if (!hasTimes) return "no specified time";
+
+    return null;
   };
 
   const showMoreInfo = ({ course_descriptions }) =>

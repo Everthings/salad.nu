@@ -73,15 +73,15 @@ const AboutPage = () => {
           would be greatly appreciated. Thanks!
         </Text>
         <Text>
-          A couple of people have asked about what the 'Export' button does.
-          Simply put, it just exports your schedule as a csv which you can then
-          import into google calendar (using this{" "}
+          A couple of people have asked what the 'Export' button does. Simply
+          put, it just exports your schedule as a csv which you can then import
+          into google calendar (following these{" "}
           <a
             href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
-            link
+            instructions
           </a>
           ). At this moment, salad.nu only supports google calendar exports.
         </Text>

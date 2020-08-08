@@ -6,6 +6,7 @@ import { removeSection } from "./../../store/slices/schedule";
 import {
   getHoveredCourse,
   updateCurrentBuilding,
+  updateNoCurrentBuilding,
   clearCurrentBuilding,
   updateRemovableSelectedSection,
   updateHoveredCourse,
@@ -101,8 +102,9 @@ const ScheduleCard = ({ data, style, color }) => {
   const handleMouseEnter = (room) => {
     dispatch(updateHoveredCourse(data.unique_id));
 
-    if (!room || !room.building_id) return;
-    dispatch(updateCurrentBuilding(room.building_id));
+    let hasLocation = room && room.building_id;
+    if (!hasLocation) dispatch(updateNoCurrentBuilding());
+    else dispatch(updateCurrentBuilding(room.building_id));
   };
 
   const handleMouseLeave = () => {
