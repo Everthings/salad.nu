@@ -42,7 +42,15 @@ const AboutPage = () => {
     <Container>
       <InnerContainer>
         <Title>About</Title>
-        <Text>Welcome!</Text>
+        <Text>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Welcome!
+          </a>
+        </Text>
         <Text>
           This is personal project I've been developing over the summer to
           simplify course scheduling at NU. It started mainly as a way for me to
@@ -96,6 +104,20 @@ const AboutPage = () => {
             rel="noopener noreferrer"
           >
             site
+          </a>{" "}
+          .
+        </Text>
+        <Text>
+          Another quick note: I've received a lot of feature requests for the
+          ability to browse courses by school, subject, etc... I unfortunately
+          won't have time to add this functionality this quater, but you can
+          expect to see it sometime in future. For now, I suggest using the{" "}
+          <a
+            href="https://www.northwestern.edu/class-descriptions/4800/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            class-descriptions site
           </a>{" "}
           .
         </Text>
