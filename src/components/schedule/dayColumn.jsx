@@ -50,7 +50,7 @@ const DayColumn = ({
               return (
                 <ScheduleCard
                   key={unique_id}
-                  showX={unique_id === hoveredId}
+                  hovered={unique_id === hoveredId}
                   handleXClick={handleXClick}
                   handleClick={handleClick}
                   handleMouseEnter={handleMouseEnter}

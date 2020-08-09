@@ -31,22 +31,27 @@ const XButton = styled.button`
   z-index: 1;
 `;
 
-const TextWrapper = styled.div`
-  margin: auto;
-  width: 80%;
+const FlexContainer = styled.div`
+  width: 100%;
   height: 100%;
-  text-align: center;
-  overflow: scroll;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const TextWrapper = styled.div`
+  width: 80%;
+  margin: auto;
+  text-align: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  overflow: scroll;
 `;
 
 const Title = styled.p`
-  margin-top: auto;
-  margin-bottom: 0;
   font-size: 0.85rem;
+  margin: 0;
 
   :only-child {
     margin: auto;
@@ -58,16 +63,15 @@ const NoBr = styled.span`
 `;
 
 const Text = styled.p`
-  margin-top: 0;
-  margin-bottom: auto;
   font-size: 0.7rem;
+  margin: 0;
 `;
 
 const ScheduleCard = ({
   data,
   style,
   color,
-  showX,
+  hovered,
   handleXClick,
   handleClick,
   handleMouseEnter,
@@ -86,6 +90,8 @@ const ScheduleCard = ({
     instructor_name = lastName;
   }
 
+  const title = data.title;
+
   return (
     <Card
       style={{ ...style, borderColor: color }}
@@ -95,20 +101,31 @@ const ScheduleCard = ({
       className={classes}
     >
       <CardBody>
-        {showX && <XButton onClick={(e) => handleXClick(e, data)}>x</XButton>}
-        <TextWrapper>
-          <Title textBreakStrategy={"simple"}>
-            {nameParts.map((txt) => {
-              return (
-                <React.Fragment key={txt}>
-                  <NoBr>{txt}</NoBr>
-                  <span> </span>
-                </React.Fragment>
-              );
-            })}
-          </Title>
-          {instructor_name && <Text>{instructor_name}</Text>}
-        </TextWrapper>
+        {hovered && <XButton onClick={(e) => handleXClick(e, data)}>x</XButton>}
+        <FlexContainer>
+          <TextWrapper>
+            <Title textBreakStrategy={"simple"}>
+              {nameParts.map((txt) => {
+                return (
+                  <React.Fragment key={txt}>
+                    <NoBr>{txt}</NoBr>
+                    <span> </span>
+                  </React.Fragment>
+                );
+              })}
+            </Title>
+            {title && (
+              <Text>
+                <i>{title}</i>
+              </Text>
+            )}
+            {instructor_name && (
+              <Text>
+                <u>{instructor_name}</u>
+              </Text>
+            )}
+          </TextWrapper>
+        </FlexContainer>
       </CardBody>
     </Card>
   );

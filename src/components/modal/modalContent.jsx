@@ -67,6 +67,7 @@ const ModalContent = ({
   handleExit,
   handleRemove,
   name,
+  title,
   instructor,
   room,
   mode,
@@ -91,6 +92,12 @@ const ModalContent = ({
         </ButtonsContainer>
       </Heading>
       <Body>
+        {title && (
+          <Info>
+            <NameText>Title</NameText>
+            <DescriptionText>{title}</DescriptionText>
+          </Info>
+        )}
         {instructor && instructor.name && (
           <Info>
             <NameText>Teacher</NameText>
