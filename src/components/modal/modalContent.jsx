@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { parseTime2Standard } from "../../utils/parseUtils";
 
 const Content = styled.div`
   background-color: ${({ theme }) => `${theme.colors.modalBackground}`};
@@ -69,6 +70,8 @@ const ModalContent = ({
   instructor,
   room,
   mode,
+  start_time,
+  end_time,
   course_descriptions,
   removable,
 }) => {
@@ -92,6 +95,16 @@ const ModalContent = ({
           <Info>
             <NameText>Teacher</NameText>
             <DescriptionText>{instructor.name}</DescriptionText>
+          </Info>
+        )}
+        {start_time && end_time && (
+          <Info>
+            <NameText>Time Slot</NameText>
+            <DescriptionText>
+              {`${parseTime2Standard(start_time)} - ${parseTime2Standard(
+                end_time
+              )}`}
+            </DescriptionText>
           </Info>
         )}
         {room && room.building_name && (
