@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getSelectedCourse } from "../../store/slices/interactions";
+import { getSelectedCourse } from "./../../store/slices/interactions";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
 
@@ -22,7 +22,7 @@ const ResultsContainer = styled.div`
   height: calc(100% - 25vh);
 `;
 
-const Courses = () => {
+const Results = () => {
   const { id } = useSelector(getSelectedCourse);
   const courseSelected = id !== -1;
 
@@ -33,4 +33,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default Results;
