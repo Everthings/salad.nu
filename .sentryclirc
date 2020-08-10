@@ -1,2 +1,3 @@
-[auth]
-token=840616562c9743bea0616bec38234738244d7f5326804592a5110090f18a487e
+[defaults]
+project=salad-nu
+org=salad.nu
