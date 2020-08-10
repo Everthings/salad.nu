@@ -10,6 +10,7 @@ import { loadSections } from "../../store/slices/sections";
 import { loadDiscussions } from "../../store/slices/discussions";
 import { getParts, getMaximumPartLength } from "../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "../../configs";
+import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
 
 const ScrollContainer = styled.div`
@@ -48,26 +49,30 @@ const CourseList = () => {
   const nameFn = ({ title }) => title;
 
   return (
-    <ScrollContainer>
-      {shouldContinueTyping && <Text>Continue typing...</Text>}
-      {noResults && (
-        <Text>
-          No Results{" "}
-          <span role="img" aria-label="frown">
-            🙁
-          </span>
-        </Text>
+    <ScrollManager scrollKey="courseList">
+      {({ connectScrollTarget }) => (
+        <ScrollContainer ref={connectScrollTarget}>
+          {shouldContinueTyping && <Text>Continue typing...</Text>}
+          {noResults && (
+            <Text>
+              No Results{" "}
+              <span role="img" aria-label="frown">
+                🙁
+              </span>
+            </Text>
+          )}
+          {shouldDisplaySections && (
+            <CardList
+              list={courses}
+              idKey={"unique_id"}
+              titleFn={titleFn}
+              textFns={[nameFn]}
+              handleClick={handleClick}
+            />
+          )}
+        </ScrollContainer>
       )}
-      {shouldDisplaySections && (
-        <CardList
-          list={courses}
-          idKey={"unique_id"}
-          titleFn={titleFn}
-          textFns={[nameFn]}
-          handleClick={handleClick}
-        />
-      )}
-    </ScrollContainer>
+    </ScrollManager>
   );
 };
 
