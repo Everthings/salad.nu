@@ -7543,7 +7543,7 @@ const discussions = {
   ],
   "18652": [
     {
-      unique_id: -272,
+      unique_id: -266,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7558,7 +7558,7 @@ const discussions = {
       room: { building_name: "Online" },
     },
     {
-      unique_id: -273,
+      unique_id: -267,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7573,7 +7573,7 @@ const discussions = {
       room: { building_name: "Online" },
     },
     {
-      unique_id: -274,
+      unique_id: -268,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7588,7 +7588,7 @@ const discussions = {
       room: { building_name: "Online" },
     },
     {
-      unique_id: -266,
+      unique_id: -275,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7603,7 +7603,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -267,
+      unique_id: -276,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7618,7 +7618,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -268,
+      unique_id: -277,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7633,7 +7633,7 @@ const discussions = {
       room: { building_name: "TBA", building_id: 118 },
     },
     {
-      unique_id: -275,
+      unique_id: -272,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7648,7 +7648,7 @@ const discussions = {
       room: { building_name: "Online" },
     },
     {
-      unique_id: -276,
+      unique_id: -273,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
@@ -7663,7 +7663,7 @@ const discussions = {
       room: { building_name: "Online" },
     },
     {
-      unique_id: -277,
+      unique_id: -274,
       component: "DIS",
       mode: "Synchronous",
       title: "New Lectures in History",
