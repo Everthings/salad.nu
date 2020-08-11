@@ -34,7 +34,7 @@ const DayColumn = ({
   hoveredId,
   handleXClick,
   handleClick,
-  handleMouseEnter,
+  handleMouseOver,
   handleMouseLeave,
 }) => {
   return (
@@ -53,7 +53,7 @@ const DayColumn = ({
                   hovered={unique_id === hoveredId}
                   handleXClick={handleXClick}
                   handleClick={handleClick}
-                  handleMouseEnter={handleMouseEnter}
+                  handleMouseOver={handleMouseOver}
                   handleMouseLeave={handleMouseLeave}
                   {...section}
                 />

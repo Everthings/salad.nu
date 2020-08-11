@@ -14,7 +14,7 @@ const CardList = ({
   textFns,
   disabledFn,
   handleClick,
-  handleMouseEnter,
+  handleMouseOver,
   handleMouseLeave,
   showMoreInfoFn,
   moreInfoClick,
@@ -35,9 +35,7 @@ const CardList = ({
             key={id}
             title={title}
             handleClick={handleClick && (() => handleClick(data))}
-            handleMouseEnter={
-              handleMouseEnter && (() => handleMouseEnter(data))
-            }
+            handleMouseOver={handleMouseOver && (() => handleMouseOver(data))}
             handleMouseLeave={
               handleMouseLeave && (() => handleMouseLeave(data))
             }

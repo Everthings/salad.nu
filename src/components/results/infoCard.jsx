@@ -59,7 +59,7 @@ const Button = styled.button`
 const InfoCard = ({
   title,
   handleClick,
-  handleMouseEnter,
+  handleMouseOver,
   handleMouseLeave,
   info,
   moreInfoClick,
@@ -72,7 +72,7 @@ const InfoCard = ({
 
   return (
     <Card
-      onMouseEnter={handleMouseEnter}
+      onMouseEnter={handleMouseOver}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
       className={disabled ? "disabled" : ""}

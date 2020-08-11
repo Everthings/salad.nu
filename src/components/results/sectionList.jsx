@@ -62,7 +62,7 @@ const SectionList = () => {
     dispatch(clearSelectedCourse());
   };
 
-  const handleMouseEnter = ({ room, unique_id }) => {
+  const handleMouseOver = ({ room, unique_id }) => {
     dispatch(updateHoveredSection(unique_id));
     let hasLocation = room && room.building_id;
     if (!hasLocation) dispatch(updateNoCurrentBuilding());
@@ -140,7 +140,7 @@ const SectionList = () => {
         textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn, modeFn]}
         disabledFn={disabledFn}
         handleClick={handleClick}
-        handleMouseEnter={handleMouseEnter}
+        handleMouseOver={handleMouseOver}
         handleMouseLeave={handleMouseLeave}
         showMoreInfoFn={showMoreInfo}
         moreInfoClick={moreInfoClick}

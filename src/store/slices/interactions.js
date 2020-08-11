@@ -6,7 +6,7 @@ const defaultSelectedCourse = { id: -1 };
 const defaultSelectedSection = { info: null };
 const defaultBuilding = { lat: null, lon: null };
 const noBuilding = { lat: -360, lon: -360 };
-const defaultHoveredCourse = { id: -1 };
+const defaultHoveredScheduledSection = { id: -1 };
 const defaultHoveredSection = { id: -1 };
 
 // Reducers
@@ -17,7 +17,7 @@ const slice = createSlice({
     selectedCourse: defaultSelectedCourse,
     selectedSection: defaultSelectedSection,
     currentBuilding: defaultBuilding,
-    hoveredScheduledCourse: defaultHoveredCourse,
+    hoveredScheduledSection: defaultHoveredScheduledSection,
     hoveredSection: defaultHoveredSection,
   },
   reducers: {
@@ -47,11 +47,11 @@ const slice = createSlice({
     clearedCurrentBuilding: (interactions, action) => {
       interactions.currentBuilding = defaultBuilding;
     },
-    updatedHoveredCourse: (interactions, action) => {
-      interactions.hoveredScheduledCourse.id = action.payload.id;
+    updatedHoveredScheduledSection: (interactions, action) => {
+      interactions.hoveredScheduledSection.id = action.payload.id;
     },
-    clearedHoveredCourse: (interactions, action) => {
-      interactions.hoveredScheduledCourse = defaultHoveredCourse;
+    clearedHoveredScheduledSection: (interactions, action) => {
+      interactions.hoveredScheduledSection = defaultHoveredScheduledSection;
     },
     updatedHoveredSection: (interactions, action) => {
       interactions.hoveredSection.id = action.payload.id;
@@ -71,8 +71,8 @@ const {
   updatedCurrentBuilding,
   updatedNoCurrentBuilding,
   clearedCurrentBuilding,
-  updatedHoveredCourse,
-  clearedHoveredCourse,
+  updatedHoveredScheduledSection,
+  clearedHoveredScheduledSection,
   updatedHoveredSection,
   clearedHoveredSection,
 } = slice.actions;
@@ -122,12 +122,12 @@ export const clearCurrentBuilding = () => {
   return clearedCurrentBuilding();
 };
 
-export const updateHoveredCourse = (id) => {
-  return updatedHoveredCourse({ id });
+export const updateHoveredScheduledSection = (id) => {
+  return updatedHoveredScheduledSection({ id });
 };
 
-export const clearHoveredCourse = () => {
-  return clearedHoveredCourse();
+export const clearHoveredScheduledSection = () => {
+  return clearedHoveredScheduledSection();
 };
 
 export const updateHoveredSection = (id) => {
@@ -159,9 +159,9 @@ export const getCurrentBuilding = createSelector(
   (interactions) => interactions.currentBuilding
 );
 
-export const getHoveredCourse = createSelector(
+export const getHoveredScheduledSection = createSelector(
   (state) => state.entities.interactions,
-  (interactions) => interactions.hoveredScheduledCourse
+  (interactions) => interactions.hoveredScheduledSection
 );
 
 export const getHoveredSection = createSelector(
