@@ -140,31 +140,31 @@ export const clearHoveredSection = () => {
 
 // Selectors
 export const getSearch = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.searchStr
 );
 
 export const getSelectedCourse = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.selectedCourse
 );
 
 export const getSelectedSection = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.selectedSection
 );
 
 export const getCurrentBuilding = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.currentBuilding
 );
 
 export const getHoveredScheduledSection = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.hoveredScheduledSection
 );
 
 export const getHoveredSection = createSelector(
-  (state) => state.entities.interactions,
+  (state) => state.interactions,
   (interactions) => interactions.hoveredSection
 );

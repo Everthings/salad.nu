@@ -27,6 +27,6 @@ export const toggleTheme = (theme) => {
 
 // Selectors
 export const getTheme = createSelector(
-  (state) => state.entities.theme,
+  (state) => state.theme,
   (theme) => theme.currentTheme
 );

@@ -47,13 +47,13 @@ export const loadDiscussions = (courseId) => (dispatch, getState) => {
 
 // Selectors
 export const getDiscussions = createSelector(
-  (state) => state.entities.discussions.list,
+  (state) => state.discussions.list,
   (discussions) => discussions
 );
 
 export const getDiscussion = (id) =>
   createSelector(
-    (state) => state.entities.discussions.list,
+    (state) => state.discussions.list,
     (discussions) =>
       discussions.find((discussion) => discussion.unique_id === id)
   );

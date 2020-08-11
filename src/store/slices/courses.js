@@ -82,6 +82,6 @@ export const loadCoursesFromStore = (searchStr) => {
 // Selectors
 export const getCourses = () =>
   createSelector(
-    (state) => state.entities.courses.list,
+    (state) => state.courses.list,
     (courses) => courses
   );

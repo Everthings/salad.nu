@@ -9,10 +9,8 @@ const loadState = () => {
     const loadedTheme = JSON.parse(serializedTheme);
 
     return {
-      entities: {
-        schedule: loadedSchedule,
-        theme: loadedTheme,
-      },
+      schedule: loadedSchedule,
+      theme: loadedTheme,
     };
   } catch (err) {
     return undefined;
@@ -21,8 +19,8 @@ const loadState = () => {
 
 const saveState = (state) => {
   try {
-    const serializedSchedule = JSON.stringify(state.entities.schedule); // only save schedule
-    const serializedTheme = JSON.stringify(state.entities.theme); // and theme as well
+    const serializedSchedule = JSON.stringify(state.schedule); // only save schedule
+    const serializedTheme = JSON.stringify(state.theme); // and theme as well
     localStorage.setItem("schedule", serializedSchedule);
     localStorage.setItem("theme", serializedTheme);
   } catch (err) {
