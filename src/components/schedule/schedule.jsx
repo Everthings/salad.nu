@@ -7,14 +7,14 @@ import {
   removeSection,
 } from "./../../store/slices/schedule";
 import {
-  getHoveredCourse,
+  getHoveredScheduledSection,
   getHoveredSection,
   updateCurrentBuilding,
   updateNoCurrentBuilding,
   clearCurrentBuilding,
   updateRemovableSelectedSection,
-  updateHoveredCourse,
-  clearHoveredCourse,
+  updateHoveredScheduledSection,
+  clearHoveredScheduledSection,
 } from "../../store/slices/interactions";
 import { getSections } from "./../../store/slices/sections";
 import { getDiscussions } from "./../../store/slices/discussions";
@@ -56,7 +56,7 @@ const ScheduleBody = () => {
     let name = getName(data);
 
     dispatch(removeSection(data.unique_id));
-    dispatch(clearHoveredCourse());
+    dispatch(clearHoveredScheduledSection());
     dispatch(clearCurrentBuilding());
 
     addToast(`Removed ${name}`, {
@@ -69,8 +69,8 @@ const ScheduleBody = () => {
     dispatch(updateRemovableSelectedSection(data));
   };
 
-  const handleMouseEnter = (e, { room, unique_id }) => {
-    dispatch(updateHoveredCourse(unique_id));
+  const handleMouseOver = (e, { room, unique_id }) => {
+    dispatch(updateHoveredScheduledSection(unique_id));
 
     let hasLocation = room && room.building_id;
     if (!hasLocation) dispatch(updateNoCurrentBuilding());
@@ -78,11 +78,11 @@ const ScheduleBody = () => {
   };
 
   const handleMouseLeave = () => {
-    dispatch(clearHoveredCourse());
+    dispatch(clearHoveredScheduledSection());
     dispatch(clearCurrentBuilding());
   };
 
-  const { id: hoveredId } = useSelector(getHoveredCourse);
+  const { id: hoveredId } = useSelector(getHoveredScheduledSection);
   const courses = useSelector(getScheduledSections);
 
   // find and add hovered section to schedule
@@ -114,7 +114,7 @@ const ScheduleBody = () => {
               hoveredId={hoveredId}
               handleXClick={handleXClick}
               handleClick={handleClick}
-              handleMouseEnter={handleMouseEnter}
+              handleMouseOver={handleMouseOver}
               handleMouseLeave={handleMouseLeave}
             />
           );

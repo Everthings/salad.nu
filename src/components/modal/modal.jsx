@@ -4,7 +4,7 @@ import { useToasts } from "react-toast-notifications";
 import {
   getSelectedSection,
   clearSelectedSection,
-  clearHoveredCourse,
+  clearHoveredScheduledSection,
   clearCurrentBuilding,
 } from "./../../store/slices/interactions";
 import { getName } from "./../../utils/courseUtils";
@@ -47,7 +47,7 @@ const CourseModal = () => {
 
   const handleRemove = () => {
     dispatch(removeSection(section.unique_id));
-    dispatch(clearHoveredCourse());
+    dispatch(clearHoveredScheduledSection());
     dispatch(clearCurrentBuilding());
     handleExit();
 

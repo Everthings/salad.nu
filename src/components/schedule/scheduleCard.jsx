@@ -74,7 +74,7 @@ const ScheduleCard = ({
   hovered,
   handleXClick,
   handleClick,
-  handleMouseEnter,
+  handleMouseOver,
   handleMouseLeave,
 }) => {
   let name = getName(data);
@@ -95,7 +95,7 @@ const ScheduleCard = ({
   return (
     <Card
       style={{ ...style, borderColor: color }}
-      onMouseEnter={(e) => handleMouseEnter(e, data)}
+      onMouseOver={(e) => handleMouseOver(e, data)}
       onMouseLeave={(e) => handleMouseLeave(e, data)}
       onClick={(e) => handleClick(e, data)}
       className={classes}
