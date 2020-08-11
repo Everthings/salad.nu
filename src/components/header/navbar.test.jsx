@@ -9,12 +9,10 @@ import NavBar from "./navbar";
 import salad_logo from "./../../images/cover_no_background.png";
 
 const initialState = {
-  entities: {
-    interactions: { searchStr: "" },
-    term: { name: "2019 Fall" },
-    schedule: { list: [] },
-    theme: { currentTheme: "green" },
-  },
+  interactions: { searchStr: "" },
+  term: { name: "2019 Fall" },
+  schedule: { list: [] },
+  theme: { currentTheme: "green" },
 };
 const mockStore = configureStore([]);
 

@@ -32,6 +32,6 @@ export const removeSection = (id) => {
 };
 
 export const getScheduledSections = createSelector(
-  (state) => state.entities.schedule.list,
+  (state) => state.schedule.list,
   (schedule) => schedule
 );

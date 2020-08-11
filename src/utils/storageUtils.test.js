@@ -7,7 +7,7 @@ describe("storageUtils", () => {
 
   describe("saveState", () => {
     it("should save empty json to localStorage", () => {
-      const saveItem = { entities: { schedule: [], theme: "green" } };
+      const saveItem = { schedule: [], theme: "green" };
 
       saveState(saveItem);
 
@@ -16,10 +16,8 @@ describe("storageUtils", () => {
 
     it("should save filled json to localStorage", () => {
       const saveItem = {
-        entities: {
-          schedule: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
-          theme: "green",
-        },
+        schedule: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
+        theme: "green",
       };
 
       saveState(saveItem);
@@ -30,7 +28,7 @@ describe("storageUtils", () => {
     });
 
     it("should save green theme to localStorage", () => {
-      const saveItem = { entities: { schedule: [], theme: "green" } };
+      const saveItem = { schedule: [], theme: "green" };
 
       saveState(saveItem);
 
@@ -38,7 +36,7 @@ describe("storageUtils", () => {
     });
 
     it("should save dark theme to localStorage", () => {
-      const saveItem = { entities: { schedule: [], theme: "dark" } };
+      const saveItem = { schedule: [], theme: "dark" };
 
       saveState(saveItem);
 
@@ -55,10 +53,8 @@ describe("storageUtils", () => {
 
     it("should load empty json from localStorage", () => {
       const saveItem = {
-        entities: {
-          schedule: [],
-          theme: "green",
-        },
+        schedule: [],
+        theme: "green",
       };
 
       saveState(saveItem);
@@ -69,10 +65,8 @@ describe("storageUtils", () => {
 
     it("should load filled json from localStorage", () => {
       const saveItem = {
-        entities: {
-          schedule: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
-          theme: "green",
-        },
+        schedule: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
+        theme: "green",
       };
 
       saveState(saveItem);

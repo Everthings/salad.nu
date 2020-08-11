@@ -43,6 +43,6 @@ export const loadTerm = (termId) => (dispatch, getState) => {
 
 // Selectors
 export const getTerm = createSelector(
-  (state) => state.entities.term,
+  (state) => state.term,
   (term) => term.currentTerm
 );
