@@ -80,8 +80,6 @@ const ScheduleCard = ({
   let name = getName(data);
   if (data && data.component !== "LEC") name = `*${data.component}* ${name}`;
   const nameParts = name.split(" ");
-  const temp = data.temp;
-  const classes = temp ? "opaque" : "";
 
   let instructor_name = "";
   if (data.instructor && data.instructor.name) {
@@ -91,6 +89,8 @@ const ScheduleCard = ({
   }
 
   const title = data.title;
+
+  const classes = data.temp ? "opaque" : "";
 
   return (
     <Card

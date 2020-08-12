@@ -1,5 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  updateSearch,
+  getSearch,
+  clearSelectedCourse,
+} from "./../../store/slices/interactions";
+import {
+  loadCourses,
+  loadCoursesFromStore,
+} from "./../../store/slices/courses";
+import { getTerm } from "./../../store/slices/term";
+import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
+import { MIN_SEARCH_LENGTH } from "./../../configs";
 
 const Input = styled.input`
   height: 3rem;
@@ -8,8 +21,28 @@ const Input = styled.input`
   border: ${({ theme }) => `3px solid ${theme.colors.searchBarBorder}`};
 `;
 
-const SearchBar = ({ term, search, handleChange }) => {
+const SearchBar = () => {
+  const dispatch = useDispatch();
+
+  const search = useSelector(getSearch);
+  const term = useSelector(getTerm);
+
   const termName = term ? `(${term.name})` : "";
+
+  const handleChange = (e) => {
+    const { value } = e.currentTarget;
+    const length = getMaximumPartLength(getParts(value));
+
+    dispatch(updateSearch(value));
+    dispatch(clearSelectedCourse());
+    if (length >= MIN_SEARCH_LENGTH) {
+      const loadAction =
+        value.includes(search) && length !== MIN_SEARCH_LENGTH
+          ? loadCoursesFromStore(value)
+          : loadCourses(value);
+      dispatch(loadAction);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
