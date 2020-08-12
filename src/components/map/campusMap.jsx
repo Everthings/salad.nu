@@ -31,8 +31,7 @@ const CampusMap = () => {
 
   return (
     <Map
-      zoom={zoom}
-      viewport={{ center: position }}
+      viewport={{ center: position, zoom: zoom }}
       onViewportChanged={handleZoomChange}
       attributionControl={false}
       style={style}
