@@ -72,7 +72,7 @@ const InfoCard = ({
 
   return (
     <Card
-      onMouseEnter={handleMouseOver}
+      onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
       className={disabled ? "disabled" : ""}

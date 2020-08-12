@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback, useMemo } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { useToasts } from "react-toast-notifications";
@@ -49,38 +49,47 @@ const ScheduleBody = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();
 
-  // event handlers for schedule card
-  const handleXClick = (e, data) => {
-    e.stopPropagation();
+  // event handlers for schedule card and memoize
+  const handleXClick = useCallback(
+    (e, data) => {
+      e.stopPropagation();
 
-    let name = getName(data);
+      let name = getName(data);
 
-    dispatch(removeSection(data.unique_id));
+      dispatch(removeSection(data.unique_id));
+      dispatch(clearHoveredScheduledSection());
+      dispatch(clearCurrentBuilding());
+
+      addToast(`Removed ${name}`, {
+        appearance: "error",
+        autoDismiss: true,
+      });
+    },
+    [dispatch, addToast]
+  );
+
+  const handleClick = useCallback(
+    (e, data) => {
+      dispatch(updateRemovableSelectedSection(data));
+    },
+    [dispatch]
+  );
+
+  const handleMouseOver = useCallback(
+    (e, { room, unique_id }) => {
+      dispatch(updateHoveredScheduledSection(unique_id));
+
+      let hasLocation = room && room.building_id;
+      if (!hasLocation) dispatch(updateNoCurrentBuilding());
+      else dispatch(updateCurrentBuilding(room.building_id));
+    },
+    [dispatch]
+  );
+
+  const handleMouseLeave = useCallback(() => {
     dispatch(clearHoveredScheduledSection());
     dispatch(clearCurrentBuilding());
-
-    addToast(`Removed ${name}`, {
-      appearance: "error",
-      autoDismiss: true,
-    });
-  };
-
-  const handleClick = (e, data) => {
-    dispatch(updateRemovableSelectedSection(data));
-  };
-
-  const handleMouseOver = (e, { room, unique_id }) => {
-    dispatch(updateHoveredScheduledSection(unique_id));
-
-    let hasLocation = room && room.building_id;
-    if (!hasLocation) dispatch(updateNoCurrentBuilding());
-    else dispatch(updateCurrentBuilding(room.building_id));
-  };
-
-  const handleMouseLeave = () => {
-    dispatch(clearHoveredScheduledSection());
-    dispatch(clearCurrentBuilding());
-  };
+  }, [dispatch]);
 
   const { id: hoveredId } = useSelector(getHoveredScheduledSection);
   const courses = useSelector(getScheduledSections);
@@ -89,15 +98,17 @@ const ScheduleBody = () => {
   const { id } = useSelector(getHoveredSection);
   const sections = useSelector(getSections);
   const discussions = useSelector(getDiscussions);
-  const results = [...sections, ...discussions];
-  const result = results.find((result) => result.unique_id === id);
-  const coursesCpy = [...courses];
-  if (result && result["start_time"] && result["end_time"]) {
-    coursesCpy.push({ temp: true, ...result });
-  }
 
-  // prepare courses for render
-  const { bins, days, hours } = binAndStyle(coursesCpy);
+  // prepare courses for render and memoize
+  const { bins, days, hours } = useMemo(() => {
+    const results = [...sections, ...discussions];
+    const result = results.find((result) => result.unique_id === id);
+    const coursesCpy = [...courses];
+    if (result && result["start_time"] && result["end_time"]) {
+      coursesCpy.push({ temp: true, ...result });
+    }
+    return binAndStyle(coursesCpy);
+  }, [id, courses, sections, discussions]);
   const startHours = hours.slice(0, -1);
 
   return (
