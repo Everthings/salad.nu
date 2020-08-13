@@ -54,7 +54,7 @@ const SectionList = () => {
   const discussions = useSelector(getDiscussions);
   const results = [...sections, ...discussions];
 
-  const scheduledCourses = useSelector(getScheduledSections);
+  const scheduledSections = useSelector(getScheduledSections);
 
   const name = sections.length > 0 ? getName(sections[0]) : "";
 
@@ -106,7 +106,7 @@ const SectionList = () => {
       : "";
   const modeFn = ({ mode }) => (mode ? mode : "");
   const disabledFn = ({ unique_id, start_time, end_time, meeting_days }) => {
-    const found = scheduledCourses.some(
+    const found = scheduledSections.some(
       (course) => course.unique_id === unique_id
     );
     if (found) return "already added";
