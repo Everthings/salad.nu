@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeToggle renders correctly 1`] = `
+<div
+  className="react-toggle react-toggle--checked"
+  onClick={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="react-toggle-track"
+  >
+    <div
+      className="react-toggle-track-check"
+    />
+    <div
+      className="react-toggle-track-x"
+    />
+  </div>
+  <div
+    className="react-toggle-thumb"
+  />
+  <input
+    checked={true}
+    className="react-toggle-screenreader-only"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="checkbox"
+  />
+</div>
+`;

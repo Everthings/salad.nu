@@ -878,10 +878,6 @@ const buildings = {
   "135": { name: "620 Lincoln St", lat: null, lon: null, nu_maps_link: null },
 };
 
-export function getBuildings() {
-  return buildings.filter((building) => building);
-}
-
 export function getBuilding(buildingId) {
   return buildings[buildingId];
 }

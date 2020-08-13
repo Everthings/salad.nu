@@ -1,8 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
 import * as apiActions from "./../api";
-import { getParts, strMatchesAllParts } from "./../../utils/searchUtils";
-import { getName, getFullName } from "./../../utils/courseUtils";
+import { filterCourses } from "./../../utils/searchUtils";
 
 // Reducers
 const resource = "courses";
@@ -21,35 +20,14 @@ const slice = createSlice({
       courses.loading = false;
     },
     coursesRecieved: (courses, action) => {
-      const reponse = action.payload.data;
-      const searchStr = action.payload.searchStr.toLowerCase();
-      const searchParts = getParts(searchStr);
-
-      const filterdCoursesName = [];
-      const filterdCoursesTitle = [];
-      for (const course of reponse) {
-        const courseName = getName(course).toLowerCase();
-        const courseTitle = `${course.title}`.toLowerCase();
-
-        if (strMatchesAllParts(courseName, searchParts)) {
-          filterdCoursesName.push(course);
-        } else if (strMatchesAllParts(courseTitle, searchParts)) {
-          filterdCoursesTitle.push(course);
-        }
-      }
-      const filterdCourses = [...filterdCoursesName, ...filterdCoursesTitle];
-      courses.list = filterdCourses;
+      const response = action.payload.data;
+      const searchStr = action.payload.searchStr;
+      courses.list = filterCourses(searchStr, response);
       courses.loading = false;
     },
     coursesRecievedFromStore: (courses, action) => {
-      const searchStr = action.payload.searchStr.toLowerCase();
-      const searchParts = getParts(searchStr);
-
-      const filterdCourses = courses.list.filter((course) => {
-        const courseStr = getFullName(course).toLowerCase();
-        return strMatchesAllParts(courseStr, searchParts);
-      });
-      courses.list = filterdCourses;
+      const searchStr = action.payload.searchStr;
+      courses.list = filterCourses(searchStr, courses.list);
     },
   },
 });
@@ -80,8 +58,7 @@ export const loadCoursesFromStore = (searchStr) => {
 };
 
 // Selectors
-export const getCourses = () =>
-  createSelector(
-    (state) => state.courses.list,
-    (courses) => courses
-  );
+export const getCourses = createSelector(
+  (state) => state.courses,
+  (courses) => courses.list
+);

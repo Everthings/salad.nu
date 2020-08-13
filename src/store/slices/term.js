@@ -8,7 +8,7 @@ const resource = "term";
 const slice = createSlice({
   name: "term",
   initialState: {
-    currentTerm: {},
+    currentTerm: null,
     loading: false,
   },
   reducers: {

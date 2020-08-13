@@ -1,3 +1,5 @@
+import { getName, getFullName } from "./courseUtils";
+
 const getParts = (str) => {
   const trimmed = str.trim();
   if (trimmed.length === 0) return [];
@@ -11,7 +13,12 @@ const getMaximumPartLength = (parts) => {
   for (const part of parts) {
     if (part.length > maxLength) maxLength = part.length;
   }
+  return maxLength;
+};
 
+const getMaximumStrPartLength = (str) => {
+  const parts = getParts(str);
+  const maxLength = getMaximumPartLength(parts);
   return maxLength;
 };
 
@@ -22,4 +29,23 @@ const strMatchesAllParts = (str, parts) => {
   return true;
 };
 
-export { getParts, getMaximumPartLength, strMatchesAllParts };
+const filterCourses = (searchStr, courses) => {
+  const searchParts = getParts(searchStr.toLowerCase());
+
+  const filterdCoursesName = [];
+  const filterdCoursesTitle = [];
+  for (const course of courses) {
+    const courseName = getName(course).toLowerCase();
+    const courseTitle = getFullName(course).toLowerCase();
+
+    if (strMatchesAllParts(courseName, searchParts)) {
+      filterdCoursesName.push(course);
+    } else if (strMatchesAllParts(courseTitle, searchParts)) {
+      filterdCoursesTitle.push(course);
+    }
+  }
+  const filterdCourses = [...filterdCoursesName, ...filterdCoursesTitle];
+  return filterdCourses;
+};
+
+export { filterCourses, getMaximumStrPartLength };

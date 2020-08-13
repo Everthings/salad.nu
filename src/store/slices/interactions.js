@@ -37,9 +37,11 @@ const slice = createSlice({
       interactions.selectedSection = defaultSelectedSection;
     },
     updatedCurrentBuilding: (interactions, action) => {
-      const { lat, lon } = action.payload.data;
-      if (!lat || !lon) interactions.currentBuilding = noBuilding;
-      else interactions.currentBuilding = { lat, lon };
+      const response = action.payload.data;
+      if (!response || !response.lat || !response.lon)
+        interactions.currentBuilding = noBuilding;
+      else
+        interactions.currentBuilding = { lat: response.lat, lon: response.lon };
     },
     updatedNoCurrentBuilding: (interactions, action) => {
       interactions.currentBuilding = noBuilding;
