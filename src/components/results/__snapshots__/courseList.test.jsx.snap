@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseList renders course list correctly 1`] = `
+Array [
+  <div
+    className="sc-Axmtr gGWzet"
+  />,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;
+
+exports[`CourseList renders course list correctly with data 1`] = `
+Array [
+  <div
+    className="sc-Axmtr gGWzet"
+  >
+    <div
+      className="sc-AxheI eBXIT"
+    >
+      3
+       result(s)
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          Subject 1 Number 1
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Title 1
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          Subject 2 Number 2
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Title 2
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          Subject 3 Number 3
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Title 3
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;

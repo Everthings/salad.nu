@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionList renders section list correctly 1`] = `
+Array [
+  <div
+    className="sc-AxmLO cnKbfI"
+  >
+    <div
+      className="sc-Axmtr eXOmus"
+    >
+      <button
+        className="sc-fzoLsD crtpry btn btn-danger"
+        onClick={[Function]}
+      >
+        Back
+      </button>
+      <h4
+        className="sc-fzpans vUssG"
+      >
+        
+      </h4>
+      <hr
+        className="sc-fzozJi ciutFt"
+      />
+    </div>
+    <div
+      className="sc-AxheI eBXIT"
+    >
+      0
+       result(s)
+    </div>
+  </div>,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;
+
+exports[`SectionList renders section list correctly with data 1`] = `
+Array [
+  <div
+    className="sc-AxmLO cnKbfI"
+  >
+    <div
+      className="sc-Axmtr eXOmus"
+    >
+      <button
+        className="sc-fzoLsD crtpry btn btn-danger"
+        onClick={[Function]}
+      >
+        Back
+      </button>
+      <h4
+        className="sc-fzpans vUssG"
+      >
+        
+      </h4>
+      <hr
+        className="sc-fzozJi ciutFt"
+      />
+    </div>
+    <div
+      className="sc-AxheI eBXIT"
+    >
+      4
+       result(s)
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          undefined - Sec 1
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          MoWeFr
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          1:00am - 2:00am
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Name 1
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Building 1
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Mode 1
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          undefined - Sec 2
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          MoWeFr
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          1:00am - 2:00am
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Name 2
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Building 2
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Mode 2
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          undefined - Sec 3
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          MoWeFr
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          1:00am - 2:00am
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Name 3
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Building 3
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Mode 3
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="sc-AxiKw iiwGCz"
+        >
+          undefined - Sec 4
+        </h5>
+        <hr
+          className="sc-AxirZ grXYcG"
+        />
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          MoWeFr
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          1:00am - 2:00am
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Name 4
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Building 4
+        </p>
+        <p
+          className="sc-AxhCb kqIPop"
+        >
+          Mode 4
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;
