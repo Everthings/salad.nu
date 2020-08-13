@@ -51,9 +51,7 @@ const ScheduleBody = () => {
 
   // event handlers for schedule card and memoize
   const handleXClick = useCallback(
-    (e, data) => {
-      e.stopPropagation();
-
+    (data) => {
       let name = getName(data);
 
       dispatch(removeSection(data.unique_id));
@@ -69,14 +67,14 @@ const ScheduleBody = () => {
   );
 
   const handleClick = useCallback(
-    (e, data) => {
+    (data) => {
       dispatch(updateRemovableSelectedSection(data));
     },
     [dispatch]
   );
 
   const handleMouseOver = useCallback(
-    (e, { room, unique_id }) => {
+    ({ room, unique_id }) => {
       dispatch(updateHoveredScheduledSection(unique_id));
 
       let hasLocation = room && room.building_id;

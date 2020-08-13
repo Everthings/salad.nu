@@ -77,6 +77,11 @@ const ScheduleCard = ({
   handleMouseOver,
   handleMouseLeave,
 }) => {
+  const handleXClickStopProp = (e, data) => {
+    e.stopPropagation();
+    handleXClick(data);
+  };
+
   let name = getName(data);
   if (data && data.component !== "LEC") name = `*${data.component}* ${name}`;
   const nameParts = name.split(" ");
@@ -95,13 +100,21 @@ const ScheduleCard = ({
   return (
     <Card
       style={{ ...style, borderColor: color }}
-      onMouseOver={(e) => handleMouseOver(e, data)}
-      onMouseLeave={(e) => handleMouseLeave(e, data)}
-      onClick={(e) => handleClick(e, data)}
+      onMouseOver={() => handleMouseOver(data)}
+      onMouseLeave={() => handleMouseLeave(data)}
+      onClick={() => handleClick(data)}
       className={classes}
+      data-testid="schedule-card"
     >
       <CardBody>
-        {hovered && <XButton onClick={(e) => handleXClick(e, data)}>x</XButton>}
+        {hovered && (
+          <XButton
+            onClick={(e) => handleXClickStopProp(e, data)}
+            data-testid="schedule-card-x-button"
+          >
+            x
+          </XButton>
+        )}
         <FlexContainer>
           <TextWrapper>
             <Title textBreakStrategy={"simple"}>

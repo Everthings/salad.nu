@@ -76,6 +76,7 @@ const InfoCard = ({
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
       className={disabled ? "disabled" : ""}
+      data-testid="info-card"
     >
       <div className="card-body">
         <Title>{title}</Title>
@@ -86,7 +87,12 @@ const InfoCard = ({
           return <Text key={text}>{text}</Text>;
         })}
         {moreInfoClick && (
-          <Button onClick={handleMoreInfoClick}>More Info</Button>
+          <Button
+            onClick={handleMoreInfoClick}
+            data-testid="info-card-more-info-button"
+          >
+            More Info
+          </Button>
         )}
       </div>
     </Card>
