@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard renders info card correctly 1`] = `
+<div
+  className="sc-AxjAm cFVyGa"
+  data-testid="info-card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="sc-AxiKw iiwGCz"
+    >
+      Title
+    </h5>
+    <hr
+      className="sc-AxirZ grXYcG"
+    />
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 1
+    </p>
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 2
+    </p>
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 3
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InfoCard renders info card correctly when disabled 1`] = `
+<div
+  className="sc-AxjAm cFVyGa disabled"
+  data-testid="info-card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="sc-AxiKw iiwGCz"
+    >
+      Title
+    </h5>
+    <hr
+      className="sc-AxirZ grXYcG"
+    />
+    <p
+      className="sc-AxhUy ikbzdm"
+    >
+      disabled
+    </p>
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 1
+    </p>
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 2
+    </p>
+    <p
+      className="sc-AxhCb kqIPop"
+    >
+      info 3
+    </p>
+  </div>
+</div>
+`;

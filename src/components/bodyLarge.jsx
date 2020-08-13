@@ -25,13 +25,13 @@ const BodyLarge = () => {
     <BodyContainer>
       <div className="row ml-3 mr-3 h-100">
         <div className="col-3 h-100">
-          <SaladContainer>
+          <SaladContainer data-testid="salad-container">
             <Results />
             <CampusMap />
           </SaladContainer>
         </div>
         <div className="col-9 h-100">
-          <SaladContainer>
+          <SaladContainer data-testid="salad-container">
             <Schedule />
           </SaladContainer>
         </div>

@@ -57,13 +57,13 @@ const BodySmall = () => {
 
           <Tab.Content className="h-100" style={{ overflow: "auto" }}>
             <Tab.Pane className="h-100" eventKey="courses">
-              <SaladContainer>
+              <SaladContainer data-testid="salad-container">
                 <Results />
                 <CampusMap />
               </SaladContainer>
             </Tab.Pane>
             <Tab.Pane className="h-100" eventKey="schedule">
-              <SaladContainer>
+              <SaladContainer data-testid="salad-container">
                 <Schedule />
               </SaladContainer>
             </Tab.Pane>
