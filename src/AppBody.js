@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Body from "./components/body";
 import AboutPage from "./components/pages/aboutPage";
@@ -20,20 +20,18 @@ const FlexContainer = styled.div`
 
 const AppBody = () => {
   return (
-    <StyleWrapper>
-      <Router>
-        <Switch>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route path="/">
-            <FlexContainer>
-              <Header />
-              <Body />
-            </FlexContainer>
-          </Route>
-        </Switch>
-      </Router>
+    <StyleWrapper data-testid="app-body">
+      <Switch>
+        <Route path="/about">
+          <AboutPage />
+        </Route>
+        <Route path="/">
+          <FlexContainer>
+            <Header />
+            <Body />
+          </FlexContainer>
+        </Route>
+      </Switch>
     </StyleWrapper>
   );
 };

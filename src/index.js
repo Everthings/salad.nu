@@ -4,11 +4,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import "react-toggle/style.css";
 import "./index.css";
 import App from "./App";
+import Logger from "./components/common/logger";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Logger>
+      <App />
+    </Logger>
   </React.StrictMode>,
   document.getElementById("root")
 );
