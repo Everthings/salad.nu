@@ -1,14 +1,19 @@
 import React, { useEffect } from "react";
 import { Provider } from "react-redux";
-import configureStore from "./store/configureStore";
 import { ToastProvider } from "react-toast-notifications";
+import configureStore from "./store/configureStore";
+import { loadState, saveState } from "./utils/storageUtils";
 import "./App.css";
 import ReactGA from "react-ga";
 import Theme from "./components/themes/theme";
 import AppBody from "./AppBody";
 import Logger from "./components/common/logger";
 
-const store = configureStore();
+const persistedState = loadState();
+const store = configureStore(persistedState);
+store.subscribe(() => {
+  saveState(store.getState());
+});
 
 function App() {
   useEffect(() => {

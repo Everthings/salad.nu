@@ -13,7 +13,7 @@ const loadState = () => {
       theme: loadedTheme,
     };
   } catch (err) {
-    return undefined;
+    // ignore read errors
   }
 };
 

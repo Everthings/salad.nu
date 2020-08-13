@@ -1,127 +1,140 @@
-import {
-  getParts,
-  getMaximumPartLength,
-  strMatchesAllParts,
-} from "./searchUtils";
+import { filterCourses, getMaximumStrPartLength } from "./searchUtils";
 
 describe("searchUtils", () => {
-  describe("getParts", () => {
-    it("should give empty list for empty string", () => {
-      const str = "";
+  describe("filterCourses", () => {
+    it("should give entire list for empty search string", () => {
+      const searchStr = "";
+      const courses = [
+        { title: "1", subject: "COMP_SCI", number: "101" },
+        { title: "2", subject: "COMP_SCI", number: "110" },
+        { title: "3", subject: "COMP_SCI", number: "111" },
+      ];
 
-      const parts = getParts(str);
+      const filtered = filterCourses(searchStr, courses);
 
-      expect(parts).toHaveLength(0);
+      expect(filtered).toEqual(courses);
     });
 
-    it("should give empty list for string with only spaces", () => {
-      const str = "     ";
+    it("should give empty list for empty search string with empty list", () => {
+      const searchStr = "";
+      const courses = [];
 
-      const parts = getParts(str);
+      const filtered = filterCourses(searchStr, courses);
 
-      expect(parts).toHaveLength(0);
+      expect(filtered).toEqual([]);
     });
 
-    it("should give ['hello', 'world'] for string '  hello   world  '", () => {
-      const str = "  hello   world  ";
+    it("should give empty list for valid search string with empty list", () => {
+      const searchStr = "some search";
+      const courses = [];
 
-      const parts = getParts(str);
+      const filtered = filterCourses(searchStr, courses);
 
-      expect(parts).toEqual(["hello", "world"]);
+      expect(filtered).toEqual([]);
+    });
+
+    it("should give empty list if no courses match search string", () => {
+      const searchStr = "some search";
+      const courses = [
+        { title: "1", subject: "COMP_SCI", number: "101" },
+        { title: "2", subject: "COMP_SCI", number: "110" },
+        { title: "3", subject: "COMP_SCI", number: "111" },
+      ];
+      const filtered = filterCourses(searchStr, courses);
+
+      expect(filtered).toEqual([]);
+    });
+
+    it("should give empty list if no courses match full search string", () => {
+      const searchStr = "some search";
+      const courses = [
+        { title: "some", subject: "course", number: "#" },
+        { title: "search", subject: "course", number: "#" },
+        { title: "1", subject: "subject", number: "#" },
+      ];
+      const filtered = filterCourses(searchStr, courses);
+
+      expect(filtered).toEqual([]);
+    });
+
+    it("should give right courses if some courses match full search string", () => {
+      const searchStr = "some search";
+      const courses = [
+        { title: "some", subject: "search", number: "#" },
+        { title: "search some", subject: "subject", number: "#" },
+        { title: "1", subject: "subject", number: "#" },
+      ];
+      const filtered = filterCourses(searchStr, courses);
+
+      expect(filtered).toEqual([
+        { title: "some", subject: "search", number: "#" },
+        { title: "search some", subject: "subject", number: "#" },
+      ]);
+    });
+
+    it("should order title matches behind subject matches", () => {
+      const searchStr = "some search";
+      const courses = [
+        { title: "search some", subject: "subject", number: "#" },
+        { title: "-", subject: "-", number: "some search" },
+
+        { title: "1", subject: "subject", number: "#" },
+      ];
+      const filtered = filterCourses(searchStr, courses);
+
+      expect(filtered).toEqual([
+        { title: "-", subject: "-", number: "some search" },
+        { title: "search some", subject: "subject", number: "#" },
+      ]);
+    });
+
+    it("should order title matches behind number matches", () => {
+      const searchStr = "some search 404";
+      const courses = [
+        { title: "-", subject: "-", number: "some search 404" },
+        { title: "search some 404", subject: "subject", number: "#" },
+        { title: "1", subject: "subject", number: "#" },
+      ];
+      const filtered = filterCourses(searchStr, courses);
+
+      expect(filtered).toEqual([
+        { title: "-", subject: "-", number: "some search 404" },
+        { title: "search some 404", subject: "subject", number: "#" },
+      ]);
     });
   });
 
-  describe("getMaximumPartLength", () => {
-    it("should give 0 for no parts", () => {
+  describe("getMaximumStrPartLength", () => {
+    it("should give 0 for empty string", () => {
       const str = "";
-      const parts = getParts(str);
 
-      const length = getMaximumPartLength(parts);
+      const length = getMaximumStrPartLength(str);
 
       expect(length).toEqual(0);
     });
 
     it("should give 5 for 'hello world'", () => {
-      const str = "";
-      const parts = getParts(str);
+      const str = "hello world";
 
-      const length = getMaximumPartLength(parts);
+      const length = getMaximumStrPartLength(str);
 
-      expect(length).toEqual(0);
+      expect(length).toEqual(5);
     });
 
     it("should give 5 for ' hello world'", () => {
       const str = " hello world";
-      const parts = getParts(str);
 
-      const length = getMaximumPartLength(parts);
+      const length = getMaximumStrPartLength(str);
 
       expect(length).toEqual(5);
     });
 
     it("should give 6 for ' hello    worlds  '", () => {
       const str = " hello    worlds  ";
-      const parts = getParts(str);
 
-      const length = getMaximumPartLength(parts);
+      const length = getMaximumStrPartLength(str);
 
       expect(length).toEqual(6);
-    });
-  });
-
-  describe("strMatchesAllParts", () => {
-    it("should give false for empty string with non-empty list", () => {
-      const str = "";
-      const parts = ["test"];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(false);
-    });
-
-    it("should give true for empty string with empty list", () => {
-      const str = "";
-      const parts = [];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(true);
-    });
-
-    it("should give true for string with empty list", () => {
-      const str = "test";
-      const parts = [];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(true);
-    });
-
-    it("should give true for string with part equal to the string", () => {
-      const str = "tests";
-      const parts = ["tests"];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(true);
-    });
-
-    it("should give true for string with part substring of the string", () => {
-      const str = "tests";
-      const parts = ["test"];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(true);
-    });
-
-    it("should give true for string with parts that are substrings of the string", () => {
-      const str = "tests";
-      const parts = ["te", "st", "ts"];
-
-      const match = strMatchesAllParts(str, parts);
-
-      expect(match).toEqual(true);
     });
   });
 });

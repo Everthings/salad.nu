@@ -8,7 +8,7 @@ import {
 } from "../../store/slices/interactions";
 import { loadSections } from "../../store/slices/sections";
 import { loadDiscussions } from "../../store/slices/discussions";
-import { getParts, getMaximumPartLength } from "../../utils/searchUtils";
+import { getMaximumStrPartLength } from "../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "../../configs";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
@@ -26,10 +26,10 @@ const Text = styled.div`
 
 const CourseList = () => {
   const dispatch = useDispatch();
-  const courses = useSelector(getCourses());
+  const courses = useSelector(getCourses);
 
   const search = useSelector(getSearch);
-  const searchLength = getMaximumPartLength(getParts(search));
+  const searchLength = getMaximumStrPartLength(search);
 
   const shouldContinueTyping =
     searchLength < MIN_SEARCH_LENGTH && searchLength !== 0;

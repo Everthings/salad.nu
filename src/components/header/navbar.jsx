@@ -32,7 +32,7 @@ const Navbar = () => {
   });
 
   return (
-    <Nav className="navbar navbar-light">
+    <Nav className="navbar navbar-light" data-testid="nav-bar">
       {bigScreen && (
         <div>
           <Logo src={salad_logo} alt="Logo" />

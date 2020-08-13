@@ -11,7 +11,7 @@ import {
   loadCoursesFromStore,
 } from "./../../store/slices/courses";
 import { getTerm } from "./../../store/slices/term";
-import { getParts, getMaximumPartLength } from "./../../utils/searchUtils";
+import { getMaximumStrPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 
 const Input = styled.input`
@@ -31,7 +31,7 @@ const SearchBar = () => {
 
   const handleChange = (e) => {
     const { value } = e.currentTarget;
-    const length = getMaximumPartLength(getParts(value));
+    const length = getMaximumStrPartLength(value);
 
     dispatch(updateSearch(value));
     dispatch(clearSelectedCourse());

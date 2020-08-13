@@ -10,8 +10,10 @@ exports[`SearchBar renders correctly 1`] = `
     autoFocus={true}
     className="sc-AxjAm gGRDat form-control"
     data-testid="search-bar"
-    placeholder="Search Courses "
+    onChange={[Function]}
+    placeholder="Search Courses (2019 Fall)"
     type="search"
+    value=""
   />
 </form>
 `;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportButton renders correctly 1`] = `
+<div
+  className="sc-AxjAm ilxYOT btn"
+>
+  <a
+    download="nu_schedule.csv"
+    href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
+    onClick={[Function]}
+    target="_self"
+    title="Export Schedule to CSV (click About for more info)"
+  >
+    <div
+      className="sc-AxirZ llpCmO"
+    >
+      Export
+    </div>
+  </a>
+</div>
+`;
