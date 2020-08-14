@@ -879,5 +879,5 @@ const buildings = {
 };
 
 export function getBuilding(buildingId) {
-  return buildings[buildingId];
+  return buildings[buildingId] || [];
 }

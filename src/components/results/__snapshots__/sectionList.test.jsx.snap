@@ -1,51 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SectionList renders section list correctly 1`] = `
-Array [
-  <div
-    className="sc-AxmLO cnKbfI"
-  >
-    <div
-      className="sc-Axmtr eXOmus"
-    >
-      <button
-        className="sc-fzoLsD crtpry btn btn-danger"
-        onClick={[Function]}
-      >
-        Back
-      </button>
-      <h4
-        className="sc-fzpans vUssG"
-      >
-        
-      </h4>
-      <hr
-        className="sc-fzozJi ciutFt"
-      />
-    </div>
-    <div
-      className="sc-AxheI eBXIT"
-    >
-      0
-       result(s)
-    </div>
-  </div>,
-  <div
-    className="react-toast-notifications__container css-mrh2d-ToastContainer"
-  />,
-]
-`;
-
 exports[`SectionList renders section list correctly with data 1`] = `
 Array [
   <div
     className="sc-AxmLO cnKbfI"
+    data-testid="section-list"
   >
     <div
       className="sc-Axmtr eXOmus"
     >
       <button
         className="sc-fzoLsD crtpry btn btn-danger"
+        data-testid="back-button"
         onClick={[Function]}
       >
         Back

@@ -70,4 +70,53 @@ describe("SearchBar", () => {
 
     expect(input.value).toEqual("s");
   });
+
+  it("should display 'search' when 'search' in input", () => {
+    const store = configureStore(initialState);
+    const { getByTestId } = render(
+      <Provider store={store}>
+        <Theme>
+          <SearchBar />
+        </Theme>
+      </Provider>
+    );
+
+    const input = getByTestId("search-bar");
+    fireEvent.change(input, { target: { value: "search" } });
+
+    expect(input.value).toEqual("search");
+  });
+
+  it("should display 'search' when 'search' in input", () => {
+    const store = configureStore(initialState);
+    const { getByTestId } = render(
+      <Provider store={store}>
+        <Theme>
+          <SearchBar />
+        </Theme>
+      </Provider>
+    );
+
+    const input = getByTestId("search-bar");
+    fireEvent.change(input, { target: { value: "search" } });
+
+    expect(input.value).toEqual("search");
+  });
+
+  it("should display same text on submit", () => {
+    const store = configureStore(initialState);
+    const { getByTestId } = render(
+      <Provider store={store}>
+        <Theme>
+          <SearchBar />
+        </Theme>
+      </Provider>
+    );
+
+    const input = getByTestId("search-bar");
+    fireEvent.change(input, { target: { value: "search" } });
+    fireEvent.submit(input);
+
+    expect(input.value).toEqual("search");
+  });
 });
