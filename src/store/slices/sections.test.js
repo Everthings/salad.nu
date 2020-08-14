@@ -51,7 +51,7 @@ describe("sectionsSlice", () => {
       expect(sections).toEqual(state.sections.list[0]);
     });
 
-    it("should return undefined if no section id matches", () => {
+    it("should return empty list if no section id matches", () => {
       const state = {
         sections: {
           list: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
@@ -60,7 +60,7 @@ describe("sectionsSlice", () => {
 
       const sections = getSection(0)(state);
 
-      expect(sections).toEqual(undefined);
+      expect(sections).toEqual([]);
     });
   });
 });

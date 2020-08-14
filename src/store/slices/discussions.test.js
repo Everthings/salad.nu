@@ -51,7 +51,7 @@ describe("discussionsSlice", () => {
       expect(discussions).toEqual(state.discussions.list[0]);
     });
 
-    it("should return undefined if no discussion id matches", () => {
+    it("should return empty list if no discussion id matches", () => {
       const state = {
         discussions: {
           list: [{ unique_id: 1 }, { unique_id: 2 }, { unique_id: 3 }],
@@ -60,7 +60,7 @@ describe("discussionsSlice", () => {
 
       const discussions = getDiscussion(0)(state);
 
-      expect(discussions).toEqual(undefined);
+      expect(discussions).toEqual([]);
     });
   });
 });

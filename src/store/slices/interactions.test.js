@@ -34,7 +34,7 @@ buildingsService.getBuilding.mockImplementation((id) => {
     return { name: "some location", lat: 1, lon: 2 };
   }
 
-  return undefined;
+  return [];
 });
 
 describe("interactionsSlice", () => {

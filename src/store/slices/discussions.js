@@ -55,5 +55,5 @@ export const getDiscussion = (id) =>
   createSelector(
     (state) => state.discussions.list,
     (discussions) =>
-      discussions.find((discussion) => discussion.unique_id === id)
+      discussions.find((discussion) => discussion.unique_id === id) || []
   );

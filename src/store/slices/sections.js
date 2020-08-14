@@ -54,5 +54,5 @@ export const getSections = createSelector(
 export const getSection = (id) =>
   createSelector(
     (state) => state.sections.list,
-    (sections) => sections.find((section) => section.unique_id === id)
+    (sections) => sections.find((section) => section.unique_id === id) || []
   );
