@@ -10,22 +10,6 @@ import SectionList from "./sectionList";
 ReactDOM.createPortal = (node) => node;
 
 describe("SectionList", () => {
-  it("renders section list correctly", () => {
-    const store = configureStore();
-    const tree = renderer
-      .create(
-        <ToastProvider>
-          <Provider store={store}>
-            <Theme>
-              <SectionList />
-            </Theme>
-          </Provider>
-        </ToastProvider>
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it("renders section list correctly with data", () => {
     const state = {
       sections: {

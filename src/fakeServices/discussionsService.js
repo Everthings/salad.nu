@@ -11036,5 +11036,5 @@ const discussions = {
 };
 
 export function getDiscussion(courseId) {
-  return discussions[courseId];
+  return discussions[courseId] || [];
 }

@@ -106,6 +106,7 @@
   "devDependencies": {
     "@sentry/webpack-plugin": "^1.12.0",
     "coveralls": "^3.1.0",
+    "cypress": "^4.12.1",
     "jest-localstorage-mock": "^2.4.3",
     "react-test-renderer": "^16.13.1",
     "redux-mock-store": "^1.5.4"
@@ -119,7 +120,9 @@
       "!src/**/*.d.ts",
       "!src/index.js",
       "!src/serviceWorker.js",
-      "!src/components/common/logger.jsx"
+      "!src/components/common/logger.jsx",
+      "!src/components/common/scrollManager.jsx",
+      "!src/fakeServices/**"
     ],
     "setupFiles": [
       "react-app-polyfill/jsdom",

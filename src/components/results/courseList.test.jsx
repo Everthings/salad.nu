@@ -11,22 +11,6 @@ import CourseList from "./courseList";
 ReactDOM.createPortal = (node) => node;
 
 describe("CourseList", () => {
-  it("renders course list correctly", () => {
-    const store = configureStore();
-    const tree = renderer
-      .create(
-        <ToastProvider>
-          <Provider store={store}>
-            <Theme>
-              <CourseList />
-            </Theme>
-          </Provider>
-        </ToastProvider>
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it("renders course list correctly with data", () => {
     const state = {
       interactions: { searchStr: "some search" },

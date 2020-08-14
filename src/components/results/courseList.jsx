@@ -51,7 +51,7 @@ const CourseList = () => {
   return (
     <ScrollManager scrollKey="courseList">
       {({ connectScrollTarget }) => (
-        <ScrollContainer ref={connectScrollTarget}>
+        <ScrollContainer ref={connectScrollTarget} data-testid="course-list">
           {shouldContinueTyping && <Text>Continue typing...</Text>}
           {noResults && (
             <Text>

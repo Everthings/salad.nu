@@ -10,22 +10,6 @@ import Schedule from "./schedule";
 ReactDOM.createPortal = (node) => node;
 
 describe("Schedule", () => {
-  it("renders schedule correctly", () => {
-    const store = configureStore();
-    const tree = renderer
-      .create(
-        <ToastProvider>
-          <Provider store={store}>
-            <Theme>
-              <Schedule />
-            </Theme>
-          </Provider>
-        </ToastProvider>
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it("renders schedule correctly with hovered section", () => {
     const initialState = {
       interactions: {

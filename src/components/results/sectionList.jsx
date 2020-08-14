@@ -125,9 +125,13 @@ const SectionList = () => {
   };
 
   return (
-    <ScrollContainer>
+    <ScrollContainer data-testid="section-list">
       <Header>
-        <Button className="btn btn-danger" onClick={handleBackClick}>
+        <Button
+          className="btn btn-danger"
+          onClick={handleBackClick}
+          data-testid="back-button"
+        >
           Back
         </Button>
         <Text>{name}</Text>
