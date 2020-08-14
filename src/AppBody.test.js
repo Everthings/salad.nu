@@ -38,7 +38,7 @@ describe("AppBody", () => {
 
     const AboutPageElement = getByText("Andy '23");
 
-    expect(AboutPageElement).toBeTruthy();
+    expect(AboutPageElement).toBeInTheDocument();
   });
 
   it("renders root page", () => {
@@ -48,7 +48,7 @@ describe("AppBody", () => {
 
     const RootPageElement = getByTestId("search-bar");
 
-    expect(RootPageElement).toBeTruthy();
+    expect(RootPageElement).toBeInTheDocument();
   });
 
   it("renders root page if url doesn't match '/about'", () => {
@@ -58,6 +58,6 @@ describe("AppBody", () => {
 
     const RootPageElement = getByTestId("search-bar");
 
-    expect(RootPageElement).toBeTruthy();
+    expect(RootPageElement).toBeInTheDocument();
   });
 });

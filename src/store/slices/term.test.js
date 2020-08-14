@@ -1,5 +1,29 @@
 import { loadTerm, getTerm } from "./term";
+import * as termsService from "./../../fakeServices/termsService";
 import configureStore from "./../configureStore";
+
+jest.mock("./../../fakeServices/termsService");
+termsService.getTerm.mockImplementation((id) => {
+  if (id === 4760) {
+    return {
+      id: 4760,
+      name: "2019 Fall",
+      start_date: "2019-09-24",
+      end_date: "2019-12-14",
+    };
+  }
+
+  if (id === 4800) {
+    return {
+      id: 4800,
+      name: "2020 Fall",
+      start_date: "2020-09-16",
+      end_date: "2020-12-08",
+    };
+  }
+
+  return undefined;
+});
 
 describe("termSlice", () => {
   let store;

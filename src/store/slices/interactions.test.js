@@ -21,7 +21,21 @@ import {
   getHoveredScheduledSection,
   getHoveredSection,
 } from "./interactions";
+import * as buildingsService from "./../../fakeServices/buildingsService";
 import configureStore from "./../configureStore";
+
+jest.mock("./../../fakeServices/buildingsService");
+buildingsService.getBuilding.mockImplementation((id) => {
+  if (id === 0) {
+    return { name: null, lat: null, lon: null };
+  }
+
+  if (id === 1) {
+    return { name: "some location", lat: 1, lon: 2 };
+  }
+
+  return undefined;
+});
 
 describe("interactionsSlice", () => {
   let store;
@@ -97,12 +111,20 @@ describe("interactionsSlice", () => {
       await store.dispatch(updateCurrentBuilding(1));
       const { lat, lon } = interactionsSlice().currentBuilding;
 
-      expect(lat).not.toBeNull();
-      expect(lon).not.toBeNull();
+      expect(lat).toEqual(1);
+      expect(lon).toEqual(2);
     });
 
     it("should load invalid non-null info into store if id doesn't match", async () => {
       await store.dispatch(updateCurrentBuilding(-1));
+      const { lat, lon } = interactionsSlice().currentBuilding;
+
+      expect(lat).toEqual(-360);
+      expect(lon).toEqual(-360);
+    });
+
+    it("should load invalid non-null info into store if id matches building with null lat lon", async () => {
+      await store.dispatch(updateCurrentBuilding(0));
       const { lat, lon } = interactionsSlice().currentBuilding;
 
       expect(lat).toEqual(-360);
