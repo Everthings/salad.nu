@@ -24,15 +24,15 @@ const api = ({ dispatch }) => (next) => async (action) => {
     try {
       let response;
       if (resource === "term") {
-        response = getTerm(data);
+        response = await getTerm(data);
       } else if (resource === "courses") {
-        response = getCourses();
+        response = await getCourses();
       } else if (resource === "sections") {
-        response = getSection(data);
+        response = await getSection(data);
       } else if (resource === "discussions") {
-        response = getDiscussion(data);
+        response = await getDiscussion(data);
       } else if (resource === "buildings") {
-        response = getBuilding(data);
+        response = await getBuilding(data);
       }
 
       dispatch(actions.apiSuccess(response));

@@ -1,18 +1,28 @@
 import { loadDiscussions, getDiscussions, getDiscussion } from "./discussions";
+import * as discussionsService from "./../../fakeServices/discussionsService";
 import configureStore from "./../configureStore";
+
+jest.mock("./../../fakeServices/discussionsService");
+discussionsService.getDiscussion.mockResolvedValue([
+  { unique_id: 1 },
+  { unique_id: 2 },
+  { unique_id: 3 },
+]);
 
 describe("discussionsSlice", () => {
   let store;
+
+  const discussionsSlice = () => store.getState().discussions;
 
   beforeEach(() => {
     store = configureStore();
   });
 
   describe("loadDiscussions", () => {
-    it("should load discussions into store if id matches", async () => {
+    it("should load discussions into store", async () => {
       await store.dispatch(loadDiscussions(0));
 
-      expect(true); // no error thrown
+      expect(discussionsSlice().list).toHaveLength(3);
     });
   });
 

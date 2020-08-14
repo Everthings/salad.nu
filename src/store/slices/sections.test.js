@@ -1,18 +1,28 @@
 import { loadSections, getSections, getSection } from "./sections";
+import * as sectionsService from "./../../fakeServices/sectionsService";
 import configureStore from "./../configureStore";
+
+jest.mock("./../../fakeServices/sectionsService");
+sectionsService.getSection.mockResolvedValue([
+  { unique_id: 1 },
+  { unique_id: 2 },
+  { unique_id: 3 },
+]);
 
 describe("sectionsSlice", () => {
   let store;
+
+  const sectionsSlice = () => store.getState().sections;
 
   beforeEach(() => {
     store = configureStore();
   });
 
   describe("loadSections", () => {
-    it("should load sections into store if id matches", async () => {
+    it("should load sections into store", async () => {
       await store.dispatch(loadSections(0));
 
-      expect(true); // no error thrown
+      expect(sectionsSlice().list).toHaveLength(3);
     });
   });
 
