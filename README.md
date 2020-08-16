@@ -1,4 +1,4 @@
-<img width="50%" alt="salad logo" src="https://github.com/Everthings/salad.nu/blob/master/src/images/cover_no_background.png">
+<img width="400px" alt="salad logo" src="https://github.com/Everthings/salad.nu/blob/master/src/images/cover_no_background.png">
 
 [![Build Status](https://travis-ci.com/Everthings/salad.nu.svg?branch=master)](https://travis-ci.com/Everthings/salad.nu)
 [![Coverage Status](https://coveralls.io/repos/github/Everthings/salad.nu/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/Everthings/salad.nu)
