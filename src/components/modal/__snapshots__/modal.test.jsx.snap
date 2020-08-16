@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CourseList renders modal correctly 1`] = `
+exports[`Modal renders modal correctly 1`] = `
 Array [
   <div
     className="ReactModal__Overlay ReactModal__Overlay--after-open"
@@ -52,6 +52,7 @@ Array [
         >
           <h2
             className="sc-AxiKw dzfbKE"
+            data-testid="modal-heading"
           >
             Subject 1 Number 1
           </h2>
@@ -60,6 +61,7 @@ Array [
           >
             <button
               className="sc-AxhUy dLvAZF btn btn-outline-secondary"
+              data-testid="modal-exit-button"
               onClick={[Function]}
             >
               Exit

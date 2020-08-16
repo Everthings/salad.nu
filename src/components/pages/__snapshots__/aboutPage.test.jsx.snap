@@ -103,6 +103,7 @@ exports[`AboutPage renders about page correctly 1`] = `
       className="sc-AxhUy jNLcXB btn mb-3"
     >
       <a
+        data-testid="about-back-button"
         href="/"
         onClick={[Function]}
       >

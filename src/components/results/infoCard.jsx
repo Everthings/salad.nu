@@ -79,7 +79,7 @@ const InfoCard = ({
       data-testid="info-card"
     >
       <div className="card-body">
-        <Title>{title}</Title>
+        <Title data-testid="info-card-title">{title}</Title>
         <Line />
         {disabled && <RedText>{disabled}</RedText>}
         {info.map((text) => {

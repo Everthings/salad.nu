@@ -12,7 +12,7 @@ import Modal from "./modal";
 ReactModal.setAppElement("*");
 ReactDOM.createPortal = (node) => node;
 
-describe("CourseList", () => {
+describe("Modal", () => {
   it("renders modal correctly", () => {
     const state = {
       interactions: {
@@ -67,7 +67,7 @@ describe("CourseList", () => {
       </ToastProvider>
     );
 
-    const removeButton = queryByTestId("remove-button");
+    const removeButton = queryByTestId("modal-remove-button");
 
     expect(removeButton).not.toBeNull();
   });
@@ -93,7 +93,7 @@ describe("CourseList", () => {
       </ToastProvider>
     );
 
-    const removeButton = queryByTestId("remove-button");
+    const removeButton = queryByTestId("modal-remove-button");
 
     expect(removeButton).toBeNull();
   });

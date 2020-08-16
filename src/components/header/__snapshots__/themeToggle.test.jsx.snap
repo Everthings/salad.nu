@@ -24,6 +24,7 @@ exports[`ThemeToggle renders correctly 1`] = `
   <input
     checked={true}
     className="react-toggle-screenreader-only"
+    data-testid="theme-toggle"
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}

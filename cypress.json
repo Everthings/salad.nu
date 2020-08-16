@@ -1,3 +1,4 @@
 {
-  "projectId": "uu1tzo"
+  "projectId": "uu1tzo",
+  "blacklistHosts": "www.google-analytics.com"
 }

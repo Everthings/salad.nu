@@ -27,6 +27,7 @@ const ExportButton = () => {
         title="Export Schedule to CSV (click About for more info)"
         data={csvData}
         filename="nu_schedule.csv"
+        data-testid="export-button"
       >
         <Text>Export</Text>
       </CSVLink>

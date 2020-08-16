@@ -10,6 +10,7 @@ exports[`InfoCard renders info card correctly 1`] = `
   >
     <h5
       className="sc-AxiKw iiwGCz"
+      data-testid="info-card-title"
     >
       Title
     </h5>
@@ -45,6 +46,7 @@ exports[`InfoCard renders info card correctly when disabled 1`] = `
   >
     <h5
       className="sc-AxiKw iiwGCz"
+      data-testid="info-card-title"
     >
       Title
     </h5>

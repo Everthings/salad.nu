@@ -22,6 +22,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           Subject 1 Number 1
         </h5>
@@ -45,6 +46,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           Subject 2 Number 2
         </h5>
@@ -68,6 +70,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           Subject 3 Number 3
         </h5>

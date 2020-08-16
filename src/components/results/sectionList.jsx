@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "../../store/slices/sections";
-import { getDiscussions } from "../../store/slices/discussions";
+import { getSections } from "./../../store/slices/sections";
+import { getDiscussions } from "./../../store/slices/discussions";
 import {
   clearSelectedCourse,
   updateSelectedSection,
@@ -14,9 +14,13 @@ import {
   clearHoveredSection,
   clearSelectedSection,
 } from "../../store/slices/interactions";
-import { getScheduledSections, addSection } from "../../store/slices/schedule";
-import { parseTime2Standard } from "../../utils/parseUtils";
-import { getName } from "../../utils/courseUtils";
+import {
+  getScheduledSections,
+  addSection,
+} from "./../../store/slices/schedule";
+import { parseTime2Standard } from "./../../utils/parseUtils";
+import { getName } from "./../../utils/courseUtils";
+import { hasValidDateTime } from "./../../utils/validationUtils";
 import CardList from "./cardList";
 
 const Header = styled.div`
@@ -114,6 +118,9 @@ const SectionList = () => {
     const hasTimes = start_time && end_time && meeting_days;
     if (!hasTimes) return "no specified time";
 
+    const isValid = hasValidDateTime({ start_time, end_time, meeting_days });
+    if (!isValid) return "date/time not valid";
+
     return null;
   };
 
@@ -130,11 +137,11 @@ const SectionList = () => {
         <Button
           className="btn btn-danger"
           onClick={handleBackClick}
-          data-testid="back-button"
+          data-testid="section-list-back-button"
         >
           Back
         </Button>
-        <Text>{name}</Text>
+        <Text data-testid="section-list-title">{name}</Text>
         <Line />
       </Header>
       <CardList

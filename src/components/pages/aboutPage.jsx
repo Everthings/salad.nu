@@ -123,7 +123,9 @@ const AboutPage = () => {
         </Text>
         <Text>Andy '23</Text>
         <Button className="btn mb-3">
-          <Link to="/">Back</Link>
+          <Link to="/" data-testid="about-back-button">
+            Back
+          </Link>
         </Button>
       </InnerContainer>
     </Container>

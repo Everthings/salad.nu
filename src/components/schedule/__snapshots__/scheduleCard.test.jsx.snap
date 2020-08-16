@@ -24,6 +24,7 @@ exports[`ScheduleCard renders schedule card correctly 1`] = `
       >
         <p
           className="sc-AxgMl eGljPA"
+          data-testid="schedule-card-title"
         >
           <span
             className="sc-AxheI bhLjYx"

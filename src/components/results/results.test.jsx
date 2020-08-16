@@ -104,7 +104,7 @@ describe("Results", () => {
       </ToastProvider>
     );
 
-    const backButton = getByTestId("back-button");
+    const backButton = getByTestId("section-list-back-button");
     fireEvent.click(backButton);
 
     const courseList = getByTestId("course-list");

@@ -5,6 +5,7 @@ exports[`ExportButton renders correctly 1`] = `
   className="sc-AxjAm ilxYOT btn"
 >
   <a
+    data-testid="export-button"
     download="nu_schedule.csv"
     href="data:text/csv;charset=utf-8,﻿\\"Subject\\",\\"Start Date\\",\\"Start Time\\",\\"End Date\\",\\"End Time\\",\\"Location\\""
     onClick={[Function]}

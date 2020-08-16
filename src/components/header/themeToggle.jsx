@@ -21,6 +21,7 @@ const ThemeToggle = () => {
         unchecked: null,
       }}
       onChange={handleToggle}
+      data-testid="theme-toggle"
     />
   );
 };

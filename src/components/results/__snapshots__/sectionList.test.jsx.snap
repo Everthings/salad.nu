@@ -11,13 +11,14 @@ Array [
     >
       <button
         className="sc-fzoLsD crtpry btn btn-danger"
-        data-testid="back-button"
+        data-testid="section-list-back-button"
         onClick={[Function]}
       >
         Back
       </button>
       <h4
         className="sc-fzpans vUssG"
+        data-testid="section-list-title"
       >
         
       </h4>
@@ -43,6 +44,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           undefined - Sec 1
         </h5>
@@ -88,6 +90,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           undefined - Sec 2
         </h5>
@@ -133,6 +136,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           undefined - Sec 3
         </h5>
@@ -178,6 +182,7 @@ Array [
       >
         <h5
           className="sc-AxiKw iiwGCz"
+          data-testid="info-card-title"
         >
           undefined - Sec 4
         </h5>

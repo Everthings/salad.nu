@@ -79,18 +79,22 @@ const ModalContent = ({
   return (
     <Content>
       <Heading>
-        <HeadingText>{name}</HeadingText>
+        <HeadingText data-testid="modal-heading">{name}</HeadingText>
         <ButtonsContainer>
           {removable && (
             <Button
               className="btn btn-outline-danger"
               onClick={handleRemove}
-              data-testid="remove-button"
+              data-testid="modal-remove-button"
             >
               Remove
             </Button>
           )}
-          <Button className="btn btn-outline-secondary" onClick={handleExit}>
+          <Button
+            className="btn btn-outline-secondary"
+            onClick={handleExit}
+            data-testid="modal-exit-button"
+          >
             Exit
           </Button>
         </ButtonsContainer>

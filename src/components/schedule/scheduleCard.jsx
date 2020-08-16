@@ -117,7 +117,10 @@ const ScheduleCard = ({
         )}
         <FlexContainer>
           <TextWrapper>
-            <Title textBreakStrategy={"simple"}>
+            <Title
+              textBreakStrategy={"simple"}
+              data-testid="schedule-card-title"
+            >
               {nameParts.map((txt) => {
                 return (
                   <React.Fragment key={txt}>

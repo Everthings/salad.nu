@@ -35,7 +35,7 @@ const Navbar = () => {
     <Nav className="navbar navbar-light" data-testid="nav-bar">
       {bigScreen && (
         <div>
-          <Logo src={salad_logo} alt="Logo" />
+          <Logo src={salad_logo} alt="Logo" data-testid="logo" />
         </div>
       )}
       <div className="flex-fill">
@@ -48,7 +48,11 @@ const Navbar = () => {
       )}
       {bigScreen && (
         <div>
-          <NavLink className="nav-item nav-link" to="/about">
+          <NavLink
+            className="nav-item nav-link"
+            to="/about"
+            data-testid="about-link"
+          >
             <LinkText>About</LinkText>
           </NavLink>
         </div>
