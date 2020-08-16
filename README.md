@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/Everthings/salad.nu.svg?branch=master)](https://travis-ci.com/Everthings/salad.nu)
 [![Coverage Status](https://coveralls.io/repos/github/Everthings/salad.nu/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/Everthings/salad.nu)
+[![salad.nu](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/uu1tzo/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/uu1tzo/runs)
 
 Simple course planning for Northwestern.
 
