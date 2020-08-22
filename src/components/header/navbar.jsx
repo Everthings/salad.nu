@@ -11,6 +11,8 @@ const Nav = styled.nav`
   background-color: ${({ theme }) => `${theme.colors.headerBackground}`};
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;

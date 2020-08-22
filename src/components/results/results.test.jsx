@@ -12,10 +12,10 @@ ReactDOM.createPortal = (node) => node;
 describe("Results", () => {
   it("renders course list if no course selected and searchStr sufficiently long", () => {
     const state = {
-      interactions: {
+      search: {
         searchStr: "this is a search",
-        selectedCourse: { id: -1 },
       },
+      interactions: { selectedCourse: { id: -1 } },
     };
     const store = configureStore(state);
     const { getByTestId } = render(
@@ -53,10 +53,10 @@ describe("Results", () => {
 
   it("clicking on course list item then displays section item", () => {
     const state = {
-      interactions: {
+      search: {
         searchStr: "this is a search",
-        selectedCourse: { id: -1 },
       },
+      interactions: { selectedCourse: { id: -1 } },
       courses: {
         list: [
           {
@@ -88,10 +88,10 @@ describe("Results", () => {
 
   it("clicking on back from section list then displays course list", () => {
     const state = {
-      interactions: {
+      search: {
         searchStr: "this is a search",
-        selectedCourse: { id: 1 },
       },
+      interactions: { selectedCourse: { id: 1 } },
     };
     const store = configureStore(state);
     const { getByTestId } = render(

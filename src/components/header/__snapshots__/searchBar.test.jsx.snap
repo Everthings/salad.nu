@@ -1,19 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SearchBar renders correctly 1`] = `
-<form
-  className="mr-3"
-  onSubmit={[Function]}
+<div
+  className="sc-AxjAm khphFd"
 >
-  <input
-    aria-label="Search"
-    autoFocus={true}
-    className="sc-AxjAm gGRDat form-control"
-    data-testid="search-bar"
-    onChange={[Function]}
-    placeholder="Search Courses (2019 Fall)"
-    type="search"
-    value=""
-  />
-</form>
+  <div
+    className="sc-AxjAm khphFd mr-3"
+  >
+    
+    
+  </div>
+  <form
+    className="flex-fill mr-3"
+    onSubmit={[Function]}
+  >
+    <input
+      aria-label="Search"
+      autoFocus={true}
+      className="sc-AxirZ ceVOFy form-control"
+      data-testid="search-bar"
+      onChange={[Function]}
+      placeholder="Search Courses (2019 Fall)"
+      type="search"
+      value=""
+    />
+  </form>
+</div>
 `;

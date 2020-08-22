@@ -47,12 +47,13 @@ export const loadSections = (courseId) => (dispatch, getState) => {
 
 // Selectors
 export const getSections = createSelector(
-  (state) => state.sections.list,
-  (sections) => sections
+  (state) => state.sections,
+  (sections) => sections.list
 );
 
 export const getSection = (id) =>
   createSelector(
-    (state) => state.sections.list,
-    (sections) => sections.find((section) => section.unique_id === id) || []
+    (state) => state.sections,
+    (sections) =>
+      sections.list.find((section) => section.unique_id === id) || []
   );

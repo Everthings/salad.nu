@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
 import { getSelectedCourse } from "./../../store/slices/interactions";
+import { getSearch, getSchool, getSubject } from "../../store/slices/search";
+import SchoolList from "./schoolList";
+import SubjectList from "./subjectList";
 import SectionList from "./sectionList";
 import CourseList from "./courseList";
 
@@ -23,12 +26,22 @@ const ResultsContainer = styled.div`
 `;
 
 const Results = () => {
+  const school = useSelector(getSchool);
+  const subject = useSelector(getSubject);
+  const search = useSelector(getSearch);
   const { id } = useSelector(getSelectedCourse);
-  const courseSelected = id !== -1;
+
+  const showSection = id !== -1;
+  const showCourse = !showSection && (search || (school && subject));
+  const showSubject = !showSection && !showCourse && school;
+  const showSchool = !showSection && !showCourse && !showSubject;
 
   return (
     <ResultsContainer>
-      {courseSelected ? <SectionList /> : <CourseList />}
+      {showSchool && <SchoolList />}
+      {showSubject && <SubjectList />}
+      {showCourse && <CourseList />}
+      {showSection && <SectionList />}
     </ResultsContainer>
   );
 };

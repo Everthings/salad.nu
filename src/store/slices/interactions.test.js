@@ -1,5 +1,4 @@
 import {
-  updateSearch,
   updateSelectedCourse,
   clearSelectedCourse,
   updateSelectedSection,
@@ -14,7 +13,6 @@ import {
   clearHoveredSection,
 } from "./interactions";
 import {
-  getSearch,
   getSelectedCourse,
   getSelectedSection,
   getCurrentBuilding,
@@ -44,20 +42,6 @@ describe("interactionsSlice", () => {
 
   beforeEach(() => {
     store = configureStore();
-  });
-
-  describe("updateSearch", () => {
-    it("should update to empty string if empty string is passed", () => {
-      store.dispatch(updateSearch(""));
-
-      expect(interactionsSlice().searchStr).toEqual("");
-    });
-
-    it("should update to string if string is passed", () => {
-      store.dispatch(updateSearch("string"));
-
-      expect(interactionsSlice().searchStr).toEqual("string");
-    });
   });
 
   describe("updateSelectedCourse", () => {
@@ -181,20 +165,6 @@ describe("interactionsSlice", () => {
       store.dispatch(clearHoveredSection());
 
       expect(interactionsSlice().hoveredSection).toEqual({ id: -1 });
-    });
-  });
-
-  describe("getSearch", () => {
-    it("should get correct search string", () => {
-      const state = {
-        interactions: {
-          searchStr: "string",
-        },
-      };
-
-      const searchStr = getSearch(state);
-
-      expect(searchStr).toEqual("string");
     });
   });
 

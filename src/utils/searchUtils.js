@@ -48,4 +48,12 @@ const filterCourses = (searchStr, courses) => {
   return filterdCourses;
 };
 
-export { filterCourses, getMaximumStrPartLength };
+const filterCoursesBySchoolSubject = (school, subject, courses) => {
+  const filterdCourses = courses.filter(
+    ({ school: sch, subject: sub }) =>
+      (!school || sch === school) && (!subject || sub === subject)
+  );
+  return filterdCourses || [];
+};
+
+export { filterCourses, filterCoursesBySchoolSubject, getMaximumStrPartLength };

@@ -13,7 +13,6 @@ const defaultHoveredSection = { id: -1 };
 const slice = createSlice({
   name: "interactions",
   initialState: {
-    searchStr: "",
     selectedCourse: defaultSelectedCourse,
     selectedSection: defaultSelectedSection,
     currentBuilding: defaultBuilding,
@@ -21,9 +20,6 @@ const slice = createSlice({
     hoveredSection: defaultHoveredSection,
   },
   reducers: {
-    updatedSearch: (interactions, action) => {
-      interactions.searchStr = action.payload.searchStr;
-    },
     updatedSelectedCourse: (interactions, action) => {
       interactions.selectedCourse = action.payload;
     },
@@ -65,7 +61,6 @@ const slice = createSlice({
 });
 
 const {
-  updatedSearch,
   updatedSelectedCourse,
   clearedSelectedCourse,
   updatedSelectedSection,
@@ -81,10 +76,6 @@ const {
 export default slice.reducer;
 
 // Action Creators
-export const updateSearch = (searchStr) => {
-  return updatedSearch({ searchStr });
-};
-
 export const updateSelectedCourse = (id) => {
   return updatedSelectedCourse({ id });
 };
@@ -141,11 +132,6 @@ export const clearHoveredSection = () => {
 };
 
 // Selectors
-export const getSearch = createSelector(
-  (state) => state.interactions,
-  (interactions) => interactions.searchStr
-);
-
 export const getSelectedCourse = createSelector(
   (state) => state.interactions,
   (interactions) => interactions.selectedCourse

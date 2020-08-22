@@ -13,10 +13,12 @@ const getHash = (str) => {
   return hash;
 };
 
-const getColor = (str) => {
+const getColor = (str, alpha = 1) => {
   const seed = getHash(str);
   const color = randomColor({
     luminosity: "light",
+    format: "rgba",
+    alpha,
     seed,
   });
 

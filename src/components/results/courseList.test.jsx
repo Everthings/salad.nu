@@ -13,7 +13,7 @@ ReactDOM.createPortal = (node) => node;
 describe("CourseList", () => {
   it("renders course list correctly with data", () => {
     const state = {
-      interactions: { searchStr: "some search" },
+      search: { searchStr: "some search" },
       courses: {
         list: [
           {
@@ -54,7 +54,7 @@ describe("CourseList", () => {
 
   it("renders 'No Results' if sections list is empty and search string is not empty", () => {
     const state = {
-      interactions: { searchStr: "some search" },
+      search: { searchStr: "some search" },
       courses: {
         list: [],
       },
@@ -77,7 +77,7 @@ describe("CourseList", () => {
 
   it("renders 'Continue typing...' if sections list is empty and search string is not empty", () => {
     const state = {
-      interactions: { searchStr: "t h i s i s t o o s h o r t" },
+      search: { searchStr: "t h i s i s t o o s h o r t" },
       courses: {
         list: [],
       },

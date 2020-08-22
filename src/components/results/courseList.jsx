@@ -2,14 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { getCourses } from "../../store/slices/courses";
-import {
-  getSearch,
-  updateSelectedCourse,
-} from "../../store/slices/interactions";
-import { loadSections } from "../../store/slices/sections";
-import { loadDiscussions } from "../../store/slices/discussions";
-import { getMaximumStrPartLength } from "../../utils/searchUtils";
-import { MIN_SEARCH_LENGTH } from "../../configs";
+import { updateSelectedCourse } from "./../../store/slices/interactions";
+import { getSearch, getSchool, getSubject } from "./../../store/slices/search";
+import { loadSections } from "./../../store/slices/sections";
+import { loadDiscussions } from "./../../store/slices/discussions";
+import { getMaximumStrPartLength } from "./../../utils/searchUtils";
+import { MIN_SEARCH_LENGTH } from "./../../configs";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
 
@@ -28,6 +26,9 @@ const CourseList = () => {
   const dispatch = useDispatch();
   const courses = useSelector(getCourses);
 
+  const school = useSelector(getSchool);
+  const subject = useSelector(getSubject);
+
   const search = useSelector(getSearch);
   const searchLength = getMaximumStrPartLength(search);
 
@@ -37,7 +38,8 @@ const CourseList = () => {
   const noResults = searchLength >= MIN_SEARCH_LENGTH && courses.length === 0;
 
   const shouldDisplaySections =
-    searchLength >= MIN_SEARCH_LENGTH && courses.length > 0;
+    (school && subject && !noResults && !shouldContinueTyping) ||
+    (searchLength >= MIN_SEARCH_LENGTH && courses.length > 0);
 
   const handleClick = ({ course_id }) => {
     dispatch(updateSelectedCourse(course_id));

@@ -26,9 +26,12 @@ describe("coursesSlice", () => {
     });
 
     it("should load empty list into store if string doesn't match", async () => {
-      await store.dispatch(
-        loadCourses("this is not a valid string: qwertyuiop[]")
-      );
+      const state = {
+        search: { searchStr: "this is not a valid string: qwertyuiop[]" },
+      };
+      store = configureStore(state);
+
+      await store.dispatch(loadCourses());
 
       expect(coursesSlice().list).toHaveLength(0);
     });

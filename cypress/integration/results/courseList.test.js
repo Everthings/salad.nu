@@ -3,15 +3,6 @@ describe("CourseList", () => {
     cy.visit("http://localhost:3000");
   });
 
-  it("should display no text if search string is empty", () => {
-    cy.get("[data-testid=course-list]")
-      .contains("No Results")
-      .should("not.exist");
-    cy.get("[data-testid=course-list]")
-      .contains("Continue typing...")
-      .should("not.exist");
-  });
-
   it("should display 'No Results' if no results for search", () => {
     cy.get("[data-testid=search-bar]").type(
       "there will be no results for this string"
