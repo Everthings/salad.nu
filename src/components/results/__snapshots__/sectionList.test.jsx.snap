@@ -3,31 +3,31 @@
 exports[`SectionList renders section list correctly with data 1`] = `
 Array [
   <div
-    className="sc-AxmLO cnKbfI"
+    className="sc-fzozJi kDpukd"
     data-testid="section-list"
   >
     <div
-      className="sc-Axmtr eXOmus"
+      className="sc-AxmLO hOgrnt"
     >
       <button
-        className="sc-fzoLsD crtpry btn btn-danger"
+        className="sc-fzpans djOcUS btn btn-danger"
         data-testid="section-list-back-button"
         onClick={[Function]}
       >
         Back
       </button>
       <h4
-        className="sc-fzpans vUssG"
+        className="sc-fzplWN eRyGHn"
         data-testid="section-list-title"
       >
         
       </h4>
       <hr
-        className="sc-fzozJi ciutFt"
+        className="sc-fzoLsD gKyLDz"
       />
     </div>
     <div
-      className="sc-AxheI eBXIT"
+      className="sc-Axmtr iiJRaA"
     >
       4
        result(s)
@@ -40,39 +40,39 @@ Array [
       onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        className="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          className="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 1
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          className="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Name 1
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Building 1
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Mode 1
         </p>
@@ -86,39 +86,39 @@ Array [
       onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        className="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          className="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 2
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          className="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Name 2
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Building 2
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Mode 2
         </p>
@@ -132,39 +132,39 @@ Array [
       onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        className="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          className="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 3
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          className="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Name 3
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Building 3
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Mode 3
         </p>
@@ -178,39 +178,39 @@ Array [
       onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        className="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          className="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 4
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          className="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Name 4
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Building 4
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          className="sc-AxhUy qxWOA"
         >
           Mode 4
         </p>

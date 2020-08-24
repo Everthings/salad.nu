@@ -2,22 +2,17 @@
 
 exports[`SearchBar renders correctly 1`] = `
 <div
-  className="sc-AxjAm khphFd"
+  className="sc-AxjAm buOvWW mr-3"
 >
-  <div
-    className="sc-AxjAm khphFd mr-3"
-  >
-    
-    
-  </div>
+  
   <form
-    className="flex-fill mr-3"
+    className="flex-fill"
     onSubmit={[Function]}
   >
     <input
       aria-label="Search"
       autoFocus={true}
-      className="sc-AxirZ ceVOFy form-control"
+      className="sc-AxiKw fZBoEY form-control"
       data-testid="search-bar"
       onChange={[Function]}
       placeholder="Search Courses (2019 Fall)"

@@ -18,6 +18,10 @@ const Card = styled.div`
   }
 `;
 
+const CardBody = styled.div`
+  padding: 0.9rem;
+`;
+
 const Line = styled.hr`
   border-top: ${({ theme }) => `0.2rem solid ${theme.colors.infoCardDivider}`};
   margin-top: 0.5rem;
@@ -78,7 +82,7 @@ const InfoCard = ({
       className={disabled ? "disabled" : ""}
       data-testid="info-card"
     >
-      <div className="card-body">
+      <CardBody>
         <Title data-testid="info-card-title">{title}</Title>
         <Line />
         {disabled && <RedText>{disabled}</RedText>}
@@ -94,7 +98,7 @@ const InfoCard = ({
             More Info
           </Button>
         )}
-      </div>
+      </CardBody>
     </Card>
   );
 };

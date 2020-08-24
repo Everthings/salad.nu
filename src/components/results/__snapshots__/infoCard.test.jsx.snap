@@ -6,29 +6,29 @@ exports[`InfoCard renders info card correctly 1`] = `
   data-testid="info-card"
 >
   <div
-    className="card-body"
+    className="sc-AxirZ kEmsgL"
   >
     <h5
-      className="sc-AxiKw iiwGCz"
+      className="sc-AxhCb pwsED"
       data-testid="info-card-title"
     >
       Title
     </h5>
     <hr
-      className="sc-AxirZ grXYcG"
+      className="sc-AxiKw cwDgDy"
     />
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 1
     </p>
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 2
     </p>
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 3
     </p>
@@ -42,34 +42,34 @@ exports[`InfoCard renders info card correctly when disabled 1`] = `
   data-testid="info-card"
 >
   <div
-    className="card-body"
+    className="sc-AxirZ kEmsgL"
   >
     <h5
-      className="sc-AxiKw iiwGCz"
+      className="sc-AxhCb pwsED"
       data-testid="info-card-title"
     >
       Title
     </h5>
     <hr
-      className="sc-AxirZ grXYcG"
+      className="sc-AxiKw cwDgDy"
     />
     <p
-      className="sc-AxhUy ikbzdm"
+      className="sc-AxgMl kdZbdo"
     >
       disabled
     </p>
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 1
     </p>
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 2
     </p>
     <p
-      className="sc-AxhCb kqIPop"
+      className="sc-AxhUy qxWOA"
     >
       info 3
     </p>

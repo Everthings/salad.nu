@@ -7,6 +7,7 @@ import {
   getSchool,
   getSubject,
   updateSearch,
+  clearSearch,
   clearSchool,
   clearSubject,
 } from "./../../store/slices/search";
@@ -19,6 +20,16 @@ import { getColor } from "./../../utils/colorUtils";
 import { getMaximumStrPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 
+const InputContainer = styled.div`
+  background-color: ${({ theme }) => `${theme.colors.searchBar}`};
+  border: ${({ theme }) => `3px solid ${theme.colors.searchBarBorder}`};
+
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+`;
+
 const FlexContainer = styled.div`
   height: 100%;
   display: flex;
@@ -30,7 +41,14 @@ const Input = styled.input`
   height: 3rem;
   background-color: ${({ theme }) => `${theme.colors.searchBar}`};
   color: ${({ theme }) => `${theme.colors.searchText}`};
-  border: ${({ theme }) => `3px solid ${theme.colors.searchBarBorder}`};
+  border: 0;
+  border-radius: 0;
+
+  :focus {
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 0;
+  }
 `;
 
 const Tag = styled.div`
@@ -109,6 +127,7 @@ const SearchBar = () => {
     dispatch(clearSubject());
     dispatch(clearSchool());
     dispatch(clearSelectedCourse());
+    dispatch(clearSearch());
 
     setSchoolHovered(false);
   };
@@ -116,6 +135,7 @@ const SearchBar = () => {
   const handleSubjectClick = () => {
     dispatch(clearSubject());
     dispatch(clearSelectedCourse());
+    dispatch(clearSearch());
 
     setSubjectHovered(false);
   };
@@ -140,35 +160,37 @@ const SearchBar = () => {
   const subjectTagStyle = subjectHovered ? "hidden" : "";
 
   return (
-    <FlexContainer>
-      <FlexContainer className="mr-3">
-        {school && (
-          <Tag
-            style={{ backgroundColor: `${getColor(school, 0.65)}` }}
-            onClick={handleSchoolClick}
-            onMouseOver={handleSchoolMouseOver}
-            onMouseLeave={handleSchoolMouseLeave}
-          >
-            <TagText className={schoolTagStyle}>{school}</TagText>
-            <Overlay>{schoolHovered && "Ⓧ"}</Overlay>
-          </Tag>
-        )}
-        {subject && (
-          <>
-            <Separator className="ml-1 mr-1">›</Separator>
+    <InputContainer className="mr-3">
+      {school && (
+        <FlexContainer className="ml-2 mr-2">
+          {school && (
             <Tag
-              style={{ backgroundColor: `${getColor(subject, 0.65)}` }}
-              onClick={handleSubjectClick}
-              onMouseOver={handleSubjectMouseOver}
-              onMouseLeave={handleSubjectMouseLeave}
+              style={{ backgroundColor: `${getColor(school, 0.65)}` }}
+              onClick={handleSchoolClick}
+              onMouseOver={handleSchoolMouseOver}
+              onMouseLeave={handleSchoolMouseLeave}
             >
-              <TagText className={subjectTagStyle}>{subject}</TagText>
-              <Overlay>{subjectHovered && "Ⓧ"}</Overlay>
+              <TagText className={schoolTagStyle}>{school}</TagText>
+              <Overlay>{schoolHovered && "╳"}</Overlay>
             </Tag>
-          </>
-        )}
-      </FlexContainer>
-      <form className="flex-fill mr-3" onSubmit={handleSubmit}>
+          )}
+          {subject && (
+            <>
+              <Separator className="ml-1 mr-1">›</Separator>
+              <Tag
+                style={{ backgroundColor: `${getColor(subject, 0.65)}` }}
+                onClick={handleSubjectClick}
+                onMouseOver={handleSubjectMouseOver}
+                onMouseLeave={handleSubjectMouseLeave}
+              >
+                <TagText className={subjectTagStyle}>{subject}</TagText>
+                <Overlay>{subjectHovered && "╳"}</Overlay>
+              </Tag>
+            </>
+          )}
+        </FlexContainer>
+      )}
+      <form className="flex-fill" onSubmit={handleSubmit}>
         <Input
           autoFocus
           className="form-control"
@@ -180,7 +202,7 @@ const SearchBar = () => {
           data-testid="search-bar"
         />
       </form>
-    </FlexContainer>
+    </InputContainer>
   );
 };
 

@@ -17,6 +17,12 @@ const ScrollContainer = styled.div`
   width: 100%;
 `;
 
+const Heading = styled.h4`
+  text-align: center;
+  color: ${({ theme }) => `${theme.colors.sectionsListText}`};
+  margin-top: 0.5rem;
+`;
+
 const Text = styled.div`
   text-align: center;
   color: ${({ theme }) => `${theme.colors.coursesListText}`};
@@ -51,7 +57,7 @@ const CourseList = () => {
   const nameFn = ({ title }) => title;
 
   return (
-    <ScrollManager scrollKey="courseList">
+    <ScrollManager scrollKey={`courseList-${search}-${school}-${subject}`}>
       {({ connectScrollTarget }) => (
         <ScrollContainer ref={connectScrollTarget} data-testid="course-list">
           {shouldContinueTyping && <Text>Continue typing...</Text>}
@@ -64,13 +70,16 @@ const CourseList = () => {
             </Text>
           )}
           {shouldDisplaySections && (
-            <CardList
-              list={courses}
-              idKey={"unique_id"}
-              titleFn={titleFn}
-              textFns={[nameFn]}
-              handleClick={handleClick}
-            />
+            <>
+              <Heading>COURSES</Heading>
+              <CardList
+                list={courses}
+                idKey={"unique_id"}
+                titleFn={titleFn}
+                textFns={[nameFn]}
+                handleClick={handleClick}
+              />
+            </>
           )}
         </ScrollContainer>
       )}

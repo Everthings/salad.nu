@@ -44,7 +44,7 @@ const Button = styled.button`
 
 const Body = styled.div`
   margin: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 `;
 
 const Info = styled.div`

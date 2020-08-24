@@ -13,9 +13,10 @@ const ScrollContainer = styled.div`
   width: 100%;
 `;
 
-const Text = styled.h4`
+const Heading = styled.h4`
   text-align: center;
   color: ${({ theme }) => `${theme.colors.sectionsListText}`};
+  margin-top: 0.5rem;
 `;
 
 const SchoolList = () => {
@@ -34,7 +35,7 @@ const SchoolList = () => {
     <ScrollManager scrollKey="schoolList">
       {({ connectScrollTarget }) => (
         <ScrollContainer ref={connectScrollTarget} data-testid="school-list">
-          <Text>SCHOOLS</Text>
+          <Heading>SCHOOLS</Heading>
           <CardList
             list={schools}
             idKey={"symbol"}

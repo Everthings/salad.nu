@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
 
+const defaultSearch = "";
 const defaultSchool = "";
 const defaultSubject = "";
 
@@ -10,11 +11,14 @@ const slice = createSlice({
   initialState: {
     school: defaultSchool,
     subject: defaultSubject,
-    searchStr: "",
+    searchStr: defaultSearch,
   },
   reducers: {
     updatedSearch: (interactions, action) => {
       interactions.searchStr = action.payload.searchStr;
+    },
+    clearedSearch: (interactions, action) => {
+      interactions.searchStr = defaultSearch;
     },
     updatedSchool: (interactions, action) => {
       interactions.school = action.payload.school;
@@ -33,6 +37,7 @@ const slice = createSlice({
 
 const {
   updatedSearch,
+  clearedSearch,
   updatedSchool,
   clearedSchool,
   updatedSubject,
@@ -43,6 +48,10 @@ export default slice.reducer;
 // Action Creators
 export const updateSearch = (searchStr) => {
   return updatedSearch({ searchStr });
+};
+
+export const clearSearch = () => {
+  return clearedSearch();
 };
 
 export const updateSchool = (school) => {

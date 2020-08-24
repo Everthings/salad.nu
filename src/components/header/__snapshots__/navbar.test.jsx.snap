@@ -2,29 +2,24 @@
 
 exports[`NavBar renders correctly 1`] = `
 <nav
-  className="sc-AxmLO hVaIIT navbar navbar-light"
+  className="sc-fzozJi ksOHVC navbar navbar-light"
   data-testid="nav-bar"
 >
   <div
     className="flex-fill"
   >
     <div
-      className="sc-AxjAm khphFd"
+      className="sc-AxjAm buOvWW mr-3"
     >
-      <div
-        className="sc-AxjAm khphFd mr-3"
-      >
-        
-        
-      </div>
+      
       <form
-        className="flex-fill mr-3"
+        className="flex-fill"
         onSubmit={[Function]}
       >
         <input
           aria-label="Search"
           autoFocus={true}
-          className="sc-AxirZ ceVOFy form-control"
+          className="sc-AxiKw fZBoEY form-control"
           data-testid="search-bar"
           onChange={[Function]}
           placeholder="Search Courses "

@@ -107,20 +107,6 @@ const AboutPage = () => {
           </a>{" "}
           .
         </Text>
-        <Text>
-          Another quick note: I've received a lot of feature requests for the
-          ability to browse courses by school, subject, etc... I unfortunately
-          won't have time to add this functionality this quater, but you can
-          expect to see it sometime in future. For now, I suggest using the{" "}
-          <a
-            href="https://www.northwestern.edu/class-descriptions/4800/index.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            class-descriptions site
-          </a>{" "}
-          .
-        </Text>
         <Text>Andy '23</Text>
         <Button className="btn mb-3">
           <Link to="/" data-testid="about-back-button">
