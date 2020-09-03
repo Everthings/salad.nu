@@ -8,7 +8,7 @@ import { getDiscussion } from "./../../fakeServices/discussionsService";
 import { getBuilding } from "./../../fakeServices/buildingsService";
 
 const api = ({ dispatch }) => (next) => async (action) => {
-  if (action.type === actions.apiRequested.type) {
+  if (action.type === actions.API_REQUESTED.type) {
     const {
       resource,
       method,
@@ -41,12 +41,12 @@ const api = ({ dispatch }) => (next) => async (action) => {
         response = await getBuilding(data);
       }
 
-      dispatch(actions.apiSuccess(response));
+      dispatch(actions.API_SUCCESS(response));
 
       if (onSuccess)
         dispatch({ type: onSuccess, payload: { data: response, ...rest } });
     } catch (error) {
-      dispatch(actions.apiFailed(error.message));
+      dispatch(actions.API_FAILED(error.message));
 
       if (onError) dispatch({ type: onError, payload: error.message });
     }

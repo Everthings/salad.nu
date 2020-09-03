@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { loadCourses } from "./../../store/slices/courses";
-import { getSchool, updateSubject } from "./../../store/slices/search";
-import { getSubjects } from "./../../store/slices/subjects";
+import { getSchool } from "./../../store/reducers/search";
+import { getSubjects } from "./../../store/reducers/subjects";
+import { updateSubject } from "./../../store/actions/searchActions";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
 
@@ -25,8 +25,7 @@ const SubjectList = () => {
   const subjects = useSelector(getSubjects);
 
   const handleClick = ({ symbol }) => {
-    dispatch(updateSubject(symbol));
-    dispatch(loadCourses());
+    dispatch(updateSubject(school, symbol));
   };
 
   const titleFn = ({ symbol }) => symbol;

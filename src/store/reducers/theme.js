@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createSelector } from "reselect";
+import { TOGGLED_THEME } from "../actions/themeActions";
 
 const defaultTheme = "green";
 
@@ -9,21 +10,14 @@ const slice = createSlice({
   initialState: {
     currentTheme: defaultTheme,
   },
-  reducers: {
-    toggledTheme: (theme, action) => {
-      const newTheme = action.payload.theme === "green" ? "dark" : "green";
-      theme.currentTheme = newTheme;
+  reducers: {},
+  extraReducers: {
+    [TOGGLED_THEME]: (theme, action) => {
+      theme.currentTheme = theme.currentTheme === "green" ? "dark" : "green";
     },
   },
 });
-
-const { toggledTheme } = slice.actions;
 export default slice.reducer;
-
-// Action Creators
-export const toggleTheme = (theme) => {
-  return toggledTheme({ theme });
-};
 
 // Selectors
 export const getTheme = createSelector(

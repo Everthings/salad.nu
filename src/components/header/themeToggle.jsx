@@ -1,26 +1,21 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleTheme, getTheme } from "./../../store/slices/theme";
+import { toggleTheme } from "./../../store/actions/themeActions";
+import { getTheme } from "./../../store/reducers/theme";
 import Toggle from "react-toggle";
 
 const ThemeToggle = () => {
   const dispatch = useDispatch();
   const theme = useSelector(getTheme);
 
-  const checked = theme === "green";
-
-  const handleToggle = () => {
-    dispatch(toggleTheme(theme));
-  };
-
   return (
     <Toggle
-      checked={checked}
+      checked={theme === "green"}
       icons={{
         checked: null,
         unchecked: null,
       }}
-      onChange={handleToggle}
+      onChange={() => dispatch(toggleTheme())}
       data-testid="theme-toggle"
     />
   );

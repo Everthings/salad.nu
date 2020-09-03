@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
-import { loadTerm } from "./store/slices/term";
-import { loadSchools } from "./store/slices/schools";
+import { loadTerm } from "./store/actions/termActions";
+import { loadSchools } from "./store/actions/schoolActions";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Body from "./components/body";

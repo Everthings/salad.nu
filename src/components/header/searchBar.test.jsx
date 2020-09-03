@@ -5,6 +5,10 @@ import { Provider } from "react-redux";
 import configureStore from "./../../store/configureStore";
 import Theme from "./../themes/theme";
 import SearchBar from "./searchBar";
+import * as coursesService from "./../../fakeServices/coursesService";
+
+jest.mock("./../../fakeServices/coursesService");
+coursesService.getCourses.mockResolvedValue([]);
 
 const initialState = {
   term: { currentTerm: { name: "2019 Fall" } },
@@ -69,22 +73,6 @@ describe("SearchBar", () => {
     fireEvent.change(input, { target: { value: "s" } });
 
     expect(input.value).toEqual("s");
-  });
-
-  it("should display 'search' when 'search' in input", () => {
-    const store = configureStore(initialState);
-    const { getByTestId } = render(
-      <Provider store={store}>
-        <Theme>
-          <SearchBar />
-        </Theme>
-      </Provider>
-    );
-
-    const input = getByTestId("search-bar");
-    fireEvent.change(input, { target: { value: "search" } });
-
-    expect(input.value).toEqual("search");
   });
 
   it("should display 'search' when 'search' in input", () => {

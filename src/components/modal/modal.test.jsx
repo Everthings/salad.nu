@@ -16,7 +16,7 @@ describe("Modal", () => {
   it("renders modal correctly", () => {
     const state = {
       interactions: {
-        selectedSection: {
+        sectionInfo: {
           info: {
             title: "Title 1",
             subject: "Subject 1",
@@ -49,9 +49,9 @@ describe("Modal", () => {
   it("renders remove if section is removable", () => {
     const state = {
       interactions: {
-        selectedSection: {
+        sectionInfo: {
           info: {
-            removable: true,
+            scheduled: true,
           },
         },
       },
@@ -75,9 +75,9 @@ describe("Modal", () => {
   it("does not render remove if section is not removable", () => {
     const state = {
       interactions: {
-        selectedSection: {
+        sectionInfo: {
           info: {
-            removable: false,
+            scheduled: false,
           },
         },
       },

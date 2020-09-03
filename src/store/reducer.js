@@ -1,14 +1,14 @@
 import { combineReducers } from "redux";
-import termReducer from "./slices/term";
-import themeReducer from "./slices/theme";
-import schoolsReducer from "./slices/schools";
-import subjectsReducer from "./slices/subjects";
-import coursesReducer from "./slices/courses";
-import sectionsReducer from "./slices/sections";
-import discussionsReducer from "./slices/discussions";
-import searchReducer from "./slices/search";
-import interactionsReducer from "./slices/interactions";
-import scheduleReducer from "./slices/schedule";
+import termReducer from "./reducers/term";
+import themeReducer from "./reducers/theme";
+import schoolsReducer from "./reducers/schools";
+import subjectsReducer from "./reducers/subjects";
+import coursesReducer from "./reducers/courses";
+import sectionsReducer from "./reducers/sections";
+import discussionsReducer from "./reducers/discussions";
+import searchReducer from "./reducers/search";
+import interactionsReducer from "./reducers/interactions";
+import scheduleReducer from "./reducers/schedule";
 
 export default combineReducers({
   term: termReducer,

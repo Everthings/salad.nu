@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getScheduledSections } from "./../../store/slices/schedule";
+import { getScheduledSections } from "./../../store/reducers/schedule";
 import { exportSchedule2CSV } from "./../../utils/exportUtils";
 import { CSVLink } from "react-csv";
 

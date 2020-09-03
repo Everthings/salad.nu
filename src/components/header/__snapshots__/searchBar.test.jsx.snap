@@ -2,7 +2,7 @@
 
 exports[`SearchBar renders correctly 1`] = `
 <div
-  className="sc-AxjAm buOvWW mr-3"
+  className="sc-AxhCb ihkWvl mr-3"
 >
   
   <form
@@ -12,7 +12,7 @@ exports[`SearchBar renders correctly 1`] = `
     <input
       aria-label="Search"
       autoFocus={true}
-      className="sc-AxiKw fZBoEY form-control"
+      className="sc-AxgMl deA-Dln form-control"
       data-testid="search-bar"
       onChange={[Function]}
       placeholder="Search Courses (2019 Fall)"

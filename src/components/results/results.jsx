@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getSelectedCourse } from "./../../store/slices/interactions";
-import { getSearch, getSchool, getSubject } from "../../store/slices/search";
+import { getSelectedCourse } from "./../../store/reducers/interactions";
+import { getSearch, getSchool, getSubject } from "../../store/reducers/search";
 import SchoolList from "./schoolList";
 import SubjectList from "./subjectList";
 import SectionList from "./sectionList";
@@ -31,19 +31,14 @@ const Results = () => {
   const search = useSelector(getSearch);
   const { id } = useSelector(getSelectedCourse);
 
-  const showSection = id !== -1;
-  const showCourse = !showSection && (search || (school && subject));
-  const showSubject = !showSection && !showCourse && school;
-  const showSchool = !showSection && !showCourse && !showSubject;
+  const getList = () => {
+    if (id !== -1) return <SectionList />;
+    else if (search || (school && subject)) return <CourseList />;
+    else if (school) return <SubjectList />;
+    else return <SchoolList />;
+  };
 
-  return (
-    <ResultsContainer>
-      {showSchool && <SchoolList />}
-      {showSubject && <SubjectList />}
-      {showCourse && <CourseList />}
-      {showSection && <SectionList />}
-    </ResultsContainer>
-  );
+  return <ResultsContainer>{getList()}</ResultsContainer>;
 };
 
 export default Results;

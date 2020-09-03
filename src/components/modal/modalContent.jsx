@@ -74,14 +74,14 @@ const ModalContent = ({
   start_time,
   end_time,
   course_descriptions,
-  removable,
+  scheduled,
 }) => {
   return (
     <Content>
       <Heading>
         <HeadingText data-testid="modal-heading">{name}</HeadingText>
         <ButtonsContainer>
-          {removable && (
+          {scheduled && (
             <Button
               className="btn btn-outline-danger"
               onClick={handleRemove}

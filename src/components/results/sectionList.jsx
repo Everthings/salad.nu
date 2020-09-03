@@ -2,22 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "./../../store/slices/sections";
-import { getDiscussions } from "./../../store/slices/discussions";
+import { getSections } from "./../../store/reducers/sections";
+import { getDiscussions } from "./../../store/reducers/discussions";
 import {
-  clearSelectedCourse,
-  updateSelectedSection,
-  updateCurrentBuilding,
-  updateNoCurrentBuilding,
-  clearCurrentBuilding,
-  updateHoveredSection,
-  clearHoveredSection,
-  clearSelectedSection,
-} from "../../store/slices/interactions";
-import {
-  getScheduledSections,
-  addSection,
-} from "./../../store/slices/schedule";
+  unselectCourse,
+  hoverSectionCard,
+  unhoverSectionCard,
+} from "./../../store/actions/interactionActions";
+import { addSectionToSchedule } from "./../../store/actions/scheduleActions";
+import { showSectionInfo } from "./../../store/actions/interactionActions";
+import { getScheduledSections } from "./../../store/reducers/schedule";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import { hasValidDateTime } from "./../../utils/validationUtils";
@@ -62,26 +56,17 @@ const SectionList = () => {
 
   const name = sections.length > 0 ? getName(sections[0]) : "";
 
-  const handleBackClick = () => {
-    dispatch(clearSelectedCourse());
-  };
-
-  const handleMouseOver = ({ room, unique_id }) => {
-    dispatch(updateHoveredSection(unique_id));
-    let hasLocation = room && room.building_id;
-    if (!hasLocation) dispatch(updateNoCurrentBuilding());
-    else dispatch(updateCurrentBuilding(room.building_id));
+  const handleMouseOver = ({ unique_id, room }) => {
+    dispatch(hoverSectionCard(unique_id, room));
   };
 
   const handleMouseLeave = () => {
-    dispatch(clearHoveredSection());
-    dispatch(clearCurrentBuilding());
+    dispatch(unhoverSectionCard());
   };
 
   const handleClick = (section) => {
-    dispatch(clearSelectedSection());
-    dispatch(clearHoveredSection());
-    dispatch(addSection(section));
+    dispatch(addSectionToSchedule(section));
+
     addToast(`Added ${name}`, {
       appearance: "success",
       autoDismiss: true,
@@ -128,7 +113,7 @@ const SectionList = () => {
     course_descriptions && course_descriptions.length > 0;
 
   const moreInfoClick = (sectionInfo) => {
-    dispatch(updateSelectedSection(sectionInfo));
+    dispatch(showSectionInfo(sectionInfo));
   };
 
   return (
@@ -136,7 +121,7 @@ const SectionList = () => {
       <Header>
         <Button
           className="btn btn-danger"
-          onClick={handleBackClick}
+          onClick={() => dispatch(unselectCourse())}
           data-testid="section-list-back-button"
         >
           Back

@@ -1,4 +1,8 @@
-import { filterCourses, getMaximumStrPartLength } from "./searchUtils";
+import {
+  filterCourses,
+  filterCoursesBySchoolSubject,
+  getMaximumStrPartLength,
+} from "./searchUtils";
 
 describe("searchUtils", () => {
   describe("filterCourses", () => {
@@ -77,7 +81,6 @@ describe("searchUtils", () => {
       const courses = [
         { title: "search some", subject: "subject", number: "#" },
         { title: "-", subject: "-", number: "some search" },
-
         { title: "1", subject: "subject", number: "#" },
       ];
       const filtered = filterCourses(searchStr, courses);
@@ -101,6 +104,64 @@ describe("searchUtils", () => {
         { title: "-", subject: "-", number: "some search 404" },
         { title: "search some 404", subject: "subject", number: "#" },
       ]);
+    });
+  });
+
+  describe("filterCoursesBySchoolSubject", () => {
+    const courses = [
+      { title: "1", school: "MEAS", subject: "COMP_SCI" },
+      { title: "2", school: "MEAS", subject: "BMD_ENG" },
+      { title: "3", school: "WCAS", subject: "PHIL" },
+    ];
+
+    it("should give entire list if school and subject are empty strings", () => {
+      const school = "";
+      const subject = "";
+
+      const filtered = filterCoursesBySchoolSubject(school, subject, courses);
+
+      expect(filtered).toEqual(courses);
+    });
+
+    it("should give courses matching school if school is specified but subject is empty string", () => {
+      const school = "MEAS";
+      const subject = "";
+
+      const filtered = filterCoursesBySchoolSubject(school, subject, courses);
+
+      expect(filtered).toEqual([
+        { title: "1", school: "MEAS", subject: "COMP_SCI" },
+        { title: "2", school: "MEAS", subject: "BMD_ENG" },
+      ]);
+    });
+
+    it("should give courses matching school and subject if both school and subjects are specified", () => {
+      const school = "MEAS";
+      const subject = "COMP_SCI";
+
+      const filtered = filterCoursesBySchoolSubject(school, subject, courses);
+
+      expect(filtered).toEqual([
+        { title: "1", school: "MEAS", subject: "COMP_SCI" },
+      ]);
+    });
+
+    it("should give empty list if school does not exist", () => {
+      const school = "THIS DOES NOT EXIST";
+      const subject = "";
+
+      const filtered = filterCoursesBySchoolSubject(school, subject, courses);
+
+      expect(filtered).toEqual([]);
+    });
+
+    it("should give empty list if subject does not exist", () => {
+      const school = "MEAS";
+      const subject = "THIS DOES NOT EXIST";
+
+      const filtered = filterCoursesBySchoolSubject(school, subject, courses);
+
+      expect(filtered).toEqual([]);
     });
   });
 
