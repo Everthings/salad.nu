@@ -76,6 +76,29 @@ const ModalContent = ({
   course_descriptions,
   scheduled,
 }) => {
+  // combine course_descriptions with some additional info
+  const additional_descriptions = [];
+  if (title) additional_descriptions.push({ name: "Title", desc: title });
+  if (instructor && instructor.name)
+    additional_descriptions.push({ name: "Teacher", desc: instructor.name });
+  if (start_time && end_time)
+    additional_descriptions.push({
+      name: "Time Slot",
+      desc: `${parseTime2Standard(start_time)} - ${parseTime2Standard(
+        end_time
+      )}`,
+    });
+  if (room && room.building_name)
+    additional_descriptions.push({
+      name: "Location",
+      desc: room.building_name,
+    });
+  if (mode) additional_descriptions.push({ name: "Mode", desc: mode });
+
+  let all_descriptions = [...additional_descriptions];
+  if (course_descriptions)
+    all_descriptions = [...all_descriptions, ...course_descriptions];
+
   return (
     <Content>
       <Heading>
@@ -100,42 +123,8 @@ const ModalContent = ({
         </ButtonsContainer>
       </Heading>
       <Body>
-        {title && (
-          <Info>
-            <NameText>Title</NameText>
-            <DescriptionText>{title}</DescriptionText>
-          </Info>
-        )}
-        {instructor && instructor.name && (
-          <Info>
-            <NameText>Teacher</NameText>
-            <DescriptionText>{instructor.name}</DescriptionText>
-          </Info>
-        )}
-        {start_time && end_time && (
-          <Info>
-            <NameText>Time Slot</NameText>
-            <DescriptionText>
-              {`${parseTime2Standard(start_time)} - ${parseTime2Standard(
-                end_time
-              )}`}
-            </DescriptionText>
-          </Info>
-        )}
-        {room && room.building_name && (
-          <Info>
-            <NameText>Location</NameText>
-            <DescriptionText>{room.building_name}</DescriptionText>
-          </Info>
-        )}
-        {mode && (
-          <Info>
-            <NameText>Mode</NameText>
-            <DescriptionText>{mode}</DescriptionText>
-          </Info>
-        )}
-        {course_descriptions &&
-          course_descriptions.map((description) => {
+        {all_descriptions &&
+          all_descriptions.map((description) => {
             return (
               <Info key={description.name}>
                 <NameText>{description.name}</NameText>

@@ -26,7 +26,7 @@ exports[`AboutPage renders about page correctly 1`] = `
     <p
       className="sc-AxhCb eFYatD"
     >
-      This is personal project I've been developing over the summer to simplify course scheduling at NU. It started mainly as a way for me to learn react, and I've since decided to release it as I think it could provide value to students. It's heavily inspired by serif, and it shares several of its core features. Please note that salad.nu is in no way a replacement for Caesar, but rather as a tool to visualize your course selections.
+      This is personal project I've been developing over the summer to simplify course scheduling at NU.
     </p>
     <p
       className="sc-AxhCb eFYatD"
@@ -53,7 +53,7 @@ exports[`AboutPage renders about page correctly 1`] = `
     <p
       className="sc-AxhCb eFYatD"
     >
-      A couple of people have asked what the 'Export' button does. Simply put, it just exports your schedule as a csv which you can then import into google calendar (following these
+      Several people have asked what the 'Export' button does. Simply put, it just exports your schedule as a csv which you can then import into google calendar (following these
        
       <a
         href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
@@ -63,21 +63,6 @@ exports[`AboutPage renders about page correctly 1`] = `
         instructions
       </a>
       ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar.
-    </p>
-    <p
-      className="sc-AxhCb eFYatD"
-    >
-      If you're wondering what the different modes of instruction mean, please refer to this
-       
-      <a
-        href="https://www.registrar.northwestern.edu/faculty-staff/fall-2020-scheduling.html"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        site
-      </a>
-       
-      .
     </p>
     <p
       className="sc-AxhCb eFYatD"

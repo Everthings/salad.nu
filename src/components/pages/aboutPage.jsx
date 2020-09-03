@@ -53,12 +53,7 @@ const AboutPage = () => {
         </Text>
         <Text>
           This is personal project I've been developing over the summer to
-          simplify course scheduling at NU. It started mainly as a way for me to
-          learn react, and I've since decided to release it as I think it could
-          provide value to students. It's heavily inspired by serif, and it
-          shares several of its core features. Please note that salad.nu is in
-          no way a replacement for Caesar, but rather as a tool to visualize
-          your course selections.
+          simplify course scheduling at NU.
         </Text>
         <Text>
           If you'd like to give feedback on your experience, please use this
@@ -81,9 +76,9 @@ const AboutPage = () => {
           would be greatly appreciated. Thanks!
         </Text>
         <Text>
-          A couple of people have asked what the 'Export' button does. Simply
-          put, it just exports your schedule as a csv which you can then import
-          into google calendar (following these{" "}
+          Several people have asked what the 'Export' button does. Simply put,
+          it just exports your schedule as a csv which you can then import into
+          google calendar (following these{" "}
           <a
             href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
             target="_blank"
@@ -94,18 +89,6 @@ const AboutPage = () => {
           ). I recommend performing this step in Chrome, as a few browsers have
           known bugs with google calendar imports. At this moment, salad.nu only
           supports google calendar.
-        </Text>
-        <Text>
-          If you're wondering what the different modes of instruction mean,
-          please refer to this{" "}
-          <a
-            href="https://www.registrar.northwestern.edu/faculty-staff/fall-2020-scheduling.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            site
-          </a>{" "}
-          .
         </Text>
         <Text>Andy '23</Text>
         <Button className="btn mb-3">

@@ -11,8 +11,7 @@ const Body = () => {
 
   return (
     <>
-      {bigScreen && <BodyLarge />}
-      {!bigScreen && <BodySmall />}
+      {bigScreen ? <BodyLarge /> : <BodySmall />}
       <InfoModal />
     </>
   );
