@@ -1,6 +1,6 @@
 {
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\api.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\api.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\api.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\api.js",
     "statementMap": {
       "0": {
         "start": {
@@ -36,17 +36,17 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66
+      "0": 65,
+      "1": 65,
+      "2": 65
     },
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "8cc48922f5b5f4b0be9cb2854e4165d269a4a1ac"
+    "hash": "50a0dd219f9291abca86f603054573b534941b58"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\term.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\term.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\term.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\term.js",
     "statementMap": {
       "0": {
         "start": {
@@ -351,35 +351,35 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 68,
+      "0": 65,
+      "1": 65,
+      "2": 67,
       "3": 0,
-      "4": 68,
-      "5": 68,
-      "6": 66,
-      "7": 66,
-      "8": 68,
-      "9": 68,
-      "10": 66,
-      "11": 1271,
-      "12": 202
+      "4": 67,
+      "5": 67,
+      "6": 65,
+      "7": 65,
+      "8": 67,
+      "9": 67,
+      "10": 65,
+      "11": 1268,
+      "12": 199
     },
     "f": {
-      "0": 68,
+      "0": 67,
       "1": 0,
-      "2": 68,
-      "3": 68,
-      "4": 68,
-      "5": 1271,
-      "6": 202
+      "2": 67,
+      "3": 67,
+      "4": 67,
+      "5": 1268,
+      "6": 199
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "a4e02163632989d0e13d90a6baa1cd7fb2fa8193"
+    "hash": "a24d54d8b2921cac1e2fd8afabb39c7e90a4fab1"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\theme.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\theme.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\theme.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\theme.js",
     "statementMap": {
       "0": {
         "start": {
@@ -619,22 +619,22 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 7,
       "3": 7,
-      "4": 66,
-      "5": 66,
+      "4": 65,
+      "5": 65,
       "6": 7,
-      "7": 66,
-      "8": 1271,
-      "9": 73
+      "7": 65,
+      "8": 1268,
+      "9": 72
     },
     "f": {
       "0": 7,
       "1": 7,
-      "2": 1271,
-      "3": 73
+      "2": 1268,
+      "3": 72
     },
     "b": {
       "0": [
@@ -643,10 +643,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "053dc8901971f78d57dc4b59fe656151c4ba08f7"
+    "hash": "8747b0c42600d5a871d80c1a6c63eebf84b88a2f"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\courseUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\courseUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\courseUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\courseUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -956,45 +956,45 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 105832,
+      "0": 65,
+      "1": 107300,
       "2": 0,
-      "3": 105832,
-      "4": 66,
-      "5": 104303,
+      "3": 107300,
+      "4": 65,
+      "5": 105771,
       "6": 0,
-      "7": 104303
+      "7": 105771
     },
     "f": {
-      "0": 105832,
-      "1": 104303
+      "0": 107300,
+      "1": 105771
     },
     "b": {
       "0": [
         0,
-        105832
+        107300
       ],
       "1": [
-        105832,
-        105832,
-        105832
+        107300,
+        107300,
+        107300
       ],
       "2": [
         0,
-        104303
+        105771
       ],
       "3": [
-        104303,
-        104303,
-        104303,
-        104303
+        105771,
+        105771,
+        105771,
+        105771
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "05f5e53c1f7c750ad0a06218436d42e0c1228194"
+    "hash": "a514ec4726f789084201c207c0717ccb276af2ac"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\searchUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\searchUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\searchUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\searchUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -1686,54 +1686,54 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 1854,
-      "2": 1854,
-      "3": 152,
+      "0": 65,
+      "1": 1846,
+      "2": 1846,
+      "3": 144,
       "4": 1702,
       "5": 1702,
       "6": 4832,
       "7": 1702,
-      "8": 66,
-      "9": 1556,
-      "10": 1556,
+      "8": 65,
+      "9": 1548,
+      "10": 1548,
       "11": 4186,
       "12": 1476,
-      "13": 1556,
-      "14": 66,
-      "15": 1556,
-      "16": 1556,
-      "17": 1556,
-      "18": 66,
-      "19": 196778,
-      "20": 205738,
-      "21": 178502,
-      "22": 18276,
-      "23": 66,
+      "13": 1548,
+      "14": 65,
+      "15": 1548,
+      "16": 1548,
+      "17": 1548,
+      "18": 65,
+      "19": 199711,
+      "20": 208735,
+      "21": 181299,
+      "22": 18412,
+      "23": 65,
       "24": 298,
       "25": 298,
       "26": 298,
       "27": 298,
-      "28": 104303,
-      "29": 104303,
-      "30": 104303,
-      "31": 11828,
-      "32": 92475,
-      "33": 6448,
+      "28": 105771,
+      "29": 105771,
+      "30": 105771,
+      "31": 11831,
+      "32": 93940,
+      "33": 6581,
       "34": 298,
       "35": 298
     },
     "f": {
-      "0": 1854,
+      "0": 1846,
       "1": 4832,
-      "2": 1556,
-      "3": 1556,
-      "4": 196778,
+      "2": 1548,
+      "3": 1548,
+      "4": 199711,
       "5": 298
     },
     "b": {
       "0": [
-        152,
+        144,
         1702
       ],
       "1": [
@@ -1741,23 +1741,23 @@
         2710
       ],
       "2": [
-        178502,
-        27236
+        181299,
+        27436
       ],
       "3": [
-        11828,
-        92475
+        11831,
+        93940
       ],
       "4": [
-        6448,
-        86027
+        6581,
+        87359
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "d34e841a9658d16aacf92663669cb95768c86fdd"
+    "hash": "d2ad479f3d71c45ba1caea9a380ccf810452cc6a"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\courses.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\courses.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\courses.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\courses.js",
     "statementMap": {
       "0": {
         "start": {
@@ -2170,8 +2170,8 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 37,
       "3": 0,
       "4": 37,
@@ -2180,15 +2180,15 @@
       "7": 37,
       "8": 261,
       "9": 261,
-      "10": 66,
-      "11": 66,
+      "10": 65,
+      "11": 65,
       "12": 37,
       "13": 37,
-      "14": 66,
+      "14": 65,
       "15": 261,
-      "16": 66,
-      "17": 1078,
-      "18": 401
+      "16": 65,
+      "17": 1075,
+      "18": 400
     },
     "f": {
       "0": 37,
@@ -2198,15 +2198,15 @@
       "4": 37,
       "5": 37,
       "6": 261,
-      "7": 1078,
-      "8": 401
+      "7": 1075,
+      "8": 400
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "b02086b8a84ae46210a2c3e9c76b839b5e3e10a5"
+    "hash": "c5ced472c16352c96c5b5a8fbb1c8e068e2f2a4b"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\sections.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\sections.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\sections.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\sections.js",
     "statementMap": {
       "0": {
         "start": {
@@ -2694,20 +2694,20 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 30,
       "3": 0,
       "4": 30,
       "5": 30,
-      "6": 66,
-      "7": 66,
+      "6": 65,
+      "7": 65,
       "8": 30,
       "9": 30,
-      "10": 66,
-      "11": 1271,
-      "12": 96,
-      "13": 66,
+      "10": 65,
+      "11": 1268,
+      "12": 95,
+      "13": 65,
       "14": 0,
       "15": 0,
       "16": 0,
@@ -2719,8 +2719,8 @@
       "2": 30,
       "3": 30,
       "4": 30,
-      "5": 1271,
-      "6": 96,
+      "5": 1268,
+      "6": 95,
       "7": 0,
       "8": 0,
       "9": 0,
@@ -2733,10 +2733,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "15d985a4a01cc89a595edb0db37635d78e4406b2"
+    "hash": "88337a031cd0a602df10eb4c2b882de0ae21a9ce"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\discussions.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\discussions.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\discussions.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\discussions.js",
     "statementMap": {
       "0": {
         "start": {
@@ -3224,20 +3224,20 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 30,
       "3": 0,
       "4": 30,
       "5": 30,
-      "6": 66,
-      "7": 66,
+      "6": 65,
+      "7": 65,
       "8": 30,
       "9": 30,
-      "10": 66,
-      "11": 1271,
-      "12": 96,
-      "13": 66,
+      "10": 65,
+      "11": 1268,
+      "12": 95,
+      "13": 65,
       "14": 0,
       "15": 0,
       "16": 0,
@@ -3249,8 +3249,8 @@
       "2": 30,
       "3": 30,
       "4": 30,
-      "5": 1271,
-      "6": 96,
+      "5": 1268,
+      "6": 95,
       "7": 0,
       "8": 0,
       "9": 0,
@@ -3263,10 +3263,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "8e8f1ca1e315341ee7e8d09b8ff97eb2614cc82f"
+    "hash": "f82bc2338e47ac7b6977ca38dda4ca3cee3304a0"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\interactions.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\interactions.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\interactions.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\interactions.js",
     "statementMap": {
       "0": {
         "start": {
@@ -4958,13 +4958,13 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66,
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 65,
+      "4": 65,
+      "5": 65,
+      "6": 65,
       "7": 444,
       "8": 30,
       "9": 446,
@@ -4980,53 +4980,53 @@
       "19": 9,
       "20": 20,
       "21": 24,
-      "22": 66,
-      "23": 66,
+      "22": 65,
+      "23": 65,
       "24": 444,
-      "25": 66,
+      "25": 65,
       "26": 30,
-      "27": 66,
+      "27": 65,
       "28": 446,
-      "29": 66,
+      "29": 65,
       "30": 5,
-      "31": 66,
+      "31": 65,
       "32": 6,
-      "33": 66,
+      "33": 65,
       "34": 21,
-      "35": 66,
+      "35": 65,
       "36": 0,
       "37": 0,
       "38": 0,
-      "39": 66,
+      "39": 65,
       "40": 30,
-      "41": 66,
+      "41": 65,
       "42": 18,
-      "43": 66,
+      "43": 65,
       "44": 10,
-      "45": 66,
+      "45": 65,
       "46": 9,
-      "47": 66,
+      "47": 65,
       "48": 20,
-      "49": 66,
+      "49": 65,
       "50": 24,
-      "51": 66,
-      "52": 1271,
-      "53": 653,
-      "54": 66,
-      "55": 1271,
-      "56": 653,
-      "57": 66,
-      "58": 1271,
-      "59": 653,
-      "60": 66,
-      "61": 1271,
-      "62": 653,
-      "63": 66,
-      "64": 1271,
-      "65": 653,
-      "66": 66,
-      "67": 1271,
-      "68": 653
+      "51": 65,
+      "52": 1268,
+      "53": 652,
+      "54": 65,
+      "55": 1268,
+      "56": 652,
+      "57": 65,
+      "58": 1268,
+      "59": 652,
+      "60": 65,
+      "61": 1268,
+      "62": 652,
+      "63": 65,
+      "64": 1268,
+      "65": 652,
+      "66": 65,
+      "67": 1268,
+      "68": 652
     },
     "f": {
       "0": 444,
@@ -5055,18 +5055,18 @@
       "23": 9,
       "24": 20,
       "25": 24,
-      "26": 1271,
-      "27": 653,
-      "28": 1271,
-      "29": 653,
-      "30": 1271,
-      "31": 653,
-      "32": 1271,
-      "33": 653,
-      "34": 1271,
-      "35": 653,
-      "36": 1271,
-      "37": 653
+      "26": 1268,
+      "27": 652,
+      "28": 1268,
+      "29": 652,
+      "30": 1268,
+      "31": 652,
+      "32": 1268,
+      "33": 652,
+      "34": 1268,
+      "35": 652,
+      "36": 1268,
+      "37": 652
     },
     "b": {
       "0": [
@@ -5080,10 +5080,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "50f4bf9dfd186eb5414f85eb7c49204d822057ea"
+    "hash": "9a568138345946dc262fdce50a920143f279087b"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\schedule.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\slices\\schedule.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\schedule.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\slices\\schedule.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5378,18 +5378,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 15,
       "2": 5,
       "3": 5,
-      "4": 66,
-      "5": 66,
+      "4": 65,
+      "5": 65,
       "6": 15,
-      "7": 66,
+      "7": 65,
       "8": 5,
-      "9": 66,
-      "10": 1271,
-      "11": 86
+      "9": 65,
+      "10": 1268,
+      "11": 85
     },
     "f": {
       "0": 15,
@@ -5397,15 +5397,15 @@
       "2": 5,
       "3": 15,
       "4": 5,
-      "5": 1271,
-      "6": 86
+      "5": 1268,
+      "6": 85
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "bb5507953c67d63cfcb140eea1d864cd61d67256"
+    "hash": "d57f82a9d95dd46cf0acf9c030a88dba09b854c7"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\reducer.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\reducer.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\reducer.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\reducer.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -5413,10 +5413,10 @@
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "c5587ebc3e6acd8cf5cec02b61dbe46aef954206"
+    "hash": "9ccc4b13aafc50898e97ee0fec3da20601139c92"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\termsService.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\termsService.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\termsService.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\termsService.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5501,20 +5501,20 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 68,
-      "2": 68
+      "0": 65,
+      "1": 67,
+      "2": 67
     },
     "f": {
-      "0": 68,
-      "1": 68
+      "0": 67,
+      "1": 67
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "3d5c4be0de8ac25563c8f9de7b6a96a2d8e86c73"
+    "hash": "60ea5ef1cd02eea3f9d7206bea6236caab059d64"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\coursesService.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\coursesService.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\coursesService.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\coursesService.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5522,27 +5522,27 @@
           "column": 16
         },
         "end": {
-          "line": 18857,
+          "line": 19145,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 18860,
+          "line": 19148,
           "column": 2
         },
         "end": {
-          "line": 18860,
+          "line": 19148,
           "column": 44
         }
       },
       "2": {
         "start": {
-          "line": 18860,
+          "line": 19148,
           "column": 36
         },
         "end": {
-          "line": 18860,
+          "line": 19148,
           "column": 42
         }
       }
@@ -5552,67 +5552,67 @@
         "name": "getCourses",
         "decl": {
           "start": {
-            "line": 18859,
+            "line": 19147,
             "column": 16
           },
           "end": {
-            "line": 18859,
+            "line": 19147,
             "column": 26
           }
         },
         "loc": {
           "start": {
-            "line": 18859,
+            "line": 19147,
             "column": 29
           },
           "end": {
-            "line": 18861,
+            "line": 19149,
             "column": 1
           }
         },
-        "line": 18859
+        "line": 19147
       },
       "1": {
         "name": "(anonymous_1)",
         "decl": {
           "start": {
-            "line": 18860,
+            "line": 19148,
             "column": 24
           },
           "end": {
-            "line": 18860,
+            "line": 19148,
             "column": 25
           }
         },
         "loc": {
           "start": {
-            "line": 18860,
+            "line": 19148,
             "column": 36
           },
           "end": {
-            "line": 18860,
+            "line": 19148,
             "column": 42
           }
         },
-        "line": 18860
+        "line": 19148
       }
     },
     "branchMap": {},
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 37,
-      "2": 86987
+      "2": 88319
     },
     "f": {
       "0": 37,
-      "1": 86987
+      "1": 88319
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "7b65c9548cd1e37f88eb8569ba5232757d839091"
+    "hash": "8e5018489a7d13c71d4770f232c46a30a68eb9b7"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\sectionsService.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\sectionsService.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\sectionsService.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\sectionsService.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5620,17 +5620,17 @@
           "column": 17
         },
         "end": {
-          "line": 175833,
+          "line": 181173,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 175836,
+          "line": 181176,
           "column": 2
         },
         "end": {
-          "line": 175836,
+          "line": 181176,
           "column": 34
         }
       }
@@ -5640,36 +5640,36 @@
         "name": "getSection",
         "decl": {
           "start": {
-            "line": 175835,
+            "line": 181175,
             "column": 16
           },
           "end": {
-            "line": 175835,
+            "line": 181175,
             "column": 26
           }
         },
         "loc": {
           "start": {
-            "line": 175835,
+            "line": 181175,
             "column": 37
           },
           "end": {
-            "line": 175837,
+            "line": 181177,
             "column": 1
           }
         },
-        "line": 175835
+        "line": 181175
       }
     },
     "branchMap": {
       "0": {
         "loc": {
           "start": {
-            "line": 175836,
+            "line": 181176,
             "column": 9
           },
           "end": {
-            "line": 175836,
+            "line": 181176,
             "column": 33
           }
         },
@@ -5677,30 +5677,30 @@
         "locations": [
           {
             "start": {
-              "line": 175836,
+              "line": 181176,
               "column": 9
             },
             "end": {
-              "line": 175836,
+              "line": 181176,
               "column": 27
             }
           },
           {
             "start": {
-              "line": 175836,
+              "line": 181176,
               "column": 31
             },
             "end": {
-              "line": 175836,
+              "line": 181176,
               "column": 33
             }
           }
         ],
-        "line": 175836
+        "line": 181176
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 30
     },
     "f": {
@@ -5713,10 +5713,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "67e9f6e15250329921479001247beb66a1d3c81a"
+    "hash": "b63efd019070f1001ed7de71a4437556f6446213"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\discussionsService.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\discussionsService.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\discussionsService.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\discussionsService.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5724,17 +5724,17 @@
           "column": 20
         },
         "end": {
-          "line": 11216,
+          "line": 11607,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 11219,
+          "line": 11610,
           "column": 2
         },
         "end": {
-          "line": 11219,
+          "line": 11610,
           "column": 37
         }
       }
@@ -5744,36 +5744,36 @@
         "name": "getDiscussion",
         "decl": {
           "start": {
-            "line": 11218,
+            "line": 11609,
             "column": 16
           },
           "end": {
-            "line": 11218,
+            "line": 11609,
             "column": 29
           }
         },
         "loc": {
           "start": {
-            "line": 11218,
+            "line": 11609,
             "column": 40
           },
           "end": {
-            "line": 11220,
+            "line": 11611,
             "column": 1
           }
         },
-        "line": 11218
+        "line": 11609
       }
     },
     "branchMap": {
       "0": {
         "loc": {
           "start": {
-            "line": 11219,
+            "line": 11610,
             "column": 9
           },
           "end": {
-            "line": 11219,
+            "line": 11610,
             "column": 36
           }
         },
@@ -5781,30 +5781,30 @@
         "locations": [
           {
             "start": {
-              "line": 11219,
+              "line": 11610,
               "column": 9
             },
             "end": {
-              "line": 11219,
+              "line": 11610,
               "column": 30
             }
           },
           {
             "start": {
-              "line": 11219,
+              "line": 11610,
               "column": 34
             },
             "end": {
-              "line": 11219,
+              "line": 11610,
               "column": 36
             }
           }
         ],
-        "line": 11219
+        "line": 11610
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 30
     },
     "f": {
@@ -5817,10 +5817,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "9481ffcdd60ad0c17ca4f9892b752eb9e0a83096"
+    "hash": "2ecafd3bfb85947411472a1106ddb7e7be9b8cdc"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\buildingsService.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\fakeServices\\buildingsService.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\buildingsService.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\fakeServices\\buildingsService.js",
     "statementMap": {
       "0": {
         "start": {
@@ -5828,17 +5828,17 @@
           "column": 18
         },
         "end": {
-          "line": 879,
+          "line": 869,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 882,
+          "line": 872,
           "column": 2
         },
         "end": {
-          "line": 882,
+          "line": 872,
           "column": 31
         }
       }
@@ -5848,30 +5848,30 @@
         "name": "getBuilding",
         "decl": {
           "start": {
-            "line": 881,
+            "line": 871,
             "column": 16
           },
           "end": {
-            "line": 881,
+            "line": 871,
             "column": 27
           }
         },
         "loc": {
           "start": {
-            "line": 881,
+            "line": 871,
             "column": 40
           },
           "end": {
-            "line": 883,
+            "line": 873,
             "column": 1
           }
         },
-        "line": 881
+        "line": 871
       }
     },
     "branchMap": {},
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 0
     },
     "f": {
@@ -5879,10 +5879,10 @@
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4f66115af0c846b256800189442f940de550d94e"
+    "hash": "c74c2b8c68bce23870e6ddaec6f1fcc7bf02177e"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\middleware\\api.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\middleware\\api.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\middleware\\api.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\middleware\\api.js",
     "statementMap": {
       "0": {
         "start": {
@@ -6546,17 +6546,17 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 2011,
-      "4": 165,
-      "5": 165,
-      "6": 165,
-      "7": 165,
-      "8": 165,
-      "9": 165,
-      "10": 68,
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 2007,
+      "4": 164,
+      "5": 164,
+      "6": 164,
+      "7": 164,
+      "8": 164,
+      "9": 164,
+      "10": 67,
       "11": 97,
       "12": 37,
       "13": 60,
@@ -6565,30 +6565,30 @@
       "16": 30,
       "17": 0,
       "18": 0,
-      "19": 165,
-      "20": 165,
-      "21": 165,
+      "19": 164,
+      "20": 164,
+      "21": 164,
       "22": 0,
       "23": 0,
       "24": 0,
-      "25": 1846
+      "25": 1843
     },
     "f": {
-      "0": 66,
-      "1": 66,
-      "2": 2011
+      "0": 65,
+      "1": 65,
+      "2": 2007
     },
     "b": {
       "0": [
-        165,
-        1846
+        164,
+        1843
       ],
       "1": [
-        165,
+        164,
         0
       ],
       "2": [
-        68,
+        67,
         97
       ],
       "3": [
@@ -6608,7 +6608,7 @@
         0
       ],
       "7": [
-        165,
+        164,
         0
       ],
       "8": [
@@ -6617,10 +6617,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "13af0c9741545e1d0f7d96217fbe20534c0ec10d"
+    "hash": "9ba33b4cb6b3c5b418f40ee65d07c24fda7e40dc"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\configureStore.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\store\\configureStore.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\configureStore.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\store\\configureStore.js",
     "statementMap": {
       "0": {
         "start": {
@@ -6671,18 +6671,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66
+      "0": 65,
+      "1": 65
     },
     "f": {
-      "0": 66
+      "0": 65
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "a5d5560f6aee0d3298ed55dbf71049fee743fcaa"
+    "hash": "022da43ba9f681b0d37c4730a3f0950cee63358c"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\storageUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\storageUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\storageUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\storageUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -6960,41 +6960,41 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 60,
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 65,
+      "4": 65,
+      "5": 59,
       "6": 6,
       "7": 6,
       "8": 6,
-      "9": 66,
-      "10": 2011,
-      "11": 2011,
-      "12": 2011,
-      "13": 2011,
-      "14": 2011
+      "9": 65,
+      "10": 2007,
+      "11": 2007,
+      "12": 2007,
+      "13": 2007,
+      "14": 2007
     },
     "f": {
-      "0": 66,
-      "1": 2011
+      "0": 65,
+      "1": 2007
     },
     "b": {
       "0": [
-        60,
+        59,
         6
       ],
       "1": [
-        66,
+        65,
         6
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "476853c368c7ffefec45fddad671bb2b52e40ce8"
+    "hash": "56cfed373a82e9bd31bfb704e897bef708df4e0a"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\greenTheme.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\greenTheme.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\greenTheme.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\greenTheme.js",
     "statementMap": {
       "0": {
         "start": {
@@ -7010,15 +7010,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 66
+      "0": 65
     },
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "c8a294c8ef9234922a80410f4d4a08594dfbf77f"
+    "hash": "f969d4473945fb3d2f1368387c2de43628ad866e"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\darkTheme.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\darkTheme.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\darkTheme.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\darkTheme.js",
     "statementMap": {
       "0": {
         "start": {
@@ -7034,15 +7034,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 66
+      "0": 65
     },
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "0581498e8d9b7addba45136ce507f900905b7d2f"
+    "hash": "926e27f07918df8f3f3868a6ecf08e63576c862f"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\theme.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\themes\\theme.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\theme.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\themes\\theme.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -7150,25 +7150,25 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 146,
-      "2": 146,
-      "3": 146
+      "0": 65,
+      "1": 144,
+      "2": 144,
+      "3": 144
     },
     "f": {
-      "0": 146
+      "0": 144
     },
     "b": {
       "0": [
-        132,
+        130,
         14
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "5d33fa7b6cbd351216d6dfdf24d64277e27797d0"
+    "hash": "8bec13c907ffac2126e4a8548fa6ed57a24eac15"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\configs.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\configs.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\configs.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\configs.js",
     "statementMap": {
       "0": {
         "start": {
@@ -7244,21 +7244,21 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 65,
+      "4": 65,
+      "5": 65,
+      "6": 65
     },
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "cac2fdd5162d7b1ca691369c2ccf25ec8f248137"
+    "hash": "598c4c185a15ecc89a9863214211616355b868a4"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\searchBar.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\searchBar.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\searchBar.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\searchBar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -7754,16 +7754,16 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 585,
-      "2": 585,
-      "3": 585,
-      "4": 66,
-      "5": 1156,
-      "6": 1156,
-      "7": 1156,
-      "8": 1156,
-      "9": 1156,
+      "0": 65,
+      "1": 583,
+      "2": 583,
+      "3": 583,
+      "4": 65,
+      "5": 1152,
+      "6": 1152,
+      "7": 1152,
+      "8": 1152,
+      "9": 1152,
       "10": 444,
       "11": 444,
       "12": 444,
@@ -7771,22 +7771,22 @@
       "14": 444,
       "15": 298,
       "16": 298,
-      "17": 1156,
+      "17": 1152,
       "18": 0,
-      "19": 1156
+      "19": 1152
     },
     "f": {
-      "0": 585,
-      "1": 585,
-      "2": 585,
-      "3": 1156,
+      "0": 583,
+      "1": 583,
+      "2": 583,
+      "3": 1152,
       "4": 444,
       "5": 0
     },
     "b": {
       "0": [
-        1024,
-        132
+        1022,
+        130
       ],
       "1": [
         298,
@@ -7802,10 +7802,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "d532bfcf6d69eff1f32f8f98eecc6bde7417f7c1"
+    "hash": "6a808c5633941faebb09b5c004c8e00940f363cd"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\parseUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\parseUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\parseUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\parseUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -8297,16 +8297,16 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 978,
       "2": 978,
-      "3": 66,
+      "3": 65,
       "4": 796,
       "5": 796,
-      "6": 66,
+      "6": 65,
       "7": 278,
       "8": 278,
-      "9": 66,
+      "9": 65,
       "10": 182,
       "11": 182,
       "12": 182,
@@ -8315,7 +8315,7 @@
       "15": 0,
       "16": 0,
       "17": 182,
-      "18": 66,
+      "18": 65,
       "19": 247,
       "20": 0,
       "21": 247
@@ -8346,10 +8346,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "a867f20cfa55bceaec690502609806f1b7f92527"
+    "hash": "559f6854ace965f2912bc054100a2cb5ae2367d3"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\exportUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\exportUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\exportUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\exportUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -9271,8 +9271,8 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 102,
       "3": 0,
       "4": 34,
@@ -9282,7 +9282,7 @@
       "8": 34,
       "9": 0,
       "10": 0,
-      "11": 66,
+      "11": 65,
       "12": 34,
       "13": 34,
       "14": 0,
@@ -9306,20 +9306,20 @@
       "32": 1122,
       "33": 1122,
       "34": 34,
-      "35": 66,
-      "36": 178,
-      "37": 178,
+      "35": 65,
+      "36": 176,
+      "37": 176,
       "38": 34,
       "39": 34,
       "40": 34,
-      "41": 178,
-      "42": 66,
+      "41": 176,
+      "42": 65,
       "43": 0
     },
     "f": {
       "0": 102,
       "1": 34,
-      "2": 178,
+      "2": 176,
       "3": 0
     },
     "b": {
@@ -9366,10 +9366,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "f7235af918b983b1c71dd70315b837042ad7eb44"
+    "hash": "007a8f1c34ff1f0e50aa2711191c715035dfcc70"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\exportButton.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\exportButton.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\exportButton.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\exportButton.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -9528,26 +9528,26 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 96,
-      "2": 66,
-      "3": 96,
-      "4": 66,
-      "5": 178,
-      "6": 178,
-      "7": 178
+      "0": 65,
+      "1": 95,
+      "2": 65,
+      "3": 95,
+      "4": 65,
+      "5": 176,
+      "6": 176,
+      "7": 176
     },
     "f": {
-      "0": 96,
-      "1": 96,
-      "2": 178
+      "0": 95,
+      "1": 95,
+      "2": 176
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "067a2ed86b234f4431cc5f13d84bba4612009d26"
+    "hash": "f99e2c02220542c154880b64db52212f01cc1f03"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\themeToggle.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\themeToggle.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\themeToggle.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\themeToggle.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -9672,24 +9672,24 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 160,
-      "2": 160,
-      "3": 160,
-      "4": 160,
+      "0": 65,
+      "1": 152,
+      "2": 152,
+      "3": 152,
+      "4": 152,
       "5": 7,
-      "6": 160
+      "6": 152
     },
     "f": {
-      "0": 160,
+      "0": 152,
       "1": 7
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "b1703904cdd64192ab35eb59a8e129c89e95028c"
+    "hash": "502a225dd531ad8157587b1f282df88e44e248ac"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\navbar.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header\\navbar.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\navbar.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header\\navbar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -9957,39 +9957,39 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 80,
-      "2": 66,
-      "3": 76,
-      "4": 66,
-      "5": 66,
-      "6": 146,
-      "7": 146
+      "0": 65,
+      "1": 76,
+      "2": 65,
+      "3": 75,
+      "4": 65,
+      "5": 65,
+      "6": 138,
+      "7": 138
     },
     "f": {
-      "0": 80,
-      "1": 76,
-      "2": 146
+      "0": 76,
+      "1": 75,
+      "2": 138
     },
     "b": {
       "0": [
-        146,
-        138
+        138,
+        136
       ],
       "1": [
-        146,
-        138
+        138,
+        136
       ],
       "2": [
-        146,
-        138
+        138,
+        136
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "86689b36da522a62daecea4cbe9fc04842d87403"
+    "hash": "b45ec28db13246c9730f69f598f48eb1e366f62a"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\header.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\header.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -10094,22 +10094,22 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 136,
-      "2": 136,
-      "3": 68,
-      "4": 136
+      "0": 65,
+      "1": 134,
+      "2": 134,
+      "3": 67,
+      "4": 134
     },
     "f": {
-      "0": 136,
-      "1": 68
+      "0": 134,
+      "1": 67
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "ab36e6d7ea730bbeb28a2c2061b396d99036e4b0"
+    "hash": "31961450e0a094e046f65bf051baec7e01d4910e"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\validationUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\validationUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\validationUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\validationUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -10449,7 +10449,7 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 65,
       "2": 0,
       "3": 65,
@@ -10487,10 +10487,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "38094c2941ae401d51bf46bcca4f9d3bc2f66df5"
+    "hash": "d91cd3a100723c94954aba757c5fcd0d778fa49b"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\infoCard.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\infoCard.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\infoCard.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\infoCard.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -11160,67 +11160,67 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 18420,
-      "2": 18420,
-      "3": 18420,
-      "4": 18420,
-      "5": 66,
-      "6": 18420,
-      "7": 66,
-      "8": 66,
-      "9": 66,
-      "10": 66,
+      "0": 65,
+      "1": 18556,
+      "2": 18556,
+      "3": 18556,
+      "4": 18556,
+      "5": 65,
+      "6": 18556,
+      "7": 65,
+      "8": 65,
+      "9": 65,
+      "10": 65,
       "11": 80,
       "12": 80,
       "13": 80,
       "14": 80,
-      "15": 66,
-      "16": 18420,
+      "15": 65,
+      "16": 18556,
       "17": 5,
       "18": 5,
-      "19": 18420,
-      "20": 18740,
+      "19": 18556,
+      "20": 18876,
       "21": 80,
-      "22": 18660
+      "22": 18796
     },
     "f": {
-      "0": 18420,
-      "1": 18420,
-      "2": 18420,
-      "3": 18420,
-      "4": 18420,
+      "0": 18556,
+      "1": 18556,
+      "2": 18556,
+      "3": 18556,
+      "4": 18556,
       "5": 80,
       "6": 80,
       "7": 80,
       "8": 80,
-      "9": 18420,
+      "9": 18556,
       "10": 5,
-      "11": 18740
+      "11": 18876
     },
     "b": {
       "0": [
         15,
-        18405
+        18541
       ],
       "1": [
-        18420,
+        18556,
         15
       ],
       "2": [
         80,
-        18660
+        18796
       ],
       "3": [
-        18420,
+        18556,
         80
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "b4e7b3bf556dee30d048bfd59178a5c6f6b2bede"
+    "hash": "2060b018be8a7d33a82a07f352021bdd0f651f18"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\cardList.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\cardList.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\cardList.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\cardList.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -11760,16 +11760,16 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 312,
-      "2": 66,
+      "2": 65,
       "3": 312,
-      "4": 18420,
-      "5": 18420,
-      "6": 18420,
-      "7": 18740,
-      "8": 18420,
-      "9": 18420,
+      "4": 18556,
+      "5": 18556,
+      "6": 18556,
+      "7": 18876,
+      "8": 18556,
+      "9": 18556,
       "10": 45,
       "11": 20,
       "12": 9,
@@ -11778,8 +11778,8 @@
     "f": {
       "0": 312,
       "1": 312,
-      "2": 18420,
-      "3": 18740,
+      "2": 18556,
+      "3": 18876,
       "4": 45,
       "5": 20,
       "6": 9,
@@ -11788,32 +11788,32 @@
     "b": {
       "0": [
         80,
-        18340
+        18476
       ],
       "1": [
-        18420,
-        18420
+        18556,
+        18556
       ],
       "2": [
-        18420,
+        18556,
         80
       ],
       "3": [
-        18420,
+        18556,
         80
       ],
       "4": [
-        18420,
+        18556,
         80,
         80,
         80
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "3f48b99879e6ea231e1af13dd7e1ba8c76780735"
+    "hash": "87b2648d5fddc3263ed5288f4a7d626bd3b26e40"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\sectionList.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\sectionList.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\sectionList.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\sectionList.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -13449,14 +13449,14 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
+      "0": 65,
+      "1": 65,
+      "2": 65,
       "3": 110,
-      "4": 66,
-      "5": 66,
+      "4": 65,
+      "5": 65,
       "6": 110,
-      "7": 66,
+      "7": 65,
       "8": 220,
       "9": 220,
       "10": 220,
@@ -13600,10 +13600,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "f09b17ba616842eb0ae2447905d407119d655f0a"
+    "hash": "fa1f7cc783f8ee1626763f7adff6d06f74db8d7c"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\common\\scrollManager.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\common\\scrollManager.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\common\\scrollManager.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\common\\scrollManager.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -14767,89 +14767,89 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 77,
+      "0": 65,
+      "1": 73,
       "2": 0,
-      "3": 77,
-      "4": 39,
+      "3": 73,
+      "4": 36,
       "5": 0,
-      "6": 39,
-      "7": 154,
-      "8": 154,
-      "9": 154,
-      "10": 116,
-      "11": 77,
-      "12": 77,
-      "13": 11,
-      "14": 39,
-      "15": 39,
-      "16": 39,
-      "17": 39,
-      "18": 77,
+      "6": 36,
+      "7": 146,
+      "8": 146,
+      "9": 146,
+      "10": 109,
+      "11": 73,
+      "12": 73,
+      "13": 8,
+      "14": 36,
+      "15": 36,
+      "16": 36,
+      "17": 36,
+      "18": 73,
       "19": 479,
       "20": 0,
       "21": 479,
       "22": 479,
       "23": 0,
-      "24": 39,
-      "25": 1112,
-      "26": 1112,
-      "27": 66,
-      "28": 11,
+      "24": 36,
+      "25": 1104,
+      "26": 1104,
+      "27": 65,
+      "28": 8,
       "29": 0,
-      "30": 11,
-      "31": 11,
-      "32": 39,
+      "30": 8,
+      "31": 8,
+      "32": 36,
       "33": 0,
-      "34": 39
+      "34": 36
     },
     "f": {
-      "0": 77,
-      "1": 39,
-      "2": 154,
-      "3": 116,
-      "4": 77,
-      "5": 39,
-      "6": 77,
+      "0": 73,
+      "1": 36,
+      "2": 146,
+      "3": 109,
+      "4": 73,
+      "5": 36,
+      "6": 73,
       "7": 479,
       "8": 479,
-      "9": 39,
-      "10": 1112,
-      "11": 11,
-      "12": 39
+      "9": 36,
+      "10": 1104,
+      "11": 8,
+      "12": 36
     },
     "b": {
       "0": [
         0,
-        77
+        73
       ],
       "1": [
-        77,
-        66
+        73,
+        65
       ],
       "2": [
         0,
-        39
+        36
       ],
       "3": [
-        77,
-        77
+        73,
+        73
       ],
       "4": [
-        11,
-        66
+        8,
+        65
       ],
       "5": [
-        77,
-        77
+        73,
+        73
       ],
       "6": [
-        39,
+        36,
         0
       ],
       "7": [
-        39,
-        39
+        36,
+        36
       ],
       "8": [
         0,
@@ -14863,23 +14863,23 @@
         0
       ],
       "11": [
-        1112,
-        1112
+        1104,
+        1104
       ],
       "12": [
         0,
-        11
+        8
       ],
       "13": [
         0,
-        39
+        36
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "49f4282908c5e5017b55b5d35aa95c2353d57f59"
+    "hash": "9761bcee60006cc744b50787fddcb01d765e8176"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\courseList.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\courseList.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\courseList.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\courseList.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -15457,67 +15457,67 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
+      "0": 65,
+      "1": 65,
       "2": 279,
-      "3": 66,
-      "4": 1112,
-      "5": 1112,
-      "6": 1112,
-      "7": 1112,
-      "8": 1112,
-      "9": 1112,
-      "10": 1112,
-      "11": 1112,
+      "3": 65,
+      "4": 1104,
+      "5": 1104,
+      "6": 1104,
+      "7": 1104,
+      "8": 1104,
+      "9": 1104,
+      "10": 1104,
+      "11": 1104,
       "12": 30,
       "13": 30,
       "14": 30,
-      "15": 1112,
-      "16": 18340,
-      "17": 1112,
-      "18": 18340,
-      "19": 1112,
-      "20": 1112
+      "15": 1104,
+      "16": 18476,
+      "17": 1104,
+      "18": 18476,
+      "19": 1104,
+      "20": 1104
     },
     "f": {
       "0": 279,
-      "1": 1112,
+      "1": 1104,
       "2": 30,
-      "3": 18340,
-      "4": 18340,
-      "5": 1112
+      "3": 18476,
+      "4": 18476,
+      "5": 1104
     },
     "b": {
       "0": [
-        1112,
-        438
+        1104,
+        430
       ],
       "1": [
-        1112,
+        1104,
         674
       ],
       "2": [
-        1112,
+        1104,
         674
       ],
       "3": [
-        1112,
+        1104,
         288
       ],
       "4": [
-        1112,
+        1104,
         270
       ],
       "5": [
-        1112,
+        1104,
         404
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "b37be3dd7bb9126f10c9f88a843b8ef9473e6293"
+    "hash": "d6d75a752114312e3a3eb482cbe5a0322a2ef57c"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\results.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\results\\results.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\results.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\results\\results.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -15805,36 +15805,36 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 114,
-      "2": 114,
-      "3": 114,
-      "4": 114,
-      "5": 114,
-      "6": 66,
-      "7": 214,
-      "8": 214,
-      "9": 214
+      "0": 65,
+      "1": 110,
+      "2": 110,
+      "3": 110,
+      "4": 110,
+      "5": 110,
+      "6": 65,
+      "7": 206,
+      "8": 206,
+      "9": 206
     },
     "f": {
-      "0": 114,
-      "1": 114,
-      "2": 114,
-      "3": 114,
-      "4": 114,
-      "5": 214
+      "0": 110,
+      "1": 110,
+      "2": 110,
+      "3": 110,
+      "4": 110,
+      "5": 206
     },
     "b": {
       "0": [
         60,
-        154
+        146
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4b26ea87c44b4be9580d951e45534feab722e15d"
+    "hash": "e35fe4daf7c675937c47e462d594534c377c8af7"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\colorUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\colorUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\colorUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\colorUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -16056,7 +16056,7 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 74,
       "2": 74,
       "3": 1036,
@@ -16065,7 +16065,7 @@
       "6": 74,
       "7": 74,
       "8": 74,
-      "9": 66,
+      "9": 65,
       "10": 74,
       "11": 74,
       "12": 74
@@ -16081,10 +16081,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "c364f2fade9a8cf82969c41a4071252653672e62"
+    "hash": "c45b307f3f31c1ad6e2541c2d9b519d028f90117"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\layoutUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\layoutUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\layoutUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\layoutUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -18086,20 +18086,20 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 66,
-      "5": 1750,
-      "6": 1750,
-      "7": 17500,
-      "8": 17500,
-      "9": 1750,
-      "10": 66,
-      "11": 350,
-      "12": 350,
-      "13": 350,
+      "4": 65,
+      "5": 1710,
+      "6": 1710,
+      "7": 17100,
+      "8": 17100,
+      "9": 1710,
+      "10": 65,
+      "11": 342,
+      "12": 342,
+      "13": 342,
       "14": 74,
       "15": 74,
       "16": 74,
@@ -18109,33 +18109,33 @@
       "20": 0,
       "21": 74,
       "22": 0,
-      "23": 350,
-      "24": 350,
-      "25": 350,
-      "26": 3500,
-      "27": 350,
-      "28": 66,
-      "29": 350,
-      "30": 350,
+      "23": 342,
+      "24": 342,
+      "25": 342,
+      "26": 3420,
+      "27": 342,
+      "28": 65,
+      "29": 342,
+      "30": 342,
       "31": 74,
       "32": 74,
       "33": 74,
       "34": 222,
       "35": 222,
-      "36": 350,
-      "37": 350,
-      "38": 350,
-      "39": 700,
-      "40": 700,
+      "36": 342,
+      "37": 342,
+      "38": 342,
+      "39": 684,
+      "40": 684,
       "41": 0,
-      "42": 350,
-      "43": 66,
-      "44": 350,
-      "45": 350,
-      "46": 1750,
-      "47": 1750,
-      "48": 17500,
-      "49": 350,
+      "42": 342,
+      "43": 65,
+      "44": 342,
+      "45": 342,
+      "46": 1710,
+      "47": 1710,
+      "48": 17100,
+      "49": 342,
       "50": 74,
       "51": 74,
       "52": 74,
@@ -18143,16 +18143,16 @@
       "54": 74,
       "55": 222,
       "56": 222,
-      "57": 350,
-      "58": 1750,
-      "59": 17500,
+      "57": 342,
+      "58": 1710,
+      "59": 17100,
       "60": 0,
-      "61": 350,
-      "62": 66,
-      "63": 1750,
-      "64": 1750,
-      "65": 1750,
-      "66": 1750,
+      "61": 342,
+      "62": 65,
+      "63": 1710,
+      "64": 1710,
+      "65": 1710,
+      "66": 1710,
       "67": 222,
       "68": 222,
       "69": 0,
@@ -18164,12 +18164,12 @@
       "75": 0,
       "76": 0,
       "77": 0,
-      "78": 1750,
+      "78": 1710,
       "79": 222,
-      "80": 1750,
-      "81": 66,
-      "82": 1750,
-      "83": 1750,
+      "80": 1710,
+      "81": 65,
+      "82": 1710,
+      "83": 1710,
       "84": 222,
       "85": 222,
       "86": 222,
@@ -18183,9 +18183,9 @@
       "94": 0,
       "95": 0,
       "96": 222,
-      "97": 1750,
-      "98": 66,
-      "99": 1750,
+      "97": 1710,
+      "98": 65,
+      "99": 1710,
       "100": 222,
       "101": 222,
       "102": 222,
@@ -18202,27 +18202,27 @@
       "113": 222,
       "114": 222,
       "115": 222,
-      "116": 66,
-      "117": 350,
-      "118": 350,
-      "119": 350,
-      "120": 350,
-      "121": 1750,
-      "122": 1750,
-      "123": 1750,
-      "124": 350
+      "116": 65,
+      "117": 342,
+      "118": 342,
+      "119": 342,
+      "120": 342,
+      "121": 1710,
+      "122": 1710,
+      "123": 1710,
+      "124": 342
     },
     "f": {
       "0": 0,
-      "1": 1750,
-      "2": 350,
-      "3": 350,
-      "4": 350,
+      "1": 1710,
+      "2": 342,
+      "3": 342,
+      "4": 342,
       "5": 0,
-      "6": 1750,
-      "7": 1750,
-      "8": 1750,
-      "9": 350
+      "6": 1710,
+      "7": 1710,
+      "8": 1710,
+      "9": 342
     },
     "b": {
       "0": [
@@ -18243,7 +18243,7 @@
       ],
       "4": [
         0,
-        700
+        684
       ],
       "5": [
         222,
@@ -18267,7 +18267,7 @@
       ],
       "10": [
         222,
-        1528
+        1488
       ],
       "11": [
         222,
@@ -18283,10 +18283,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "d178597b9c85cef3d96715e70ab301adc3030bf4"
+    "hash": "729f67aaf8eeb7daade85462c1eccf7ba9182788"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\scheduleUtils.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\utils\\scheduleUtils.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\scheduleUtils.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\utils\\scheduleUtils.js",
     "statementMap": {
       "0": {
         "start": {
@@ -18450,31 +18450,31 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 1750,
-      "2": 525,
-      "3": 1225,
-      "4": 175,
-      "5": 1050
+      "0": 65,
+      "1": 1710,
+      "2": 513,
+      "3": 1197,
+      "4": 171,
+      "5": 1026
     },
     "f": {
-      "0": 1750
+      "0": 1710
     },
     "b": {
       "0": [
-        525,
-        1225
+        513,
+        1197
       ],
       "1": [
-        175,
-        1050
+        171,
+        1026
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "415919e3f38ed975b1b539ddc163391c374893b9"
+    "hash": "414fd7bbaae2ff4bb19f6916f87c4cdbfca9d5eb"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\hoursColumn.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\hoursColumn.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\hoursColumn.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\hoursColumn.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -18623,25 +18623,25 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 1820,
-      "4": 66,
-      "5": 175,
-      "6": 1750
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 1780,
+      "4": 65,
+      "5": 171,
+      "6": 1710
     },
     "f": {
-      "0": 1820,
-      "1": 175,
-      "2": 1750
+      "0": 1780,
+      "1": 171,
+      "2": 1710
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4b431fd5574e4aed0299a2ec83cfcc7c8ccf9a5f"
+    "hash": "53bd93c0aa41e792da2933a316252f4cbd836398"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\scheduleCard.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\scheduleCard.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\scheduleCard.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\scheduleCard.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -19463,17 +19463,17 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 150,
       "2": 150,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 66,
-      "9": 66,
-      "10": 66,
+      "3": 65,
+      "4": 65,
+      "5": 65,
+      "6": 65,
+      "7": 65,
+      "8": 65,
+      "9": 65,
+      "10": 65,
       "11": 150,
       "12": 1,
       "13": 1,
@@ -19541,10 +19541,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4e015eb55508142dbd7bc6cb3397860f8dd13e73"
+    "hash": "5aaad3970b538a009398e54b078d12debb106cfe"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\dayColumn.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\dayColumn.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\dayColumn.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\dayColumn.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -19771,30 +19771,30 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 9750,
-      "3": 66,
-      "4": 975,
-      "5": 66,
-      "6": 940,
-      "7": 8460,
+      "0": 65,
+      "1": 65,
+      "2": 9550,
+      "3": 65,
+      "4": 955,
+      "5": 65,
+      "6": 920,
+      "7": 8280,
       "8": 150,
       "9": 150
     },
     "f": {
-      "0": 9750,
-      "1": 975,
-      "2": 940,
-      "3": 8460,
+      "0": 9550,
+      "1": 955,
+      "2": 920,
+      "3": 8280,
       "4": 150
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "61f8682f0a37f5ad0b5f345b7e40997b6b69d369"
+    "hash": "7af946b6020300828479b674dd10cc692ac87580"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\schedule.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\schedule\\schedule.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\schedule.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\schedule\\schedule.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -20698,64 +20698,64 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 195,
-      "2": 195,
-      "3": 195,
-      "4": 195,
-      "5": 195,
-      "6": 66,
-      "7": 66,
-      "8": 376,
-      "9": 376,
-      "10": 376,
+      "0": 65,
+      "1": 191,
+      "2": 191,
+      "3": 191,
+      "4": 191,
+      "5": 191,
+      "6": 65,
+      "7": 65,
+      "8": 368,
+      "9": 368,
+      "10": 368,
       "11": 1,
       "12": 1,
       "13": 1,
       "14": 1,
       "15": 1,
-      "16": 376,
+      "16": 368,
       "17": 6,
-      "18": 376,
+      "18": 368,
       "19": 10,
       "20": 10,
       "21": 10,
       "22": 10,
       "23": 0,
-      "24": 376,
+      "24": 368,
       "25": 4,
       "26": 4,
-      "27": 376,
-      "28": 376,
-      "29": 376,
-      "30": 376,
-      "31": 376,
-      "32": 376,
-      "33": 350,
-      "34": 350,
+      "27": 368,
+      "28": 368,
+      "29": 368,
+      "30": 368,
+      "31": 368,
+      "32": 368,
+      "33": 342,
+      "34": 342,
       "35": 204,
-      "36": 350,
-      "37": 350,
+      "36": 342,
+      "37": 342,
       "38": 40,
-      "39": 350,
-      "40": 376,
-      "41": 376,
-      "42": 1880
+      "39": 342,
+      "40": 368,
+      "41": 368,
+      "42": 1840
     },
     "f": {
-      "0": 195,
-      "1": 195,
-      "2": 195,
-      "3": 195,
-      "4": 195,
-      "5": 376,
+      "0": 191,
+      "1": 191,
+      "2": 191,
+      "3": 191,
+      "4": 191,
+      "5": 368,
       "6": 1,
       "7": 6,
       "8": 10,
       "9": 4,
-      "10": 350,
+      "10": 342,
       "11": 204,
-      "12": 1880
+      "12": 1840
     },
     "b": {
       "0": [
@@ -20768,19 +20768,19 @@
       ],
       "2": [
         40,
-        310
+        302
       ],
       "3": [
-        350,
+        342,
         40,
         40
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4a0d2150a3bef4c0468f80072b6e8fa4a05dd248"
+    "hash": "626cdf95d124355ce7a099b288ed6e99d743d692"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\map\\campusMap.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\map\\campusMap.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\map\\campusMap.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\map\\campusMap.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -21212,30 +21212,30 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 228,
-      "3": 228,
-      "4": 228,
-      "5": 228,
-      "6": 228,
-      "7": 228,
-      "8": 228,
-      "9": 228,
+      "0": 65,
+      "1": 65,
+      "2": 220,
+      "3": 220,
+      "4": 220,
+      "5": 220,
+      "6": 220,
+      "7": 220,
+      "8": 220,
+      "9": 220,
       "10": 0,
-      "11": 228
+      "11": 220
     },
     "f": {
-      "0": 228,
+      "0": 220,
       "1": 0
     },
     "b": {
       "0": [
-        228,
+        220,
         54
       ],
       "1": [
-        228,
+        220,
         54,
         54,
         54,
@@ -21243,27 +21243,27 @@
         0
       ],
       "2": [
-        228,
-        228
+        220,
+        220
       ],
       "3": [
         0,
-        228
+        220
       ],
       "4": [
-        228,
+        220,
         0
       ],
       "5": [
-        228,
+        220,
         54
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "66b35b48c5f3ae882810350935f3b50787ce7f6e"
+    "hash": "be2892e30edd393b1b8922e91c6941dd2baaa1ad"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\bodyLarge.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\bodyLarge.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\bodyLarge.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\bodyLarge.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -21402,24 +21402,24 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 152,
-      "3": 152,
-      "4": 66,
-      "5": 69
+      "0": 65,
+      "1": 65,
+      "2": 150,
+      "3": 150,
+      "4": 65,
+      "5": 68
     },
     "f": {
-      "0": 152,
-      "1": 152,
-      "2": 69
+      "0": 150,
+      "1": 150,
+      "2": 68
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "ff785e82c635341e3374f68d62097efb2b5fadc3"
+    "hash": "c27c961e790e12533766236f1ccd6071b3b10c46"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\bodySmall.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\bodySmall.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\bodySmall.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\bodySmall.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -21704,33 +21704,33 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 4,
-      "2": 4,
-      "3": 4,
-      "4": 4,
-      "5": 66,
-      "6": 66,
-      "7": 8,
-      "8": 8,
-      "9": 66,
-      "10": 4
+      "0": 65,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 65,
+      "6": 65,
+      "7": 2,
+      "8": 2,
+      "9": 65,
+      "10": 1
     },
     "f": {
-      "0": 4,
-      "1": 4,
-      "2": 4,
-      "3": 4,
-      "4": 8,
-      "5": 8,
-      "6": 4
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "5": 2,
+      "6": 1
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "c977aa05f584bfbda8261098360f3f36e185dc2e"
+    "hash": "2e97a8ffcbbf1a2e73a856a084808a801257231f"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\modal\\modalContent.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\modal\\modalContent.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\modal\\modalContent.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\modal\\modalContent.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -22324,20 +22324,20 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 11,
-      "2": 66,
-      "3": 66,
+      "2": 65,
+      "3": 65,
       "4": 11,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 66,
+      "5": 65,
+      "6": 65,
+      "7": 65,
+      "8": 65,
       "9": 55,
-      "10": 66,
-      "11": 66,
+      "10": 65,
+      "11": 65,
       "12": 55,
-      "13": 66,
+      "13": 65,
       "14": 11,
       "15": 11
     },
@@ -22383,10 +22383,10 @@
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "c8ba41535d699ebcc3445011efd3c508dc7959c6"
+    "hash": "f90b8304a3ed0afa4d79e044e0c4db6c1a6e16a2"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\modal\\modal.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\modal\\modal.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\modal\\modal.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\modal\\modal.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -22738,47 +22738,47 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 212,
-      "4": 212,
-      "5": 212,
-      "6": 212,
-      "7": 212,
-      "8": 212,
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 204,
+      "4": 204,
+      "5": 204,
+      "6": 204,
+      "7": 204,
+      "8": 204,
       "9": 22,
       "10": 22,
-      "11": 212,
+      "11": 204,
       "12": 6,
-      "13": 212,
+      "13": 204,
       "14": 4,
       "15": 4,
       "16": 4,
       "17": 4,
       "18": 4,
-      "19": 212
+      "19": 204
     },
     "f": {
-      "0": 212,
+      "0": 204,
       "1": 6,
       "2": 4
     },
     "b": {
       "0": [
         22,
-        190
+        182
       ],
       "1": [
-        212,
+        204,
         22
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "a7fdda43d03d616055de5730d5caef8551abeaa9"
+    "hash": "d444418e353c8ad7fc3baf2cfa81d1725e6a1dc3"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\body.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\body.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\body.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\body.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -22912,28 +22912,28 @@
       }
     },
     "s": {
-      "0": 66,
-      "1": 146,
-      "2": 146
+      "0": 65,
+      "1": 138,
+      "2": 138
     },
     "f": {
-      "0": 146
+      "0": 138
     },
     "b": {
       "0": [
-        146,
-        138
+        138,
+        136
       ],
       "1": [
-        146,
-        8
+        138,
+        2
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "3e3272cf5dc93c6e3380ed960f3ce55e3bee54a8"
+    "hash": "d04c9c3317d41e2b84aabb6c2b4c8c38ac4228f1"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\pages\\aboutPage.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\pages\\aboutPage.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\pages\\aboutPage.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\pages\\aboutPage.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -23170,16 +23170,16 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
+      "0": 65,
+      "1": 65,
+      "2": 65,
       "3": 4,
-      "4": 66,
+      "4": 65,
       "5": 28,
-      "6": 66,
+      "6": 65,
       "7": 4,
       "8": 4,
-      "9": 66,
+      "9": 65,
       "10": 4
     },
     "f": {
@@ -23191,10 +23191,10 @@
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "f1aed31ad6d1bc23dcf0f7338ead09c105688c68"
+    "hash": "a11bf906c7bcc7ac0513261e3cddc395a6d6f677"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\AppBody.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\AppBody.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\AppBody.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\AppBody.js",
     "statementMap": {
       "0": {
         "start": {
@@ -23299,22 +23299,22 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 73,
-      "2": 66,
-      "3": 66,
-      "4": 66
+      "0": 65,
+      "1": 72,
+      "2": 65,
+      "3": 65,
+      "4": 65
     },
     "f": {
-      "0": 73,
-      "1": 66
+      "0": 72,
+      "1": 65
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "8f359e824838d2f99c5797c5d8f883ff4eff0888"
+    "hash": "ea28cb47f1f572d354e329464536997455d1443e"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\App.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\App.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\App.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\App.js",
     "statementMap": {
       "0": {
         "start": {
@@ -23483,27 +23483,27 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66,
-      "2": 66,
-      "3": 2011,
-      "4": 132,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 132
+      "0": 65,
+      "1": 65,
+      "2": 65,
+      "3": 2007,
+      "4": 130,
+      "5": 65,
+      "6": 65,
+      "7": 65,
+      "8": 130
     },
     "f": {
-      "0": 2011,
-      "1": 132,
-      "2": 66
+      "0": 2007,
+      "1": 130,
+      "2": 65
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "2153f59705633614268c2fcf195c937b163aa0e0"
+    "hash": "5af4a2e26874f6a6b19eb2dbe7323a9f8486895c"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\common\\logger.jsx": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\components\\common\\logger.jsx",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\common\\logger.jsx": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\components\\common\\logger.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -23686,27 +23686,27 @@
     },
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 132,
-      "2": 66,
-      "3": 66,
-      "4": 66,
+      "0": 65,
+      "1": 130,
+      "2": 65,
+      "3": 65,
+      "4": 65,
       "5": 0,
       "6": 0,
-      "7": 132
+      "7": 130
     },
     "f": {
-      "0": 132,
-      "1": 66,
+      "0": 130,
+      "1": 65,
       "2": 0,
       "3": 0
     },
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "0653bcad42463aeefe2eb8f11e5b5dfaecfc5333"
+    "hash": "ae921d58d97f598f1d9f1cc2c5f613a06b8e15b0"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\serviceWorker.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\serviceWorker.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\serviceWorker.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\serviceWorker.js",
     "statementMap": {
       "0": {
         "start": {
@@ -25048,7 +25048,7 @@
       }
     },
     "s": {
-      "0": 66,
+      "0": 65,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -25083,8 +25083,8 @@
       "32": 0,
       "33": 0,
       "34": 0,
-      "35": 66,
-      "36": 66,
+      "35": 65,
+      "36": 65,
       "37": 0,
       "38": 0
     },
@@ -25102,13 +25102,13 @@
       "10": 0,
       "11": 0,
       "12": 0,
-      "13": 66,
+      "13": 65,
       "14": 0,
       "15": 0
     },
     "b": {
       "0": [
-        66,
+        65,
         0,
         0
       ],
@@ -25166,15 +25166,15 @@
         0
       ],
       "14": [
-        66,
+        65,
         0
       ]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "4a9221ff5cadab55211b614a3267b753cd3fda0d"
+    "hash": "18b539873b6e5cf3ac3da1c676a820b91699d177"
   },
-  "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\index.js": {
-    "path": "C:\\Users\\andyx\\Desktop\\NU Salad\\salad.nu\\src\\index.js",
+  "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\index.js": {
+    "path": "C:\\Users\\andyx\\Desktop\\NU Labs\\Salad\\salad.nu\\src\\index.js",
     "statementMap": {
       "0": {
         "start": {
@@ -25200,12 +25200,12 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 66,
-      "1": 66
+      "0": 65,
+      "1": 65
     },
     "f": {},
     "b": {},
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "8cfd7b84ea5cd6bd43c35a665cebaae0cbcd3dc7"
+    "hash": "0880a4118b36b8316cf05f10c19bff98dece4f59"
   }
 }

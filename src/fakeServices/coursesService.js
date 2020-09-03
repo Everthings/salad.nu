@@ -16,6 +16,14 @@ const courses = [
     number: "202-DL",
   },
   {
+    course_id: 20462,
+    unique_id: 205713,
+    school: "UC",
+    title: "Intermediate Accounting II",
+    subject: "ACCOUNT",
+    number: "211-DL",
+  },
+  {
     course_id: 20464,
     unique_id: 191390,
     school: "UC",
@@ -129,7 +137,7 @@ const courses = [
   },
   {
     course_id: 1218,
-    unique_id: 205409,
+    unique_id: 205408,
     school: "WCAS",
     title: "Topics in African-American Studies",
     subject: "AF_AM_ST",
@@ -169,7 +177,7 @@ const courses = [
   },
   {
     course_id: 19283,
-    unique_id: 205414,
+    unique_id: 205415,
     school: "WCAS",
     title: "Graduate Topics in African American Studies",
     subject: "AF_AM_ST",
@@ -177,7 +185,7 @@ const courses = [
   },
   {
     course_id: 17544,
-    unique_id: 205423,
+    unique_id: 205416,
     school: "WCAS",
     title: "Independent Study",
     subject: "AF_AM_ST",
@@ -185,7 +193,7 @@ const courses = [
   },
   {
     course_id: 18031,
-    unique_id: 205431,
+    unique_id: 205427,
     school: "WCAS",
     title: "Reading and Pedagogy",
     subject: "AF_AM_ST",
@@ -225,7 +233,7 @@ const courses = [
   },
   {
     course_id: 1089,
-    unique_id: 204465,
+    unique_id: 204467,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "ANTHRO",
@@ -281,7 +289,7 @@ const courses = [
   },
   {
     course_id: 1147,
-    unique_id: 204475,
+    unique_id: 204476,
     school: "WCAS",
     title: "Topics In Anthropology",
     subject: "ANTHRO",
@@ -377,7 +385,7 @@ const courses = [
   },
   {
     course_id: 1303,
-    unique_id: 204494,
+    unique_id: 204495,
     school: "WCAS",
     title: "Introduction to Painting",
     subject: "ART",
@@ -385,7 +393,7 @@ const courses = [
   },
   {
     course_id: 1308,
-    unique_id: 204497,
+    unique_id: 204498,
     school: "WCAS",
     title: "Introduction to Sculpture",
     subject: "ART",
@@ -393,7 +401,7 @@ const courses = [
   },
   {
     course_id: 1309,
-    unique_id: 204499,
+    unique_id: 204500,
     school: "WCAS",
     title: "Introduction to Photography",
     subject: "ART",
@@ -457,7 +465,7 @@ const courses = [
   },
   {
     course_id: 1272,
-    unique_id: 204509,
+    unique_id: 204510,
     school: "WCAS",
     title: "Undergraduate Seminar",
     subject: "ART_HIST",
@@ -481,7 +489,7 @@ const courses = [
   },
   {
     course_id: 1290,
-    unique_id: 204514,
+    unique_id: 204515,
     school: "WCAS",
     title: "Studies in 20th & 21st Century Art",
     subject: "ART_HIST",
@@ -529,7 +537,7 @@ const courses = [
   },
   {
     course_id: 21592,
-    unique_id: 204522,
+    unique_id: 204523,
     school: "WCAS",
     title: "Advanced Topics in Social and Cultural Analysis",
     subject: "ASIAN_AM",
@@ -561,7 +569,7 @@ const courses = [
   },
   {
     course_id: 23534,
-    unique_id: 204529,
+    unique_id: 204528,
     school: "WCAS",
     title: "Introductory Topics in Korean Literature and Culture",
     subject: "ASIAN_LC",
@@ -585,7 +593,7 @@ const courses = [
   },
   {
     course_id: 18604,
-    unique_id: 204533,
+    unique_id: 204534,
     school: "WCAS",
     title: "Advanced Topics in Asian Languages and Cultures",
     subject: "ASIAN_LC",
@@ -649,7 +657,7 @@ const courses = [
   },
   {
     course_id: 1348,
-    unique_id: 204543,
+    unique_id: 204545,
     school: "WCAS",
     title: "Honors Independent Study",
     subject: "ASTRON",
@@ -721,7 +729,7 @@ const courses = [
   },
   {
     course_id: 19886,
-    unique_id: 204562,
+    unique_id: 204561,
     school: "WCAS",
     title: "Physiology",
     subject: "BIOL_SCI",
@@ -737,7 +745,7 @@ const courses = [
   },
   {
     course_id: 22200,
-    unique_id: 204573,
+    unique_id: 204567,
     school: "WCAS",
     title: "Peer-Guided Study Group: Physiology",
     subject: "BIOL_SCI",
@@ -745,7 +753,7 @@ const courses = [
   },
   {
     course_id: 19888,
-    unique_id: 204576,
+    unique_id: 204594,
     school: "WCAS",
     title: "Genetics and Molecular Processes Laboratory",
     subject: "BIOL_SCI",
@@ -753,7 +761,7 @@ const courses = [
   },
   {
     course_id: 20335,
-    unique_id: 191400,
+    unique_id: 201578,
     school: "UC",
     title: "Genetic and Molecular Processes Laboratory",
     subject: "BIOL_SCI",
@@ -865,7 +873,7 @@ const courses = [
   },
   {
     course_id: 1430,
-    unique_id: 204623,
+    unique_id: 204750,
     school: "WCAS",
     title: "Tutorial in Biology",
     subject: "BIOL_SCI",
@@ -977,7 +985,7 @@ const courses = [
   },
   {
     course_id: 23413,
-    unique_id: 202916,
+    unique_id: 202915,
     school: "MEAS",
     title: "Foundations of Regenerative Engineering",
     subject: "BMD_ENG",
@@ -1025,7 +1033,7 @@ const courses = [
   },
   {
     course_id: 5431,
-    unique_id: 202923,
+    unique_id: 202922,
     school: "MEAS",
     title: "Graduate Research Seminar in Biomedical Engineering",
     subject: "BMD_ENG",
@@ -1065,7 +1073,7 @@ const courses = [
   },
   {
     course_id: 6925,
-    unique_id: 191834,
+    unique_id: 201567,
     school: "LAW",
     title: "Contracts",
     subject: "BUSCOM",
@@ -1073,7 +1081,7 @@ const courses = [
   },
   {
     course_id: 15579,
-    unique_id: 191836,
+    unique_id: 191838,
     school: "LAW",
     title: "Business Associations",
     subject: "BUSCOM",
@@ -1177,7 +1185,7 @@ const courses = [
   },
   {
     course_id: 6952,
-    unique_id: 191852,
+    unique_id: 191851,
     school: "LAW",
     title: "Basic Federal Income Taxation",
     subject: "BUSCOM",
@@ -1217,7 +1225,7 @@ const courses = [
   },
   {
     course_id: 21294,
-    unique_id: 205517,
+    unique_id: 205516,
     school: "LAW",
     title: "Business Formation & Structure",
     subject: "BUSCOM",
@@ -1225,7 +1233,7 @@ const courses = [
   },
   {
     course_id: 21295,
-    unique_id: 205520,
+    unique_id: 205519,
     school: "LAW",
     title: "Contract Law & Design",
     subject: "BUSCOM",
@@ -1321,7 +1329,7 @@ const courses = [
   },
   {
     course_id: 14198,
-    unique_id: 204752,
+    unique_id: 204753,
     school: "WCAS",
     title: "Marketing Management",
     subject: "BUS_INST",
@@ -1345,7 +1353,7 @@ const courses = [
   },
   {
     course_id: 3470,
-    unique_id: 204756,
+    unique_id: 69977,
     school: "WCAS",
     title: "Professional Linkage Seminar",
     subject: "BUS_INST",
@@ -1465,7 +1473,7 @@ const courses = [
   },
   {
     course_id: 22590,
-    unique_id: 204776,
+    unique_id: 204777,
     school: "WCAS",
     title: "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
     subject: "CHEM",
@@ -1473,7 +1481,7 @@ const courses = [
   },
   {
     course_id: 22465,
-    unique_id: 204779,
+    unique_id: 204778,
     school: "WCAS",
     title: "Accelerated General Chemistry 1",
     subject: "CHEM",
@@ -1481,7 +1489,7 @@ const courses = [
   },
   {
     course_id: 22593,
-    unique_id: 204792,
+    unique_id: 204785,
     school: "WCAS",
     title: "Peer-Guided Study Group: Accelerated General Chemistry 1",
     subject: "CHEM",
@@ -1489,7 +1497,7 @@ const courses = [
   },
   {
     course_id: 22467,
-    unique_id: 204796,
+    unique_id: 204795,
     school: "WCAS",
     title: "Accelerated General Chemistry Laboratory 1",
     subject: "CHEM",
@@ -1513,7 +1521,7 @@ const courses = [
   },
   {
     course_id: 1467,
-    unique_id: 204801,
+    unique_id: 204800,
     school: "WCAS",
     title: "Organic Chemistry",
     subject: "CHEM",
@@ -1529,7 +1537,7 @@ const courses = [
   },
   {
     course_id: 16323,
-    unique_id: 204809,
+    unique_id: 204813,
     school: "WCAS",
     title: "Peer-Guided Study Group: Organic Chemistry 1",
     subject: "CHEM",
@@ -1626,7 +1634,7 @@ const courses = [
   },
   {
     course_id: 1492,
-    unique_id: 204831,
+    unique_id: 204830,
     school: "WCAS",
     title: "Organometallic Reaction Mechanisms",
     subject: "CHEM",
@@ -1659,7 +1667,7 @@ const courses = [
   },
   {
     course_id: 1502,
-    unique_id: 204837,
+    unique_id: 204836,
     school: "WCAS",
     title: "Quantum Chemistry",
     subject: "CHEM",
@@ -1667,7 +1675,7 @@ const courses = [
   },
   {
     course_id: 1505,
-    unique_id: 204839,
+    unique_id: 204838,
     school: "WCAS",
     title: "Elementary Statistical Mechanics",
     subject: "CHEM",
@@ -1796,7 +1804,7 @@ const courses = [
   },
   {
     course_id: 2331,
-    unique_id: 204841,
+    unique_id: 204844,
     school: "WCAS",
     title: "Chinese I",
     subject: "CHINESE",
@@ -1820,7 +1828,7 @@ const courses = [
   },
   {
     course_id: 2334,
-    unique_id: 204847,
+    unique_id: 204846,
     school: "WCAS",
     title: "Chinese II",
     subject: "CHINESE",
@@ -1988,7 +1996,7 @@ const courses = [
   },
   {
     course_id: 21066,
-    unique_id: 202925,
+    unique_id: 202924,
     school: "MEAS",
     title: "Introductory Course in Civil and Environmental Engineering",
     subject: "CIV_ENV",
@@ -2004,7 +2012,7 @@ const courses = [
   },
   {
     course_id: 22510,
-    unique_id: 202928,
+    unique_id: 202929,
     school: "MEAS",
     title: "Economics and Finance for Engineers",
     subject: "CIV_ENV",
@@ -2020,7 +2028,7 @@ const courses = [
   },
   {
     course_id: 4840,
-    unique_id: 202932,
+    unique_id: 202931,
     school: "MEAS",
     title: "Theory of Structures I",
     subject: "CIV_ENV",
@@ -2044,7 +2052,7 @@ const courses = [
   },
   {
     course_id: 4848,
-    unique_id: 202936,
+    unique_id: 202937,
     school: "MEAS",
     title: "Uncertainty Analysis",
     subject: "CIV_ENV",
@@ -2068,7 +2076,7 @@ const courses = [
   },
   {
     course_id: 4886,
-    unique_id: 202940,
+    unique_id: 202941,
     school: "MEAS",
     title: "Environmental Microbiology",
     subject: "CIV_ENV",
@@ -2084,7 +2092,7 @@ const courses = [
   },
   {
     course_id: 4894,
-    unique_id: 202944,
+    unique_id: 202945,
     school: "MEAS",
     title: "Sustainability: The City",
     subject: "CIV_ENV",
@@ -2124,7 +2132,7 @@ const courses = [
   },
   {
     course_id: 4902,
-    unique_id: 202953,
+    unique_id: 202954,
     school: "MEAS",
     title: "Special Topics in Civil and Environmental Engrg",
     subject: "CIV_ENV",
@@ -2180,7 +2188,7 @@ const courses = [
   },
   {
     course_id: 4932,
-    unique_id: 202963,
+    unique_id: 202964,
     school: "MEAS",
     title: "Soil Mechanics 1",
     subject: "CIV_ENV",
@@ -2413,7 +2421,7 @@ const courses = [
   },
   {
     course_id: 4765,
-    unique_id: 203154,
+    unique_id: 203155,
     school: "SPCH",
     title: "Student Organized Seminar",
     subject: "CMN",
@@ -2469,7 +2477,7 @@ const courses = [
   },
   {
     course_id: 4134,
-    unique_id: 203163,
+    unique_id: 203158,
     school: "SPCH",
     title: "Public Speaking",
     subject: "COMM_ST",
@@ -2557,7 +2565,7 @@ const courses = [
   },
   {
     course_id: 19851,
-    unique_id: 203173,
+    unique_id: 203171,
     school: "SPCH",
     title: "First-Year Seminar",
     subject: "COMM_ST",
@@ -2645,7 +2653,7 @@ const courses = [
   },
   {
     course_id: 15881,
-    unique_id: 203183,
+    unique_id: 205694,
     school: "SPCH",
     title: "Honors Seminar",
     subject: "COMM_ST",
@@ -2789,7 +2797,7 @@ const courses = [
   },
   {
     course_id: 18662,
-    unique_id: 205441,
+    unique_id: 205442,
     school: "WCAS",
     title: "Reading Across Disciplines",
     subject: "COMP_LIT",
@@ -2837,7 +2845,7 @@ const courses = [
   },
   {
     course_id: 1638,
-    unique_id: 205450,
+    unique_id: 205452,
     school: "WCAS",
     title: "Studies in Literature and the Arts",
     subject: "COMP_LIT",
@@ -2845,7 +2853,7 @@ const courses = [
   },
   {
     course_id: 1639,
-    unique_id: 205453,
+    unique_id: 205456,
     school: "WCAS",
     title: "Special Topics in Comparative Literature",
     subject: "COMP_LIT",
@@ -3053,7 +3061,7 @@ const courses = [
   },
   {
     course_id: 22536,
-    unique_id: 202411,
+    unique_id: 202410,
     school: "MEAS",
     title: "Special Topics in Computer Science",
     subject: "COMP_SCI",
@@ -3061,7 +3069,7 @@ const courses = [
   },
   {
     course_id: 5073,
-    unique_id: 202417,
+    unique_id: 202418,
     school: "MEAS",
     title: "Special Projects in Computer Science",
     subject: "COMP_SCI",
@@ -3085,7 +3093,7 @@ const courses = [
   },
   {
     course_id: 22538,
-    unique_id: 202428,
+    unique_id: 202431,
     school: "MEAS",
     title: "Special Projects in Computer Science",
     subject: "COMP_SCI",
@@ -3109,7 +3117,7 @@ const courses = [
   },
   {
     course_id: 3814,
-    unique_id: 202211,
+    unique_id: 202209,
     school: "MUSIC",
     title: "Choral Organizations",
     subject: "CONDUCT",
@@ -3117,7 +3125,7 @@ const courses = [
   },
   {
     course_id: 3816,
-    unique_id: 202212,
+    unique_id: 202213,
     school: "MUSIC",
     title: "Band Organizations",
     subject: "CONDUCT",
@@ -3141,7 +3149,7 @@ const courses = [
   },
   {
     course_id: 3819,
-    unique_id: 202223,
+    unique_id: 202224,
     school: "MUSIC",
     title: "Orchestral Organizations",
     subject: "CONDUCT",
@@ -3157,7 +3165,7 @@ const courses = [
   },
   {
     course_id: 3822,
-    unique_id: 202228,
+    unique_id: 202226,
     school: "MUSIC",
     title: "Seminar in Conducting",
     subject: "CONDUCT",
@@ -3350,7 +3358,7 @@ const courses = [
   },
   {
     course_id: 21773,
-    unique_id: 205558,
+    unique_id: 205722,
     school: "TGS",
     title: "Research Methods in Counseling",
     subject: "COUN",
@@ -3365,12 +3373,52 @@ const courses = [
     number: "411-0",
   },
   {
+    course_id: 21483,
+    unique_id: 205728,
+    school: "TGS",
+    title: "Psycho-dynamic Counseling-Individuals and Systems",
+    subject: "COUN",
+    number: "411-6",
+  },
+  {
+    course_id: 21784,
+    unique_id: 205733,
+    school: "TGS",
+    title: "Human Development (Child)",
+    subject: "COUN",
+    number: "413-6",
+  },
+  {
+    course_id: 21665,
+    unique_id: 205736,
+    school: "TGS",
+    title: "Human  Development (Adult)",
+    subject: "COUN",
+    number: "414-6",
+  },
+  {
+    course_id: 21664,
+    unique_id: 205744,
+    school: "TGS",
+    title: "Psychopathology in Counseling",
+    subject: "COUN",
+    number: "415-6",
+  },
+  {
     course_id: 721,
-    unique_id: 203613,
+    unique_id: 205695,
     school: "TGS",
     title: "Theories of Counseling & Psychotherapy",
     subject: "COUN",
     number: "416-0",
+  },
+  {
+    course_id: 21484,
+    unique_id: 205752,
+    school: "TGS",
+    title: "Theories of Counseling & Psychotherapy",
+    subject: "COUN",
+    number: "416-6",
   },
   {
     course_id: 722,
@@ -3382,7 +3430,7 @@ const courses = [
   },
   {
     course_id: 21866,
-    unique_id: 205559,
+    unique_id: 205753,
     school: "TGS",
     title: "Cognitive Behavioral Therapy",
     subject: "COUN",
@@ -3397,12 +3445,36 @@ const courses = [
     number: "422-0",
   },
   {
+    course_id: 22031,
+    unique_id: 205759,
+    school: "TGS",
+    title: "Foundations of Family, Marital and Couples Counseling",
+    subject: "COUN",
+    number: "422-6",
+  },
+  {
+    course_id: 22032,
+    unique_id: 205763,
+    school: "TGS",
+    title: "Assessment in Counseling",
+    subject: "COUN",
+    number: "426-6",
+  },
+  {
     course_id: 22221,
     unique_id: 205560,
     school: "TGS",
     title: "Career Development",
     subject: "COUN",
     number: "427-6",
+  },
+  {
+    course_id: 22219,
+    unique_id: 205772,
+    school: "TGS",
+    title: "Sexuality in Counseling",
+    subject: "COUN",
+    number: "429-6",
   },
   {
     course_id: 16111,
@@ -3414,8 +3486,24 @@ const courses = [
     number: "436-0",
   },
   {
+    course_id: 21867,
+    unique_id: 205774,
+    school: "TGS",
+    title: "Child & Adolescent Counseling and Psychotherapy",
+    subject: "COUN",
+    number: "436-6",
+  },
+  {
+    course_id: 22033,
+    unique_id: 205777,
+    school: "TGS",
+    title: "Theory  & Technique of Substance Abuse Counseling",
+    subject: "COUN",
+    number: "452-6",
+  },
+  {
     course_id: 22320,
-    unique_id: 205561,
+    unique_id: 205783,
     school: "TGS",
     title: "Evaluation & Treatment of Trauma Disorders",
     subject: "COUN",
@@ -3447,7 +3535,7 @@ const courses = [
   },
   {
     course_id: 754,
-    unique_id: 203620,
+    unique_id: 205696,
     school: "TGS",
     title: "Counseling Methods I: Skills for Counseling & Psychotherapy",
     subject: "COUN",
@@ -3455,7 +3543,7 @@ const courses = [
   },
   {
     course_id: 21480,
-    unique_id: 203621,
+    unique_id: 205562,
     school: "TGS",
     title: "Counseling Methods I: Skills for Counseling & Psychotherapy",
     subject: "COUN",
@@ -3471,7 +3559,7 @@ const courses = [
   },
   {
     course_id: 21663,
-    unique_id: 205563,
+    unique_id: 205793,
     school: "TGS",
     title: "Counseling Methods II: Strategies for Counseling & Psychotherapy",
     subject: "COUN",
@@ -3495,7 +3583,7 @@ const courses = [
   },
   {
     course_id: 21775,
-    unique_id: 205565,
+    unique_id: 205803,
     school: "TGS",
     title: "Counseling Methods III: Outreach, Prevention, and Advocacy",
     subject: "COUN",
@@ -3518,8 +3606,16 @@ const courses = [
     number: "483-6",
   },
   {
+    course_id: 21774,
+    unique_id: 205814,
+    school: "TGS",
+    title: "Cultural Diversity in Counseling",
+    subject: "COUN",
+    number: "484-6",
+  },
+  {
     course_id: 22220,
-    unique_id: 205566,
+    unique_id: 205816,
     school: "TGS",
     title: "Advanced Topics in Clinical Mental Health Counseling",
     subject: "COUN",
@@ -3527,11 +3623,35 @@ const courses = [
   },
   {
     course_id: 21666,
-    unique_id: 205567,
+    unique_id: 205829,
     school: "TGS",
     title: "Supervised Practicum in Counseling II",
     subject: "COUN",
     number: "487-6",
+  },
+  {
+    course_id: 21772,
+    unique_id: 205836,
+    school: "TGS",
+    title: "Supervised Practicum in Counseling III",
+    subject: "COUN",
+    number: "488-6",
+  },
+  {
+    course_id: 22034,
+    unique_id: 205846,
+    school: "TGS",
+    title: "Supervised Internship in Counseling II",
+    subject: "COUN",
+    number: "490-6",
+  },
+  {
+    course_id: 22218,
+    unique_id: 205850,
+    school: "TGS",
+    title: "Supervised Internship in Counseling III",
+    subject: "COUN",
+    number: "491-6",
   },
   {
     course_id: 786,
@@ -3551,7 +3671,7 @@ const courses = [
   },
   {
     course_id: 17946,
-    unique_id: 202433,
+    unique_id: 202435,
     school: "MEAS",
     title: "Introduction to Career Development",
     subject: "CRDV",
@@ -4344,7 +4464,7 @@ const courses = [
   },
   {
     course_id: 20248,
-    unique_id: 203113,
+    unique_id: 203110,
     school: "SPCH",
     title: "Research Practicum in Communication Sciences and Disorders",
     subject: "CSD",
@@ -4633,7 +4753,7 @@ const courses = [
   },
   {
     course_id: 20330,
-    unique_id: 203194,
+    unique_id: 203195,
     school: "SPCH",
     title: "Music Theatre Dance II",
     subject: "DANCE",
@@ -4649,7 +4769,7 @@ const courses = [
   },
   {
     course_id: 4719,
-    unique_id: 203199,
+    unique_id: 203198,
     school: "SPCH",
     title: "Jazz l",
     subject: "DANCE",
@@ -4737,7 +4857,7 @@ const courses = [
   },
   {
     course_id: 20800,
-    unique_id: 191662,
+    unique_id: 205689,
     school: "KGSM",
     title: "Business Analytics I",
     subject: "DECS",
@@ -4753,7 +4873,7 @@ const courses = [
   },
   {
     course_id: 20730,
-    unique_id: 191673,
+    unique_id: 191674,
     school: "KGSM",
     title: "Business Analytics II",
     subject: "DECS",
@@ -4785,7 +4905,7 @@ const courses = [
   },
   {
     course_id: 21912,
-    unique_id: 202527,
+    unique_id: 202528,
     school: "MEAS",
     title: "Design Thinking and Doing",
     subject: "DSGN",
@@ -4793,7 +4913,7 @@ const courses = [
   },
   {
     course_id: 20662,
-    unique_id: 202530,
+    unique_id: 202529,
     school: "MEAS",
     title: "Introduction to Design Sketching",
     subject: "DSGN",
@@ -4817,7 +4937,7 @@ const courses = [
   },
   {
     course_id: 23157,
-    unique_id: 201622,
+    unique_id: 202534,
     school: "MEAS",
     title: "Designing Your Life",
     subject: "DSGN",
@@ -4857,7 +4977,7 @@ const courses = [
   },
   {
     course_id: 16319,
-    unique_id: 202539,
+    unique_id: 205704,
     school: "MEAS",
     title: "Portfolio Development & Presentation",
     subject: "DSGN",
@@ -4913,7 +5033,7 @@ const courses = [
   },
   {
     course_id: 22297,
-    unique_id: 202547,
+    unique_id: 202546,
     school: "MEAS",
     title: "Whole-Brain Communication",
     subject: "DSGN",
@@ -4921,7 +5041,7 @@ const courses = [
   },
   {
     course_id: 17990,
-    unique_id: 202551,
+    unique_id: 202549,
     school: "MEAS",
     title: "Special Topics in Engineering Design",
     subject: "DSGN",
@@ -4937,7 +5057,7 @@ const courses = [
   },
   {
     course_id: 1905,
-    unique_id: 204867,
+    unique_id: 204868,
     school: "WCAS",
     title: "The Ocean, the Atmosphere & Our Climate",
     subject: "EARTH",
@@ -5001,7 +5121,7 @@ const courses = [
   },
   {
     course_id: 1645,
-    unique_id: 204876,
+    unique_id: 204878,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "ECON",
@@ -5025,7 +5145,7 @@ const courses = [
   },
   {
     course_id: 20905,
-    unique_id: 204883,
+    unique_id: 204881,
     school: "WCAS",
     title: "Peer-Guided Study Group: Introduction to Macroeconomics",
     subject: "ECON",
@@ -5097,7 +5217,7 @@ const courses = [
   },
   {
     course_id: 21884,
-    unique_id: 204894,
+    unique_id: 204895,
     school: "WCAS",
     title: "Peer-Guided Study Group: Microeconomics I",
     subject: "ECON",
@@ -5105,7 +5225,7 @@ const courses = [
   },
   {
     course_id: 23224,
-    unique_id: 204896,
+    unique_id: 204897,
     school: "WCAS",
     title: "Peer-Guided Study Group: Microeconomics II",
     subject: "ECON",
@@ -5233,7 +5353,7 @@ const courses = [
   },
   {
     course_id: 1698,
-    unique_id: 204912,
+    unique_id: 204913,
     school: "WCAS",
     title: "Microeconomics",
     subject: "ECON",
@@ -5249,7 +5369,7 @@ const courses = [
   },
   {
     course_id: 1704,
-    unique_id: 204917,
+    unique_id: 204916,
     school: "WCAS",
     title: "Economic Theory and Methods",
     subject: "ECON",
@@ -5265,7 +5385,7 @@ const courses = [
   },
   {
     course_id: 1711,
-    unique_id: 204919,
+    unique_id: 204920,
     school: "WCAS",
     title: "Advanced Macroeconomics",
     subject: "ECON",
@@ -5537,7 +5657,7 @@ const courses = [
   },
   {
     course_id: 1763,
-    unique_id: 204938,
+    unique_id: 204939,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "ENGLISH",
@@ -5561,7 +5681,7 @@ const courses = [
   },
   {
     course_id: 1770,
-    unique_id: 204947,
+    unique_id: 204944,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "ENGLISH",
@@ -5569,7 +5689,7 @@ const courses = [
   },
   {
     course_id: 1771,
-    unique_id: 204958,
+    unique_id: 204953,
     school: "WCAS",
     title: "Writing in Special Contexts",
     subject: "ENGLISH",
@@ -5585,7 +5705,7 @@ const courses = [
   },
   {
     course_id: 22040,
-    unique_id: 204965,
+    unique_id: 204966,
     school: "WCAS",
     title: "Introduction to Creative Writing",
     subject: "ENGLISH",
@@ -5601,7 +5721,7 @@ const courses = [
   },
   {
     course_id: 6183,
-    unique_id: 191462,
+    unique_id: 191461,
     school: "UC",
     title: "Intermediate Composition",
     subject: "ENGLISH",
@@ -5665,7 +5785,7 @@ const courses = [
   },
   {
     course_id: 19829,
-    unique_id: 205670,
+    unique_id: 205671,
     school: "DOHA",
     title: "Topics in Literature:",
     subject: "ENGLISH",
@@ -5681,7 +5801,7 @@ const courses = [
   },
   {
     course_id: 22206,
-    unique_id: 204981,
+    unique_id: 204982,
     school: "WCAS",
     title: "Writing and Speaking in Business",
     subject: "ENGLISH",
@@ -5689,7 +5809,7 @@ const courses = [
   },
   {
     course_id: 1788,
-    unique_id: 204985,
+    unique_id: 204987,
     school: "WCAS",
     title: "Seminar in Reading and Interpretation",
     subject: "ENGLISH",
@@ -5857,7 +5977,7 @@ const courses = [
   },
   {
     course_id: 17846,
-    unique_id: 205012,
+    unique_id: 205013,
     school: "WCAS",
     title: "Introduction to Graduate Study",
     subject: "ENGLISH",
@@ -5929,7 +6049,7 @@ const courses = [
   },
   {
     course_id: 23164,
-    unique_id: 202577,
+    unique_id: 202578,
     school: "MEAS",
     title: "Personal Branding and How to Grow Your Fanbase",
     subject: "ENTREP",
@@ -5953,7 +6073,7 @@ const courses = [
   },
   {
     course_id: 22746,
-    unique_id: 202582,
+    unique_id: 202583,
     school: "MEAS",
     title: "Startup Accounting and Finance",
     subject: "ENTREP",
@@ -5961,7 +6081,7 @@ const courses = [
   },
   {
     course_id: 23166,
-    unique_id: 202585,
+    unique_id: 202584,
     school: "MEAS",
     title: "Innovate for Impact",
     subject: "ENTREP",
@@ -5985,7 +6105,7 @@ const courses = [
   },
   {
     course_id: 22318,
-    unique_id: 202589,
+    unique_id: 202590,
     school: "MEAS",
     title: "NUvention Transportation",
     subject: "ENTREP",
@@ -6017,7 +6137,7 @@ const courses = [
   },
   {
     course_id: 18572,
-    unique_id: 205025,
+    unique_id: 205026,
     school: "WCAS",
     title: "Special Topics in Environmental Policy and Culture",
     subject: "ENVR_POL",
@@ -6272,16 +6392,16 @@ const courses = [
     number: "320-0",
   },
   {
-    course_id: 23665,
-    unique_id: 201557,
+    course_id: 23664,
+    unique_id: 201558,
     school: "UC",
     title: "FinTech Boot Camp",
     subject: "FNTEC_BC",
     number: "200-0",
   },
   {
-    course_id: 23664,
-    unique_id: 201558,
+    course_id: 23665,
+    unique_id: 201557,
     school: "UC",
     title: "FinTech Boot Camp",
     subject: "FNTEC_BC",
@@ -6313,7 +6433,7 @@ const courses = [
   },
   {
     course_id: 2987,
-    unique_id: 205038,
+    unique_id: 205037,
     school: "WCAS",
     title: "Elementary French",
     subject: "FRENCH",
@@ -6337,7 +6457,7 @@ const courses = [
   },
   {
     course_id: 16862,
-    unique_id: 205047,
+    unique_id: 205050,
     school: "WCAS",
     title: "Intensive Intermediate French",
     subject: "FRENCH",
@@ -6345,7 +6465,7 @@ const courses = [
   },
   {
     course_id: 2997,
-    unique_id: 205052,
+    unique_id: 205053,
     school: "WCAS",
     title: "Culture and Society",
     subject: "FRENCH",
@@ -6425,7 +6545,7 @@ const courses = [
   },
   {
     course_id: 3048,
-    unique_id: 205067,
+    unique_id: 205066,
     school: "WCAS",
     title: "Print Culture: Authors",
     subject: "FRENCH",
@@ -6457,7 +6577,7 @@ const courses = [
   },
   {
     course_id: 16485,
-    unique_id: 205072,
+    unique_id: 205073,
     school: "WCAS",
     title: "Introduction to International Public Health",
     subject: "GBL_HLTH",
@@ -6537,7 +6657,7 @@ const courses = [
   },
   {
     course_id: 21939,
-    unique_id: 205659,
+    unique_id: 205660,
     school: "DOHA",
     title: "Research Methods in Comm Studies",
     subject: "GEN_CMN",
@@ -6617,7 +6737,7 @@ const courses = [
   },
   {
     course_id: 4782,
-    unique_id: 202610,
+    unique_id: 202614,
     school: "MEAS",
     title: "Engineering Analysis I",
     subject: "GEN_ENG",
@@ -6625,7 +6745,7 @@ const courses = [
   },
   {
     course_id: 4784,
-    unique_id: 202615,
+    unique_id: 202616,
     school: "MEAS",
     title: "Engineering Analysis III",
     subject: "GEN_ENG",
@@ -6633,7 +6753,7 @@ const courses = [
   },
   {
     course_id: 4785,
-    unique_id: 202620,
+    unique_id: 202619,
     school: "MEAS",
     title: "Engineering Analysis IV",
     subject: "GEN_ENG",
@@ -6641,7 +6761,7 @@ const courses = [
   },
   {
     course_id: 16039,
-    unique_id: 202621,
+    unique_id: 202629,
     school: "MEAS",
     title: "Peer-Guided Study Group: Engineering Analysis I",
     subject: "GEN_ENG",
@@ -6673,7 +6793,7 @@ const courses = [
   },
   {
     course_id: 21367,
-    unique_id: 202639,
+    unique_id: 202637,
     school: "MEAS",
     title: "Responsible Conduct for Research Training",
     subject: "GEN_ENG",
@@ -6745,7 +6865,7 @@ const courses = [
   },
   {
     course_id: 23248,
-    unique_id: 205082,
+    unique_id: 205862,
     school: "WCAS",
     title: "Arch Scholar Mentoring Program",
     subject: "GEN_LA",
@@ -6761,7 +6881,7 @@ const courses = [
   },
   {
     course_id: 3508,
-    unique_id: 202242,
+    unique_id: 202244,
     school: "MUSIC",
     title: "Non-Major Piano and Organ",
     subject: "GEN_MUS",
@@ -6777,7 +6897,7 @@ const courses = [
   },
   {
     course_id: 3509,
-    unique_id: 202247,
+    unique_id: 202250,
     school: "MUSIC",
     title: "Non-Major Strings",
     subject: "GEN_MUS",
@@ -6793,7 +6913,7 @@ const courses = [
   },
   {
     course_id: 3510,
-    unique_id: 202258,
+    unique_id: 202255,
     school: "MUSIC",
     title: "Non-Major Winds/Percussion",
     subject: "GEN_MUS",
@@ -6809,7 +6929,7 @@ const courses = [
   },
   {
     course_id: 15929,
-    unique_id: 202267,
+    unique_id: 202265,
     school: "MUSIC",
     title: "Non-Major Class Voice-Beginning",
     subject: "GEN_MUS",
@@ -6825,7 +6945,7 @@ const courses = [
   },
   {
     course_id: 3485,
-    unique_id: 202273,
+    unique_id: 202272,
     school: "MUSIC",
     title: "Introduction to Music",
     subject: "GEN_MUS",
@@ -6833,7 +6953,7 @@ const courses = [
   },
   {
     course_id: 3486,
-    unique_id: 202275,
+    unique_id: 202274,
     school: "MUSIC",
     title: "Selected Topics in Music Literature for Non-Majors",
     subject: "GEN_MUS",
@@ -6889,7 +7009,7 @@ const courses = [
   },
   {
     course_id: 11159,
-    unique_id: 202291,
+    unique_id: 202288,
     school: "MUSIC",
     title: "Band Organizations",
     subject: "GEN_MUS",
@@ -6905,7 +7025,7 @@ const courses = [
   },
   {
     course_id: 13466,
-    unique_id: 202294,
+    unique_id: 202293,
     school: "MUSIC",
     title: "Orchestral Organizations",
     subject: "GEN_MUS",
@@ -6945,7 +7065,7 @@ const courses = [
   },
   {
     course_id: 1961,
-    unique_id: 205094,
+    unique_id: 205095,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "GERMAN",
@@ -7025,7 +7145,7 @@ const courses = [
   },
   {
     course_id: 2023,
-    unique_id: 205107,
+    unique_id: 205108,
     school: "WCAS",
     title: "Independent Reading",
     subject: "GERMAN",
@@ -7072,8 +7192,16 @@ const courses = [
     number: "341-0",
   },
   {
+    course_id: 17816,
+    unique_id: 205698,
+    school: "WCAS",
+    title: "Gender, Sexuality, and Popular Culture",
+    subject: "GNDR_ST",
+    number: "371-0",
+  },
+  {
     course_id: 17817,
-    unique_id: 205115,
+    unique_id: 205116,
     school: "WCAS",
     title: "Gender, Sexuality, and Performance",
     subject: "GNDR_ST",
@@ -7097,7 +7225,7 @@ const courses = [
   },
   {
     course_id: 17821,
-    unique_id: 205120,
+    unique_id: 205119,
     school: "WCAS",
     title: "Race, Gender, and Sexuality",
     subject: "GNDR_ST",
@@ -7257,7 +7385,7 @@ const courses = [
   },
   {
     course_id: 2355,
-    unique_id: 205132,
+    unique_id: 205131,
     school: "WCAS",
     title: "Hindi-Urdu I",
     subject: "HIND_URD",
@@ -7281,7 +7409,7 @@ const courses = [
   },
   {
     course_id: 2027,
-    unique_id: 205135,
+    unique_id: 205136,
     school: "WCAS",
     title: "First-Year Seminar--European History",
     subject: "HISTORY",
@@ -7305,7 +7433,7 @@ const courses = [
   },
   {
     course_id: 18651,
-    unique_id: 205144,
+    unique_id: 205143,
     school: "WCAS",
     title: "New Introductory Courses in History",
     subject: "HISTORY",
@@ -7361,7 +7489,7 @@ const courses = [
   },
   {
     course_id: 18652,
-    unique_id: 205154,
+    unique_id: 205150,
     school: "WCAS",
     title: "New Lectures in History",
     subject: "HISTORY",
@@ -7425,7 +7553,7 @@ const courses = [
   },
   {
     course_id: 19695,
-    unique_id: 205658,
+    unique_id: 205657,
     school: "DOHA",
     title: "History Adv Special Topics:",
     subject: "HISTORY",
@@ -7457,7 +7585,7 @@ const courses = [
   },
   {
     course_id: 2155,
-    unique_id: 205169,
+    unique_id: 205171,
     school: "WCAS",
     title: "Seminar in Historical Analysis",
     subject: "HISTORY",
@@ -7481,7 +7609,7 @@ const courses = [
   },
   {
     course_id: 2202,
-    unique_id: 205214,
+    unique_id: 205181,
     school: "WCAS",
     title: "Independent Reading",
     subject: "HISTORY",
@@ -7489,7 +7617,7 @@ const courses = [
   },
   {
     course_id: 17732,
-    unique_id: 205254,
+    unique_id: 205233,
     school: "WCAS",
     title: "TA Assistantship",
     subject: "HISTORY",
@@ -7497,7 +7625,7 @@ const courses = [
   },
   {
     course_id: 2203,
-    unique_id: 205279,
+    unique_id: 205278,
     school: "WCAS",
     title: "Topics in History",
     subject: "HISTORY",
@@ -7505,7 +7633,7 @@ const courses = [
   },
   {
     course_id: 2208,
-    unique_id: 205281,
+    unique_id: 205282,
     school: "WCAS",
     title: "Directed Research in History",
     subject: "HISTORY",
@@ -7513,7 +7641,7 @@ const courses = [
   },
   {
     course_id: 2213,
-    unique_id: 205328,
+    unique_id: 205329,
     school: "WCAS",
     title: "Dissertation Topics",
     subject: "HISTORY",
@@ -7683,7 +7811,7 @@ const courses = [
   },
   {
     course_id: 21598,
-    unique_id: 205332,
+    unique_id: 205515,
     school: "WCAS",
     title: "Special Topics in the Humanities",
     subject: "HUM",
@@ -7699,7 +7827,7 @@ const courses = [
   },
   {
     course_id: 21600,
-    unique_id: 205334,
+    unique_id: 205335,
     school: "WCAS",
     title: "Special Topics in the Humanities",
     subject: "HUM",
@@ -7771,7 +7899,7 @@ const courses = [
   },
   {
     course_id: 5122,
-    unique_id: 202647,
+    unique_id: 202645,
     school: "MEAS",
     title: "Probability",
     subject: "IEMS",
@@ -7996,7 +8124,7 @@ const courses = [
   },
   {
     course_id: 18269,
-    unique_id: 202985,
+    unique_id: 202986,
     school: "JOUR",
     title: "Introduction to Integrated Marketing Communications",
     subject: "IMC",
@@ -8004,7 +8132,7 @@ const courses = [
   },
   {
     course_id: 18268,
-    unique_id: 202987,
+    unique_id: 202988,
     school: "JOUR",
     title: "Consumer Insight",
     subject: "IMC",
@@ -8012,7 +8140,7 @@ const courses = [
   },
   {
     course_id: 894,
-    unique_id: 202992,
+    unique_id: 202989,
     school: "JOUR",
     title: "Research for Marketing Communications",
     subject: "IMC",
@@ -8036,7 +8164,7 @@ const courses = [
   },
   {
     course_id: 18464,
-    unique_id: 202997,
+    unique_id: 202998,
     school: "JOUR",
     title: "Strategic Communications",
     subject: "IMC",
@@ -8100,7 +8228,7 @@ const courses = [
   },
   {
     course_id: 906,
-    unique_id: 203009,
+    unique_id: 203010,
     school: "JOUR",
     title: "IMC Strategic Process",
     subject: "IMC",
@@ -8180,7 +8308,7 @@ const courses = [
   },
   {
     course_id: 914,
-    unique_id: 203022,
+    unique_id: 203021,
     school: "JOUR",
     title: "Investor Relations",
     subject: "IMC",
@@ -8204,7 +8332,7 @@ const courses = [
   },
   {
     course_id: 23277,
-    unique_id: 203026,
+    unique_id: 203027,
     school: "JOUR",
     title: "Media Decisions",
     subject: "IMC",
@@ -8212,7 +8340,7 @@ const courses = [
   },
   {
     course_id: 907,
-    unique_id: 203028,
+    unique_id: 203029,
     school: "JOUR",
     title: "Marketing Mix Analysis",
     subject: "IMC",
@@ -8236,7 +8364,7 @@ const courses = [
   },
   {
     course_id: 18368,
-    unique_id: 203033,
+    unique_id: 203032,
     school: "JOUR",
     title: "Strategic Planning in an E-Commerce Environment",
     subject: "IMC",
@@ -8260,7 +8388,7 @@ const courses = [
   },
   {
     course_id: 924,
-    unique_id: 203035,
+    unique_id: 203038,
     school: "JOUR",
     title: "Practicum",
     subject: "IMC",
@@ -8276,7 +8404,7 @@ const courses = [
   },
   {
     course_id: 5441,
-    unique_id: 202672,
+    unique_id: 202671,
     school: "MEAS",
     title: "Introduction to Statistics and Data Analysis",
     subject: "INF_TECH",
@@ -8372,7 +8500,7 @@ const courses = [
   },
   {
     course_id: 3444,
-    unique_id: 205342,
+    unique_id: 205355,
     school: "WCAS",
     title: "Undergraduate Research",
     subject: "INTG_SCI",
@@ -8575,7 +8703,7 @@ const courses = [
   },
   {
     course_id: 3082,
-    unique_id: 203753,
+    unique_id: 203751,
     school: "WCAS",
     title: "Intermediate Italian",
     subject: "ITALIAN",
@@ -8631,7 +8759,7 @@ const courses = [
   },
   {
     course_id: 2337,
-    unique_id: 203724,
+    unique_id: 203727,
     school: "WCAS",
     title: "Japanese I",
     subject: "JAPANESE",
@@ -8639,7 +8767,7 @@ const courses = [
   },
   {
     course_id: 2340,
-    unique_id: 203733,
+    unique_id: 203731,
     school: "WCAS",
     title: "Japanese II",
     subject: "JAPANESE",
@@ -8671,7 +8799,7 @@ const courses = [
   },
   {
     course_id: 4118,
-    unique_id: 202297,
+    unique_id: 202300,
     school: "MUSIC",
     title: "Applied Jazz for Music Majors",
     subject: "JAZZ_ST",
@@ -8687,7 +8815,7 @@ const courses = [
   },
   {
     course_id: 4119,
-    unique_id: 202306,
+    unique_id: 202308,
     school: "MUSIC",
     title: "Applied Jazz for Music Majors",
     subject: "JAZZ_ST",
@@ -8727,7 +8855,7 @@ const courses = [
   },
   {
     course_id: 4123,
-    unique_id: 202317,
+    unique_id: 202316,
     school: "MUSIC",
     title: "Applied Jazz for Music Majors",
     subject: "JAZZ_ST",
@@ -8759,7 +8887,7 @@ const courses = [
   },
   {
     course_id: 4126,
-    unique_id: 202329,
+    unique_id: 202327,
     school: "MUSIC",
     title: "Small Ensemble",
     subject: "JAZZ_ST",
@@ -8767,7 +8895,7 @@ const courses = [
   },
   {
     course_id: 18670,
-    unique_id: 202331,
+    unique_id: 202335,
     school: "MUSIC",
     title: "Applied Jazz for Music Majors",
     subject: "JAZZ_ST",
@@ -8783,7 +8911,7 @@ const courses = [
   },
   {
     course_id: 21928,
-    unique_id: 205641,
+    unique_id: 205642,
     school: "DOHA",
     title: "Journalistic Storytelling Across Media",
     subject: "JOUR",
@@ -8791,7 +8919,7 @@ const courses = [
   },
   {
     course_id: 926,
-    unique_id: 203042,
+    unique_id: 203044,
     school: "JOUR",
     title: "Reporting & Writing",
     subject: "JOUR",
@@ -8807,7 +8935,7 @@ const courses = [
   },
   {
     course_id: 930,
-    unique_id: 203056,
+    unique_id: 117402,
     school: "JOUR",
     title: "Journalism in Practice",
     subject: "JOUR",
@@ -8855,7 +8983,7 @@ const courses = [
   },
   {
     course_id: 945,
-    unique_id: 203060,
+    unique_id: 205871,
     school: "JOUR",
     title: "Storytelling: Magazine & Feature Writing",
     subject: "JOUR",
@@ -8886,6 +9014,22 @@ const courses = [
     number: "342-1",
   },
   {
+    course_id: 22411,
+    unique_id: 205692,
+    school: "JOUR",
+    title: "Journalism Residency",
+    subject: "JOUR",
+    number: "347-0",
+  },
+  {
+    course_id: 22811,
+    unique_id: 205693,
+    school: "JOUR",
+    title: "Journalism Residency",
+    subject: "JOUR",
+    number: "348-0",
+  },
+  {
     course_id: 23604,
     unique_id: 203062,
     school: "JOUR",
@@ -8895,7 +9039,7 @@ const courses = [
   },
   {
     course_id: 959,
-    unique_id: 203063,
+    unique_id: 203064,
     school: "JOUR",
     title: "Media Law & Ethics",
     subject: "JOUR",
@@ -8935,7 +9079,7 @@ const courses = [
   },
   {
     course_id: 21991,
-    unique_id: 205650,
+    unique_id: 205649,
     school: "DOHA",
     title: "Special Topics",
     subject: "JOUR",
@@ -8943,7 +9087,7 @@ const courses = [
   },
   {
     course_id: 19985,
-    unique_id: 203075,
+    unique_id: 203077,
     school: "JOUR",
     title: "Foundations of Video Journalism",
     subject: "JOUR",
@@ -8951,7 +9095,7 @@ const courses = [
   },
   {
     course_id: 998,
-    unique_id: 203082,
+    unique_id: 203081,
     school: "JOUR",
     title: "Journalism Methods",
     subject: "JOUR",
@@ -9006,6 +9150,14 @@ const courses = [
     number: "428-0",
   },
   {
+    course_id: 23755,
+    unique_id: 205706,
+    school: "JOUR",
+    title: "Master's Project",
+    subject: "JOUR",
+    number: "471-0",
+  },
+  {
     course_id: 19828,
     unique_id: 203095,
     school: "JOUR",
@@ -9015,7 +9167,7 @@ const courses = [
   },
   {
     course_id: 1007,
-    unique_id: 203096,
+    unique_id: 203098,
     school: "JOUR",
     title: "Special Topics",
     subject: "JOUR",
@@ -9047,7 +9199,7 @@ const courses = [
   },
   {
     course_id: 23125,
-    unique_id: 204458,
+    unique_id: 201563,
     school: "WCAS",
     title: "Topics in Israel Studies",
     subject: "JWSH_ST",
@@ -9176,7 +9328,7 @@ const courses = [
   },
   {
     course_id: 16600,
-    unique_id: 191743,
+    unique_id: 205480,
     school: "KGSM",
     title: "New Venture Discovery",
     subject: "KIEI",
@@ -9191,8 +9343,16 @@ const courses = [
     number: "470-0",
   },
   {
+    course_id: 22815,
+    unique_id: 205855,
+    school: "KGSM",
+    title: "Field Study",
+    subject: "KIEI",
+    number: "498-0",
+  },
+  {
     course_id: 22769,
-    unique_id: 191745,
+    unique_id: 205482,
     school: "KGSM",
     title: "Growth Strategy Practicum",
     subject: "KIEI",
@@ -9208,7 +9368,7 @@ const courses = [
   },
   {
     course_id: 2349,
-    unique_id: 203739,
+    unique_id: 203740,
     school: "WCAS",
     title: "Korean I",
     subject: "KOREAN",
@@ -9216,7 +9376,7 @@ const courses = [
   },
   {
     course_id: 2352,
-    unique_id: 203742,
+    unique_id: 203743,
     school: "WCAS",
     title: "Korean II",
     subject: "KOREAN",
@@ -9256,7 +9416,7 @@ const courses = [
   },
   {
     course_id: 16639,
-    unique_id: 191751,
+    unique_id: 191753,
     school: "KGSM",
     title: "Leadership and Crisis Management",
     subject: "KPPI",
@@ -9301,6 +9461,14 @@ const courses = [
     title: "Public Economics for Business Leaders: State and Local Policy",
     subject: "KPPI",
     number: "480-0",
+  },
+  {
+    course_id: 22870,
+    unique_id: 205863,
+    school: "KGSM",
+    title: "Field Study",
+    subject: "KPPI",
+    number: "498-0",
   },
   {
     course_id: 23850,
@@ -9367,8 +9535,16 @@ const courses = [
     number: "392-0",
   },
   {
+    course_id: 21457,
+    unique_id: 205864,
+    school: "LAW",
+    title: "Independent Study",
+    subject: "LAWSTUDY",
+    number: "500",
+  },
+  {
     course_id: 6997,
-    unique_id: 191885,
+    unique_id: 191893,
     school: "LAW",
     title: "Communication and Legal Reasoning I",
     subject: "LAWSTUDY",
@@ -9408,7 +9584,7 @@ const courses = [
   },
   {
     course_id: 16304,
-    unique_id: 191899,
+    unique_id: 191900,
     school: "LAW",
     title: "Basics of Contract Drafting",
     subject: "LAWSTUDY",
@@ -9640,7 +9816,7 @@ const courses = [
   },
   {
     course_id: 2387,
-    unique_id: 203774,
+    unique_id: 203773,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "LING",
@@ -9672,11 +9848,19 @@ const courses = [
   },
   {
     course_id: 2417,
-    unique_id: 203780,
+    unique_id: 203781,
     school: "WCAS",
     title: "Spoken English for Nonnative Speakers",
     subject: "LING",
     number: "380-0",
+  },
+  {
+    course_id: 2418,
+    unique_id: 205681,
+    school: "WCAS",
+    title: "Written English for Nonnative Speakers",
+    subject: "LING",
+    number: "381-0",
   },
   {
     course_id: 2427,
@@ -9704,7 +9888,7 @@ const courses = [
   },
   {
     course_id: 21793,
-    unique_id: 203788,
+    unique_id: 203786,
     school: "WCAS",
     title:
       "Individual Speech and Language Instruction for Nonnative Speakers of English",
@@ -9809,7 +9993,7 @@ const courses = [
   },
   {
     course_id: 7005,
-    unique_id: 191925,
+    unique_id: 191924,
     school: "LAW",
     title: "Negotiation",
     subject: "LITARB",
@@ -9922,7 +10106,7 @@ const courses = [
   },
   {
     course_id: 19158,
-    unique_id: 191941,
+    unique_id: 191940,
     school: "LAW",
     title: "Clinic Practice: Complex Civil Litigation & Investor Protection",
     subject: "LITARB",
@@ -10133,7 +10317,7 @@ const courses = [
   },
   {
     course_id: 23337,
-    unique_id: 203797,
+    unique_id: 203796,
     school: "WCAS",
     title: "Single-Variable Calculus with Precalculus",
     subject: "MATH",
@@ -10157,7 +10341,7 @@ const courses = [
   },
   {
     course_id: 23340,
-    unique_id: 203803,
+    unique_id: 203801,
     school: "WCAS",
     title: "Single-Variable Differential Calculus",
     subject: "MATH",
@@ -10165,7 +10349,7 @@ const courses = [
   },
   {
     course_id: 23341,
-    unique_id: 203816,
+    unique_id: 203815,
     school: "WCAS",
     title: "Single-Variable Integral Calculus",
     subject: "MATH",
@@ -10189,7 +10373,7 @@ const courses = [
   },
   {
     course_id: 23352,
-    unique_id: 203823,
+    unique_id: 203825,
     school: "WCAS",
     title: "Peer-Guided Study Group: Single-Variable Integral Calculus",
     subject: "MATH",
@@ -10205,7 +10389,7 @@ const courses = [
   },
   {
     course_id: 23343,
-    unique_id: 203828,
+    unique_id: 203836,
     school: "WCAS",
     title: "Multivariable Differential Calculus for Engineering",
     subject: "MATH",
@@ -10221,7 +10405,7 @@ const courses = [
   },
   {
     course_id: 23354,
-    unique_id: 203840,
+    unique_id: 203838,
     school: "WCAS",
     title: "Peer-Guided Study Group: Multivariable Calculus for Engineering",
     subject: "MATH",
@@ -10229,7 +10413,7 @@ const courses = [
   },
   {
     course_id: 23345,
-    unique_id: 203843,
+    unique_id: 203845,
     school: "WCAS",
     title: "Multivariable Differential Calculus",
     subject: "MATH",
@@ -10237,7 +10421,7 @@ const courses = [
   },
   {
     course_id: 23346,
-    unique_id: 203849,
+    unique_id: 203848,
     school: "WCAS",
     title: "Multivariable Integral Calculus",
     subject: "MATH",
@@ -10253,7 +10437,7 @@ const courses = [
   },
   {
     course_id: 23353,
-    unique_id: 203852,
+    unique_id: 203853,
     school: "WCAS",
     title: "Peer-Guided Study Group: Multivariable Differential Calculus",
     subject: "MATH",
@@ -10293,7 +10477,7 @@ const courses = [
   },
   {
     course_id: 2459,
-    unique_id: 203862,
+    unique_id: 203863,
     school: "WCAS",
     title: "MENU: Linear Algebra and Multivariable Calculus",
     subject: "MATH",
@@ -10381,7 +10565,7 @@ const courses = [
   },
   {
     course_id: 2488,
-    unique_id: 203875,
+    unique_id: 203874,
     school: "WCAS",
     title: "Introduction to Differential Geometry",
     subject: "MATH",
@@ -10389,7 +10573,7 @@ const courses = [
   },
   {
     course_id: 2481,
-    unique_id: 203876,
+    unique_id: 203877,
     school: "WCAS",
     title: "Fourier Analysis and Boundary Value Problems",
     subject: "MATH",
@@ -10597,7 +10781,7 @@ const courses = [
   },
   {
     course_id: 5291,
-    unique_id: 202708,
+    unique_id: 202725,
     school: "MEAS",
     title: "Honors Project in Materials Science",
     subject: "MAT_SCI",
@@ -10621,7 +10805,7 @@ const courses = [
   },
   {
     course_id: 5298,
-    unique_id: 202737,
+    unique_id: 202736,
     school: "MEAS",
     title: "Chemical & Statistical Thermodynamics of Materials",
     subject: "MAT_SCI",
@@ -10669,7 +10853,7 @@ const courses = [
   },
   {
     course_id: 22539,
-    unique_id: 202755,
+    unique_id: 202761,
     school: "MEAS",
     title: "MS Thesis Research",
     subject: "MAT_SCI",
@@ -10765,7 +10949,7 @@ const courses = [
   },
   {
     course_id: 18241,
-    unique_id: 205503,
+    unique_id: 205502,
     school: "MEAS",
     title: "Electronics Design",
     subject: "MECH_ENG",
@@ -10805,7 +10989,7 @@ const courses = [
   },
   {
     course_id: 5210,
-    unique_id: 202790,
+    unique_id: 202791,
     school: "MEAS",
     title: "Computer Integrated Manufacturing: Manufacturing Processes",
     subject: "MECH_ENG",
@@ -10837,7 +11021,7 @@ const courses = [
   },
   {
     course_id: 21359,
-    unique_id: 202795,
+    unique_id: 205716,
     school: "MEAS",
     title: "Engineering Design I",
     subject: "MECH_ENG",
@@ -10868,6 +11052,14 @@ const courses = [
     number: "422-0",
   },
   {
+    course_id: 8137,
+    unique_id: 205712,
+    school: "MEAS",
+    title: "Intro to Computational Fluid Dynamics",
+    subject: "MECH_ENG",
+    number: "423-0",
+  },
+  {
     course_id: 5240,
     unique_id: 202799,
     school: "MEAS",
@@ -10885,7 +11077,7 @@ const courses = [
   },
   {
     course_id: 15718,
-    unique_id: 205505,
+    unique_id: 202801,
     school: "MEAS",
     title: "Robotic Manipulation",
     subject: "MECH_ENG",
@@ -10893,7 +11085,7 @@ const courses = [
   },
   {
     course_id: 5258,
-    unique_id: 202802,
+    unique_id: 205595,
     school: "MEAS",
     title: "Selected Topics in Mechanical Engg",
     subject: "MECH_ENG",
@@ -11045,7 +11237,7 @@ const courses = [
   },
   {
     course_id: 21095,
-    unique_id: 203896,
+    unique_id: 203895,
     school: "WCAS",
     title: "MENA Graduate Colloquium",
     subject: "MENA",
@@ -11053,7 +11245,7 @@ const courses = [
   },
   {
     course_id: 21096,
-    unique_id: 203898,
+    unique_id: 203897,
     school: "WCAS",
     title: "MENA Graduate Colloquium",
     subject: "MENA",
@@ -11269,7 +11461,7 @@ const courses = [
   },
   {
     course_id: 21968,
-    unique_id: 205636,
+    unique_id: 205634,
     school: "DOHA",
     title: "Undergraduate Seminar",
     subject: "MIT",
@@ -11422,7 +11614,7 @@ const courses = [
   },
   {
     course_id: 19854,
-    unique_id: 191795,
+    unique_id: 205492,
     school: "KGSM",
     title: "Social Dynamics and Network Analytics",
     subject: "MORS",
@@ -11430,7 +11622,7 @@ const courses = [
   },
   {
     course_id: 21035,
-    unique_id: 191797,
+    unique_id: 191798,
     school: "KGSM",
     title: "Beyond Diversity: The Fundamentals of Inclusive Leadership",
     subject: "MORS",
@@ -11438,7 +11630,7 @@ const courses = [
   },
   {
     course_id: 21667,
-    unique_id: 201620,
+    unique_id: 191800,
     school: "KGSM",
     title: "Negotiations Fundamentals",
     subject: "MORS",
@@ -11550,7 +11742,7 @@ const courses = [
   },
   {
     course_id: 22892,
-    unique_id: 191515,
+    unique_id: 205869,
     school: "UC",
     title: "Ethics and Leadership",
     subject: "MPPA",
@@ -11606,7 +11798,7 @@ const courses = [
   },
   {
     course_id: 22009,
-    unique_id: 191522,
+    unique_id: 205865,
     school: "UC",
     title: "Sports Public Relations and Crisis Management",
     subject: "MSA",
@@ -11662,7 +11854,7 @@ const courses = [
   },
   {
     course_id: 23032,
-    unique_id: 202811,
+    unique_id: 202812,
     school: "MEAS",
     title: "Data Science Seminar",
     subject: "MSAI",
@@ -11831,7 +12023,7 @@ const courses = [
   },
   {
     course_id: 22776,
-    unique_id: 191532,
+    unique_id: 191531,
     school: "UC",
     title: "Math For Data Scientists",
     subject: "MSDS",
@@ -11839,7 +12031,7 @@ const courses = [
   },
   {
     course_id: 22777,
-    unique_id: 191536,
+    unique_id: 191535,
     school: "UC",
     title: "Applied Statistics with R",
     subject: "MSDS",
@@ -11855,7 +12047,7 @@ const courses = [
   },
   {
     course_id: 23637,
-    unique_id: 191541,
+    unique_id: 191542,
     school: "UC",
     title: "Data Science in Practice",
     subject: "MSDS",
@@ -11937,13 +12129,13 @@ const courses = [
     course_id: 22789,
     unique_id: 191563,
     school: "UC",
-    title: "Financial Machine Learning",
+    title: "Financial and Risk Analytics",
     subject: "MSDS",
     number: "451-DL",
   },
   {
     course_id: 22791,
-    unique_id: 191566,
+    unique_id: 191564,
     school: "UC",
     title: "Natural Language Processing",
     subject: "MSDS",
@@ -11975,7 +12167,7 @@ const courses = [
   },
   {
     course_id: 22796,
-    unique_id: 191572,
+    unique_id: 191570,
     school: "UC",
     title: "Artificial Intelligence and Deep Learning",
     subject: "MSDS",
@@ -11991,7 +12183,7 @@ const courses = [
   },
   {
     course_id: 22798,
-    unique_id: 191575,
+    unique_id: 191576,
     school: "UC",
     title: "Decision Analytics",
     subject: "MSDS",
@@ -12023,7 +12215,7 @@ const courses = [
   },
   {
     course_id: 22802,
-    unique_id: 191581,
+    unique_id: 191582,
     school: "UC",
     title: "Project Management",
     subject: "MSDS",
@@ -12031,7 +12223,7 @@ const courses = [
   },
   {
     course_id: 22803,
-    unique_id: 191583,
+    unique_id: 191584,
     school: "UC",
     title: "Business Leadership and Communications",
     subject: "MSDS",
@@ -12039,7 +12231,7 @@ const courses = [
   },
   {
     course_id: 22808,
-    unique_id: 191587,
+    unique_id: 191588,
     school: "UC",
     title: "Capstone Class",
     subject: "MSDS",
@@ -12128,7 +12320,7 @@ const courses = [
   },
   {
     course_id: 822,
-    unique_id: 203478,
+    unique_id: 203479,
     school: "SESP",
     title: "Topics in Teaching and Learning",
     subject: "MS_ED",
@@ -12197,6 +12389,14 @@ const courses = [
     title: "Theory and Practice of Teaching: Secondary Math/Science",
     subject: "MS_ED",
     number: "479-0",
+  },
+  {
+    course_id: 22951,
+    unique_id: 205718,
+    school: "SESP",
+    title: "Independent Study",
+    subject: "MS_ED",
+    number: "498-0",
   },
   {
     course_id: 17507,
@@ -12419,7 +12619,7 @@ const courses = [
   },
   {
     course_id: 22342,
-    unique_id: 202825,
+    unique_id: 202824,
     school: "MEAS",
     title: "Introduction to Java and Python Programming",
     subject: "MSIA",
@@ -12443,7 +12643,7 @@ const courses = [
   },
   {
     course_id: 20414,
-    unique_id: 202830,
+    unique_id: 202829,
     school: "MEAS",
     title: "Special Topics",
     subject: "MSIA",
@@ -12699,7 +12899,7 @@ const courses = [
   },
   {
     course_id: 15942,
-    unique_id: 203239,
+    unique_id: 203238,
     school: "SPCH",
     title: "Special Topics Research Seminar",
     subject: "MTS",
@@ -12723,7 +12923,7 @@ const courses = [
   },
   {
     course_id: 3738,
-    unique_id: 201732,
+    unique_id: 201733,
     school: "MUSIC",
     title: "Applied Composition for Music Majors",
     subject: "MUS_COMP",
@@ -12739,7 +12939,7 @@ const courses = [
   },
   {
     course_id: 3742,
-    unique_id: 201736,
+    unique_id: 201739,
     school: "MUSIC",
     title: "Applied Composition for Music Majors",
     subject: "MUS_COMP",
@@ -12747,7 +12947,7 @@ const courses = [
   },
   {
     course_id: 18272,
-    unique_id: 201742,
+    unique_id: 201741,
     school: "MUSIC",
     title: "Compositional Concepts and Techniques",
     subject: "MUS_COMP",
@@ -12771,7 +12971,7 @@ const courses = [
   },
   {
     course_id: 18973,
-    unique_id: 201747,
+    unique_id: 201746,
     school: "MUSIC",
     title: "Compositional Concepts and Techniques",
     subject: "MUS_COMP",
@@ -12787,7 +12987,7 @@ const courses = [
   },
   {
     course_id: 3758,
-    unique_id: 201751,
+    unique_id: 201749,
     school: "MUSIC",
     title: "Applied Composition for Music Majors",
     subject: "MUS_COMP",
@@ -12843,7 +13043,7 @@ const courses = [
   },
   {
     course_id: 3515,
-    unique_id: 201623,
+    unique_id: 201628,
     school: "MUSIC",
     title: "Music Theory  I",
     subject: "MUSIC",
@@ -12851,7 +13051,7 @@ const courses = [
   },
   {
     course_id: 3518,
-    unique_id: 201633,
+    unique_id: 201630,
     school: "MUSIC",
     title: "Aural Skills I",
     subject: "MUSIC",
@@ -12859,7 +13059,7 @@ const courses = [
   },
   {
     course_id: 23049,
-    unique_id: 201635,
+    unique_id: 201638,
     school: "MUSIC",
     title: "Keyboard Skills 1",
     subject: "MUSIC",
@@ -12867,7 +13067,7 @@ const courses = [
   },
   {
     course_id: 23050,
-    unique_id: 201641,
+    unique_id: 201639,
     school: "MUSIC",
     title: "Keyboard Skills 1+",
     subject: "MUSIC",
@@ -12891,7 +13091,7 @@ const courses = [
   },
   {
     course_id: 3522,
-    unique_id: 201651,
+    unique_id: 201649,
     school: "MUSIC",
     title: "Music Theory IV",
     subject: "MUSIC",
@@ -12922,6 +13122,14 @@ const courses = [
     number: "227-1",
   },
   {
+    course_id: 20575,
+    unique_id: 205854,
+    school: "MUSIC",
+    title: "Student Organized Seminar",
+    subject: "MUSIC",
+    number: "298-0",
+  },
+  {
     course_id: 22383,
     unique_id: 201660,
     school: "MUSIC",
@@ -12931,7 +13139,7 @@ const courses = [
   },
   {
     course_id: 3546,
-    unique_id: 201661,
+    unique_id: 201663,
     school: "MUSIC",
     title: "Alexander Technique",
     subject: "MUSIC",
@@ -13035,7 +13243,7 @@ const courses = [
   },
   {
     course_id: 3595,
-    unique_id: 201707,
+    unique_id: 201706,
     school: "MUSIC",
     title: "String Class",
     subject: "MUSIC_ED",
@@ -13179,7 +13387,7 @@ const courses = [
   },
   {
     course_id: 3637,
-    unique_id: 201725,
+    unique_id: 201724,
     school: "MUSIC",
     title: "Selected Topics",
     subject: "MUSIC_ED",
@@ -13227,7 +13435,7 @@ const courses = [
   },
   {
     course_id: 3662,
-    unique_id: 201689,
+    unique_id: 201687,
     school: "MUSIC",
     title: "Senior Project",
     subject: "MUSICOL",
@@ -13283,7 +13491,7 @@ const courses = [
   },
   {
     course_id: 19963,
-    unique_id: 201698,
+    unique_id: 201701,
     school: "MUSIC",
     title: "MM Project",
     subject: "MUSICOL",
@@ -13331,7 +13539,7 @@ const courses = [
   },
   {
     course_id: 3714,
-    unique_id: 201762,
+    unique_id: 201761,
     school: "MUSIC",
     title: "Selected Topics in Music Theory",
     subject: "MUS_THRY",
@@ -13347,7 +13555,7 @@ const courses = [
   },
   {
     course_id: 3727,
-    unique_id: 201768,
+    unique_id: 201766,
     school: "MUSIC",
     title: "Senior Project",
     subject: "MUS_THRY",
@@ -13363,7 +13571,7 @@ const courses = [
   },
   {
     course_id: 3733,
-    unique_id: 201771,
+    unique_id: 201772,
     school: "MUSIC",
     title: "Selected Topics in Music Theory",
     subject: "MUS_THRY",
@@ -13395,11 +13603,35 @@ const courses = [
   },
   {
     course_id: 3734,
-    unique_id: 201778,
+    unique_id: 201781,
     school: "MUSIC",
     title: "MM Project",
     subject: "MUS_THRY",
     number: "485-0",
+  },
+  {
+    course_id: 5521,
+    unique_id: 205684,
+    school: "NDGR",
+    title: "Introduction to Naval Organization",
+    subject: "NAV_SCI",
+    number: "110-0",
+  },
+  {
+    course_id: 5526,
+    unique_id: 205686,
+    school: "NDGR",
+    title: "Naval Operations",
+    subject: "NAV_SCI",
+    number: "331-0",
+  },
+  {
+    course_id: 5531,
+    unique_id: 205688,
+    school: "NDGR",
+    title: "Naval Science Lab",
+    subject: "NAV_SCI",
+    number: "350-0",
   },
   {
     course_id: 21213,
@@ -13643,7 +13875,7 @@ const courses = [
   },
   {
     course_id: 18610,
-    unique_id: 203246,
+    unique_id: 203245,
     school: "SPCH",
     title: "Production Laboratory",
     subject: "PERF_ST",
@@ -13795,7 +14027,7 @@ const courses = [
   },
   {
     course_id: 18265,
-    unique_id: 203929,
+    unique_id: 203930,
     school: "WCAS",
     title: "The Brady Scholars Program: The Good Life",
     subject: "PHIL",
@@ -13835,7 +14067,7 @@ const courses = [
   },
   {
     course_id: 2642,
-    unique_id: 203938,
+    unique_id: 203939,
     school: "WCAS",
     title: "Special Topics In Philosophy",
     subject: "PHIL",
@@ -13843,7 +14075,7 @@ const courses = [
   },
   {
     course_id: 2645,
-    unique_id: 203951,
+    unique_id: 203954,
     school: "WCAS",
     title: "Senior Tutorial",
     subject: "PHIL",
@@ -13851,7 +14083,7 @@ const courses = [
   },
   {
     course_id: 2646,
-    unique_id: 203977,
+    unique_id: 203976,
     school: "WCAS",
     title: "Senior Tutorial",
     subject: "PHIL",
@@ -13864,6 +14096,14 @@ const courses = [
     title: "Proseminar (1St-Yr Philosophy Grad Students Only)",
     subject: "PHIL",
     number: "401-1",
+  },
+  {
+    course_id: 2651,
+    unique_id: 205860,
+    school: "WCAS",
+    title: "Proseminar II",
+    subject: "PHIL",
+    number: "402-1",
   },
   {
     course_id: 2652,
@@ -13987,7 +14227,7 @@ const courses = [
   },
   {
     course_id: 6504,
-    unique_id: 201577,
+    unique_id: 191623,
     school: "UC",
     title: "Physics Laboratory I",
     subject: "PHYSICS",
@@ -14003,7 +14243,7 @@ const courses = [
   },
   {
     course_id: 2707,
-    unique_id: 203996,
+    unique_id: 203997,
     school: "WCAS",
     title: "General Physics",
     subject: "PHYSICS",
@@ -14027,7 +14267,7 @@ const courses = [
   },
   {
     course_id: 2709,
-    unique_id: 204013,
+    unique_id: 204011,
     school: "WCAS",
     title: "General Physics Laboratory",
     subject: "PHYSICS",
@@ -14035,7 +14275,7 @@ const courses = [
   },
   {
     course_id: 2710,
-    unique_id: 204050,
+    unique_id: 204044,
     school: "WCAS",
     title: "General Physics Laboratory",
     subject: "PHYSICS",
@@ -14043,7 +14283,7 @@ const courses = [
   },
   {
     course_id: 23041,
-    unique_id: 205508,
+    unique_id: 204053,
     school: "WCAS",
     title: "Fundamentals of Physics",
     subject: "PHYSICS",
@@ -14051,7 +14291,7 @@ const courses = [
   },
   {
     course_id: 22493,
-    unique_id: 204054,
+    unique_id: 205509,
     school: "WCAS",
     title: "Mathematical Tools for the Physical Sciences",
     subject: "PHYSICS",
@@ -14059,7 +14299,7 @@ const courses = [
   },
   {
     course_id: 2716,
-    unique_id: 205510,
+    unique_id: 204055,
     school: "WCAS",
     title: "Classical Mech",
     subject: "PHYSICS",
@@ -14075,7 +14315,7 @@ const courses = [
   },
   {
     course_id: 2727,
-    unique_id: 204057,
+    unique_id: 205511,
     school: "WCAS",
     title: "Particle and Nuclear Physics",
     subject: "PHYSICS",
@@ -14083,7 +14323,7 @@ const courses = [
   },
   {
     course_id: 17492,
-    unique_id: 204058,
+    unique_id: 205512,
     school: "WCAS",
     title: "Optics Laboratory",
     subject: "PHYSICS",
@@ -14091,7 +14331,7 @@ const courses = [
   },
   {
     course_id: 2732,
-    unique_id: 204075,
+    unique_id: 204082,
     school: "WCAS",
     title: "Independent Thesis Research",
     subject: "PHYSICS",
@@ -14115,7 +14355,7 @@ const courses = [
   },
   {
     course_id: 2736,
-    unique_id: 204090,
+    unique_id: 205513,
     school: "WCAS",
     title: "Quantum Mech",
     subject: "PHYSICS",
@@ -14244,7 +14484,7 @@ const courses = [
   },
   {
     course_id: 3852,
-    unique_id: 201800,
+    unique_id: 201801,
     school: "MUSIC",
     title: "Senior Recital",
     subject: "PIANO",
@@ -14252,7 +14492,7 @@ const courses = [
   },
   {
     course_id: 20033,
-    unique_id: 201803,
+    unique_id: 201804,
     school: "MUSIC",
     title: "Studio Class",
     subject: "PIANO",
@@ -14292,7 +14532,7 @@ const courses = [
   },
   {
     course_id: 3878,
-    unique_id: 201812,
+    unique_id: 201810,
     school: "MUSIC",
     title: "Applied Piano for Music Majors",
     subject: "PIANO",
@@ -14300,7 +14540,7 @@ const courses = [
   },
   {
     course_id: 3882,
-    unique_id: 201814,
+    unique_id: 201815,
     school: "MUSIC",
     title: "MM Recital",
     subject: "PIANO",
@@ -14308,7 +14548,7 @@ const courses = [
   },
   {
     course_id: 20034,
-    unique_id: 201818,
+    unique_id: 201816,
     school: "MUSIC",
     title: "Studio Class",
     subject: "PIANO",
@@ -14316,7 +14556,7 @@ const courses = [
   },
   {
     course_id: 3885,
-    unique_id: 201821,
+    unique_id: 201820,
     school: "MUSIC",
     title: "Applied Piano for Music Majors",
     subject: "PIANO",
@@ -14348,7 +14588,7 @@ const courses = [
   },
   {
     course_id: 3890,
-    unique_id: 201825,
+    unique_id: 201826,
     school: "MUSIC",
     title: "DMA Lecture Recital",
     subject: "PIANO",
@@ -14500,7 +14740,7 @@ const courses = [
   },
   {
     course_id: 8371,
-    unique_id: 204117,
+    unique_id: 204118,
     school: "WCAS",
     title: "Political Economy of Development",
     subject: "POLI_SCI",
@@ -14524,24 +14764,24 @@ const courses = [
   },
   {
     course_id: 19263,
-    unique_id: 205613,
+    unique_id: 205612,
     school: "DOHA",
     title: "Advanced Topics in Political Science",
     subject: "POLI_SCI",
     number: "387-0",
   },
   {
-    course_id: 21938,
-    unique_id: 205614,
-    school: "DOHA",
+    course_id: 2818,
+    unique_id: 204121,
+    school: "WCAS",
     title: "Special Topics in Political Science",
     subject: "POLI_SCI",
     number: "390-0",
   },
   {
-    course_id: 2818,
-    unique_id: 204121,
-    school: "WCAS",
+    course_id: 21938,
+    unique_id: 205614,
+    school: "DOHA",
     title: "Special Topics in Political Science",
     subject: "POLI_SCI",
     number: "390-0",
@@ -14556,7 +14796,7 @@ const courses = [
   },
   {
     course_id: 2820,
-    unique_id: 204124,
+    unique_id: 204123,
     school: "WCAS",
     title: "Political Research Seminar",
     subject: "POLI_SCI",
@@ -14588,7 +14828,7 @@ const courses = [
   },
   {
     course_id: 2833,
-    unique_id: 204130,
+    unique_id: 204129,
     school: "WCAS",
     title: "American Politics Field Seminar",
     subject: "POLI_SCI",
@@ -14628,7 +14868,7 @@ const courses = [
   },
   {
     course_id: 2862,
-    unique_id: 204138,
+    unique_id: 204136,
     school: "WCAS",
     title: "Special Topics in Political Science",
     subject: "POLI_SCI",
@@ -14765,7 +15005,7 @@ const courses = [
   },
   {
     course_id: 22857,
-    unique_id: 202842,
+    unique_id: 202874,
     school: "MEAS",
     title: "McCormick First-Year Experience",
     subject: "PRDV",
@@ -14790,7 +15030,7 @@ const courses = [
   },
   {
     course_id: 20427,
-    unique_id: 202882,
+    unique_id: 202883,
     school: "MEAS",
     title: "Topics in Personal Development",
     subject: "PRDV",
@@ -15014,7 +15254,7 @@ const courses = [
   },
   {
     course_id: 2873,
-    unique_id: 204147,
+    unique_id: 204146,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "PSYCH",
@@ -15054,7 +15294,7 @@ const courses = [
   },
   {
     course_id: 2877,
-    unique_id: 204153,
+    unique_id: 204151,
     school: "WCAS",
     title: "Research Methods in Psychology",
     subject: "PSYCH",
@@ -15238,7 +15478,7 @@ const courses = [
   },
   {
     course_id: 2913,
-    unique_id: 204180,
+    unique_id: 204201,
     school: "WCAS",
     title: "Advanced Supervised Research 1",
     subject: "PSYCH",
@@ -15246,7 +15486,7 @@ const courses = [
   },
   {
     course_id: 2914,
-    unique_id: 204230,
+    unique_id: 70988,
     school: "WCAS",
     title: "Advanced Supervised Research 2",
     subject: "PSYCH",
@@ -15366,7 +15606,7 @@ const courses = [
   },
   {
     course_id: 2949,
-    unique_id: 204254,
+    unique_id: 204253,
     school: "WCAS",
     title: "Special Topics in Cognition",
     subject: "PSYCH",
@@ -15543,6 +15783,14 @@ const courses = [
     number: "418-0",
   },
   {
+    course_id: 23526,
+    unique_id: 205714,
+    school: "TGS",
+    title: "Applied Practice Experience II",
+    subject: "PUB_HLTH",
+    number: "419-0",
+  },
+  {
     course_id: 5784,
     unique_id: 203700,
     school: "TGS",
@@ -15689,7 +15937,7 @@ const courses = [
   },
   {
     course_id: 2217,
-    unique_id: 204263,
+    unique_id: 204264,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "RELIGION",
@@ -15777,7 +16025,7 @@ const courses = [
   },
   {
     course_id: 8144,
-    unique_id: 204278,
+    unique_id: 204276,
     school: "WCAS",
     title: "Independent Reading",
     subject: "RELIGION",
@@ -15833,7 +16081,7 @@ const courses = [
   },
   {
     course_id: 18263,
-    unique_id: 203257,
+    unique_id: 203258,
     school: "SPCH",
     title: "Media Construction",
     subject: "RTVF",
@@ -15865,7 +16113,7 @@ const courses = [
   },
   {
     course_id: 15210,
-    unique_id: 203262,
+    unique_id: 203261,
     school: "SPCH",
     title: "Foundations of Screenwriting",
     subject: "RTVF",
@@ -15921,7 +16169,7 @@ const courses = [
   },
   {
     course_id: 4373,
-    unique_id: 203273,
+    unique_id: 203277,
     school: "SPCH",
     title: "Topics in Media Writing",
     subject: "RTVF",
@@ -16017,7 +16265,7 @@ const courses = [
   },
   {
     course_id: 11784,
-    unique_id: 203294,
+    unique_id: 203295,
     school: "SPCH",
     title: "Advanced Directing I",
     subject: "RTVF",
@@ -16033,7 +16281,7 @@ const courses = [
   },
   {
     course_id: 4402,
-    unique_id: 203297,
+    unique_id: 203298,
     school: "SPCH",
     title: "Advanced Media Writing",
     subject: "RTVF",
@@ -16049,7 +16297,7 @@ const courses = [
   },
   {
     course_id: 4408,
-    unique_id: 203302,
+    unique_id: 203301,
     school: "SPCH",
     title: "Seminar: Studies in Film and Video Prod",
     subject: "RTVF",
@@ -16057,7 +16305,7 @@ const courses = [
   },
   {
     course_id: 22182,
-    unique_id: 203303,
+    unique_id: 205859,
     school: "SPCH",
     title: "Fall Internship Capstone",
     subject: "RTVF",
@@ -16081,7 +16329,7 @@ const courses = [
   },
   {
     course_id: 21163,
-    unique_id: 203307,
+    unique_id: 203306,
     school: "SPCH",
     title: "Documentary Techniques",
     subject: "RTVF",
@@ -16162,7 +16410,7 @@ const courses = [
   },
   {
     course_id: 22234,
-    unique_id: 203316,
+    unique_id: 203317,
     school: "SPCH",
     title: "Introduction to Sound Production",
     subject: "SAI",
@@ -16186,7 +16434,7 @@ const courses = [
   },
   {
     course_id: 635,
-    unique_id: 203502,
+    unique_id: 203503,
     school: "SESP",
     title: "Human Development: Adulthood and Aging",
     subject: "SESP",
@@ -16242,7 +16490,7 @@ const courses = [
   },
   {
     course_id: 15698,
-    unique_id: 203510,
+    unique_id: 203512,
     school: "SESP",
     title: "Special Topics",
     subject: "SESP",
@@ -16250,7 +16498,7 @@ const courses = [
   },
   {
     course_id: 591,
-    unique_id: 203525,
+    unique_id: 203563,
     school: "SESP",
     title: "Research Apprenticeship",
     subject: "SESP",
@@ -16258,7 +16506,7 @@ const courses = [
   },
   {
     course_id: 23918,
-    unique_id: 205591,
+    unique_id: 203569,
     school: "SESP",
     title: "Experiential Learning: Practicum",
     subject: "SESP",
@@ -16266,7 +16514,7 @@ const courses = [
   },
   {
     course_id: 593,
-    unique_id: 203572,
+    unique_id: 203571,
     school: "SESP",
     title: "Senior Thesis Seminar",
     subject: "SESP",
@@ -16362,7 +16610,7 @@ const courses = [
   },
   {
     course_id: 3297,
-    unique_id: 204301,
+    unique_id: 204298,
     school: "WCAS",
     title: "Independent Reading",
     subject: "SLAVIC",
@@ -16370,7 +16618,7 @@ const courses = [
   },
   {
     course_id: 3305,
-    unique_id: 91490,
+    unique_id: 204304,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "SOCIOL",
@@ -16627,7 +16875,7 @@ const courses = [
   },
   {
     course_id: 3136,
-    unique_id: 204352,
+    unique_id: 204343,
     school: "WCAS",
     title: "Elementary Spanish",
     subject: "SPANISH",
@@ -16651,7 +16899,7 @@ const courses = [
   },
   {
     course_id: 3142,
-    unique_id: 204353,
+    unique_id: 204354,
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "SPANISH",
@@ -16659,7 +16907,7 @@ const courses = [
   },
   {
     course_id: 3139,
-    unique_id: 204364,
+    unique_id: 204374,
     school: "WCAS",
     title: "Intermediate Spanish",
     subject: "SPANISH",
@@ -16667,7 +16915,7 @@ const courses = [
   },
   {
     course_id: 18243,
-    unique_id: 204380,
+    unique_id: 204381,
     school: "WCAS",
     title: "Accelerated Intermediate Spanish",
     subject: "SPANISH",
@@ -16683,7 +16931,7 @@ const courses = [
   },
   {
     course_id: 15856,
-    unique_id: 204395,
+    unique_id: 204391,
     school: "WCAS",
     title: "Language in Context: Contemporary Spain",
     subject: "SPANISH",
@@ -16691,7 +16939,7 @@ const courses = [
   },
   {
     course_id: 3157,
-    unique_id: 204397,
+    unique_id: 204396,
     school: "WCAS",
     title: "Conversation on Human Rights: Latin America",
     subject: "SPANISH",
@@ -16699,7 +16947,7 @@ const courses = [
   },
   {
     course_id: 3158,
-    unique_id: 204400,
+    unique_id: 204399,
     school: "WCAS",
     title: "Individual and Society through Written Expression",
     subject: "SPANISH",
@@ -16715,7 +16963,7 @@ const courses = [
   },
   {
     course_id: 3162,
-    unique_id: 204408,
+    unique_id: 204407,
     school: "WCAS",
     title: "Introduction to Literary Analysis",
     subject: "SPANISH",
@@ -16814,7 +17062,7 @@ const courses = [
   },
   {
     course_id: 3388,
-    unique_id: 204431,
+    unique_id: 204430,
     school: "WCAS",
     title: "Introduction to Statistics",
     subject: "STAT",
@@ -16855,7 +17103,7 @@ const courses = [
   },
   {
     course_id: 21791,
-    unique_id: 204439,
+    unique_id: 204438,
     school: "WCAS",
     title: "Data Science 1",
     subject: "STAT",
@@ -16863,7 +17111,7 @@ const courses = [
   },
   {
     course_id: 13203,
-    unique_id: 204441,
+    unique_id: 204442,
     school: "WCAS",
     title: "Statistical Theory & Methods 1",
     subject: "STAT",
@@ -16951,7 +17199,7 @@ const courses = [
   },
   {
     course_id: 3894,
-    unique_id: 201829,
+    unique_id: 201828,
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -17071,7 +17319,7 @@ const courses = [
   },
   {
     course_id: 3925,
-    unique_id: 201852,
+    unique_id: 201854,
     school: "MUSIC",
     title: "Orchestral Repertoire I (Violin,Viola,Cello,Dbl Bass,Harp)",
     subject: "STRINGS",
@@ -17079,7 +17327,7 @@ const courses = [
   },
   {
     course_id: 3935,
-    unique_id: 201857,
+    unique_id: 201856,
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -17119,7 +17367,7 @@ const courses = [
   },
   {
     course_id: 16482,
-    unique_id: 201872,
+    unique_id: 201873,
     school: "MUSIC",
     title: "Junior Recital",
     subject: "STRINGS",
@@ -17151,7 +17399,7 @@ const courses = [
   },
   {
     course_id: 3949,
-    unique_id: 201882,
+    unique_id: 201886,
     school: "MUSIC",
     title: "Senior Recital",
     subject: "STRINGS",
@@ -17159,7 +17407,7 @@ const courses = [
   },
   {
     course_id: 18796,
-    unique_id: 201895,
+    unique_id: 201888,
     school: "MUSIC",
     title: "Studio Class",
     subject: "STRINGS",
@@ -17167,7 +17415,7 @@ const courses = [
   },
   {
     course_id: 3952,
-    unique_id: 201901,
+    unique_id: 201897,
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -17223,7 +17471,7 @@ const courses = [
   },
   {
     course_id: 3958,
-    unique_id: 201913,
+    unique_id: 201909,
     school: "MUSIC",
     title: "MM Recital",
     subject: "STRINGS",
@@ -17247,7 +17495,7 @@ const courses = [
   },
   {
     course_id: 3961,
-    unique_id: 201930,
+    unique_id: 201932,
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -17367,11 +17615,19 @@ const courses = [
   },
   {
     course_id: 16137,
-    unique_id: 191827,
+    unique_id: 191829,
     school: "KGSM",
     title: "Strategic Challenges in Emerging Markets",
     subject: "STRT",
     number: "466-0",
+  },
+  {
+    course_id: 17334,
+    unique_id: 205856,
+    school: "KGSM",
+    title: "Intl Practicum/Cross-Cultural Management Practice",
+    subject: "STRT",
+    number: "512-5",
   },
   {
     course_id: 20400,
@@ -17535,7 +17791,7 @@ const courses = [
   },
   {
     course_id: 8037,
-    unique_id: 203578,
+    unique_id: 203579,
     school: "SESP",
     title: "Special Topics in Teacher Education",
     subject: "TEACH_ED",
@@ -17583,7 +17839,7 @@ const courses = [
   },
   {
     course_id: 15199,
-    unique_id: 203587,
+    unique_id: 203586,
     school: "SESP",
     title: "Theory and Practice of Teaching: Secondary Humanities",
     subject: "TEACH_ED",
@@ -17596,6 +17852,14 @@ const courses = [
     title: "Theory and Practice of Teaching: Secondary Math/Science",
     subject: "TEACH_ED",
     number: "379-0",
+  },
+  {
+    course_id: 19420,
+    unique_id: 205719,
+    school: "SESP",
+    title: "Student Teaching: Humanities",
+    subject: "TEACH_ED",
+    number: "388-0",
   },
   {
     course_id: 18804,
@@ -17647,7 +17911,7 @@ const courses = [
   },
   {
     course_id: 4577,
-    unique_id: 203320,
+    unique_id: 203319,
     school: "SPCH",
     title: "Production in Context",
     subject: "THEATRE",
@@ -17663,7 +17927,7 @@ const courses = [
   },
   {
     course_id: 4573,
-    unique_id: 203323,
+    unique_id: 203324,
     school: "SPCH",
     title: "Theatre in Context: Introduction",
     subject: "THEATRE",
@@ -17671,7 +17935,7 @@ const courses = [
   },
   {
     course_id: 4139,
-    unique_id: 203325,
+    unique_id: 203326,
     school: "SPCH",
     title: "Voice for Performance",
     subject: "THEATRE",
@@ -17719,7 +17983,7 @@ const courses = [
   },
   {
     course_id: 20324,
-    unique_id: 203334,
+    unique_id: 203335,
     school: "SPCH",
     title: "Intermediate Voice I",
     subject: "THEATRE",
@@ -17743,7 +18007,7 @@ const courses = [
   },
   {
     course_id: 4597,
-    unique_id: 203345,
+    unique_id: 203349,
     school: "SPCH",
     title: "Acting I",
     subject: "THEATRE",
@@ -17767,15 +18031,23 @@ const courses = [
   },
   {
     course_id: 4605,
-    unique_id: 203354,
+    unique_id: 203353,
     school: "SPCH",
     title: "Special Topics in Directing",
     subject: "THEATRE",
     number: "310-0",
   },
   {
+    course_id: 22905,
+    unique_id: 205679,
+    school: "SPCH",
+    title: "Advanced Stage Directing",
+    subject: "THEATRE",
+    number: "311-0",
+  },
+  {
     course_id: 4673,
-    unique_id: 203359,
+    unique_id: 203360,
     school: "SPCH",
     title: "Text Analysis",
     subject: "THEATRE",
@@ -17783,7 +18055,7 @@ const courses = [
   },
   {
     course_id: 22908,
-    unique_id: 203361,
+    unique_id: 203362,
     school: "SPCH",
     title: "History of Directing",
     subject: "THEATRE",
@@ -17839,6 +18111,14 @@ const courses = [
     number: "341-0",
   },
   {
+    course_id: 22942,
+    unique_id: 205707,
+    school: "SPCH",
+    title: "African American Theatre",
+    subject: "THEATRE",
+    number: "345-0",
+  },
+  {
     course_id: 22941,
     unique_id: 203371,
     school: "SPCH",
@@ -17848,7 +18128,7 @@ const courses = [
   },
   {
     course_id: 22935,
-    unique_id: 203375,
+    unique_id: 203372,
     school: "SPCH",
     title: "Special Topics in Musical Theatre",
     subject: "THEATRE",
@@ -17856,7 +18136,7 @@ const courses = [
   },
   {
     course_id: 20326,
-    unique_id: 203378,
+    unique_id: 203379,
     school: "SPCH",
     title: "Advanced Voice I",
     subject: "THEATRE",
@@ -17864,7 +18144,7 @@ const courses = [
   },
   {
     course_id: 23011,
-    unique_id: 203383,
+    unique_id: 203381,
     school: "SPCH",
     title: "Advanced Voice IV",
     subject: "THEATRE",
@@ -17872,7 +18152,7 @@ const courses = [
   },
   {
     course_id: 22910,
-    unique_id: 203386,
+    unique_id: 203385,
     school: "SPCH",
     title: "Advanced Musicianship for Actors: Theatre Styles and Genres",
     subject: "THEATRE",
@@ -17896,7 +18176,7 @@ const courses = [
   },
   {
     course_id: 4612,
-    unique_id: 203399,
+    unique_id: 203395,
     school: "SPCH",
     title: "Acting II: Analysis and Performance",
     subject: "THEATRE",
@@ -17904,15 +18184,23 @@ const courses = [
   },
   {
     course_id: 4608,
-    unique_id: 203405,
+    unique_id: 203407,
     school: "SPCH",
     title: "Advanced Acting Topics",
     subject: "THEATRE",
     number: "375-0",
   },
   {
+    course_id: 22137,
+    unique_id: 205680,
+    school: "SPCH",
+    title: "Topics in Acting for the Screen",
+    subject: "THEATRE",
+    number: "377-0",
+  },
+  {
     course_id: 20799,
-    unique_id: 203411,
+    unique_id: 203412,
     school: "SPCH",
     title: "Playwriting Genres",
     subject: "THEATRE",
@@ -17928,7 +18216,7 @@ const courses = [
   },
   {
     course_id: 4602,
-    unique_id: 203415,
+    unique_id: 203414,
     school: "SPCH",
     title: "Advanced Stage Management",
     subject: "THEATRE",
@@ -17936,7 +18224,7 @@ const courses = [
   },
   {
     course_id: 4607,
-    unique_id: 203417,
+    unique_id: 203419,
     school: "SPCH",
     title: "Theatre Practicum",
     subject: "THEATRE",
@@ -17960,7 +18248,7 @@ const courses = [
   },
   {
     course_id: 4698,
-    unique_id: 203423,
+    unique_id: 203424,
     school: "SPCH",
     title: "History of Western Theatrical Practice",
     subject: "THEATRE",
@@ -17968,7 +18256,7 @@ const courses = [
   },
   {
     course_id: 4702,
-    unique_id: 203428,
+    unique_id: 203427,
     school: "SPCH",
     title: "Topics in Stage Design",
     subject: "THEATRE",
@@ -18040,7 +18328,7 @@ const courses = [
   },
   {
     course_id: 23606,
-    unique_id: 203437,
+    unique_id: 203436,
     school: "SPCH",
     title: "Advanced Acting 1: Realism/Naturalism and Physicalizing the Form",
     subject: "THEATRE",
@@ -18080,7 +18368,7 @@ const courses = [
   },
   {
     course_id: 4066,
-    unique_id: 201948,
+    unique_id: 201947,
     school: "MUSIC",
     title: "Applied Voice for Music Majors",
     subject: "VOICE",
@@ -18096,7 +18384,7 @@ const courses = [
   },
   {
     course_id: 4071,
-    unique_id: 201953,
+    unique_id: 201952,
     school: "MUSIC",
     title: "Applied Voice for Music Majors",
     subject: "VOICE",
@@ -18112,7 +18400,7 @@ const courses = [
   },
   {
     course_id: 4075,
-    unique_id: 201965,
+    unique_id: 201967,
     school: "MUSIC",
     title: "Applied Voice for Music Majors",
     subject: "VOICE",
@@ -18120,7 +18408,7 @@ const courses = [
   },
   {
     course_id: 15737,
-    unique_id: 201972,
+    unique_id: 201974,
     school: "MUSIC",
     title: "Vocal Solo Class",
     subject: "VOICE",
@@ -18136,7 +18424,7 @@ const courses = [
   },
   {
     course_id: 22382,
-    unique_id: 201977,
+    unique_id: 201978,
     school: "MUSIC",
     title: "Vocal Coaching",
     subject: "VOICE",
@@ -18152,7 +18440,7 @@ const courses = [
   },
   {
     course_id: 16481,
-    unique_id: 201984,
+    unique_id: 201980,
     school: "MUSIC",
     title: "Junior Recital",
     subject: "VOICE",
@@ -18160,7 +18448,7 @@ const courses = [
   },
   {
     course_id: 4090,
-    unique_id: 201992,
+    unique_id: 201988,
     school: "MUSIC",
     title: "Senior Recital",
     subject: "VOICE",
@@ -18168,7 +18456,7 @@ const courses = [
   },
   {
     course_id: 20035,
-    unique_id: 201997,
+    unique_id: 201995,
     school: "MUSIC",
     title: "Studio Class",
     subject: "VOICE",
@@ -18184,7 +18472,7 @@ const courses = [
   },
   {
     course_id: 4093,
-    unique_id: 202004,
+    unique_id: 202003,
     school: "MUSIC",
     title: "Applied Voice for Music Majors",
     subject: "VOICE",
@@ -18232,7 +18520,7 @@ const courses = [
   },
   {
     course_id: 4110,
-    unique_id: 202019,
+    unique_id: 202021,
     school: "MUSIC",
     title: "MM Recital",
     subject: "VOICE",
@@ -18240,7 +18528,7 @@ const courses = [
   },
   {
     course_id: 20036,
-    unique_id: 202023,
+    unique_id: 202024,
     school: "MUSIC",
     title: "Studio Class",
     subject: "VOICE",
@@ -18256,7 +18544,7 @@ const courses = [
   },
   {
     course_id: 4112,
-    unique_id: 202033,
+    unique_id: 202030,
     school: "MUSIC",
     title: "Applied Voice for Music Majors",
     subject: "VOICE",
@@ -18272,7 +18560,7 @@ const courses = [
   },
   {
     course_id: 4115,
-    unique_id: 202037,
+    unique_id: 202038,
     school: "MUSIC",
     title: "DMA Lecture Recital",
     subject: "VOICE",
@@ -18464,7 +18752,7 @@ const courses = [
   },
   {
     course_id: 21561,
-    unique_id: 202066,
+    unique_id: 202067,
     school: "MUSIC",
     title: "Warm-Up Class",
     subject: "WIND_PER",
@@ -18472,7 +18760,7 @@ const courses = [
   },
   {
     course_id: 18276,
-    unique_id: 202074,
+    unique_id: 202069,
     school: "MUSIC",
     title: "Optional Recital",
     subject: "WIND_PER",
@@ -18496,7 +18784,7 @@ const courses = [
   },
   {
     course_id: 3997,
-    unique_id: 202083,
+    unique_id: 202084,
     school: "MUSIC",
     title: "Applied Clarinet for Music Majors",
     subject: "WIND_PER",
@@ -18584,7 +18872,7 @@ const courses = [
   },
   {
     course_id: 16483,
-    unique_id: 202103,
+    unique_id: 202096,
     school: "MUSIC",
     title: "Junior Recital",
     subject: "WIND_PER",
@@ -18592,7 +18880,7 @@ const courses = [
   },
   {
     course_id: 4025,
-    unique_id: 202112,
+    unique_id: 202114,
     school: "MUSIC",
     title: "Senior Recital",
     subject: "WIND_PER",
@@ -18600,7 +18888,7 @@ const courses = [
   },
   {
     course_id: 18696,
-    unique_id: 202128,
+    unique_id: 202125,
     school: "MUSIC",
     title: "Studio Class",
     subject: "WIND_PER",
@@ -18608,7 +18896,7 @@ const courses = [
   },
   {
     course_id: 16452,
-    unique_id: 202129,
+    unique_id: 202130,
     school: "MUSIC",
     title: "Studio Ensemble for Music Majors",
     subject: "WIND_PER",
@@ -18616,7 +18904,7 @@ const courses = [
   },
   {
     course_id: 18697,
-    unique_id: 202139,
+    unique_id: 202140,
     school: "MUSIC",
     title: "Repertoire Studies",
     subject: "WIND_PER",
@@ -18632,7 +18920,7 @@ const courses = [
   },
   {
     course_id: 4029,
-    unique_id: 202143,
+    unique_id: 202142,
     school: "MUSIC",
     title: "Applied Oboe for Music Majors",
     subject: "WIND_PER",
@@ -18712,7 +19000,7 @@ const courses = [
   },
   {
     course_id: 4046,
-    unique_id: 202161,
+    unique_id: 202158,
     school: "MUSIC",
     title: "MM Recital",
     subject: "WIND_PER",
@@ -18720,7 +19008,7 @@ const courses = [
   },
   {
     course_id: 18698,
-    unique_id: 202167,
+    unique_id: 202173,
     school: "MUSIC",
     title: "Studio Class",
     subject: "WIND_PER",
@@ -18728,7 +19016,7 @@ const courses = [
   },
   {
     course_id: 18700,
-    unique_id: 202179,
+    unique_id: 202177,
     school: "MUSIC",
     title: "Studio Ensemble for Music Majors",
     subject: "WIND_PER",
@@ -18736,7 +19024,7 @@ const courses = [
   },
   {
     course_id: 18699,
-    unique_id: 202186,
+    unique_id: 202187,
     school: "MUSIC",
     title: "Repertoire Studies",
     subject: "WIND_PER",
@@ -18760,7 +19048,7 @@ const courses = [
   },
   {
     course_id: 4050,
-    unique_id: 202191,
+    unique_id: 202192,
     school: "MUSIC",
     title: "Applied Clarinet for Music Majors",
     subject: "WIND_PER",
