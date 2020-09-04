@@ -94,7 +94,6 @@ const ScheduleCard = ({
   }
 
   const title = data.title;
-
   const classes = data.temp ? "opaque" : "";
 
   return (
