@@ -20,59 +20,59 @@ describe("searchSlice", () => {
   });
 
   describe("updateSearch + getSearch", () => {
-    it("should update to empty string if empty string is passed", async () => {
-      await store.dispatch(updateSearch("", "", "", ""));
+    it("should update to empty string if empty string is passed", () => {
+      store.dispatch(updateSearch(""));
 
       expect(getSearch(store.getState())).toEqual("");
     });
 
-    it("should update to string if string is passed", async () => {
+    it("should update to string if string is passed", () => {
       const search = "string";
 
-      await store.dispatch(updateSearch("", search, "", ""));
+      store.dispatch(updateSearch(search));
 
       expect(getSearch(store.getState())).toEqual(search);
     });
   });
 
   describe("updateSchool + getSchool", () => {
-    it("should update to school symbol is symbol is passed", async () => {
+    it("should update to school symbol is symbol is passed", () => {
       const school = "MEAS";
 
-      await store.dispatch(updateSchool(school));
+      store.dispatch(updateSchool(school));
 
       expect(getSchool(store.getState())).toEqual(school);
     });
   });
 
   describe("updateSubject + getSubject", () => {
-    it("should update to subject symbol is symbol is passed", async () => {
+    it("should update to subject symbol is symbol is passed", () => {
       const subject = "COMP_SCI";
 
-      await store.dispatch(updateSubject("", subject));
+      store.dispatch(updateSubject(subject));
 
       expect(getSubject(store.getState())).toEqual(subject);
     });
   });
 
   describe("clearSchool + getSchool + getSubject", () => {
-    it("should clear school to empty string", async () => {
+    it("should clear school to empty string", () => {
       const school = "MEAS";
       const subject = "COMP_SCI";
 
-      await store.dispatch(updateSchool(school));
-      await store.dispatch(updateSubject(school, subject));
+      store.dispatch(updateSchool(school));
+      store.dispatch(updateSubject(subject));
       store.dispatch(clearSchool());
 
       expect(getSchool(store.getState())).toEqual("");
     });
 
-    it("should clear subject to empty string", async () => {
+    it("should clear subject to empty string", () => {
       const school = "MEAS";
       const subject = "COMP_SCI";
 
-      await store.dispatch(updateSchool(school));
-      await store.dispatch(updateSubject(school, subject));
+      store.dispatch(updateSchool(school));
+      store.dispatch(updateSubject(subject));
       store.dispatch(clearSchool());
 
       expect(getSubject(store.getState())).toEqual("");
@@ -80,23 +80,23 @@ describe("searchSlice", () => {
   });
 
   describe("clearSubject + getSubject", () => {
-    it("should clear subject to empty string", async () => {
+    it("should clear subject to empty string", () => {
       const school = "MEAS";
       const subject = "COMP_SCI";
 
-      await store.dispatch(updateSchool(school));
-      await store.dispatch(updateSubject(school, subject));
+      store.dispatch(updateSchool(school));
+      store.dispatch(updateSubject(subject));
       store.dispatch(clearSubject());
 
       expect(getSubject(store.getState())).toEqual("");
     });
 
-    it("should keep school the same", async () => {
+    it("should keep school the same", () => {
       const school = "MEAS";
       const subject = "COMP_SCI";
 
-      await store.dispatch(updateSchool(school));
-      await store.dispatch(updateSubject(school, subject));
+      store.dispatch(updateSchool(school));
+      store.dispatch(updateSubject(subject));
       store.dispatch(clearSubject());
 
       expect(getSchool(store.getState())).toEqual(school);

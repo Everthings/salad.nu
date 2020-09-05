@@ -21,7 +21,7 @@ const CardBody = styled.div`
 
 const XButton = styled.button`
   position: absolute;
-  top: -3px;
+  top: -4px;
   right: -3px;
   border: 0;
   background-color: rgba(0, 0, 0, 0);

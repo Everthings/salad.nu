@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CourseList renders course list correctly with data 1`] = `
+exports[`SchoolList renders school list correctly with data 1`] = `
 <DocumentFragment>
   <div
     class="sc-fzoLsD QtjTv"
-    data-testid="course-list"
+    data-testid="school-list"
   >
     <h4
       class="sc-fzpans kzMTGA"
     >
-      COURSES
+      SCHOOLS
     </h4>
     <div
       class="sc-Axmtr iiJRaA"
@@ -27,7 +27,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
           class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
-          Subject 1 Number 1
+          Symbol 1
         </h5>
         <hr
           class="sc-AxiKw cwDgDy"
@@ -35,7 +35,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
         <p
           class="sc-AxhUy qxWOA"
         >
-          Title 1
+          Name 1
         </p>
       </div>
     </div>
@@ -50,7 +50,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
           class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
-          Subject 2 Number 2
+          Symbol 2
         </h5>
         <hr
           class="sc-AxiKw cwDgDy"
@@ -58,7 +58,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
         <p
           class="sc-AxhUy qxWOA"
         >
-          Title 2
+          Name 2
         </p>
       </div>
     </div>
@@ -73,7 +73,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
           class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
-          Subject 3 Number 3
+          Symbol 3
         </h5>
         <hr
           class="sc-AxiKw cwDgDy"
@@ -81,7 +81,7 @@ exports[`CourseList renders course list correctly with data 1`] = `
         <p
           class="sc-AxhUy qxWOA"
         >
-          Title 3
+          Name 3
         </p>
       </div>
     </div>

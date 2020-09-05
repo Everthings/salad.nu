@@ -34,3 +34,8 @@ export const getSubjects = createSelector(
   (state) => state.subjects,
   (subjects) => subjects.list
 );
+
+export const isLoadingSubjects = createSelector(
+  (state) => state.subjects,
+  (subjects) => subjects.loading
+);

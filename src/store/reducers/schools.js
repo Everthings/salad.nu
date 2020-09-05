@@ -34,3 +34,8 @@ export const getSchools = createSelector(
   (state) => state.schools,
   (schools) => schools.list
 );
+
+export const isLoadingSchools = createSelector(
+  (state) => state.schools,
+  (schools) => schools.loading
+);

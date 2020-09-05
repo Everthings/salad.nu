@@ -40,3 +40,8 @@ export const getSection = (id) =>
     (state) => state.sections,
     (sections) => sections.list.find((section) => section.unique_id === id)
   );
+
+export const isLoadingSections = createSelector(
+  (state) => state.sections,
+  (sections) => sections.loading
+);

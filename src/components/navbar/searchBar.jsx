@@ -85,11 +85,7 @@ const SearchBar = () => {
           placeholder={`Search Courses ${termName}`}
           aria-label="Search"
           value={search}
-          onChange={(e) =>
-            dispatch(
-              updateSearch(search, e.currentTarget.value, school, subject)
-            )
-          }
+          onChange={(e) => dispatch(updateSearch(e.currentTarget.value))}
           data-testid="search-bar"
         />
       </form>

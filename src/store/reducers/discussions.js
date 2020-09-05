@@ -41,3 +41,8 @@ export const getDiscussion = (id) =>
     (discussions) =>
       discussions.find((discussion) => discussion.unique_id === id)
   );
+
+export const isLoadingDiscussions = createSelector(
+  (state) => state.discussions,
+  (discussions) => discussions.loading
+);

@@ -27,7 +27,7 @@ const style = {
   },
 };
 
-const CourseModal = () => {
+const InfoModal = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();
 
@@ -66,4 +66,4 @@ const CourseModal = () => {
   );
 };
 
-export default CourseModal;
+export default InfoModal;

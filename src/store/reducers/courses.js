@@ -4,18 +4,7 @@ import {
   COURSES_REQUESTED,
   COURSES_REQUEST_FAILED,
   COURSES_RECIEVED,
-  COURSES_RECIEVED_FROM_STORE,
-} from "./../actions/courseActions";
-import {
-  filterCourses,
-  filterCoursesBySchoolSubject,
-} from "./../../utils/searchUtils";
-
-const filter = (searchStr, school, subject, list) => {
-  let filtered = filterCourses(searchStr, list);
-  filtered = filterCoursesBySchoolSubject(school, subject, filtered);
-  return filtered;
-};
+} from "../actions/courseActions";
 
 // Reducers
 const slice = createSlice({
@@ -33,18 +22,8 @@ const slice = createSlice({
       courses.loading = false;
     },
     [COURSES_RECIEVED]: (courses, action) => {
-      const response = action.payload.data;
-      const searchStr = action.payload.searchStr;
-      const school = action.payload.school;
-      const subject = action.payload.subject;
-      courses.list = filter(searchStr, school, subject, response);
+      courses.list = action.payload.data;
       courses.loading = false;
-    },
-    [COURSES_RECIEVED_FROM_STORE]: (courses, action) => {
-      const searchStr = action.payload.searchStr;
-      const school = action.payload.school;
-      const subject = action.payload.subject;
-      courses.list = filter(searchStr, school, subject, courses.list);
     },
   },
 });
@@ -54,4 +33,9 @@ export default slice.reducer;
 export const getCourses = createSelector(
   (state) => state.courses,
   (courses) => courses.list
+);
+
+export const isLoadingCourses = createSelector(
+  (state) => state.courses,
+  (courses) => courses.loading
 );

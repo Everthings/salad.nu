@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { getSchool } from "./../../store/reducers/search";
-import { getSubjects } from "./../../store/reducers/subjects";
+import {
+  getSubjects,
+  isLoadingSubjects,
+} from "./../../store/reducers/subjects";
 import { updateSubject } from "./../../store/actions/searchActions";
+import { loadSubjects } from "../../store/actions/subjectActions";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
+import Loading from "./loading";
 
 const ScrollContainer = styled.div`
   overflow: scroll;
@@ -24,8 +29,13 @@ const SubjectList = () => {
   const school = useSelector(getSchool);
   const subjects = useSelector(getSubjects);
 
+  useMemo(() => {
+    dispatch(loadSubjects(school));
+  }, [school]);
+  const loading = useSelector(isLoadingSubjects);
+
   const handleClick = ({ symbol }) => {
-    dispatch(updateSubject(school, symbol));
+    dispatch(updateSubject(symbol));
   };
 
   const titleFn = ({ symbol }) => symbol;
@@ -35,14 +45,19 @@ const SubjectList = () => {
     <ScrollManager scrollKey={`subjectList-${school}`}>
       {({ connectScrollTarget }) => (
         <ScrollContainer ref={connectScrollTarget} data-testid="subject-list">
-          <Heading>SUBJECTS</Heading>
-          <CardList
-            list={subjects}
-            idKey={"symbol"}
-            titleFn={titleFn}
-            textFns={[nameFn]}
-            handleClick={handleClick}
-          />
+          {loading && <Loading />}
+          {!loading && (
+            <>
+              <Heading>SUBJECTS</Heading>
+              <CardList
+                list={subjects}
+                idKey={"symbol"}
+                titleFn={titleFn}
+                textFns={[nameFn]}
+                handleClick={handleClick}
+              />
+            </>
+          )}
         </ScrollContainer>
       )}
     </ScrollManager>

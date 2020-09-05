@@ -18,34 +18,22 @@ describe("coursesSlice", () => {
   });
 
   describe("loadCourses + getCourses", () => {
-    it("should load courses into store if string matches", async () => {
-      await store.dispatch(loadCourses("", "", "", ""));
+    it("should load courses into store if school and subject are specified but search is empty", async () => {
+      await store.dispatch(loadCourses("", "SCHOOL", "SUBJECT"));
 
       expect(getCourses(store.getState())).toHaveLength(3);
     });
 
-    it("should load empty list into store if string doesn't match", async () => {
-      await store.dispatch(
-        loadCourses("", "this is not a valid string: qwertyuiop[]", "", "")
-      );
+    it("should load courses into store if search is long", async () => {
+      await store.dispatch(loadCourses("long search", "", ""));
+
+      expect(getCourses(store.getState())).toHaveLength(3);
+    });
+
+    it("should not load courses into store if search is short", async () => {
+      await store.dispatch(loadCourses("s h o r t", "", ""));
 
       expect(getCourses(store.getState())).toHaveLength(0);
-    });
-
-    it("should load matching course into store if string does match", async () => {
-      await store.dispatch(loadCourses("", "title", "", ""));
-
-      expect(getCourses(store.getState())).toHaveLength(3);
-    });
-
-    it("should load matching course into store when string typed one letter at a time", async () => {
-      await store.dispatch(loadCourses("", "t", "", ""));
-      await store.dispatch(loadCourses("t", "ti", "", ""));
-      await store.dispatch(loadCourses("ti", "tit", "", ""));
-      await store.dispatch(loadCourses("tit", "titl", "", ""));
-      await store.dispatch(loadCourses("titl", "title", "", ""));
-
-      expect(getCourses(store.getState())).toHaveLength(3);
     });
   });
 });

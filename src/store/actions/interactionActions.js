@@ -22,10 +22,8 @@ export const UPDATED_CURRENT_BUILDING = createAction(
 );
 
 // Action Creators
-export const selectCourse = (id) => (dispatch) => {
-  dispatch(SELECTED_COURSE({ id }));
-  dispatch(loadSections(id));
-  dispatch(loadDiscussions(id));
+export const selectCourse = (id) => {
+  return SELECTED_COURSE({ id });
 };
 
 export const unselectCourse = () => {

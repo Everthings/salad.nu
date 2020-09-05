@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import BodyLarge from "./bodyLarge";
 import BodySmall from "./bodySmall";
-import InfoModal from "./modal/modal";
+import InfoModal from "./infoModal/modal";
 
 const Body = () => {
   const bigScreen = useMediaQuery({

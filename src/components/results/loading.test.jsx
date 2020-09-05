@@ -1,21 +1,18 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import configureStore from "./../../store/configureStore";
 import { Provider } from "react-redux";
-import Theme from "../themes/theme";
-import { BrowserRouter as Router } from "react-router-dom";
-import AboutPage from "./aboutPage";
+import configureStore from "./../../store/configureStore";
+import Theme from "./../themes/theme";
+import Loading from "./loading";
 
-describe("AboutPage", () => {
-  it("renders about page correctly", () => {
+describe("Loading", () => {
+  it("renders correctly", () => {
     const store = configureStore();
     const tree = renderer
       .create(
         <Provider store={store}>
           <Theme>
-            <Router>
-              <AboutPage />
-            </Router>
+            <Loading />
           </Theme>
         </Provider>
       )

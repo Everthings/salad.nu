@@ -35,11 +35,20 @@ const ScheduleContainer = styled.div`
 `;
 
 const ScheduleContents = styled.div`
+  position: relative;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+`;
+
+const TopLeftOverlay = styled.div`
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  transform: translate(0, 20%);
+  z-index: 1;
 `;
 
 const ScheduleBody = () => {
@@ -91,8 +100,8 @@ const ScheduleBody = () => {
     const scheduledSectionsCpy = [...scheduledSections];
     if (
       hoveredSection &&
-      hoveredSection["start_time"] &&
-      hoveredSection["end_time"]
+      hoveredSection.start_time &&
+      hoveredSection.end_time
     ) {
       scheduledSectionsCpy.push({ ...hoveredSection, temp: true });
     }

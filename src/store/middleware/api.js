@@ -32,7 +32,7 @@ const api = ({ dispatch }) => (next) => async (action) => {
       } else if (resource === "subjects") {
         response = await getSubject(data);
       } else if (resource === "courses") {
-        response = await getCourses();
+        response = await getCourses(data);
       } else if (resource === "sections") {
         response = await getSection(data);
       } else if (resource === "discussions") {

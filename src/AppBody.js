@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
 import { loadTerm } from "./store/actions/termActions";
-import { loadSchools } from "./store/actions/schoolActions";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Body from "./components/body";
-import AboutPage from "./components/pages/aboutPage";
+import AboutPage from "./components/AboutPage/aboutPage";
 import { CURRENT_TERM_ID } from "./configs";
 
 const StyleWrapper = styled.div`
@@ -27,7 +26,6 @@ const AppBody = () => {
 
   useEffect(() => {
     dispatch(loadTerm(CURRENT_TERM_ID));
-    dispatch(loadSchools());
   }, [dispatch]);
 
   return (

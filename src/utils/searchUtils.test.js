@@ -1,11 +1,11 @@
 import {
-  filterCourses,
+  filterCoursesByStr,
   filterCoursesBySchoolSubject,
   getMaximumStrPartLength,
 } from "./searchUtils";
 
 describe("searchUtils", () => {
-  describe("filterCourses", () => {
+  describe("filterCoursesByStr", () => {
     it("should give entire list for empty search string", () => {
       const searchStr = "";
       const courses = [
@@ -14,7 +14,7 @@ describe("searchUtils", () => {
         { title: "3", subject: "COMP_SCI", number: "111" },
       ];
 
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual(courses);
     });
@@ -23,7 +23,7 @@ describe("searchUtils", () => {
       const searchStr = "";
       const courses = [];
 
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([]);
     });
@@ -32,7 +32,7 @@ describe("searchUtils", () => {
       const searchStr = "some search";
       const courses = [];
 
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([]);
     });
@@ -44,7 +44,7 @@ describe("searchUtils", () => {
         { title: "2", subject: "COMP_SCI", number: "110" },
         { title: "3", subject: "COMP_SCI", number: "111" },
       ];
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([]);
     });
@@ -56,7 +56,7 @@ describe("searchUtils", () => {
         { title: "search", subject: "course", number: "#" },
         { title: "1", subject: "subject", number: "#" },
       ];
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([]);
     });
@@ -68,7 +68,7 @@ describe("searchUtils", () => {
         { title: "search some", subject: "subject", number: "#" },
         { title: "1", subject: "subject", number: "#" },
       ];
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([
         { title: "some", subject: "search", number: "#" },
@@ -83,7 +83,7 @@ describe("searchUtils", () => {
         { title: "-", subject: "-", number: "some search" },
         { title: "1", subject: "subject", number: "#" },
       ];
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([
         { title: "-", subject: "-", number: "some search" },
@@ -98,7 +98,7 @@ describe("searchUtils", () => {
         { title: "search some 404", subject: "subject", number: "#" },
         { title: "1", subject: "subject", number: "#" },
       ];
-      const filtered = filterCourses(searchStr, courses);
+      const filtered = filterCoursesByStr(searchStr, courses);
 
       expect(filtered).toEqual([
         { title: "-", subject: "-", number: "some search 404" },

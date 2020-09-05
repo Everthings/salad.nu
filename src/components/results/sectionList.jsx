@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "./../../store/reducers/sections";
-import { getDiscussions } from "./../../store/reducers/discussions";
+import {
+  getSections,
+  isLoadingSections,
+} from "./../../store/reducers/sections";
+import {
+  getDiscussions,
+  isLoadingDiscussions,
+} from "./../../store/reducers/discussions";
 import {
   unselectCourse,
   hoverSectionCard,
@@ -11,11 +17,15 @@ import {
 } from "./../../store/actions/interactionActions";
 import { addSectionToSchedule } from "./../../store/actions/scheduleActions";
 import { showSectionInfo } from "./../../store/actions/interactionActions";
+import { loadSections } from "../../store/actions/sectionActions";
+import { loadDiscussions } from "../../store/actions/discussionActions";
+import { getSelectedCourse } from "../../store/reducers/interactions";
 import { getScheduledSections } from "./../../store/reducers/schedule";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import { hasValidDateTime } from "./../../utils/validationUtils";
 import CardList from "./cardList";
+import Loading from "./loading";
 
 const Header = styled.div`
   margin-top: 1vh;
@@ -47,6 +57,16 @@ const Text = styled.h4`
 const SectionList = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();
+
+  const { id: courseId } = useSelector(getSelectedCourse);
+  useMemo(() => {
+    dispatch(loadSections(courseId));
+    dispatch(loadDiscussions(courseId));
+  }, [courseId]);
+
+  const loadingSections = useSelector(isLoadingSections);
+  const loadingDiscussions = useSelector(isLoadingDiscussions);
+  const loading = loadingSections || loadingDiscussions;
 
   const sections = useSelector(getSections);
   const discussions = useSelector(getDiscussions);
@@ -118,29 +138,40 @@ const SectionList = () => {
 
   return (
     <ScrollContainer data-testid="section-list">
-      <Header>
-        <Button
-          className="btn btn-danger"
-          onClick={() => dispatch(unselectCourse())}
-          data-testid="section-list-back-button"
-        >
-          Back
-        </Button>
-        <Text data-testid="section-list-title">{name}</Text>
-        <Line />
-      </Header>
-      <CardList
-        list={results}
-        idKey={"unique_id"}
-        titleFn={sectionFn}
-        textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn, modeFn]}
-        disabledFn={disabledFn}
-        handleClick={handleClick}
-        handleMouseOver={handleMouseOver}
-        handleMouseLeave={handleMouseLeave}
-        showMoreInfoFn={showMoreInfo}
-        moreInfoClick={moreInfoClick}
-      />
+      {loading && <Loading />}
+      {!loading && (
+        <>
+          <Header>
+            <Button
+              className="btn btn-danger"
+              onClick={() => dispatch(unselectCourse())}
+              data-testid="section-list-back-button"
+            >
+              Back
+            </Button>
+            <Text data-testid="section-list-title">{name}</Text>
+            <Line />
+          </Header>
+          <CardList
+            list={results}
+            idKey={"unique_id"}
+            titleFn={sectionFn}
+            textFns={[
+              meetingDaysFn,
+              meetingTimesFn,
+              instructorFn,
+              roomFn,
+              modeFn,
+            ]}
+            disabledFn={disabledFn}
+            handleClick={handleClick}
+            handleMouseOver={handleMouseOver}
+            handleMouseLeave={handleMouseLeave}
+            showMoreInfoFn={showMoreInfo}
+            moreInfoClick={moreInfoClick}
+          />
+        </>
+      )}
     </ScrollContainer>
   );
 };
