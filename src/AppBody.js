@@ -5,7 +5,7 @@ import { loadTerm } from "./store/actions/termActions";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Body from "./components/body";
-import AboutPage from "./components/AboutPage/aboutPage";
+import AboutPage from "./components/aboutPage/aboutPage";
 import { CURRENT_TERM_ID } from "./configs";
 
 const StyleWrapper = styled.div`
