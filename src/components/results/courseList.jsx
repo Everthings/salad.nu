@@ -42,7 +42,7 @@ const CourseList = () => {
 
   useMemo(() => {
     dispatch(loadCourses(search, school, subject));
-  }, [search, school, subject]);
+  }, [search, school, subject, dispatch]);
   const loading = useSelector(isLoadingCourses);
 
   const getComponent = () => {

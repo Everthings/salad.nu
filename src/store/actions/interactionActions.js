@@ -1,6 +1,4 @@
 import { createAction } from "@reduxjs/toolkit";
-import { loadSections } from "./sectionActions";
-import { loadDiscussions } from "./discussionActions";
 import { removeSectionFromSchedule } from "./scheduleActions";
 import { loadBuilding } from "./buildingActions";
 

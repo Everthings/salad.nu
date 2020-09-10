@@ -55,6 +55,7 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
     "randomcolor": "^0.6.2",
+    "rc-time-picker": "^4.0.0-alpha.2",
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-bootstrap": "^1.2.2",

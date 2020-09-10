@@ -62,7 +62,7 @@ const SectionList = () => {
   useMemo(() => {
     dispatch(loadSections(courseId));
     dispatch(loadDiscussions(courseId));
-  }, [courseId]);
+  }, [courseId, dispatch]);
 
   const loadingSections = useSelector(isLoadingSections);
   const loadingDiscussions = useSelector(isLoadingDiscussions);

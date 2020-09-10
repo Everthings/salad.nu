@@ -43,14 +43,6 @@ const ScheduleContents = styled.div`
   justify-content: space-evenly;
 `;
 
-const TopLeftOverlay = styled.div`
-  position: absolute;
-  height: 5%;
-  width: 5%;
-  transform: translate(0, 20%);
-  z-index: 1;
-`;
-
 const ScheduleBody = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();

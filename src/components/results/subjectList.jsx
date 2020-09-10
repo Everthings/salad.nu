@@ -31,7 +31,7 @@ const SubjectList = () => {
 
   useMemo(() => {
     dispatch(loadSubjects(school));
-  }, [school]);
+  }, [school, dispatch]);
   const loading = useSelector(isLoadingSubjects);
 
   const handleClick = ({ symbol }) => {

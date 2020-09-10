@@ -26,7 +26,7 @@ const SchoolList = () => {
 
   useMemo(() => {
     dispatch(loadSchools());
-  }, []);
+  }, [dispatch]);
   const loading = useSelector(isLoadingSchools);
 
   const handleClick = ({ symbol }) => {
