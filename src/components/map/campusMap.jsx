@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Map, Circle, TileLayer, Tooltip } from "react-leaflet";
-import { getCurrentBuilding } from "./../../store/slices/interactions";
+import { getCurrentBuilding } from "./../../store/reducers/interactions";
 import { DEFAULT_MAP_ZOOM } from "./../../configs";
 
 const style = {
@@ -27,12 +27,10 @@ const CampusMap = () => {
 
   const position = validLatLon ? [lat, lon] : nuLatLon;
 
-  const handleZoomChange = (viewport, zoom) => setZoom(zoom);
-
   return (
     <Map
       viewport={{ center: position, zoom: zoom }}
-      onViewportChanged={handleZoomChange}
+      onViewportChanged={(viewport, zoom) => setZoom(zoom)}
       attributionControl={false}
       style={style}
     >

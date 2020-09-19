@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag renders correctly 1`] = `
+<div
+  className="sc-AxjAm eJSwZn"
+  data-testid="search-tag"
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(157, 109, 224, 0.65)",
+    }
+  }
+>
+  <div
+    className="sc-AxirZ cAuSWf"
+  >
+    name
+  </div>
+  <div
+    className="sc-AxiKw kEvPgc"
+  />
+</div>
+`;

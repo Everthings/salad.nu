@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders correctly 1`] = `
+<nav
+  className="sc-fzozJi ksOHVC navbar navbar-light"
+  data-testid="nav-bar"
+>
+  <div
+    className="flex-fill"
+  >
+    <div
+      className="sc-AxhCb ihkWvl mr-3"
+    >
+      
+      <form
+        className="flex-fill"
+        onSubmit={[Function]}
+      >
+        <input
+          aria-label="Search"
+          autoFocus={true}
+          className="sc-AxgMl deA-Dln form-control"
+          data-testid="search-bar"
+          onChange={[Function]}
+          placeholder="Search Courses "
+          type="search"
+          value=""
+        />
+      </form>
+    </div>
+  </div>
+  <div
+    className="react-toggle react-toggle--checked"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="react-toggle-track"
+    >
+      <div
+        className="react-toggle-track-check"
+      />
+      <div
+        className="react-toggle-track-x"
+      />
+    </div>
+    <div
+      className="react-toggle-thumb"
+    />
+    <input
+      checked={true}
+      className="react-toggle-screenreader-only"
+      data-testid="theme-toggle"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+  </div>
+</nav>
+`;

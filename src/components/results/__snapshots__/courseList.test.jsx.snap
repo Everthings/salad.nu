@@ -1,92 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CourseList renders course list correctly with data 1`] = `
-Array [
+<DocumentFragment>
   <div
-    className="sc-Axmtr gGWzet"
+    class="sc-fzoLsD QtjTv"
     data-testid="course-list"
   >
-    <div
-      className="sc-AxheI eBXIT"
+    <h4
+      class="sc-fzpans kzMTGA"
     >
-      3
-       result(s)
+      COURSES
+    </h4>
+    <div
+      class="sc-Axmtr iiJRaA"
+    >
+      3 result(s)
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           Subject 1 Number 1
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Title 1
         </p>
       </div>
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           Subject 2 Number 2
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Title 2
         </p>
       </div>
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           Subject 3 Number 3
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Title 3
         </p>
       </div>
     </div>
-  </div>,
+  </div>
   <div
-    className="react-toast-notifications__container css-mrh2d-ToastContainer"
-  />,
-]
+    class="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />
+</DocumentFragment>
 `;

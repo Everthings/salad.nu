@@ -1,224 +1,208 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SectionList renders section list correctly with data 1`] = `
-Array [
+<DocumentFragment>
   <div
-    className="sc-AxmLO cnKbfI"
+    class="sc-fzpans jNlVRL"
     data-testid="section-list"
   >
     <div
-      className="sc-Axmtr eXOmus"
+      class="sc-fzoLsD exbVzu"
     >
       <button
-        className="sc-fzoLsD crtpry btn btn-danger"
+        class="sc-fznyAO cikyLn btn btn-danger"
         data-testid="section-list-back-button"
-        onClick={[Function]}
       >
         Back
       </button>
       <h4
-        className="sc-fzpans vUssG"
+        class="sc-fznKkj jYpbgy"
         data-testid="section-list-title"
-      >
-        
-      </h4>
+      />
       <hr
-        className="sc-fzozJi ciutFt"
+        class="sc-fzplWN ippUFq"
       />
     </div>
     <div
-      className="sc-AxheI eBXIT"
+      class="sc-Axmtr iiJRaA"
     >
-      4
-       result(s)
+      4 result(s)
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
-      onMouseLeave={[Function]}
-      onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 1
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Name 1
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Building 1
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Mode 1
         </p>
       </div>
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
-      onMouseLeave={[Function]}
-      onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 2
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Name 2
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Building 2
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Mode 2
         </p>
       </div>
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
-      onMouseLeave={[Function]}
-      onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 3
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Name 3
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Building 3
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Mode 3
         </p>
       </div>
     </div>
     <div
-      className="sc-AxjAm cFVyGa"
+      class="sc-AxjAm cFVyGa"
       data-testid="info-card"
-      onClick={[Function]}
-      onMouseLeave={[Function]}
-      onMouseOver={[Function]}
     >
       <div
-        className="card-body"
+        class="sc-AxirZ kEmsgL"
       >
         <h5
-          className="sc-AxiKw iiwGCz"
+          class="sc-AxhCb pwsED"
           data-testid="info-card-title"
         >
           undefined - Sec 4
         </h5>
         <hr
-          className="sc-AxirZ grXYcG"
+          class="sc-AxiKw cwDgDy"
         />
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           MoWeFr
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           1:00am - 2:00am
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Name 4
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Building 4
         </p>
         <p
-          className="sc-AxhCb kqIPop"
+          class="sc-AxhUy qxWOA"
         >
           Mode 4
         </p>
       </div>
     </div>
-  </div>,
+  </div>
   <div
-    className="react-toast-notifications__container css-mrh2d-ToastContainer"
-  />,
-]
+    class="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />
+</DocumentFragment>
 `;

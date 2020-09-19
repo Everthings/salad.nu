@@ -10,3 +10,7 @@
 .opaque {
   opacity: 0.5;
 }
+
+.hidden {
+  opacity: 0 !important;
+}

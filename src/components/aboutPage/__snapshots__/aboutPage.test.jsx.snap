@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutPage renders about page correctly 1`] = `
+<div
+  className="sc-AxjAm fVDLxK"
+>
+  <div
+    className="sc-AxirZ kaxUiU"
+  >
+    <h1
+      className="sc-AxiKw fYXJXb"
+    >
+      About
+    </h1>
+    <p
+      className="sc-AxhCb eFYatD"
+    >
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Welcome!
+      </a>
+    </p>
+    <p
+      className="sc-AxhCb eFYatD"
+    >
+      This is personal project I've been developing over the summer to simplify course scheduling at NU.
+    </p>
+    <p
+      className="sc-AxhCb eFYatD"
+    >
+      If you'd like to give feedback on your experience, please use this
+      <a
+        href="https://airtable.com/shrkkzdKxTTlVSRqc"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+         form
+      </a>
+      . If you'd like to report any bugs, please use this
+       
+      <a
+        href="https://airtable.com/shrNZZEGLM9sPx1s0"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+         form
+      </a>
+      . The site is still its early stages of development, so any feedback would be greatly appreciated. Thanks!
+    </p>
+    <p
+      className="sc-AxhCb eFYatD"
+    >
+      Several people have asked what the 'Export' button does. Simply put, it just exports your schedule as a csv which you can then import into google calendar (following these
+       
+      <a
+        href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        instructions
+      </a>
+      ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar.
+    </p>
+    <p
+      className="sc-AxhCb eFYatD"
+    >
+      Andy '23
+    </p>
+    <div
+      className="sc-AxhUy jNLcXB btn mb-3"
+    >
+      <a
+        data-testid="about-back-button"
+        href="/"
+        onClick={[Function]}
+      >
+        Back
+      </a>
+    </div>
+  </div>
+</div>
+`;

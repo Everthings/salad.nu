@@ -2,24 +2,21 @@ import React, { useCallback, useMemo } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import {
-  getScheduledSections,
-  removeSection,
-} from "./../../store/slices/schedule";
+import { getScheduledSections } from "./../../store/reducers/schedule";
 import {
   getHoveredScheduledSection,
   getHoveredSection,
-  updateCurrentBuilding,
-  updateNoCurrentBuilding,
-  clearCurrentBuilding,
-  updateRemovableSelectedSection,
-  updateHoveredScheduledSection,
-  clearHoveredScheduledSection,
-} from "../../store/slices/interactions";
-import { getSections } from "./../../store/slices/sections";
-import { getDiscussions } from "./../../store/slices/discussions";
+} from "./../../store/reducers/interactions";
+import { getSection } from "./../../store/reducers/sections";
+import { getDiscussion } from "./../../store/reducers/discussions";
+import { removeSectionFromSchedule } from "./../../store/actions/scheduleActions";
+import {
+  hoverScheduleCard,
+  unhoverScheduleCard,
+} from "./../../store/actions/interactionActions";
+import { showSectionInfo } from "./../../store/actions/interactionActions";
 import { binAndStyle } from "./../../utils/layoutUtils";
-import { getName } from "../../utils/courseUtils";
+import { getName } from "./../../utils/courseUtils";
 import HoursColumn from "./hoursColumn";
 import DayColumn from "./dayColumn";
 
@@ -38,6 +35,7 @@ const ScheduleContainer = styled.div`
 `;
 
 const ScheduleContents = styled.div`
+  position: relative;
   height: 100%;
   width: 100%;
   display: flex;
@@ -52,13 +50,9 @@ const ScheduleBody = () => {
   // event handlers for schedule card and memoize
   const handleXClick = useCallback(
     (data) => {
-      let name = getName(data);
+      dispatch(removeSectionFromSchedule(data.unique_id));
 
-      dispatch(removeSection(data.unique_id));
-      dispatch(clearHoveredScheduledSection());
-      dispatch(clearCurrentBuilding());
-
-      addToast(`Removed ${name}`, {
+      addToast(`Removed ${getName(data)}`, {
         appearance: "error",
         autoDismiss: true,
       });
@@ -68,45 +62,43 @@ const ScheduleBody = () => {
 
   const handleClick = useCallback(
     (data) => {
-      dispatch(updateRemovableSelectedSection(data));
+      dispatch(showSectionInfo(data));
     },
     [dispatch]
   );
 
   const handleMouseOver = useCallback(
-    ({ room, unique_id }) => {
-      dispatch(updateHoveredScheduledSection(unique_id));
-
-      let hasLocation = room && room.building_id;
-      if (!hasLocation) dispatch(updateNoCurrentBuilding());
-      else dispatch(updateCurrentBuilding(room.building_id));
+    ({ unique_id, room }) => {
+      dispatch(hoverScheduleCard(unique_id, room));
     },
     [dispatch]
   );
 
   const handleMouseLeave = useCallback(() => {
-    dispatch(clearHoveredScheduledSection());
-    dispatch(clearCurrentBuilding());
+    dispatch(unhoverScheduleCard());
   }, [dispatch]);
 
   const { id: hoveredId } = useSelector(getHoveredScheduledSection);
-  const courses = useSelector(getScheduledSections);
+  const scheduledSections = useSelector(getScheduledSections);
 
   // find and add hovered section to schedule
   const { id } = useSelector(getHoveredSection);
-  const sections = useSelector(getSections);
-  const discussions = useSelector(getDiscussions);
+  const section = useSelector(getSection(id));
+  const discussion = useSelector(getDiscussion(id));
+  const hoveredSection = section || discussion;
 
   // prepare courses for render and memoize
   const { bins, days, hours } = useMemo(() => {
-    const results = [...sections, ...discussions];
-    const result = results.find((result) => result.unique_id === id);
-    const coursesCpy = [...courses];
-    if (result && result["start_time"] && result["end_time"]) {
-      coursesCpy.push({ temp: true, ...result });
+    const scheduledSectionsCpy = [...scheduledSections];
+    if (
+      hoveredSection &&
+      hoveredSection.start_time &&
+      hoveredSection.end_time
+    ) {
+      scheduledSectionsCpy.push({ ...hoveredSection, temp: true });
     }
-    return binAndStyle(coursesCpy);
-  }, [id, courses, sections, discussions]);
+    return binAndStyle(scheduledSectionsCpy);
+  }, [scheduledSections, hoveredSection]);
   const startHours = hours.slice(0, -1);
 
   return (

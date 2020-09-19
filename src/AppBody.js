@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import { useDispatch } from "react-redux";
+import { loadTerm } from "./store/actions/termActions";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Body from "./components/body";
-import AboutPage from "./components/pages/aboutPage";
+import AboutPage from "./components/aboutPage/aboutPage";
+import { CURRENT_TERM_ID } from "./configs";
 
 const StyleWrapper = styled.div`
   background: ${({ theme }) => `${theme.colors.background}`};
@@ -19,6 +22,12 @@ const FlexContainer = styled.div`
 `;
 
 const AppBody = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadTerm(CURRENT_TERM_ID));
+  }, [dispatch]);
+
   return (
     <StyleWrapper data-testid="app-body">
       <Switch>

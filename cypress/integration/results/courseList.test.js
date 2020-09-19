@@ -3,15 +3,6 @@ describe("CourseList", () => {
     cy.visit("http://localhost:3000");
   });
 
-  it("should display no text if search string is empty", () => {
-    cy.get("[data-testid=course-list]")
-      .contains("No Results")
-      .should("not.exist");
-    cy.get("[data-testid=course-list]")
-      .contains("Continue typing...")
-      .should("not.exist");
-  });
-
   it("should display 'No Results' if no results for search", () => {
     cy.get("[data-testid=search-bar]").type(
       "there will be no results for this string"
@@ -32,6 +23,13 @@ describe("CourseList", () => {
 
   it("should display one or more info cards if search string matches", () => {
     cy.get("[data-testid=search-bar]").type("COMP SCI");
+
+    cy.get("[data-testid=info-card]").should("have.length.of.at.least", 1);
+  });
+
+  it("should display one or more info cards if both school and subject selected", () => {
+    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=subject-list]").first().click();
 
     cy.get("[data-testid=info-card]").should("have.length.of.at.least", 1);
   });

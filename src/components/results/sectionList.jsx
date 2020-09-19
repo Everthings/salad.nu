@@ -1,27 +1,31 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getSections } from "./../../store/slices/sections";
-import { getDiscussions } from "./../../store/slices/discussions";
 import {
-  clearSelectedCourse,
-  updateSelectedSection,
-  updateCurrentBuilding,
-  updateNoCurrentBuilding,
-  clearCurrentBuilding,
-  updateHoveredSection,
-  clearHoveredSection,
-  clearSelectedSection,
-} from "../../store/slices/interactions";
+  getSections,
+  isLoadingSections,
+} from "./../../store/reducers/sections";
 import {
-  getScheduledSections,
-  addSection,
-} from "./../../store/slices/schedule";
+  getDiscussions,
+  isLoadingDiscussions,
+} from "./../../store/reducers/discussions";
+import {
+  unselectCourse,
+  hoverSectionCard,
+  unhoverSectionCard,
+} from "./../../store/actions/interactionActions";
+import { addSectionToSchedule } from "./../../store/actions/scheduleActions";
+import { showSectionInfo } from "./../../store/actions/interactionActions";
+import { loadSections } from "../../store/actions/sectionActions";
+import { loadDiscussions } from "../../store/actions/discussionActions";
+import { getSelectedCourse } from "../../store/reducers/interactions";
+import { getScheduledSections } from "./../../store/reducers/schedule";
 import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import { hasValidDateTime } from "./../../utils/validationUtils";
 import CardList from "./cardList";
+import Loading from "./loading";
 
 const Header = styled.div`
   margin-top: 1vh;
@@ -54,6 +58,16 @@ const SectionList = () => {
   const dispatch = useDispatch();
   const { addToast } = useToasts();
 
+  const { id: courseId } = useSelector(getSelectedCourse);
+  useMemo(() => {
+    dispatch(loadSections(courseId));
+    dispatch(loadDiscussions(courseId));
+  }, [courseId, dispatch]);
+
+  const loadingSections = useSelector(isLoadingSections);
+  const loadingDiscussions = useSelector(isLoadingDiscussions);
+  const loading = loadingSections || loadingDiscussions;
+
   const sections = useSelector(getSections);
   const discussions = useSelector(getDiscussions);
   const results = [...sections, ...discussions];
@@ -62,26 +76,17 @@ const SectionList = () => {
 
   const name = sections.length > 0 ? getName(sections[0]) : "";
 
-  const handleBackClick = () => {
-    dispatch(clearSelectedCourse());
-  };
-
-  const handleMouseOver = ({ room, unique_id }) => {
-    dispatch(updateHoveredSection(unique_id));
-    let hasLocation = room && room.building_id;
-    if (!hasLocation) dispatch(updateNoCurrentBuilding());
-    else dispatch(updateCurrentBuilding(room.building_id));
+  const handleMouseOver = ({ unique_id, room }) => {
+    dispatch(hoverSectionCard(unique_id, room));
   };
 
   const handleMouseLeave = () => {
-    dispatch(clearHoveredSection());
-    dispatch(clearCurrentBuilding());
+    dispatch(unhoverSectionCard());
   };
 
   const handleClick = (section) => {
-    dispatch(clearSelectedSection());
-    dispatch(clearHoveredSection());
-    dispatch(addSection(section));
+    dispatch(addSectionToSchedule(section));
+
     addToast(`Added ${name}`, {
       appearance: "success",
       autoDismiss: true,
@@ -128,34 +133,45 @@ const SectionList = () => {
     course_descriptions && course_descriptions.length > 0;
 
   const moreInfoClick = (sectionInfo) => {
-    dispatch(updateSelectedSection(sectionInfo));
+    dispatch(showSectionInfo(sectionInfo));
   };
 
   return (
     <ScrollContainer data-testid="section-list">
-      <Header>
-        <Button
-          className="btn btn-danger"
-          onClick={handleBackClick}
-          data-testid="section-list-back-button"
-        >
-          Back
-        </Button>
-        <Text data-testid="section-list-title">{name}</Text>
-        <Line />
-      </Header>
-      <CardList
-        list={results}
-        idKey={"unique_id"}
-        titleFn={sectionFn}
-        textFns={[meetingDaysFn, meetingTimesFn, instructorFn, roomFn, modeFn]}
-        disabledFn={disabledFn}
-        handleClick={handleClick}
-        handleMouseOver={handleMouseOver}
-        handleMouseLeave={handleMouseLeave}
-        showMoreInfoFn={showMoreInfo}
-        moreInfoClick={moreInfoClick}
-      />
+      {loading && <Loading />}
+      {!loading && (
+        <>
+          <Header>
+            <Button
+              className="btn btn-danger"
+              onClick={() => dispatch(unselectCourse())}
+              data-testid="section-list-back-button"
+            >
+              Back
+            </Button>
+            <Text data-testid="section-list-title">{name}</Text>
+            <Line />
+          </Header>
+          <CardList
+            list={results}
+            idKey={"unique_id"}
+            titleFn={sectionFn}
+            textFns={[
+              meetingDaysFn,
+              meetingTimesFn,
+              instructorFn,
+              roomFn,
+              modeFn,
+            ]}
+            disabledFn={disabledFn}
+            handleClick={handleClick}
+            handleMouseOver={handleMouseOver}
+            handleMouseLeave={handleMouseLeave}
+            showMoreInfoFn={showMoreInfo}
+            moreInfoClick={moreInfoClick}
+          />
+        </>
+      )}
     </ScrollContainer>
   );
 };

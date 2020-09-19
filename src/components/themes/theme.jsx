@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import { useSelector } from "react-redux";
-import { getTheme } from "../../store/slices/theme";
+import { getTheme } from "../../store/reducers/theme";
 import { greenTheme } from "./greenTheme";
 import { darkTheme } from "./darkTheme";
 

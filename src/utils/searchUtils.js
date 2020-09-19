@@ -29,7 +29,7 @@ const strMatchesAllParts = (str, parts) => {
   return true;
 };
 
-const filterCourses = (searchStr, courses) => {
+const filterCoursesByStr = (searchStr, courses) => {
   const searchParts = getParts(searchStr.toLowerCase());
 
   const filterdCoursesName = [];
@@ -48,4 +48,16 @@ const filterCourses = (searchStr, courses) => {
   return filterdCourses;
 };
 
-export { filterCourses, getMaximumStrPartLength };
+const filterCoursesBySchoolSubject = (school, subject, courses) => {
+  const filterdCourses = courses.filter(
+    ({ school: sch, subject: sub }) =>
+      (!school || sch === school) && (!subject || sub === subject)
+  );
+  return filterdCourses || [];
+};
+
+export {
+  filterCoursesByStr,
+  filterCoursesBySchoolSubject,
+  getMaximumStrPartLength,
+};

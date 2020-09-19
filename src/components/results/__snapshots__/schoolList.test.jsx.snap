@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchoolList renders school list correctly with data 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-fzoLsD QtjTv"
+    data-testid="school-list"
+  >
+    <h4
+      class="sc-fzpans kzMTGA"
+    >
+      SCHOOLS
+    </h4>
+    <div
+      class="sc-Axmtr iiJRaA"
+    >
+      3 result(s)
+    </div>
+    <div
+      class="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+    >
+      <div
+        class="sc-AxirZ kEmsgL"
+      >
+        <h5
+          class="sc-AxhCb pwsED"
+          data-testid="info-card-title"
+        >
+          Symbol 1
+        </h5>
+        <hr
+          class="sc-AxiKw cwDgDy"
+        />
+        <p
+          class="sc-AxhUy qxWOA"
+        >
+          Name 1
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+    >
+      <div
+        class="sc-AxirZ kEmsgL"
+      >
+        <h5
+          class="sc-AxhCb pwsED"
+          data-testid="info-card-title"
+        >
+          Symbol 2
+        </h5>
+        <hr
+          class="sc-AxiKw cwDgDy"
+        />
+        <p
+          class="sc-AxhUy qxWOA"
+        >
+          Name 2
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm cFVyGa"
+      data-testid="info-card"
+    >
+      <div
+        class="sc-AxirZ kEmsgL"
+      >
+        <h5
+          class="sc-AxhCb pwsED"
+          data-testid="info-card-title"
+        >
+          Symbol 3
+        </h5>
+        <hr
+          class="sc-AxiKw cwDgDy"
+        />
+        <p
+          class="sc-AxhUy qxWOA"
+        >
+          Name 3
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />
+</DocumentFragment>
+`;

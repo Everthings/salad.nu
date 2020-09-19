@@ -1,3 +1,8 @@
+import {
+  filterCoursesByStr,
+  filterCoursesBySchoolSubject,
+} from "../utils/searchUtils";
+
 const courses = [
   {
     course_id: 20458,
@@ -19192,6 +19197,26 @@ const courses = [
   },
 ];
 
-export function getCourses() {
-  return courses.filter((course) => course);
+const filter = (searchStr, school, subject, list) => {
+  let filtered = filterCoursesByStr(searchStr, list);
+  filtered = filterCoursesBySchoolSubject(school, subject, filtered);
+  return filtered;
+};
+
+// cache previous search and results to speed up searches
+let prevStr = "";
+let prevResults = [];
+
+export function getCourses({ searchStr: newStr, school, subject }) {
+  let list;
+  if (newStr.includes(prevStr) && newStr.length - prevStr.length === 1) {
+    // optimization
+    list = prevResults;
+  } else {
+    list = courses;
+  }
+  const results = filter(newStr, school, subject, list);
+  prevStr = newStr;
+  prevResults = results;
+  return results;
 }
