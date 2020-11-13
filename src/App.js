@@ -10,6 +10,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 import AppBody from "./AppBody";
 
 const persistedState = loadState();
+
+const serializedTerm = localStorage.getItem("term"); // VERY temporary fix -> TODO: update to better method (fix tests as well)!!!
+if (serializedTerm === null) { 
+  localStorage.setItem("term", "2021 Winter")
+
+  if (persistedState !== undefined) {
+    const emptySchedule = {"list": []};
+    localStorage.setItem("schedule", emptySchedule);
+    persistedState.schedule = emptySchedule;
+  }
+}
+
 const store = configureStore(persistedState);
 store.subscribe(() => {
   saveState(store.getState());

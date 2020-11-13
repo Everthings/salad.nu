@@ -76,8 +76,8 @@ const AboutPage = () => {
           would be greatly appreciated. Thanks!
         </Text>
         <Text>
-          Several people have asked what the 'Export' button does. Simply put,
-          it just exports your schedule as a csv which you can then import into
+          If you're wondering what the 'Export' button does, it just exports your schedule 
+          as a csv which you can then import into
           google calendar (following these{" "}
           <a
             href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"

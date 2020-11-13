@@ -53,7 +53,7 @@ exports[`AboutPage renders about page correctly 1`] = `
     <p
       className="sc-AxhCb eFYatD"
     >
-      Several people have asked what the 'Export' button does. Simply put, it just exports your schedule as a csv which you can then import into google calendar (following these
+      If you're wondering what the 'Export' button does, it just exports your schedule as a csv which you can then import into google calendar (following these
        
       <a
         href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
