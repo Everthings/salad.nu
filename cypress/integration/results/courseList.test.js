@@ -28,7 +28,10 @@ describe("CourseList", () => {
   });
 
   it("should display one or more info cards if both school and subject selected", () => {
-    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
     cy.get("[data-testid=subject-list]").first().click();
 
     cy.get("[data-testid=info-card]").should("have.length.of.at.least", 1);

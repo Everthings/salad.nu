@@ -49,7 +49,10 @@ describe("SearchBar", () => {
   });
 
   it("should clear subject on reload", () => {
-    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
     cy.get("[data-testid=subject-list]").first().click();
 
     cy.reload();
@@ -64,14 +67,20 @@ describe("SearchBar", () => {
   });
 
   it("should display subject when subject is selected", () => {
-    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
     cy.get("[data-testid=subject-list]").first().click();
 
     cy.get("[data-testid=search-tag]").should("have.length", 2);
   });
 
   it("should display remove both school and subject when school tag is clicked", () => {
-    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
     cy.get("[data-testid=subject-list]").first().click();
 
     cy.get("[data-testid=search-tag]").first().click();
@@ -80,7 +89,10 @@ describe("SearchBar", () => {
   });
 
   it("should remove only subject when subject tag is clicked", () => {
-    cy.get("[data-testid=school-list]").first().click();
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
     cy.get("[data-testid=subject-list]").first().click();
 
     cy.get("[data-testid=search-tag]").last().click();
