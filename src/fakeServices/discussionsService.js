@@ -5624,7 +5624,7 @@ const discussions = {
       title: "Foundations of Optimization",
       subject: "IEMS",
       number: "313-0",
-      meeting_days: "MoWeFr",
+      meeting_days: "Mo",
       start_time: "16:00",
       end_time: "16:50",
       start_date: "2021-01-11",
