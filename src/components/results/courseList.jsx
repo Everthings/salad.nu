@@ -33,6 +33,7 @@ const Text = styled.div`
 `;
 
 const CourseList = () => {
+  // TODO: issue with cards no staying
   const dispatch = useDispatch();
   const courses = useSelector(getCourses);
   const school = useSelector(getSchool);
