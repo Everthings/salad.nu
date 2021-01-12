@@ -77,7 +77,7 @@ const AboutPage = () => {
         </Text>
         <Text>
           If you're wondering what the 'Export' button does, it just exports your schedule 
-          as a csv which you can then import into
+          as a .csv (and hopefully .ics in future a update) which you can then import into
           google calendar (following these{" "}
           <a
             href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
@@ -88,7 +88,7 @@ const AboutPage = () => {
           </a>
           ). I recommend performing this step in Chrome, as a few browsers have
           known bugs with google calendar imports. At this moment, salad.nu only
-          supports google calendar.
+          supports google calendar. Make sure to set your time zone as CST before exporting.
         </Text>
         <Text>Andy '23</Text>
         <Button className="btn mb-3">

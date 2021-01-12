@@ -53,7 +53,7 @@ exports[`AboutPage renders about page correctly 1`] = `
     <p
       className="sc-AxhCb eFYatD"
     >
-      If you're wondering what the 'Export' button does, it just exports your schedule as a csv which you can then import into google calendar (following these
+      If you're wondering what the 'Export' button does, it just exports your schedule as a .csv (and hopefully .ics in future a update) which you can then import into google calendar (following these
        
       <a
         href="https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop&hl=en"
@@ -62,7 +62,7 @@ exports[`AboutPage renders about page correctly 1`] = `
       >
         instructions
       </a>
-      ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar.
+      ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar. Make sure to set your time zone as CST before exporting.
     </p>
     <p
       className="sc-AxhCb eFYatD"
