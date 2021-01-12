@@ -62,7 +62,7 @@ exports[`AboutPage renders about page correctly 1`] = `
       >
         instructions
       </a>
-      ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar. Make sure to set your time zone as CST before exporting.
+      ). I recommend performing this step in Chrome, as a few browsers have known bugs with google calendar imports. At this moment, salad.nu only supports google calendar. Make sure to set your time zone as CST in google calendar before importing.
     </p>
     <p
       className="sc-AxhCb eFYatD"
