@@ -9,6 +9,12 @@ describe("SubjectList", () => {
     cy.get("[data-testid=subject-list]").should("exist");
   });
 
+  it("should not display back button", () => {
+    cy.get("[data-testid=school-list]").first().click();
+
+    cy.get("[data-testid=back-button]").should("exist");
+  });
+
   it("should display subject list when search string is cleared", () => {
     cy.get("[data-testid=school-list]").first().click();
 

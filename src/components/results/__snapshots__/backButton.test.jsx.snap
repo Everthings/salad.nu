@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton renders back button correctly 1`] = `
+<button
+  className="sc-AxjAm cfNtnx btn btn-danger"
+  data-testid="back-button"
+>
+  Back
+</button>
+`;

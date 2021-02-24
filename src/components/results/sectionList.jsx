@@ -25,6 +25,7 @@ import { parseTime2Standard } from "./../../utils/parseUtils";
 import { getName } from "./../../utils/courseUtils";
 import { hasValidDateTime } from "./../../utils/validationUtils";
 import CardList from "./cardList";
+import BackButton from "./backButton";
 import Loading from "./loading";
 
 const Header = styled.div`
@@ -43,13 +44,7 @@ const Line = styled.hr`
     `4px dashed ${theme.colors.sectionsListDivider}`};
 `;
 
-const Button = styled.button`
-  margin-left: 0.25rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
-`;
-
-const Text = styled.h4`
+const HeaderText = styled.h4`
   text-align: center;
   color: ${({ theme }) => `${theme.colors.sectionsListText}`};
 `;
@@ -142,14 +137,8 @@ const SectionList = () => {
       {!loading && (
         <>
           <Header>
-            <Button
-              className="btn btn-danger"
-              onClick={() => dispatch(unselectCourse())}
-              data-testid="section-list-back-button"
-            >
-              Back
-            </Button>
-            <Text data-testid="section-list-title">{name}</Text>
+            <BackButton handleClick={() => dispatch(unselectCourse())} />
+            <HeaderText data-testid="section-list-title">{name}</HeaderText>
             <Line />
           </Header>
           <CardList

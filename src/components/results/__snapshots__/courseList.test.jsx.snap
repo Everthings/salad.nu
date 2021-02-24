@@ -3,14 +3,18 @@
 exports[`CourseList renders course list correctly with data 1`] = `
 <DocumentFragment>
   <div
-    class="sc-fzoLsD QtjTv"
+    class="sc-fzpans jNlVRL"
     data-testid="course-list"
   >
-    <h4
-      class="sc-fzpans kzMTGA"
+    <div
+      class="sc-fzplWN dBkoGj"
     >
-      COURSES
-    </h4>
+      <h4
+        class="sc-fznyAO hEIQgf"
+      >
+        COURSES
+      </h4>
+    </div>
     <div
       class="sc-Axmtr iiJRaA"
     >

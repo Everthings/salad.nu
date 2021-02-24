@@ -3,14 +3,24 @@
 exports[`SubjectList renders subject list correctly with data 1`] = `
 <DocumentFragment>
   <div
-    class="sc-fzoLsD QtjTv"
+    class="sc-fzpans jNlVRL"
     data-testid="subject-list"
   >
-    <h4
-      class="sc-fzpans kzMTGA"
+    <div
+      class="sc-fzplWN dBkoGj"
     >
-      SUBJECTS
-    </h4>
+      <button
+        class="sc-AxmLO dHXkxx btn btn-danger"
+        data-testid="back-button"
+      >
+        Back
+      </button>
+      <h4
+        class="sc-fznyAO hEIQgf"
+      >
+        SUBJECTS
+      </h4>
+    </div>
     <div
       class="sc-Axmtr iiJRaA"
     >

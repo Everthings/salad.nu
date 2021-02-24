@@ -3,15 +3,15 @@
 exports[`SectionList renders section list correctly with data 1`] = `
 <DocumentFragment>
   <div
-    class="sc-fzpans jNlVRL"
+    class="sc-fzplWN ecEBtm"
     data-testid="section-list"
   >
     <div
-      class="sc-fzoLsD exbVzu"
+      class="sc-fzpans jHUsEi"
     >
       <button
-        class="sc-fznyAO cikyLn btn btn-danger"
-        data-testid="section-list-back-button"
+        class="sc-AxmLO dHXkxx btn btn-danger"
+        data-testid="back-button"
       >
         Back
       </button>
@@ -20,7 +20,7 @@ exports[`SectionList renders section list correctly with data 1`] = `
         data-testid="section-list-title"
       />
       <hr
-        class="sc-fzplWN ippUFq"
+        class="sc-fznyAO iIkoaa"
       />
     </div>
     <div

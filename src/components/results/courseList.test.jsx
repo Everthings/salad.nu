@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import * as coursesService from "./../../fakeServices/coursesService";
 import Theme from "./../themes/theme";
 import CourseList from "./courseList";
+import BackButton from "./backButton";
 
 jest.mock("./../../fakeServices/coursesService");
 coursesService.getCourses.mockImplementation(({ searchStr }) => {
@@ -36,6 +37,8 @@ coursesService.getCourses.mockImplementation(({ searchStr }) => {
       },
     ];
   }
+
+  return [];
 });
 
 ReactDOM.createPortal = (node) => node;
@@ -45,9 +48,6 @@ describe("CourseList", () => {
     const state = {
       search: {
         searchStr: "search",
-      },
-      interactions: {
-        selectedCourse: { id: 1 },
       },
     };
     const store = configureStore(state);
@@ -70,9 +70,6 @@ describe("CourseList", () => {
     const state = {
       search: {
         searchStr: "empty list",
-      },
-      interactions: {
-        selectedCourse: { id: -1 },
       },
     };
     const store = configureStore(state);
@@ -111,5 +108,68 @@ describe("CourseList", () => {
     );
 
     expect(continueTypingText).not.toBeNull();
+  });
+
+  it("shows back button if subject is picked and search is empty", async () => {
+    const state = {
+      search: { searchStr: "", subject: "some subject", school: "some school" },
+    };
+
+    const store = configureStore(state);
+    const { queryByTestId } = render(
+      <ToastProvider>
+        <Provider store={store}>
+          <Theme>
+            <CourseList />
+          </Theme>
+        </Provider>
+      </ToastProvider>
+    );
+
+    const backButton = await waitForElement(() => queryByTestId("back-button"));
+    expect(backButton).toBeTruthy();
+  });
+
+  it("does not show back button if subject is picked and search is not empty", async () => {
+    const state = {
+      search: {
+        searchStr: "search",
+        subject: "some subject",
+      },
+    };
+
+    const store = configureStore(state);
+    const { queryByTestId } = render(
+      <ToastProvider>
+        <Provider store={store}>
+          <Theme>
+            <CourseList />
+          </Theme>
+        </Provider>
+      </ToastProvider>
+    );
+
+    const backButton = queryByTestId("back-button");
+    expect(backButton).toBeFalsy();
+  });
+
+  it("does not show back button if subject is not picked", async () => {
+    const state = {
+      search: { searchStr: "", subject: "" },
+    };
+
+    const store = configureStore(state);
+    const { queryByTestId } = render(
+      <ToastProvider>
+        <Provider store={store}>
+          <Theme>
+            <CourseList />
+          </Theme>
+        </Provider>
+      </ToastProvider>
+    );
+
+    const backButton = queryByTestId("back-button");
+    expect(backButton).toBeFalsy();
   });
 });

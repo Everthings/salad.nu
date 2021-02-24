@@ -1023,7 +1023,7 @@ const courses = [
   },
   {
     course_id: "023414",
-    unique_id: "33632",
+    unique_id: "40065",
     school: "MEAS",
     title: "Applications of Regenerative Engineering",
     subject: "BMD_ENG",
@@ -3090,7 +3090,7 @@ const courses = [
   },
   {
     course_id: "003814",
-    unique_id: "33975",
+    unique_id: "33974",
     school: "MUSIC",
     title: "Choral Organizations",
     subject: "CONDUCT",
@@ -3424,6 +3424,14 @@ const courses = [
     title: "Psycho-dynamic Counseling-Individuals and Systems",
     subject: "COUN",
     number: "411-6",
+  },
+  {
+    course_id: "000717",
+    unique_id: "35323",
+    school: "TGS",
+    title: "Theories & Techniques of Group  dynamics",
+    subject: "COUN",
+    number: "412-0",
   },
   {
     course_id: "021784",
@@ -6493,6 +6501,14 @@ const courses = [
     number: "203-0",
   },
   {
+    course_id: "007092",
+    unique_id: "40057",
+    school: "WCAS",
+    title: "Reading Cultures in French",
+    subject: "FRENCH",
+    number: "211-0",
+  },
+  {
     course_id: "017440",
     unique_id: "39470",
     school: "WCAS",
@@ -7261,28 +7277,12 @@ const courses = [
     number: "411-DL",
   },
   {
-    course_id: "000702",
-    unique_id: "34767",
-    school: "SESP",
-    title: "The Counseling Process:  Theory & Practice",
-    subject: "HDC",
-    number: "301-0",
-  },
-  {
     course_id: "020041",
     unique_id: "34770",
     school: "SESP",
     title: "Identity and Motivation",
     subject: "HDC",
     number: "305-0",
-  },
-  {
-    course_id: "023576",
-    unique_id: "34771",
-    school: "SESP",
-    title: "Emotional Mysteries",
-    subject: "HDC",
-    number: "307-0",
   },
   {
     course_id: "023579",
@@ -9447,6 +9447,14 @@ const courses = [
     title: "Readings in Latin Literature",
     subject: "LATIN",
     number: "310-0",
+  },
+  {
+    course_id: "018850",
+    unique_id: "40075",
+    school: "WCAS",
+    title: "Medieval Latin",
+    subject: "LATIN",
+    number: "400-0",
   },
   {
     course_id: "018748",
@@ -13376,7 +13384,7 @@ const courses = [
   },
   {
     course_id: "020586",
-    unique_id: "35542",
+    unique_id: "40073",
     school: "TGS",
     title: "Special Topics in Plant Biology and Conservation",
     subject: "PBC",
@@ -13488,7 +13496,7 @@ const courses = [
   },
   {
     course_id: "002627",
-    unique_id: "39292",
+    unique_id: "40078",
     school: "WCAS",
     title: "Advanced Logic",
     subject: "PHIL",
@@ -15283,6 +15291,14 @@ const courses = [
     number: "260-0",
   },
   {
+    course_id: "004343",
+    unique_id: "40068",
+    school: "SPCH",
+    title: "Studies in Media Topics",
+    subject: "RTVF",
+    number: "298-0",
+  },
+  {
     course_id: "004349",
     unique_id: "35025",
     school: "SPCH",
@@ -15425,6 +15441,14 @@ const courses = [
     title: "Directing",
     subject: "RTVF",
     number: "390-0",
+  },
+  {
+    course_id: "004383",
+    unique_id: "40061",
+    school: "SPCH",
+    title: "2D Computer Animation",
+    subject: "RTVF",
+    number: "393-0",
   },
   {
     course_id: "004385",
@@ -15589,7 +15613,7 @@ const courses = [
   },
   {
     course_id: "000655",
-    unique_id: "34835",
+    unique_id: "34834",
     school: "SESP",
     title: "Field Research Methods",
     subject: "SESP",
@@ -16991,7 +17015,7 @@ const courses = [
   },
   {
     course_id: "022934",
-    unique_id: "38803",
+    unique_id: "40058",
     school: "SPCH",
     title: "Special Topics in Advanced Theatre Studies",
     subject: "THEATRE",
@@ -17087,7 +17111,7 @@ const courses = [
   },
   {
     course_id: "004614",
-    unique_id: "38970",
+    unique_id: "40070",
     school: "SPCH",
     title: "Acting II: Analysis and Performance",
     subject: "THEATRE",
@@ -17095,7 +17119,7 @@ const courses = [
   },
   {
     course_id: "004608",
-    unique_id: "39141",
+    unique_id: "40072",
     school: "SPCH",
     title: "Advanced Acting Topics",
     subject: "THEATRE",
@@ -17775,7 +17799,7 @@ const courses = [
   },
   {
     course_id: "004020",
-    unique_id: "34273",
+    unique_id: "34271",
     school: "MUSIC",
     title: "Reed Making",
     subject: "WIND_PER",

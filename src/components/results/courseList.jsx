@@ -7,12 +7,14 @@ import {
   getSchool,
   getSubject,
 } from "./../../store/reducers/search";
+import { clearSubject } from "./../../store/actions/searchActions";
 import { selectCourse } from "./../../store/actions/interactionActions";
 import { loadCourses } from "../../store/actions/courseActions";
 import { getMaximumStrPartLength } from "./../../utils/searchUtils";
 import { MIN_SEARCH_LENGTH } from "./../../configs";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
+import BackButton from "./backButton";
 import Loading from "./loading";
 
 const ScrollContainer = styled.div`
@@ -21,10 +23,14 @@ const ScrollContainer = styled.div`
   width: 100%;
 `;
 
-const Heading = styled.h4`
+const Header = styled.div`
+  margin-top: 1vh;
+  opacity: 0.75;
+`;
+
+const HeaderText = styled.h4`
   text-align: center;
   color: ${({ theme }) => `${theme.colors.sectionsListText}`};
-  margin-top: 0.5rem;
 `;
 
 const Text = styled.div`
@@ -72,7 +78,12 @@ const CourseList = () => {
       const nameFn = ({ title }) => title;
       return (
         <>
-          <Heading>COURSES</Heading>
+          <Header>
+            {subject && !search && (
+              <BackButton handleClick={() => dispatch(clearSubject())} />
+            )}
+            <HeaderText>COURSES</HeaderText>
+          </Header>
           <CardList
             list={courses}
             idKey={"unique_id"}

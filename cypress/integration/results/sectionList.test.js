@@ -31,14 +31,14 @@ describe("SectionList", () => {
 
     cy.get("[data-testid=info-card]").first().click();
 
-    cy.get("[data-testid=section-list-back-button]").should("exist");
+    cy.get("[data-testid=back-button]").should("exist");
   });
 
   it("should return to course list after back button is pressed", () => {
     cy.get("[data-testid=search-bar]").type("COMP SCI");
 
     cy.get("[data-testid=info-card]").first().click();
-    cy.get("[data-testid=section-list-back-button]").click();
+    cy.get("[data-testid=back-button]").click();
 
     cy.get("[data-testid=course-list]").should("exist");
   });

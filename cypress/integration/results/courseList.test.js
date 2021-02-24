@@ -21,6 +21,22 @@ describe("CourseList", () => {
       .should("exist");
   });
 
+  it("should not display back button if subject is selected", () => {
+    cy.get("[data-testid=school-list]")
+      .get("[data-testid=info-card]")
+      .eq(1)
+      .click();
+    cy.get("[data-testid=subject-list]").first().click();
+
+    cy.get("[data-testid=back-button]").should("exist");
+  });
+
+  it("should not display back button if search is typed", () => {
+    cy.get("[data-testid=search-bar]").type("COMP SCI");
+
+    cy.get("[data-testid=back-button]").should("not.exist");
+  });
+
   it("should display one or more info cards if search string matches", () => {
     cy.get("[data-testid=search-bar]").type("COMP SCI");
 

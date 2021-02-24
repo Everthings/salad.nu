@@ -6,10 +6,14 @@ import {
   getSubjects,
   isLoadingSubjects,
 } from "./../../store/reducers/subjects";
-import { updateSubject } from "./../../store/actions/searchActions";
+import {
+  clearSchool,
+  updateSubject,
+} from "./../../store/actions/searchActions";
 import { loadSubjects } from "../../store/actions/subjectActions";
 import ScrollManager from "./../common/scrollManager";
 import CardList from "./cardList";
+import BackButton from "./backButton";
 import Loading from "./loading";
 
 const ScrollContainer = styled.div`
@@ -18,10 +22,14 @@ const ScrollContainer = styled.div`
   width: 100%;
 `;
 
-const Heading = styled.h4`
+const Header = styled.div`
+  margin-top: 1vh;
+  opacity: 0.75;
+`;
+
+const HeaderText = styled.h4`
   text-align: center;
   color: ${({ theme }) => `${theme.colors.sectionsListText}`};
-  margin-top: 0.5rem;
 `;
 
 const SubjectList = () => {
@@ -48,7 +56,11 @@ const SubjectList = () => {
           {loading && <Loading />}
           {!loading && (
             <>
-              <Heading>SUBJECTS</Heading>
+              <Header>
+                <BackButton handleClick={() => dispatch(clearSchool())} />
+                <HeaderText>SUBJECTS</HeaderText>
+              </Header>
+
               <CardList
                 list={subjects}
                 idKey={"symbol"}
