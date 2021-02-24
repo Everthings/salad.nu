@@ -1,6 +1,6 @@
 const MIN_SEARCH_LENGTH = 3;
 const DEFAULT_MAP_ZOOM = 14.2;
-const CURRENT_TERM_ID = 4810;
+const CURRENT_TERM_ID = 4820;
 
 const DEFAULT_DAYS = ["Mo", "Tu", "We", "Th", "Fr"]; // order matters
 const ADDITIONAL_DAYS = ["Sa", "Su"]; // order matters

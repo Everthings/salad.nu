@@ -8,7 +8,7 @@ describe("Modal", () => {
   });
 
   it("should display modal when section info card is clicked", () => {
-    cy.get("[data-testid=search-bar]").type("COMP SCI");
+    cy.get("[data-testid=search-bar]").type("PHIL");
     cy.get("[data-testid=info-card]").first().click();
     cy.get("[data-testid=info-card-more-info-button]").first().click();
 
@@ -48,7 +48,7 @@ describe("Modal", () => {
   });
 
   it("should not display modal when exit is clicked", () => {
-    cy.get("[data-testid=search-bar]").type("COMP SCI");
+    cy.get("[data-testid=search-bar]").type("PHIL");
     cy.get("[data-testid=info-card]").first().click();
     cy.get("[data-testid=info-card-more-info-button]").first().click();
     cy.get("[data-testid=modal-exit-button]").first().click();
@@ -57,7 +57,7 @@ describe("Modal", () => {
   });
 
   it("should display title of section as heading", () => {
-    cy.get("[data-testid=search-bar]").type("COMP SCI");
+    cy.get("[data-testid=search-bar]").type("PHIL");
 
     cy.get("[data-testid=info-card-title]")
       .first()

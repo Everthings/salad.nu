@@ -1,5 +1,16 @@
 const terms = [
-  { id: 4810, name: "2021 Winter" },
+  {
+    id: 4820,
+    name: "2021 Spring",
+    start_date: "2021-03-30",
+    end_date: "2021-06-05",
+  },
+  {
+    id: 4810,
+    name: "2021 Winter",
+    start_date: "2021-01-11",
+    end_date: "2021-03-20",
+  },
   {
     id: 4800,
     name: "2020 Fall",

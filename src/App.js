@@ -12,8 +12,8 @@ import AppBody from "./AppBody";
 const persistedState = loadState();
 
 const serializedTerm = localStorage.getItem("term"); // VERY temporary fix -> TODO: update to better method (fix tests as well)!!!
-if (serializedTerm === null) {
-  localStorage.setItem("term", "2021 Winter");
+if (serializedTerm !== "2021 Spring") {
+  localStorage.setItem("term", "2021 Spring");
 
   if (persistedState !== undefined) {
     const emptySchedule = { list: [] };
