@@ -7,6 +7,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 import React from "react";
+import requestAnimationFrame from "raf";
 
 export const memoryStore = {
   _data: new Map(),
@@ -42,7 +43,9 @@ export default class ScrollPositionManager extends React.Component {
   restoreScrollPosition(pos) {
     pos = pos || this.props.scrollStore.get(this.props.scrollKey);
     if (this._target && pos) {
-      scroll(this._target, pos.x, pos.y);
+      requestAnimationFrame(() => {
+        scroll(this._target, pos.x, pos.y);
+      });
     }
   }
 
@@ -58,9 +61,9 @@ export default class ScrollPositionManager extends React.Component {
     this.restoreScrollPosition();
   }
 
-  getSnapshotBeforeUpdate(prevProps, prevState) {
-    if (prevProps.scrollKey !== this.props.scrollKey) {
-      this.saveScrollPosition(prevProps.scrollKey);
+  getSnapshotBeforeUpdate(nextProps) {
+    if (this.props.scrollKey !== nextProps.scrollKey) {
+      this.saveScrollPosition();
     }
     return null;
   }
