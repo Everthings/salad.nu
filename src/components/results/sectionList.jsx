@@ -105,9 +105,7 @@ const SectionList = () => {
     )}`;
   };
   const roomFn = ({ room }) =>
-    room && room.building_name && room.building_name !== "Online"
-      ? room.building_name
-      : "";
+    room && room.building_name ? room.building_name : "";
   const modeFn = ({ mode }) => (mode ? mode : "");
   const disabledFn = ({ unique_id, start_time, end_time, meeting_days }) => {
     const found = scheduledSections.some(
