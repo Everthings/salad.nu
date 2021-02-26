@@ -438,7 +438,7 @@ const courses = [
   },
   {
     course_id: "018566",
-    unique_id: "39879",
+    unique_id: "40113",
     school: "WCAS",
     title: "Special Topics in Modern Art",
     subject: "ART_HIST",
@@ -7061,14 +7061,6 @@ const courses = [
     number: "321-1",
   },
   {
-    course_id: "016349",
-    unique_id: "35842",
-    school: "WCAS",
-    title: "German Cultural Studies",
-    subject: "GERMAN",
-    number: "326-0",
-  },
-  {
     course_id: "002022",
     unique_id: "39862",
     school: "WCAS",
@@ -10108,6 +10100,14 @@ const courses = [
     number: "451-0",
   },
   {
+    course_id: "000623",
+    unique_id: "40112",
+    school: "TGS",
+    title: "Designing and Constructing Models With Multi-Agent Languages",
+    subject: "LRN_SCI",
+    number: "472-0",
+  },
+  {
     course_id: "020121",
     unique_id: "34794",
     school: "SESP",
@@ -11077,7 +11077,7 @@ const courses = [
   },
   {
     course_id: "020940",
-    unique_id: "39708",
+    unique_id: "40109",
     school: "WCAS",
     title: "Advanced Topics in Middle East & North African Studies",
     subject: "MENA",
