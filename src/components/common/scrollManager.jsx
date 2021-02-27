@@ -94,15 +94,16 @@ ScrollPositionManager.defaultProps = {
 function scroll(target, x, y) {
   if (target instanceof window.Window) {
     target.scrollTo(x, y);
+  } else if (target) {
+    target.scrollLeft = x;
+    target.scrollTop = y;
   }
-  target.scrollLeft = x;
-  target.scrollTop = y;
 }
 
 function getScrollPosition(target) {
   if (target instanceof window.Window) {
     return { x: target.scrollX, y: target.scrollY };
+  } else if (target) {
+    return { x: target.scrollLeft, y: target.scrollTop };
   }
-
-  return { x: target.scrollLeft, y: target.scrollTop };
 }

@@ -34,6 +34,23 @@ describe("ScheduleCard", () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it("renders schedule card correctly with multiple instructors", () => {
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <Theme>
+            <ScheduleCard
+              data={{ ...data, instructors: ["Person 1", "1 Person"] }}
+              style={style}
+              color={color}
+            />
+          </Theme>
+        </Provider>
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it("should not show x if not hovered", () => {
     const { queryByTestId } = render(
       <Provider store={store}>

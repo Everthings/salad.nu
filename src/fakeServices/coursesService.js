@@ -2322,7 +2322,7 @@ const courses = [
   },
   {
     course_id: "021685",
-    unique_id: "36269",
+    unique_id: "40130",
     school: "WCAS",
     title: "Literatures of the Ancient World",
     subject: "CLASSICS",
@@ -2338,7 +2338,7 @@ const courses = [
   },
   {
     course_id: "016519",
-    unique_id: "36266",
+    unique_id: "40134",
     school: "WCAS",
     title: "Greek and Latin Literature",
     subject: "CLASSICS",
@@ -2698,7 +2698,7 @@ const courses = [
   },
   {
     course_id: "018658",
-    unique_id: "39347",
+    unique_id: "40128",
     school: "WCAS",
     title: "Reading World Literature",
     subject: "COMP_LIT",
@@ -2722,7 +2722,7 @@ const courses = [
   },
   {
     course_id: "018661",
-    unique_id: "39348",
+    unique_id: "40132",
     school: "WCAS",
     title: "Studies in World Literature",
     subject: "COMP_LIT",
@@ -7922,6 +7922,14 @@ const courses = [
     number: "315-0",
   },
   {
+    course_id: "005145",
+    unique_id: "40120",
+    school: "MEAS",
+    title: "Field Project Methods",
+    subject: "IEMS",
+    number: "340-0",
+  },
+  {
     course_id: "018536",
     unique_id: "33579",
     school: "MEAS",
@@ -8234,6 +8242,22 @@ const courses = [
     title: "Data Science Foundations",
     subject: "IMC",
     number: "460-0",
+  },
+  {
+    course_id: "023194",
+    unique_id: "33334",
+    school: "JOUR",
+    title: "Marketing Models I",
+    subject: "IMC",
+    number: "462-0",
+  },
+  {
+    course_id: "023195",
+    unique_id: "33336",
+    school: "JOUR",
+    title: "Machine Learning I",
+    subject: "IMC",
+    number: "463-0",
   },
   {
     course_id: "000923",
@@ -9844,7 +9868,7 @@ const courses = [
   },
   {
     course_id: "022994",
-    unique_id: "39084",
+    unique_id: "33440",
     school: "MEAS",
     title: "Leadership Coaching",
     subject: "LDRSHP",
@@ -11077,11 +11101,19 @@ const courses = [
   },
   {
     course_id: "020940",
-    unique_id: "40109",
+    unique_id: "39708",
     school: "WCAS",
     title: "Advanced Topics in Middle East & North African Studies",
     subject: "MENA",
     number: "390-3",
+  },
+  {
+    course_id: "020942",
+    unique_id: "40137",
+    school: "WCAS",
+    title: "Advanced Topics in Middle East & North African Studies",
+    subject: "MENA",
+    number: "390-6",
   },
   {
     course_id: "021290",
@@ -13473,7 +13505,7 @@ const courses = [
   },
   {
     course_id: "004171",
-    unique_id: "40018",
+    unique_id: "40135",
     school: "SPCH",
     title: "Topics in Performance Studies",
     subject: "PERF_ST",
@@ -16350,7 +16382,7 @@ const courses = [
   },
   {
     course_id: "003194",
-    unique_id: "36602",
+    unique_id: "40125",
     school: "WCAS",
     title:
       "Topics in Latin American, Latina and Latino, and/or Iberian Cultures",
@@ -17320,7 +17352,7 @@ const courses = [
   },
   {
     course_id: "004139",
-    unique_id: "39882",
+    unique_id: "40139",
     school: "SPCH",
     title: "Voice for Performance",
     subject: "THEATRE",
@@ -17565,6 +17597,14 @@ const courses = [
     title: "Standing Down Straight for Actors",
     subject: "THEATRE",
     number: "362-0",
+  },
+  {
+    course_id: "022906",
+    unique_id: "40121",
+    school: "SPCH",
+    title: "Special Topics in Acting",
+    subject: "THEATRE",
+    number: "370-0",
   },
   {
     course_id: "004671",

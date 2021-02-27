@@ -82,15 +82,22 @@ const ScheduleCard = ({
     handleXClick(data);
   };
 
+  const getLastName = (name) => {
+    const parts = name.split(" ");
+    const lastName = parts.slice(-1)[0];
+    return lastName;
+  };
+
   let name = getName(data);
   if (data && data.component !== "LEC") name = `*${data.component}* ${name}`;
   const nameParts = name.split(" ");
 
-  let instructor_name = "";
-  if (data.instructor && data.instructor.name) {
-    const parts = data.instructor.name.split(" ");
-    const lastName = parts.slice(-1)[0];
-    instructor_name = lastName;
+  let instructor_text = "";
+  if (data.instructors) {
+    const lastNames = data.instructors.map((name) => getLastName(name));
+    instructor_text = lastNames.join(", ");
+  } else if (data.instructor && data.instructor.name) {
+    instructor_text = getLastName(data.instructor.name);
   }
 
   const title = data.title;
@@ -134,9 +141,9 @@ const ScheduleCard = ({
                 <i>{title}</i>
               </Text>
             )}
-            {instructor_name && (
+            {instructor_text && (
               <Text>
-                <u>{instructor_name}</u>
+                <u>{instructor_text}</u>
               </Text>
             )}
           </TextWrapper>

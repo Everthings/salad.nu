@@ -92,7 +92,8 @@ const SectionList = () => {
     if (component !== "LEC") return `${component} - ${section}`;
     return section;
   };
-  const instructorFn = ({ instructor }) => {
+  const instructorFn = ({ instructors, instructor }) => {
+    if (instructors) return instructors.join(", ");
     if (instructor) return instructor.name;
     return "";
   };

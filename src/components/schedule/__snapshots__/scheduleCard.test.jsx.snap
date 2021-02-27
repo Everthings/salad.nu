@@ -70,3 +70,74 @@ exports[`ScheduleCard renders schedule card correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`ScheduleCard renders schedule card correctly with multiple instructors 1`] = `
+<div
+  className="sc-AxjAm dxmZrD"
+  data-testid="schedule-card"
+  onClick={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "borderColor": "#ffffff",
+    }
+  }
+>
+  <div
+    className="sc-AxirZ iIjkJj"
+  >
+    <div
+      className="sc-AxhCb lhmzSd"
+    >
+      <div
+        className="sc-AxhUy CyUDP"
+      >
+        <p
+          className="sc-AxgMl eGljPA"
+          data-testid="schedule-card-title"
+        >
+          <span
+            className="sc-AxheI bhLjYx"
+          >
+            *undefined*
+          </span>
+          <span>
+             
+          </span>
+          <span
+            className="sc-AxheI bhLjYx"
+          >
+            Subject
+          </span>
+          <span>
+             
+          </span>
+          <span
+            className="sc-AxheI bhLjYx"
+          >
+            Number
+          </span>
+          <span>
+             
+          </span>
+        </p>
+        <p
+          className="sc-Axmtr hakgjI"
+        >
+          <i>
+            Title
+          </i>
+        </p>
+        <p
+          className="sc-Axmtr hakgjI"
+        >
+          <u>
+            1, Person
+          </u>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
