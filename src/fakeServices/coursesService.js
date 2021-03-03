@@ -93,14 +93,6 @@ const courses = [
     number: "370-CN",
   },
   {
-    course_id: "008702",
-    unique_id: "35692",
-    school: "WCAS",
-    title: "Topics in African Studies",
-    subject: "AFST",
-    number: "390-0",
-  },
-  {
     course_id: "018228",
     unique_id: "35697",
     school: "WCAS",
@@ -1079,7 +1071,7 @@ const courses = [
   },
   {
     course_id: "023415",
-    unique_id: "33633",
+    unique_id: "40179",
     school: "MEAS",
     title: "Cardiovascular Protective Engineering",
     subject: "BMD_ENG",
@@ -2185,6 +2177,14 @@ const courses = [
     number: "395-0",
   },
   {
+    course_id: "007141",
+    unique_id: "40152",
+    school: "MEAS",
+    title: "Community-based Design 2",
+    subject: "CIV_ENV",
+    number: "398-2",
+  },
+  {
     course_id: "023522",
     unique_id: "39110",
     school: "MEAS",
@@ -2490,7 +2490,7 @@ const courses = [
   },
   {
     course_id: "004134",
-    unique_id: "35193",
+    unique_id: "35192",
     school: "SPCH",
     title: "Public Speaking",
     subject: "COMM_ST",
@@ -2762,7 +2762,7 @@ const courses = [
   },
   {
     course_id: "001637",
-    unique_id: "39341",
+    unique_id: "40174",
     school: "WCAS",
     title: "Studies in Literary Theory",
     subject: "COMP_LIT",
@@ -3042,7 +3042,7 @@ const courses = [
   },
   {
     course_id: "022538",
-    unique_id: "33671",
+    unique_id: "40171",
     school: "MEAS",
     title: "Special Projects in Computer Science",
     subject: "COMP_SCI",
@@ -3427,7 +3427,7 @@ const courses = [
   },
   {
     course_id: "021784",
-    unique_id: "35438",
+    unique_id: "40175",
     school: "TGS",
     title: "Human Development (Child)",
     subject: "COUN",
@@ -3443,7 +3443,7 @@ const courses = [
   },
   {
     course_id: "021665",
-    unique_id: "35402",
+    unique_id: "40176",
     school: "TGS",
     title: "Human Growth and Development",
     subject: "COUN",
@@ -5580,6 +5580,14 @@ const courses = [
     number: "327-0",
   },
   {
+    course_id: "005048",
+    unique_id: "40147",
+    school: "MEAS",
+    title: "Digital Filtering",
+    subject: "ELEC_ENG",
+    number: "363-0",
+  },
+  {
     course_id: "005061",
     unique_id: "33686",
     school: "MEAS",
@@ -5602,14 +5610,6 @@ const courses = [
     title: "Special Topics in Electrical Engineering",
     subject: "ELEC_ENG",
     number: "395-0",
-  },
-  {
-    course_id: "005074",
-    unique_id: "33690",
-    school: "MEAS",
-    title: "Electrical Engineering Design",
-    subject: "ELEC_ENG",
-    number: "398-0",
   },
   {
     course_id: "005078",
@@ -6323,6 +6323,14 @@ const courses = [
       "Managing Firms for Shareholders and Society: Thought Leadership Seminar",
     subject: "FINC",
     number: "484-5",
+  },
+  {
+    course_id: "022734",
+    unique_id: "40144",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "FINC",
+    number: "498-0",
   },
   {
     course_id: "000337",
@@ -7061,6 +7069,14 @@ const courses = [
     number: "321-1",
   },
   {
+    course_id: "011331",
+    unique_id: "38968",
+    school: "WCAS",
+    title: "Proseminar",
+    subject: "GERMAN",
+    number: "407-0",
+  },
+  {
     course_id: "002022",
     unique_id: "39862",
     school: "WCAS",
@@ -7134,7 +7150,7 @@ const courses = [
   },
   {
     course_id: "020328",
-    unique_id: "39653",
+    unique_id: "40149",
     school: "WCAS",
     title: "Research Seminar in Gender & Sexuality Studies",
     subject: "GNDR_ST",
@@ -8040,6 +8056,14 @@ const courses = [
     title: "Virology",
     subject: "IGP",
     number: "475-0",
+  },
+  {
+    course_id: "016642",
+    unique_id: "40157",
+    school: "TGS",
+    title: "Introduction to Life Science Research",
+    subject: "IGP",
+    number: "496-2",
   },
   {
     course_id: "018268",
@@ -9322,6 +9346,14 @@ const courses = [
     number: "470-0",
   },
   {
+    course_id: "022815",
+    unique_id: "40141",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "KIEI",
+    number: "498-0",
+  },
+  {
     course_id: "018013",
     unique_id: "37711",
     school: "KGSM",
@@ -9464,6 +9496,14 @@ const courses = [
     title: "Advanced Board Governance",
     subject: "KPPI",
     number: "471-5",
+  },
+  {
+    course_id: "022870",
+    unique_id: "40142",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "KPPI",
+    number: "498-0",
   },
   {
     course_id: "019030",
@@ -9852,7 +9892,7 @@ const courses = [
   },
   {
     course_id: "004141",
-    unique_id: "39082",
+    unique_id: "33438",
     school: "MEAS",
     title: "Paradigms and Strategies of Leadership",
     subject: "LDRSHP",
@@ -12125,14 +12165,6 @@ const courses = [
     number: "411-DL",
   },
   {
-    course_id: "023715",
-    unique_id: "38668",
-    school: "UC",
-    title: "Artificial Intelligence and Practical Machine Learning",
-    subject: "MSHA",
-    number: "422-DL",
-  },
-  {
     course_id: "023773",
     unique_id: "38670",
     school: "UC",
@@ -12622,6 +12654,14 @@ const courses = [
     title: "Independent Study",
     subject: "MS_LOC",
     number: "499-1",
+  },
+  {
+    course_id: "022443",
+    unique_id: "40143",
+    school: "SPCH",
+    title: "Responsible Conduct of Research",
+    subject: "MTS",
+    number: "519-0",
   },
   {
     course_id: "015942",
@@ -13481,7 +13521,7 @@ const courses = [
   },
   {
     course_id: "020586",
-    unique_id: "40073",
+    unique_id: "40154",
     school: "TGS",
     title: "Special Topics in Plant Biology and Conservation",
     subject: "PBC",
@@ -14543,14 +14583,6 @@ const courses = [
     title: "Health and Human Rights",
     subject: "PPTYTORT",
     number: "693",
-  },
-  {
-    course_id: "022855",
-    unique_id: "32106",
-    school: "MEAS",
-    title: "McCormick First-Year Experience",
-    subject: "PRDV",
-    number: "101-2",
   },
   {
     course_id: "021526",
@@ -15901,6 +15933,14 @@ const courses = [
     number: "401-0",
   },
   {
+    course_id: "019979",
+    unique_id: "40163",
+    school: "SESP",
+    title: "Internship",
+    subject: "SESP",
+    number: "115-0",
+  },
+  {
     course_id: "015430",
     unique_id: "34836",
     school: "SESP",
@@ -16992,7 +17032,7 @@ const courses = [
   },
   {
     course_id: "022741",
-    unique_id: "39081",
+    unique_id: "40164",
     school: "KGSM",
     title: "Field Study",
     subject: "STRT",
@@ -17535,14 +17575,6 @@ const courses = [
     number: "345-0",
   },
   {
-    course_id: "022937",
-    unique_id: "38804",
-    school: "SPCH",
-    title: "Latinx Theatre",
-    subject: "THEATRE",
-    number: "347-0",
-  },
-  {
     course_id: "022935",
     unique_id: "39324",
     school: "SPCH",
@@ -17632,7 +17664,7 @@ const courses = [
   },
   {
     course_id: "022137",
-    unique_id: "39450",
+    unique_id: "40145",
     school: "SPCH",
     title: "Topics in Acting for the Screen",
     subject: "THEATRE",
@@ -17712,7 +17744,7 @@ const courses = [
   },
   {
     course_id: "004702",
-    unique_id: "39921",
+    unique_id: "40182",
     school: "SPCH",
     title: "Topics in Stage Design",
     subject: "THEATRE",
@@ -17765,14 +17797,6 @@ const courses = [
     title: "Movement 3: Integration/Practice",
     subject: "THEATRE",
     number: "471-3",
-  },
-  {
-    course_id: "023778",
-    unique_id: "38814",
-    school: "SPCH",
-    title: "Unarmed Stage Combat",
-    subject: "THEATRE",
-    number: "471-5",
   },
   {
     course_id: "023506",
