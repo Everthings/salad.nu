@@ -118,7 +118,7 @@ const courses = [
   },
   {
     course_id: "001218",
-    unique_id: "39727",
+    unique_id: "39726",
     school: "WCAS",
     title: "Topics in African-American Studies",
     subject: "AF_AM_ST",
@@ -245,14 +245,6 @@ const courses = [
     number: "327-0",
   },
   {
-    course_id: "001123",
-    unique_id: "38937",
-    school: "WCAS",
-    title: "Anthropology of Race",
-    subject: "ANTHRO",
-    number: "343-0",
-  },
-  {
     course_id: "015104",
     unique_id: "38940",
     school: "WCAS",
@@ -291,6 +283,14 @@ const courses = [
     title: "Bridging Seminar",
     subject: "ANTHRO",
     number: "496-0",
+  },
+  {
+    course_id: "019442",
+    unique_id: "40567",
+    school: "WCAS",
+    title: "Responsible Conduct of Research Training",
+    subject: "ANTHRO",
+    number: "519-0",
   },
   {
     course_id: "002326",
@@ -630,7 +630,7 @@ const courses = [
   },
   {
     course_id: "001348",
-    unique_id: "37193",
+    unique_id: "40532",
     school: "WCAS",
     title: "Honors Independent Study",
     subject: "ASTRON",
@@ -741,20 +741,20 @@ const courses = [
     number: "201-0",
   },
   {
+    course_id: "023904",
+    unique_id: "40553",
+    school: "WCAS",
+    title: "Peer-Guided SG: Molecular Biology",
+    subject: "BIOL_SCI",
+    number: "201-SG",
+  },
+  {
     course_id: "020566",
     unique_id: "40218",
     school: "WCAS",
     title: "Undergraduate Teaching Assistant",
     subject: "BIOL_SCI",
     number: "213-0",
-  },
-  {
-    course_id: "022198",
-    unique_id: "40340",
-    school: "WCAS",
-    title: "Peer-Guided Study Group: Genetics & Molecular Biology",
-    subject: "BIOL_SCI",
-    number: "215-SG",
   },
   {
     course_id: "021859",
@@ -1063,7 +1063,7 @@ const courses = [
   },
   {
     course_id: "005419",
-    unique_id: "39750",
+    unique_id: "39749",
     school: "MEAS",
     title: "Topics in Biomedical Engineering",
     subject: "BMD_ENG",
@@ -1103,7 +1103,7 @@ const courses = [
   },
   {
     course_id: "005429",
-    unique_id: "40379",
+    unique_id: "40377",
     school: "MEAS",
     title: "Special Advanced Topics in Biomedical Engineering",
     subject: "BMD_ENG",
@@ -1632,7 +1632,7 @@ const courses = [
   },
   {
     course_id: "022592",
-    unique_id: "40349",
+    unique_id: "40546",
     school: "WCAS",
     title: "Peer-Guided Study Group: General Chemistry 2",
     subject: "CHEM",
@@ -2049,6 +2049,14 @@ const courses = [
     number: "380-CN",
   },
   {
+    course_id: "017294",
+    unique_id: "40575",
+    school: "UC",
+    title: "Independent Study - Projects",
+    subject: "CIS",
+    number: "399-CN",
+  },
+  {
     course_id: "017771",
     unique_id: "38679",
     school: "UC",
@@ -2087,14 +2095,6 @@ const courses = [
     title: "Information Technology Strategy",
     subject: "CIS",
     number: "465-DL",
-  },
-  {
-    course_id: "019177",
-    unique_id: "38682",
-    school: "UC",
-    title: "Information Systems Project",
-    subject: "CIS",
-    number: "498-DL",
   },
   {
     course_id: "021066",
@@ -2146,7 +2146,7 @@ const courses = [
   },
   {
     course_id: "004846",
-    unique_id: "33499",
+    unique_id: "40464",
     school: "MEAS",
     title: "Engineering Law",
     subject: "CIV_ENV",
@@ -2706,7 +2706,7 @@ const courses = [
   },
   {
     course_id: "004259",
-    unique_id: "39113",
+    unique_id: "40500",
     school: "SPCH",
     title: "Topics in Communication Studies",
     subject: "COMM_ST",
@@ -3747,11 +3747,19 @@ const courses = [
   },
   {
     course_id: "022220",
-    unique_id: "40027",
+    unique_id: "39588",
     school: "TGS",
     title: "Advanced Topics in Clinical Mental Health Counseling",
     subject: "COUN",
     number: "485-6",
+  },
+  {
+    course_id: "021485",
+    unique_id: "35373",
+    school: "TGS",
+    title: "Supervised Practicum in Counseling I",
+    subject: "COUN",
+    number: "486-6",
   },
   {
     course_id: "021666",
@@ -3768,6 +3776,14 @@ const courses = [
     title: "Supervised Practicum in Counseling III",
     subject: "COUN",
     number: "488-6",
+  },
+  {
+    course_id: "021868",
+    unique_id: "40424",
+    school: "TGS",
+    title: "Supervised Internship in Counseling I",
+    subject: "COUN",
+    number: "489-6",
   },
   {
     course_id: "022034",
@@ -5180,20 +5196,20 @@ const courses = [
     number: "105-0",
   },
   {
+    course_id: "016864",
+    unique_id: "40585",
+    school: "WCAS",
+    title: "Geological Impacts on Civilization",
+    subject: "EARTH",
+    number: "108-0",
+  },
+  {
     course_id: "001910",
     unique_id: "39600",
     school: "WCAS",
     title: "Earth Systems Revealed",
     subject: "EARTH",
     number: "201-0",
-  },
-  {
-    course_id: "019416",
-    unique_id: "36307",
-    school: "WCAS",
-    title: "Petrology: Evolution of Crustal and Mantle Rocks",
-    subject: "EARTH",
-    number: "301-0",
   },
   {
     course_id: "001931",
@@ -5269,7 +5285,7 @@ const courses = [
   },
   {
     course_id: "020906",
-    unique_id: "40317",
+    unique_id: "40558",
     school: "WCAS",
     title: "Peer-Guided Study Group: Introduction to Microeconomics",
     subject: "ECON",
@@ -5341,7 +5357,7 @@ const courses = [
   },
   {
     course_id: "021884",
-    unique_id: "40332",
+    unique_id: "40559",
     school: "WCAS",
     title: "Peer-Guided Study Group: Microeconomics I",
     subject: "ECON",
@@ -5789,7 +5805,7 @@ const courses = [
   },
   {
     course_id: "005010",
-    unique_id: "39614",
+    unique_id: "33678",
     school: "MEAS",
     title: "Special Topics in Electrical Engineering",
     subject: "ELEC_ENG",
@@ -6029,7 +6045,7 @@ const courses = [
   },
   {
     course_id: "001844",
-    unique_id: "39243",
+    unique_id: "39242",
     school: "WCAS",
     title: "Topics in Combined Studies",
     subject: "ENGLISH",
@@ -6381,7 +6397,7 @@ const courses = [
   },
   {
     course_id: "019737",
-    unique_id: "37691",
+    unique_id: "40465",
     school: "KGSM",
     title: "Real Estate Finance and Investments",
     subject: "FINC",
@@ -6446,19 +6462,11 @@ const courses = [
   },
   {
     course_id: "022734",
-    unique_id: "40144",
+    unique_id: "40505",
     school: "KGSM",
     title: "Field Study",
     subject: "FINC",
     number: "498-0",
-  },
-  {
-    course_id: "000337",
-    unique_id: "38195",
-    school: "KGSM",
-    title: "Time Series Analysis",
-    subject: "FINC",
-    number: "520-1",
   },
   {
     course_id: "000328",
@@ -6502,7 +6510,7 @@ const courses = [
   },
   {
     course_id: "023322",
-    unique_id: "37700",
+    unique_id: "40467",
     school: "KGSM",
     title: "Blockchain Technology, Digital Assets, and the Future of Finance",
     subject: "FINC",
@@ -6598,7 +6606,7 @@ const courses = [
   },
   {
     course_id: "017513",
-    unique_id: "36830",
+    unique_id: "36831",
     school: "WCAS",
     title: "Intensive Intermediate French",
     subject: "FRENCH",
@@ -6886,7 +6894,7 @@ const courses = [
   },
   {
     course_id: "016041",
-    unique_id: "40303",
+    unique_id: "40572",
     school: "MEAS",
     title: "Peer-Guided Study Group: Engineering Analysis III",
     subject: "GEN_ENG",
@@ -6910,7 +6918,7 @@ const courses = [
   },
   {
     course_id: "021367",
-    unique_id: "33455",
+    unique_id: "40418",
     school: "MEAS",
     title: "Responsible Conduct for Research Training",
     subject: "GEN_ENG",
@@ -7398,7 +7406,7 @@ const courses = [
   },
   {
     course_id: "024011",
-    unique_id: "38593",
+    unique_id: "40468",
     school: "KGSM",
     title: "Understanding Healthcare?s Global Marketplace",
     subject: "HCAK",
@@ -7422,7 +7430,7 @@ const courses = [
   },
   {
     course_id: "023682",
-    unique_id: "37745",
+    unique_id: "40469",
     school: "KGSM",
     title: "Value Creation and Capture in Healthcare",
     subject: "HCAK",
@@ -7825,7 +7833,7 @@ const courses = [
   },
   {
     course_id: "002213",
-    unique_id: "36198",
+    unique_id: "40539",
     school: "WCAS",
     title: "Dissertation Topics",
     subject: "HISTORY",
@@ -7913,12 +7921,29 @@ const courses = [
     number: "443-0",
   },
   {
+    course_id: "019956",
+    unique_id: "40536",
+    school: "TGS",
+    title: "Applied Qualitative Methods and Analysis for Health Researchers",
+    subject: "HSR",
+    number: "456-0",
+  },
+  {
     course_id: "018964",
     unique_id: "38617",
     school: "TGS",
     title: "Topics in Health Services Research: Grant Writing",
     subject: "HSR",
     number: "462-0",
+  },
+  {
+    course_id: "020584",
+    unique_id: "40537",
+    school: "TGS",
+    title:
+      "Intermediate Quantitative Methods in Health Services & Outcomes Research",
+    subject: "HSR",
+    number: "465-0",
   },
   {
     course_id: "020136",
@@ -8114,6 +8139,14 @@ const courses = [
     number: "341-0",
   },
   {
+    course_id: "022671",
+    unique_id: "40523",
+    school: "MEAS",
+    title: "Whole-Brain Leadership",
+    subject: "IEMS",
+    number: "344-0",
+  },
+  {
     course_id: "022991",
     unique_id: "33580",
     school: "MEAS",
@@ -8136,14 +8169,6 @@ const courses = [
     title: "Industrial Engineering Client Project Challenge",
     subject: "IEMS",
     number: "394-0",
-  },
-  {
-    course_id: "005146",
-    unique_id: "33552",
-    school: "MEAS",
-    title: "Special Topics in Industrial Engineering",
-    subject: "IEMS",
-    number: "395-0",
   },
   {
     course_id: "012099",
@@ -8200,14 +8225,6 @@ const courses = [
     title: "Immunology",
     subject: "IGP",
     number: "440-0",
-  },
-  {
-    course_id: "017344",
-    unique_id: "35255",
-    school: "TGS",
-    title: "Topics in Developmental Biology",
-    subject: "IGP",
-    number: "456-0",
   },
   {
     course_id: "005649",
@@ -8522,6 +8539,14 @@ const courses = [
     title: "Foreign Study",
     subject: "INTL",
     number: "490-EX3",
+  },
+  {
+    course_id: "021331",
+    unique_id: "40419",
+    school: "KGSM",
+    title: "Foreign Study",
+    subject: "INTL",
+    number: "490-EX5",
   },
   {
     course_id: "018119",
@@ -9192,6 +9217,14 @@ const courses = [
     number: "438-2",
   },
   {
+    course_id: "022774",
+    unique_id: "40503",
+    school: "JOUR",
+    title: "Knight Lab",
+    subject: "JOUR",
+    number: "442-1",
+  },
+  {
     course_id: "024041",
     unique_id: "39994",
     school: "JOUR",
@@ -9418,7 +9451,7 @@ const courses = [
   },
   {
     course_id: "020556",
-    unique_id: "37722",
+    unique_id: "40470",
     school: "KGSM",
     title: "New Venture Development",
     subject: "KIEI",
@@ -9442,7 +9475,7 @@ const courses = [
   },
   {
     course_id: "022815",
-    unique_id: "40293",
+    unique_id: "40588",
     school: "KGSM",
     title: "Field Study",
     subject: "KIEI",
@@ -9506,7 +9539,7 @@ const courses = [
   },
   {
     course_id: "023510",
-    unique_id: "37744",
+    unique_id: "40472",
     school: "KGSM",
     title: "Startup Branding",
     subject: "KIEI",
@@ -9609,8 +9642,16 @@ const courses = [
     number: "498-0",
   },
   {
+    course_id: "023077",
+    unique_id: "40581",
+    school: "KGSM",
+    title: "Independent Study",
+    subject: "KPPI",
+    number: "499-5",
+  },
+  {
     course_id: "019030",
-    unique_id: "37720",
+    unique_id: "40474",
     school: "KGSM",
     title: "Education Consulting Lab",
     subject: "KPPI",
@@ -9650,7 +9691,7 @@ const courses = [
   },
   {
     course_id: "021825",
-    unique_id: "37735",
+    unique_id: "40475",
     school: "KGSM",
     title: "Early Stage Impact Investing",
     subject: "KPPI",
@@ -9658,7 +9699,7 @@ const courses = [
   },
   {
     course_id: "022595",
-    unique_id: "37742",
+    unique_id: "40476",
     school: "KGSM",
     title: "Decision-Making for Sustainable Business",
     subject: "KPPI",
@@ -9674,7 +9715,7 @@ const courses = [
   },
   {
     course_id: "001526",
-    unique_id: "36242",
+    unique_id: "40443",
     school: "WCAS",
     title: "Elementary Latin",
     subject: "LATIN",
@@ -10379,14 +10420,6 @@ const courses = [
     number: "226-0",
   },
   {
-    course_id: "023490",
-    unique_id: "38733",
-    school: "UC",
-    title: "Sequences and Series",
-    subject: "MATH",
-    number: "226-CN",
-  },
-  {
     course_id: "023343",
     unique_id: "38481",
     school: "WCAS",
@@ -10891,14 +10924,6 @@ const courses = [
     number: "485-0",
   },
   {
-    course_id: "018870",
-    unique_id: "39193",
-    school: "MEAS",
-    title: "Advanced Special Topics in Material Science",
-    subject: "MAT_SCI",
-    number: "495-0",
-  },
-  {
     course_id: "022539",
     unique_id: "31765",
     school: "MEAS",
@@ -11140,7 +11165,7 @@ const courses = [
   },
   {
     course_id: "005258",
-    unique_id: "33812",
+    unique_id: "40507",
     school: "MEAS",
     title: "Selected Topics in Mechanical Engg",
     subject: "MECH_ENG",
@@ -11411,14 +11436,6 @@ const courses = [
     number: "407-DL",
   },
   {
-    course_id: "023448",
-    unique_id: "37499",
-    school: "UC",
-    title: "Capstone Project",
-    subject: "MHI",
-    number: "498-DL",
-  },
-  {
     course_id: "022453",
     unique_id: "37528",
     school: "UC",
@@ -11523,6 +11540,22 @@ const courses = [
     number: "482-0",
   },
   {
+    course_id: "022737",
+    unique_id: "40576",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "MKTG",
+    number: "498-0",
+  },
+  {
+    course_id: "017851",
+    unique_id: "40504",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "MKTG",
+    number: "498-5",
+  },
+  {
     course_id: "022677",
     unique_id: "38221",
     school: "KGSM",
@@ -11620,7 +11653,7 @@ const courses = [
   },
   {
     course_id: "000154",
-    unique_id: "38381",
+    unique_id: "40493",
     school: "KGSM",
     title: "Power in Organizations: Sources, Strategies and Skills",
     subject: "MORS",
@@ -11652,7 +11685,7 @@ const courses = [
   },
   {
     course_id: "021667",
-    unique_id: "38509",
+    unique_id: "40497",
     school: "KGSM",
     title: "Negotiations Fundamentals",
     subject: "MORS",
@@ -11827,14 +11860,6 @@ const courses = [
     number: "490-DL",
   },
   {
-    course_id: "018600",
-    unique_id: "37640",
-    school: "UC",
-    title: "The Capstone Project",
-    subject: "MPPA",
-    number: "498-DL",
-  },
-  {
     course_id: "022271",
     unique_id: "38691",
     school: "UC",
@@ -11921,14 +11946,6 @@ const courses = [
     title: "Special Topics",
     subject: "MSA",
     number: "490-0",
-  },
-  {
-    course_id: "022833",
-    unique_id: "37523",
-    school: "UC",
-    title: "Capstone",
-    subject: "MSA",
-    number: "498-DL",
   },
   {
     course_id: "023316",
@@ -12061,7 +12078,7 @@ const courses = [
   },
   {
     course_id: "022780",
-    unique_id: "38654",
+    unique_id: "37539",
     school: "UC",
     title: "Unsupervised Learning Methods",
     subject: "MSDS",
@@ -12204,14 +12221,6 @@ const courses = [
     number: "462-DL",
   },
   {
-    course_id: "022800",
-    unique_id: "38660",
-    school: "UC",
-    title: "Analytics Consulting",
-    subject: "MSDS",
-    number: "472-DL",
-  },
-  {
     course_id: "022801",
     unique_id: "37568",
     school: "UC",
@@ -12244,12 +12253,12 @@ const courses = [
     number: "485-DL",
   },
   {
-    course_id: "022808",
-    unique_id: "37576",
+    course_id: "022809",
+    unique_id: "40557",
     school: "UC",
-    title: "Capstone Class",
+    title: "Thesis Research",
     subject: "MSDS",
-    number: "498-DL",
+    number: "590-DL",
   },
   {
     course_id: "021127",
@@ -12372,6 +12381,14 @@ const courses = [
     number: "432-1",
   },
   {
+    course_id: "020419",
+    unique_id: "40420",
+    school: "MEAS",
+    title: "Industry Practicum",
+    subject: "MSIA",
+    number: "489-3",
+  },
+  {
     course_id: "022404",
     unique_id: "35182",
     school: "SPCH",
@@ -12420,12 +12437,12 @@ const courses = [
     number: "580-0",
   },
   {
-    course_id: "023732",
-    unique_id: "37581",
-    school: "UC",
-    title: "Capstone",
-    subject: "MSRC",
-    number: "498-DL",
+    course_id: "023242",
+    unique_id: "40584",
+    school: "SPCH",
+    title: "Independent Study",
+    subject: "MSLCE",
+    number: "598-0",
   },
   {
     course_id: "008697",
@@ -12554,6 +12571,14 @@ const courses = [
     title: "Topics in High School Math",
     subject: "MS_ED",
     number: "473-0",
+  },
+  {
+    course_id: "015382",
+    unique_id: "40429",
+    school: "SESP",
+    title: "Student Teaching: Elementary",
+    subject: "MS_ED",
+    number: "487-0",
   },
   {
     course_id: "017507",
@@ -12751,14 +12776,6 @@ const courses = [
     number: "481-DL",
   },
   {
-    course_id: "021550",
-    unique_id: "37507",
-    school: "UC",
-    title: "Capstone Project",
-    subject: "MS_IDS",
-    number: "498-DL",
-  },
-  {
     course_id: "015576",
     unique_id: "34780",
     school: "SESP",
@@ -12872,7 +12889,7 @@ const courses = [
   },
   {
     course_id: "003517",
-    unique_id: "34533",
+    unique_id: "40579",
     school: "MUSIC",
     title: "Music Theory III",
     subject: "MUSIC",
@@ -13592,7 +13609,7 @@ const courses = [
   },
   {
     course_id: "021502",
-    unique_id: "37772",
+    unique_id: "40486",
     school: "KGSM",
     title: "Applied Advanced Analytics",
     subject: "OPNS",
@@ -13615,6 +13632,14 @@ const courses = [
     number: "455-0",
   },
   {
+    course_id: "022739",
+    unique_id: "40589",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "OPNS",
+    number: "498-0",
+  },
+  {
     course_id: "018472",
     unique_id: "38198",
     school: "KGSM",
@@ -13632,7 +13657,7 @@ const courses = [
   },
   {
     course_id: "021777",
-    unique_id: "37774",
+    unique_id: "40488",
     school: "KGSM",
     title: "The Rookie General Manager",
     subject: "OPNS",
@@ -13973,6 +13998,14 @@ const courses = [
     title: "General Physics",
     subject: "PHYSICS",
     number: "135-3",
+  },
+  {
+    course_id: "021366",
+    unique_id: "40573",
+    school: "WCAS",
+    title: "Peer-Guided Study Group: General Physics 1",
+    subject: "PHYSICS",
+    number: "135-SG-1",
   },
   {
     course_id: "021424",
@@ -14938,7 +14971,7 @@ const courses = [
   },
   {
     course_id: "022015",
-    unique_id: "38644",
+    unique_id: "37599",
     school: "UC",
     title: "Applied Project Management",
     subject: "PROJ_PMI",
@@ -15111,14 +15144,6 @@ const courses = [
     title: "Consciousness",
     subject: "PSYCH",
     number: "336-0",
-  },
-  {
-    course_id: "022604",
-    unique_id: "38731",
-    school: "UC",
-    title: "Evolutionary Psychology",
-    subject: "PSYCH",
-    number: "342-CN",
   },
   {
     course_id: "022518",
@@ -15484,7 +15509,7 @@ const courses = [
   },
   {
     course_id: "023321",
-    unique_id: "37699",
+    unique_id: "40489",
     school: "KGSM",
     title: "Real Estate Technology",
     subject: "REAL",
@@ -16388,14 +16413,6 @@ const courses = [
     number: "401-2",
   },
   {
-    course_id: "003369",
-    unique_id: "39695",
-    school: "WCAS",
-    title: "Stratification, Race and Gender",
-    subject: "SOCIOL",
-    number: "440-0",
-  },
-  {
     course_id: "003371",
     unique_id: "39696",
     school: "WCAS",
@@ -16631,7 +16648,7 @@ const courses = [
   },
   {
     course_id: "022585",
-    unique_id: "40367",
+    unique_id: "40574",
     school: "WCAS",
     title: "Peer-Guided Study Group: Introduction to Statistics",
     subject: "STAT",
@@ -17192,7 +17209,7 @@ const courses = [
   },
   {
     course_id: "016137",
-    unique_id: "37818",
+    unique_id: "40491",
     school: "KGSM",
     title: "Strategic Challenges in Emerging Markets",
     subject: "STRT",
@@ -17216,7 +17233,7 @@ const courses = [
   },
   {
     course_id: "023082",
-    unique_id: "40407",
+    unique_id: "40590",
     school: "KGSM",
     title: "Independent Study",
     subject: "STRT",
@@ -17248,7 +17265,7 @@ const courses = [
   },
   {
     course_id: "020400",
-    unique_id: "38743",
+    unique_id: "40492",
     school: "KGSM",
     title: "Strategic Decisions: A Guide to Making Winning Choices",
     subject: "STRT",
@@ -17928,7 +17945,7 @@ const courses = [
   },
   {
     course_id: "004689",
-    unique_id: "34946",
+    unique_id: "40439",
     school: "SPCH",
     title: "Theatre Practice",
     subject: "THEATRE",
@@ -17968,7 +17985,7 @@ const courses = [
   },
   {
     course_id: "023908",
-    unique_id: "40294",
+    unique_id: "40440",
     school: "SPCH",
     title: "Topics in Acting",
     subject: "THEATRE",
@@ -17992,7 +18009,7 @@ const courses = [
   },
   {
     course_id: "023668",
-    unique_id: "40209",
+    unique_id: "40442",
     school: "SPCH",
     title: "Advanced Acting 5: Acting for the Camera",
     subject: "THEATRE",
@@ -18815,12 +18832,6 @@ const courses = [
     number: "595-0",
   },
 ];
-
-const filter = (searchStr, school, subject, list) => {
-  let filtered = filterCoursesByStr(searchStr, list);
-  filtered = filterCoursesBySchoolSubject(school, subject, filtered);
-  return filtered;
-};
 
 // cache previous search and results to speed up searches
 let prevStr = "";

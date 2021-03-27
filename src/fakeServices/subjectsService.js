@@ -186,7 +186,6 @@ const subjects = {
     { symbol: "MSDS", name: "Master of Data Science" },
     { symbol: "MSGH", name: "Master of Science Global Health" },
     { symbol: "MSHA", name: "Master of Science in Health Analytics" },
-    { symbol: "MSRC", name: "Master of Regulatory Compliance" },
     {
       symbol: "MS_IDS",
       name: "Master of Science Information Design & Strategy",
