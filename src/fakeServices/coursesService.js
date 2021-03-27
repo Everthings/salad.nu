@@ -18833,6 +18833,12 @@ const courses = [
   },
 ];
 
+const filter = (searchStr, school, subject, list) => {
+  let filtered = filterCoursesByStr(searchStr, list);
+  filtered = filterCoursesBySchoolSubject(school, subject, filtered);
+  return filtered;
+};
+
 // cache previous search and results to speed up searches
 let prevStr = "";
 let prevResults = [];
