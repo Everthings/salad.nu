@@ -21,7 +21,7 @@ describe("Modal", () => {
             title: "Title 1",
             subject: "Subject 1",
             number: "Number 1",
-            instructor: { name: "Name 1" },
+            instructors: ["Name 1"],
             room: { building_name: "Building 1" },
             mode: "Mode 1",
             start_time: "1:00",

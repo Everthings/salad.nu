@@ -10,6 +10,6 @@ export const UPDATED_CURRENT_BUILDING = createAction(
 export const loadBuilding = (room) =>
   apiActions.API_REQUESTED({
     resource: "buildings",
-    data: room && room.building_id,
+    data: room && room.building_name,
     onSuccess: UPDATED_CURRENT_BUILDING.type,
   });

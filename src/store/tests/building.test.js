@@ -4,12 +4,12 @@ import * as buildingsService from "./../../fakeServices/buildingsService";
 import configureStore from "./../configureStore";
 
 jest.mock("./../../fakeServices/buildingsService");
-buildingsService.getBuilding.mockImplementation((id) => {
-  if (id === 0) {
+buildingsService.getBuilding.mockImplementation((name) => {
+  if (name === 0) {
     return { name: null, lat: null, lon: null };
   }
 
-  if (id === 1) {
+  if (name === 1) {
     return { name: "some location", lat: 1, lon: 2 };
   }
 });
@@ -23,7 +23,7 @@ describe("buildingSlice", () => {
 
   describe("loadBuilding + getCurrentBuilding", () => {
     it("should load correct lat lon", async () => {
-      const room = { building_id: 1 };
+      const room = { building_name: 1 };
 
       await store.dispatch(loadBuilding(room));
 
@@ -32,7 +32,7 @@ describe("buildingSlice", () => {
     });
 
     it("should load non null lat lon even if building service gives null lat lon", async () => {
-      const room = { building_id: 0 };
+      const room = { building_name: 0 };
 
       await store.dispatch(loadBuilding(room));
 
@@ -41,7 +41,7 @@ describe("buildingSlice", () => {
     });
 
     it("should load non null lat lon even if building service gives undefined", async () => {
-      const room = { building_id: -1 };
+      const room = { building_name: -1 };
 
       await store.dispatch(loadBuilding(room));
 

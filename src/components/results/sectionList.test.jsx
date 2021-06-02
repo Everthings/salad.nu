@@ -14,7 +14,7 @@ sectionsService.getSection.mockResolvedValue([
   {
     unique_id: 1,
     section: "Sec 1",
-    instructor: { name: "Name 1" },
+    instructors: ["Name 1"],
     meeting_days: "MoWeFr",
     start_time: "1:00",
     end_time: "2:00",
@@ -24,7 +24,7 @@ sectionsService.getSection.mockResolvedValue([
   {
     unique_id: 2,
     section: "Sec 2",
-    instructor: { name: "Name 2" },
+    instructors: ["Name 2"],
     meeting_days: "MoWeFr",
     start_time: "1:00",
     end_time: "2:00",
@@ -34,7 +34,7 @@ sectionsService.getSection.mockResolvedValue([
   {
     unique_id: 3,
     section: "Sec 3",
-    instructor: { name: "Name 3" },
+    instructors: ["Name 3"],
     meeting_days: "MoWeFr",
     start_time: "1:00",
     end_time: "2:00",
@@ -48,7 +48,7 @@ discussionsService.getDiscussion.mockResolvedValue([
   {
     unique_id: 4,
     section: "Sec 4",
-    instructor: { name: "Name 4" },
+    instructors: ["Name 4"],
     meeting_days: "MoWeFr",
     start_time: "1:00",
     end_time: "2:00",

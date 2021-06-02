@@ -68,7 +68,7 @@ const ModalContent = ({
   handleRemove,
   name,
   title,
-  instructor,
+  instructors,
   room,
   mode,
   start_time,
@@ -79,8 +79,11 @@ const ModalContent = ({
   // combine course_descriptions with some additional info
   const additional_descriptions = [];
   if (title) additional_descriptions.push({ name: "Title", desc: title });
-  if (instructor && instructor.name)
-    additional_descriptions.push({ name: "Teacher", desc: instructor.name });
+  if (instructors && instructors.length > 0)
+    additional_descriptions.push({
+      name: "Teacher(s)",
+      desc: instructors.join(", "),
+    });
   if (start_time && end_time)
     additional_descriptions.push({
       name: "Time Slot",

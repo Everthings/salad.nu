@@ -96,8 +96,6 @@ const ScheduleCard = ({
   if (data.instructors) {
     const lastNames = data.instructors.map((name) => getLastName(name));
     instructor_text = lastNames.join(", ");
-  } else if (data.instructor && data.instructor.name) {
-    instructor_text = getLastName(data.instructor.name);
   }
 
   const title = data.title;

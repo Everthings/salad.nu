@@ -12,7 +12,7 @@ describe("ScheduleCard", () => {
     title: "Title",
     subject: "Subject",
     number: "Number",
-    instructor: { name: "Name" },
+    instructors: ["Name"],
   };
   const style = {};
   const color = "#ffffff";
