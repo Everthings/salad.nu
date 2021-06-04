@@ -7512,7 +7512,7 @@ const courses = [
   },
   {
     course_id: "000900",
-    unique_id: "14021",
+    unique_id: "19498",
     school: "JOUR",
     title: "Marketing Research",
     subject: "IMC",
@@ -8441,14 +8441,6 @@ const courses = [
     number: "201-1",
   },
   {
-    course_id: "001531",
-    unique_id: "18649",
-    school: "WCAS",
-    title: "Introduction to Latin Literature",
-    subject: "LATIN",
-    number: "201-2",
-  },
-  {
     course_id: "001533",
     unique_id: "18650",
     school: "TGS",
@@ -9112,6 +9104,14 @@ const courses = [
     title: "Algebra",
     subject: "MATH",
     number: "470-1",
+  },
+  {
+    course_id: "002552",
+    unique_id: "19649",
+    school: "WCAS",
+    title: "Representation Theory",
+    subject: "MATH",
+    number: "478-0",
   },
   {
     course_id: "002556",
@@ -10011,7 +10011,7 @@ const courses = [
   },
   {
     course_id: "023032",
-    unique_id: "14817",
+    unique_id: "14208",
     school: "MEAS",
     title: "Data Science Seminar",
     subject: "MSAI",
@@ -13708,6 +13708,14 @@ const courses = [
     number: "375-0",
   },
   {
+    course_id: "002257",
+    unique_id: "19650",
+    school: "WCAS",
+    title: "Topics in Comparative Religion",
+    subject: "RELIGION",
+    number: "379-0",
+  },
+  {
     course_id: "002299",
     unique_id: "17549",
     school: "WCAS",
@@ -15513,7 +15521,7 @@ const courses = [
   },
   {
     course_id: "022934",
-    unique_id: "15454",
+    unique_id: "19648",
     school: "SPCH",
     title: "Special Topics in Advanced Theatre Studies",
     subject: "THEATRE",
