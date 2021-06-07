@@ -71,7 +71,6 @@ const buildings = {
   },
   "Wirtz Center Cellar": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Annie May Swift Hall 103": { lat: 42.052311, lon: -87.675093 },
-  "RCMA 5-135": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "Wirtz 101 Performnce Black Box": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
@@ -122,6 +121,7 @@ const buildings = {
   "Kresge 1319 Art Room": { lat: 42.0516769, lon: -87.6750968 },
   "Locy Hall 011": { lat: 42.051062, lon: -87.673933 },
   "University Hall 418": { lat: 42.051901, lon: -87.67596 },
+  "Kresge 4354 Art Hist. Sem. Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 3354 German Seminar Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute F285": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F491": { lat: 42.057728, lon: -87.675869 },
