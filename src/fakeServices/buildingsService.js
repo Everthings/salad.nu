@@ -15,7 +15,55 @@ const buildings = {
   "McCormick Foundation Ctr 2111": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall B4": { lat: 42.050793, lon: -87.674174 },
   "Washington, DC Bureau": null,
+  "Kellogg Global Hub 2110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 2120": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 2130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "555 Clark B01": { lat: 42.049555, lon: -87.677517 },
+  "Kellogg Econ Classroom 1410": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L120": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1420": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1430": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1120": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Ford Eng Design Cntr SB335": {
     lat: 42.05702096786832,
     lon: -87.67673253677064,
@@ -47,6 +95,7 @@ const buildings = {
   },
   "Tech Institute C115 Bodeen Lab": { lat: 42.057788, lon: -87.675893 },
   "Ford Hive Rm 2350": { lat: 42.05702096786832, lon: -87.67673253677064 },
+  "Annenberg Hall 347": { lat: 42.056058, lon: -87.674515 },
   "Frances Searle - School of Com": { lat: 42.0586351, lon: -87.6737228 },
   "Parkes Hall 214": { lat: 42.050263, lon: -87.676963 },
   "2315 Campus Dr Clinic 1620": {
@@ -82,6 +131,7 @@ const buildings = {
     lon: -87.67326580261454,
   },
   "Fisk Hall 115": { lat: 42.050793, lon: -87.674174 },
+  "Wirtz 206 Computer Lab": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 240 Seminar Room 2": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
@@ -96,7 +146,6 @@ const buildings = {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Wirtz 206 Computer Lab": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Abbott Hall Chicago rm 203": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago rm 206": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago 1228": { lat: 41.89528, lon: -87.6167 },
@@ -126,10 +175,6 @@ const buildings = {
   "Technological Institute F285": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F491": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F389": { lat: 42.057728, lon: -87.675869 },
-  "Kellogg Econ Classroom 1410": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
   "Kellogg Econ Classroom 3301": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
