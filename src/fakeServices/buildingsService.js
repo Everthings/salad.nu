@@ -146,6 +146,10 @@ const buildings = {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
+  "Wirtz 220 Wet Design Studio": {
+    lat: 42.05212198166667,
+    lon: -87.67326580261454,
+  },
   "Abbott Hall Chicago rm 203": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago rm 206": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago 1228": { lat: 41.89528, lon: -87.6167 },
@@ -156,16 +160,11 @@ const buildings = {
   },
   "Kresge 5531 Comp Lit. Sem. Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "ANTHRO Sem Rm 104 - 1810 Hinmn": null,
-  "Crowe Hall 1-140 Art T&P Room": {
-    lat: 42.051422529211436,
-    lon: -87.67518303610152,
-  },
   "Kresge 1-345 Art Drawing Studi": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1335 Painting Studio": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1425 Sculpture Room": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1310 Photo Classroom": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1410 Art Flex/Seminar": { lat: 42.0516769, lon: -87.6750968 },
-  "Kresge 1540 Art T&P Presentati": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1330 Art Studio": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 1319 Art Room": { lat: 42.0516769, lon: -87.6750968 },
   "Locy Hall 011": { lat: 42.051062, lon: -87.673933 },
@@ -188,6 +187,7 @@ const buildings = {
     lon: -87.6741509430629,
   },
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
+  "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
 };
 
 export function getBuilding(buildingName) {
