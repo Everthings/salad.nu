@@ -83,12 +83,12 @@ const buildings = {
     lat: 42.05702096786832,
     lon: -87.67673253677064,
   },
-  "Technological Institute C135": { lat: 42.057728, lon: -87.675869 },
-  "Technological Institute M228": { lat: 42.057728, lon: -87.675869 },
   "North Garage Krebs Room 1440": {
     lat: 42.05963149300605,
     lon: -87.6742308153558,
   },
+  "Technological Institute C135": { lat: 42.057728, lon: -87.675869 },
+  "Technological Institute M228": { lat: 42.057728, lon: -87.675869 },
   "North Garage Padula Room 1430": {
     lat: 42.05963149300605,
     lon: -87.6742308153558,
@@ -142,16 +142,12 @@ const buildings = {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Wirtz 225 Instruct Black Box 2": {
-    lat: 42.05212198166667,
-    lon: -87.67326580261454,
-  },
   "Wirtz 220 Wet Design Studio": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Abbott Hall Chicago rm 203": { lat: 41.89528, lon: -87.6167 },
-  "Abbott Hall Chicago rm 206": { lat: 41.89528, lon: -87.6167 },
+  "Abbott Hall Wirtz Chicago 203": { lat: 41.89528, lon: -87.6167 },
+  "Abbott Hall Wirtz Chicago 206": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago 1228": { lat: 41.89528, lon: -87.6167 },
   "633 N St Clair, 20th Fl Mag Mi": null,
   "Crowe 5-138 Af Am Studies Sem": {
@@ -188,6 +184,7 @@ const buildings = {
   },
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
+  "Technological Institute L221": { lat: 42.057728, lon: -87.675869 },
 };
 
 export function getBuilding(buildingName) {
