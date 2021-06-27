@@ -1,8 +1,9 @@
 const buildings = {
   "Fisk Hall 311": { lat: 42.050793, lon: -87.674174 },
-  "Louis Hall 226": { lat: 42.051513, lon: -87.673291 },
+  "Willard Hall B72": { lat: 42.05166847503725, lon: -87.68114387248889 },
   "McCormick Foundation Ctr 3107": { lat: 42.051381, lon: -87.674162 },
   "McCormick Foundation Ctr Forum": { lat: 42.051381, lon: -87.674162 },
+  "Louis Hall 226": { lat: 42.051513, lon: -87.673291 },
   "McCormick Foundation Ctr 3127": { lat: 42.051381, lon: -87.674162 },
   "McCormick Foundation Ctr 3119": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall 308": { lat: 42.050793, lon: -87.674174 },
@@ -15,15 +16,64 @@ const buildings = {
   "McCormick Foundation Ctr 2111": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall B4": { lat: 42.050793, lon: -87.674174 },
   "Washington, DC Bureau": null,
-  "Kellogg Global Hub 2110": {
+  "Kellogg Global Hub 1130": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
+  "Kellogg Global Hub L130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Weiboldt Hall 150": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Kellogg Global Hub 2120": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
+  "Kellogg Global Hub 2110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Kellogg Global Hub 2130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L120": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1420": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 250": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 1430": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 105": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 207": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 307": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 247": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 347": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 1120": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 350": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 109": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub L070": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 2430A": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
@@ -32,38 +82,20 @@ const buildings = {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub L130": {
+  "Kellogg Global Hub 2420A&B": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub L120": {
+  "Kellogg Global Hub 2410A&B": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub L110": {
+  "Kellogg Global Hub 2430B": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub 1420": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub 1430": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub 1110": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub 1130": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub 1120": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
+  "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 305": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Ford Eng Design Cntr SB335": {
     lat: 42.05702096786832,
     lon: -87.67673253677064,
@@ -95,6 +127,7 @@ const buildings = {
   },
   "Tech Institute C115 Bodeen Lab": { lat: 42.057788, lon: -87.675893 },
   "Ford Hive Rm 2350": { lat: 42.05702096786832, lon: -87.67673253677064 },
+  "RCMA Lower Level 113": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "Annenberg Hall 347": { lat: 42.056058, lon: -87.674515 },
   "Frances Searle - School of Com": { lat: 42.0586351, lon: -87.6737228 },
   "Parkes Hall 214": { lat: 42.050263, lon: -87.676963 },
@@ -119,35 +152,49 @@ const buildings = {
     lon: -87.67326580261454,
   },
   "Wirtz Center Cellar": { lat: 42.05212198166667, lon: -87.67326580261454 },
+  "Frances Searle Building 1483": { lat: 42.0586351, lon: -87.6737228 },
+  "Frances Searle Building 2370": { lat: 42.0586351, lon: -87.6737228 },
+  "Frances Searle Building 1421": { lat: 42.0586351, lon: -87.6737228 },
   "Annie May Swift Hall 103": { lat: 42.052311, lon: -87.675093 },
   "Wirtz 101 Performnce Black Box": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
+  "Block Pick-Laudati Auditorium": {
+    lat: 42.05232587921215,
+    lon: -87.67269952525008,
+  },
   "Wirtz Center BERGEN": { lat: 42.05212198166667, lon: -87.67326580261454 },
+  "Wirtz 220 Wet Design Studio": {
+    lat: 42.05212198166667,
+    lon: -87.67326580261454,
+  },
+  "Wirtz 225 Instruct Black Box 2": {
+    lat: 42.05212198166667,
+    lon: -87.67326580261454,
+  },
+  "Wirtz Center SOUTH": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz Center STRUB": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 235 Seminar Room 1": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Fisk Hall 115": { lat: 42.050793, lon: -87.674174 },
+  "Wirtz 205 Dry Design Studio": {
+    lat: 42.05212198166667,
+    lon: -87.67326580261454,
+  },
   "Wirtz 206 Computer Lab": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 240 Seminar Room 2": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Wirtz Center WALLIS": { lat: 42.05212198166667, lon: -87.67326580261454 },
-  "Wirtz Center SOUTH": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 215 Instruct Black Box 3": {
-    lat: 42.05212198166667,
-    lon: -87.67326580261454,
-  },
-  "Wirtz 220 Wet Design Studio": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
   "Abbott Hall Wirtz Chicago 203": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Wirtz Chicago 206": { lat: 41.89528, lon: -87.6167 },
+  "Abbott Hall Wirtz Chicago 210": { lat: 41.89528, lon: -87.6167 },
   "Abbott Hall Chicago 1228": { lat: 41.89528, lon: -87.6167 },
   "633 N St Clair, 20th Fl Mag Mi": null,
   "Crowe 5-138 Af Am Studies Sem": {
@@ -166,6 +213,10 @@ const buildings = {
   "Locy Hall 011": { lat: 42.051062, lon: -87.673933 },
   "University Hall 418": { lat: 42.051901, lon: -87.67596 },
   "Kresge 4354 Art Hist. Sem. Rm.": { lat: 42.0516769, lon: -87.6750968 },
+  "560 Lincoln St. Classroom 101": {
+    lat: 42.06137433094192,
+    lon: -87.67565467799473,
+  },
   "Kresge 3354 German Seminar Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute F285": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F491": { lat: 42.057728, lon: -87.675869 },
@@ -185,6 +236,10 @@ const buildings = {
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute L221": { lat: 42.057728, lon: -87.675869 },
+  "Shepard Hall Classroom B05": {
+    lat: 42.05088324175059,
+    lon: -87.67892969641422,
+  },
 };
 
 export function getBuilding(buildingName) {
