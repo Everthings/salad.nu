@@ -15,11 +15,23 @@ const buildings = {
   "Fisk Hall 307": { lat: 42.050793, lon: -87.674174 },
   "McCormick Foundation Ctr 2111": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall B4": { lat: 42.050793, lon: -87.674174 },
+  "McCormick Foundation Ctr 4115": { lat: 42.051381, lon: -87.674162 },
   "Washington, DC Bureau": null,
+  "Rubloff Building 140": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Aspen Hall-Rubloff": { lat: 41.242508, lon: -110.937704 },
+  "Rubloff Building 175": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 180": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Thorne Auditorium": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 339": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Levy Mayer 101": { lat: 41.89657132944515, lon: -87.6180956847427 },
+  "Cutting Hall - McCormick": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
   "Getz Hall - McCormick": { lat: 41.89608070666468, lon: -87.61810835358969 },
   "Levy-Mayer 212": { lat: 41.89657132944515, lon: -87.6180956847427 },
-  "Rubloff Building 140": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Levy-Mayer 310 Hurd": { lat: 41.89657132944515, lon: -87.6180956847427 },
+  "Hoffman Hall - McCormick": null,
   "Levy-Mayer 204 Booth Hall": {
     lat: 41.89657132944515,
     lon: -87.6180956847427,
@@ -36,31 +48,32 @@ const buildings = {
     lat: 41.89608070666468,
     lon: -87.61810835358969,
   },
-  "Rubloff Building 175": { lat: 41.89632777573242, lon: -87.61731710194098 },
-  "Cutting Hall - McCormick": {
-    lat: 41.89608070666468,
-    lon: -87.61810835358969,
-  },
-  "Rubloff Building 180": { lat: 41.89632777573242, lon: -87.61731710194098 },
-  "Wigmore Conference Room": {
-    lat: 41.89632777573242,
-    lon: -87.61731710194098,
-  },
-  "Rubloff Building 339": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Levy-Mayer 107 Williams ConfRm": {
     lat: 41.89657132944515,
     lon: -87.6180956847427,
   },
-  "Levy-Mayer 308": { lat: 41.89657132944515, lon: -87.6180956847427 },
-  "Smith Hall - McCormick": { lat: 41.89608070666468, lon: -87.61810835358969 },
+  "Rubloff Building 254": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Strawn Hall - McCormick": {
     lat: 41.89608070666468,
     lon: -87.61810835358969,
   },
-  "Levy-Mayer 310 Hurd": { lat: 41.89657132944515, lon: -87.6180956847427 },
-  "Aspen Hall-Rubloff": { lat: 41.242508, lon: -110.937704 },
-  "Thorne Auditorium": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Levy-Mayer 308": { lat: 41.89657132944515, lon: -87.6180956847427 },
+  "Smith Hall - McCormick": { lat: 41.89608070666468, lon: -87.61810835358969 },
+  "Wigmore Conference Room": {
+    lat: 41.89632777573242,
+    lon: -87.61731710194098,
+  },
+  "Levy-Mayer 317 Hoyne Hall": {
+    lat: 41.89657132944515,
+    lon: -87.6180956847427,
+  },
+  "Rubloff Building 887": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 256": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 885": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 836": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Rubloff Building 884": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 801": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 866": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Kellogg Global Hub 1130": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -140,7 +153,6 @@ const buildings = {
     lon: -87.67194109025868,
   },
   "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
-  "Wieboldt Hall 305": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Ford Eng Design Cntr SB335": {
     lat: 42.05702096786832,
     lon: -87.67673253677064,
@@ -172,6 +184,14 @@ const buildings = {
   },
   "Tech Institute C115 Bodeen Lab": { lat: 42.057788, lon: -87.675893 },
   "Ford Hive Rm 2350": { lat: 42.05702096786832, lon: -87.67673253677064 },
+  "RCMA 4-136 Keyboard Lab": {
+    lat: 42.05174777294826,
+    lon: -87.67148823134536,
+  },
+  "RCMA 4-138 Keyboard Lab": {
+    lat: 42.05174777294826,
+    lon: -87.67148823134536,
+  },
   "RCMA Lower Level 113": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "Annenberg Hall 347": { lat: 42.056058, lon: -87.674515 },
   "Frances Searle - School of Com": { lat: 42.0586351, lon: -87.6737228 },
@@ -188,10 +208,6 @@ const buildings = {
   "CSD Sem Rm B302 - Frances Srle": { lat: 42.0586351, lon: -87.6737228 },
   "Frances Searle Building 3417": { lat: 42.0586351, lon: -87.6737228 },
   "Wirtz Center Ballroom": { lat: 42.05212198166667, lon: -87.67326580261454 },
-  "Wirtz 230 Instruct Black Box 1": {
-    lat: 42.05212198166667,
-    lon: -87.67326580261454,
-  },
   "Wirtz 201 Performnce Black Box": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
@@ -233,6 +249,10 @@ const buildings = {
     lon: -87.67326580261454,
   },
   "Wirtz Center STRUB": { lat: 42.05212198166667, lon: -87.67326580261454 },
+  "Wirtz 230 Instruct Black Box 1": {
+    lat: 42.05212198166667,
+    lon: -87.67326580261454,
+  },
   "Wirtz 235 Seminar Room 1": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
@@ -268,6 +288,8 @@ const buildings = {
   "Locy Hall 011": { lat: 42.051062, lon: -87.673933 },
   "University Hall 418": { lat: 42.051901, lon: -87.67596 },
   "Kresge 4354 Art Hist. Sem. Rm.": { lat: 42.0516769, lon: -87.6750968 },
+  "Dearborn Observatory 23": { lat: 42.056672, lon: -87.675069 },
+  "ISP Sem Rm 203 - 616 Noyes St": null,
   "560 Lincoln St. Classroom 101": {
     lat: 42.06137433094192,
     lon: -87.67565467799473,
@@ -283,6 +305,7 @@ const buildings = {
   "University Hall 018 English": { lat: 42.051901, lon: -87.67596 },
   "Harris Hall L40": { lat: 42.051269, lon: -87.676279 },
   "INTL_ST Sem Rm 201 - 2010 Sh": null,
+  "Swift Hall 210": { lat: 42.055138, lon: -87.674953 },
   "Cresap Laboratory 101": { lat: 42.054702, lon: -87.67496 },
   "Hogan 2-112 Cell/Tissue Cultur": {
     lat: 42.057356277073595,
@@ -291,6 +314,7 @@ const buildings = {
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute L221": { lat: 42.057728, lon: -87.675869 },
+  "Swift Hall 231": { lat: 42.055138, lon: -87.674953 },
   "Shepard Hall Classroom B05": {
     lat: 42.05088324175059,
     lon: -87.67892969641422,
