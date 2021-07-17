@@ -3,9 +3,9 @@ const buildings = {
   "Willard Hall B72": { lat: 42.05166847503725, lon: -87.68114387248889 },
   "McCormick Foundation Ctr 3107": { lat: 42.051381, lon: -87.674162 },
   "McCormick Foundation Ctr Forum": { lat: 42.051381, lon: -87.674162 },
-  "Louis Hall 226": { lat: 42.051513, lon: -87.673291 },
   "McCormick Foundation Ctr 3127": { lat: 42.051381, lon: -87.674162 },
   "McCormick Foundation Ctr 3119": { lat: 42.051381, lon: -87.674162 },
+  "McCormick Foundation Ctr 2107": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall 308": { lat: 42.050793, lon: -87.674174 },
   "McCormick Foundation Ctr 2131": { lat: 42.051381, lon: -87.674162 },
   "Fisk Hall B11": { lat: 42.050793, lon: -87.674174 },
@@ -17,10 +17,10 @@ const buildings = {
   "Fisk Hall B4": { lat: 42.050793, lon: -87.674174 },
   "McCormick Foundation Ctr 4115": { lat: 42.051381, lon: -87.674162 },
   "Washington, DC Bureau": null,
-  "Rubloff Building 140": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 180": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Aspen Hall-Rubloff": { lat: 41.242508, lon: -110.937704 },
   "Rubloff Building 175": { lat: 41.89632777573242, lon: -87.61731710194098 },
-  "Rubloff Building 180": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 140": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Thorne Auditorium": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Rubloff Building 339": { lat: 41.89632777573242, lon: -87.61731710194098 },
   "Levy Mayer 101": { lat: 41.89657132944515, lon: -87.6180956847427 },
@@ -31,7 +31,10 @@ const buildings = {
   "Getz Hall - McCormick": { lat: 41.89608070666468, lon: -87.61810835358969 },
   "Levy-Mayer 212": { lat: 41.89657132944515, lon: -87.6180956847427 },
   "Levy-Mayer 310 Hurd": { lat: 41.89657132944515, lon: -87.6180956847427 },
-  "Hoffman Hall - McCormick": null,
+  "Hoffman Hall - McCormick": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
   "Levy-Mayer 204 Booth Hall": {
     lat: 41.89657132944515,
     lon: -87.6180956847427,
@@ -95,6 +98,10 @@ const buildings = {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
+  "Kellogg Global Hub 1420": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Kellogg Global Hub 2110": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -104,10 +111,6 @@ const buildings = {
     lon: -87.67194109025868,
   },
   "Kellogg Global Hub L120": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub 1420": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
@@ -131,10 +134,6 @@ const buildings = {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub 2430A": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
   "555 Clark B01": { lat: 42.049555, lon: -87.677517 },
   "Kellogg Econ Classroom 1410": {
     lat: 42.05743195787147,
@@ -152,7 +151,27 @@ const buildings = {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
+  "Kellogg Global Hub 2430A": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 5201": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Marketing Conf Rm 5424": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Marketing Conf Rm 5326": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Mgt &Org Conf Rm 5134": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Ford Eng Design Cntr SB335": {
     lat: 42.05702096786832,
     lon: -87.67673253677064,
@@ -193,6 +212,7 @@ const buildings = {
     lon: -87.67148823134536,
   },
   "RCMA Lower Level 113": { lat: 42.05174777294826, lon: -87.67148823134536 },
+  "RCMA Lower Level 121": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "Annenberg Hall 347": { lat: 42.056058, lon: -87.674515 },
   "Frances Searle - School of Com": { lat: 42.0586351, lon: -87.6737228 },
   "Parkes Hall 214": { lat: 42.050263, lon: -87.676963 },
@@ -208,6 +228,7 @@ const buildings = {
   "CSD Sem Rm B302 - Frances Srle": { lat: 42.0586351, lon: -87.6737228 },
   "Frances Searle Building 3417": { lat: 42.0586351, lon: -87.6737228 },
   "Wirtz Center Ballroom": { lat: 42.05212198166667, lon: -87.67326580261454 },
+  "Wirtz Center SOUTH": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 201 Performnce Black Box": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
@@ -244,7 +265,7 @@ const buildings = {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Wirtz 240 Seminar Room 2": {
+  "Wirtz 215 Instruct Black Box 3": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
@@ -257,13 +278,12 @@ const buildings = {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
-  "Wirtz Center SOUTH": { lat: 42.05212198166667, lon: -87.67326580261454 },
   "Wirtz 205 Dry Design Studio": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
   "Wirtz 206 Computer Lab": { lat: 42.05212198166667, lon: -87.67326580261454 },
-  "Wirtz 215 Instruct Black Box 3": {
+  "Wirtz 240 Seminar Room 2": {
     lat: 42.05212198166667,
     lon: -87.67326580261454,
   },
@@ -314,11 +334,22 @@ const buildings = {
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute L221": { lat: 42.057728, lon: -87.675869 },
+  "Technological Institute F242": { lat: 42.057728, lon: -87.675869 },
+  "Scott Hall 201 Ripton Room": {
+    lat: 42.05174703079395,
+    lon: -87.67756770522155,
+  },
+  "Scott Hall 107 Burdick Room": {
+    lat: 42.05174703079395,
+    lon: -87.67756770522155,
+  },
   "Swift Hall 231": { lat: 42.055138, lon: -87.674953 },
   "Shepard Hall Classroom B05": {
     lat: 42.05088324175059,
     lon: -87.67892969641422,
   },
+  "Kresge 3535 Span & Port Sem Rm": { lat: 42.0516769, lon: -87.6750968 },
+  "STAT Sem Rm B02 - 2006 Sher": null,
 };
 
 export function getBuilding(buildingName) {
