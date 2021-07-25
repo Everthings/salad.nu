@@ -529,6 +529,7 @@ const buildings = {
     lon: -87.67892969641422,
   },
   "Kresge 3535 Span & Port Sem Rm": { lat: 42.0516769, lon: -87.6750968 },
+  "STAT Sem Rm B02 - 2006 Sher": null,
 };
 
 export function getBuilding(buildingName) {
