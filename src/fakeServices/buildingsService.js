@@ -14,7 +14,7 @@ const buildings = {
   "Fisk Hall 206": { lat: 42.050793, lon: -87.674174 },
   "Fisk Hall 111": { lat: 42.050793, lon: -87.674174 },
   "Fisk Hall 307": { lat: 42.050793, lon: -87.674174 },
-  "McCormick Foundation Ctr 2111": { lat: 42.051381, lon: -87.674162 },
+  "McCormick Foundation Ctr 4115": { lat: 42.051381, lon: -87.674162 },
   "McCormick Foundation Ctr 2131": { lat: 42.051381, lon: -87.674162 },
   "Washington, DC Bureau": { lat: 38.88980656673977, lon: -77.00905115423366 },
   "303 E. Wacker Dr. 1624 A&B": {
@@ -51,6 +51,10 @@ const buildings = {
     lat: 41.89608070666468,
     lon: -87.61810835358969,
   },
+  "MacChesney Hall - McCormick": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
   "Levy-Mayer 204 Booth Hall": {
     lat: 41.89657132944515,
     lon: -87.6180956847427,
@@ -60,10 +64,6 @@ const buildings = {
     lon: -87.61731710194098,
   },
   "Sidley Hall - McCormick": {
-    lat: 41.89608070666468,
-    lon: -87.61810835358969,
-  },
-  "MacChesney Hall - McCormick": {
     lat: 41.89608070666468,
     lon: -87.61810835358969,
   },
@@ -209,6 +209,7 @@ const buildings = {
     lon: -87.67673253677064,
   },
   "Technological Institute MG28": { lat: 42.057728, lon: -87.675869 },
+  "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F281": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute L251": { lat: 42.057728, lon: -87.675869 },
   "Parkes Hall 212": { lat: 42.050071166764454, lon: -87.67723949641348 },
@@ -278,7 +279,6 @@ const buildings = {
   "Technological Institute M152": { lat: 42.057728, lon: -87.675869 },
   "Tech Institute C115 Bodeen Lab": { lat: 42.057788, lon: -87.675893 },
   "University Hall 121": { lat: 42.051901, lon: -87.67596 },
-  "Technological Institute L211": { lat: 42.057728, lon: -87.675869 },
   "University Hall 101": { lat: 42.051901, lon: -87.67596 },
   "Locy Hall 214": { lat: 42.051062, lon: -87.673933 },
   "RCMA Opera Theater 1-140": {
@@ -320,9 +320,13 @@ const buildings = {
   "RCMA Lower Level 115": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "RCMA Lower Level 111": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "RCMA 1-160": { lat: 42.05174777294826, lon: -87.67148823134536 },
+  "University Library Video Theat": {
+    lat: 42.05282047408196,
+    lon: -87.6744931804232,
+  },
   "RCMA 1-164": { lat: 42.05174777294826, lon: -87.67148823134536 },
-  "RCMA Lower Level 113": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "RCMA Lower Level 121": { lat: 42.05174777294826, lon: -87.67148823134536 },
+  "RCMA Lower Level 113": { lat: 42.05174777294826, lon: -87.67148823134536 },
   "University Lib B182 - Comp Cla": {
     lat: 42.05282047408196,
     lon: -87.6744931804232,
@@ -477,6 +481,7 @@ const buildings = {
   "Harris Hall L28": { lat: 42.051269, lon: -87.676279 },
   "University Library 4722": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Dearborn Observatory 23": { lat: 42.056672, lon: -87.675069 },
+  "Technological Institute F210": { lat: 42.057728, lon: -87.675869 },
   "Elder Hall 030 Seminar Room": {
     lat: 42.060905166225375,
     lon: -87.67758604178537,
