@@ -29,6 +29,18 @@ const XButton = styled.button`
   font-size: 10pt;
   padding: 1px 6px;
   z-index: 1;
+
+  :hover {
+    transform: scale(1.3);
+  }
+
+  :active {
+    color: rgb(255, 0, 0);
+  }
+
+  :focus {
+    outline: none;
+  }
 `;
 
 const FlexContainer = styled.div`
