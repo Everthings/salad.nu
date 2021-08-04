@@ -469,6 +469,14 @@ const courses = [
     number: "402-0",
   },
   {
+    course_id: "001290",
+    unique_id: "20492",
+    school: "WCAS",
+    title: "Studies in 20th & 21st Century Art",
+    subject: "ART_HIST",
+    number: "460-0",
+  },
+  {
     course_id: "001293",
     unique_id: "18592",
     school: "WCAS",
@@ -1606,14 +1614,6 @@ const courses = [
     title: "Quantum Chemistry",
     subject: "CHEM",
     number: "442-1",
-  },
-  {
-    course_id: "001505",
-    unique_id: "17092",
-    school: "WCAS",
-    title: "Elementary Statistical Mechanics",
-    subject: "CHEM",
-    number: "444-0",
   },
   {
     course_id: "001513",
@@ -3235,7 +3235,7 @@ const courses = [
   },
   {
     course_id: "021773",
-    unique_id: "15891",
+    unique_id: "20495",
     school: "TGS",
     title: "Research Methods in Counseling",
     subject: "COUN",
@@ -3307,7 +3307,7 @@ const courses = [
   },
   {
     course_id: "021866",
-    unique_id: "15892",
+    unique_id: "20500",
     school: "TGS",
     title: "Cognitive Behavioral Therapy",
     subject: "COUN",
@@ -3339,7 +3339,7 @@ const courses = [
   },
   {
     course_id: "022221",
-    unique_id: "15911",
+    unique_id: "20505",
     school: "TGS",
     title: "Career and Lifestyle Planning",
     subject: "COUN",
@@ -3347,7 +3347,7 @@ const courses = [
   },
   {
     course_id: "022219",
-    unique_id: "15835",
+    unique_id: "20507",
     school: "TGS",
     title: "Human Sexuality",
     subject: "COUN",
@@ -3363,7 +3363,7 @@ const courses = [
   },
   {
     course_id: "021867",
-    unique_id: "15732",
+    unique_id: "20519",
     school: "TGS",
     title: "Counseling Children and Adolescents",
     subject: "COUN",
@@ -3371,7 +3371,7 @@ const courses = [
   },
   {
     course_id: "022033",
-    unique_id: "15748",
+    unique_id: "20521",
     school: "TGS",
     title: "Addictions Counseling",
     subject: "COUN",
@@ -6639,14 +6639,6 @@ const courses = [
     number: "301-0",
   },
   {
-    course_id: "003019",
-    unique_id: "18691",
-    school: "WCAS",
-    title: "The Middle Ages & Renaissance",
-    subject: "FRENCH",
-    number: "310-0",
-  },
-  {
     course_id: "020067",
     unique_id: "17584",
     school: "WCAS",
@@ -9894,14 +9886,6 @@ const courses = [
     number: "635",
   },
   {
-    course_id: "006912",
-    unique_id: "18200",
-    school: "LAW",
-    title: "Civil Procedure II",
-    subject: "LITARB",
-    number: "650",
-  },
-  {
     course_id: "007005",
     unique_id: "18151",
     school: "LAW",
@@ -10103,6 +10087,14 @@ const courses = [
     title: "Culture and Cognition: SESP Leadership Institute",
     subject: "LOC",
     number: "214-BR",
+  },
+  {
+    course_id: "000581",
+    unique_id: "20498",
+    school: "SESP",
+    title: "Studies in Organizational Change",
+    subject: "LOC",
+    number: "306-0",
   },
   {
     course_id: "023580",
@@ -10577,20 +10569,20 @@ const courses = [
     number: "477-0",
   },
   {
-    course_id: "002552",
-    unique_id: "19649",
-    school: "WCAS",
-    title: "Representation Theory",
-    subject: "MATH",
-    number: "478-0",
-  },
-  {
     course_id: "002556",
     unique_id: "17506",
     school: "WCAS",
     title: "Algebraic Geometry",
     subject: "MATH",
     number: "483-1",
+  },
+  {
+    course_id: "002573",
+    unique_id: "20493",
+    school: "WCAS",
+    title: "Topics in Geometry",
+    subject: "MATH",
+    number: "514-1",
   },
   {
     course_id: "018244",
@@ -16122,7 +16114,7 @@ const courses = [
     course_id: "023473",
     unique_id: "14981",
     school: "SESP",
-    title: "Methods for Causal Inference*",
+    title: "Methods for Causal Inference",
     subject: "SESP",
     number: "310-0",
   },
@@ -16367,6 +16359,15 @@ const courses = [
     number: "307-0",
   },
   {
+    course_id: "020546",
+    unique_id: "20499",
+    school: "WCAS",
+    title:
+      "Numbers, Identity & Modernity: How Calculation Shapes Who We Are & What We Know",
+    subject: "SOCIOL",
+    number: "321-0",
+  },
+  {
     course_id: "011067",
     unique_id: "17572",
     school: "WCAS",
@@ -16397,14 +16398,6 @@ const courses = [
     title: "Senior Research Seminar",
     subject: "SOCIOL",
     number: "398-1",
-  },
-  {
-    course_id: "015639",
-    unique_id: "17188",
-    school: "WCAS",
-    title: "Introduction to Statistics & Statistical Software",
-    subject: "SOCIOL",
-    number: "400-0",
   },
   {
     course_id: "003354",
@@ -17554,14 +17547,6 @@ const courses = [
     number: "221-3",
   },
   {
-    course_id: "004595",
-    unique_id: "15207",
-    school: "SPCH",
-    title: "Stage Makeup",
-    subject: "THEATRE",
-    number: "222-0",
-  },
-  {
     course_id: "022889",
     unique_id: "15283",
     school: "SPCH",
@@ -17852,7 +17837,7 @@ const courses = [
   },
   {
     course_id: "023777",
-    unique_id: "15291",
+    unique_id: "15289",
     school: "SPCH",
     title: "Applied Music Theatre Voice I",
     subject: "THEATRE",
@@ -18388,7 +18373,7 @@ const courses = [
   },
   {
     course_id: "004020",
-    unique_id: "10455",
+    unique_id: "20496",
     school: "MUSIC",
     title: "Reed Making",
     subject: "WIND_PER",
@@ -18428,7 +18413,7 @@ const courses = [
   },
   {
     course_id: "016452",
-    unique_id: "10543",
+    unique_id: "20497",
     school: "MUSIC",
     title: "Studio Ensemble for Music Majors",
     subject: "WIND_PER",
