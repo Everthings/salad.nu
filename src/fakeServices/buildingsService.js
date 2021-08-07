@@ -183,6 +183,7 @@ const buildings = {
     lon: -87.67194109025868,
   },
   "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 540": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Kellogg Global Hub 5201": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -304,11 +305,11 @@ const buildings = {
     lat: 42.050071166764454,
     lon: -87.67723949641348,
   },
-  "Pick-Staiger Concert Stage": {
+  "Pick-Staiger Rehearsal Room": {
     lat: 42.05271257928584,
     lon: -87.67224454896055,
   },
-  "Pick-Staiger Rehearsal Room": {
+  "Pick-Staiger Concert Stage": {
     lat: 42.05271257928584,
     lon: -87.67224454896055,
   },
@@ -357,6 +358,9 @@ const buildings = {
   "Annenberg Hall 101": { lat: 42.056058, lon: -87.674515 },
   "Annenberg Hall G02": { lat: 42.056058, lon: -87.674515 },
   "Fisk Hall 114": { lat: 42.050793, lon: -87.674174 },
+  "Annenberg Hall G08": { lat: 42.056058, lon: -87.674515 },
+  "Annenberg Hall G22": { lat: 42.056058, lon: -87.674515 },
+  "Kresge Centennial Hall 2-425": { lat: 42.0516769, lon: -87.6750968 },
   "Frances Searle Building 2378": { lat: 42.0586351, lon: -87.6737228 },
   "Frances Searle Building 1483": { lat: 42.0586351, lon: -87.6737228 },
   "Parkes Hall 214": { lat: 42.050071166764454, lon: -87.67723949641348 },
@@ -505,7 +509,6 @@ const buildings = {
   "Kresge 4354 Art Hist. Sem. Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "University Library 4722": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Dearborn Observatory 23": { lat: 42.056672, lon: -87.675069 },
-  "Technological Institute F210": { lat: 42.057728, lon: -87.675869 },
   "Elder Hall 030 Seminar Room": {
     lat: 42.060905166225375,
     lon: -87.67758604178537,
@@ -515,7 +518,6 @@ const buildings = {
     lon: -87.67816294426228,
   },
   "Technological Institute M166": { lat: 42.057728, lon: -87.675869 },
-  "Locy Hall 111": { lat: 42.051062, lon: -87.673933 },
   "560 Lincoln St. Classroom 101": {
     lat: 42.06137433094192,
     lon: -87.67565467799473,
@@ -531,7 +533,6 @@ const buildings = {
   "University Library 4670": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Kresge 4364 Classics Sem Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-343": { lat: 42.0516769, lon: -87.6750968 },
-  "Kresge Centennial Hall 2-425": { lat: 42.0516769, lon: -87.6750968 },
   "Harris Hall L07": { lat: 42.051269, lon: -87.676279 },
   "Kresge 3354 German Seminar Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute F285": { lat: 42.057728, lon: -87.675869 },
@@ -542,9 +543,10 @@ const buildings = {
   "University Hall 318": { lat: 42.051901, lon: -87.67596 },
   "Kresge Centennial Hall 3-410": { lat: 42.0516769, lon: -87.6750968 },
   "University Hall 018 English": { lat: 42.051901, lon: -87.67596 },
+  "555 Clark 230": { lat: 42.049555, lon: -87.677517 },
   "Harris Hall L04": { lat: 42.051269, lon: -87.676279 },
   "Kresge Centennial Hall 2-339": { lat: 42.0516769, lon: -87.6750968 },
-  "555 Clark 230": { lat: 42.049555, lon: -87.677517 },
+  "Locy Hall 111": { lat: 42.051062, lon: -87.673933 },
   "Locy Hall 213": { lat: 42.051062, lon: -87.673933 },
   "Scott Hall 107 Burdick Room": {
     lat: 42.05174703079395,
@@ -583,7 +585,9 @@ const buildings = {
   },
   "Swift Hall 231": { lat: 42.055138, lon: -87.674953 },
   "Locy Hall 303": { lat: 42.051062, lon: -87.673933 },
+  "Kresge 3364 Slavic Seminar Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Allison Residential Comm 1021": { lat: 42.050435, lon: -87.67821 },
+  "Lunt Hall 102": { lat: 42.054803, lon: -87.676345 },
   "Annenberg Hall G31": { lat: 42.056058, lon: -87.674515 },
   "University Library 5746": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "University Library 5722": { lat: 42.05282047408196, lon: -87.6744931804232 },
