@@ -184,6 +184,14 @@ const buildings = {
   },
   "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Wieboldt Hall 540": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 4301": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Strategy Conf Rm 4273": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Kellogg Global Hub 5201": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -197,6 +205,10 @@ const buildings = {
     lon: -87.67194109025868,
   },
   "Kellogg Mgt &Org Conf Rm 5134": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg MEDS Conf. Rm. 4130": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },

@@ -2673,6 +2673,14 @@ const courses = [
     number: "302-0",
   },
   {
+    course_id: "021209",
+    unique_id: "20577",
+    school: "WCAS",
+    title: "Studies in Film, Media, and Visual Culture",
+    subject: "COMP_LIT",
+    number: "305-0",
+  },
+  {
     course_id: "001622",
     unique_id: "19167",
     school: "WCAS",
@@ -9011,6 +9019,14 @@ const courses = [
     number: "480-0",
   },
   {
+    course_id: "023850",
+    unique_id: "20574",
+    school: "KGSM",
+    title: "Leading Voices (Zero Credit)",
+    subject: "KPPI",
+    number: "920-N",
+  },
+  {
     course_id: "001524",
     unique_id: "16678",
     school: "WCAS",
@@ -10864,12 +10880,28 @@ const courses = [
     number: "549-1",
   },
   {
+    course_id: "000200",
+    unique_id: "20575",
+    school: "KGSM",
+    title: "Economic Theory I: Decision Theory",
+    subject: "MECS",
+    number: "550-1",
+  },
+  {
     course_id: "022544",
     unique_id: "19979",
     school: "KGSM",
     title: "Health Economics I",
     subject: "MECS",
     number: "551-1",
+  },
+  {
+    course_id: "000197",
+    unique_id: "20576",
+    school: "KGSM",
+    title: "Static Optimization in Economics",
+    subject: "MECS",
+    number: "560-1",
   },
   {
     course_id: "020641",
@@ -15590,7 +15622,7 @@ const courses = [
   },
   {
     course_id: "004370",
-    unique_id: "15326",
+    unique_id: "20578",
     school: "SPCH",
     title: "National Cinema",
     subject: "RTVF",
@@ -17048,14 +17080,6 @@ const courses = [
     title: "Strategic Challenges in Emerging Markets",
     subject: "STRT",
     number: "466-0",
-  },
-  {
-    course_id: "022741",
-    unique_id: "20566",
-    school: "KGSM",
-    title: "Field Study",
-    subject: "STRT",
-    number: "498-0",
   },
   {
     course_id: "020400",
