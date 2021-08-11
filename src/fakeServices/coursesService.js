@@ -2714,7 +2714,7 @@ const courses = [
   },
   {
     course_id: "001638",
-    unique_id: "17563",
+    unique_id: "20602",
     school: "WCAS",
     title: "Studies in Literature and the Arts",
     subject: "COMP_LIT",
@@ -3266,12 +3266,12 @@ const courses = [
     number: "417-0",
   },
   {
-    course_id: "000727",
-    unique_id: "15639",
+    course_id: "024224",
+    unique_id: "20603",
     school: "TGS",
-    title: "Family, Marital and Couple Counseling",
+    title: "Human Sexuality",
     subject: "COUN",
-    number: "422-0",
+    number: "429-0",
   },
   {
     course_id: "016111",
@@ -3288,14 +3288,6 @@ const courses = [
     title: "Play Therapy Methods",
     subject: "COUN",
     number: "440-6",
-  },
-  {
-    course_id: "023621",
-    unique_id: "15842",
-    school: "TGS",
-    title: "Introduction to Psychopharmacology",
-    subject: "COUN",
-    number: "455-0",
   },
   {
     course_id: "000751",
@@ -3330,22 +3322,6 @@ const courses = [
     number: "482-1",
   },
   {
-    course_id: "000762",
-    unique_id: "20558",
-    school: "TGS",
-    title: "Supervised Internship in Counseling-2",
-    subject: "COUN",
-    number: "482-2",
-  },
-  {
-    course_id: "000764",
-    unique_id: "15645",
-    school: "TGS",
-    title: "Supervised Internship in Counseling-3",
-    subject: "COUN",
-    number: "482-3",
-  },
-  {
     course_id: "000765",
     unique_id: "15646",
     school: "TGS",
@@ -3360,14 +3336,6 @@ const courses = [
     title: "Advanced Internship In Counseling",
     subject: "COUN",
     number: "485-1",
-  },
-  {
-    course_id: "000794",
-    unique_id: "15649",
-    school: "TGS",
-    title: "Advanced Internship in Counseling",
-    subject: "COUN",
-    number: "584-0",
   },
   {
     course_id: "017946",
@@ -4710,7 +4678,7 @@ const courses = [
   },
   {
     course_id: "018388",
-    unique_id: "14464",
+    unique_id: "14463",
     school: "MEAS",
     title: "Intermediate Topics in Engineering Design",
     subject: "DSGN",
@@ -4718,19 +4686,11 @@ const courses = [
   },
   {
     course_id: "023157",
-    unique_id: "14824",
+    unique_id: "14646",
     school: "MEAS",
     title: "Designing Your Life",
     subject: "DSGN",
     number: "300-0",
-  },
-  {
-    course_id: "022366",
-    unique_id: "19314",
-    school: "MEAS",
-    title: "UX Design",
-    subject: "DSGN",
-    number: "306-0",
   },
   {
     course_id: "016115",
@@ -4790,7 +4750,7 @@ const courses = [
   },
   {
     course_id: "018387",
-    unique_id: "19364",
+    unique_id: "20601",
     school: "MEAS",
     title: "Special Topics",
     subject: "DSGN",
@@ -5907,6 +5867,14 @@ const courses = [
     title: "MFA Poetry Workshop",
     subject: "ENGLISH",
     number: "496-0",
+  },
+  {
+    course_id: "023334",
+    unique_id: "20606",
+    school: "WCAS",
+    title: "MFA Thesis Tutorial",
+    subject: "ENGLISH",
+    number: "591-0",
   },
   {
     course_id: "022432",
@@ -8921,6 +8889,14 @@ const courses = [
     title: "Strategic Communication for Organizations",
     subject: "KACIM",
     number: "915-5",
+  },
+  {
+    course_id: "018067",
+    unique_id: "19360",
+    school: "KGSM",
+    title: "Investments",
+    subject: "KELLG_FE",
+    number: "312-0",
   },
   {
     course_id: "018537",
@@ -14411,7 +14387,7 @@ const courses = [
   },
   {
     course_id: "002818",
-    unique_id: "19961",
+    unique_id: "20604",
     school: "WCAS",
     title: "Special Topics in Political Science",
     subject: "POLI_SCI",
@@ -15591,7 +15567,7 @@ const courses = [
   },
   {
     course_id: "015210",
-    unique_id: "15054",
+    unique_id: "19351",
     school: "SPCH",
     title: "Foundations of Screenwriting",
     subject: "RTVF",
@@ -17621,7 +17597,7 @@ const courses = [
   },
   {
     course_id: "004689",
-    unique_id: "19557",
+    unique_id: "20605",
     school: "SPCH",
     title: "Theatre Practice",
     subject: "THEATRE",

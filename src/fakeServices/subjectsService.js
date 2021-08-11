@@ -22,6 +22,7 @@ const subjects = {
     { symbol: "FINC", name: "Finance" },
     { symbol: "HCAK", name: "Health Care at Kellogg" },
     { symbol: "KACIM", name: "Architectures of Collaboration" },
+    { symbol: "KELLG_FE", name: "Financial Economics" },
     { symbol: "KELLG_MA", name: "Managerial Analytics" },
     { symbol: "KPHD", name: "Interdisciplinary Seminar" },
     { symbol: "KPPI", name: "Kellogg Public-Private Initiative" },
