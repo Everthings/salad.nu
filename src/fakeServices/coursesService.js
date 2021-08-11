@@ -2378,7 +2378,7 @@ const courses = [
   },
   {
     course_id: "004134",
-    unique_id: "15101",
+    unique_id: "15100",
     school: "SPCH",
     title: "Public Speaking",
     subject: "COMM_ST",
@@ -2642,7 +2642,7 @@ const courses = [
   },
   {
     course_id: "001605",
-    unique_id: "19402",
+    unique_id: "18663",
     school: "WCAS",
     title: "Interpreting Culture",
     subject: "COMP_LIT",
@@ -7302,12 +7302,12 @@ const courses = [
     number: "121-1",
   },
   {
-    course_id: "002377",
-    unique_id: "18819",
+    course_id: "002359",
+    unique_id: "20598",
     school: "WCAS",
-    title: "Hebrew IV: Advanced Topics in Hebrew Literature",
+    title: "Hebrew III:Topics in Hebrew Literature",
     subject: "HEBREW",
-    number: "316-1",
+    number: "216-1",
   },
   {
     course_id: "002355",
@@ -8055,6 +8055,14 @@ const courses = [
     title: "Digital, Social and Mobile Marketing",
     subject: "IMC",
     number: "307-0",
+  },
+  {
+    course_id: "018987",
+    unique_id: "20579",
+    school: "JOUR",
+    title: "Special Topics",
+    subject: "IMC",
+    number: "390-0",
   },
   {
     course_id: "000904",
@@ -9100,7 +9108,7 @@ const courses = [
   },
   {
     course_id: "021457",
-    unique_id: "20567",
+    unique_id: "20581",
     school: "LAW",
     title: "Independent Study",
     subject: "LAWSTUDY",
@@ -10480,14 +10488,6 @@ const courses = [
     number: "316-2",
   },
   {
-    course_id: "015673",
-    unique_id: "19150",
-    school: "MEAS",
-    title: "Materials Selection",
-    subject: "MAT_SCI",
-    number: "318-0",
-  },
-  {
     course_id: "005281",
     unique_id: "14392",
     school: "MEAS",
@@ -10870,6 +10870,14 @@ const courses = [
     title: "Antitrust Economics",
     subject: "MECN",
     number: "926-5",
+  },
+  {
+    course_id: "016128",
+    unique_id: "20599",
+    school: "KGSM",
+    title: "Political Economy I: Budget Deficits: A Political Economy View",
+    subject: "MECS",
+    number: "540-1",
   },
   {
     course_id: "000195",
@@ -12464,12 +12472,13 @@ const courses = [
     number: "462-0",
   },
   {
-    course_id: "021198",
-    unique_id: "20553",
+    course_id: "021917",
+    unique_id: "20582",
     school: "SESP",
-    title: "Crisis Management and Mental Health Issues",
+    title:
+      "Developing & Coaching Leadership: Fundamentals of Learning Strategies",
     subject: "MS_HE",
-    number: "475-0",
+    number: "477-0",
   },
   {
     course_id: "021532",
@@ -13128,12 +13137,12 @@ const courses = [
     number: "423-0",
   },
   {
-    course_id: "003637",
-    unique_id: "10726",
+    course_id: "003639",
+    unique_id: "20584",
     school: "MUSIC",
-    title: "Selected Topics",
+    title: "Psychology of Music Teaching & Learning",
     subject: "MUSIC_ED",
-    number: "435-0",
+    number: "437-0",
   },
   {
     course_id: "003737",
@@ -13913,7 +13922,7 @@ const courses = [
   },
   {
     course_id: "002709",
-    unique_id: "16449",
+    unique_id: "17825",
     school: "WCAS",
     title: "General Physics Laboratory",
     subject: "PHYSICS",
@@ -13921,7 +13930,7 @@ const courses = [
   },
   {
     course_id: "002710",
-    unique_id: "17263",
+    unique_id: "17838",
     school: "WCAS",
     title: "General Physics Laboratory",
     subject: "PHYSICS",
@@ -15389,6 +15398,14 @@ const courses = [
     number: "401-0",
   },
   {
+    course_id: "023623",
+    unique_id: "20600",
+    school: "TGS",
+    title: "Internship",
+    subject: "QSB",
+    number: "595-0",
+  },
+  {
     course_id: "000217",
     unique_id: "19714",
     school: "KGSM",
@@ -16028,14 +16045,6 @@ const courses = [
     title: "Introduction to Russian Literature",
     subject: "SLAVIC",
     number: "210-2",
-  },
-  {
-    course_id: "003236",
-    unique_id: "18902",
-    school: "WCAS",
-    title: "20th-Century Russian Literature",
-    subject: "SLAVIC",
-    number: "211-1",
   },
   {
     course_id: "003238",
@@ -17468,7 +17477,7 @@ const courses = [
   },
   {
     course_id: "004672",
-    unique_id: "15164",
+    unique_id: "15163",
     school: "SPCH",
     title: "Computer Graphics for the Theatre Artist",
     subject: "THEATRE",
