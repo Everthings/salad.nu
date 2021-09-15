@@ -709,6 +709,14 @@ const courses = [
     number: "202-0",
   },
   {
+    course_id: "023905",
+    unique_id: "20875",
+    school: "WCAS",
+    title: "Peer-Guided SG: Cell Biology",
+    subject: "BIOL_SCI",
+    number: "202-SG",
+  },
+  {
     course_id: "020566",
     unique_id: "16223",
     school: "WCAS",
@@ -1494,7 +1502,7 @@ const courses = [
   },
   {
     course_id: "022590",
-    unique_id: "20337",
+    unique_id: "20868",
     school: "WCAS",
     title: "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
     subject: "CHEM",
@@ -1510,7 +1518,7 @@ const courses = [
   },
   {
     course_id: "022593",
-    unique_id: "20353",
+    unique_id: "20354",
     school: "WCAS",
     title: "Peer-Guided Study Group: Accelerated General Chemistry 1",
     subject: "CHEM",
@@ -1857,7 +1865,7 @@ const courses = [
   },
   {
     course_id: "015069",
-    unique_id: "16486",
+    unique_id: "20837",
     school: "WCAS",
     title: "Chinese IV: Formal Speaking",
     subject: "CHINESE",
@@ -2320,6 +2328,14 @@ const courses = [
     number: "444-0",
   },
   {
+    course_id: "020434",
+    unique_id: "20808",
+    school: "TGS",
+    title: "Diversity in Psychology Seminar",
+    subject: "CLIN_PSY",
+    number: "451-0",
+  },
+  {
     course_id: "005708",
     unique_id: "19573",
     school: "TGS",
@@ -2449,7 +2465,7 @@ const courses = [
   },
   {
     course_id: "004134",
-    unique_id: "15100",
+    unique_id: "20796",
     school: "SPCH",
     title: "Public Speaking",
     subject: "COMM_ST",
@@ -2897,7 +2913,7 @@ const courses = [
   },
   {
     course_id: "004980",
-    unique_id: "14574",
+    unique_id: "20813",
     school: "MEAS",
     title: "Design & Analysis of Algorithms",
     subject: "COMP_SCI",
@@ -2929,7 +2945,7 @@ const courses = [
   },
   {
     course_id: "008177",
-    unique_id: "14600",
+    unique_id: "20793",
     school: "MEAS",
     title: "Machine Learning",
     subject: "COMP_SCI",
@@ -3370,7 +3386,7 @@ const courses = [
   },
   {
     course_id: "021484",
-    unique_id: "15668",
+    unique_id: "15854",
     school: "TGS",
     title: "Theories of Counseling and Psychotherapy",
     subject: "COUN",
@@ -3455,6 +3471,14 @@ const courses = [
     title: "Counseling Children and Adolescents",
     subject: "COUN",
     number: "436-6",
+  },
+  {
+    course_id: "024226",
+    unique_id: "20570",
+    school: "TGS",
+    title: "Play Therapy Methods",
+    subject: "COUN",
+    number: "440-6",
   },
   {
     course_id: "022033",
@@ -3627,7 +3651,7 @@ const courses = [
   },
   {
     course_id: "021865",
-    unique_id: "15729",
+    unique_id: "15865",
     school: "TGS",
     title: "Ethics and Legal Issues in Counseling",
     subject: "COUN",
@@ -4916,14 +4940,6 @@ const courses = [
     number: "435-0",
   },
   {
-    course_id: "005631",
-    unique_id: "15564",
-    school: "TGS",
-    title: "Microbiology",
-    subject: "DGP",
-    number: "442-0",
-  },
-  {
     course_id: "005634",
     unique_id: "15565",
     school: "TGS",
@@ -5032,7 +5048,7 @@ const courses = [
     course_id: "020668",
     unique_id: "19312",
     school: "MEAS",
-    title: "Design for Fabrication",
+    title: "Manufacturing Methods for Product Design",
     subject: "DSGN",
     number: "346-0",
   },
@@ -5064,7 +5080,7 @@ const courses = [
     course_id: "016074",
     unique_id: "14444",
     school: "MEAS",
-    title: "Interdiscipinary Design Projects I",
+    title: "Interdisciplinary Product Design Projects I",
     subject: "DSGN",
     number: "384-1",
   },
@@ -5115,14 +5131,6 @@ const courses = [
     title: "Digital Design and Development",
     subject: "DSGN",
     number: "425-0",
-  },
-  {
-    course_id: "022297",
-    unique_id: "14772",
-    school: "MEAS",
-    title: "Whole-Brain Communication",
-    subject: "DSGN",
-    number: "426-0",
   },
   {
     course_id: "020673",
@@ -5262,7 +5270,7 @@ const courses = [
   },
   {
     course_id: "020905",
-    unique_id: "20341",
+    unique_id: "20878",
     school: "WCAS",
     title: "Peer-Guided Study Group: Introduction to Macroeconomics",
     subject: "ECON",
@@ -5278,7 +5286,7 @@ const courses = [
   },
   {
     course_id: "020906",
-    unique_id: "20281",
+    unique_id: "20882",
     school: "WCAS",
     title: "Peer-Guided Study Group: Introduction to Microeconomics",
     subject: "ECON",
@@ -5765,14 +5773,6 @@ const courses = [
     number: "401-0",
   },
   {
-    course_id: "005079",
-    unique_id: "14332",
-    school: "MEAS",
-    title: "Quantum Electronics",
-    subject: "ELEC_ENG",
-    number: "404-0",
-  },
-  {
     course_id: "005081",
     unique_id: "19342",
     school: "MEAS",
@@ -6061,14 +6061,6 @@ const courses = [
     number: "381-0",
   },
   {
-    course_id: "001844",
-    unique_id: "20254",
-    school: "WCAS",
-    title: "Topics in Combined Studies",
-    subject: "ENGLISH",
-    number: "385-0",
-  },
-  {
     course_id: "022017",
     unique_id: "16137",
     school: "WCAS",
@@ -6342,7 +6334,7 @@ const courses = [
   },
   {
     course_id: "020567",
-    unique_id: "17415",
+    unique_id: "17523",
     school: "WCAS",
     title: "Special Topics in Environmental Sciences",
     subject: "ENVR_SCI",
@@ -6983,11 +6975,19 @@ const courses = [
   },
   {
     course_id: "016039",
-    unique_id: "20270",
+    unique_id: "20884",
     school: "MEAS",
     title: "Peer-Guided Study Group: Engineering Analysis I",
     subject: "GEN_ENG",
     number: "205-SG-1",
+  },
+  {
+    course_id: "016041",
+    unique_id: "20886",
+    school: "MEAS",
+    title: "Peer-Guided Study Group: Engineering Analysis III",
+    subject: "GEN_ENG",
+    number: "205-SG-3",
   },
   {
     course_id: "016042",
@@ -7038,6 +7038,14 @@ const courses = [
     number: "546-0",
   },
   {
+    course_id: "023981",
+    unique_id: "20893",
+    school: "WCAS",
+    title: "Introductory Topics in Language Study I",
+    subject: "GEN_LA",
+    number: "111-1",
+  },
+  {
     course_id: "023984",
     unique_id: "20760",
     school: "WCAS",
@@ -7047,7 +7055,7 @@ const courses = [
   },
   {
     course_id: "023248",
-    unique_id: "18040",
+    unique_id: "17266",
     school: "WCAS",
     title: "Arch Scholar Mentoring Program",
     subject: "GEN_LA",
@@ -7055,7 +7063,7 @@ const courses = [
   },
   {
     course_id: "021468",
-    unique_id: "20349",
+    unique_id: "20889",
     school: "WCAS",
     title: "UPAL: Strategies for Advancing Learning",
     subject: "GEN_LA",
@@ -8218,7 +8226,7 @@ const courses = [
   },
   {
     course_id: "005137",
-    unique_id: "14417",
+    unique_id: "14416",
     school: "MEAS",
     title: "Supply Chain Modeling and Analysis",
     subject: "IEMS",
@@ -8618,7 +8626,7 @@ const courses = [
   },
   {
     course_id: "003444",
-    unique_id: "13110",
+    unique_id: "20823",
     school: "WCAS",
     title: "Undergraduate Research",
     subject: "INTG_SCI",
@@ -9116,7 +9124,7 @@ const courses = [
   },
   {
     course_id: "018037",
-    unique_id: "13949",
+    unique_id: "20825",
     school: "JOUR",
     title: "Foundations of Interactive Journalism",
     subject: "JOUR",
@@ -9289,62 +9297,6 @@ const courses = [
     title: "Workshop on Research Development",
     subject: "KPHD",
     number: "520-0",
-  },
-  {
-    course_id: "022306",
-    unique_id: "18997",
-    school: "KGSM",
-    title: "Leadership and Crisis Management",
-    subject: "KPPI",
-    number: "440-5",
-  },
-  {
-    course_id: "016639",
-    unique_id: "19701",
-    school: "KGSM",
-    title: "Leadership and Crisis Management",
-    subject: "KPPI",
-    number: "440-5",
-  },
-  {
-    course_id: "016648",
-    unique_id: "19748",
-    school: "KGSM",
-    title: "Strategy Beyond Markets",
-    subject: "KPPI",
-    number: "441-0",
-  },
-  {
-    course_id: "019306",
-    unique_id: "19763",
-    school: "KGSM",
-    title: "Social Innovation: Designing for Change",
-    subject: "KPPI",
-    number: "452-0",
-  },
-  {
-    course_id: "018802",
-    unique_id: "19762",
-    school: "KGSM",
-    title: "Advanced Board Governance",
-    subject: "KPPI",
-    number: "471-5",
-  },
-  {
-    course_id: "018095",
-    unique_id: "19751",
-    school: "KGSM",
-    title: "Public Economics for Business Leaders: State and Local Policy",
-    subject: "KPPI",
-    number: "480-0",
-  },
-  {
-    course_id: "023850",
-    unique_id: "20574",
-    school: "KGSM",
-    title: "Leading Voices (Zero Credit)",
-    subject: "KPPI",
-    number: "920-N",
   },
   {
     course_id: "001524",
@@ -10441,7 +10393,7 @@ const courses = [
   },
   {
     course_id: "023340",
-    unique_id: "16645",
+    unique_id: "20887",
     school: "WCAS",
     title: "Single-Variable Differential Calculus",
     subject: "MATH",
@@ -10633,7 +10585,7 @@ const courses = [
   },
   {
     course_id: "014786",
-    unique_id: "16632",
+    unique_id: "20857",
     school: "WCAS",
     title: "MENU: Real Analysis",
     subject: "MATH",
@@ -11206,6 +11158,14 @@ const courses = [
     title: "Game Theory and Strategic Decisions",
     subject: "MECN",
     number: "452-0",
+  },
+  {
+    course_id: "022738",
+    unique_id: "20849",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "MECN",
+    number: "498-0",
   },
   {
     course_id: "018465",
@@ -12204,14 +12164,6 @@ const courses = [
     number: "434-DL",
   },
   {
-    course_id: "022787",
-    unique_id: "19874",
-    school: "UC",
-    title: "Analytics Systems Engineering",
-    subject: "MSDS",
-    number: "436-DL",
-  },
-  {
     course_id: "022788",
     unique_id: "10811",
     school: "UC",
@@ -12421,7 +12373,7 @@ const courses = [
   },
   {
     course_id: "020919",
-    unique_id: "14831",
+    unique_id: "14223",
     school: "MEAS",
     title: "Predictive Analytics I",
     subject: "MSIA",
@@ -12477,7 +12429,7 @@ const courses = [
   },
   {
     course_id: "020414",
-    unique_id: "14860",
+    unique_id: "20807",
     school: "MEAS",
     title: "Special Topics",
     subject: "MSIA",
@@ -12922,7 +12874,7 @@ const courses = [
   },
   {
     course_id: "023924",
-    unique_id: "19901",
+    unique_id: "20803",
     school: "UC",
     title: "Leadership and Business Strategy",
     subject: "MS_IDS",
@@ -12938,7 +12890,7 @@ const courses = [
   },
   {
     course_id: "017331",
-    unique_id: "14905",
+    unique_id: "20838",
     school: "SESP",
     title: "Foundations",
     subject: "MS_LOC",
@@ -12970,7 +12922,7 @@ const courses = [
   },
   {
     course_id: "021916",
-    unique_id: "14909",
+    unique_id: "20839",
     school: "SESP",
     title: "Leading Global Change",
     subject: "MS_LOC",
@@ -12978,7 +12930,7 @@ const courses = [
   },
   {
     course_id: "019289",
-    unique_id: "14907",
+    unique_id: "20840",
     school: "SESP",
     title: "Coaching for Learning & Performance",
     subject: "MS_LOC",
@@ -13249,16 +13201,8 @@ const courses = [
     number: "540-0",
   },
   {
-    course_id: "015507",
-    unique_id: "19553",
-    school: "MUSIC",
-    title: "Russian Fairy Tale and Opera",
-    subject: "MUSICOL",
-    number: "330-0",
-  },
-  {
     course_id: "019443",
-    unique_id: "19493",
+    unique_id: "10712",
     school: "MUSIC",
     title: "Topics in Popular Music",
     subject: "MUSICOL",
@@ -13295,14 +13239,6 @@ const courses = [
     title: "Musicology Colloquium",
     subject: "MUSICOL",
     number: "390-0",
-  },
-  {
-    course_id: "021646",
-    unique_id: "10716",
-    school: "MUSIC",
-    title: "Russian Fairy Tale and Opera",
-    subject: "MUSICOL",
-    number: "430-0",
   },
   {
     course_id: "021647",
@@ -13962,7 +13898,7 @@ const courses = [
   },
   {
     course_id: "020586",
-    unique_id: "15847",
+    unique_id: "15874",
     school: "TGS",
     title: "Special Topics in Plant Biology and Conservation",
     subject: "PBC",
@@ -14010,7 +13946,7 @@ const courses = [
   },
   {
     course_id: "004187",
-    unique_id: "15440",
+    unique_id: "20812",
     school: "SPCH",
     title: "Seminar: Problems in Performance Studies",
     subject: "PERF_ST",
@@ -15419,14 +15355,6 @@ const courses = [
     number: "364-0",
   },
   {
-    course_id: "023477",
-    unique_id: "19890",
-    school: "UC",
-    title: "Stereotyping & Prejudice",
-    subject: "PSYCH",
-    number: "366-CN",
-  },
-  {
     course_id: "019120",
     unique_id: "18896",
     school: "WCAS",
@@ -15497,6 +15425,14 @@ const courses = [
     title: "Proseminar in Clinical Psychology",
     subject: "PSYCH",
     number: "403-0",
+  },
+  {
+    course_id: "012854",
+    unique_id: "20804",
+    school: "WCAS",
+    title: "Clinical Psychology Practicum",
+    subject: "PSYCH",
+    number: "411-1",
   },
   {
     course_id: "002923",
@@ -15815,7 +15751,7 @@ const courses = [
   },
   {
     course_id: "016238",
-    unique_id: "19468",
+    unique_id: "20847",
     school: "WCAS",
     title: "Topics in East Asian Religions",
     subject: "RELIGION",
@@ -15870,6 +15806,14 @@ const courses = [
     number: "386-0",
   },
   {
+    course_id: "002297",
+    unique_id: "20856",
+    school: "WCAS",
+    title: "Studies in Religions",
+    subject: "RELIGION",
+    number: "471-0",
+  },
+  {
     course_id: "002299",
     unique_id: "17549",
     school: "WCAS",
@@ -15879,7 +15823,7 @@ const courses = [
   },
   {
     course_id: "008144",
-    unique_id: "17004",
+    unique_id: "20855",
     school: "WCAS",
     title: "TA / RA Assistantship",
     subject: "RELIGION",
@@ -15959,7 +15903,7 @@ const courses = [
   },
   {
     course_id: "015210",
-    unique_id: "15054",
+    unique_id: "19351",
     school: "SPCH",
     title: "Foundations of Screenwriting",
     subject: "RTVF",
@@ -16124,14 +16068,6 @@ const courses = [
     title: "Advanced Directing I",
     subject: "RTVF",
     number: "397-1",
-  },
-  {
-    course_id: "004393",
-    unique_id: "19347",
-    school: "SPCH",
-    title: "Textual Analysis",
-    subject: "RTVF",
-    number: "422-0",
   },
   {
     course_id: "004397",
@@ -17076,7 +17012,7 @@ const courses = [
   },
   {
     course_id: "003901",
-    unique_id: "10248",
+    unique_id: "20851",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -17156,7 +17092,7 @@ const courses = [
   },
   {
     course_id: "003936",
-    unique_id: "10257",
+    unique_id: "20852",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
