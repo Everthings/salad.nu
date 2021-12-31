@@ -58,6 +58,10 @@ const Button = styled.button`
   :hover {
     background-color: ${({ theme }) => `${theme.colors.moreInfoTextHighlight}`};
   }
+
+  :focus {
+    outline: none;
+  }
 `;
 
 const InfoCard = ({
