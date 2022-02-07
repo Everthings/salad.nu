@@ -45465,10 +45465,10 @@ const sections = {
       subject: "THEATRE",
       number: "170-0",
       section: "21",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:50",
+      room: { building_name: "Wirtz Center BERGEN" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -45824,9 +45824,12 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: 'Musicianship for Actors is designed to develop a high level of musical literacy for every\nstudent actor, regardless of their incoming musical ability. The class aims to bridge\nthe gap between the classroom and "real world" application of music reading and analysis through the practical application of the pitch elements of music (harmony and melody) and temporal elements of music (rhythm, meter, etc.). Daily class activities include sight-singing, ear training, keyboard application, improvisation, and critical listening - all in the context of musical analysis. Musical material will be drawn from the music theatre repertoire.',
+          desc: 'Musicianship for Actors is designed to develop a high level of musical literacy for every student actor, regardless of their incoming musical ability. The class aims to bridge\nthe gap between the classroom and "real world" application of music reading and analysis through the practical application of the pitch elements of music (harmony and melody) and temporal elements of music (rhythm, meter, etc.). Daily class activities include sight-singing, ear training, keyboard application, improvisation, and critical listening - all in the context of musical analysis. Musical material will be drawn from the music theatre repertoire.',
         },
-        { name: "Class Materials (Required)", desc: "All materials provided." },
+        {
+          name: "Class Materials (Required)",
+          desc: "Manuscript (Staff) Notebook. (Many versions between $5 - $20). Students can also print Staff PDFS (provided) and compile a notebook.",
+        },
       ],
     },
     {
@@ -45844,7 +45847,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Musicianship for Actors is designed to develop a high level of musical literacy for every student actor, regardless of their incoming musical ability. The class aims to bridge\nthe gap between the classroom and "real world" application of music reading and analysis through the practical application of the pitch elements of music (harmony and melody) and temporal elements of music (rhythm, meter, etc.). Daily class activities include sight-singing, ear training, keyboard application, improvisation, and critical listening - all in the context of musical analysis. Musical material will be drawn from the music theatre repertoire.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Manuscript (Staff) Notebook. (Many versions between $5 - $20). Students can also print Staff PDFS (provided) and compile a notebook.",
+        },
+      ],
     },
   ],
   "017242": [
@@ -45894,7 +45906,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The acting course at NU is a developmental course of three years that teaches the study of theatre, and particularly dramatic literature, from the actor's point of view. Much of what we do seeks to establish strong group dynamics so the acting cohort and teacher stay together for the three years. The first year's study concentrates on the actor's creative capacities, and the communicating instrument is the self. The primary creative responsibility of the actor is to generate human character within the given circumstances of a play. While each teacher organizes the work individually, all agree on fundamentals, which include: Sensory Perception and Response, Observation, Imagination, Dramatic Character Creation, and Text Analysis.Get permission number, have fulfilled freshman prereq., be a theater major",
+          desc: "Spring quarter is dedicated to textual analysis, recognizing internal impulses and nurturing leadership skills within the ensemble. We will develop the tools needed to navigate an audition room in a confident and prepared manner. An emphasis on physical specificity, emotional availability and psychological development will be present throughout.",
         },
         {
           name: "Registration Requirements",
@@ -45906,7 +45918,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Materials (play scripts) should be available online or at a library.",
+          desc: "Acting Journals (continuation from fall and winter quarter)-- ~$2",
         },
         { name: "Class Notes", desc: "Instructor Consent." },
       ],
@@ -45929,7 +45941,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The acting course at NU is a developmental course of three years that teaches the study of theatre, and particularly dramatic literature, from the actor's point of view. Much of what we do seeks to establish strong group dynamics so the acting cohort and teacher stay together for the three years. The first year's study concentrates on the actor's creative capacities, and the communicating instrument is the self. The primary creative responsibility of the actor is to generate human character within the given circumstances of a play. While each teacher organizes the work individually, all agree on fundamentals, which include: Sensory Perception and Response, Observation, Imagination, Dramatic Character Creation, and Text Analysis.Get permission number, have fulfilled freshman prereq., be a theater major",
+          desc: "Spring quarter is dedicated to textual analysis, recognizing internal impulses and nurturing leadership skills within the ensemble. We will develop the tools needed to navigate an audition room in a confident and prepared manner. An emphasis on physical specificity, emotional availability and psychological development will be present throughout.",
         },
         {
           name: "Registration Requirements",
@@ -45941,7 +45953,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Materials (play scripts) should be available online or at a library.",
+          desc: "Acting Journals (continuation from fall and winter quarter)-- ~$2",
         },
         { name: "Class Notes", desc: "Instructor Consent." },
       ],
@@ -45964,7 +45976,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The acting course at NU is a developmental course of three years that teaches the study of theatre, and particularly dramatic literature, from the actor's point of view. Much of what we do seeks to establish strong group dynamics so the acting cohort and teacher stay together for the three years. The first year's study concentrates on the actor's creative capacities, and the communicating instrument is the self. The primary creative responsibility of the actor is to generate human character within the given circumstances of a play. While each teacher organizes the work individually, all agree on fundamentals, which include: Sensory Perception and Response, Observation, Imagination, Dramatic Character Creation, and Text Analysis.Get permission number, have fulfilled freshman prereq., be a theater major",
+          desc: "Spring quarter is dedicated to textual analysis, recognizing internal impulses and nurturing leadership skills within the ensemble. We will develop the tools needed to navigate an audition room in a confident and prepared manner. An emphasis on physical specificity, emotional availability and psychological development will be present throughout.",
         },
         {
           name: "Registration Requirements",
@@ -45976,7 +45988,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Materials (play scripts) should be available online or at a library.",
+          desc: "Acting Journals (continuation from fall and winter quarter)-- ~$2",
         },
         { name: "Class Notes", desc: "Instructor Consent." },
       ],
@@ -45999,7 +46011,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The acting course at NU is a developmental course of three years that teaches the study of theatre, and particularly dramatic literature, from the actor's point of view. Much of what we do seeks to establish strong group dynamics so the acting cohort and teacher stay together for the three years. The first year's study concentrates on the actor's creative capacities, and the communicating instrument is the self. The primary creative responsibility of the actor is to generate human character within the given circumstances of a play. While each teacher organizes the work individually, all agree on fundamentals, which include: Sensory Perception and Response, Observation, Imagination, Dramatic Character Creation, and Text Analysis.Get permission number, have fulfilled freshman prereq., be a theater major",
+          desc: "Spring quarter is dedicated to textual analysis, recognizing internal impulses and nurturing leadership skills within the ensemble. We will develop the tools needed to navigate an audition room in a confident and prepared manner. An emphasis on physical specificity, emotional availability and psychological development will be present throughout.",
         },
         {
           name: "Registration Requirements",
@@ -46011,7 +46023,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Materials (play scripts) should be available online or at a library.",
+          desc: "Acting Journals (continuation from fall and winter quarter)-- ~$2",
         },
         { name: "Class Notes", desc: "Instructor Consent." },
       ],
@@ -46034,7 +46046,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The acting course at NU is a developmental course of three years that teaches the study of theatre, and particularly dramatic literature, from the actor's point of view. Much of what we do seeks to establish strong group dynamics so the acting cohort and teacher stay together for the three years. The first year's study concentrates on the actor's creative capacities, and the communicating instrument is the self. The primary creative responsibility of the actor is to generate human character within the given circumstances of a play. While each teacher organizes the work individually, all agree on fundamentals, which include: Sensory Perception and Response, Observation, Imagination, Dramatic Character Creation, and Text Analysis.Get permission number, have fulfilled freshman prereq., be a theater major",
+          desc: "Spring quarter is dedicated to textual analysis, recognizing internal impulses and nurturing leadership skills within the ensemble. We will develop the tools needed to navigate an audition room in a confident and prepared manner. An emphasis on physical specificity, emotional availability and psychological development will be present throughout.",
         },
         {
           name: "Registration Requirements",
@@ -46046,7 +46058,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Materials (play scripts) should be available online or at a library.",
+          desc: "Acting Journals (continuation from fall and winter quarter)-- ~$2",
         },
         { name: "Class Notes", desc: "Instructor Consent." },
       ],
@@ -46120,7 +46132,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This theatre art course introduces students to the technology used for 2D visualization through digital drawing, coloring, and composing utilizing Adobe Photoshop and Corel Painter programs in conjunction with the Wacom Cintiq display or Wacom Intuos Pro tablet and stylus pen.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "1.\tLaptop or computer (latest Mac OS or Windows; latest service pack/build)\n2.\tComputer programs Adobe Photoshop (latest version) and Corel Painter (latest version) @ $100\n3.\tIntuos Pro drawing tablet (small size) with compatible stylus pen or Wacom Cintiq Pro with compatible stylus pen @ $200\n4.\tAccess to One Drive",
+        },
+      ],
     },
   ],
   "015725": [
@@ -46242,7 +46263,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course explores the history and legacy of the Black Arts Movement (BAM), the "aesthetic and spiritual sister of the Black Power concept." BAM artists approached artistic production as a radical act, as a tool for social change; they used literature, visual art, and music to destroy the cultural power of whiteness and develop autonomous forms of Black expression. This course does three things: 1) situates the BAM within the political and cultural history of the United States during the 1960s and 1970s; 2) examines the role of theatre in advancing the goals of the BAM; and 3) considers the relevance of the BAM for theatre in the twenty-first century.',
+        },
+      ],
     },
   ],
   "022891": [
@@ -46404,15 +46430,15 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Rock. Pop. Soul. Folk. Country. Jazz. Blues. In today's musical theatre performance, we sing in a multitude of styles. Yet to truly understand and embody these various ways of using voice we need to listen beyond the Broadway canon. Through singing songs in a range of styles, close listening, supplemental reading and discussion, in this course students learn to identify and vocalize key elements of different pop styles of vocal music, working toward building their own personal style in various genres while thinking critically about how they choose to use their voices.",
+          desc: "Find your authentic way into singing Pop/Rock Styles through technical tools and appreciation for cultural roots.  \nMusical Theatre auditions today are calling for extreme range, versatility, agility, and now, more than ever, Pop/Rock vocal styles. Singing, performing and understanding pop/rock is a specific skill set that needs practice, research, study, and technical application. \nAdditionally, the birth of Pop/Rock music is deeply rooted in historical events and cultural issues. Understanding the social and political landscape that inspired the creation of various popular music genres is crucial to exploring one's personal artistic authenticity. The connection between history and genre specific sound is one that can not be understated. \nThis course will touch on fundamentals and your individual baseline. \nThrough group singing, solo singing, lots of listening, and experiencing, we will then delve into the  technical exploration of singing Pop/RockVocal Styles including Rock, Disco, Singer Songwriter Folk, Rap, and more, We will research the history that inspired and influenced the genre specific sounds. Finally, we'll explore how these styles fit into the Pop/Rock musical theatre landscape.",
         },
         {
           name: "Class Materials (Required)",
-          desc: "Laptop, microphone (students will already have this from voice lessons)",
+          desc: "Recommended but not required: Anker Soundcore 2 Portable Bluetooth Speaker with 12W Stereo Sound, Bluetooth 5, Bassup, IPX7: $34.99. NOTE: IF A STUDENT HAS A SPEAKER- THEY MAY USE THAT INSTEAD.",
         },
         {
           name: "Class Notes",
-          desc: "Open to members of the Music Theatre Certificate Program and/or by consent of the instructor.",
+          desc: "Open to members of the Music Theatre Certificate Program, juniors.",
         },
       ],
     },
@@ -46431,20 +46457,7 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "Rock. Pop. Soul. Folk. Country. Jazz. Blues. In today's musical theatre performance, we sing in a multitude of styles. Yet to truly understand and embody these various ways of using voice we need to listen beyond the Broadway canon. Through singing songs in a range of styles, close listening, supplemental reading and discussion, in this course students learn to identify and vocalize key elements of different pop styles of vocal music, working toward building their own personal style in various genres while thinking critically about how they choose to use their voices.",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Laptop, microphone (students will already have this from voice lessons)",
-        },
-        {
-          name: "Class Notes",
-          desc: "Open to members of the Music Theatre Certificate Program and/or by consent of the instructor.",
-        },
-      ],
+      course_descriptions: [],
     },
   ],
   "022931": [
@@ -46485,19 +46498,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Through the discipline and study of theatre, we seek to understand what it is to be human.   \nAfter quarters spent on Heightened Drama and Heightened Language, we move fully into the study of the individual identity in struggle with society and culture in the modern world.  As we focus on Realism, we investigate the inner life of the character and seek the intersections of character and actor while deepening our understanding the dynamics of human behavior. To quote Meisner, we seek, ?the pure, unselfconscious revelation of the gifted actor's most inner and most private being to the people in his audience.'   \n\nClaire Barron, Anton Chekhov, Lorraine Hansberry, Rajiv Joseph, Lily Padilla, Harold Pinter, Jose Rivera, Madhuri Shekar, Jen Silverman, and Lauren Yee, are a handful of dramatists whose work we will serve as foundation for our investigation.  Coursework will emphasize Historical Context, Text Analysis, World of the Play, Given Circumstances, Scene Study, Character, Action, Improvisation, Relationship, Power/Status, Intention, Stakes & Gravity, Honesty, Vulnerability, Irony, Spine, Tone, Arc, Realization & Decision, Connection, Metaphor, Spontaneity, and Being.",
+          desc: "The third quarterJunior year is dedicated to the performance of theatrical realism. We will delve deeper into the psychological aspects of our craft, and build off of the rich textual work done in winter quarter to bring the internal machinations of humanity forward and outward to our scene partners and our audience. Relationship, Action, Emotional Truth and detailed Given Circumstances will be our springboard into scene work. An emphasis on physical specificity, emotional availability and psychological development, as always, will be present throughout.",
         },
         {
           name: "Registration Requirements",
           desc: "Student specific permission numbers",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Materials will be available at no cost through library, online sources, or provided by instructor.",
-        },
-        {
-          name: "Class Materials (Suggested)",
-          desc: "Materials (play scripts) should be available online or at a library.",
         },
       ],
     },
@@ -46519,19 +46524,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Through the discipline and study of theatre, we seek to understand what it is to be human.   \nAfter quarters spent on Heightened Drama and Heightened Language, we move fully into the study of the individual identity in struggle with society and culture in the modern world.  As we focus on Realism, we investigate the inner life of the character and seek the intersections of character and actor while deepening our understanding the dynamics of human behavior. To quote Meisner, we seek, ?the pure, unselfconscious revelation of the gifted actor's most inner and most private being to the people in his audience.'   \n\nClaire Barron, Anton Chekhov, Lorraine Hansberry, Rajiv Joseph, Lily Padilla, Harold Pinter, Jose Rivera, Madhuri Shekar, Jen Silverman, and Lauren Yee, are a handful of dramatists whose work we will serve as foundation for our investigation.  Coursework will emphasize Historical Context, Text Analysis, World of the Play, Given Circumstances, Scene Study, Character, Action, Improvisation, Relationship, Power/Status, Intention, Stakes & Gravity, Honesty, Vulnerability, Irony, Spine, Tone, Arc, Realization & Decision, Connection, Metaphor, Spontaneity, and Being.",
+          desc: "The third quarterJunior year is dedicated to the performance of theatrical realism. We will delve deeper into the psychological aspects of our craft, and build off of the rich textual work done in winter quarter to bring the internal machinations of humanity forward and outward to our scene partners and our audience. Relationship, Action, Emotional Truth and detailed Given Circumstances will be our springboard into scene work. An emphasis on physical specificity, emotional availability and psychological development, as always, will be present throughout.",
         },
         {
           name: "Registration Requirements",
           desc: "Student specific permission numbers",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Materials will be available at no cost through library, online sources, or provided by instructor.",
-        },
-        {
-          name: "Class Materials (Suggested)",
-          desc: "Materials (play scripts) should be available online or at a library.",
         },
       ],
     },
@@ -46553,19 +46550,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Through the discipline and study of theatre, we seek to understand what it is to be human.   \nAfter quarters spent on Heightened Drama and Heightened Language, we move fully into the study of the individual identity in struggle with society and culture in the modern world.  As we focus on Realism, we investigate the inner life of the character and seek the intersections of character and actor while deepening our understanding the dynamics of human behavior. To quote Meisner, we seek, ?the pure, unselfconscious revelation of the gifted actor's most inner and most private being to the people in his audience.'   \n\nClaire Barron, Anton Chekhov, Lorraine Hansberry, Rajiv Joseph, Lily Padilla, Harold Pinter, Jose Rivera, Madhuri Shekar, Jen Silverman, and Lauren Yee, are a handful of dramatists whose work we will serve as foundation for our investigation.  Coursework will emphasize Historical Context, Text Analysis, World of the Play, Given Circumstances, Scene Study, Character, Action, Improvisation, Relationship, Power/Status, Intention, Stakes & Gravity, Honesty, Vulnerability, Irony, Spine, Tone, Arc, Realization & Decision, Connection, Metaphor, Spontaneity, and Being.",
+          desc: "The third quarterJunior year is dedicated to the performance of theatrical realism. We will delve deeper into the psychological aspects of our craft, and build off of the rich textual work done in winter quarter to bring the internal machinations of humanity forward and outward to our scene partners and our audience. Relationship, Action, Emotional Truth and detailed Given Circumstances will be our springboard into scene work. An emphasis on physical specificity, emotional availability and psychological development, as always, will be present throughout.",
         },
         {
           name: "Registration Requirements",
           desc: "Student specific permission numbers",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Materials will be available at no cost through library, online sources, or provided by instructor.",
-        },
-        {
-          name: "Class Materials (Suggested)",
-          desc: "Materials (play scripts) should be available online or at a library.",
         },
       ],
     },
@@ -46587,19 +46576,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Through the discipline and study of theatre, we seek to understand what it is to be human.   \nAfter quarters spent on Heightened Drama and Heightened Language, we move fully into the study of the individual identity in struggle with society and culture in the modern world.  As we focus on Realism, we investigate the inner life of the character and seek the intersections of character and actor while deepening our understanding the dynamics of human behavior. To quote Meisner, we seek, ?the pure, unselfconscious revelation of the gifted actor's most inner and most private being to the people in his audience.'   \n\nClaire Barron, Anton Chekhov, Lorraine Hansberry, Rajiv Joseph, Lily Padilla, Harold Pinter, Jose Rivera, Madhuri Shekar, Jen Silverman, and Lauren Yee, are a handful of dramatists whose work we will serve as foundation for our investigation.  Coursework will emphasize Historical Context, Text Analysis, World of the Play, Given Circumstances, Scene Study, Character, Action, Improvisation, Relationship, Power/Status, Intention, Stakes & Gravity, Honesty, Vulnerability, Irony, Spine, Tone, Arc, Realization & Decision, Connection, Metaphor, Spontaneity, and Being.",
+          desc: "The third quarterJunior year is dedicated to the performance of theatrical realism. We will delve deeper into the psychological aspects of our craft, and build off of the rich textual work done in winter quarter to bring the internal machinations of humanity forward and outward to our scene partners and our audience. Relationship, Action, Emotional Truth and detailed Given Circumstances will be our springboard into scene work. An emphasis on physical specificity, emotional availability and psychological development, as always, will be present throughout.",
         },
         {
           name: "Registration Requirements",
           desc: "Student specific permission numbers",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Materials will be available at no cost through library, online sources, or provided by instructor.",
-        },
-        {
-          name: "Class Materials (Suggested)",
-          desc: "Materials (play scripts) should be available online or at a library.",
         },
       ],
     },
@@ -46621,19 +46602,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Through the discipline and study of theatre, we seek to understand what it is to be human.   \nAfter quarters spent on Heightened Drama and Heightened Language, we move fully into the study of the individual identity in struggle with society and culture in the modern world.  As we focus on Realism, we investigate the inner life of the character and seek the intersections of character and actor while deepening our understanding the dynamics of human behavior. To quote Meisner, we seek, ?the pure, unselfconscious revelation of the gifted actor's most inner and most private being to the people in his audience.'   \n\nClaire Barron, Anton Chekhov, Lorraine Hansberry, Rajiv Joseph, Lily Padilla, Harold Pinter, Jose Rivera, Madhuri Shekar, Jen Silverman, and Lauren Yee, are a handful of dramatists whose work we will serve as foundation for our investigation.  Coursework will emphasize Historical Context, Text Analysis, World of the Play, Given Circumstances, Scene Study, Character, Action, Improvisation, Relationship, Power/Status, Intention, Stakes & Gravity, Honesty, Vulnerability, Irony, Spine, Tone, Arc, Realization & Decision, Connection, Metaphor, Spontaneity, and Being.",
+          desc: "The third quarterJunior year is dedicated to the performance of theatrical realism. We will delve deeper into the psychological aspects of our craft, and build off of the rich textual work done in winter quarter to bring the internal machinations of humanity forward and outward to our scene partners and our audience. Relationship, Action, Emotional Truth and detailed Given Circumstances will be our springboard into scene work. An emphasis on physical specificity, emotional availability and psychological development, as always, will be present throughout.",
         },
         {
           name: "Registration Requirements",
           desc: "Student specific permission numbers",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Materials will be available at no cost through library, online sources, or provided by instructor.",
-        },
-        {
-          name: "Class Materials (Suggested)",
-          desc: "Materials (play scripts) should be available online or at a library.",
         },
       ],
     },
@@ -46674,11 +46647,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course will examine how one navigates the entertainment industry as an artist. We will learn about agents and casting, auditioning, headshots/resumes, cover letters, on-camera work, voiceovers, and other tools for the working professional artist. We will consider some of the minutia that seems daunting at the start of a career, i.e. taxes, unions, and even how different cities function as locations for actors. Students will learn how to choose material for auditions and will get feedback on their auditioning skills as they prepare for Northwestern's online showcase. This is a lecture/discussion course, but it requires full, physical participation, and grades will depend upon such.",
+          desc: "This course will examine how one navigates the theatre/entertainment industry as an artist. We will learn about agents and casting, auditioning, headshots/resumes, cover letters, on-camera work, and other important matters. We will consider some of the minutia that seems daunting at the start of a career, i.e. taxes, unions, and even how different cities function as locations for actors. We will discuss types and we will roleplay in contract negotiation. This is a lecture/discussion course, but it requires full, physical participation. This course also serves as preparation for the NU Faces Chicago Showcase which will take place at the end of the quarter.",
         },
         {
           name: "Class Materials (Required)",
-          desc: '"Recommended Text: (not required)\nThe Backstage Guide to Working in Regional Theatre, by Jim Volz ($5-20)\nAudition, by Michael Shurtleff   ($8-15)"',
+          desc: "All course materials will be provided by the instructor. Students are required to obtain and pay for their own headshots and self tape equipment if participating in the showcase.",
         },
       ],
     },
@@ -46790,7 +46763,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'American poet Gary Snyder famously wrote, "Nature is not a place you visit. It is home."  The destruction of nature and the climate crises are among the most pressing subjects of our time. What stories might we tell on stage that help capture this imminent threat, and how can our plays take the form of rallying cries to protect the natural world?  Students will wrestle with these questions as they craft a one-act play.  Meets Wednesdays, 12-2:50 pm. Professor Julie Marie Myatt',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "3-4 plays that will either be provided or need to be purchased. Plays cost around $10 each.",
+        },
+      ],
     },
   ],
   "004629": [
@@ -71363,7 +71345,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "What makes food social? What is sociological about eating? How does society shape our relationship with food? These are questions at the center of this course. During the span of this quarter, we will learn about the role of food in society, how social norms as well as culture impact our view of food and review the following topic within food and society: Food inequality, food and sustainability, food and gender and lastly, food culture in the US. We will do so by employing a sociological perspective to food that will help is critically engage with something we do every day - preparing and eating food. This is an introductory level class and does not require prior knowledge in sociology or in knowledge production. By the end of the quarter students will view food as a social and community construct that impacts our lives, well-being, and society.\n\nThis course is taught with SOCIOL 211-0-20",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the quarter students are expected to:\n1.\tBecome familiar with sociological perspectives on food and present an in depth understating of the course materials.\n2.\tDevelop critical analytical skills and apply them to food related topics inside and outside of the classroom.\n3.\tSynthesize course materials in a coherent manner and develop their own arguments regarding food and society.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The course will be a combination of lectures, class discussion and group work",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "20%: Individual weekly assignments: students are expected to submit a comment, question, or a relevant news article, podcast, or social media post/video to the discussion boards on Canvas. \n10%: Attendance: Attendance will be taken through an in-class survey every lecture, that is not directly related to the readings. \n20%: Group assignment: Students will be divided to groups of 4, will select one food item or topic, and analyze it using the theories learned in class during the first half of the quarter.\n25%: Midterm exam: the midterm will include three sections: definitions, short essay questions and a long essay question. All of which will be with multiple options to choose from.\n25%: Final exam: The Final exam will include three sections: definitions, short essay questions and a long essay question. All of which will be with multiple options to choose from.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials for this course will be made available on Canvas - no purchase necessary.",
+        },
+      ],
     },
     {
       unique_id: "38656",
@@ -71380,7 +71383,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "What makes food social? What is sociological about eating? How does society shape our relationship with food? These are questions at the center of this course. During the span of this quarter, we will learn about the role of food in society, how social norms as well as culture impact our view of food and review the following topic within food and society: Food inequality, food and sustainability, food and gender and lastly, food culture in the US. We will do so by employing a sociological perspective to food that will help is critically engage with something we do every day - preparing and eating food. This is an introductory level class and does not require prior knowledge in sociology or in knowledge production. By the end of the quarter students will view food as a social and community construct that impacts our lives, well-being, and society.\n\nThis course is taught with ENVR_POL 211-0-20",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the quarter students are expected to:\n1.\tBecome familiar with sociological perspectives on food and present an in depth understating of the course materials.\n2.\tDevelop critical analytical skills and apply them to food related topics inside and outside of the classroom.\n3.\tSynthesize course materials in a coherent manner and develop their own arguments regarding food and society.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The course will be a combination of lectures, class discussion and group work",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "20%: Individual weekly assignments: students are expected to submit a comment, question, or a relevant news article, podcast, or social media post/video to the discussion boards on Canvas. \n10%: Attendance: Attendance will be taken through an in-class survey every lecture, that is not directly related to the readings. \n20%: Group assignment: Students will be divided to groups of 4, will select one food item or topic, and analyze it using the theories learned in class during the first half of the quarter.\n25%: Midterm exam: the midterm will include three sections: definitions, short essay questions and a long essay question. All of which will be with multiple options to choose from.\n25%: Final exam: The Final exam will include three sections: definitions, short essay questions and a long essay question. All of which will be with multiple options to choose from.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials for this course will be made available on Canvas - no purchase necessary.",
+        },
+      ],
     },
   ],
   "018572": [
@@ -73280,42 +73304,6 @@ const sections = {
       subject: "GEN_LA",
       number: "280-6",
       section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "SEM",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "36974",
-      instructors: [],
-      mode: null,
-      title: "Residence-Linked Seminar - VI (Literature and Fine Arts)",
-      subject: "GEN_LA",
-      number: "280-6",
-      section: "21",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "SEM",
-      course_descriptions: [],
-    },
-  ],
-  "001041": [
-    {
-      unique_id: "36973",
-      instructors: [],
-      mode: null,
-      title: "Residence-Linked Seminar",
-      subject: "GEN_LA",
-      number: "280-7",
-      section: "21",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -91941,7 +91929,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: '"Critical Thought on Race and Ethnicity"\n\nThis course, SOC 276: Critical Thought on Race and Ethnicity, examines historical and contemporary manifestations of racism/ethnocentrism and anti-racism; and xenophobia/nationalism and internationalism. Racism, ethnocentrism, and nationalism are related in ideas of ancestry and difference, and we will explore together theoretical approaches to understanding the social, cultural, political and economic aspects of difference. The course centers on racialization (how individuals/groups are sorted into races), global and local racial paradigms (the rules of race-making and racial assignment), and why these denigrating mechanisms are so difficult to eradicate. We also examine what antiracism looks like and how it might be achieved. Despite the challenging course content, this class is a blast!',
+        },
+        {
+          name: "Teaching Method",
+          desc: "At each class meeting students are expected to have already read the assigned material (either readings, films, etc.) and Dr. Bashi uses class periods for discussion.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Examinations are written essays (not multiple choice) and center on students' absorption and analysis of course material (including lectures). Should regular course meeting discussions falter because students appear to not be prepared, pop quizzes will be instituted.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "This course will have required books/other materials.\n\nBooks:\n\nAuthor: Vilna Bashi Treitler\nTitle: The Ethnic Project: Transforming Racial Fictions into Ethnic Factions\nPublisher: Stanford University Press\nPaperback ISBN: 9780804757720\nEbook ISBN: 9780804787284",
+        },
+        {
+          name: "Class Notes",
+          desc: "Yes, a significant amount of reading is required, but the writings are interesting and the discussions are even more so. Be prepared for class and a good grade is relatively easy. In fact, Dr. Bashi would rather not give grades at all. Come in and let's talk about all the important things that can help make our country and world a better place.",
+        },
+      ],
     },
   ],
   "003318": [
@@ -92242,7 +92251,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'What are gangs and what do they do? What do we mean when we talk about gangs, and how has that changed over time? This course gives students a vocabulary and a theoretical toolkit for answering those questions by diving deep into sociological scholarship on the concept of "the gang." We\'ll look at the ways that scholars, governments, law enforcement and popular culture make sense of and respond to gangs, as well as the ways that gangs have changed in response to those efforts. We\'ll begin with an overview of classic gang scholarship. From there, students will be introduced to new developments in social scientists\' understanding of how gangs operate, as well as accounts of how other groups in society have responded to gangs. Readings will combine both theory and empirical description, preparing students to engage with tough questions like how globalization and the internet have changed the way that gangs operate, or how the topic of gangs intersects with groups like Black Lives Matter, or calls to defund the police. By the end of the course, students will not only get an overview of the last century of gang scholarship, they will be urged to question what the word "gang" might mean to them?and to society as a whole.',
+        },
+        { name: "Teaching Method", desc: "Reading discussion, lecture" },
+        {
+          name: "Evaluation Method",
+          desc: "Writing assignments will include a mix of short response papers and a final project (either a paper or multimedia presentation) developed in consultation with the instructor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials for this course will be made available on Canvas - no purchase necessary.",
+        },
+      ],
     },
   ],
   "023088": [
@@ -92309,7 +92332,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Hoffman, John P.  2016.  Regression Models for Categorical, Count, and Related Variables:  An Applied Approach.  Berkeley:  University of California Press.  Amazon Price:  paperback $58.23, Kindle $39.49.",
+          desc: "All materials for this course will be made available on Canvas - no purchase necessary.",
         },
       ],
     },

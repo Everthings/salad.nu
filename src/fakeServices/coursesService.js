@@ -7316,19 +7316,11 @@ const courses = [
   },
   {
     course_id: "019135",
-    unique_id: "36974",
+    unique_id: "36843",
     school: "WCAS",
     title: "Residence-Linked Seminar - VI (Literature and Fine Arts)",
     subject: "GEN_LA",
     number: "280-6",
-  },
-  {
-    course_id: "001041",
-    unique_id: "36973",
-    school: "WCAS",
-    title: "Residence-Linked Seminar",
-    subject: "GEN_LA",
-    number: "280-7",
   },
   {
     course_id: "016853",
