@@ -702,14 +702,6 @@ const courses = [
     number: "370-0",
   },
   {
-    course_id: "024003",
-    unique_id: "37031",
-    school: "WCAS",
-    title: "South Asian Societies",
-    subject: "ASIAN_LC",
-    number: "375-0",
-  },
-  {
     course_id: "018604",
     unique_id: "38971",
     school: "WCAS",
@@ -1575,14 +1567,6 @@ const courses = [
     number: "201-DL",
   },
   {
-    course_id: "021379",
-    unique_id: "30890",
-    school: "UC",
-    title: "Advanced Modeling Methods",
-    subject: "BUS_ANLY",
-    number: "203-DL",
-  },
-  {
     course_id: "021380",
     unique_id: "39774",
     school: "UC",
@@ -2402,7 +2386,7 @@ const courses = [
   },
   {
     course_id: "004951",
-    unique_id: "34211",
+    unique_id: "40138",
     school: "MEAS",
     title: "Selected Topics in Civil Engineering",
     subject: "CIV_ENV",
@@ -5256,7 +5240,7 @@ const courses = [
   },
   {
     course_id: "018388",
-    unique_id: "39538",
+    unique_id: "40137",
     school: "MEAS",
     title: "Intermediate Topics in Engineering Design",
     subject: "DSGN",
@@ -5285,6 +5269,14 @@ const courses = [
     title: "Human-Centered Product Design",
     subject: "DSGN",
     number: "308-0",
+  },
+  {
+    course_id: "024261",
+    unique_id: "40143",
+    school: "MEAS",
+    title: "Design, Technology, and Research",
+    subject: "DSGN",
+    number: "315-0",
   },
   {
     course_id: "017983",
@@ -6972,7 +6964,7 @@ const courses = [
   },
   {
     course_id: "017513",
-    unique_id: "36567",
+    unique_id: "36568",
     school: "WCAS",
     title: "Intensive Intermediate French",
     subject: "FRENCH",
@@ -7315,12 +7307,28 @@ const courses = [
     number: "546-0",
   },
   {
+    course_id: "019133",
+    unique_id: "40139",
+    school: "WCAS",
+    title: "Residence-Linked Seminar - IV (Historical Studies)",
+    subject: "GEN_LA",
+    number: "280-4",
+  },
+  {
     course_id: "019135",
     unique_id: "36843",
     school: "WCAS",
     title: "Residence-Linked Seminar - VI (Literature and Fine Arts)",
     subject: "GEN_LA",
     number: "280-6",
+  },
+  {
+    course_id: "001041",
+    unique_id: "40144",
+    school: "WCAS",
+    title: "Residence-Linked Seminar",
+    subject: "GEN_LA",
+    number: "280-7",
   },
   {
     course_id: "016853",
@@ -10474,7 +10482,7 @@ const courses = [
   },
   {
     course_id: "022542",
-    unique_id: "39092",
+    unique_id: "40150",
     school: "SESP",
     title: "Topics in Learning Sciences",
     subject: "LRN_SCI",
@@ -10514,7 +10522,7 @@ const courses = [
   },
   {
     course_id: "000614",
-    unique_id: "34739",
+    unique_id: "40148",
     school: "SESP",
     title: "Topics in Learning Sciences",
     subject: "LRN_SCI",
@@ -12122,6 +12130,14 @@ const courses = [
     number: "490-2",
   },
   {
+    course_id: "023996",
+    unique_id: "40153",
+    school: "MEAS",
+    title: "Special Topics",
+    subject: "MSAI",
+    number: "495-0",
+  },
+  {
     course_id: "021926",
     unique_id: "39707",
     school: "SPCH",
@@ -12131,7 +12147,7 @@ const courses = [
   },
   {
     course_id: "022090",
-    unique_id: "39708",
+    unique_id: "40130",
     school: "SPCH",
     title: "Understanding & Leveraging Networks",
     subject: "MSC",
@@ -15117,14 +15133,6 @@ const courses = [
     number: "315-DL",
   },
   {
-    course_id: "020781",
-    unique_id: "30943",
-    school: "UC",
-    title: "Leading and Coaching Agile Teams",
-    subject: "PROJ_PMI",
-    number: "350-0",
-  },
-  {
     course_id: "021499",
     unique_id: "30901",
     school: "UC",
@@ -17963,6 +17971,22 @@ const courses = [
     number: "170-0",
   },
   {
+    course_id: "004581",
+    unique_id: "40146",
+    school: "SPCH",
+    title: "Basic Acting",
+    subject: "THEATRE",
+    number: "171-0",
+  },
+  {
+    course_id: "016531",
+    unique_id: "40151",
+    school: "SPCH",
+    title: "Fundamentals of Stage Directing",
+    subject: "THEATRE",
+    number: "211-0",
+  },
+  {
     course_id: "004592",
     unique_id: "34849",
     school: "SPCH",
@@ -17985,14 +18009,6 @@ const courses = [
     title: "Design Process: Lighting",
     subject: "THEATRE",
     number: "221-3",
-  },
-  {
-    course_id: "016458",
-    unique_id: "40119",
-    school: "SPCH",
-    title: "Theatre Sound",
-    subject: "THEATRE",
-    number: "223-0",
   },
   {
     course_id: "004630",

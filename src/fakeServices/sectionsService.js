@@ -876,7 +876,7 @@ const sections = {
   "024322": [
     {
       unique_id: "39033",
-      instructors: ["Nancy   Hobor", "Ernest   Duplessis"],
+      instructors: ["Nancy   Hobor"],
       mode: null,
       title: "Special Topics",
       subject: "IMC",
@@ -1816,7 +1816,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course will be a nuts-and-bolts dive into sports journalism with an emphasis on baseball beat coverage, an examination of the state of professional baseball and preparation for our Explores week reporting on Minor League Baseball. In this class, you will learn how sports reporters do their jobs on a daily basis and cover beats during an ever-changing climate. We will work on how best to perform on deadline in a fast-paced, often highly pressured environment; how to craft original daily stories and features while also making the most of social media; how the most successful sports journalists develop sources and report breaking news before their competition; and how to interview and interact with athletes, coaches and executives in a way that gets the best results.",
+          desc: "This course is a dive into the ever-changing industry of sports journalism from both the reporting and audience perspectives. You will learn how sports reporters do their jobs on a daily basis by covering a beat, learning how the really good ones rise above the rest by studying professionals in the business. And in an industry that seemingly looks different every year, we will examine and analyze how it disseminates news. I will ask where you get your sports news and content beyond social media but more importantly, I will ask you to examine why and what you think about it. I will expect you to master the fundamentals of writing and reporting while you learn how best to perform on deadline in a fast-paced, often highly pressured environment; to craft original daily stories and features; to develop sources and break news and how to interview and interact with athletes, coaches, team execs, agents and media relations officials in a way that gets the best results.",
         },
         { name: "Class Materials (Required)", desc: "None" },
       ],
@@ -13163,6 +13163,23 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
+    {
+      unique_id: "40138",
+      instructors: ["Ange-Therese   Akono"],
+      mode: null,
+      title: "Selected Topics in Civil Engineering",
+      subject: "CIV_ENV",
+      number: "495-0",
+      section: "33",
+      meeting_days: "TuTh",
+      start_time: "12:30",
+      end_time: "13:50",
+      room: { building_name: "Technological Institute M120" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
   ],
   "015870": [
     {
@@ -14283,6 +14300,23 @@ const sections = {
       start_time: "15:30",
       end_time: "16:50",
       room: { building_name: "Technological Institute LG62" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "SEM",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "40142",
+      instructors: ["Xinyu   Xing"],
+      mode: null,
+      title: "Special Topics in Computer Science",
+      subject: "COMP_SCI",
+      number: "496-0",
+      section: "12",
+      meeting_days: "Fr",
+      start_time: "9:00",
+      end_time: "11:50",
+      room: { building_name: "Frances Searle Building 2370" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
@@ -16877,6 +16911,23 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
+    {
+      unique_id: "40137",
+      instructors: [],
+      mode: null,
+      title: "Intermediate Topics in Engineering Design",
+      subject: "DSGN",
+      number: "297-0",
+      section: "2",
+      meeting_days: "Tu",
+      start_time: "9:00",
+      end_time: "12:00",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
   ],
   "023157": [
     {
@@ -16923,10 +16974,10 @@ const sections = {
       subject: "DSGN",
       number: "306-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
+      meeting_days: "Tu",
+      start_time: "18:00",
+      end_time: "21:00",
+      room: { building_name: "Ford Hive Annex 2340" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -16959,6 +17010,25 @@ const sections = {
           desc: "Hybrid, Supplemental: in-person sessions offered\n\nPre Reqs: DSGN 106-1 and 106-2 or DSGN 208 or Instructor's Permission",
         },
       ],
+    },
+  ],
+  "024261": [
+    {
+      unique_id: "40143",
+      instructors: ["Haoqi   Zhang"],
+      mode: null,
+      title: "Design, Technology, and Research",
+      subject: "DSGN",
+      number: "315-0",
+      section: "1",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
     },
   ],
   "017983": [
@@ -17191,33 +17261,16 @@ const sections = {
   "018387": [
     {
       unique_id: "34132",
-      instructors: [],
+      instructors: ["Thomas Faburn DeFrantz"],
       mode: null,
       title: "Special Topics",
       subject: "DSGN",
       number: "395-0",
       section: "64",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "34133",
-      instructors: [],
-      mode: null,
-      title: "Special Topics",
-      subject: "DSGN",
-      number: "395-0",
-      section: "65",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
+      meeting_days: "MoWe",
+      start_time: "10:30",
+      end_time: "12:00",
+      room: { building_name: "Ford Hive Rm 2350" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -17419,9 +17472,9 @@ const sections = {
       subject: "DSGN",
       number: "495-0",
       section: "40",
-      meeting_days: "TuTh",
-      start_time: "9:00",
-      end_time: "12:00",
+      meeting_days: "TuFr",
+      start_time: "13:00",
+      end_time: "16:00",
       room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
@@ -19589,57 +19642,6 @@ const sections = {
   ],
   "005291": [
     {
-      unique_id: "31517",
-      instructors: [],
-      mode: null,
-      title: "Honors Project in Materials Science",
-      subject: "MAT_SCI",
-      number: "394-0",
-      section: "03",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "IND",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31518",
-      instructors: [],
-      mode: null,
-      title: "Honors Project in Materials Science",
-      subject: "MAT_SCI",
-      number: "394-0",
-      section: "06",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "IND",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31519",
-      instructors: [],
-      mode: null,
-      title: "Honors Project in Materials Science",
-      subject: "MAT_SCI",
-      number: "394-0",
-      section: "09",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "IND",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31483",
       instructors: ["R P H Chang"],
       mode: null,
@@ -19681,6 +19683,23 @@ const sections = {
       subject: "MAT_SCI",
       number: "394-0",
       section: "18",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "31517",
+      instructors: [],
+      mode: null,
+      title: "Honors Project in Materials Science",
+      subject: "MAT_SCI",
+      number: "394-0",
+      section: "2",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -19895,6 +19914,23 @@ const sections = {
       course_descriptions: [],
     },
     {
+      unique_id: "31518",
+      instructors: [],
+      mode: null,
+      title: "Honors Project in Materials Science",
+      subject: "MAT_SCI",
+      number: "394-0",
+      section: "5",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
       unique_id: "31498",
       instructors: ["Phillip B Messersmith"],
       mode: null,
@@ -20089,6 +20125,23 @@ const sections = {
       subject: "MAT_SCI",
       number: "394-0",
       section: "78",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "31519",
+      instructors: [],
+      mode: null,
+      title: "Honors Project in Materials Science",
+      subject: "MAT_SCI",
+      number: "394-0",
+      section: "8",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -21574,7 +21627,7 @@ const sections = {
   "023316": [
     {
       unique_id: "34145",
-      instructors: [],
+      instructors: ["Kristian J Hammond"],
       mode: null,
       title: "Artificial Intelligence Industry Practicum",
       subject: "MSAI",
@@ -21583,10 +21636,46 @@ const sections = {
       meeting_days: null,
       start_time: null,
       end_time: null,
-      room: null,
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "PRA",
+      course_descriptions: [],
+    },
+  ],
+  "023996": [
+    {
+      unique_id: "40152",
+      instructors: ["Aggelos K Katsaggelos"],
+      mode: null,
+      title: "Special Topics",
+      subject: "MSAI",
+      number: "495-0",
+      section: "1",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "40153",
+      instructors: ["Ying   Wu"],
+      mode: null,
+      title: "Special Topics",
+      subject: "MSAI",
+      number: "495-0",
+      section: "2",
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
       course_descriptions: [],
     },
   ],
@@ -35844,7 +35933,7 @@ const sections = {
       subject: "HDSP",
       number: "412-0",
       section: "20",
-      meeting_days: "We",
+      meeting_days: "Th",
       start_time: "9:30",
       end_time: "12:20",
       room: { building_name: "Annenberg Hall 101" },
@@ -36146,7 +36235,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, we will examine the ways cognition and culture have been defined and utilized across time theoretically and methodologically in formal and informal settings. We will read empirical articles, essays, and reviews of literature that focus on identity, epistemology, gender, race, class, sexuality, nationality, ethnicity, as well as the homogenous versus heterogeneous presentation of culture in media and the academy.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials will be made available on Canvas.",
+        },
+      ],
     },
   ],
   "022113": [
@@ -36165,7 +36263,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "How do people do things together?\nIn our everyday lives, we learn and work within particular arrangements of people, objects, tools, and information.  These systems?\"everyday organizations\"?allow us to solve problems, achieve our goals, and generally get things done.  Except when they don't.  In this class, you'll learn to identify and analyze everyday organizations, document what's working and what's not, and figure out creative ways to redesign them.  You'll conduct ethnographic fieldwork, using concepts and methods drawn from theories of human cognition as it happens in context. These concepts come from distributed cognition and actor-network approaches and stress the inextricability of humans and non-humans (i.e. tools, technologies, representations) in the conduct of everyday organizations. We'll also look critically and creatively at the values and principles that anchor our designs for change.  The broad goal is to equip you with strategies for making organizational change that can be applied across professional, community, and personal contexts.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Course readings are varied and include literature from cognitive science, sociology, anthropology, design, and other disciplines.  Classes will open with a discussion of the readings and our experiences in the field, followed by a short lecture and then an extended project or group activity.  Assignments include weekly reading responses, three field studies to tune your observation",
+        },
+      ],
     },
   ],
   "022112": [
@@ -36184,7 +36291,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Learning and Teaching with Technology is a course designed to help teachers use empirical models to explore new technologies, evaluate their educational potential, and develop scenarios of use consistent with their teaching philosophy. The course starts with a reflection on the relationship between teaching philosophy and technology use. We will also explore children's everyday uses of technology. We then will take an in-depth look at three emerging technologies: personal broadcasting (e.g., blogs, podcasts), Wikipedia, and gaming. In each case, you will get extensive experience with the technology, examine empirical models that can be applied to the technologies, and reflect on how the technologies intersect with your teaching philosophy. The course also provides exposure to a variety of technologies that are common school settings.",
+        },
+      ],
     },
   ],
   "022542": [
@@ -36196,9 +36308,9 @@ const sections = {
       subject: "LRN_SCI",
       number: "351-0",
       section: "20",
-      meeting_days: "Th",
+      meeting_days: "TuTh",
       start_time: "9:30",
-      end_time: "12:20",
+      end_time: "10:50",
       room: { building_name: "Annenberg Hall G02" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
@@ -36217,6 +36329,23 @@ const sections = {
       start_time: "14:00",
       end_time: "16:50",
       room: { building_name: "Annenberg Hall G02" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "40150",
+      instructors: ["Marcelo Aaron Bonilla Worsley"],
+      mode: null,
+      title: "Topics in Learning Sciences",
+      subject: "LRN_SCI",
+      number: "351-0",
+      section: "23",
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Annenberg Hall G21" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -36258,7 +36387,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Our concern, in the Learning Sciences, is with helping individuals to learn; we want to help them learn to engage in new tasks, and to understand things that they didn\'t understand before. It is the assumption of this course that we will be in a better position to achieve these goals if we can somehow characterize the knowledge that individuals possess at any given time, and how this knowledge changes as they learn.\n\nThe characterization of knowledge is the business of this course. We will explore the techniques of knowledge representation, primarily as practiced by cognitive scientists. Our goals in this regard are both theoretical and methodological. We will examine various theoretical perspectives on the nature of knowledge, and we will practice various methodological and analytical techniques for studying the knowledge possessed by individuals.\n\nThe course will be divided into three main parts. We will begin with an introduction to knowledge representation. As part of this introduction, students will learn a "toolkit" of knowledge forms that can be used to describe knowledge. This initial exploration will be carried out within a number of learning domains, including mathematics, reading, and science.\n\nThen, in the second part of the course, we will employ our toolkit to describe how the knowledge of individuals changes as they learn. Finally, in the last part week of the course, we will explore some additional topics, including the relationships among recent developments in machine learning and studies of learning in the Learning Sciences.',
+        },
+      ],
     },
   ],
   "020389": [
@@ -36308,14 +36442,19 @@ const sections = {
       subject: "LRN_SCI",
       number: "451-0",
       section: "20",
-      meeting_days: "Th",
+      meeting_days: "TuTh",
       start_time: "9:30",
-      end_time: "12:20",
+      end_time: "10:50",
       room: { building_name: "Annenberg Hall G02" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course we examine what role engineering education plays, has played historically, and could play in mediating dynamics of power, in(equality), and (in)justice in society across global contexts. A wave of recent scholarship has examined the nefarious impact of new technologies on racial equity (Benjamin, 2019; Noble, 2018), social and economic justice (Eubanks, 2018), teaching and learning processes in schools (Watters, 2021), and on the health and survival of the planet itself (Crawford, 2021). Learning about the politics of technologies, and the technologies of power, is thus emerging as one of the most significant needs in education. Building from Science and Technology Studies (STS) perspectives, in this course we shift our analytic focus to the politics of engineering education institutions (Lucena, 2013; Riley, 2003). What are the historical, cultural, and political forces operating on these institutions? How do they cultivate particular kinds of engineering identities? We will ground these inquiries through case studies of specific engineering education institutions in diverse global contexts (Indonesia, India, Denmark, Iran, Chile, Kenya, and the US). Across the cases, we will carefully examine how themes such as modernization, globalization, nationalism, and militarism have shaped the content, character, and ontology of engineering education. Ultimately, we will work towards a critical, global understanding of the power, responsibility, and possibilities for socially just and ethical engineering education.",
+        },
+      ],
     },
     {
       unique_id: "34814",
@@ -36342,10 +36481,27 @@ const sections = {
       subject: "LRN_SCI",
       number: "451-0",
       section: "22",
-      meeting_days: "We",
+      meeting_days: "Th",
       start_time: "9:30",
       end_time: "12:20",
       room: { building_name: "Annenberg Hall 101" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "40148",
+      instructors: ["Marcelo Aaron Bonilla Worsley"],
+      mode: null,
+      title: "Topics in Learning Sciences",
+      subject: "LRN_SCI",
+      number: "451-0",
+      section: "23",
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Annenberg Hall G21" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -37181,7 +37337,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The Civic Engagement Seminar is the foundation of the Civic Engagement Certificate Program. As such, this course serves as your introduction to the intersection between off-campus community engagement, learning, and active citizenship in a democracy.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must be admitted to the Civic Engagement Certificate, which is open to first, second or third year undergraduates.  \n\nYou can find more information about the Certificate here: https://www.sesp.northwestern.edu/ugrad/civic-engagement-program/index.html; \n\nThere is a short application that must be completed in order to be admitted to the Certificate.  \n\nQuestions?  Email Funmi Ojikutu at Funmilayo.Ojikutu@northwestern.edu.",
+        },
+      ],
     },
   ],
   "023581": [
@@ -37200,7 +37365,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'What does it mean to know something?  What are the different types of knowledge and what distinguishes them from one another?  What counts as fact vs. opinion vs. belief and so on; who gets to decide and under what conditions? How is knowledge produced and how does it gain traction?  How does the source and type of knowledge interact with socio-political-cultural constructs and systems of power and, in turn, how can "knowledge" be used to produce and/or perpetuate power and privilege or to empower those who are marginalized? Finally, how does what we do in SESP and at Northwestern as both consumers and producers of knowledge fit within the landscape of these questions? \n \nIn this course students will explore these and other questions to gain insight into the social production, distribution, consumption, interpretation, and operationalization of "knowledge." Using primarily seminar-style discussion, the first portion of the course focuses on building and analyzing theoretical frameworks and applied texts in order to generate a working understanding of "knowledge" in its myriad forms.  Among our goals for the first portion of the course is to tie theoretical,  academic, and "folk" knowledges to everyday experiences and the world around us writ large.  The second portion of the class will involve a series of applied of cases studies, including welcoming members of the SESP faculty community to present on their research, which we will work to bring into conversation with our generated frameworks regarding the sources, types, and implications of knowledge.',
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation is in the form of written assignments, papers, and group project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials need to be purchased.",
+        },
+      ],
     },
   ],
   "000634": [
@@ -37215,11 +37393,24 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "9:30",
       end_time: "10:50",
-      room: { building_name: "Annenberg Hall G08" },
+      room: { building_name: "Annenberg Hall G22" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The goal of this course is to examine children's development from infancy to late adolescence. Two major questions guide the course. First, how do children develop the knowledge, skills, and personality characteristics that allow them to become successful adults? Second, how do differences among children come about? \n\nIn this course, you will learn about children's biological, cognitive, social, and emotional development as well as their social environment, including family, peers, school, ethnic and cultural backgrounds. The course will cover normative development (what are the typical changes that occur for children) and individual differences (how do children differ from one another and why). At the end of this course, you will be able to evaluate research claims we hear every day (i.e., in academia, educational settings, popular media, casual conversation, etc.), and critically differentiate between myths and facts regarding child and adolescent development.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "There are no exams. You'll have an opportunity to reflect on your learnings in several short papers, a group project, and a few discussion posts.  Class will be mostly small group discussion-based.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "How Children Develop, 3rd Ed., by Robert Siegler, Judy DeLoache, and Nancy Eisenberg",
+        },
+      ],
     },
   ],
   "015701": [
@@ -37238,7 +37429,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The objectives of this course are to provide you with the tools to (i) analyze data, (ii) draw meaningful conclusions with regard to research questions, and (iii) critically read and evaluate social science research that uses quantitative methods. You will learn how to critique experimental and non-experimental research. You will also learn how to analyze data graphically, create summary statistics, test hypotheses, and generate predictions. While there is no required statistical software required for this course, all examples and exercises are designed so that they can be completed using a spreadsheet (Excel or Google Sheets).",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class participation, Assignments, Mid-term, End-term exam",
+        },
+      ],
     },
   ],
   "023578": [
@@ -37252,12 +37452,17 @@ const sections = {
       section: "22",
       meeting_days: "We",
       start_time: "17:00",
-      end_time: "19:00",
+      end_time: "20:00",
       room: { building_name: "Annenberg Hall G02" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, Evanston Township High School students, Northwestern students, and local Evanston youth workers will collectively study educational injustice as well as historical, current, and future struggles for justice. This space will be one of healing, dreaming, and imagining, as we continue to navigate our world. We will also engage in critical reading and writing, community-based research and design, artmaking, outdoor activities, and collective care in ways that nourish our minds and well-being in this time. The course will be co-taught by Professors Megan Bang and Shirin Vossoughi, Learning Sciences PhD students Forrest Bruce, Alejandra Frausto, Arturo Mu?oz and Corey Winchester (also an ETHS teacher). The course meets during NU's Spring Quarter Every Wednesday from 5PM-8PM with dinner served at 4:30PM. \n\nContact Dr. Vossoughi if you have questions: shirin.vossoughi@northwestern.edu  \n\nTo apply, fill out the application by Thursday Feb. 10th at 6pm: https://bit.ly/edjustice2022",
+        },
+      ],
     },
   ],
   "000655": [
@@ -37276,7 +37481,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This qualitative methods course is an introduction to ethnographic research via observation, interviewing, and qualitative data analysis.  You'll learn the basics of how to observe, make field notes, and how to make sense of your observations and notes. We'll talk about how to become aware of your own biases (i.e., cognitive frameworks, positionality, beliefs and meaning systems). The course objectives include understanding the ways in which our own lenses shape how we see (or don't see) things, how that affects our interpretations, and how, ultimately, we build meaning and knowledge systems.",
+        },
+      ],
     },
   ],
   "015432": [
@@ -37314,7 +37524,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, we will consider how gender influences the major stages of the life course. First, we will discuss the several meanings of gender and sex to set the context. Then, we will focus on the psychosocial effects of gender and intersectionality on children, adolescents, and young, midlife, and old adults. In addition, we will investigate how gender influences major societal institutions and selected social policy issues",
+        },
+      ],
     },
   ],
   "019773": [
@@ -37333,7 +37548,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will examine the conceptual underpinnings of the construct of race and the implications (structural, social, psychological, political, etc.) of racialized understandings as relevant to public schooling in the United States. More precisely, we will focus here on historical and contemporary issues of equity in education based upon the divisions of American society according to presumptions around what race means, i.e. what it tells us about who and how people are. Through our 1) generous listening & dialogue, 2) critical analyses of empirical & theoretical data and 3) deep thinking & writing, we will wrestle with a number of ideas and perspectives. Yet, central to this course is knowledge of the myriad, though sometimes nuanced ways that racism has and continues to operate as a tool of exclusion, disenfranchisement and violence towards individual persons and communities. Equally important, are the intellectual, sociopolitical and pedagogical efforts of individual and collective entities to resist, persist and thrive in the face of injustices.",
+        },
+      ],
     },
   ],
   "023585": [
@@ -37352,7 +37572,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "How can we design engaging and relevant Holocaust education? How has Holocaust education developed over time? What is its purpose? And what is its future? In this course, we consider and debate the complexities and challenges of Holocaust pedagogy, including responding to learners' emotions and misconceptions. We ask how Holocaust pedagogy can be applied more generally to teaching about histories of atrocity and contemporary injustices. We explore the possible goals of educating about the Holocaust, the merits and challenges of addressing all of the Nazis' target groups, and the relationships between Holocaust education, genocide education, and human rights and social justice education. We study the benefits and challenges of prioritizing specific perspectives, including those of victims, survivors, the second and third generations, rescuers, liberators, bystanders, perpetrators, and collaborators. Through theoretical texts, fiction, film, witness testimony, school curricula, and museum and online exhibitions, we explore appropriate and inappropriate teaching methods and consider the design of training for Holocaust educators across formal and informal learning environments. Student learning is assessed through creative responses to course materials, journaling, and open projects, with opportunities for group work.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation of student learning will be through creative response assignments, journal entries, and final group projects.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: 'The course pack will be available on Canvas, at no cost.\n\nThe autobiography "Soundless Roar" by Ava Kadishson Schieber will be available as an e-book through NU Library, at no cost.\n\nThe novel "Number the Stars" by Lois Lowry is available as a paperback, Kindle, or audio book (for under $6.00).\n\nThe novel "Train" by Danny M. Cohen is available as a paperback (for $14.99) and on Kindle (for $7.99).\n\nCourse films will be available through Canvas, at no cost.',
+        },
+      ],
     },
   ],
   "024202": [
@@ -37390,112 +37623,19 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will offer a critical perspective on child and adolescent development as it is shaped and experienced in various social contexts with special application to the world of the school.  Psychological, interpersonal, social, cognitive, moral and physical development will be studied within the contexts of family, peer group, and school.  Theoretical perspectives will be explored in relation to empirical research, field studies, first person accounts, and imaginative works.  Special emphasis will be given to the adolescent's subjective experience and to the remembered accounts of our own adolescence.  The course will encompass a life course/life span perspective by exploring the period following adolescence proper (often referred to in the literature as emerging adulthood) to include adult midlife.  The course will argue that understanding adolescence is advanced with a corresponding appreciation of adulthood.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "papers and group project that includes data collection",
+        },
+      ],
     },
   ],
   "000591": [
-    {
-      unique_id: "31782",
-      instructors: ["Lawrence A Birnbaum"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "01",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31783",
-      instructors: ["John Keith   Murnighan"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "02",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31784",
-      instructors: ["Gregory Evan Miller"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "03",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31785",
-      instructors: ["Douglas C Breunlin"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "04",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31786",
-      instructors: ["Seon-Young   Lee"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "05",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31787",
-      instructors: ["Gail Ann Berger"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "06",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
     {
       unique_id: "31788",
       instructors: ["Patricia Lindsay   Chase-Lansdale"],
@@ -37521,57 +37661,6 @@ const sections = {
       subject: "SESP",
       number: "390-0",
       section: "08",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31790",
-      instructors: ["Thomas D Cook"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "09",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31791",
-      instructors: ["Fay Lomax   Cook"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "10",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31792",
-      instructors: ["Solomon   Cytrynbaum"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "11",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -37616,23 +37705,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31795",
-      instructors: ["Sophie   Haroutunian-Gordon"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "15",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31796",
       instructors: ["Daniel Maurice Cohen"],
       mode: null,
@@ -37640,23 +37712,6 @@ const sections = {
       subject: "SESP",
       number: "390-0",
       section: "16",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31797",
-      instructors: ["Barton Jay   Hirsch"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "18",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -37718,23 +37773,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31801",
-      instructors: ["Carol D Lee"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "27",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31802",
       instructors: ["Dan A Lewis"],
       mode: null,
@@ -37769,57 +37807,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31804",
-      instructors: ["Penelope L Peterson"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "30",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31805",
-      instructors: ["Andrew J Ortony"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "31",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31806",
-      instructors: ["Penelope L Peterson"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "32",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31807",
       instructors: ["Mesmin Patrick Destin"],
       mode: null,
@@ -37844,23 +37831,6 @@ const sections = {
       subject: "SESP",
       number: "390-0",
       section: "34",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31809",
-      instructors: ["Christopher K Riesbeck"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "35",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -37990,40 +37960,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31817",
-      instructors: ["John P Kretzmann"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "54",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31818",
-      instructors: ["John P Kretzmann"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "55",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31819",
       instructors: ["Michael Stephen Horn"],
       mode: null,
@@ -38075,23 +38011,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31822",
-      instructors: ["Michelle   Reininger"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "63",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31823",
       instructors: ["David H Uttal"],
       mode: null,
@@ -38099,23 +38018,6 @@ const sections = {
       subject: "SESP",
       number: "390-0",
       section: "64",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31824",
-      instructors: ["Edward Vincent Taylor"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "65",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -38194,23 +38096,6 @@ const sections = {
       course_descriptions: [],
     },
     {
-      unique_id: "31829",
-      instructors: ["Douglas L Medin"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "75",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
       unique_id: "31830",
       instructors: ["Regina Lopata Logan"],
       mode: null,
@@ -38218,57 +38103,6 @@ const sections = {
       subject: "SESP",
       number: "390-0",
       section: "76",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31831",
-      instructors: ["Jean M Egmon"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "77",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31832",
-      instructors: ["Heather Jill Risser"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "78",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "RSC",
-      course_descriptions: [],
-    },
-    {
-      unique_id: "31833",
-      instructors: ["Mark Elliot Beeman"],
-      mode: null,
-      title: "Research Apprenticeship",
-      subject: "SESP",
-      number: "390-0",
-      section: "79",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -38363,7 +38197,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course guides students through the process of research project design, development, and proposal writing for the SESP Senior Honors Thesis.  Students are supported through all stages of the design of a year-long independent research project. The quarter will culminate in a complete research proposal that will be put into action during the students' senior year.  In addition to the hard work of design and proposal development, as young and developing scholars, students are challenged throughout the quarter to consider the implications of assuming the role of knowledge producer and to think through the responsibilities inherent within this work.  This process is fostered through thoughtful, critical analysis of published scholarship, evaluation of the costs/benefits and quality of others' work, and careful reflection on the students' own positionalities and design choices.  Class time will include \"how-to\" lectures providing direct instruction on elements of research design and proposal writing, as well as combining seminar style-discussion of theoretical and pragmatic/practical issues integral to high quality research and a workshop format, providing students with regular, real-time, dynamic feedback from both instructors and peers.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "SESP 391 requires meeting eligibility requirement for SESP Honors",
+        },
+      ],
     },
   ],
   "023918": [
@@ -38382,7 +38225,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The overarching purpose of the practicum is for students to gain practical experience and then relate that experience to the theories, concepts and ideas they have learned in the classroom.  Students will work at their chosen practicum sites Monday - Thursday, approximately 30 hours/week and then attend the weekly practicum seminar on Friday. The practicum seminar will give students the space to reflect on their work experience as it happens and to use those reflections to analyze dynamics in the workplace, in conversation with peers and the instructor. The seminar will help students develop a capacity for critical analysis of organizations and organizational processes, improve observation, research, and writing skills and build personal competence and confidence through workplace experience and reflection.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Weekly written responses to the readings and group project decisions",
+        },
+      ],
     },
     {
       unique_id: "34808",
@@ -38399,7 +38251,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The overarching purpose of the practicum is for students to gain practical experience and then relate that experience to the theories, concepts and ideas they have learned in the classroom.  Students will work at their chosen practicum sites Monday - Thursday, approximately 30 hours/week and then attend the weekly practicum seminar on Friday. The practicum seminar will give students the space to reflect on their work experience as it happens and to use those reflections to analyze dynamics in the workplace, in conversation with peers and the instructor. The seminar will help students develop a capacity for critical analysis of organizations and organizational processes, improve observation, research, and writing skills and build personal competence and confidence through workplace experience and reflection.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Weekly written responses to the readings and group project decisions",
+        },
+      ],
     },
     {
       unique_id: "34809",
@@ -38416,7 +38277,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The overarching purpose of the practicum is for students to gain practical experience and then relate that experience to the theories, concepts and ideas they have learned in the classroom.  Students will work at their chosen practicum sites Monday - Thursday, approximately 30 hours/week and then attend the weekly practicum seminar on Friday. The practicum seminar will give students the space to reflect on their work experience as it happens and to use those reflections to analyze dynamics in the workplace, in conversation with peers and the instructor. The seminar will help students develop a capacity for critical analysis of organizations and organizational processes, improve observation, research, and writing skills and build personal competence and confidence through workplace experience and reflection.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Weekly written responses to the readings and group project decisions",
+        },
+      ],
     },
   ],
   "000593": [
@@ -38435,7 +38305,13 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Registration Requirements",
+          desc: "Senior status; 3.5 cumulative GPA by the end of winter quarter of the junior year; recommendation for the honors program from SESP 391 instructor(s); consent of program director",
+        },
+        { name: "Class Materials (Required)", desc: "None" },
+      ],
     },
     {
       unique_id: "34770",
@@ -38452,7 +38328,13 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Registration Requirements",
+          desc: "Senior status; 3.5 cumulative GPA by the end of winter quarter of the junior year; recommendation for the honors program from SESP 391 instructor(s); consent of program director",
+        },
+        { name: "Class Materials (Required)", desc: "None" },
+      ],
     },
   ],
   "024336": [
@@ -38471,7 +38353,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course offers an introduction to fundamentals of economic analysis in the evaluation of education, health, and social policy, using economic reasoning to explain the economic rationales for policies as well as the potential consequences, expected and unexpected, of the policies.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Enrollment Requirements: Reserved for SE_POL students\nAdd Consent: Department Consent Required",
+        },
+      ],
     },
   ],
   "024335": [
@@ -38490,7 +38381,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on hands on analysis of the real time challenges facing a range of policy areas and industries across federal and state governments and the private sector. Learn the applied analytical methods and statistics used by policy makers and decision leaders to tackle challenges surrounding economic empowerment, energy and climate, finance and regulation, transportation and mobility, and a suite of other issues. Coursework includes qualitative critical analysis and quantitative statistical analysis as well as insights from practitioners in the field.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Enrollment Requirements: Reserved for SE_POL students\nAdd Consent: Department Consent Required",
+        },
+      ],
     },
   ],
   "020960": [
@@ -38509,7 +38409,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Social policy is integral to the fabric of society. It helps to determine who has access to resources and services, regulates how those are obtained, and is constantly negotiated by changing ideas about public need and the common good. A primary goal of this course is to explore social policy in the United States as a political, economic, and ideological process that is embedded in the racialized, classed, and gendered context of American society. In this class, we will learn about factors that shape policymaking, examine ways that policy impacts society through institutional and interpersonal pathways, and practice skills to analyze policy from development to implementation.\n\nThe first part of the course will focus on policy framing and development as key elements of policymaking. We will examine how social issues become policy problems, how and why policy agendas are set, whose voice is represented, and how research is engaged in the policymaking process. We will form policy workgroups to examine specific policy problems and learn about the ways that policy seeks to address social issues like poverty, educational access, and violence. Individually, students will have the opportunity to focus in on a specific social issue that is meaningful to them and explore how policy is used to address it. The second part of the course will focus on policy implementation, with an emphasis on the ways that policy impacts people differently depending on their identity, social status, and positionality in society. We will develop policy analysis skills, use analytical tools to examine impact, and learn how to read, write, and interrogate policy briefs as public-facing documents.",
+        },
+      ],
     },
   ],
   "015787": [
@@ -38528,7 +38433,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "With women comprising 51% of the American population, yet having significantly lower political representation, we will explore the evolution of women's political leadership in our nation. We will unpack the definition of political leadership, why representation matters and what obstacles impact women's political participation. We will learn about attaining elected and appointed office, the nuances of serving in the legislative and executive branches of local, state and federal government, the mechanics of running for office, what role electoral defeat plays, and how to address ethical challenges. We will also identify how to create and move forward with an advocacy agenda. Guest speakers representing current and past elected offices as well as activists, advocates and significant campaign advisors will be a major part of our discussion, bringing historical and current perspectives to our analysis. \n\nStudents will be graded on class participation, a midterm, a short paper, a speech, and a final exam.  Women, Power and Politics by Lori Cox Han and Caroline Heldman will be our main text along with Run For Something by Amanda Litman, with additional readings provided via Canvas.",
+        },
+      ],
     },
     {
       unique_id: "34811",
@@ -38545,7 +38455,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Hands on analysis of the real time challenges facing a range of policy areas and industries across federal and state governments and the private sector. Learn the applied analytical methods used by policy makers and decision leaders to tackle challenges surrounding economic empowerment, energy and climate, finance and regulation, transportation and mobility, and other issues. Coursework includes qualitative critical analysis and quantitative statistical analysis as well as insights from practioners in the field.",
+        },
+      ],
     },
   ],
   "022441": [
@@ -38640,7 +38555,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is an exploration of theories of cognition and sociocultural perspectives on learning and using them to create equitable curricula, classroom practices and school communities. This course is designed as a next step from the Social Contexts of Education and for students who want to include ideas about the social and cultural nature of learning in teaching in both formal and informal settings, across subject-matter and age groups.",
+        },
+      ],
     },
     {
       unique_id: "34778",
@@ -38821,7 +38741,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "FLD",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This asynchronous, online course is available to School of Communication students who intern 8-40 hours per week with employers throughout the world. Students are required to submit a Handshake application, (including an offer letter and position description), midterm assessment and final evaluation.",
+        },
+      ],
     },
   ],
   "004368": [
@@ -38840,7 +38765,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "FLD",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is available to School of Communication students who intern 8-40 hours per week. Students are required to submit a Handshake application, including an offer letter and position description, in order to enroll. Occurring simultaneously with the internship, this weekly seminar course provides a structured approach to experiential learning and career development. Through readings, reflections, projects, and other assignments, students will assess their own skills, experiences, and interests to develop a personal plan on how to further their career development and individualized goals. \n\nMay be subject to internship course-credit limits; students should consult their academic advisor before applying. Section 20 of this course takes place in-person.\n\nNote: Interested students must secure an internship and submit an application through Handshake by the appropriate deadline to be enrolled in the course.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "1.\tDevelop skills, gain insight into typical workplace rules and engage in experiential learning in a professional environment.\n2.\tIncrease critical thinking and creative solutions by developing personal learning objectives to expand current skills and identify development opportunities.\n3.\tConnect theory to professional experience, reflect on career insights, and develop action steps to demonstrate innovation and professional creativity.\n4.\tUtilize networking skills to create new connections that assist in furthering professional goals.\n5.\tDemonstrate a greater understanding of career goals through experience and exposure to industry to increase understanding of career readiness and advancement.",
+        },
+      ],
     },
     {
       unique_id: "35250",
@@ -38857,7 +38791,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "FLD",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is available to School of Communication students who intern 8-40 hours per week. Students are required to submit a Handshake application, including an offer letter and position description, in order to enroll. Occurring simultaneously with the internship, this weekly seminar course provides a structured approach to experiential learning and career development. Through readings, reflections, projects, and other assignments, students will assess their own skills, experiences, and interests to develop a personal plan on how to further their career development and individualized goals. \n\nMay be subject to internship course-credit limits; students should consult their academic advisor before applying. Section 21 of this course is synchronous remote.\n\nNote: Interested students must secure an internship and submit an application through Handshake by the appropriate deadline to be enrolled in the course.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "1.\tDevelop skills, gain insight into typical workplace rules and engage in experiential learning in a professional environment.\n2.\tIncrease critical thinking and creative solutions by developing personal learning objectives to expand current skills and identify development opportunities.\n3.\tConnect theory to professional experience, reflect on career insights, and develop action steps to demonstrate innovation and professional creativity.\n4.\tUtilize networking skills to create new connections that assist in furthering professional goals.\n5.\tDemonstrate a greater understanding of career goals through experience and exposure to industry to increase understanding of career readiness and advancement.",
+        },
+      ],
     },
     {
       unique_id: "35022",
@@ -40466,7 +40409,32 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Advanced amplification, including alternatives to traditional hearing aids such as over-the-counter (OTC) amplification and personal sound amplification processors (PSAPs).  Hearing assistive technology, and personal and group amplification options. Focus on adult device use.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Reserved for Doctor of Audiology students only.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will be able to select, configure, and program hearing aids and complementary technology that are appropriate to patient's goals and provide measurable benefit.  Students will be able to accurately verify and validate a wide range of devices and features including assistive technology and advanced signal processing.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Participation and quality of weekly writing assignments and discussion boards, accurate completion of periodic lab assignments.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Computer with audio, video, speaker and mic access, and high speed internet connection\n\nPopelka, G., Moore, B., Fay, R., Popper, A. (2016).  Hearing aids.  Springer Publishing, Inc.  ISBN 9783319330365, 33193303\n\ne-book available from NU Libraries\nMaterials are posted on Canvas\nClass allows prior editions of textbook\nStudents are encouraged to consult alternate vendors (Amazon, book rentals, etc.)",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Audiology Online student account; American Academy of Audiology eAudiology student account.",
+        },
+      ],
     },
   ],
   "012595": [
@@ -40560,7 +40528,32 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Physiologic abnormalities of the auditory system that result in hearing impairments.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Currently enrolled in the Doctor of Audiology program or by instructor permission.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "At the completion of this course, students will be able to:\n?\tIdentify the auditory, facial nerve, and vestibular disorders that arise from alterations in the development of the peripheral systems. \n?\tIdentify the difference between syndromic and nonsyndromic hearing loss. Identify the known genetic factors associated with each. \n?\tIdentify pharmacologic agents that cause hearing loss and vestibular disorders. Identify the audiological and vestibular profiles associated with this type of toxicity. \n?\tIdentify auditory, facial nerve, and/or vestibular pathology based on information from audiological, vestibular and/or medical evaluation. Understand how individuals with these pathologies are audiologically and/or medically managed. \n?\tDiscuss relevant research findings in the context of auditory and vestibular pathologies.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Exams (mixed format,) worksheets and small group learning collaboration, case presentations",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Musiek, F.E., Baran, J.A., Shinn, J.B., Jones, R.O. (2012). Disorders of the Auditory System. San Diego, CA: Plural Publishing\n\nMaterials are posted on Canvas (supplemental readings)\nStudents are encouraged to consult alternate vendors (Amazon, book rentals, etc.)\ne chapters may be available through library",
+        },
+        {
+          name: "Class Notes",
+          desc: "The goal of this course is to provide an overview of auditory, facial nerve, and vestibular pathologies. Students will learn about the various disorders of the outer ear, middle ear, inner ear and peripheral vestibular system. For each disorder, the focus will be on the audiological and vestibular clinical manifestations as well as audiological and medical management. Discussion will include auditory embryology and genetic factors associated with hearing loss and vestibular disorders.",
+        },
+      ],
     },
   ],
   "004456": [
@@ -41962,8 +41955,8 @@ const sections = {
       number: "101-2",
       section: "20",
       meeting_days: "TuTh",
-      start_time: "1:30",
-      end_time: "2:50",
+      start_time: "13:30",
+      end_time: "14:50",
       room: { building_name: "Wirtz Center Ballroom" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
@@ -42396,7 +42389,7 @@ const sections = {
       meeting_days: "Sa",
       start_time: "14:00",
       end_time: "17:00",
-      room: { building_name: "Frances Searle Building 2378" },
+      room: { building_name: "Frances Searle Building 3220" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -42421,23 +42414,6 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
-    {
-      unique_id: "39708",
-      instructors: [],
-      mode: null,
-      title: "Understanding & Leveraging Networks",
-      subject: "MSC",
-      number: "492-6",
-      section: "2",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-05-02",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
-    },
   ],
   "022105": [
     {
@@ -42448,10 +42424,10 @@ const sections = {
       subject: "MSC",
       number: "494-6C",
       section: "1",
-      meeting_days: "Sa",
-      start_time: "14:00",
-      end_time: "17:00",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -42522,10 +42498,10 @@ const sections = {
       subject: "MSC",
       number: "529-0",
       section: "2",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "Sa",
+      start_time: "14:00",
+      end_time: "17:00",
+      room: { building_name: "Frances Searle Building 3417" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -42541,10 +42517,10 @@ const sections = {
       subject: "MSC",
       number: "533-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "Sa",
+      start_time: "14:00",
+      end_time: "17:00",
+      room: { building_name: "Frances Searle Building 2378" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -42689,7 +42665,7 @@ const sections = {
         },
         {
           name: "Class Materials (Suggested)",
-          desc: "Bradberry, Travis and Jean Greaves. Emotional Intelligence 2.0. New York: Talent Smart. ISBN: 0974320625\n\nHumes, James C (2002). Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History's Greatest Speakers. New York: Three Rivers Press. ISBN: 0761563512\n\nCialdini, Robert B (2007). Influence: The Psychology of Persuasion (Revised Edition). New York: Harper Collins. ISBN: 9780061241895\n\nCialdini, Robert B (2016). Pre-Suasion: A Revolutionary Way to Influence and Persuade. New York: Simon & Schuster.\n\nCuddy, Amy (2015). Presence: Bringing Your Boldest Self to your Biggest Challenges. New York: Little Brown and Company. ISBN: 0316256587",
+          desc: "Bradberry, Travis and Jean Greaves. <i>Emotional Intelligence 2.0<i>. New York: Talent Smart. <b> ISBN: 0974320625 <b>.\n\nHumes, James C (2002). <i>Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History's Greatest Speakers<i>. New York: Three Rivers Press. <b>ISBN: 0761563512<b>.\n\nCialdini, Robert B (2007). <i>Influence: The Psychology of Persuasion<i> (Revised Edition). New York: Harper Collins. <b>ISBN: 9780061241895<b>.\n\nCialdini, Robert B (2016). <i>Pre-Suasion: A Revolutionary Way to Influence and Persuade<i>. New York: Simon & Schuster.\n\nCuddy, Amy (2015). <i>Presence: Bringing Your Boldest Self to Your Biggest Challenges<i>. New York: Little Brown and Company. <b>ISBN: 0316256587<b>.",
         },
       ],
     },
@@ -42713,11 +42689,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The goal of this course is to help students understand that success in the arts is a function of passion, work ethic, talent, and entrepreneurial drive; and culminates in a term project that will help translate ideas into potential products or services directly related to or tangential to the arts. We'll explore the distillation of the self into product, brand inception and development, the fundamentals of brand marketing as it relates to creative enterprises and the building of unique revenue and operating models for businesses in this space. While we will spend time studying traditional media companies involved in the arts, the goal of the course is to fuel the students' passion to become entrepreneurs in the arts and start their own businesses.",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "All course materials will be provided in Canvas.",
+          desc: "NUvention: Arts and Entertainment (ENTREP 476, MSLCE 545) brings together students from across Northwestern schools to work in interdisciplinary teams on the creation of new ventures in the arts and entertainment space. No specific genre, form, or medium will be emphasized; students are encouraged to explore ideas in a wide range of areas, including music, theater, television and the visual arts. They will learn a process of innovation and venture development that can be applied in multiple contexts. Students will be challenged to think about the role of technology in shaping the future of the arts and entertainment industries, and will interact with industry veterans who may provide feedback on their projects.",
         },
       ],
     },
@@ -43020,7 +42992,7 @@ const sections = {
       number: "330-0",
       section: "28",
       meeting_days: "TuTh",
-      start_time: "9:00",
+      start_time: "9:30",
       end_time: "10:50",
       room: { building_name: "Wirtz 230 Instruct Black Box 1" },
       start_date: "2022-03-29",
@@ -44207,11 +44179,11 @@ const sections = {
         },
         {
           name: "Registration Requirements",
-          desc: "Space in Digital Musical Instrument Design is limited. We have space for 20 people and need to ensure the right mix of students. To apply to take the class, please fill out the questionnaire at the link below. This questionnaire is to give us a better idea of your skills. background and interests, so that we can determine whether you'd be a good fit for the class. Please fill it out to the best of your abilities.\n\nhttps://forms.gle/iCkQFjGRrhNC483b7",
+          desc: "Space in Digital Musical Instrument Design is limited. We have space for 20 people and need to ensure the right mix of students. To apply to take the class, please fill out the questionnaire at the link below. This questionnaire is to give us a better idea of your skills, background and interests, so that we can determine whether you'd be a good fit for the class. Please fill it out to the best of your abilities.<br/><br/>\n\nhttps://forms.gle/iCkQFjGRrhNC483b7 <br/><br/><strong>(copy and paste link url into browser)</strong>",
         },
         {
           name: "Learning Objectives",
-          desc: "At the end of this course, the student will be able to:\n\nAnalyze and critique the design of music instruments\nDesign and construct basic sensor circuits for musical interaction\nWrite code for the Arduino platform that can interpret and transmit data from sensor circuits\nCreate interactive audio programs (in the Max platform) that map sensor data onto sound outputs\nRefine instrument designs to create specific sonic outcomes",
+          desc: "<em>At the end of this course, the student will be able to:</em>\n<ul>\n<li>Analyze and critique the design of music instruments</li>\n<li>Design and construct basic sensor circuits for musical interaction</li>\n<li>Write code for the Arduino platform that can interpret and transmit data from sensor circuits</li>\n<li>Create interactive audio programs (in the Max platform) that map sensor data onto sound outputs</li>\n<li>Refine instrument designs to create specific sonic outcomes</li>\n</ul>",
         },
         {
           name: "Evaluation Method",
@@ -44738,7 +44710,19 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course focuses primarily on audio recording outside of the studio environment and introductory digital audio processing within Pro Tools. We will learn methods and technologies of production sound recording through a series of demonstrations, hands-on experiences, and assignments. The audio collected in these assignments will become the subject of Pro Tools projects designed to explore the most relevant aspects of the software for documentary audio production.",
+          desc: "What do we expect sound to contribute to a documentary film? What qualities do we ascribe to sound and what (if any) are the tenuous premises of these ascriptions? What can our sonic tendencies teach us about the ways we inhabit the world and how might we shepherd our cultural productions into a generative critical dialogue with these broader social questions? This class will provide students with a critical introduction to the fundamental concepts and techniques of field recording, sound editing, and sound mixing specifically related to documentary cinema production and postproduction. This includes technical training on microphones, audio recorders, fundamental audio concepts (frequency, amplitude, acoustics, polar patterns), sound-image synchronization, foley and dialogue recording, and digital audio mixing for stereo and 5.1 surround sound systems using Pro Tools or comparable DAWs. We will read theory, listen to a great many films, recordings, and art pieces, and produce sonically-minded work both individually and in groups. Class will be split between discussion of texts, practical tutorials, and group critique. This course is designed to support students who wish to integrate audiovisual materials for research in ways that go beyond the merely illustrative or informational.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Technical proficiency with microphones, audio recorders, fundamental audio concepts (frequency, amplitude, acoustics, polar patterns), sound-image synchronization, foley and dialogue recording, and digital audio mixing for stereo and 5.1 surround sound systems using Pro Tools or comparable DAWs. A working knowledge of sound studies discourse as it pertains to documentary cinema production and postproduction. The creation of work showing a conceptual engagement with the medium.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "40% Class participation, 55% split into 3 sound-recording assignments, 5% Discussion Leader",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "There are no required materials for this class. A laptop and 1-2 TB hard drive are recommended.\n\nAll equipment, software, and licenses required for this class will be made available to students through the Louis Cage and the NU Soundtank. \n\nStudents can optionally purchase a 3-month educational license of Pro Tools for $30 to use on their home computers. \n\nAll readings, screenings, and listenings will be made available to students through Canvas.",
         },
       ],
     },
@@ -45122,7 +45106,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "The purpose of this seminar is to provide structure and support for students in the Sound Arts and Industries program toward the completion of their Spring Symposium requirement. This is accomplished through a participatory format of presentation, discussion, and critique supporting the formulation and incremental refinement of each student's capstone project. This process will culminate in the final presentations, in whatever format best suits the work accomplished. The format, scheduling, and execution of the final Spring Symposium presentations will be determined as a class project.",
+          desc: "The purpose of this seminar is to provide structure and support for students in the Sound Arts and Industries program toward the completion of their Spring Symposium requirement. This is accomplished through a participatory format of presentation, discussion, and critique supporting the formulation and incremental refinement of each student's project. This process will culminate in the final presentations, in whatever format best suits the work accomplished. The format, scheduling, and execution of the final Spring Symposium presentations will be determined as a class project.",
         },
         {
           name: "Registration Requirements",
@@ -45373,7 +45357,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course explores the complex and ever-evolving relationship between theatre, performance, and technology. The theatre has long provided a rich environment for dialogue regarding technological change and continues to provide a platform for artists to experiment with new technologies that push the boundaries of performance and theatrical form. Can robots replace human actors? How do we perform our identities online? Is it possible to ?stage' the internet? In this course students will engage with theatrical works, performance art, and social media to develop research and analytical skills that can be applied across diverse artistic and scholarly contexts. We will consider how these artistic works utilise technological elements to reflect on, and speak to, their particular socio-cultural, political, and historical moment. This course will introduce students to university-level research paper writing that incorporates original textual and performance analysis with supporting secondary sources.",
+          desc: "This course is dedicated to the life, work, and impact of Irish playwright Samuel Beckett. We will study his biography, from modest origins, to wartime France, to his discovery/invention of what came to be known as the ?Theatre of the Absurd.' We will read his groundbreaking play, Waiting for Godot, with an eye towards its impact on freedom struggles throughout the second half of the twentieth century. We will also read seminal texts like Endgame, Happy Days, and other plays with an emphasis on their varied production history across time, languages, and political contexts. This course is about what it means to dig deeper beyond a canonical name and unpack the influence of one of the twentieth century's most brilliant and innovative theatrical figures.",
         },
         {
           name: "Class Materials (Required)",
@@ -45399,7 +45383,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course is dedicated to the life, work, and impact of Irish playwright Samuel Beckett. We will study his biography, from modest origins, to wartime France, to his discovery/invention of what came to be known as the ?Theatre of the Absurd.' We will read his groundbreaking play, Waiting for Godot, with an eye towards its impact on freedom struggles throughout the second half of the twentieth century. We will also read seminal texts like Endgame, Happy Days, and other plays with an emphasis on their varied production history across time, languages, and political contexts. This course is about what it means to dig deeper beyond a canonical name and unpack the influence of one of the twentieth century's most brilliant and innovative theatrical figures.",
+          desc: "This course explores the complex and ever-evolving relationship between theatre, performance, and technology. The theatre has long provided a rich environment for dialogue regarding technological change and continues to provide a platform for artists to experiment with new technologies that push the boundaries of performance and theatrical form. Can robots replace human actors? How do we perform our identities online? Is it possible to ?stage' the internet? In this course students will engage with theatrical works, performance art, and social media to develop research and analytical skills that can be applied across diverse artistic and scholarly contexts. We will consider how these artistic works utilise technological elements to reflect on, and speak to, their particular socio-cultural, political, and historical moment. This course will introduce students to university-level research paper writing that incorporates original textual and performance analysis with supporting secondary sources.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course costs: All class materials will be provided on Canvas or will be accessible via the NU library.",
         },
       ],
     },
@@ -45491,10 +45479,10 @@ const sections = {
       subject: "THEATRE",
       number: "170-0",
       section: "22",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "9:00",
+      end_time: "10:50",
+      room: { building_name: "Wirtz Center BERGEN" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -45508,6 +45496,44 @@ const sections = {
           desc: "Voice for Performance by Linda Gates, Limelight editions.  $24.95  \nCambridge English Pronouncing Dictionary, free online",
         },
       ],
+    },
+  ],
+  "004581": [
+    {
+      unique_id: "40146",
+      instructors: ["Andrew M White"],
+      mode: null,
+      title: "Basic Acting",
+      subject: "THEATRE",
+      number: "171-0",
+      section: "21",
+      meeting_days: "MoWe",
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "Wirtz Center STRUB" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
+  "016531": [
+    {
+      unique_id: "40151",
+      instructors: ["Kelsey Leigh Ervi"],
+      mode: null,
+      title: "Fundamentals of Stage Directing",
+      subject: "THEATRE",
+      number: "211-0",
+      section: "21",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [],
     },
   ],
   "004592": [
@@ -45606,25 +45632,6 @@ const sections = {
         },
         { name: "Class Materials (Required)", desc: "Printing $10" },
       ],
-    },
-  ],
-  "016458": [
-    {
-      unique_id: "40119",
-      instructors: [],
-      mode: null,
-      title: "Theatre Sound",
-      subject: "THEATRE",
-      number: "223-0",
-      section: "21",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
     },
   ],
   "004630": [
@@ -45768,8 +45775,8 @@ const sections = {
       number: "253-0",
       section: "20",
       meeting_days: "TuTh",
-      start_time: "14:00",
-      end_time: "15:20",
+      start_time: "15:00",
+      end_time: "16:20",
       room: { building_name: "Wirtz 225 Instruct Black Box 2" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
@@ -46092,7 +46099,7 @@ const sections = {
   "004659": [
     {
       unique_id: "39076",
-      instructors: ["Pamela   Brailey"],
+      instructors: ["Jonathan Philip Waters"],
       mode: null,
       title: "Period Pattern Drafting and Draping",
       subject: "THEATRE",
@@ -46721,7 +46728,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "15:00",
       end_time: "17:50",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      room: { building_name: "Louis Hall 106" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -46731,7 +46738,7 @@ const sections = {
   "022904": [
     {
       unique_id: "34921",
-      instructors: ["Laura J. Schellhardt"],
+      instructors: ["Jennifer   Avery"],
       mode: null,
       title: "Special Topics in Playwriting",
       subject: "THEATRE",
@@ -47760,7 +47767,11 @@ const sections = {
   "024221": [
     {
       unique_id: "40127",
-      instructors: ["Donna Rosana Baptiste", "Jasmin S Searcy"],
+      instructors: [
+        "Donna Rosana Baptiste",
+        "Jasmin S Searcy",
+        "Ariel   Horvitz",
+      ],
       mode: null,
       title: "Human Growth and Lifespan Development -2",
       subject: "COUN",
@@ -52066,7 +52077,7 @@ const sections = {
       meeting_days: "We",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Kresge 1410 Art Flex/Seminar" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -52199,7 +52210,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Tech Institute Lecture Room 4" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -52294,7 +52305,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute F281" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -52313,7 +52324,7 @@ const sections = {
       meeting_days: "We",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Tech Institute Lecture Room 4" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -52323,7 +52334,7 @@ const sections = {
   "021382": [
     {
       unique_id: "30889",
-      instructors: ["Lance F Levenson"],
+      instructors: ["Syed Imran Hashmi", "Lance F Levenson"],
       mode: "Asynchronous",
       title: "Intro to Business Analytics",
       subject: "BUS_ANLY",
@@ -52334,25 +52345,6 @@ const sections = {
       end_time: null,
       room: { building_name: "TBA" },
       start_date: "2022-04-10",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
-    },
-  ],
-  "021379": [
-    {
-      unique_id: "30890",
-      instructors: [],
-      mode: "Asynchronous",
-      title: "Advanced Modeling Methods",
-      subject: "BUS_ANLY",
-      number: "203-DL",
-      section: "50",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-28",
       end_date: "2022-06-04",
       component: "LEC",
       course_descriptions: [],
@@ -53254,7 +53246,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "University Hall 102" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -53273,7 +53265,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "University Hall 102" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -53311,7 +53303,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Kresge Centennial Hall 2-410" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -53368,7 +53360,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "University Hall 118" },
       start_date: "2022-03-28",
       end_date: "2022-06-11",
       component: "LEC",
@@ -56609,25 +56601,6 @@ const sections = {
       course_descriptions: [],
     },
   ],
-  "020781": [
-    {
-      unique_id: "30943",
-      instructors: [],
-      mode: "Synchronous",
-      title: "Leading and Coaching Agile Teams",
-      subject: "PROJ_PMI",
-      number: "350-0",
-      section: "43",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-28",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
-    },
-  ],
   "021499": [
     {
       unique_id: "30901",
@@ -56659,7 +56632,7 @@ const sections = {
       meeting_days: "MoTh",
       start_time: "18:00",
       end_time: "20:00",
-      room: { building_name: "Wieboldt Hall 712" },
+      room: { building_name: "TBA" },
       start_date: "2022-05-02",
       end_date: "2022-05-26",
       component: "LEC",
@@ -57113,7 +57086,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'When first hearing the word "gothic," most would not think of Black authors and visual artists. However, and as acknowledged by several scholars, including the Nobel Prize-winning Toni Morrison, race and particularly Blackness has always been inextricable from American Gothic literature. This course will consider Morrison\'s claim to explore some early canonical gothic texts by Edgar Allan Poe and Kate Chopin as a foil for how Black authors and artists take up issues of haunting, monstrosity, and corporeal threat since the nineteenth century.\n\nWhile we will spend a little time with white American authors, the center of this class is the production by Black artists. We will begin with the American "slave narrative," stories by fugitive and formerly enslaved Black people. Also, we will look at nineteenth-century gothic fiction and poetry by Frances Ellen Watkins Harper, Pauline E. Hopkins, Adah Isaacs Menken, W.E.B. DuBois, and Charles Chesnutt. We will also read some twentieth-century gothic texts by Toni Morrison, Tananarive Due, and others. Finally, we will reach outside of the US and look at work by Caribbean and South African writers. The class will also include film, music, and visual art. The core questions of this freshman seminar will include: how the gothic genre succeeds and fails for Black artists; the connections between race, slavery/apartheid, and the gothic; and the relationships between memory, history, and horror in the US and Caribbean.\n\nCome to class ready to enthusiastically discuss myriad issues concerning race, gender, class, and sexuality.',
+        },
+      ],
     },
   ],
   "011261": [
@@ -57136,11 +57114,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "African American History offers an introduction to the history of Africans and the descendants in the making of the modern Americas. Between 1500 and 1825 three out of four people arriving in the Americas were Africans. This course explores questions of colonialism, slavery, and race in charting the history of Africans and their descendants before 1619 through the period following the Haitian Revolution. Charting African political, cultural and spiritual practices, it argues that Africans brought more than toil to the Americas, informing technologies while producing intellectual traditions, languages, food-ways, myriad musical forms, and spiritual systems informing and presenting powerful challenges to emergent colonial societies across the Americas.",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Michael Gomez, Reversing Sail\n\nDiana Ramey Berry and Kali Nicole Gross, A Black Women's History of the United States\n\nJames Sweet, Domingos ?lvares, African Healing and the Intellectual History of the Atlantic World\n\nJason Young, Rituals of Resistance: African Atlantic Religion in Kongo and the Lowcountry South in the era of Slavery\n\nSelected articles made available on canvas",
+          desc: "African American History I is an introduction to the history and experiences of African and African-descended peoples in the Atlantic world between 1500 and the late 1880s. It explores the rise and fall of the regime known as racial slavery coupled with the expansion of transatlantic European empires. Slavery, colonialism, and the violent production of racial difference in and across these imperial economies formed an African diaspora that resisted these conditions of exploitation and unfreedom. Framing the period as a 400-year war for abolition, we show that Black resistance led by rebels, maroons, and organized people, set into motion a wave of abolitionism that began in the 1780s, ignited Civil War in the U.S., and concluded in the 1880s when Cuba and Brazil outlawed slavery.",
         },
       ],
     },
@@ -57252,7 +57226,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "African Liberation and U.S. Foreign Policy investigates U.S.-Africa relations with a focus on decolonizing Africa and the simultaneous ascendance of U.S. global power in the second-half of the twentieth-century. The course analyzes the liberation of southern Africa from white minority rule during and after the Cold War. We review histories of colonialism, imperialism, resource extraction, and international law in shaping African politics while emphasizing how military intervention, spying, and surveillance threatened to stifle African freedom movements. The course also investigates relations led by non-state representatives and institutions such as philanthropic and religious missions, corporations, and grassroots organizations. Finally, we examine solidarity-building initiatives led by African American radicals, communists, and other factions of the U.S. left as they aimed to assist African liberation struggles from within U.S. borders.",
+        },
+      ],
     },
     {
       unique_id: "38825",
@@ -57332,7 +57311,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This graduate seminar engages critical texts in the fields of black feminist theory, black queer studies, and queer of color critique.  Our emphasis is on treating these fields as neither separate nor mutually constitutive, but instead as engaged in a long-standing rich dialogue.  We will read by work scholars including Cathy Cohen, Patricia Hill Collins, Mignon Moore, Marcus Hunter, Audre Lorde, Alice Walker, and Evelynn Hammonds.",
+          desc: 'In this course, we will not be talking, simply or exclusively, about black women, or black queer (often meaning "gay or lesbian") people, or black transgender people; we will not be talking, simply or exclusively, about "masculinity" and "femininity" or "sex" as a regime of reproductive coercion sutured to certain anatomical interpretations. This course will be one that concerns, indeed, black genders and sexualities; black genders, which might be to say gender\'s fracture and interrogation; black sexualities, which might be to say a questioning of where sexuality is and cannot be located. This course is, in short, the onset?a continued onset?of a reckoning with what genders and sexualities are and mean, in the context of blackness and outside of or adjacent to that context, and how we might undermine, critique, interrogate, depart from, move within, or imagine outside of entirely these categorizations that are ultimately, as this course will show, regimes of whiteness, normativity, and hegemony.',
         },
       ],
     },
@@ -58085,7 +58064,7 @@ const sections = {
       meeting_days: "Fr",
       start_time: "13:00",
       end_time: "15:50",
-      room: { building_name: "ANTHRO Sem Rm B07 - 1810 Hinmn" },
+      room: { building_name: "Parkes Hall 213" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LAB",
@@ -58545,7 +58524,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First-Year Arabic, Arabic 111, is a three-quarter sequence providing a thorough grounding for listening, speaking, reading, and writing Arabic. The course follows the integrated approach which blends the standard Arabic, Fu???, and the dialect or colloquial language, ?mmiyya, in a way that reflects the authentic practice of native Arabic speakers. To develop reading and writing skills we will be using Modern Standard Written Arabic called Fu???; to develop speaking and listening skills we will be using an educated spoken version of the ?mmiyya of the Levantine dialect.  The integrated approach is an effective, logical, and economical method of instruction that successfully teaches the complexities of the Arabic sociolinguistic and diglossic situation and prepares students fully for the realities of the Arabic world.\nArabic 111-3 is the third quarter of first-year Arabic. Topics covered during this quarter are: studying and professions, health issues and visiting a physician, transportation, weather.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 111-2 or permission of the coordinator. Students with prior knowledge of Arabic (learned either though school or at home) will need to take the Arabic placement exam before being allowed to register.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students completing three quarters of Arabic 111 will be able to read and comprehend simple, authentic texts on familiar topics, write informal notes and short paragraphs on topics connected to daily life, and initiate and sustain conversations on daily-life topics with native speakers who are accustomed to conversing with learners of Arabic as a foreign language.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "First-Year Arabic uses a communicative, proficiency-oriented approach with fully integrated audiovisual media to teach modern Arabic as a living language. Instructors will use an interactive approach in the classroom, including conversational practice in class, reading practice, interactive small group exercises and cultural presentations.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final grade for the course will be based on the following: Attendance and participation, homework assignments, four quizzes given throughout the quarter, and a short oral project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Arabiyyat al-Naas (Part One): An Introductory Course in Arabic. Munther; Weatherspoon, Foster. (2014) Publisher: Routledge.  Print ISBN: 9780415516938, 0415516935 eText ISBN: 9781135010850, 1135010854. (Units 10-14)",
+        },
+        {
+          name: "Class Notes",
+          desc: "All students should plan on regular homework outside of class. The course meets three days a week and is taught in Arabic.",
+        },
+      ],
     },
     {
       unique_id: "36459",
@@ -58562,7 +58570,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First-Year Arabic, Arabic 111, is a three-quarter sequence providing a thorough grounding for listening, speaking, reading, and writing Arabic. The course follows the integrated approach which blends the standard Arabic, Fu???, and the dialect or colloquial language, ?mmiyya, in a way that reflects the authentic practice of native Arabic speakers. To develop reading and writing skills we will be using Modern Standard Written Arabic called Fu???; to develop speaking and listening skills we will be using an educated spoken version of the ?mmiyya of the Levantine dialect.  The integrated approach is an effective, logical, and economical method of instruction that successfully teaches the complexities of the Arabic sociolinguistic and diglossic situation and prepares students fully for the realities of the Arabic world.\nArabic 111-3 is the third quarter of first-year Arabic. Topics covered during this quarter are: studying and professions, health issues and visiting a physician, transportation, weather.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 111-2 or permission of the coordinator. Students with prior knowledge of Arabic (learned either though school or at home) will need to take the Arabic placement exam before being allowed to register.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students completing three quarters of Arabic 111 will be able to read and comprehend simple, authentic texts on familiar topics, write informal notes and short paragraphs on topics connected to daily life, and initiate and sustain conversations on daily-life topics with native speakers who are accustomed to conversing with learners of Arabic as a foreign language.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "First-Year Arabic uses a communicative, proficiency-oriented approach with fully integrated audiovisual media to teach modern Arabic as a living language. Instructors will use an interactive approach in the classroom, including conversational practice in class, reading practice, interactive small group exercises and cultural presentations.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final grade for the course will be based on the following: Attendance and participation, homework assignments, four quizzes given throughout the quarter, and a short oral project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Arabiyyat al-Naas (Part One): An Introductory Course in Arabic. Munther; Weatherspoon, Foster. (2014) Publisher: Routledge.  Print ISBN: 9780415516938, 0415516935 eText ISBN: 9781135010850, 1135010854. (Units 10-14)",
+        },
+        {
+          name: "Class Notes",
+          desc: "All students should plan on regular homework outside of class. The course meets three days a week and is taught in Arabic.",
+        },
+      ],
     },
     {
       unique_id: "37057",
@@ -58579,7 +58616,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First-Year Arabic, Arabic 111, is a three-quarter sequence providing a thorough grounding for listening, speaking, reading, and writing Arabic. The course follows the integrated approach which blends the standard Arabic, Fu???, and the dialect or colloquial language, ?mmiyya, in a way that reflects the authentic practice of native Arabic speakers. To develop reading and writing skills we will be using Modern Standard Written Arabic called Fu???; to develop speaking and listening skills we will be using an educated spoken version of the ?mmiyya of the Levantine dialect.  The integrated approach is an effective, logical, and economical method of instruction that successfully teaches the complexities of the Arabic sociolinguistic and diglossic situation and prepares students fully for the realities of the Arabic world.\nArabic 111-3 is the third quarter of first-year Arabic. Topics covered during this quarter are: studying and professions, health issues and visiting a physician, transportation, weather.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 111-2 or permission of the coordinator. Students with prior knowledge of Arabic (learned either though school or at home) will need to take the Arabic placement exam before being allowed to register.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students completing three quarters of Arabic 111 will be able to read and comprehend simple, authentic texts on familiar topics, write informal notes and short paragraphs on topics connected to daily life, and initiate and sustain conversations on daily-life topics with native speakers who are accustomed to conversing with learners of Arabic as a foreign language.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "First-Year Arabic uses a communicative, proficiency-oriented approach with fully integrated audiovisual media to teach modern Arabic as a living language. Instructors will use an interactive approach in the classroom, including conversational practice in class, reading practice, interactive small group exercises and cultural presentations.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final grade for the course will be based on the following: Attendance and participation, homework assignments, four quizzes given throughout the quarter, and a short oral project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Arabiyyat al-Naas (Part One): An Introductory Course in Arabic. Munther; Weatherspoon, Foster. (2014) Publisher: Routledge.  Print ISBN: 9780415516938, 0415516935 eText ISBN: 9781135010850, 1135010854. (Units 10-14)",
+        },
+        {
+          name: "Class Notes",
+          desc: "All students should plan on regular homework outside of class. The course meets three days a week and is taught in Arabic.",
+        },
+      ],
     },
   ],
   "002329": [
@@ -58598,7 +58664,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Second-year Arabic will focus on the integrated approach which blends the standard Arabic, Fu???, and the dialect or colloquial language, ?mmiyya, in a way that reflects the authentic practice of native Arabic speakers. We will develop reading and writing skills using Modern Standard Arabic and speaking and listening skills using an educated spoken version of the ?mmiyya of the Levantine dialect.  The integrated approach successfully teaches the reality of the Arabic sociolinguistic and diglossic situation and prepares students fully for the various settings and contexts of the Arab world. \n\nWe will continue with Arabiyyat al-Naas (Part Two) focusing on culture, history, and useful vocabulary and phrases to communicate in real life context. Students will learn about: Sport, travel and transportation, the weather, study and science, work, jobs, and professions. Different media tools will be used to achieve course objectives which include but are not limited to games, crosswords, songs, movies, interviews, and documentaries about the Arab world culture and history.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 121-2 with a C- or equivalent; or permission of the instructor",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "After completing Second-Year Arabic, students will feel comfortable to speak about themselves, family members and friends, their studies, trips, wants and desires using full sentences. Students will be able to read and comprehend basic authentic texts and write lengthier paragraphs with increased accuracy. Students will have a good understanding of Arabic grammar, which, among others, includes the root and pattern system, the verbal patterns, and case markings of nouns.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Second year Arabic uses a communicative, proficiency-oriented approach. Students will communicate with the instructor in Arabic and will practice new vocabulary and grammar concepts orally in class.  The instructor will give grammar explanations in Arabic and help students integrate the new rules to improve speaking and writing.  Students will use class time to do group work in Arabic and get feedback on their speaking and pronunciation.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Students will be assessed using a variety of input: Homework preparation, attendance and participation, 3 quizzes given throughout the quarter, and a Final Project with Presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Arabiyyat al-Naas (Part Two): An Intermediate Course in Arabic. Munther; Al-Masri. (2014) Publisher: Routledge.  Print ISBN: 9780415509084, eText ISBN: 9781136446511. (Units 6-10).",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is taught in Arabic and meets three days of the week. Attendance is mandatory and there is regular homework.",
+        },
+      ],
     },
     {
       unique_id: "36461",
@@ -58615,7 +58710,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Second-year Arabic will focus on the integrated approach which blends the standard Arabic, Fu???, and the dialect or colloquial language, ?mmiyya, in a way that reflects the authentic practice of native Arabic speakers. We will develop reading and writing skills using Modern Standard Arabic and speaking and listening skills using an educated spoken version of the ?mmiyya of the Levantine dialect.  The integrated approach successfully teaches the reality of the Arabic sociolinguistic and diglossic situation and prepares students fully for the various settings and contexts of the Arab world. \n\nWe will continue with Arabiyyat al-Naas (Part Two) focusing on culture, history, and useful vocabulary and phrases to communicate in real life context. Students will learn about: Sport, travel and transportation, the weather, study and science, work, jobs, and professions. Different media tools will be used to achieve course objectives which include but are not limited to games, crosswords, songs, movies, interviews, and documentaries about the Arab world culture and history.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 121-2 with a C- or equivalent; or permission of the instructor",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "After completing Second-Year Arabic, students will feel comfortable to speak about themselves, family members and friends, their studies, trips, wants and desires using full sentences. Students will be able to read and comprehend basic authentic texts and write lengthier paragraphs with increased accuracy. Students will have a good understanding of Arabic grammar, which, among others, includes the root and pattern system, the verbal patterns, and case markings of nouns.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Second year Arabic uses a communicative, proficiency-oriented approach. Students will communicate with the instructor in Arabic and will practice new vocabulary and grammar concepts orally in class.  The instructor will give grammar explanations in Arabic and help students integrate the new rules to improve speaking and writing.  Students will use class time to do group work in Arabic and get feedback on their speaking and pronunciation.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Students will be assessed using a variety of input: Homework preparation, attendance and participation, 3 quizzes given throughout the quarter, and a Final Project with Presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Arabiyyat al-Naas (Part Two): An Intermediate Course in Arabic. Munther; Al-Masri. (2014) Publisher: Routledge.  Print ISBN: 9780415509084, eText ISBN: 9781136446511. (Units 6-10).",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is taught in Arabic and meets three days of the week. Attendance is mandatory and there is regular homework.",
+        },
+      ],
     },
   ],
   "021881": [
@@ -58634,7 +58758,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This unique course is strongly recommended for students, undergraduate or graduate,  with at least an intermediate knowledge of Modern Standard Arabic who want to a) supplement their prior knowledge of Arabic language to understanding the more specific, stylized content of Arabic-speaking media such as Al Jazeera or BBC News Arabic; and b) who want to learn more about the Middle East and its conflicting interests as portrayed in broadcast news and print media.  Each week, students will learn new important expressions, practice listening skills to understand headlines and short news segments, as well as begin to develop the vocabulary necessary for improved  reading comprehension of authentic print materials such as articles and longer broadcast news features.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Arabic 121-2 or equivalent",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will acquire over 250 high frequency vocabulary words through listening to headlines.  They will recognize specific expressions and sentence structures of broadcast news.  In addition, students will become familiar with the political culture of the Arab world by being introduced to political parties, movements, leading figures, and international Arab organizations. At the end of the quarter, students will feel comfortable listening to short broadcasts, reading headline news on the internet, as well as longer print articles.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Students will be exposed to recordings of headlines and short broadcasts to develop listening comprehension skills. The vocabulary covered in the text book will be reinforced through discussions of current events, cultural developments, and political conflicts among others.  The usage of prepositions will be stressed with regular weekly drills specifically focusing on prepositions. Students will have a chance to develop their own creative short broadcasts to demonstrate their mastery of the material.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Homework, periodic quizzes on vocabulary and listening comprehension, attendance and participation, midterm and final.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The book used in this class is:  Khan, F. Z., & Saeed, O. (2016). Arabic for Broadcast News (Arabic Edition). (1 ed.) (ISBN: 978-1522744788).  We will cover Chapters 1-12.",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is taught primarily in Arabic and meets three times a week. There is regular collected homework including listening to recorded materials as well as weekly live broadcasts.",
+        },
+      ],
     },
   ],
   "024050": [
@@ -58653,7 +58806,32 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The topic of this course is Cairo and Its Seven Layers of Civilization.  In this course students will learn about the history and intricacies of the Arab culture through the specific example of Cairo. With a population of over 20 million, Cairo is the largest city in the Arab world. Founded in 969 AD, Cairo has a particularly rich history represented in its mosques, churches and monuments, as well as in its people and their daily life. The course material is based on interesting content that allows students to explore and compare in the foreign language broader cultural, social, and political issues. Moving away from a traditional textbook based model to a content-based course, it incorporates authentic texts and literary sources as well as external voices into classes through Video, Skype or Zoom. The authentic texts and literary sources are accompanied by creative language learning exercises designed to help students to function across different registers and genres. The course integrates the sociolinguistic reality of Arabic diglossia by engaging students into educational material representing both written Arabic (Modern Standard Arabic-MSA) and spoken Egyptian Arabic.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: Arabic 121-3, or permission of the instructor.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "In the course students will work on the following linguistic and cultural objectives:\n1. identify linking words and connectors and integrate the grammar knowledge you have acquired throughout your journey learning Arabic into developing a higher level of reading comprehensibility;\n2  use 400-500 new words both from written or spoken sources and to practice these words through interactive exercises presented on Canvas; \n3. developed strategies to help you locate the main ideas, read comprehensively, to understand and assess a variety of input sources: original texts from Wikipedia, tables and maps, graphs, and pictures, literary sources; news broadcasts about events and people in Cairo (important because they provide an authentic source of Egyptian dialect); \n4. to comprehend written and spoken sources both in FuSha/MSA and in the Egyptian dialect which is the most widespread dialect in the Arab world called by some scholars as the lingua franca of the Arab world. Students will recognize the difference between the two language varieties and their purposes where MSA is  used mainly for writing and formal (e.g. presidential decrees) and religious settings (sermons) while the Egyptian dialect is everyday language of communication.\n5. to summarize and present key details of historical and current news events in your own words (written and oral) including voicing critical remarks.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "This is an interactive, reading and discussion-based class which requires daily guided work as well as independent research. The course material is presented online in a multisensory way through texts, pictures, graphics, audio and video sequences. Its interactive mode makes use of current instructional technologies and tools to supports student learning. The course is divided into five units (each about two weeks long) with different topics.  Each unit has a set of core readings and listening activities; many with self-check and feedback opportunities, vocabulary development opportunities, and final writing assignments. Students will also work collaboratively on a StoryMapJS project, mapping out interesting buildings and noteworthy places in Cairo.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final assessment of this course is based on a variety of inputs that include zoom attendance and participation, completion of homework, various assignments aligned with the learning goals, four short quizzes and one oral project presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The course material is available through online PDFs.  Interactive exercises and assignments are hosted on the course site on Canvas. Additional background reading in English.",
+        },
+      ],
     },
   ],
   "018154": [
@@ -58672,7 +58850,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course offers a valuable opportunity for advanced Arabic language students to enroll in an innovative course that is being offered for the first time; "Arab Women and the Search for a Voice".  The course explores the multidimensional experiences of Arab women as active agents in a quest to find a voice and visibility in societies that are mostly male dominated.  The course features an innovative curricular material design for an advanced content, and interactive exercises using newest online technologies. This innovative design aligns with ACTFL standards, and incorporate the newest inclusion and social justice standards as presented in the Teaching Tolerance Anti-Bias framework. (https://www.learningforjustice.org/frameworks/social-justice-standards).\nThis course offers a unique opportunity to students who want to explore Arabic literary prose in depth. It also provides foundational skills for students who want to pursue graduate careers in Arabic literature or Middle Eastern Studies. The course will survey excerpts and selections of Arabic literary prose with emphasis on different styles of analyzing authentic literary works by women writers and literature about women in the 21st century. Topics will include reading and analyzing authentic literary works from a variety of sources; written and digital, traditional and contemporary including various literary text samples on the role of the Arab women in society, their rights, customs and traditions as impediment to their empowerment, protecting their cultural identity/lineage, their multifaceted role in the family, and determination for gaining political rights and leadership role.',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Completion of Arabic 211-2 or equivalent; or permission from the instructor.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Student engaged in this course will have the opportunity to work on written and oral comprehension, discussions and expression around the themes mentioned above. They will learn foundational analytic skills such as the study of elements and imagery, sounds, forms, and writing styles, characteristics and development over time, which form the bases for analyzing text written by prominent authors of essays, reflections, short stories, and biographies.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The linguistic textual analysis of each reading will focus on: (1) understanding advanced grammatical structures, syntax and style; (2) rapid acquisition of vocabulary and popular idioms (e.g. gender manifestations) through in-class discussions and oral presentations; (3) writing assignments that reflect students' abilities to understand and assimilate the texts. We will work intensively on improving reading-for-comprehension skills, listening and speaking through in-class oral discussions and presentations. Special exercises will be developed to improve understanding, and use of essential elements of rhetorical analysis of literary works and applying them to the texts we read in class.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final grade for the course will be based on the following: Attendance and Participation, completion of pre-class assignments, and writing assignments that reflect student's understanding of content and the different applications of Arabic rhetoric.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Material will include selections from a variety of different sources and will be provided to students in PDF format.",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is planned and taught mainly in Arabic. Students are expected to communicate and engage in group conversations using Arabic language.",
+        },
+      ],
     },
   ],
   "001305": [
@@ -59933,7 +60140,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'AY21-22 When asked in 1985 why he writes "economic novels" (keizai sh?setsu), the popular novelist Kajiyama Toshiyuki responded: "Why should we limit our literary subjects to love affairs and things like that? There\'s romance in money: people are living in the much muddier swamp of capitalism." By making this "muddy swamp" of capitalism legible for a wide range of audiences, the economic novel has become one of the most popular literary genres in postwar Japan. Since their inception in the late 1950s, economic novels have sold as well as, if not better, than mysteries and twice as well as the more high-brow form of "pure literature" (jun bungaku). Centering on the economic realities of life under capitalism, economic novels portray the workings of financial corruption, the mechanics of production and distribution, and the experience of laboring within one of the largest consumer economies in the world. This course traces this genre from its origins in 1957 to the contemporary moment. Reading works by early practitioners of the form to its more recent inflections in the literature of writers like Oyamada Hiroko (The Factory), Tsumuro Kikuko (There\'s No Such Thing as an Easy Job), and Murata Sayaka (Convenience Store Woman), we will examine the relationship between literature and the transformations in Japan\'s capitalist economy. We will consider, among other topics, how this genre depicts changes in the workplace and forms of labor, systemic modes of economic exploitation, the psychological and emotional experience of debt in a financialized economy, and the gendering of particular types of work. Guiding our inquiry will be an overarching question: what are the connections between literary and economic form?',
+        },
+        { name: "Teaching Method", desc: "Lecture and discussion" },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance and Participation; In-Class Presentations; Mid-term Paper; Final Paper",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Azuchi Satoshi, Supermarket, trans. Paul Warham, ISBN 0312382944\nMiyabe Miyuki, All She Was Worth, trans. Alfred Birnbaum, ISBN 0395966582\nKirino Natsuo, Out, trans. Stephen Snyder, ISBN 1400078377\nOyamada Hiroko, The Factory, trans David Boyd, ISBN 0811228851\nTsumura Kikuko, There's No Such Thing as an Easy Job, trans. Polly Barton, ISBN\n1635576911\nMurata Sayaka, Convenient Store Woman, trans. Ginny Tapley Takemori, ISBN\n0802128254",
+        },
+      ],
     },
   ],
   "023539": [
@@ -60021,25 +60242,6 @@ const sections = {
         { name: "Evaluation Method", desc: "Essays" },
         { name: "Class Materials (Required)", desc: "None" },
       ],
-    },
-  ],
-  "024003": [
-    {
-      unique_id: "37031",
-      instructors: [],
-      mode: null,
-      title: "South Asian Societies",
-      subject: "ASIAN_LC",
-      number: "375-0",
-      section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "LEC",
-      course_descriptions: [],
     },
   ],
   "018604": [
@@ -60750,7 +60952,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This class is an introductory level biochemistry course. It covers basic topics such as macromolecular structure and function of biologically relevant macromolecules (proteins, carbohydrates, nucleic acids, lipids), membrane structure, membrane transport, signal transduction, chemical logic in metabolic transformations, and carbohydrate metabolism. The course strongly emphasizes conceptual understanding, and offers extensive student-teacher interaction. Active participation in all course elements is encouraged and advantageous as students are expected to move past memorization of facts to a fully interconnected and integrated understanding that allows students to apply their knowledge to solve complex problems. This course will equip students preparing for the MCAT. Quizzes (20-30 minutes) are held during the Wednesday 7-9pm discussion section for Biol_Sci 301. To be as flexible as possible and accommodate multiple scheduling issues, quizzes can be scheduled 30 minutes before the start of the discussion section (6:30pm). TAs will need 48 hr advance notice to schedule an early quiz.    If another class conflicts with a Biol_Sci 301 exams, we do not offer an alternate time.",
+          desc: "This class is an introductory level biochemistry course. It covers basic topics such as macromolecular structure and function of biologically relevant macromolecules (proteins, carbohydrates, nucleic acids, lipids), membrane structure, membrane transport, signal transduction, chemical logic in metabolic transformations, and carbohydrate metabolism. The course strongly emphasizes conceptual understanding, and offers extensive student-teacher interaction. Active participation in all course elements is encouraged and advantageous as students are expected to move past memorization of facts to a fully interconnected and integrated understanding that allows students to apply their knowledge to solve complex problems. This course will equip students preparing for the MCAT. Quizzes (20-30 minutes) are held during the Wednesday 7-9pm discussion section for Biol_Sci 301. If another class conflicts with a Biol_Sci 301 exams, we do not offer an alternate time.",
         },
         {
           name: "Registration Requirements",
@@ -60785,7 +60987,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This class is an introductory level biochemistry course. It covers basic topics such as macromolecular structure and function of biologically relevant macromolecules (proteins, carbohydrates, nucleic acids, lipids), membrane structure, membrane transport, signal transduction, chemical logic in metabolic transformations, and carbohydrate metabolism. The course strongly emphasizes conceptual understanding, and offers extensive student-teacher interaction. Active participation in all course elements is encouraged and advantageous as students are expected to move past memorization of facts to a fully interconnected and integrated understanding that allows students to apply their knowledge to solve complex problems. This course will equip students preparing for the MCAT. Quizzes (20-30 minutes) are held during the Wednesday 7-9pm discussion section for Biol_Sci 301. To be as flexible as possible and accommodate multiple scheduling issues, quizzes can be scheduled 30 minutes before the start of the discussion section (6:30pm). TAs will need 48 hr advance notice to schedule an early quiz.    If another class conflicts with a Biol_Sci 301 exams, we do not offer an alternate time.",
+          desc: "This class is an introductory level biochemistry course. It covers basic topics such as macromolecular structure and function of biologically relevant macromolecules (proteins, carbohydrates, nucleic acids, lipids), membrane structure, membrane transport, signal transduction, chemical logic in metabolic transformations, and carbohydrate metabolism. The course strongly emphasizes conceptual understanding, and offers extensive student-teacher interaction. Active participation in all course elements is encouraged and advantageous as students are expected to move past memorization of facts to a fully interconnected and integrated understanding that allows students to apply their knowledge to solve complex problems. This course will equip students preparing for the MCAT. Quizzes (20-30 minutes) are held during the Wednesday 7-9pm discussion section for Biol_Sci 301. If another class conflicts with a Biol_Sci 301 exams, we do not offer an alternate time.",
         },
         {
           name: "Registration Requirements",
@@ -63534,6 +63736,23 @@ const sections = {
       course_descriptions: [],
     },
     {
+      unique_id: "40145",
+      instructors: [],
+      mode: null,
+      title: "Tutorial in Biology",
+      subject: "BIOL_SCI",
+      number: "398-0",
+      section: "225",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: null,
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
       unique_id: "32366",
       instructors: ["Roger A. Kroes"],
       mode: null,
@@ -64900,7 +65119,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "17:00",
       end_time: "19:00",
-      room: { building_name: "Parkes Hall 212" },
+      room: { building_name: "Kresge Centennial Hall 2-430" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
@@ -66559,7 +66778,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course introduces students to a diverse range of important works of world literature and the central debates and questions about the idea of world literature. We will explore the interface of global ecological developments and the circulation of world literature. How does a text qualify to be part of "world literature"? What does the reader bring to the text to make it a "world literature" text? What are the similarities/differences between "world literature," on the one hand, and "world music" and "world cinema" on the other? In what ways can literature be compared to the environment? How can we preserve endangered literary texts and global languages? How does world literature respond to problems that face the world at large (e.g., global pandemics, world wars, and climate change, etc.)? How appropriate is the term "world literature" as a descriptor of planetary literary production and circulation? What are the best methods of reading world literature today? We will try to answer some of these questions and others that arise during class and one-on-one meetings.\n\nDiscussing and writing about a variety of theories of world literature, we will assess the merits of different approaches (e.g., distant reading, close reading etc.) in the encounter with specific texts from various parts of the planet. Furthermore, we will study how a local text is affected by worldwide movements and how it affects other texts, such that it is best be understood comparatively on a planetary scale. Theory materials will comprise commentaries on world literature and world literary ecologies from different literary backgrounds. Theorists read in the course will include Johan Wolfgang von Goethe, Karl Marx and Friedrich Engels, David Damrosch, Emily Apter, Ngugi wa Thiong\'o, Franco Moretti, and Gayatri Spivak.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: 'By the end of the course, the student should be able to:\n1.\tDiscuss the concept of "world literature" and assess its relevance in the practical analysis of individual texts or set of texts;\n2.\tRespond to critiques of the concept of world literature;\n3.\tCompare literary texts from different parts of the world, language traditions, genres and modes of transmission; and\n4.\tCompose culturally sensitive and intellectually sophisticated essays on world literature.',
+        },
+        {
+          name: "Teaching Method",
+          desc: "Interactive lectures, debates, role-play, one-on-one meetings, and small group discussions.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Two 6-page papers, weekly Canvas postings, regular self-evaluation, peer critiques, class participation, take-home exam, pop quizzes (ungraded), and 1-minute papers (ungraded). Evaluation methods might change as we respond to class needs.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "?\tJoseph Conrad, Heart of Darkness. Broadview.  ISBN-10 : 1551110652 ISBN-13; 978-1551110653.\n?\tBessie Head, Maru. Waveland. ISBN-10: 1478607610; ISBN-13 : 978-1478607618\n?\tWiti Ihimaera's The Whale Rider. Harcourt. ISBN-10: 0152050167; ISBN-13 : 978-0152050160\n?\tChimamanda Ngozi Adichie, Americanah. Anchor. ISBN-10: 9780307455925; ISBN-13: 978-0307455925\n?\tRoberto Bolano, By Night in Chile. New Directions. ISBN-10: 0811215474; ISBN-13: 978-0811215473\n?\tIndra Sinha, Animal's People. Simon & Schuster; Reprint edition (March 17, 2009) ISBN-13: 978-1416578796",
+        },
+      ],
     },
   ],
   "001605": [
@@ -66578,7 +66818,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Overview of Course\nWhat does one talk about when one talks about disasters? Whose world ends in "end of the world" narratives? This course invites students to read and watch South Korean and diasporic narratives centered around disasters, both real and fictional, to engage questions of politics, representation, and inequalities that shape disaster narratives. Ranging from disasters of the past to more contemporary ones such as pandemics and Sewol ferry, the disasters examined in this course have sparked complex conversations surrounding a more just society and the doomed end of the "normal." Engaging scholarship on disasters, speculative fictions, critical race theory, and gender studies, the course introduces students to the varied academic and cultural responses to disasters and the underlying stakes that drive these responses. Students will be assigned a variety of texts to analyze, such as film, novels, webtoons, and news, as well as choosing a disaster narrative of their own interest to examine. No prior knowledge of Korean culture or language are required to take this course. Students are expected to actively participate in class and work in groups on collaborative projects. Assignments will consist of short essays and a creative final project.',
+        },
+        { name: "Teaching Method", desc: "Discussion based Seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "In-Class Participation Group presentation and project Short Essays",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The Disaster Tourist: A Novel by Yun Ko-Eun, Trans. by Lizzie Buehler. ISBN: 1640094164 City of Ash and Red: A Novel by Hye-young Pyun, Trans. by Sora Kim-Russell. ISBN:1950691098 My Daughter is a Zombie by Yun-chang Lee. Naver Webtoon.",
+        },
+      ],
     },
     {
       unique_id: "39660",
@@ -66595,7 +66849,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is a general survey of early 20 century Russian Literature, focused on the interconnections between new ideas in culture and politics. Texts include great Modernist novels Peterburg (1913) by Andrei Bely, Master and Margarita (1940) by Mikhail Bulgakov, and Evgeny Zamiatin's We (1921); poetry by Aleksandr Blok, and Vladimir Mayakovsky. These major literary works are discussed in the broad Russian and European cultural and historical context. Students are introduced to the thrills and challenges of reading Russian modernist novels.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Texts include great Modernist novels Peterburg (1913) by Andrei Bely, Master and Margarita (1940) by Mikhail Bulgakov, and Evgeny Zamiatin's We (1921); poetry by Aleksandr Blok, and Vladimir Mayakovsky.",
+        },
+      ],
     },
   ],
   "018661": [
@@ -66614,7 +66877,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The scripts and fragments from plays produced in fifth-century BCE Athens in honor of Dionysos, god of wine and theater, are among the most enduring and powerful legacies of ancient Greek culture. Since their rediscovery in the early modern period, directors, translators, and adaptors have repeatedly turned to the poetry of Aeschylus, Sophocles, and Euripides to reflect on political, ethical, social, and theological issues of their time. More recently, the plays have proved fertile ground for directors eager to imagine alternative ways of thinking about race, gender, and class. In this course, we will read a selection of Athenian tragedies, with special emphasis on their form, ancient performance context, and themes, as well as select examples of their contemporary reception for diverse audiences. All readings will be in translation, and students will be encouraged to work in groups to perform and develop creative responses to individual scenes.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "No special consent required",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Class Participation\nReadings\nSeminar",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance\nClass Participation\nGroup Project\nGroup Work\nPaper, Final\nPaper, Mid-Term\nReadings\nWriting Assignments",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Taplin, O., transl. 2018. Aeschylus, The Oresteia: Agamemnon, Women at the Graveside, Orestes in Athens. New York and London: W.W. Norton. 978-0393923285 \n \nSommerstein, A., transl. 2010. Aeschylus, The Persians and Other Plays. Penguin Classics. 978-0140449990. \n \nMeineck, P., trans. 2003. Sophocles: Theban plays. Indianapolis, IN: Hackett. 978-0872205857 \n \nMeineck, P., trans. Sophocles: Four tragedies. Indianapolis, IN: Hackett. 978-0872207639 \n \nMorwood, James, ed. and trans. 2000. Euripides: Bacchae and other plays. Oxford World's Classics. Oxford: Oxford Univ. Press. 978-0199540525 \n \nMorwood, James, ed. and trans. 2008b. Euripides: Medea and other plays. Oxford World's Classics. Oxford: Oxford Univ. Press. 978-0199537969 Powers, \n \nMelinda. 2020. Reclaiming Greek Drama for Diverse Audiences. Routledge.? 978-1138601024",
+        },
+      ],
     },
     {
       unique_id: "39364",
@@ -66631,7 +66915,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on the representations of animals, animism, and animality in select African texts to examine the major developments in African literatures. While discussing various theoretical statements, we will assess the place of the non-human in the African thought. We will discuss work by well-known authors (e.g., Wole Soyinka, Bessie Head, J.M. Coetzee, Abulrazak Gurnah, and Ngugi wa Thiong'o), fiction and poetry by important but neglected authors (e.g., Saida Hagi-Dirie Herzi and Henry ole Kulet), and works by emergent writers who deploy animality as a trope to explore the relationship between the human and the non-human.  Subtopics will include ecology, biopolitics, slavery, race, diaspora, intra-African immigration, science fiction, queerness, and ubuntu. Theoretical texts include works by Wangari Maathai, Achille Mbembe, Rosi Braidotti, Harry Garuba, Kyle White, Frantz Fanon, and Cajetan Iheka.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Interactive lectures, debates, role-play, and small group discussions",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Two 7-page papers, weekly Canvas postings, regular self-evaluation, peer critiques, class participation, pop quizzes (ungraded), and 1-minute papers (ungraded). No final exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "1.\tBeukes, Lauren. Zoo City. Mulholland Books; ISBN-10 ? : ? 0316267929 ISBN-13 ? : ? 978-0316267922\n2.\tGalgut, Damon. The Beautiful Screaming of Pigs. ISBN-10 ? : ?1843544628; ISBN-13 ? : ? 978-1843544623\n3.\tGurnah, Abdulrazak. Paradise. New Press. ISBN-10 ? : ? 1565841638 ISBN-13 ? : ? 978-1565841635\n4.\tHabila, Helon. Oil on Water: A Novel. W. Norton & Company;  ISBN-10 : 0393339645 ISBN-13 : 978-0393339642\n5.\tMaathai, Wangari. Replenishing the Earth: Spiritual Values for Healing Ourselves and the World. ISBN-10: 030759114X; ISBN-13: 978-0307591142\n6.\tNgugi wa Thiong'o. A Grain of Wheat. ISBN-10 ? : ? 0143106767 ISBN-13 ? : ? 978-0143106760\n7.\tParkes, Nii Ayikwei. Tail of the Blue Bird.  flipped eye publishing limited. ISBN-10 ? : ? 0981858430 ISBN-13 ? : ? 978-0981858432",
+        },
+      ],
     },
   ],
   "018663": [
@@ -66650,7 +66951,26 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Jesus is certainly a central figure for Christianity and usually thoughtto mark decisive differences between the religions: the idea of anembodied God is as alien to Judaism as the concept of trinity or thebelief in a substitutionary sacrificial death. Considering this, it seemsvery remarkable that at a closer look, figurations of Jesus abound inJewish literature. In the seminar we will concentrate on the realm ofGerman language texts from the 18th century to the present dealingwith Jesus or related symbols like the cross or scenes of the Passionand Crucifixion. Not surprisingly, in Christian as well as Jewishcontexts mixing religious symbolism in literature and art repeatedlyprovoked scandals. Authors like Carl Einstein were fined forblaspheming Christ, while others like Stefan Zweig, Alfred D?blin orFranz Werfel were accused of having betrayed Judaism.\nOne hypothesis concerning this corpus of texts is that by adoptingcentral narratives and images of the Christian majority society theyclaim Jewish participation and explore its limits. By focusing onJesus as a Jew many of these texts rewrite and transform dominantChristian perspectives and expose their inherent violence. If theypresent the martyred Jesus explicitly as a Jew e.g., connections topersecutions, pogroms and genocide are evoked. At the same time,questions concerning a shared history and modes of respect despitedifference are raised. We will discuss how texts problematizeassimilation and also try to understand the role of (trans-)figurationsof Jesus in 20th Jewish literature about war, the Shoah and themodes of memory.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will\n* get to know a corpus of German-Jewish literature (canonical andless well known texts) and acquire an understanding for historicallyspecific features as well as recurring themes and structures\n* explore cultural and textual strategies characteric of DiasporaJudaism (adopting and subverting major narratives and symbols of aChristian majority society)\n* reflect on discourses on guilt, sacrifice and the role of violence inthe construction of community\n* investigate processes of symbolization and its corporeal aspects",
+        },
+        { name: "Teaching Method", desc: "Seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "Paper, final\nPresentations\nWriting assignments\nFinal assessment: Final Paper",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All German texts or text extracts (Moses Mendelssohn, Heinrich Heine, Karl Emil Franzos, Stefan Zweig, Else Lasker-Schu?ler,Sigmund Freud, Alfred D?blin, Nelly Sachs, Paul Celan and DoronRabinovici) will be read and provided in English translation(digitized).\nThe followings books are also recommended forpurchase:\n* Else Lasker-Schu?ler: Three Plays (Arthur Aronymus andHis Ancestors), trans. Jane Curtis, Evanston: Northwestern UP 2005,ISBN\n* Doron Rabinovici: The Search for M., trans. Michael Sharp,Riverside/CA 2000, ISBN\nFor further reading:\n* Schalom Ben-Chorin:Brother Jesus. The Nazarene through Jewish Eyes, Athens/GA2012, ISBN\n* Pardes 21 (2015): Jesus in the Jewish Cultures of the19th and 20th Century (online)",
+        },
+        { name: "Class Notes", desc: "Professor Doerte Bischoff" },
+      ],
     },
     {
       unique_id: "39701",
@@ -66667,7 +66987,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'When asked in 1985 why he writes "economic novels" (keizai sh?setsu), the popular novelist Kajiyama Toshiyuki responded: "Why should we limit our literary subjects to love affairs and things like that? There\'s romance in money: people are living in the much muddier swamp of capitalism." By making this "muddy swamp" of capitalism legible for a wide range of audiences, the economic novel has become one of the most popular literary genres in postwar Japan. Since their inception in the late 1950s, economic novels have sold as well as, if not better, than mysteries and twice as well as the more high-brow form of "pure literature" (jun bungaku). Centering on the economic realities of life under capitalism, economic novels portray the workings of financial corruption, the mechanics of production and distribution, and the experience of laboring within one of the largest consumer economies in the world. This course traces this genre from its origins in 1957 to the contemporary moment. Reading works by early practitioners of the form to its more recent inflections in the literature of writers like Oyamada Hiroko (The Factory), Tsumuro Kikuko (There\'s No Such Thing as an Easy Job), and Murata Sayaka (Convenience Store Woman), we will examine the relationship between literature and the transformations in Japan\'s capitalist economy. We will consider, among other topics, how this genre depicts changes in the workplace and forms of labor, systemic modes of economic exploitation, the psychological and emotional experience of debt in a financialized economy, and the gendering of particular types of work. Guiding our inquiry will be an overarching question: what are the connections between literary and economic form?',
+        },
+        { name: "Teaching Method", desc: "Lecture and Discussion" },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance and Participation; In-Class Presentations; Mid-term Paper; Final Paper",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Azuchi Satoshi, Supermarket, trans. Paul Warham, ISBN 0312382944\nMiyabe Miyuki, All She Was Worth, trans. Alfred Birnbaum, ISBN 0395966582\nKirino Natsuo, Out, trans. Stephen Snyder, ISBN 1400078377\nOyamada Hiroko, The Factory, trans David Boyd, ISBN 0811228851\nTsumura Kikuko, There's No Such Thing as an Easy Job, trans. Polly Barton, ISBN \n1635576911\nMurata Sayaka, Convenient Store Woman, trans. Ginny Tapley Takemori, ISBN \n0802128254",
+        },
+      ],
     },
   ],
   "021209": [
@@ -66686,7 +67020,33 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course will introduce students to a poorly understood art form that has been reborn many times, including today in the light of pandemic restrictions on theatrical production just recently: audio drama. In the middle decades of the 20th century, radio plays were among the most popular forms of fiction in many parts of the world. Legends have come down about thrillers of the 1930s, but these remain framed inside narratives of nostalgia, and are not representative of the broad work of experimental writers in the medium. In this class, you will learn how radio dramas were made in three historical periods: classic American (1937-54); mid-century British (1954-1974) and contemporary podcast traditions, with additional focus on audio dramas in the global south, including South Africa and India. We will explore the cultural and political background of each of these contexts, practice how to "read" a radio play, and ask about how the form interacts with various media, and expressive agendas.',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "To enroll: Please write to instructor (neil.verma@northwestern.edu)",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "At the end of this class students will have a deep sense of the craft of audio storytelling, as well as an awareness of the growth, death and rebirth of a major media form in specific historical and political contexts. They will also blend analytical writing with creative expression, becoming more active and critical listeners and creators.",
+        },
+        { name: "Teaching Method", desc: "Seminar, in person" },
+        {
+          name: "Evaluation Method",
+          desc: 'Active class participation and attendance: 30%. You must come to class having done the reading and listening, with at least two questions about each drama we will study. Be sure to mark down the time stamp of anything you find particularly odd, interesting or worth discussing. The small group discussions will make up a big part of this grade.\nAssignment 1: Review. Select any audio drama produced in the last five years (If you don\'t know where to start, google Radio Drama Revival or the Bello Collective to browse recent titles). Write a 3 page (double spaced) review of the show for a general audience. Your review should situate the piece in the longer history of audio drama - what connection does the show have to the history of the medium? What connections should it have? 15%\nAssignment 2: Interview. First, select a radio writer, actor or director currently working in the field and arrange to interview her / him. Write a 2-page report about how this dramatist works and what their ideas are about the strengths and weaknesses of the medium. 15%\nAssignment 3: Deconstructed Audio Drama. Final projects will be "deconstructed" audio dramas made in small groups of three. It will have four components. First, a jamboard of ideas, images and sounds that inspire the work. Second, a three to four page "treatment" for the drama, either an adaptation of an existing work, or a brand-new story. Third, some sound recordings of a few key soundscapes / sound effects for the story, along with a written explanation as to how they were made and the process that went in to them. Finally, at least one written scene that you will be prepared to both submit and act out in front of the class. All work should be submitted as a dossier on the final day of class. 40%\n\n\nAlternative Scheme: For MA/PhD students, you may opt to write a term paper instead of the three assignments above.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Neil Verma, Theater of the Mind, 978-0226853512\n*All other materials available on Canvas",
+        },
+        {
+          name: "Class Notes",
+          desc: "To enroll: Please write to instructor (neil.verma@northwestern.edu)",
+        },
+      ],
     },
     {
       unique_id: "39696",
@@ -66703,7 +67063,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course offers a history of Japanese cinema from the beginning of the New Wave movements in the mid-1950s to the present moment. We will consider how cinema has reflected historical moments and shaped cultural discourses in this period. Focusing on films that raise disciplinary questions related to both the cinematic medium and Japan, we will examine, among other topics: the relationship between cinema and the era of high economic growth, the decline of the studio system, postmodernism, and cinematic responses to the post-bubble economic recession. We will also study the shifting position of directors within the broader economic and institutional contexts of Japanese cinema and its global circulation. Students will learn how to critically analyze various films from multiple theoretical perspectives while gaining an understanding of the major figures and trends in the history of postwar Japanese cinema.",
+        },
+        { name: "Teaching Method", desc: "Lecture and Discussion" },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance and Participation; Weekly Responses; Short Papers",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials will be available through Canvas",
+        },
+      ],
     },
     {
       unique_id: "39702",
@@ -66720,7 +67094,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course offers a history of Japanese cinema from the beginning of the New Wave movements in the mid-1950s to the present moment. We will consider how cinema has reflected historical moments and shaped cultural discourses in this period. Focusing on films that raise disciplinary questions related to both the cinematic medium and Japan, we will examine, among other topics: the relationship between cinema and the era of high economic growth, the decline of the studio system, postmodernism, and cinematic responses to the post-bubble economic recession. We will also study the shifting position of directors within the broader economic and institutional contexts of Japanese cinema and its global circulation. Students will learn how to critically analyze various films from multiple theoretical perspectives while gaining an understanding of the major figures and trends in the history of postwar Japanese cinema.",
+        },
+        { name: "Teaching Method", desc: "Lecture and Discussion" },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance and Participation; Weekly Responses; Short Papers",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All materials will be available through Canvas",
+        },
+      ],
     },
   ],
   "023048": [
@@ -66739,7 +67127,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course examines contemporary discussions on the topics of gender, sexuality, and disability in South Korea. The past decade has seen an explosion of popular interest in feminism in South Korea. Along with this were competing debates on social and economic inequalities and legislations, as well as debates on gender identity, everyday experiences of discrimination, and overlooked sites of intersectional violence. From the Gangnam station murder to the #Me Too movement, South Korean cultural industry's rise into the global stage through K-Pop has coincided with intense debates at home and abroad about the experience of gendered citizenship and various forms of marginalization. As the scholar Alison Kafer has poignantly shown, thinking through the entanglements of feminist, queer, and disability concerns is important to rethinking exclusionary claims and their attendant problems. Students will look at some of the major points of debate and events that have ignited the increased interest, engaging literary and popular cultural texts, news articles, and scholarship on feminist, queer, and crip theories. At the same time, these recent debates are not necessarily unique or new. To address such, the course will also consider the broader historical context of militarization, colonialism, and the Korean diaspora that have shaped these debates. No prerequisite knowledge of the Korean language or culture is necessary. As a discussion-based seminar with papers, the course encourages students to hone their critical thinking, speaking, and writing skills.",
+        },
+        { name: "Teaching Method", desc: "Discussion based seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "In-Class Participation\nIndividual Presentation\nMidterm Group Research Project \nFinal Paper",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Concerning My Daughter by Kim Hye-Jin. Trans. by Jamie Chang (out in April 14, 2022). ISBN: N/A Egalia's Daughters: A Satire of the Sexes by Gerd Brantenberg. Trans. by Louis Mackay. ISBN: 1580051251",
+        },
+      ],
     },
   ],
   "019850": [
@@ -66758,7 +67160,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'All kinds of strange creatures populate Kafka\'s narratives: not just humans, and not just recognizable animals, but beings that are difficult to categorize: animate, inanimate, natural, artificial, and hybrids of all sorts. To complicate things further, all of these beings are in constant movement, often revealing themselves to be different from what they initially were taken to be. But what they all have in common is a very special and difficult-to-define relationship to the narrative in and through which they appear. This course seeks to focus specifically on the relation between the narrative and the "animals" and quasi-animals that are often its subject. Ultimately it seeks to pose the question of the role of the reader and of reading in relating to what seems both irreducibly strange and yet uncannily familiar - what we call "animals".',
+        },
+      ],
     },
   ],
   "001623": [
@@ -66777,7 +67184,32 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In collective memory the shtetl (small Jewish town) has become enshrined as the symbolic space par excellence of close-knit, Jewish community in Eastern Europe; it is against the backdrop of this idealized shtetl that the international blockbuster Fiddler on the Roof is enacted.  The shtetl is the central locus and focus of Modern Yiddish Literature; Fiddler on the Roof itself was based on a Sholem Aleichem story.  In this seminar we shall explore the spectrum of representations of the shtetl in Yiddish literature from the nineteenth century to the post-Holocaust period.  We shall also focus on artistic and photographic depictions of the shtetl: Chagall and Roman Vishniac in particular.  The course will include a screening of Fiddler on the Roof followed by a discussion of this film based upon a comparison with the text upon which it is based, Tevye the Milkman.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "In focusing upon the shtetl students will become acquainted with the lifestyle, languages folklore and elite culture of the Jews in Eastern Europe.  This course also serves as an introduction to Yiddish literature.  Attention will also be paid to honing students' skills in reading and commenting critically upon literary texts.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture interspersed with discussion of texts/films/images.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class participation: 30%\nPaper, midterm: 30%\nPaper, final: 40%",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The Shtetl: A Creative Anthology of Jewish Life in Eastern Europe, ed. and tr. Joachim Neugroschel (Woodstock NY, 1989, ISBN: 0879513802\n\n\nA Shtetl and Other Yiddish Novellas, ed. by Ruth Wisse (New York, 1986), ISBN 10: 0814318495\n\n\nThe I. L. Peretz Reader, ed. and with an introduction by Ruth Wisse (New York, 1990), pp. 17-77, ISBN 10: 0295970898\n\n\nSholem Aleichem, Tevye the Dairyman and the Railroad Stories, tr. and with an introduction by Hillel Halkin (New York, 1987), ISBN 10: 0805210695\n\n\nIsaac Bashevis Singer, In My Father's Court (New York, 1967 and many later editions), ISBN-10: ? : 163292274\n\n\nAbraham Joshua Heschel, The Earth is the Lord's (New York 1962 and later editions), ISBN 1879045427 \n\nMark Zborowski and Elizabeth Herzog, Life is with People: the Culture of Shtetl Life (New York 1995), ISBN 10: 0805210547\n\n\nSteven J. Zipperstein, Imagining Russian Jewy: Memory, History, Identity (University of Washington Press, 1990)  ISBN-10 ? : ? 0295977906",
+        },
+        {
+          name: "Class Notes",
+          desc: "Instructor Bio: \nBefore joining Northwestern's faculty in 2005, Dr. Moseley taught a wide variety of courses on Hebrew and Yiddish literature at graduate and undergraduate levels at New York, Harvard, Oxford, and Johns Hopkins universities. Shortly after his arrival, he published Being For Myself Alone: Origins of Jewish Autobiography (2005), which won a Koret Foundation Jewish Studies Publication Program prize. The book investigates the development of autobiography among the Jews in Eastern Europe from the 19th century to the period just around World War I, focusing on works written in Hebrew, but also considering Yiddish and German works, as well as the interaction among these languages of Jewish expression in this period. He is now working on his next book, From People of the Book to Literary Nation: On the Emergence of Literature in Jewish Eastern Europe. In exploring the cultural, social and ideological ramifications of the painful transition experienced by the secular, or secularizing, sector of East European Jewry, Moseley is seeking to shed light on how Jewish writers and (even more importantly) readers began to construct modern Jewish identity. He has close links with the YIVO Institute for Jewish Research in New York, where he worked as an Assistant Archivist from 1987-91, and then initiated a project to prepare an English language anthology of the interwar youth autobiography collections housed in the YIVO Archives, for which he received a major grant from the National Endowment of Humanities. He chaired the editorial committee and wrote the introduction for the resulting volume, Awakening Lives: Autobiographies of Jewish Youth in Poland before the Holocaust (2002).",
+        },
+      ],
     },
   ],
   "018138": [
@@ -66796,7 +67228,29 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This class is built on the premise that translation is a central concern, albeit one too often taken for granted, in the work of literary, cultural, or historical scholarship in any language. In this class we will explore both the foundational texts of translation theory (e.g. Benjamin, Jakobson), as more current approaches to subjects like translation and world literature, translating minoritized voices, queer theory and translation, and ?untranslatability.\' Class discussions will consider not only how to "do" translation, as well as considerations of its ethics and politics, but also how to read and teach works in translation. Finally, the course will also function as a translation workshop: all students will work over the course of the quarter on a translation of their own into English that they will workshop with the',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "This course is restricted to graduate students. Advanced undergraduate students may request a permission number from the instructor.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will become familiar with the foundational approaches of translation theory, as well as new directions in the field. Students will learn to apply theory to their own methods of reading, teaching, and producing translations. Students will gain significant practice in the work of translation through weekly translation workshops focusing on their own and their peers' translation projects.",
+        },
+        { name: "Teaching Method", desc: "Seminar/workshop." },
+        {
+          name: "Evaluation Method",
+          desc: "A substantial portion of the grade will depend on engaged participation in class discussion and translation workshops. A final project will consist of a 10-15 page polished translation, with a 15-20 page critical translator's introduction.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "A majority of the class readings will be available on Canvas as pdfs. \nEmily Apter, Against World Literature (Verso, 2013) ISBN 978-1-844-67970-6\nMark Polizzotti, Sympathy for the Translator (MIT Press, 2018) ISBN 978-0-262-53702-5\nHaun Saussey, Translation as Citation (Oxford University Press, 2017) ISBN 978-0-19-881253-1",
+        },
+      ],
     },
   ],
   "001637": [
@@ -66815,7 +67269,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on the theory and practice of Socialist Realism dogma in literature and beyond. We will examine Socialist Realism in contrast to the most innovative and experimental forms of modernism and avant-garde visual and literary narratives (from prose and poetry to political posters and commercial advertisements) forged in a crucible of intense political and cultural interaction in Russia and Europe in 1920- 1930-s. We focus on the ways the images and metaphors have been used as carriers of cultural value and ideological meaning, exploring such issues as word and image, gender and nationality, aesthetics and psychology, politics and propaganda. Since the course topic involves such disciplines as visual art, literature, cultural theory, and philosophy, readings include modern and contemporary aesthetic theories (Shklovsky, Gyorgy Lukacs, Boris Groys) and twentieth-century political and ethical philosophy (Gramsci, Ortega-i-Gasset, Walter Benjamin et al.), and psychology (Freud, Edward Bernays).",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Readings include modern and contemporary aesthetic theories (Shklovsky, Gyorgy Lukacs, Boris Groys) and twentieth-century political and ethical philosophy (Gramsci, Ortega-i-Gasset, Walter Benjamin et al.), and psychology (Freud, Edward Bernays).",
+        },
+      ],
     },
   ],
   "018715": [
@@ -66870,11 +67333,29 @@ const sections = {
       meeting_days: "We",
       start_time: "18:00",
       end_time: "21:00",
-      room: { building_name: "TBA" },
+      room: { building_name: "Kresge 3438 Philosophy Sem. Rm" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course addresses the emergence of sexuality as a philosophical theme within a number of currents of French philosophy, focussing on the feminist existentialist phenomenology of Simone de Beauvoir's The Second Sex, the post-Marxist decolonialism of Frantz Fanon in A Dying Colonialism, the genealogical critique of Michel Foucault, and the latter's decolonial revision within the biopolitical analyses of the Colombian philosopher Santiago Castro-G?mez. \n\nThe course has three main aims. We will critically compare and appraise the different  methodologies, aims, concepts of power, and interpretive politics within these analyses of sexuality and/or the family  as contingent formations. We will  give attention to several recent publications  by the philosophers under consideration that  have  prompted contemporary revision of established interpretations of these bodies of work. And we will ask how the work of Beauvoir, Fanon, Foucault and Castro-G?mez continues to be resituated today within  a number of fields including  contemporary critical theory, decolonial theory, critical race studies,  and gender and sexualities studies. We will ask: what new concepts have now emerged from these transits and translations of mid twentieth-century theory?",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "One course in gender and sexuality studies \nInstructor consent",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Participants will gain an overview of four major methodologies within  twentieth century French philosophy for the critical analysis of the politics of sexuality and the politicization of the family : the existentialist feminism of Simone de Beauvoir, the genealogical approach of Michel Foucault, in dialogue with two approaches within decolonial francophone philosophy: those of Frantz Fanon and Santiago Castro-G?mez. \nParticipants will be able to compare, and apply analytically,  these different forms of analyses and evaluate the forms of analysis to which they give rise.\nThey will also gain competence in a range of contemporary reassessments and reinterpretations of canonical figures within the field of twentieth century French philosophy, across several disciplines.",
+        },
+        { name: "Evaluation Method", desc: "Long paper" },
+        {
+          name: "Class Materials (Required)",
+          desc: "Core texts: (While weekly  extracts will be provided,  participants should expect to purchase and concentrate on at least two of: \n\nMichel Foucault, Confessions of the Flesh (The History of Sexuality, vol 4), (Vintage, 2022) ISBN-10 ? : ? 0525565418\nSimone de Beauvoir, The Second Sex, (Vintage, 2011) ISBN-10 ? : ? 030727778X\nMichel Foucault, Sexuality (Columbia University Press), 2021) ISBN-10 ? : ? 0231195079\nFrantz Fanon, A Dying Colonialism (Grove Press, 1994): ISBN-10 ? : ? 0802150276\nSantiago Castro-G?mez, Zero-Point Hubris: Science, Race, and Enlightenment in Eighteenth-Century Latin America ( Rowman and Littlefield),  2021,  ISBN-10, 1786613778",
+        },
+      ],
     },
   ],
   "001640": [
@@ -66947,19 +67428,19 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Introduction to Physical Geology: The study of Earth systems and their interactions. This course will approach the study of Earth systems from two perspectives: 1) description and classification of Earth's features, including Earth materials, internal structure, and landforms and 2) description and explanation of the physical, chemical and biological processes that form and modify these features. Topics include minerals; sedimentary, igneous, and metamorphic rocks; the interior Earth, oceans, and atmosphere; solid Earth processes, such as volcanism, seismicity, and plate tectonics and their interactions with the atmosphere and hydrosphere to drive surface Earth processes, such as climate, weathering, and glaciation; geologic time; global change. This course includes a mandatory field trip to Baraboo, Wisconsin.",
+          desc: "Introduction to Physical Geology: The study of Earth systems and their interactions. This course will approach the study of Earth systems from two perspectives: 1) description and classification of Earth's features, including Earth materials, internal structure, and landforms and 2) description and explanation of the physical, chemical and biological processes that form and modify these features. Topics include minerals; sedimentary, igneous, and metamorphic rocks; the interior Earth, oceans, and atmosphere; solid Earth processes, such as volcanism, seismicity, and plate tectonics and their interactions with the atmosphere and hydrosphere to drive surface Earth processes, such as climate, weathering, and glaciation; geologic time; global change. This course includes a mandatory field trip to Baraboo, Wisconsin (see registration requirements for details).",
         },
         {
           name: "Registration Requirements",
-          desc: "PRE-REGISTRATION: All Earth & Environmental Science majors/minors; and first year and sophomore students with at least one credit in math, chemistry, biology or physics. \n\nREGULAR REGISTRATION: Please sign up on our departmental waitlist here: https://bit.ly/EARTH-201-Spring-2022 We do not use the Caesar waitlist for this course. In order to be considered, you must fill out the questionnaire on the departmental waitlist. We do not choose students based on their waitlist order. Priority enrollment will go to first-years and sophomores. This course includes a mandatory field trip to Baraboo, WI, which will take place May 20-22.",
+          desc: "PRE-REGISTRATION: All Earth & Environmental Science majors/minors; and first year and sophomore students with at least one credit in math, chemistry, biology or physics. \n\nREGULAR REGISTRATION: Please sign up on our departmental waitlist here: https://bit.ly/EARTH-201-Spring-2022 We do not use the Caesar waitlist for this course. In order to be considered, you must fill out the questionnaire on the departmental waitlist. We do not choose students based on their waitlist order. Priority enrollment will go to first-years and sophomores. This course includes a mandatory field trip to Baraboo WI currently planned for May 20-21. However, final confirmation of the trip occurring, as well as any required COVID testing, will be announced to the class in April.  If the trip is not possible, then grading for the course will be reorganized and/or alternative learning exercises may be announced.",
         },
         {
           name: "Class Materials (Required)",
-          desc: "Two REQUIRED Textbooks: \n1) Earth: An Introduction to Physical Geology, 12th Edition. ISBN13: 9780134074252.  https://www.pearsonhighered.com/product/Tarbuck-Earth-An-Introduction-to-Physical-Geology-12th-Edition/9780134074252.html (approx. $185 to purchase new, $86 to rent) \n\n2) Laboratory Manual in Physical Geology, 11th Edition. ISBN13: 9780134446608. https://www.pearsonhighered.com/product/American-Geological-Institute-Laboratory-Manual-in-Physical-Geology-11th-Edition/9780134446608.html (approx. $115 to purchase new, $30 to rent) \n\nThis course also includes a mandatory trip to Baraboo, Wisconsin.",
+          desc: "Two REQUIRED Textbooks: \n\n1) Earth: An Introduction to Physical Geology, 12th Edition. ISBN13: 9780134074252.  https://www.pearsonhighered.com/product/Tarbuck-Earth-An-Introduction-to-Physical-Geology-12th-Edition/9780134074252.html (approx. $185 to purchase new, $86 to rent) \n\n2) Laboratory Manual in Physical Geology, 11th Edition. ISBN13: 9780134446608. https://www.pearsonhighered.com/product/American-Geological-Institute-Laboratory-Manual-in-Physical-Geology-11th-Edition/9780134446608.html (approx. $115 to purchase new, $30 to rent) \n\nThis course also includes a mandatory trip to Baraboo, Wisconsin (see registration requirements for details).",
         },
         {
           name: "Class Notes",
-          desc: "REGULAR REGISTRATION: Please sign up on our departmental waitlist here: https://bit.ly/EARTH-201-Spring-2022 We do not use the Caesar waitlist for this course. In order to be considered, you must fill out the questionnaire on the departmental waitlist. We do not choose students based on their waitlist order. Priority enrollment will go to first-years and sophomores. This course includes a mandatory field trip to Baraboo, WI, which will take place May 20-22.",
+          desc: "REGULAR REGISTRATION: Please sign up on our departmental waitlist here: \n\nhttps://bit.ly/EARTH-201-Spring-2022 \n\nWe do not use the Caesar waitlist for this course. In order to be considered, you must fill out the questionnaire on the departmental waitlist. We do not choose students based on their waitlist order. Priority enrollment will go to first-years and sophomores. This course includes a mandatory field trip to Baraboo WI currently planned for May 20-21. However, final confirmation of the trip occurring, as well as any required COVID testing, will be announced to the class in April.  If the trip is not possible, then grading for the course will be reorganized and/or alternative learning exercises may be announced.",
         },
       ],
     },
@@ -69720,10 +70201,10 @@ const sections = {
       subject: "ENGLISH",
       number: "206-0",
       section: "23",
-      meeting_days: "WeFr",
+      meeting_days: "TuTh",
       start_time: "9:30",
       end_time: "10:50",
-      room: { building_name: "University Hall 118" },
+      room: { building_name: "Locy Hall 305" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -69801,7 +70282,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "Elder Hall 032 Seminar Room" },
+      room: { building_name: "University Hall 112" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -70010,13 +70491,30 @@ const sections = {
       number: "277-0",
       section: "01",
       meeting_days: "TuTh",
-      start_time: "9:30",
-      end_time: "10:50",
-      room: { building_name: "Kresge Centennial Hall 2-415" },
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [{ name: "Overview of class", desc: "TBA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will introduce students to major Latina/o/x authors, genres, and movements by exploring a diverse corpus of literary texts. We will take a historical approach, examining how Latinx writers from various communities (Puerto Rican, Mexican American, Cuban American, Dominican American, Colombian American) have understood their relationship to the United States from the late nineteenth century up to the present. We will also question the category of Latinx. How do the experiences and histories of the various groups described under that label benefit from and/or resist identification as a single ethnicity? Most importantly, we will ask what poetry, memoirs, and novels have to offer as a way of understanding Latinx experiences. By the end of the quarter students will have an overview of the heterogeneous literary voices and aesthetics that constitute US Latinx literature.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Seminar, Readings, Online work, Class participation, Writing assignments, Films / videos, Presentations, Discussion.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Final paper, Presentations, Attendance, Class participation, Homework, Online work, Readings, Writing assignments.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Vida by Patricia Engel, I Am Not Your Perfect Mexican Daughter by Erika S?nchez;\nTell Me How it Ends: An Essay in Forty Questions by Valeria Luiselli;\nBodega Dreams by Ernesto Qui?onez, along with poetry, essays, and short stories by Urayo?n Noel, Elizabeth;\nAcevedo, Gloria Anzald?a, Sandra Mar?a Esteves;\nAmong others.\n\nTexts will be available at Norris Bookstore and via Canvas.",
+        },
+      ],
     },
   ],
   "022206": [
@@ -70248,7 +70746,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "Texts may include: David Crystal, The Stories of English, ISBN 1585677191; Tore Janson, The History of Languages, ISBN0199604290; a course reader available at Quartet Copies.",
+          desc: "Texts may include: Tore Janson, The History of Languages, ISBN 978-0-19-960429-6, plus readings and videos posted to Canvas",
         },
       ],
     },
@@ -70262,10 +70760,10 @@ const sections = {
       subject: "ENGLISH",
       number: "307-0",
       section: "20",
-      meeting_days: "MoWe",
-      start_time: "14:00",
-      end_time: "15:20",
-      room: { building_name: "Harris Hall L05" },
+      meeting_days: "TuTh",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Kresge Centennial Hall 2-343" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -70291,14 +70789,14 @@ const sections = {
       meeting_days: "Tu",
       start_time: "18:15",
       end_time: "21:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "University Hall 118" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "For students who have completed at least one course in fiction writing, this course will provide further study of matters of technique and structure, with an emphasis on the exploration of character and discovery of plot through the process of revising. Short stories by contemporary authors will be read as models. The course builds on the premises, assignments, and goals of English 307-A, but students may enroll without having completed that course. May not be audited for taken P/N.",
+          desc: "Some stories run uninterrupted from start to finish, like the exhalation of a single breath or a toy car zipping under the couch. Other stories seek to delay, meander, or fragment using various devices, one of which is breaking the narrative into sections or parts. This class will explore some of the different ways that authors have used this approach, why they did so, and how the strategy affects a story's structure, pace, and ambition.",
         },
         { name: "Teaching Method", desc: "Workshop and discussion." },
         {
@@ -71905,7 +72403,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Lecture: In this course, we will evaluate different aspects of the urban environment through the lens of a social-ecological system. Students will explore the principles of urbanization and examine how these changes influence hydrology, biogeochemistry, climate, and ecology. We will culminate with a unit on environmental justice and sustainability, discussing ways in which urban science helps solve the pressing challenges of today to improve life in the future. \n\nLab: In this laboratory section, students will learn experimental design, field methods, and  in urban ecology which they will use to conduct a research project in their community. Furthermore, students will participate in urban ecology field trips across Chicago that highlight themes of climate, hydrology, and environmental justice in local communities.",
+          desc: "Lecture: In this course, we will evaluate different aspects of the urban environment through the lens of a social-ecological system. Students will explore the principles of urbanization and examine how these changes influence hydrology, biogeochemistry, climate, and ecology. We will culminate with a unit on environmental justice and sustainability, discussing ways in which urban science helps solve the pressing challenges of today to improve life in the future. \n\n\nLab: In this laboratory section, students will learn experimental design, field methods, and  in urban ecology which they will use to conduct a research project in their community. Furthermore, students will participate in urban ecology field trips across Chicago that highlight themes of climate, hydrology, and environmental justice in local communities.",
         },
         {
           name: "Teaching Method",
@@ -72361,6 +72859,48 @@ const sections = {
       start_time: "9:00",
       end_time: "9:50",
       room: { building_name: "Kresge Centennial Hall 2-339" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "French 125-1 is the first quarter of a three-quarter course for students who have completed FR115-2 or been placed in the course upon taking the French Placement Test. \n\nThe primary goal of this course is to strengthen oral and written communication skills by immersing students in authentic cultural contexts and language. A review of essential grammar will reinforce linguistic foundations. Class meets three times a week and will be conducted in French.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "French 115-2 or placement.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Develop students' speaking, listening, reading and writing skills at the intermediate level of French in a cultural context and foster critical thinking.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The teaching methodology for this course uses the flipped model: students learn grammar and vocabulary at home with a pioneering courseware developed by faculty in the French Department at Northwestern. Class activities are devoted to conversation and other communicative activities that will allow students to practice what they learned while exploring contemporary French and Francophone cultures. Students are expected to attend class daily, to actively participate and to spend at least 2 hours of work outside of class for each contact hour. P/N not allowed.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class participation, homework & quizzes, short compositions, vocabulary and grammar tests and end-of-quarter oral project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Flipped French courseware available through Canvas at no cost.",
+        },
+      ],
+    },
+    {
+      unique_id: "36568",
+      instructors: ["Christiane H E Rey"],
+      mode: null,
+      title: "Intensive Intermediate French",
+      subject: "FRENCH",
+      number: "125-1",
+      section: "21",
+      meeting_days: "MoWeFr",
+      start_time: "14:00",
+      end_time: "14:50",
+      room: { building_name: "Kresge Centennial Hall 2-329" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -73190,7 +73730,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The first objective of this course is to introduce students to the many ways that water impacts humans around the world. We will discuss what the international recommendations for safely managed water are and the health and social consequences of water insecurity. \n\nThe second objective is to explore why there is such variety in water insecurity worldwide. Influences on access to water will be broadly considered; we will draw on literature in global health, ethnography, the life sciences, and public policy. These discussions will be guided by the socio-ecological framework, in which dimensions ranging from the individual to the geopolitical are considered. \n\nThe third objective is to develop critical thinking and writing abilities to reflect on the multi-dimensional causes and consequences of water insecurity and the appropriateness of potential solutions. This will be accomplished through carefully reading the articles and book chapters we have lovingly selected, writing weekly reflection pieces, preparing a short in-class presentation on recent events in the media, and contributing to discussions and case studies of water insecurity.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "No freshmen. Pre-registration available for Global Health Studies majors and minors only. Open to other students during regular registration.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, you should be able to?\n1.\tUnderstand and articulately discuss the social and health impacts of water security.\n2.\tIdentify and critically analyze key actors, institutions, and policies that influence water security.\n3.\tRecognize, critically assess, and communicate the value of qualitative and quantitative data for understanding causes and consequences of water security.\n4.\tEvaluate interventions to achieve safely managed water from anthropological and public health perspectives.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Materials will be available on Canvas. Students will need to purchase one book during the quarter, costing no more than $20.",
+        },
+        {
+          name: "Class Notes",
+          desc: "No freshmen. Pre-registration available for Global Health Studies majors and minors only. Open to other students during regular registration.",
+        },
+      ],
     },
     {
       unique_id: "38690",
@@ -73295,6 +73856,25 @@ const sections = {
       ],
     },
   ],
+  "019133": [
+    {
+      unique_id: "40139",
+      instructors: [],
+      mode: null,
+      title: "Residence-Linked Seminar - IV (Historical Studies)",
+      subject: "GEN_LA",
+      number: "280-4",
+      section: "20",
+      meeting_days: "We",
+      start_time: "18:00",
+      end_time: "21:00",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "SEM",
+      course_descriptions: [],
+    },
+  ],
   "019135": [
     {
       unique_id: "36843",
@@ -73308,6 +73888,25 @@ const sections = {
       start_time: null,
       end_time: null,
       room: null,
+      start_date: "2022-03-29",
+      end_date: "2022-06-04",
+      component: "SEM",
+      course_descriptions: [],
+    },
+  ],
+  "001041": [
+    {
+      unique_id: "40144",
+      instructors: ["Melissa Louise Foster"],
+      mode: null,
+      title: "Residence-Linked Seminar",
+      subject: "GEN_LA",
+      number: "280-7",
+      section: "20",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
@@ -74110,9 +74709,9 @@ const sections = {
       number: "337-0",
       section: "1",
       meeting_days: "TuTh",
-      start_time: "12:30",
-      end_time: "13:50",
-      room: { building_name: "Kresge Centennial Hall 2-430" },
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Locy Hall 110" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -74226,7 +74825,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "At the end of the 20th and the beginning of the 21st century, self-descriptions in German literature and cultural theory remarkably often allude to ?the Baroque.' The aim of this course is to study these receptions and iterations of the Baroque. The term Baroque was used only ex post in order to describe period and style of the 17th century. Hence, rather than reconstructing the ?original' early modern Baroque, we will focus on the question what kind of Baroque is created through its recent applications to literature and cultural theory, which connect to early 20th century discourse formations (e.g. W?lfflin, Benjamin, Wellek). How do they recode ?the Baroque' and why? What is new about the Neobaroque? Where does its particular quality lie, locally and globally? How does it differ from other actualizations of the Baroque in the 20th and 21st centuries? The class will be held in German and English. Texts will be read in German and English.",
+        },
+      ],
     },
   ],
   "003418": [
@@ -74248,7 +74852,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: 'As we grapple with the urgencies of the present, what are the politics (and promise) of telling more complex and nuanced stories of the history feminist activism and social change? In this course, we will begin by examining how the "second wave" of feminism (late 1960s-1970s) is being framed in 2021 and explore which projects, groups, and concerns have come to define the "second wave" of feminism in the United States in our collective memory. We then turn to recent histories of the "second wave" that challenge us to reconsider what counts as "feminist politics" during this period. For example, histories that focus on the formation of broad-based coalitions across and between liberation movements around issues of economic justice, reproductive rights, and the right to "self-defense" against both state and interpersonal violence during this period challenge us to expand our conception of feminist activism. As historian Finn Enke argues, recuperating "feminism\'s deeply questioning, queer, coalitional and anti-imperialist past," demands that we incorporate the "critical insights and knowledges" of labor and welfare rights activists, sex workers and gay liberationists, and Black, Chicana, Puerto Rican and Indigenous liberation movement members as central to the feminist politics of the period.',
+          desc: "Topic: Coalitional Politics: Case studies from Chicago and beyond: archiving the past for the present.\n\nIn this seminar, we explore several 1970s-era projects in Chicago and beyond that exemplify a coalitional feminist politics and consider the usefulness of this history in an increasingly polarized present. We will read histories of this period and memoirs by movement participants, but our focus will be on engaging in collective archival research and, ultimately curating collections of (8-10) documents that aid us in recuperating these instances of successful coalition building across anti-war, women's and gay liberation, and black power/ethnic nationalist movements, as well as the intersectional politics that informed these collaborative projects. The seminar will meet in Special Collections and will introduce students to the practice of archival research as well as the remarkable range of archival materials housed in Special Collections, which might form the basis for research projects during your four years at Northwestern. Our final class project will be to collectively curate an exhibition of our findings that will be exhibited in the Main Library at the end of Spring Quarter. Over the course of the quarter, we will also host a class visitor and, if covid protocols allow, go on a field trip to the Chicago Women's Health Center (established in 1975 and still going strong!) to explore current coalitions and projects that build on this legacy. \n \nCases: Anti-Vietnam war movement; Gay and lesbian/feminist liberation movements in Chicago and at Northwestern; Chicago's first \"Rainbow Coalition\" (which included the Black Panther Party, the Young Lords, and Young Patriots and Rising Up Angry); Chicago's free clinic movement; and reproductive rights/justice projects in Chicago.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Each week includes research assignments, some of which we will do in class, intended to introduce you to a range of resources, research methods, and types of archival collections. These will also serve as the basis for 5 collectively researched and curated final projects which will form the basis for a Spring Quarter exhibition in the Main Library. Everyone will contribute to each of the 5 projects, but students will work in groups of 2-3 in the final weeks of the course to bring one of these research projects to completion.",
         },
         {
           name: "Class Materials (Required)",
@@ -74943,11 +75551,11 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: 'This seminar will investigate how gender shapes politics, and how politics in turn shapes gender, with gender conceptualized as a set of relations, identities and cultural schema, co-constituted with other dimensions of power, difference and inequality (e.g., race, class, sexuality, religion, citizenship status). We aim to understand gendered politics and policy from both "top down" and "bottom up" perspectives. What do states do, via institutions of political participation and representation, citizenship rights and policies, and official categorization to shape gender relations? How do gender relations influence the nature of policy, classification systems, and citizenship? How have movements and counter-movements around the transformation of gender developed, and how have gendered divides influenced politics of all sorts? We expand on conventional conceptions of political participation and citizenship rights to include grassroots democratic activism, the creation of alternative visions of democracy, social provision and economic participation, as well as examining formal politics and policies. We will read and discuss scholars drawing on diverse theoretical and methodological traditions, and we engage with analyses of a variety of contexts across the world (the US, other rich capitalist democracies, postcolonial states and beyond), striving to situate states and political mobilization in global contexts. The course draws on gender and sexuality studies, political science, sociology, history, and anthropology to understand gender, power and politics.',
+          desc: 'This seminar will investigate how gender shapes politics, and how politics in turn shapes gender, with gender conceptualized as a set of relations, identities and cultural schema, co-constituted with other dimensions of power, difference and inequality (e.g., race, class, indigeneity, sexuality, religion, citizenship status). We aim to understand gendered politics and policy from both "top down" and "bottom up" perspectives. What do states do, via institutions of political participation and representation, citizenship rights and policies, and official categorization to shape gender relations? How do gender relations influence the nature of policy, classification systems, and citizenship? How have movements and counter-movements around the transformation of gender developed, and how have gendered divides influenced politics of all sorts? We expand on conventional conceptions of political participation and citizenship rights to include grassroots democratic activism, the creation of alternative visions of democracy, social provision and economic participation, as well as examining formal politics and policies. We will read and discuss scholars drawing on diverse theoretical and methodological traditions, and we engage with analyses of a variety of contexts across the world (the US, other rich capitalist democracies, postcolonial states and beyond), striving to situate states and political mobilization in global contexts. The course draws on gender and sexuality studies, political science, sociology, history, and anthropology to understand gender, power and politics.',
         },
         {
           name: "Teaching Method",
-          desc: "Seminar discussions will constitute the heart of the course. Students will help to shape the agenda for class discussions by writing entries and replies on a class blog site on Canvas.",
+          desc: "Students will be evaluated based on their participation in class discussions, two lead blog entries, responses to others' lead blogs, and a final paper, which can take the form of a critical engagement with course readings or a research paper which combines course materials with students' own empirical research.",
         },
         {
           name: "Evaluation Method",
@@ -75101,7 +75709,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The three-quarter first-year course in Hebrew is designed to develop all four language skills (speaking, writing, listening, and reading comprehension) as well as provide a cultural foundation. The course is based on Hebrew From Scratch, a comprehensive textbook with grammar and interactive exercises for the beginning adult learner. The instructions for the exercises as well as the translations of the vocabulary lists are in English. Otherwise, the course is taught in Hebrew, creating an important immersive environment for the students throughout the year. \nHebrew 111-3, taught in the Spring Quarter, builds on material learned in the first two quarters.  New words and structures will be integrated into short texts and lively conversations which are part of the wider context of Israeli culture.  As always, students will have ample opportunities to practice and expand all skills.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Hebrew 111- 2 or placement in Hebrew 111-3 after taking the placement exam.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students completing three quarters of Hebrew 111 will be able to read and comprehend simple texts on familiar topics, write informal notes and short paragraphs on topics connected to daily life, initiate and sustain conversations on daily-life topics with educated native speakers who are accustomed to conversing with learners of Hebrew as a foreign language.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "This course is based on a communicative-cultural approach weaving together listening, reading, speaking, and writing exercises and practice sessions in each lesson. New vocabulary and new grammatical structures are introduced and practiced orally in anticipation of dealing with written dialogues and essays. Text-based exercises and exercises based on clips, pictures and visual and audio files expand and reinforce the new material.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "A student's grade for this course will be based upon participation, homework and preparedness for class, attendance, four quizzes given throughout the quarter, and a final project (in lieu of a final exam) to be announced during the quarter by the instructor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Hebrew From Scratch Part 1 (in Hebrew: Ivrit Min Ha-Hatchala Ha-Chadash Alef) Written by: Shlomit Chayat, Sarah Israeli, Hila Kobliner Printed by Akademon Press through Magnes Press, Hebrew University, Jerusalem, 2012 ISBN-13: 978-9653501126 ISBN-10: 9653501127",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is taught in Hebrew.  Daily homework and occasional presentations are an integral part of class in order to maximize students' successful learning.",
+        },
+      ],
     },
   ],
   "002323": [
@@ -75120,7 +75757,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Second-year Hebrew is a three-quarter sequence covering comprehensive grammar explanations and examples as well as cultural themes. The purpose of this course is to enlarge the students' vocabulary, and to reinforce and expand their knowledge of Hebrew grammar, as well as to deepen their knowledge of Israeli culture. Class will consist of interactive exercises for the intermediate learner, readings of a level-appropriate difficulty with more information on Israeli daily life and reality and listening to form of songs and clips in Hebrew. In Hebrew 121-3, taught in the Spring quarter, we will expand our knowledge of past tense verbs to forms of ??? ????? (?????, ?????, ?????) and ??? ?\"? (?????, ?????) and???? (????, ????) and  ????? (??????, ??????)and ????? (??????, ??????). These variety of forms will allow us to develop our self-expression and to include writing and conversations about childhood memories, everyday situations like visit at the doctor, volunteering in organizations, and more. We will learn more prepositions and their conjugations (like ???, ???) and more useful grammar structures like ????, ????, ????. We will have a fun unit about family and childhood (prepare your pictures!) and we will also learn about the Jerusalemite Zoo. As always, grammar and new vocabulary will be woven into the content.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Hebrew 121-2 or equivalent; or instructor consent.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "At the end of second-year, students will be able to speak about themselves, family members and friends, their studies, trips, wants and desires, etc. Students will be able to read and comprehend basic authentic texts and write simple texts with increased accuracy.  After completing second year, students will be able to take third year classes to deepen their cultural knowledge of Hebrew and its natural sphere, Israel.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The lessons will center on the reading and discussion of texts and dialogues and include interactive group work. Homework assignments will emphasize written exercises, compositions and preparation for oral presentations in class as well as oral interviews at the end of the quarters.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "A student's grade for this course will be based upon participation, homework and preparedness for class, several cultural events , attendance,  four quizzes [given throughout the quarter], and an oral presentation in class or an oral interview.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Hebrew From Scratch Part 1 (in Hebrew: Ivrit Min Ha-Hatchala Ha-Chadash Bet) Written by: Shlomit Chayat, Sarah Israeli, Hila Kobliner Printed by Akademon Press through Magnes Press, Hebrew University, Jerusalem, 2015 ISBN-13: 978-0840008497 ISBN-10: 084000849X",
+        },
+        {
+          name: "Class Notes",
+          desc: "This class is taught in Hebrew. Daily homework and occasional presentations are an integral part of class in order to maximize the students' successful learning.",
+        },
+      ],
     },
   ],
   "002361": [
@@ -75316,7 +75982,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic:  Finding People Lost to History\n\nIn recent years historians have developed a new technique called microhistory for capturing the lives of the people who have been lost to history?peasants, heretics, poor women, gays, ethnic minorities, and con-conformists of all sorts. These were the people who because of their low social status, rural origins, illiteracy, or unpopular beliefs were ignored, despised, or persecuted by the dominant society. Microhistory is a method of investigation that usually relies on the evidence from judicial trials of otherwise obscure people who found themselves in trouble with the authorities. The method gives a voice to those who otherwise left no written record of their lives.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Learning to make a convincing argument on the basis of evidence derived from critical readings of texts.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Oral presentations, participation in discussions, 3 short papers (3-5 pages each) and a final paper (7-10 pages).  Credit given for improvement over time.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: 'Bednarski, A Poisoned Past: The Life and Times of Margarida de Portu, A Fourteenth-Century Accused Poisoner, ISBN: 978-1-44260477-3,  University of Toronto Press\t\n\nDavis, The Return of Martin Guerre, ISBN: 978-0674766914, Harvard University Press\t\n\nGinzburg, The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller, ISBN: 978-0801843877, Johns Hopkins University Press\t\n\nStanley, Stranger in the Shogun\'s City: A Japanese Woman and Her Worlds,  ISBN: 978-1-5011-8853-4,  Scribner\t\n\nSchama, Dead Certainties (Unwarranted Speculations), ISBN: 9780679736134, Vintage\t\t\n\nOn canvas: Carlo Ginzburg, "Clues"\tNo desk copies',
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Americas, European, Asia/Middle East, Africa/Middle East, GLOBAL",
+        },
+      ],
     },
     {
       unique_id: "36172",
@@ -75333,7 +76020,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: Repairing Historical Injustices\n\nRepairing Historical Injustices  Repairing historical injustices is one of the most debated topics in today\'s society in many countries on every continent. Restitution (return of confiscated property), reparations (various forms of material compensation for what cannot be returned physically), and apologies (public recognition of wrongdoing and assuming responsibility for it) are perhaps the most widespread transitional justice methods used to amend the massive breaches of human rights perpetrated by colonial empires, dictatorships, authoritarian regimes, and democracies throughout history. Slowly emerging after World War II, the theory and practice of restitution, reparations, and apologies have developed tremendously especially since the 1990s, even though many governments and citizens are still reluctant to accept them. Which were the most well-known and controversial cases of restitution, reparations, and apologies around the globe during the last 75 years and how were they justified, opposed, and implemented? Is the boom of restitution, reparations, and apologies the sign of a new international morality and democratization spreading worldwide? This course investigates these questions by focusing on theories and cases studies of repairing historical injustices perpetrated by Nazi Germany and the Soviet Union in Europe (against the victims of the Holocaust and the Gulag), by colonial Empires and settler democracies in the Americas, Australia, and Africa (against Native Americans, African Americans, Japanese Americans, Africans, Australian aboriginals, the Maori of New Zeeland, and Indonesians), by the Japanese Imperial Army in World War II Asia (against the victims of sexual slavery, the so-called "comfort women"), and by the apartheid regime in South Africa (against black Africans).',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will familiarize themselves with the major theoretical concepts (restitution, reparation, apology) and case studies of repairing historical injustices.  Students will learn to recognize arguments regarding controversial historical questions and to formulate and support an original historical argument using primary and secondary sources.  Students will improve their analytical, writing and communication skills through close readings of texts, class discussions, and writing papers.",
+        },
+        { name: "Evaluation Method", desc: "Written assignments" },
+        {
+          name: "Class Materials (Required)",
+          desc: "All the assigned readings will be uploaded on Canvas",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: European, GLOBAL",
+        },
+      ],
     },
   ],
   "002028": [
@@ -75352,7 +76057,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: Whiteness\n\nThis course is a history of the ideas and practices of "whiteness" in the United States from colonial times to the twentieth century. How did the idea of a "white race" come into being and why? More important, how was whiteness systematically privileged in law and policy? In this course we will look at racial ideology, but also at laws, policies, and practices that have made "white" a privileged social position. We cover the development of New World slavery and race-based labor regimes, laws controlling access to public spaces and goods based on race, how state and federal policies controlled the unequal distribution of education, housing, and property, and we also examine how different immigrant groups have had access to "whiteness" over time.\n\nThe course is reading and writing-intensive. Students should come prepared to engage in careful, meaningful, and sometimes difficult discussions.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will learn  how the concept of whiteness has been created in ideology and policy throughout US history. Students will learn to identify the arguments made by scholars, to understand what sources and evidence scholars use, and they will learn to read historical primary sources in context.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Written essays and class participation",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Americas",
+        },
+      ],
     },
     {
       unique_id: "39372",
@@ -75369,7 +76092,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Native Americans in Film\n\nIn 1893, Thomas Edison unveiled the kinetoscope and allowed audience members to glimpse the Hopi Snake Dance by peeking into the device's viewing window. Since the birth of the motion picture, films portraying Native Americans (often with non-Native actors in redface) have drawn upon earlier frontier mythology, art, literature, and Wild West performances. These depictions in film have embedded romanticized and stereotyped ideas about American Indians in the imaginations of audiences throughout the United States and around the world. In this course, we will critically examine representations of Native Americans in film, ranging from the origins of the motion picture industry to the works of contemporary Indigenous filmmakers. We will reflect upon revisionist narratives, the use of film as a form of activism, Indigenous aesthetics and storytelling techniques, reflexivity, and parody. Throughout the quarter, we will discuss ethnographic, documentary, and narrative films.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation will be based upon seminar participation and three brief papers.",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Americas",
+        },
+      ],
     },
   ],
   "018651": [
@@ -75388,7 +76125,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Small Group Seminar: Historians in Trouble\n\nWhat happens when writing history becomes a crime? Historians in the last twenty years have found themselves in hot water for publishing information that disagreed with government-approved narratives. In 2021, a Polish Court ordered two scholars to apologize for their nuanced account of Polish collaboration during the Holocaust. In 2020, a Russian historian was sentenced to 13 years in prison on controversial charges for uncovering Stalin-era crimes.  This seminar will use contemporary court cases and public discussions to debate how governments use the past to service the goals of the present. We will discuss how politicians and societies choose to represent and misrepresent the past, commemorate complicated histories, control dominant narratives, and what that means for historical research.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "1. Gain knowledge about historical revisionism and recognize governments' attempts to control narratives.  \n2.\tDevelop and improve critical thinking skills through analysis of primary and secondary texts using historical methodologies and techniques  \n3.\tAcquire and improve written and oral presentation skills",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Participation 30%, Three short papers 30%, Final Project 40%",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: European",
+        },
+      ],
     },
     {
       unique_id: "39402",
@@ -75405,7 +76160,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Religion in Modern History\n\nThis course starts with the voyages of Christopher Columbus, which ushered in the modern age and spread Christianity throughout the world. Despite himself, Columbus's voyages also led to the migration of Jews and Muslims beyond the West. In the sixteenth century, the Protestant Reformation spread new ways of critical thinking. Topics include how some men came to be treated as gods, how more and more women were treated as saints and others were persecuted as witches, and how disagreements about religion led to assassinations revolts, and war. The course starts in Europe but extends into the religious history of the Americas, especially the US, and argues that religion in all its varieties remains an essential characteristic of modernity.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Learn how to make clear arguments in writing and speaking on the basis of evidence and how to place yourself in the shoes of someone very different from yourself.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Short papers (250-500 words) for each week. Evaluation of discussion.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Gregory, Rebel in the Ranks: Martin Luther, the Reformation, and the Conflicts That Continue to Shape Our World, ISBN 978-0-06-247118-5, Harper Collins\n\nMuir, Ritual in Early Modern Europe, 2nd edition, ISBN 978-0521602402 Cambridge\n\nDella Subin, Accidental Gods: On Men Unwittingly Turned Devine, ISBN 978-1-250-29687-0, Metropolitan\n\nWills, Head and Heart: American Christianities, ISBN 978-1-59420-146-2,  Penguin",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: GLOBAL",
+        },
+      ],
     },
     {
       unique_id: "39403",
@@ -75422,7 +76198,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Age of Revolutions\n\nWhy do revolutions start?\nWhat factors make them succeed or fail?\nHow have people sought to unleash and seize control of massive historical change - or, less grandly, simply tried to survive it?\n\nWe will consider these questions as we examine the era of modern revolutions, beginning with the outbreak of the interlinked French, Haitian, and American Revolutions of the late 1700s, then following their decades-long aftershocks as a wave of revolutions sweeps the globe from Europe to Latin America to the Middle East. This cascade of dramatic struggles between democracy and aristocracy, freedom and slavery, independence and colonialism, created a new world order as well as key components of our ongoing social reality: socialism, capitalism, liberalism, conservatism, terrorism, and perhaps most importantly revolution itself, an eruption of sudden and epochal social transformation which has electrified some people and terrified others ever since.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "1) Identify, explain and critically interrogate the historical actors, events and ideas that have shaped revolutions in the modern world  \n2) Assess competing explanations of historical transformations, showing an awareness of how claims are supported by evidence and how arguments are structured by analytic categories \n3) Formulate original arguments based on your independent interpretation of sources",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class participation; two papers; take-home exam",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Americas, European, Global",
+        },
+      ],
     },
     {
       unique_id: "39404",
@@ -75439,7 +76233,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Global History of Prisons and Camps\n\nPrisons and jails across the globe currently hold more than 10 million people, approximately one-fifth of them in the United States alone. In addition to those formally sentenced by courts, over the past two centuries numerous regimes have ordered the confinement of tens of millions more in enclosed camps of various sorts. Based on the recent past, it might be difficult to imagine a time when mass confinement did not seem an inevitable response of states to peoples considered to be dangerous, but the practice of imprisoning large numbers of people for extended periods of time is, historically speaking, a recent development. A momentously consequential development that, this course hypothesizes, is at once a product of the modern state and a constituent element of the modern era.  \n\nThis course examines the history of two different institutions of confinement - the prison and the camp - that traditionally have been studied separately. With often enormous differences in the degree of regulation and brutality - a critical consideration the course will always keep in mind - those in power have used prisons and camps to control and subdue racial, religious, and other identified groups, and to exploit their labor for public and private use. Cynically or not, authorities have justified confinement as a necessary means to achieve justice, protect society, and rehabilitate the condemned. Irrespective of the great variety of pretexts under which regimes have imprisoned citizens and subjects and the patently immense disparaties in the treatment of those confined, there have been and remain common elements to both the physical structures of incarceration and the lived experiences of prisoners that this course aims to explore and discuss.  The quarter begins with a consideration of alternate forms of punishment common to the premodern era and then follows the development and spread of the modern prison and the proliferation of mass detention camps across the globe over the course of the nineteenth and twentieth centuries until the present day.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "The course introduces students to the intertwined histories of the modern prison and various types of detention camps (concentration, forced labor, prisoner-of-war, refugee) that became ubiquitous over the course of the modern era. With an eye to both similarity and difference, the course aims to investigate these developments from an integrated global perspective in an effort to understand the ideas behind the implementation of specific systems of confinement and the lived experience of those confined.  Students will read a variety of sources, including primary witness accounts, and employ them in class discussions and written assignments to craft original historical arguments.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class discussion, 2 paper assignments, final project",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: GLOBAL",
+        },
+      ],
     },
     {
       unique_id: "39405",
@@ -75456,7 +76268,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: Making of the Middle East\n\nThis team-taught course offers an interdisciplinary approach to major issues in the study of histories, cultures, and societies of the Middle East and North Africa (MENA), as well as an introduction to MENA as a field of study. We seek to understand how "MENA" was made as well as how the imaginary of MENA coalesced into a geopolitical entity and conceptual category. Among the topics explored are the history of the idea of MENA and the multiple meanings of "modernity" in that context; the complex relations between MENA and the West, the historical formation of Middle East nation-states, polities, ideologies, identities, and economies; the War on Terror and its impact on the region, and the dynamic struggles unfolding in the region since the 2011 Arab uprisings including mass migration. The course will consider the making of these structures, events, and relationships from a range of perspectives, focusing on historical and cultural production. Primary and secondary course materials will include historical, social science, performance, cinematic, literary, and digital texts.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "This course aims to: 1) acquire basic knowledge of the modern Middle East and North Africa; 2) engage in critical analysis and interpretation of a range of sources; 3) employ scholarly theories and concepts to promote a nuanced understanding of events in the region and debates about those events; and 4) sharpen an ability to communicate and express these understandings in writing and other communicative practices.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Essays (30%), Exams (40%), Arts Project (15%), Class Participation (15%)",
+        },
+        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Asia/Middle East",
+        },
+      ],
     },
     {
       unique_id: "39409",
@@ -75473,7 +76303,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic:  American Religious History from WWII to Present\n\nThis course examines major developments, movements, controversies and figures in American religious history from the 1920s, the era of excess and disillusionment, to the 1980s, which saw the revival of conservative Christianity in a nation becoming increasingly religiously diverse. Topics include the liberalism/fundamentalism controversy of the 1920s; the rise of Christian realism in the wake of the carnage of World War I; the making of the "tri-faith nation" (Protestant/Catholic/Jew); the supernatural Cold War; the Civil Rights Movement; the revolution in American Catholicism following the Second Vatican Council (1962-1965) and the rise of Catholic political radicalism in the 1960s; religion and the post-1965 immigration act; the religious politics of abortion; and the realignment of American religion and politics in the 1970s and 1980s.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Upon completion of this course, students will be able to:  ? Analyze historical sources (primary documents)  ? Historically contextualize religious events, ideas, practices, and policies  ? Critically examine the assumptions and perceptions of religion in the United States  ? Construct an overview of American religious history from 1945 to 2020 around a particular theme of their choosing",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Exam, ?nal\nPapers: Three short papers based on the readings",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "all readings will be available on canvas",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area of Concentration: Americas",
+        },
+      ],
     },
     {
       unique_id: "39419",
@@ -75490,7 +76341,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: History of the American Family\n\n\nFamilies are not ahistorical categories of population; they have a history that has been crucial to the colonization and development of the United States as a nation and they continue to shape social and political life. This course traces the evolution of family ideals and practices from pre-colonial through modern America, with a particular emphasis on the roles of gender, race, and class in shaping family experiences. Considering both how the state regulated families as well as the many functional families and kinships that existed without state sanction, this course highlights the importance of families in societies and political thought, as well as the lived experience of families in America. As we range over diverse family experiences, we will also follow specific families through time in order to understand how historical changes shaped their family structures. Moving chronologically, the course will touch on topics like gender, economics, political theory, religion, race, and class through the lens of the family.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students will be expected to understand the ways that ideals and practices of family shaped and were shaped by events in American history. Students will also learn to read and analyze primary and secondary sources through writing and speaking, as well as gain some practice in writing their own history.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Two papers, final exam, participation (including reading responses)",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Incidents in the Life of a Slave Girl, Written by Herself, Harriet Jacobs, Jennifer Fleischner, ed., 978-1319169251, Bedford/St. Martin's.\n\nBlack, White, and Indian: Race and the Unmaking of an American Family, Claudio Saunt, 978-0195313109, Oxford University Press.",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area of Concentration: Americas",
+        },
+      ],
     },
     {
       unique_id: "39420",
@@ -75507,7 +76379,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Leisure and Popular Culture in 20th Century Palestine/Israel\n\nThis course focuses on leisure and popular culture in Palestine and Israel during the first half of 20th century. Considering both Jewish and Arab societies, this course examines the emergence of new leisure sites and activities and probes how local and global events shaped the cultural life of the local population. Throughout the course we will discuss caf?s, cinemas, beaches, nightlife, theatre, sports, radio, drugs, and alcohol consumption as new forms of leisure and examine how they were influenced by broad processes of modernization, urbanization, the emergence of national identities and the evolving conflict between the Arab and Jewish communities. The course combines a wide range of primary sources as well as cultural products of Jewish and Arabs writers, moviemakers, and artists. Through course readings, lectures, discussions, and collaborative assignments students will confront the many ways in which leisure has had a foundational impact on ordinary people's daily lives and the formation of collective identities in Palestine and Israel.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "- Acquire in-depth knowledge of Palestine and Israel's cultural history. \n- Increase the understanding of the complex and multi-faceted relationship between Jews and Arabs. \n- Shape informed opinions upon a contested historical period and encourage critical thinking in relations to it. \n- Encourage active engagement in class discussions and in critical evaluation of primary and secondary sources. \n- Develop writing, collaboration, and interpersonal communication skills.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Attendance & class participation: 30%\nPaper, mid-term: 30%\nProject, final: 40%",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Materials will be provided by instructor.",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Africa/Middle East",
+        },
+      ],
     },
     {
       unique_id: "39421",
@@ -75524,7 +76417,29 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: Modern Israel: History, Politics and Society, 1882-present\n\nThe history of modern Israel can be seen as chronicling the challenge of building a brand new state and society bringing Jews of many different persuasions to live together for the first time in 2000 years while simultaneously confronting the reality of an indigenous population within its territorial bounds. This course takes the approach that the history of modern Israel is a dual narrative of two nations developing side-by-side in the same geographic space of Israel/Palestine, each seeking their own self-determination and social cohesion. Yet, as this course will emphasize, the history and historiography of modern Israel go far beyond the "ripped from the headlines and history books" accounts of decades of clashes of the Israeli-Palestinian conflict -- we will examine the complex internal dynamics of each society-in-progress as well as the external processes that shaped both of their polities and their quest for peace. The syllabus has been organized in 8 week units as departures on the theme of "aliya" (lit. ascendance), a Zionist concept that has attached a positive and religiously-infused valance to Jewish national project and wave of immigrant-absorption prior to the founding of the state of Israel in 1948. I have adapted this framework not only to cover both the pre- and post-state period in Israel/Palestine but also to put into focus many groups that were marginalized from this classic history of modern Israel. We will examine both continuity and change since 1948 when it came to the creation of the "new Jew," successive waves of Jewish migration, Zionist settlement, and the "Arab" (or Palestinian) question. The goal of the course is gain a deeper appreciation of not only of the wars on the battlefield and between world leaders over the past century, but the major political, social, cultural, and religious trends that have profoundly shaped two societies in conflict -- and perhaps one day, conciliation. The course will draw not only from scholarly texts but memoir, literature, photography, film, music, and other forms of digital history to gain a multi-faceted view of the modern Israel. Lastly, students will have the opportunity apply their historical knowledge to contemporary debates about the future of the region.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Through a close-reading of both primary and secondary source material, students will have the opportunity to learn to work with texts (and other media) and negotiate historiographical debates about modern Israel. Students will also have an opportunity to develop their own arguments and frameworks in class discussion and course assignments.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Inquire with the instructor/syllabus.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Inquire with the instructor/syllabus.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Inquire with the instructor/syllabus.",
+        },
+        { name: "Class Notes", desc: "History Area of Conc.: European" },
+      ],
     },
   ],
   "002033": [
@@ -79026,26 +79941,9 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course will be team-taught by visiting practitioners Kristine Khoury and Yasmine Eid-Sabbagh with Vartan Avakian, the spring 2022 Artist in Residence of the Program in Middle East and North African Studies and the Kaplan Humanities Institute. Description to come.",
+          desc: "(Im)material layers in archives: Affect, Landscapes and Photographic Agency at the Arab Image Foundation (AIF)\n\nThis seminar will investigate the ways in which archives can function as a space for renegotiating the agency of photographs and their (im)material layers, and how this process can allow for rethinking archival practices in complex political, economic and social contexts today. \n\nConsidering the Arab Image Foundation's (AIF) efforts to critically engage with its research and preservation practices, including documentation, technological solutions and questions around custodianship, rights and access, a particular focus will address diverse methodologies of generating layers of documentation through encountering and witnessing archival material in specific settings. \n\nAdditionally, exploring specific pirate or subversive digital projects, traditional/local knowledge archives, related contracts, their radical descriptions and language, reclaiming and reasserting control over certain narratives, will allow us to understand how reframing the same archival items can shift how people search and read records.\n\nAIF's Armenian collections will enable an investigation into how dispossession and perpetual migration have defined the presence and absence of Armenians in Ottoman landscapes and how diverse methods of documentation might intervene in these historic and contemporary landscapes.\n\nThe sessions, articulated through lectures, practice-based workshops, and public events, will be led by three members of the current Board of Directors of the AIF: Vartan Avakian, Yasmine Eid-Sabbagh and Kristine Khouri. \n\nParticipants will learn, explore, and generate new knowledge by working on collections from the Arab Image Foundation and related projects.",
         },
       ],
-    },
-    {
-      unique_id: "40111",
-      instructors: [],
-      mode: null,
-      title: "Special Topics in the Humanities",
-      subject: "HUM",
-      number: "370-6",
-      section: "41",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
-      start_date: "2022-03-29",
-      end_date: "2022-06-04",
-      component: "SEM",
-      course_descriptions: [],
     },
     {
       unique_id: "40112",
@@ -79065,7 +79963,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Digital Performances in the Era of Virality.\n\nFull description to come.",
+          desc: 'Digital Performances in the Era of Virality.\n\nActing as "historians of the present," in this project-based course we will investigate the relationship between performance and digital technology as we track how creators, scholars, and activists have been intervening in contemporary scenes of social unrest. What emerging performance genres?from vaxxies to mental health TikTok videos and from Zoom performances to Instagram livestreams?have taken off during the last two years of social isolation and polarization? What digital aesthetic strategies link personal experience to collective crisis and action? How have artists and activists drawn attention to issues such as anti-Blackness, gender violence, and authoritarianism and their imbrication in the current public health crisis? To address these questions, students will read scholarship on performance and new media, examine digital performances of their choosing, and produce critical essays and/or practice-based research projects that incorporate digital tools. By the end of the course, students will have gained skills to analyze digital performances, to think critically about liveness, embodiment, and mediated performance, and to share their research using a critical digital humanities approach.',
         },
       ],
     },
@@ -81510,9 +82408,9 @@ const sections = {
       number: "277-0",
       section: "1",
       meeting_days: "TuTh",
-      start_time: "9:30",
-      end_time: "10:50",
-      room: { building_name: "Kresge Centennial Hall 2-415" },
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -82100,7 +82998,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "19:00",
       end_time: "20:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "Lunt Hall 101" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LAB",
@@ -82146,7 +83044,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "16:00",
       end_time: "17:00",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      room: { building_name: "Lunt Hall 103" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LAB",
@@ -84683,7 +85581,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "Persian 121-3 is the third quarter of a three-quarter sequence for students who have completed first-year Persian or have been placed in the course through the Placement Test.  The primary goal of this course is to develop students' active and passive basic grammar and vocabulary while exploring contemporary Iranian culture.  Class meets four times a week and will be conducted in Persian.  Students are expected to be on time, to participate actively, and to prepare outside of class at least one hour daily.  Intermediate Persian follows a communicative approach to enable students to produce natural language rooted in an understanding of culture.  In this course, students will learn about sports in Iran.",
+          desc: "Persian 121-3 is the third quarter of a three-quarter sequence for students who have completed first-year Persian or have been placed in the course through the Placement Test.  The primary goal of this course is to develop students' active and passive basic grammar and vocabulary while exploring contemporary Iranian culture.  Class meets four times a week and will be conducted in Persian.  Students are expected to be on time, to participate actively, and to prepare outside of class at least one hour daily.  Intermediate Persian follows a communicative approach to enable students to produce natural language rooted in an understanding of culture.",
         },
         {
           name: "Registration Requirements",
@@ -85825,7 +86723,7 @@ const sections = {
       meeting_days: "We",
       start_time: "18:00",
       end_time: "21:00",
-      room: { building_name: "TBA" },
+      room: { building_name: "Kresge 3438 Philosophy Sem. Rm" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
@@ -85977,10 +86875,10 @@ const sections = {
       subject: "PHYSICS",
       number: "110-6",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWe",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Technological Institute F280" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -87297,9 +88195,9 @@ const sections = {
       number: "442-0",
       section: "1",
       meeting_days: "MoWe",
-      start_time: "10:00",
-      end_time: "11:20",
-      room: { building_name: "Technological Institute L158" },
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Technological Institute L170" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
@@ -87386,7 +88284,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "It is reasonable to assume that most of us owe (or will at some point owe) money to creditors from whom we've borrowed funds. Debt is pervasive in the United States: many people have outstanding debts in the form of student loans, credit card bills, open lines of credit with banks, or home mortgages. The U.S. government has also built up an impressively large debt load over the past sixty years (over $13 trillion before the March 2020 eruption of the COVID-19 pandemic). But while debt touches most people's lives in some fashion, the complex history and politics of modern debtor-lender relations remains, for most, essentially unknown territory. The central purpose of this course, then, is to deepen our understanding of how we got to this point. How did debt - both private and public - swell to current levels? How were markets for debt built? What were the politics of some key turning points in the history of debt? How did differences in the terms of access to credit produce and reinforce social inequalities? When do debt markets break down and how do societies recover from debt crises? Under what conditions are debts honored and when can (and should) debt contracts be repudiated?",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course students will:<ul>\n<li>Deepen their understanding of the historical and political foundations of debtor-creditor relations in the U.S. and elsewhere;</li>\n<li>Better understand how global markets for sovereign debt are (and are not) governed;</li>\n<li>Gain exposure to the case study method used by faculty and students at Harvard Business School;</li>\n<li>Improve their abilities to use analytical frameworks and empirical evidence when talking and writing about important debates over the politics of debt;</li>\n<li>Sharpen their social scientific writing skills.</li>\n</ul>",
+        },
+        { name: "Teaching Method", desc: "Seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "Final research paper: 40% \nCase-based essay: 25% \nShort response papers (3): 15% \nSeminar participation: 20%",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "udents will be asked to purchase up to 4 case readings used in courses in the Business, Government, and International Economy unit at the Harvard Business School. PDFs of each case reading cost $8.95. Students that may need assistance purchasing the case readings should contact Professor Nelson.",
+        },
+      ],
     },
     {
       unique_id: "39248",
@@ -87603,7 +88519,29 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Examination of mental processes that underpin political judgments. The origins of political views, the influence of political parties and other groups, reactions to political news, common decision-making heuristics and biases, and causes and effects of political ignorance. Emphasis on the political thinking of ordinary citizens, with some attention to political elites.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Attendance at first class required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "<ol>\n<li>Students should understand, and be able to describe in their own words, the classic experimental designs that underpin the research discussed in this course.</li>\n<li>Students should be able to make arguments about the relevance of the assigned psychology research?or, if they see fit, its irrelevance?to contemporary political affairs.</li>\n<li>Students should be able to describe debates in political psychology, to take positions of their own on these matters, and to defend their positions.</li>\n<li>Students should be able to (a) describe methodological problems that threaten the credibility of much political psychology research, (b) generate new hypothetical examples of studies that suffer from these problems, and (c) use heuristic rules that will let them make simple judgments about the credibility of many different kinds of research.</li>\n</ol>",
+        },
+        { name: "Teaching Method", desc: "Lectures. No discussion sections." },
+        {
+          name: "Evaluation Method",
+          desc: "There will not be a final exam. There will be three in-class exams. They are not cumulative; that is, each exam will cover a distinct set of topics. The first exam will count for 28% of your final grade; the second, for 33%; the third, for 39%. Instead of taking the second exam, you may write a paper of 6 to 9 pages. The same rule applies to the third exam. You may therefore write 0, 1, or 2 papers for this course.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Stanley Milgram. Obedience to Authority, HarperPerennial. ISBN 978-0061765216.",
+        },
+      ],
     },
   ],
   "002798": [
@@ -87655,7 +88593,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This is a critical time for market globalization. In the past decade and a half, many countries\' financial systems have experienced profoundly destabilizing shocks. The global distribution of economic and political power is shifting. Policymakers in the United States and elsewhere have grown increasingly skeptical of the efficacy and fairness of the international organizations charged with governing globalized markets. A nationalist-populist tide swept into the political scene in many countries in recent years. And, of course, the eruption of the COVID-19 pandemic, the global diffusion of lockdowns to control the spread of the virus, and the attendant severe, synchronized economic downturns provoked many prominent observers, including the newly-appointed Chief Economist of the World Bank, Carmen Reinhart, to wonder if the pandemic is the "last nail in the coffin of globalization." This course is intended to take stock of market globalization in light of these integrating and fragmenting forces. What is market globalization? Are its effects on the economic fortunes of individuals and groups in historically rich countries different than the effects in developing countries? Has market globalization gone too far - or has it not gone far enough? These are the kinds of questions that will be discussed in the course. The course is organized around five main topics: (1) conceptualizing market globalization; (2) describing transformations in the constituent parts of market globalization (international trade, globalized production, finance, and labor migration); (3) exploring how different national styles of capitalism in the historically rich Northern countries have adjusted to pressures generated by "deeper" forms of market globalization; (4) the relationship between market globalization, economic development, and global inequality; (5) exploring the challenges to globalization posed by the recent rise of nationalist-populist ideologies in many countries and the fragmenting effects of the COVID-19 public health crisis and global economic downturn.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course students will:<ul>\n<li.Deepen their understanding of the historical and political foundations of market globalization;</li>\n<li>Better understand how global markets for trade, production, financial assets, and labor are (and are not) governed;</li>\n<li>Gain exposure to the case study method used by faculty and students at Harvard Business School;</li>\n<li>Work alongside colleagues to master the granular details and big-picture takeaways from five complex, challenging cases - each of which are connected to key themes connected to globalization;</li>\n<li>Improve their abilities to use analytical frameworks and empirical evidence when talking and writing about important debates over market globalization;</li>\n<li>Sharpen their social scientific analytical and writing skills.</li>\n</ul>",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lectures, full-group case discussions, and discussion sections",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Course participation: 10% \nCase-based essays (2): 30% \nMidterm exam: 25% \nFinal exam: 35%",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Students are asked to purchase up to 5 case readings used in courses in the Business, Government, and the International Economy unit at Harvard Business School. PDFs for each case cost $8.95. If the cost to purchase the case readings is prohibitively expensive students are encouraged to contact Professor Nelson for assistance.",
+        },
+      ],
     },
   ],
   "002799": [
@@ -88584,7 +89543,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Lots of people have beliefs that other people think are just plain weird. Why do people have these beliefs? We will look at "weird" beliefs within our culture and maybe some cross-cultural examples to understand what leads to development and maintenance of beliefs. We\'ll also consider how to evaluate rationality of beliefs. Among the specific topics we may cover are: science denial, superstition, parapsychology, conspiracy theories, ghosts, near-death and out-of-body experiences, witchcraft, alien abduction, repressed memories of abuse, and creationism/intelligent design. Students will use a wide variety of academic and popular media resources (including empirical research articles, ethnographic descriptions, philosophical arguments, popular press books, and documentary films) to explore the bases for these beliefs and practices.',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Attendance at 1st class mandatory\n\nEnrollment Requirements: Reserved for Freshmen and Sophomores",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Primarily discussion supplemented with videos and some brief lectures.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will most likely be based on weekly written assignments, one short paper (2-3 pages), peer critique of papers, an independent research paper (~10 pages), class participation, and possibly an in-class presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials (Required):\nIn addition to the required books, we will have articles and chapters from a variety of other sources that will be available through the Canvas course management system.  The required books are most likely to be:\n1.\tClancy, S.A. (2005). Abducted: How people come to believe they were kidnapped by aliens.  Harvard University Press. ISBN: 0-674-01879-6\n2.\tGilovich, T. (1991).  How we know what isn't so: The fallibility of human reason in everyday life.  Free Press. ISBN: 0-02-911706-2\n3.\tMerlan, A. (2019). Republic of lies: American conspiracy theorists and their surprising rise to power. Metropolitan Books. ISBN: 978-1250159052\n4.\tMiller, K.R. (2008). Only a theory: Evolution and the battle for America's soul. Viking Press. ISBN: 978-0143115663\n5.\tShermer, M. (2011).  The believing brain.  New York: Henry Holt. ISBN: 978-0-8050-9125-0 \n6.\tWiseman, R. (2010).  Paranormality: Why we see what isn't there.  ISBN: 978-0-9568756-5-5",
+        },
+      ],
     },
   ],
   "002874": [
@@ -88603,7 +89583,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The purpose of this course is to present an overview of the field of psychology. The topics we will cover include research methods, the biology of behavior and emotion, perception, memory, thinking and problem solving, emotion, social influences on behavior, personality, and psychological disorders. A combination of class lectures, readings, and (online) laboratory experiences will convey a sense of the foundational questions and methods of the science of psychology. Ultimately, the goal of this course is to impart an initial understanding of some fundamentals of human nature and behavior, as well as instill a deeper appreciation for the science of psychology. To this end, several hours of an online laboratory experience are required across the quarter to allow you to have first?hand experience of the way research is conducted in psychology. Alternatively, a paper (requiring roughly the same number of hours outside of class) reviewing primary research articles in psychology may be substituted for the laboratory experience. If you are under the age of 18, you must use the paper requirement to satisfy your laboratory credit.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, film clips, demonstrations.\n*This class will be taught remotely, but synchronously. Attendance at live classes is expected, but lectures will be recorded for those who cannot attend live.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will be based on three midterm examinations and three optional short papers.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Gazzaniga, M. (2018). Psychological Science,6th edition. W.W. Norton, Publisher. ISBN: 9780393640366. \n\nWe have made arrangements with the publisher for ebook access at a reduced price ($50), with the option to also get a loose-leaf printed copy of the textbook for an additional $20. Details will be provided in the syllabus.",
+        },
+      ],
     },
   ],
   "002875": [
@@ -88622,7 +89619,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on the analysis of data, using computer software. The approach is conceptual-I want you to understand not memorize. Important concepts include samples versus populations, normal curves and the central limit theorem, sampling distributions, standard errors, hypothesis testing, correlation and regression, t-tests, analysis of variance (ANOVA), and the chi-squared test.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Psychology 110 or permission of the instructor.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will be based on homework (20%), in class group exercises (20%), a data analytic project (20%), and two exams (20% each). The second exam will occur on the last day of class, and the data analytic project will be due during finals week (but could be completed during reading week).",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials (Required)\nWarne, R. T. (2018). Statistics for the Social Sciences: A General Linear Model Approach. Cambridge University Press. ISBN: 978-1-107-57697-1",
+        },
+      ],
     },
   ],
   "002877": [
@@ -88641,7 +89655,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course provides an introduction to designing, conducting, evaluating, and presenting psychological research.  Among the topics to be covered are: experimental and non-experimental research; statistical analyses; writing psychological reports; ethics in research; and utilizing library resources.  Students will collect and analyze data for three research projects during the quarter, and write a report on each in the style used by research psychologists.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must be Psychology majors and have taken Psychology 201 (or equivalent coursework). \nAttendance at 1st class mandatory \nPrerequisites apply, see description",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "At the end of the course you should be able to:\nDemonstrate proficiency with regard to the terminology and concepts involved in psychological research, especially with regard to experimentation\n\nObtain research articles relevant to a psychological topic via the online databases (e.g., PsycINFO, PsycARTICLES, Google Scholar), and synthesize this research\n\t\nFormulate hypotheses and design research to test these hypotheses\n\nEffectively communicate the results of your own psychological research by writing clear, persuasive, appropriately formatted APA-style research reports\n\nCritically evaluate research results reported by others",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Morling, B. (2020).  Research Methods in Psychology (4th ed.).  W.W. Norton & Company.\n\nISBN-13: 978-0393536263\nISBN-10: 0393536262",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "American Psychological Association. (2020).  Publication manual of the American Psychological Association (7th ed.).  American Psychological Association.  \nISBN: 978-1433832161",
+        },
+      ],
     },
     {
       unique_id: "36375",
@@ -88658,7 +89693,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "What does psychology look like in practice? How does one discover psychological phenomena? What are the controversies in the field of psychology, and how might we as researchers overcome them?\n\nThis course covers the how of psychological research. Scaffolded by the scientific method and informed by contemporary challenges and controversies in the field of psychology, we will work in small research teams to empirically investigate a psychological topic of interest from start to finish. This includes brainstorming a study, conducting a literature review, designing an experiment, recruiting participants and collecting data, analyzing said data, and writing up and disseminating the findings.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "In the first half of the class, we will become acquainted with the methods of scientific inquiry broadly, and psychological research methods, issues, and controversies more specifically. The second half of the class will become increasingly more project-oriented and hands-on, as we apply our foundational knowledge of psychological science and statistics to our group research projects.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Our class design will mirror the format of most psychology labs, as we will be expected to (and will be evaluated on our capacity to) work collaboratively and communicate with the group. Moreover, our major class assignments-including the pre-registration, APA research manuscript, and conference presentation-are all part and parcel of the everyday work of a psychology researcher.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course readings include some journal articles and podcasts in addition to the open-source textbook: Research Methods in Psychology, 4th edition (ISBN 13: 9781999198107).",
+        },
+      ],
     },
     {
       unique_id: "36376",
@@ -88675,7 +89727,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will introduce students to methods used in psychological research. Through readings, lectures, discussion, and hands-on activities (specifically the handling of a statistics program used for data collection and analyses), students will earn about the scientific approach to research designs and about the analysis and interpretation of data. They will participate in novel research projects and will write a report on each in the style used by research psychologists. Primary goals are for students to learn (1) testing hypotheses, including data collection and statistical analyses, (2) writing effectively about research plans and findings, and (3) critically evaluating psychological research done by other people.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must have taken PSYCH 201 or an approved substitute before enrolling in PSYCH 205. Please see the department website for more information.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, Group work, Class participation, Research project, Writing assignments, Presentations, Discussion",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Research Methods in Psychology, Fourth Edition Beth Morling Paperback; ISBN: 978-0-393-53625-6",
+        },
+      ],
     },
     {
       unique_id: "36377",
@@ -88692,7 +89761,29 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Want to learn how to become a scientist? This course will introduce you to the methods psychologists use to create groundbreaking psychological research! We will do this in a few parts, working our way through each step of the research process.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must have taken PSYCH 201 or an approved substitute before enrolling in PSYCH 205. Please see the department website for more information.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "In addition, you will be able to identify the strengths and weaknesses of different research designs, contemplate the ethics of psychological research, and become critical consumers of research. During the term, you will become psychological researchers by testing your own hypotheses, designing and conducting novel research projects, and disseminating (i.e., communicating) your research via written and oral scholarly reports.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Through readings, lectures, discussion, and hands-on activities (specifically the handling of SPSS, a statistics program used for data collection and analyses), you will learn about the scientific approach to research designs, analysis, and interpretation of data.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You will be assessed on 3 research papers (don't worry - not all of these are full length!), 2 exams, and a group presentation of your findings.",
+        },
+        { name: "Class Materials (Required)", desc: "No textbook required." },
+      ],
     },
     {
       unique_id: "38752",
@@ -88709,7 +89800,29 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Want to learn how to become a scientist? This course will introduce you to the methods psychologists use to create groundbreaking psychological research! We will do this in a few parts, working our way through each step of the research process.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must have taken PSYCH 201 or an approved substitute before enrolling in PSYCH 205. Please see the department website for more information.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "In addition, you will be able to identify the strengths and weaknesses of different research designs, contemplate the ethics of psychological research, and become critical consumers of research. During the term, you will become psychological researchers by testing your own hypotheses, designing and conducting novel research projects, and disseminating (i.e., communicating) your research via written and oral scholarly reports.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Through readings, lectures, discussion, and hands-on activities (specifically the handling of SPSS, a statistics program used for data collection and analyses), you will learn about the scientific approach to research designs, analysis, and interpretation of data.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You will be assessed on 3 research papers (don't worry - not all of these are full length!), 2 exams, and a group presentation of your findings.",
+        },
+        { name: "Class Materials (Required)", desc: "No textbook required." },
+      ],
     },
   ],
   "002876": [
@@ -88728,7 +89841,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will be a comprehensive survey of social psychological research. We will cover all of the major topic areas of the field, including attitudes and social cognition (how we think about, understand, and evaluate the social environment), interpersonal processes (e.g., romantic attraction, social influence, helping, and aggression), and group processes (e.g., conformity, group performance, cooperation, competition, and prejudice).",
+        },
+        { name: "Registration Requirements", desc: "Prereq: Psychology 110" },
+        {
+          name: "Evaluation Method",
+          desc: "There will be two mid-term exams and a cumulative final exam. Students will also be required to complete numerous brief in-class exercises, so regular attendance is important.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Required readings will come from Principles of Social Psychology, an open-source textbook. This book will be made freely available to all enrolled students",
+        },
+      ],
     },
   ],
   "002879": [
@@ -88747,7 +89874,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The goal of this course is to study how people come to be the unique individuals that they are. We will begin at the very beginning of life and learn the biological and environmental influences that help to shape people's personalities over time. We will look at the basic building blocks of temperament and how they these fundamental characteristics of children develop into the major personality characteristics of adults. We will seek to answer questions about what motivates us, how we manage our emotions internally and in social settings, and how we interact as social beings. We will also look at ways in which personality traits may be stable over time or may be susceptible to change. Finally, we will examine the relation between personality and mental health. In what ways do different personality characteristics predispose us to or protect us from the development of psychopathology? What does it mean to have a disordered personality?\n\nIn this course, we will use both a book that will serve as our primary text and additional required articles that will include research and theoretical articles. Both sources of reading will be critical for understanding this course and (especially information from the book) will not be fully covered in lectures. The research articles may be challenging if you have never read a psychology article before, and I will go over what you need to know and allow time for questions about these articles in class. Class will also cover material that is not explicitly in the readings and will include examples and discussions that will be instrumental to your ability to master the material. If you do not attend class regularly, you should expect that the exams will probably be very challenging for you.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Recommended prerequisite: Psych 110",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Class will include lecture and time for student questions, as well as smaller groups for discussion during class.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "There are 3 short (3-4 pages double spaced) papers are worth a total of 35% of your grade. The mid-term exam is worth 30%, and the final exam will account for the remaining 35% of your grade. Exam questions will consist of short answer and essay questions.  Materials from the text, assigned readings, and lectures will all be included.  The lectures will not be fully redundant with the text, so expect questions that derive from material presented in class or from material in the readings that was not covered in class. Class participation will be considered for borderline grades.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "McAdams, D.P. (2015). The art and science of personality development. New York: Guildford Press. ISBN 978-1-4625-2932-2\nSelected articles (Canvas).",
+        },
+      ],
     },
   ],
   "002881": [
@@ -88766,7 +89914,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This lecture-based course is an introduction to the topics and issues most relevant to cognitive psychology, including perception, attention, memory, knowledge representation, language, reasoning, and problem solving.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "In this course, students will: 1) learn about the significant scientific concepts and theories associated with the psychological study of cognition; 2) become familiar with methods that have commonly been used to explore these issues; 3) have the opportunity to read and write about current cognitive psychological research",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades are based on performance on 3 exams and 2 short papers.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials (Required)  \n \nCognitive Psychology: Theory, Process, and Methodology (2nd Edition)\nAuthors: Dawn M. McBride & J. Cooper Cutting\nPublisher: Sage [ISBN: 9781506383866]",
+        },
+      ],
     },
   ],
   "002880": [
@@ -88785,7 +89950,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The focus of this course is the development of perception, cognition, language, personality, and social interaction from infancy through adolescence. The course considers perspectives and methods in developmental research. As each new topic is introduced, students are encouraged to think critically about the assumptions and methods in the research. A central goal is to help students develop an appreciation of different criteria for evaluating research and other forms of evidence. The discussion sections will allow students to consider how the theoretical and research findings are relevant in the real world and will generally focus on more applied issues.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "There are lectures MW 2-3:20 and a one-hour discussion section on Fridays. Attendance at 1st class is mandatory.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Two 80-minute lectures and one 50-minute discussion section on Friday.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation consists of a combination of quiz scores, final exam grade, short papers on discussion topics and class participation in discussion section.",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Class Materials (Required)\nLightfoot, C., Cole, M., & Cole, S. R. (2018). The development of children, 8th edition.  Worth Publishers: New York, NY ISBN: 9781464178863\nList price $60.67 ebook 90 days\n\nTatum, B. D. (2017). Why are all the Black kids sitting together in the cafeteria? And other conversations about race. New  York, NY Basic Books ISBN- 978-0465060689\nList price $7.77 amazon",
+        },
+      ],
     },
   ],
   "002884": [
@@ -88804,7 +89990,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Research and theories on the origins of various forms of psychopathology. Topics include schizophrenia, addictive disorders, psychopathy, personality disorders, eating disorders, psychosexual disorders, depression, and anxiety disorders. Also, issues regarding classification of psychiatric disorders.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Abnormal Psychology: An Integrative Approach\n\nISBN-13: 9781305950443\n\nISBN-10: 1305950445\n\nAuthors: David H. Barlow; Vincent Mark Durand; Stefan G. Hofmann\n\nEdition: 8",
+        },
+      ],
     },
   ],
   "002885": [
@@ -88823,7 +90018,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this class, students will learn about the field of clinical psychology, including its scope, range of activities, required educational/training background, and career possibilities. The course will focus mostly on the primary activities of practicing clinical psychologists: assessment, diagnosis, and treatment, but will also cover topics including research, ethics, forensics, and consultation. We will discuss the research on each topic but also cover clinical case examples. One of the textbooks will follow a single clinical case through a range of different therapeutic approaches (e.g., psychodynamic, family systems, CBT) to see how clinicians from different schools of thought would treat the same individual.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "This class will be taught in person and may include guest lectures from people in the field, as well as regular lectures, class discussions, and analyses of case studies.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation will include an applied case analysis paper, a research paper, a midterm exam, and a final exam. Participation will help with borderline grades.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Bernstein, D.A., Teachman, B.A., Olatunji, B.O., & Lilienfeld, S.O. (2021). Introduction to Clinical Psychology, 9th Ed. Cambridge: Cambridge University Press. ISBN13: 9781108735797\n                \nCorey, G. (2013). Case Approach to Counseling and Psychotherapy, 8th Ed. Belmont, CA: Brooks/Cole. ISBN13: 9781111841768\n \nSelected articles (Canvas)",
+        },
+      ],
     },
   ],
   "002908": [
@@ -88842,7 +90054,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This is an advanced social psychology course designed to survey one of the most active, dynamic areas of the discipline. The central focus of the course will be on the fundamental nature of attitudes, beliefs, and opinions. We will consider a variety of basic questions, including: What is an attitude? What functions do attitudes serve? Where do our attitudes come from? Is there such a thing as an unconscious attitude? Do most people show consistency among their various attitudes? What is the role of emotion versus reason in social attitudes? How and when are attitudes related to actual behavior? How and when can attitudes be changed?",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, Readings, Class participation",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Midterm exam, final Exam, several short written assignments and a term paper, participation",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials (Required)\n\nAttitudes and Attitude Change (2nd edition) by Tobias Vogel and Michaela W?nke (2016, Routledge), ISBN: 978-1-84169-674-4   (available in paperback and Kindle formats)",
+        },
+      ],
     },
   ],
   "002907": [
@@ -88861,7 +90090,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The primary goal of this course is to provide an overview of scientific research on interpersonal attraction and close relationships. Required reading for this course comes includes one textbook (Bradbury and Karney's Intimate Relationships, 3rd edition) and one trade book (Eli Finkel's The All-Or-Nothing Marriage). By the end of the course, students should be able to think more deeply about interpersonal relationships, to evaluate media claims more critically, and (ideally) to be better relationship partners. Class will be synchronous/remote",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Classes meet twice weekly for 80-minute sessions. The course is lecture-based, but it includes time for focused discussion and illustrations of key materials (typically with videos from popular culture).",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Because this is a large, lecture-based course, student assessment is based primarily on the three midterm exams. There is no final exam for this course.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Required reading for this course comes includes one textbook (Bradbury and Karney's Intimate Relationships, 3rd edition) and one trade book (Eli Finkel's The All-Or-Nothing Marriage)",
+        },
+      ],
     },
   ],
   "023468": [
@@ -88880,7 +90126,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will be an exploration of how particular psychological theories and concepts can inform our understanding of the events of the Holocaust at both a group and individual level. Material from the fields of Social and Clinical Psychology will be a particular focus of the course.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Students will be evaluated on the basis of class attendance and participation, essay exams, short writing assignments, and a group project/ presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "There is no text for the course; readings will either be distributed in class or posted on Canvas throughout the quarter.",
+        },
+      ],
     },
   ],
   "002897": [
@@ -88899,7 +90158,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course treats central concepts in cognitive psychology and cognitive science, including conceptions of everyday objects and their matter, the identity of people, and ideas of parts and wholes.",
+        },
+        { name: "Teaching Method", desc: "Seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "Presentations: one class presentation of research project; Homework; Research project",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Van Inwagen, P. Material Beings. Cornell University Press. ISBN 978-0801483066",
+        },
+      ],
     },
   ],
   "022518": [
@@ -88910,7 +90183,7 @@ const sections = {
       title: "Psychology of Beauty",
       subject: "PSYCH",
       number: "343-0",
-      section: "2",
+      section: "20",
       meeting_days: "Mo",
       start_time: "17:00",
       end_time: "19:50",
@@ -88918,7 +90191,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The purpose of this course is to consider psychological theory, methodology, and empirical data relating to questions such as the following: What is it that makes us find beautiful people beautiful? How can evolutionary psychology explain why we find certain features beautiful? Where does evolutionary theory fail in terms of predicting perceptions of beauty? Is beauty really in the eye of the beholder? How are gender roles and sexual orientation related to beauty and its pursuit? How do racism and classism shape our beauty ideals and ideas? Why is beauty associated with femininity? What cultural biases help those perceived as beautiful and hurt those perceived as lacking in beauty? Are beautiful people happier or more successful? How do cultural standards of beauty affect disorders such as anorexia nervosa, bulimia nervosa, and body dysmorphic disorder?",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "The only pre-requisite for this class is Introduction to Psychology (Psych 110).",
+        },
+        {
+          name: "Teaching Method",
+          desc: "The teaching method will be a combination of lecture, class discussions, student presentations, and in-class activities/demonstrations.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grading will be based on take-home exams and a multi-step (group) research project and presentation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "There is no textbook required for this course. All readings can be downloaded from Canvas at no charge. You must be present for the final exam (as that will be the date of student presentations of research projects).",
+        },
+      ],
     },
   ],
   "002891": [
@@ -88937,7 +90231,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "R is open source statistical system that has become the lingua franca of statistical data analysis. R is both a statistical system for processing data using traditional and modern statistics and a programming language for developing new methods. This course will introduce you to R with an emphasis in using R for psychological research. Time will be spent using standard R packages for data analysis including regression, factor analysis, test construction, and multilevel modeling. Students will be introduced to the fundamentals of programming in R and will be shown how to modify existing packages to be more useful for their own work. No prior experience in programming is required, although a willingness to learn is essential.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No textbook required; readings will be provided by the instructor.",
+        },
+      ],
     },
     {
       unique_id: "38756",
@@ -88954,7 +90257,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "R is open source statistical system that has become the lingua franca of statistical data analysis. R is both a statistical system for processing data using traditional and modern statistics and a programming language for developing new methods. This course will introduce you to R with an emphasis in using R for psychological research. Time will be spent using standard R packages for data analysis including regression, factor analysis, test construction, and multilevel modeling. Students will be introduced to the fundamentals of programming in R and will be shown how to modify existing packages to be more useful for their own work. No prior experience in programming is required, although a willingness to learn is essential.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No textbook required; readings will be provided by the instructor.",
+        },
+      ],
     },
   ],
   "008700": [
@@ -88973,7 +90285,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on the social psychology of stereotyping, prejudice, and discrimination.  In other words, we will examine the phenomena and processes associated with one's beliefs about members of social groups (stereotypes), attitudes and evaluative responses toward group members (prejudice), and behaviors toward members of a social group based on their group membership (discrimination).  Also, we will study how these issues shape the experiences of social group members, especially when they are members of low-status and/or minority groups.  In order to explore these topics, we will primarily focus on large societal groups that differ on dimensions of identity such as race, ethnicity, gender, sexual orientation, and religion.  Rather than relying on anecdotal evidence, cultural truisms, or philosophical orientations to address these issues, we will approach these issues wearing the hat of an experimental social psychologist.  That is, we will examine traditional and contemporary theories of stereotyping, prejudice, and discrimination, punctuated by empirical findings.  Finally, we will apply the theoretical and empirical work to current events and issues.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Psych 213 & 205, or by permission of the instructor",
+        },
+        {
+          name: "Learning Objectives",
+          desc: '1. Students will develop an in-depth and integrative understanding of how approaching the topics of stereotyping, prejudice, and discrimination from a social psychological perspective improves our understanding of intergroup relations and human behavior more generally.\n\n2. The course will highlight the value of thinking about politically sensitive issues from a scientific perspective.  The purpose of this class is to engage thinking about stereotyping, prejudice, and discrimination, not to proselytize others to a particular worldview or to be a vehicle through which to further anyone\'s political or personal agendas.\n\n3. This course will help students identify and understand how psychological processes affect human behavior between members of different groups in the real world.  In other words, the application of findings and theories should help students "make sense" of why people do the things they do.  These insights should help students better understand the events they see in the news, with their friends, in their families, and within their communities.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Readings included on the syllabus will either be distributed in class or posted on Canvas throughout the quarter.",
+        },
+      ],
     },
   ],
   "002906": [
@@ -88992,7 +90321,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The focus of this course is an overview of research and theory related to children's cognitive development with a primary focus on infancy and childhood. Among the topics we will cover are perceptual development, conceptual change, motor development, language acquisition and social development. Through discussion and readings on these topics, we will gain information critical to understanding cognition in general.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "You need to have taken Research Methods before you take this class. Attendance at 1st class is mandatory",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Two 80-minute meetings each week, the format is largely discussion based.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Course evaluation is based on active participation, discussion posts, leading discussion and a final paper.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "There is no textbook for this class. All readings will be available on Canvas",
+        },
+      ],
     },
   ],
   "002899": [
@@ -89011,7 +90361,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will focus on human decision making from both descriptive and prescriptive perspectives. Theories and models of decision making will be evaluated and applied to a variety of contexts. Topics to be discussed include how people consider alternatives, make predictions and estimations, and evaluate possibilities.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prereq:Psych 205 and strongly recommended Psych 228 Students must complete Psych 205-0 before taking this course.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lectures, discussions, research projects.",
+        },
+        { name: "Evaluation Method", desc: "Exams, papers, presentations." },
+      ],
     },
   ],
   "015874": [
@@ -89030,7 +90394,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will examine how the brain creatively solves problems, with a particular focus on sudden insight - the Aha! or Eureka! moment. We will explore this specific topic in depth, as a model for cognitive neuroscience methods and theoretical approaches. We will link to other topics, potentially including attention, mental illness, intuition, complex language processing, and visual perception (gestalt). The course will be taught in a mix of lecture, student presentations, and experiment design and data collection, depending on the enrollment.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Research Methods, at least one class in cognition or neuroscience, or permission of instructor",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Understand the pros and cons of different methods used in cognitive neuroscience; understand different theoretical approaches",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Class Materials: Reading provided via Canvas. No textbook.",
+        },
+      ],
     },
   ],
   "002913": [
@@ -90315,7 +91696,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "An introduction to psychometric theory and personality assessment. The course covers theoretical and practical issues in the development and evaluation of measures of personality and ability. Heavy emphasis is given to issues of test reliability and validity. Scale construction techniques including factor and cluster analysis are discussed. The logic of multivariate structural modeling is introduced informally. The primary emphasis is upon the theory of personality measurement. Applied experience with tests will not be given but the use of modern computer packages to do psychometrics will be emphasized.",
+        },
+      ],
     },
   ],
   "013113": [
@@ -90467,7 +91853,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course examines how people reason about everyday objects and categories. Readings include theory and experimental research on this topic in cognitive psychology, philosophy, and linguistics. Assignments engage students in research in this area.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisites: One course in cognitive psychology, cognitive science, philosophy, linguistics, or computer science.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Evaluation is based on a final research project and weekly homework.",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Van Inwagen, P. Material Beings. Cornell University Press. ISBN 978-0801483066",
+        },
+      ],
     },
   ],
   "002942": [
@@ -90486,7 +91889,28 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Students will learn basic probability theory and how it relates to Bayes theorem, expectation values, variance/covariance, sampling distributions, degrees of freedom, ANOVA designs, the signal-detection theory, covariance-related methods such as hierarchical clustering, multi-dimensional scaling, and principal components, as well as to other interesting topics including entropy, mutual information, white/colored noise, and circular statistics.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Departmental permission required for students from other departments.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Coherent conceptual understanding and application are both emphasized. Students will learn the core principles of statistics through rigorous/simplified mathematical proofs in combination with computational simulations using R. Students will also learn to quickly visualize and evaluate typical behavioral data using R.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Homework problems will be regularly assigned and presentations may be assigned as appropriate.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All class materials will be provided free of charge. Bring a laptop computer to class.",
+        },
+      ],
     },
   ],
   "016289": [
@@ -90505,7 +91929,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will introduce students to interdisciplinary approaches to investigating the human mind combining cognitive and neuroscience perspectives. Class discussion will focus on attempts to understand relationships between mental functions and brain mechanisms. Various methodological and theoretical approaches will be considered in relation to fundamental questions about consciousness. The course also includes an end-of-term debate for more adventurous interaction and discussion.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Attendance at 1st class is mandatory",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will be based on participation in class discussion, presentations, weekly written assignments, and a final essay.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials (Required)\nConsciousness and the Brain: Deciphering How the Brain Codes Our Thoughts by Stanislas Dehaene 2014 ISBN-13: 978-0670025435",
+        },
+      ],
     },
   ],
   "002952": [
@@ -90524,7 +91965,25 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will introduce students to interdisciplinary approaches to investigating the human mind combining cognitive and neuroscience perspectives. Class discussion will focus on attempts to understand relationships between mental functions and brain mechanisms. Various methodological and theoretical approaches will be considered in relation to fundamental questions about consciousness. The course also includes an end-of-term debate for more adventurous interaction and discussion.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Attendance at 1st class is mandatory",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will be based on participation in class discussion, presentations, weekly written assignments, and a final essay.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts by Stanislas Dehaene 2014 ISBN-13: 978-0670025435",
+        },
+        { name: "Class Notes", desc: "Attendance at 1st class is mandatory" },
+      ],
     },
     {
       unique_id: "38765",
@@ -90541,7 +92000,22 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will human memory function from the perspective of basic cognitive processes and their basis in cognitive neuroscience.  Each week, selected readings will focus on a major area or question in memory research.  Memory phenomena will be organized according to a general framework of memory systems within the brain.  Topic will include memory storage and retrieval, familiarity, meta-memory, amnesia, nondeclarative memory, priming, category leaning, and sequence learning.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Graduate Students (Undergraduates with permission of instructor)",
+        },
+        { name: "Teaching Method", desc: "Discussions, presentations" },
+        {
+          name: "Evaluation Method",
+          desc: "Grades will be based on discussions, in-class presentations and a review paper.",
+        },
+        { name: "Class Materials (Required)", desc: "READINGS: TBA" },
+      ],
     },
   ],
   "019457": [
@@ -90560,7 +92034,12 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is intended to fulfill a portion of the Responsible Conduct of Research (RCR) requirements for graduate students, and for post-docs funded on NSF grants in the Psychology Department. The course is required of all first-year graduate students in Psychology, regardless of funding. The course may also be relevant for post-docs funded on NIH grants, but the relevance of the course should be discussed with your advisor. In all cases, completion of the relevant sections of the online Collaborative Institutional Training Initiative (CITI) program (CITIPROGRAM.ORG) is also required to compete the RCR requirements. Class: attendance is required and the lectures will not be recorded.",
+        },
+      ],
     },
   ],
   "002217": [
@@ -90794,7 +92273,17 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course examines the ways in which different Southeast Asian peoples have conceived of what we might think of as the natural world - the environment; and the supernatural world - various religious traditions and cosmologies; and the continuous interplay between the two. Together we will explore the Kahiringan tradition of the Ngaju Dayak people from Central Kalimantan in Indonesia; representations of nature in the textual traditions and temple paintings of the Vessantera jataka in Myanmar and Thailand; Ilongot headhunting and historical reckoning; and the hydraulic landscape of Bali's water temples. Our goal will be to understand the kinds of conceptual and practical resources Southeast Asians have brought to understanding and controlling the world in which they have lived.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "The critical discrimination of themes in a variety of intellectual traditions; the development of analytical argumentative skills; the production of precise, elegant prose; clarity and confidence in spoken argument.",
+        },
+        { name: "Teaching Method", desc: "<ln/>" },
+      ],
     },
   ],
   "002259": [
@@ -91251,7 +92740,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Elementary Russian 101-3 is the third part in a three-quarter sequence designed to introduce students to the Russian language and contemporary Russian culture. In this course, students will continue to develop and build on the Russian they have learned in the previous two quarters building on the fundamentals of speaking, listening, writing, and reading through a variety of communicative and content-based activities. Emphasis will be placed on practical communication so that students should be able to function at a basic level in several authentic situations by the end of the year.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "101-2 or equivalent with approval by the Director of Slavic Languages",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Be able to speak, read, listen, and write at a level equivalent to Novice High or Intermediate Low on the American Council of Teachers of Foreign Languages (ACTFL) proficiency scale. Be able to demonstrate control over basic Russian grammar, such as case usage of some cases, verb conjugation in controlled settings, etc. Be able to demonstrate an emerging awareness of some Russian cultural norms in a limited number of contexts within the scope of learning experiences and materials relevant to college students and based on the materials used and covered in this quarter.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Russian Stage One: Live from Russia, vol 2. (just the textbook is required), ACTR, lastest edition, Kendall/Hunt publishers.",
+        },
+      ],
     },
     {
       unique_id: "36060",
@@ -91268,7 +92774,24 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Elementary Russian 101-3 is the third part in a three-quarter sequence designed to introduce students to the Russian language and contemporary Russian culture. In this course, students will continue to develop and build on the Russian they have learned in the previous two quarters building on the fundamentals of speaking, listening, writing, and reading through a variety of communicative and content-based activities. Emphasis will be placed on practical communication so that students should be able to function at a basic level in several authentic situations by the end of the year.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "101-2 or equivalent with approval by the Director of Slavic Languages",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Be able to speak, read, listen, and write at a level equivalent to Novice High or Intermediate Low on the American Council of Teachers of Foreign Languages (ACTFL) proficiency scale. Be able to demonstrate control over basic Russian grammar, such as case usage of some cases, verb conjugation in controlled settings, etc. Be able to demonstrate an emerging awareness of some Russian cultural norms in a limited number of contexts within the scope of learning experiences and materials relevant to college students and based on the materials used and covered in this quarter.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Russian Stage One: Live from Russia, vol 2. (just the textbook is required), ACTR, lastest edition, Kendall/Hunt publishers.",
+        },
+      ],
     },
   ],
   "003221": [
@@ -91290,7 +92813,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "102-3: Intermediate Russian 102-3 is the continuation of a two-year sequence that enables students to acquire intermediate-level proficiency. This course is designed for students who have successfully mastered the language skills in Elementary Russian. It proposes the further development and command of skills and abilities in the areas of reading, writing, listening, and speaking. Emphasis is also placed on vocabulary expansion, especially in the areas of speaking and writing. A great deal of attention will be devoted to the learning of grammar in conjunction with the immediate activation of it in conversation. Video materials and audiotapes will be used throughout the course. For students who have completed RUSSIAN 102-2.",
+          desc: "Intermediate Russian 102-3 is the continuation of a two-year sequence that enables students to acquire intermediate-level proficiency. This course is designed for students who have successfully mastered the language skills in Elementary Russian. It proposes the further development and command of skills and abilities in the areas of reading, writing, listening, and speaking. Emphasis is also placed on vocabulary expansion, especially in the areas of speaking and writing. A great deal of attention will be devoted to the learning of grammar in conjunction with the immediate activation of it in conversation. Video materials and audiotapes will be used throughout the course. For students who have completed RUSSIAN 102-2.",
         },
         {
           name: "Class Materials (Required)",
@@ -92691,7 +94214,7 @@ const sections = {
     },
     {
       unique_id: "36403",
-      instructors: ["Johan Rafael   Gotera Osorio"],
+      instructors: [],
       mode: null,
       title: "Elementary Spanish",
       subject: "SPANISH",
@@ -92967,7 +94490,7 @@ const sections = {
   "003141": [
     {
       unique_id: "36406",
-      instructors: ["Felipe   Costa Neves"],
+      instructors: [],
       mode: null,
       title: "Intermediate Spanish",
       subject: "SPANISH",
@@ -93538,7 +95061,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will offer a panorama of Spanish literature from the Medieval period to the end of the Golden Age. Our literary readings will be the baseline for understanding the social and historical context of the transformations that the Spanish empire endured throughout the centuries. We will pay especial attention to the Arabic and New World's influence on the cultural production of Spain. In doing so, we will delve into the significant developments brought to literary form by the Spanish authors.",
+        },
+        { name: "Registration Requirements", desc: "Span 220" },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the class, the students will be able to broadly understand some of the main cultural debates posed by literature in Latin America throughout the 20th century and their relation to Latin American societies.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class materials will be available on Canvas",
+        },
+      ],
     },
   ],
   "003166": [
@@ -93646,7 +95183,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course provides an overview of some of the major trends in Latin American literature and culture since 1888, while at the same time offering opportunities to improve students' oral and written Spanish. The course will emphasize various literary styles and ideological constructions that, in different ways, reflect the complexity of Latin American cultures. While introducing students to the social and historical context in which the works were written, the course will focus on the following issues: the cultural and political dimensions of literature; the representation of class, gender, and race; literary enactments of modernity through the literary form and avant-garde aesthetics; the tensions between nationalism and cosmopolitism; and the positionality of Latin American literatures during and after the Cold War.",
+        },
+        { name: "Registration Requirements", desc: "Span 220" },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the class, the students will be able to broadly understand some of the main cultural debates posed by literature in Latin America throughout the 20th century and their relation to Latin American societies.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class materials will be available on Canvas",
+        },
+      ],
     },
     {
       unique_id: "39679",
@@ -93676,13 +95227,26 @@ const sections = {
       number: "277-0",
       section: "1",
       meeting_days: "TuTh",
-      start_time: "9:30",
-      end_time: "10:50",
-      room: { building_name: "Kresge Centennial Hall 2-415" },
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "TBA" },
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will introduce students to major Latina/o/x authors, genres, and movements by exploring a diverse corpus of literary texts. We will take a historical approach, examining how Latinx writers from various communities (Puerto Rican, Mexican American, Cuban American, Dominican American, Colombian American) have understood their relationship to the United States from the late nineteenth century up to the present. We will also question the category of Latinx. How do the experiences and histories of the various groups described under that label benefit from and/or resist identification as a single ethnicity? Most importantly, we will ask what poetry, memoirs, and novels have to offer as a way of understanding Latinx experiences. By the end of the quarter students will have an overview of the heterogeneous literary voices and aesthetics that constitute US Latinx literature.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "-\tStudents will be able to Identify major Latinx authors, genres, and historical movements \n-\tStudents will be able to interrogate questions about identity, community, gender norms, race & ethnicity\n-\tStudents will be able to situate Latinx literary and cultural productions in a wider context of the field",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Vida by Patricia Engel, I Am Not Your Perfect Mexican Daughter by Erika S?nchez,  ISBN-10 ? : ? 1524700517 \nTell Me How it Ends: An Essay in Forty Questions by Valeria Luiselli. ISBN-10: 1566894956\nBodega Dreams by Ernesto Qui?onez, ISBN-10: 0375705899\nAlong with poetry, essays, and short stories by Urayo?n Noel, Elizabeth Acevedo, Gloria Anzald?a, Sandra Mar?a Esteves, among others. Texts will be available at Norris Bookstore and via Canvas.",
+        },
+      ],
     },
   ],
   "003180": [
@@ -93720,7 +95284,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course focuses on colonial Latin America in the late 16th and early 17th century. Within this period, we will examine narrative and poetic works by Indigenous and European authors in which the nature, history, and implications of the recent history of the "New World" (in particular, the arrival of the Spanish and Portuguese) is contested, rewritten, and reimagined. We will be especially interested in the different ways that these works engage with both local and transatlantic influences. Key terms and questions to be explored include polemics, prophecy, hybridity, plurality, extirpation, preservation, and translation. While the primary language of the class will be Spanish, sources will include texts originally written in multiple Indigenous and European languages (provided in translation in Spanish or English).',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: 1 course from SPANISH 250-0, SPANISH 251-0, SPANISH 260-0, or SPANISH 261-0",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All course materials will be available on Canvas.",
+        },
+      ],
     },
   ],
   "003194": [
@@ -93777,7 +95354,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This seminar asks the following questions about borders, migration, and citizenship: (1) What are the forces?political, cultural, and environmental?that facilitate or inhibit human circulation? (2) How do governments, NGOs, scholars, and wider publics draw distinctions between legitimate and illegitimate forms of human mobility (e.g., "economic migrants" versus "refugees")? (3) How are migrants affected by efforts to regulate their movement, and what alternative forms of citizenship and belonging have they created? We will draw on a broad range of geographical examples and read widely across disciplines. Collectively, we will explore the ways that global im/mobilities have been lived, and how they shape our world today.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "After successfully completing this course, students will be able to:\n? Demonstrate a working knowledge of borders, migration, and citizenship\n? Draw on concepts and theories learned in class to understand current events\n? Conceptualize a viable research project\n? Structure a persuasive argument in writing\n? Identify primary and secondary sources and effectively use them in research papers\n? Intertextually engage with outside sources",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All required texts will be available as PDFs in Canvas.",
+        },
+      ],
     },
     {
       unique_id: "36988",
@@ -93795,7 +95385,21 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This undergraduate seminar examines the shifting place of Jews and Muslims in contemporary Spain. Together, we will explore several interrelated questions: (1) How have "Spain" and "Europe" variously been defined as modern, white, Christian, or secular by figuring Jews and Muslims as others? (2) How have these terms and the forms of life and history that they purport to represent changed over time? (3) What are the similarities and differences between the "Jewish Question" and the "Muslim Problem"? (4) How do Jews and Muslims understand themselves in relation to Spain, Europe, and to each other? At a time when racism, antisemitism, Islamophobia, and right-wing populist movements are ascendant in Spain and across Europe, we will work collaboratively to not only answer these questions, but to formulate new ones. To do so, we will consult scholarship in anthropology, history, cultural theory, and philosophy as well as on fiction, film, and journalism as resources. Throughout the term, we will be especially attuned to the forms of inclusion and exclusion that have affected Jews and Muslims in Spain, always with an eye toward how such abstractions come to matter in everyday life.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "After successfully completing this course, students will be able to:\n? Demonstrate a working knowledge of Jews and Muslims in modern and contemporary Spain\n? Draw on concepts and theories learned in class to understand current events\n? Conceptualize a viable research project\n? Structure a persuasive argument in writing\n? Identify primary and secondary sources and effectively use them in research papers\n? Intertextually engage with outside sources",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All readings will be available online or as PDFs in Canvas.",
+        },
+        { name: "Class Notes", desc: "Taught in English" },
+      ],
     },
   ],
   "020256": [
@@ -93814,7 +95418,20 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course critically examines the relationship between corporeality and language in the early modern Iberian transatlantic. To this end, we will study a range of texts, including grammars and linguistic treatises, doctrinal and Inquisitorial documents, and lyric and narrative poetry. We will read these materials in light of and against scholarly debates on topics including glottopolitics, mediascapes, the sensorium, etc. While the primary language of the class will be Spanish, sources will include texts originally written in multiple Indigenous and European languages.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Please contact the department of Spanish & Portuguese to request a permission number, spanish-portuguese@northwestern.edu.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All course materials will be available on Canvas.",
+        },
+      ],
     },
   ],
   "020259": [
@@ -93833,7 +95450,16 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Race, Migration and Multiculturalism in Contemporary Spain\nIn this course we will study Spain's development into a multicultural and multiracial nation as a result of mass immigration since the 80s. Through an exploration of political documents, cultural studies, film and literature, we will analyze and discuss the questions of immigration and multiculturalism in Spain from 1985 to the present. Throughout the course we will consider the following questions: How has Spain changed in cultural terms and how have those changes affected conceptualizations of race and migration?",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All course materials will be available on Canvas.",
+        },
+      ],
     },
   ],
   "023450": [
@@ -94794,7 +96420,36 @@ const sections = {
       start_date: "2022-03-29",
       end_date: "2022-06-04",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, students will learn about Turkish history and culture through a study of the city of Istanbul. As one of the oldest cities in the world, straddling Asia and Europe, Istanbul presents a unique example of Turkish culture as a gateway between the East and the West. In this course, we will study the history and culture of Istanbul, its monuments and peoples, and aspects of daily life in the city, through authentic texts, videos, literary sources and guest speakers. Moving away from a traditional textbook-based model, this course content-based presents new and interesting materials that allow students to explore and compare in Turkish broader cultural, social, and political issues. The authentic texts and literary sources are accompanied by creative language learning exercises designed to help students function across different registers and genres.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Turkish 121-2 or equivalent; or instructor's consent.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Throughout this course, students will:\n-\tUse the grammar and vocabulary knowledge they acquired in previous quarters to read, write, listen to and speak about both new and familiar topics \n-\tDevelop strategies to read, understand and summarize authentic texts of medium complexity on a variety of topics and in different genres, such as news reports, Wikipedia articles, literary sources, tables, maps, graphs, and pictures\n-\tUnderstand and produce conversations and oral presentations on a variety of topics and in different genres",
+        },
+        {
+          name: "Teaching Method",
+          desc: "This is an interactive, reading and discussion-based class which requires daily guided work as well as independent research. The course material is presented online in a multisensory way through texts, pictures, graphics, audio and video sequences. Its interactive mode makes use of current instructional technologies and tools to supports student learning. The course is divided into five units with different topics and themes. Each unit has a set of core readings and listening activities; with self-checks and vocabulary development opportunities, and final writing assignments. Students will also work collaboratively on their final project to create a literary map of Istanbul, using a novel of their choice and the StoryMap tool.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "The final grade for the course will be based on the following criteria:\n- Active class participation and attendance;\n- Homework completion;\n- Short quizzes at the end of each chapter;\n- One final project, including an oral presentation and written contributions to the StoryMap project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All class materials will be available in a free digital format as downloadable pdfs, interactive exercises and assignments hosted on the course site on Canvas.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Full attendance and active class participation are required for the successful completion of the course. In addition to regular participation in class activities, it is important to complete all your homework on time.",
+        },
+      ],
     },
   ],
 };
