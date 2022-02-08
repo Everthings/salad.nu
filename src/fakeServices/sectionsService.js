@@ -81737,7 +81737,7 @@ const sections = {
       subject: "JAPANESE",
       number: "111-3",
       section: "22",
-      meeting_days: "TuThFr",
+      meeting_days: "MoTuThFr",
       start_time: "11:00",
       end_time: "11:50",
       room: { building_name: "Locy Hall 106" },
