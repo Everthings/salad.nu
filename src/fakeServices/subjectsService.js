@@ -55,6 +55,7 @@ const subjects = {
     { symbol: "ISEN", name: "Initiative for Sustainability & Energy at NU" },
     { symbol: "LDRSHP", name: "Center for Leadership" },
     { symbol: "MAT_SCI", name: "Materials Science & Engineering" },
+    { symbol: "MBAI", name: "Bus/Artificial Intelligence" },
     { symbol: "MBIOTECH", name: "Masters in Biotechnology Program" },
     { symbol: "MECH_ENG", name: "Mechanical Engineering" },
     { symbol: "MEM", name: "Master of Engineering Management" },
@@ -183,7 +184,6 @@ const subjects = {
     { symbol: "MSGH", name: "Master of Science Global Health" },
     { symbol: "MSHA", name: "Master of Science in Health Analytics" },
     { symbol: "MSRC", name: "Master of Regulatory Compliance" },
-    { symbol: "MS_DSP", name: "Master of Data Science Programme" },
     {
       symbol: "MS_IDS",
       name: "Master of Science Information Design & Strategy",
