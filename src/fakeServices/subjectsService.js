@@ -129,6 +129,7 @@ const subjects = {
     { symbol: "MENA", name: "Middle East and North African Studies" },
     { symbol: "MHB", name: "Medical Humanities and Bioethics" },
     { symbol: "MSCI", name: "Master of Science in Clinical Investigation" },
+    { symbol: "MSTP", name: "Medical Scientist Training" },
     { symbol: "MS_FT", name: "MS in Marital & Family Therapy" },
     { symbol: "NUIN", name: "Neuroscience" },
     { symbol: "PBC", name: "Plant Biology & Conservation" },

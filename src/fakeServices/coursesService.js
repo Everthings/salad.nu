@@ -847,7 +847,7 @@ const courses = [
   },
   {
     course_id: "020566",
-    unique_id: "35923",
+    unique_id: "40325",
     school: "WCAS",
     title: "Undergraduate Teaching Assistant",
     subject: "BIOL_SCI",
@@ -1046,6 +1046,14 @@ const courses = [
     number: "445-0",
   },
   {
+    course_id: "009238",
+    unique_id: "35366",
+    school: "TGS",
+    title: "Design, Conduct & Analysis of Clinical Trials",
+    subject: "BIOSTAT",
+    number: "446-0",
+  },
+  {
     course_id: "024130",
     unique_id: "39624",
     school: "TGS",
@@ -1142,6 +1150,14 @@ const courses = [
     number: "380-0",
   },
   {
+    course_id: "022127",
+    unique_id: "40304",
+    school: "MEAS",
+    title: "Biomedical Engineering Design",
+    subject: "BMD_ENG",
+    number: "390-3",
+  },
+  {
     course_id: "005419",
     unique_id: "34656",
     school: "MEAS",
@@ -1156,6 +1172,14 @@ const courses = [
     title: "Special Topics in Systems Physiology",
     subject: "BMD_ENG",
     number: "404-1",
+  },
+  {
+    course_id: "024164",
+    unique_id: "40364",
+    school: "MEAS",
+    title: "Special Topics in Systems Physiology",
+    subject: "BMD_ENG",
+    number: "404-3",
   },
   {
     course_id: "016193",
@@ -1177,7 +1201,7 @@ const courses = [
     course_id: "023419",
     unique_id: "38841",
     school: "MEAS",
-    title: "Biomaterials in Synthetic Biol",
+    title: "Principles of Immunoengineering",
     subject: "BMD_ENG",
     number: "445-0",
   },
@@ -2137,6 +2161,14 @@ const courses = [
     number: "431-DL",
   },
   {
+    course_id: "019326",
+    unique_id: "40355",
+    school: "UC",
+    title: "Management of Information Security",
+    subject: "CIS",
+    number: "457-DL",
+  },
+  {
     course_id: "019174",
     unique_id: "30977",
     school: "UC",
@@ -2546,6 +2578,22 @@ const courses = [
     number: "498-0",
   },
   {
+    course_id: "005739",
+    unique_id: "40351",
+    school: "TGS",
+    title: "Practicum",
+    subject: "CLIN_PSY",
+    number: "523-0",
+  },
+  {
+    course_id: "020582",
+    unique_id: "40307",
+    school: "TGS",
+    title: "APA-Accredited Internship (Full-Time, 1-year)",
+    subject: "CLIN_PSY",
+    number: "550-0",
+  },
+  {
     course_id: "023721",
     unique_id: "30887",
     school: "UC",
@@ -2660,7 +2708,7 @@ const courses = [
   },
   {
     course_id: "024159",
-    unique_id: "40228",
+    unique_id: "40349",
     school: "SPCH",
     title: "Topics in Communication Studies",
     subject: "COMM_ST",
@@ -2897,6 +2945,14 @@ const courses = [
     title: "Literary Studies Colloquium",
     subject: "COMP_LIT",
     number: "412-0",
+  },
+  {
+    course_id: "001636",
+    unique_id: "40341",
+    school: "WCAS",
+    title: "Comparative Studies in Theme",
+    subject: "COMP_LIT",
+    number: "413-0",
   },
   {
     course_id: "001637",
@@ -3669,7 +3725,7 @@ const courses = [
   },
   {
     course_id: "021665",
-    unique_id: "35479",
+    unique_id: "40348",
     school: "TGS",
     title: "Human Growth and Lifespan Development",
     subject: "COUN",
@@ -3717,7 +3773,7 @@ const courses = [
   },
   {
     course_id: "022032",
-    unique_id: "35540",
+    unique_id: "35541",
     school: "TGS",
     title: "Assessment in Counseling",
     subject: "COUN",
@@ -3741,7 +3797,7 @@ const courses = [
   },
   {
     course_id: "022219",
-    unique_id: "35563",
+    unique_id: "35666",
     school: "TGS",
     title: "Human Sexuality",
     subject: "COUN",
@@ -3878,6 +3934,14 @@ const courses = [
     number: "481-3",
   },
   {
+    course_id: "021485",
+    unique_id: "40196",
+    school: "TGS",
+    title: "Supervised Practicum in Counseling -1",
+    subject: "COUN",
+    number: "481-6",
+  },
+  {
     course_id: "021666",
     unique_id: "35490",
     school: "TGS",
@@ -3902,6 +3966,14 @@ const courses = [
     number: "482-3",
   },
   {
+    course_id: "021868",
+    unique_id: "40206",
+    school: "TGS",
+    title: "Supervised Internship in Counseling 1",
+    subject: "COUN",
+    number: "482-6",
+  },
+  {
     course_id: "022034",
     unique_id: "35557",
     school: "TGS",
@@ -3919,7 +3991,7 @@ const courses = [
   },
   {
     course_id: "000767",
-    unique_id: "35419",
+    unique_id: "40352",
     school: "TGS",
     title: "Professional Topics in Counseling",
     subject: "COUN",
@@ -5295,6 +5367,22 @@ const courses = [
     number: "475-0",
   },
   {
+    course_id: "021874",
+    unique_id: "40335",
+    school: "TGS",
+    title: "Data Science For Biomedical Researchers",
+    subject: "DGP",
+    number: "485-0",
+  },
+  {
+    course_id: "016642",
+    unique_id: "40336",
+    school: "TGS",
+    title: "Introduction to Life Science Research",
+    subject: "DGP",
+    number: "496-2",
+  },
+  {
     course_id: "017630",
     unique_id: "30935",
     school: "UC",
@@ -5320,7 +5408,7 @@ const courses = [
   },
   {
     course_id: "020426",
-    unique_id: "34135",
+    unique_id: "40369",
     school: "MEAS",
     title: "Introduction to Solid Modeling: Solidworks",
     subject: "DSGN",
@@ -5511,6 +5599,14 @@ const courses = [
     title: "Earth Science for the 21st Century",
     subject: "EARTH",
     number: "101-0",
+  },
+  {
+    course_id: "024370",
+    unique_id: "40321",
+    school: "WCAS",
+    title: "Fantasy Worlds ? How to Build Your Own Planet",
+    subject: "EARTH",
+    number: "180-0",
   },
   {
     course_id: "001910",
@@ -6105,6 +6201,14 @@ const courses = [
     number: "431-0",
   },
   {
+    course_id: "023704",
+    unique_id: "40306",
+    school: "MEAS",
+    title: "Deep Reinforcement Learning",
+    subject: "ELEC_ENG",
+    number: "473-0",
+  },
+  {
     course_id: "005010",
     unique_id: "39760",
     school: "MEAS",
@@ -6274,7 +6378,7 @@ const courses = [
   },
   {
     course_id: "001792",
-    unique_id: "40120",
+    unique_id: "39349",
     school: "WCAS",
     title: "Advanced Creative Writing",
     subject: "ENGLISH",
@@ -6599,6 +6703,14 @@ const courses = [
     title: "Launching and Leading Startups",
     subject: "ENTR",
     number: "470-0",
+  },
+  {
+    course_id: "022815",
+    unique_id: "40375",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "ENTR",
+    number: "498-0",
   },
   {
     course_id: "022769",
@@ -7020,7 +7132,7 @@ const courses = [
   },
   {
     course_id: "002995",
-    unique_id: "36536",
+    unique_id: "39699",
     school: "WCAS",
     title: "Intermediate French",
     subject: "FRENCH",
@@ -7387,6 +7499,14 @@ const courses = [
     number: "546-0",
   },
   {
+    course_id: "023248",
+    unique_id: "40366",
+    school: "WCAS",
+    title: "Arch Scholar Mentoring Program",
+    subject: "GEN_LA",
+    number: "150-0",
+  },
+  {
     course_id: "019133",
     unique_id: "40139",
     school: "WCAS",
@@ -7436,7 +7556,7 @@ const courses = [
   },
   {
     course_id: "003509",
-    unique_id: "30536",
+    unique_id: "30534",
     school: "MUSIC",
     title: "Non-Major Strings",
     subject: "GEN_MUS",
@@ -8648,7 +8768,7 @@ const courses = [
   },
   {
     course_id: "023195",
-    unique_id: "33837",
+    unique_id: "40333",
     school: "JOUR",
     title: "Machine Learning I",
     subject: "IMC",
@@ -8792,7 +8912,7 @@ const courses = [
   },
   {
     course_id: "003444",
-    unique_id: "33031",
+    unique_id: "40372",
     school: "WCAS",
     title: "Undergraduate Research",
     subject: "INTG_SCI",
@@ -8939,7 +9059,7 @@ const courses = [
     unique_id: "34631",
     school: "MEAS",
     title:
-      "Energy Efficiency and Sustainability Opportunities: Engineering, Design, and Adoption",
+      "Energy Efficiency & Sustainability Opportunities: Engineering, Design, and Adoption",
     subject: "ISEN",
     number: "406-0",
   },
@@ -8974,6 +9094,14 @@ const courses = [
     title: "Scaling Sustainable Technology",
     subject: "ISEN",
     number: "421-0",
+  },
+  {
+    course_id: "024376",
+    unique_id: "40339",
+    school: "MEAS",
+    title: "Breakthrough Energy Efficiency and Net Zero Buildings",
+    subject: "ISEN",
+    number: "433-0",
   },
   {
     course_id: "023750",
@@ -9281,6 +9409,22 @@ const courses = [
     number: "342-1",
   },
   {
+    course_id: "022836",
+    unique_id: "40329",
+    school: "JOUR",
+    title: "Journalism Residency: Argentina",
+    subject: "JOUR",
+    number: "345-SA",
+  },
+  {
+    course_id: "022837",
+    unique_id: "40330",
+    school: "JOUR",
+    title: "Journalism Residency: Argentina",
+    subject: "JOUR",
+    number: "346-SA",
+  },
+  {
     course_id: "022411",
     unique_id: "33801",
     school: "JOUR",
@@ -9514,7 +9658,7 @@ const courses = [
   },
   {
     course_id: "001007",
-    unique_id: "39853",
+    unique_id: "40343",
     school: "JOUR",
     title: "Special Topics",
     subject: "JOUR",
@@ -10116,14 +10260,6 @@ const courses = [
     number: "483-0",
   },
   {
-    course_id: "023307",
-    unique_id: "36615",
-    school: "WCAS",
-    title: "Applied Linguistics for English Language Teaching",
-    subject: "LING",
-    number: "489-0",
-  },
-  {
     course_id: "019448",
     unique_id: "36608",
     school: "WCAS",
@@ -10511,6 +10647,14 @@ const courses = [
     number: "401-0",
   },
   {
+    course_id: "011575",
+    unique_id: "40164",
+    school: "SESP",
+    title: "Methods and Epistemologies for the Study of Learning 1",
+    subject: "LRN_SCI",
+    number: "404-0",
+  },
+  {
     course_id: "023584",
     unique_id: "40198",
     school: "SESP",
@@ -10640,7 +10784,7 @@ const courses = [
   },
   {
     course_id: "023343",
-    unique_id: "38668",
+    unique_id: "40350",
     school: "WCAS",
     title: "Multivariable Differential Calculus for Engineering",
     subject: "MATH",
@@ -10968,7 +11112,7 @@ const courses = [
   },
   {
     course_id: "023324",
-    unique_id: "34412",
+    unique_id: "40373",
     school: "MEAS",
     title: "Bioelectronics Lab",
     subject: "MAT_SCI",
@@ -11293,14 +11437,6 @@ const courses = [
     title: "Mechanics of Manufacturing Processes",
     subject: "MECH_ENG",
     number: "415-0",
-  },
-  {
-    course_id: "023701",
-    unique_id: "34700",
-    school: "MEAS",
-    title: "Wave Propagation In Elastic Solids",
-    subject: "MECH_ENG",
-    number: "419-0",
   },
   {
     course_id: "016757",
@@ -12144,6 +12280,14 @@ const courses = [
     number: "403-0",
   },
   {
+    course_id: "022458",
+    unique_id: "40323",
+    school: "UC",
+    title: "Sports Business: Finance, Accounting and Economics",
+    subject: "MSA",
+    number: "404-DL",
+  },
+  {
     course_id: "022386",
     unique_id: "30987",
     school: "UC",
@@ -12767,6 +12911,22 @@ const courses = [
     title: "Capstone",
     subject: "MSRC",
     number: "498-DL",
+  },
+  {
+    course_id: "008697",
+    unique_id: "40312",
+    school: "TGS",
+    title: "MSTP Colleges Curriculum",
+    subject: "MSTP",
+    number: "401-0",
+  },
+  {
+    course_id: "008698",
+    unique_id: "40313",
+    school: "TGS",
+    title: "MSTP Grand Rounds",
+    subject: "MSTP",
+    number: "402-0",
   },
   {
     course_id: "000809",
@@ -13579,7 +13739,7 @@ const courses = [
   },
   {
     course_id: "023942",
-    unique_id: "30742",
+    unique_id: "40360",
     school: "MUSIC",
     title: "Final Oral Exam",
     subject: "MUSIC_ED",
@@ -13746,14 +13906,6 @@ const courses = [
     number: "335-0",
   },
   {
-    course_id: "019947",
-    unique_id: "39058",
-    school: "MUSIC",
-    title: "Selected Topics in Music Cognition",
-    subject: "MUS_THRY",
-    number: "336-0",
-  },
-  {
     course_id: "008533",
     unique_id: "40278",
     school: "MUSIC",
@@ -13792,14 +13944,6 @@ const courses = [
     title: "Selected Topics in Music Theory",
     subject: "MUS_THRY",
     number: "435-0",
-  },
-  {
-    course_id: "019435",
-    unique_id: "39053",
-    school: "MUSIC",
-    title: "Selected Topics in Music Cognition",
-    subject: "MUS_THRY",
-    number: "436-0",
   },
   {
     course_id: "024198",
@@ -13944,6 +14088,14 @@ const courses = [
     title: "Supply Chain Management",
     subject: "OPNS",
     number: "455-0",
+  },
+  {
+    course_id: "022739",
+    unique_id: "40353",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "OPNS",
+    number: "498-0",
   },
   {
     course_id: "018472",
@@ -15027,7 +15179,7 @@ const courses = [
   },
   {
     course_id: "021526",
-    unique_id: "34666",
+    unique_id: "34172",
     school: "MEAS",
     title:
       "Emotional Intelligence 101 - Managing Yourself, Maximizing Your Potential",
@@ -15046,7 +15198,7 @@ const courses = [
     course_id: "022567",
     unique_id: "34174",
     school: "MEAS",
-    title: "Engineering Improv II: The Art of Inspiration",
+    title: "Engineering Improv II: The Art of Application",
     subject: "PRDV",
     number: "335-2",
   },
@@ -16767,14 +16919,6 @@ const courses = [
     number: "476-0",
   },
   {
-    course_id: "003383",
-    unique_id: "37382",
-    school: "WCAS",
-    title: "Seminar on College Teaching",
-    subject: "SOCIOL",
-    number: "570-0",
-  },
-  {
     course_id: "003384",
     unique_id: "37513",
     school: "WCAS",
@@ -17082,7 +17226,7 @@ const courses = [
   },
   {
     course_id: "023705",
-    unique_id: "39972",
+    unique_id: "40344",
     school: "UC",
     title: "Introduction to Statistics",
     subject: "STAT",
@@ -17250,7 +17394,7 @@ const courses = [
   },
   {
     course_id: "003901",
-    unique_id: "30082",
+    unique_id: "40318",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -17330,7 +17474,7 @@ const courses = [
   },
   {
     course_id: "003936",
-    unique_id: "30099",
+    unique_id: "40319",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -17497,6 +17641,14 @@ const courses = [
     number: "490-0",
   },
   {
+    course_id: "024344",
+    unique_id: "40317",
+    school: "MUSIC",
+    title: "Repertoire Studies",
+    subject: "STRINGS",
+    number: "493-0",
+  },
+  {
     course_id: "003961",
     unique_id: "30142",
     school: "MUSIC",
@@ -17631,6 +17783,14 @@ const courses = [
     title: "Strategies for Growth",
     subject: "STRT",
     number: "475-5",
+  },
+  {
+    course_id: "022741",
+    unique_id: "40374",
+    school: "KGSM",
+    title: "Field Study",
+    subject: "STRT",
+    number: "498-0",
   },
   {
     course_id: "024100",
@@ -18226,7 +18386,7 @@ const courses = [
   },
   {
     course_id: "022906",
-    unique_id: "40273",
+    unique_id: "40328",
     school: "SPCH",
     title: "Special Topics in Acting",
     subject: "THEATRE",
@@ -18330,7 +18490,7 @@ const courses = [
   },
   {
     course_id: "004689",
-    unique_id: "34882",
+    unique_id: "40356",
     school: "SPCH",
     title: "Theatre Practice",
     subject: "THEATRE",
@@ -18938,7 +19098,7 @@ const courses = [
   },
   {
     course_id: "004020",
-    unique_id: "30300",
+    unique_id: "30299",
     school: "MUSIC",
     title: "Reed Making",
     subject: "WIND_PER",
@@ -18986,7 +19146,7 @@ const courses = [
   },
   {
     course_id: "016452",
-    unique_id: "30430",
+    unique_id: "40346",
     school: "MUSIC",
     title: "Studio Ensemble for Music Majors",
     subject: "WIND_PER",
@@ -19106,7 +19266,7 @@ const courses = [
   },
   {
     course_id: "018700",
-    unique_id: "30512",
+    unique_id: "40347",
     school: "MUSIC",
     title: "Studio Ensemble for Music Majors",
     subject: "WIND_PER",
