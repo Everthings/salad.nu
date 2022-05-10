@@ -1,6 +1,5 @@
 const schools = [
   { symbol: "JOUR", name: "Medill School of Journalism" },
-  { symbol: "LAW", name: "Law School" },
   { symbol: "KGSM", name: "J L Kellogg  School Management" },
   { symbol: "MEAS", name: "McCmick Schl of Engg & App Sci" },
   { symbol: "MUSIC", name: "Bienen School of Music" },
