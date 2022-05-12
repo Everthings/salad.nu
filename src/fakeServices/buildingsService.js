@@ -264,6 +264,7 @@ const buildings = {
   "Abbott Hall Wirtz Chicago 212": { lat: 41.89528, lon: -87.6167 },
   "Parkes Hall 214": { lat: 42.050071166764454, lon: -87.67723949641348 },
   "Parkes Hall 224": { lat: 42.050071166764454, lon: -87.67723949641348 },
+  "Kresge Centennial Hall 3-410": { lat: 42.0516769, lon: -87.6750968 },
   "Locy Hall 318": { lat: 42.051062, lon: -87.673933 },
   "Parkes Hall 223": { lat: 42.050071166764454, lon: -87.67723949641348 },
   "University Library 5322": { lat: 42.05282047408196, lon: -87.6744931804232 },
@@ -359,7 +360,6 @@ const buildings = {
   "Kresge Centennial Hall 2-325": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-329": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-339": { lat: 42.0516769, lon: -87.6750968 },
-  "Kresge Centennial Hall 3-410": { lat: 42.0516769, lon: -87.6750968 },
   "Shepard Hall Classroom B05": {
     lat: 42.05088324175059,
     lon: -87.67892969641422,
@@ -388,7 +388,7 @@ const buildings = {
     lat: 42.05174703079395,
     lon: -87.67756770522155,
   },
-  "Technological Institute F242": { lat: 42.057728, lon: -87.675869 },
+  "Kresge 3364 Slavic Seminar Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Scott Hall 107 Burdick Room": {
     lat: 42.05174703079395,
     lon: -87.67756770522155,

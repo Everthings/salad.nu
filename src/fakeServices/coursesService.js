@@ -2211,7 +2211,7 @@ const courses = [
   },
   {
     course_id: "004134",
-    unique_id: "19126",
+    unique_id: "15656",
     school: "SPCH",
     title: "Public Speaking",
     subject: "COMM_ST",
@@ -5509,6 +5509,14 @@ const courses = [
     number: "307-0",
   },
   {
+    course_id: "001797",
+    unique_id: "19522",
+    school: "WCAS",
+    title: "Studies in Fiction",
+    subject: "ENGLISH",
+    number: "313-0",
+  },
+  {
     course_id: "001803",
     unique_id: "19518",
     school: "WCAS",
@@ -5827,14 +5835,6 @@ const courses = [
     title: "Earth: A Habitable Planet",
     subject: "ENVR_SCI",
     number: "201-0",
-  },
-  {
-    course_id: "020567",
-    unique_id: "18526",
-    school: "WCAS",
-    title: "Special Topics in Environmental Sciences",
-    subject: "ENVR_SCI",
-    number: "390-0",
   },
   {
     course_id: "005327",
@@ -6702,6 +6702,14 @@ const courses = [
     number: "221-3",
   },
   {
+    course_id: "020241",
+    unique_id: "19521",
+    school: "WCAS",
+    title: "Berlin and the Culture of Democracy",
+    subject: "GERMAN",
+    number: "230-0",
+  },
+  {
     course_id: "001981",
     unique_id: "17135",
     school: "WCAS",
@@ -6718,20 +6726,20 @@ const courses = [
     number: "266-0",
   },
   {
+    course_id: "017391",
+    unique_id: "19520",
+    school: "WCAS",
+    title: "Advanced Business German: Marketing and Management",
+    subject: "GERMAN",
+    number: "309-2",
+  },
+  {
     course_id: "017802",
     unique_id: "18536",
     school: "WCAS",
     title: "German Expressionism",
     subject: "GERMAN",
     number: "327-0",
-  },
-  {
-    course_id: "017804",
-    unique_id: "19189",
-    school: "WCAS",
-    title: "Minority Voices in Germany",
-    subject: "GERMAN",
-    number: "335-0",
   },
   {
     course_id: "011330",
@@ -6846,8 +6854,16 @@ const courses = [
     number: "374-0",
   },
   {
+    course_id: "017821",
+    unique_id: "19524",
+    school: "WCAS",
+    title: "Race, Gender, and Sexuality",
+    subject: "GNDR_ST",
+    number: "382-0",
+  },
+  {
     course_id: "003425",
-    unique_id: "19083",
+    unique_id: "19525",
     school: "WCAS",
     title: "Topics in Gender and Sexuality Studies",
     subject: "GNDR_ST",
@@ -8332,7 +8348,7 @@ const courses = [
   },
   {
     course_id: "000959",
-    unique_id: "14374",
+    unique_id: "19552",
     school: "JOUR",
     title: "Media Law & Ethics",
     subject: "JOUR",
@@ -8396,7 +8412,7 @@ const courses = [
   },
   {
     course_id: "000971",
-    unique_id: "14379",
+    unique_id: "19553",
     school: "JOUR",
     title: "Ethics & Law of Journalism",
     subject: "JOUR",
@@ -8588,7 +8604,7 @@ const courses = [
   },
   {
     course_id: "018649",
-    unique_id: "18686",
+    unique_id: "19534",
     school: "WCAS",
     title: "Topics in Latina and Latino Text and Representation",
     subject: "LATINO",
@@ -8606,7 +8622,7 @@ const courses = [
     course_id: "023058",
     unique_id: "19326",
     school: "KGSM",
-    title: "Presentation Fundamentals",
+    title: "Executive Presentations",
     subject: "LDEV",
     number: "452-5",
   },
@@ -9846,11 +9862,19 @@ const courses = [
   },
   {
     course_id: "021038",
-    unique_id: "18567",
+    unique_id: "19540",
     school: "WCAS",
     title: "Seminar in Middle East and North African Studies",
     subject: "MENA",
     number: "301-3",
+  },
+  {
+    course_id: "020941",
+    unique_id: "19539",
+    school: "WCAS",
+    title: "Advanced Topics in Middle East & North African Studies",
+    subject: "MENA",
+    number: "390-4",
   },
   {
     course_id: "020942",
@@ -9899,6 +9923,14 @@ const courses = [
     title: "MENA Graduate Colloquium Advanced",
     subject: "MENA",
     number: "415-0",
+  },
+  {
+    course_id: "024004",
+    unique_id: "19538",
+    school: "TGS",
+    title: "Special Topics in MENA",
+    subject: "MENA",
+    number: "490-0",
   },
   {
     course_id: "017396",
@@ -11181,7 +11213,7 @@ const courses = [
     unique_id: "15868",
     school: "TGS",
     title:
-      "Legal, Ethical and Professional Issues in Marital and Family Therapy",
+      "Legal, Ethical and Professional Issues in Marriage and Family Therapy",
     subject: "MS_FT",
     number: "428-0",
   },
@@ -11190,7 +11222,7 @@ const courses = [
     unique_id: "18926",
     school: "TGS",
     title:
-      "Legal, Ethical and Professional Issues in Marital and Family Therapy",
+      "Legal, Ethical and Professional Issues in Marriage and Family Therapy",
     subject: "MS_FT",
     number: "428-6",
   },
@@ -12982,14 +13014,6 @@ const courses = [
     title: "Advanced Piano Pedagogy",
     subject: "PIANO",
     number: "415-1",
-  },
-  {
-    course_id: "003863",
-    unique_id: "13820",
-    school: "MUSIC",
-    title: "Internship in Teaching",
-    subject: "PIANO",
-    number: "420-0",
   },
   {
     course_id: "018810",
@@ -15327,12 +15351,28 @@ const courses = [
     number: "471-5",
   },
   {
+    course_id: "023323",
+    unique_id: "19523",
+    school: "KGSM",
+    title: "Social Impact Analytics",
+    subject: "SSIM",
+    number: "948-0",
+  },
+  {
     course_id: "003386",
     unique_id: "16821",
     school: "WCAS",
     title: "First-Year Seminar",
     subject: "STAT",
     number: "101-6",
+  },
+  {
+    course_id: "024492",
+    unique_id: "19535",
+    school: "WCAS",
+    title: "Introduction to Programming for Data Science",
+    subject: "STAT",
+    number: "201-0",
   },
   {
     course_id: "003388",
@@ -15480,7 +15520,7 @@ const courses = [
   },
   {
     course_id: "003894",
-    unique_id: "13993",
+    unique_id: "13992",
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -15488,7 +15528,7 @@ const courses = [
   },
   {
     course_id: "003895",
-    unique_id: "13837",
+    unique_id: "19542",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -15504,7 +15544,7 @@ const courses = [
   },
   {
     course_id: "003897",
-    unique_id: "13839",
+    unique_id: "19543",
     school: "MUSIC",
     title: "Applied Double Bass for Music Majors",
     subject: "STRINGS",
@@ -15528,7 +15568,7 @@ const courses = [
   },
   {
     course_id: "003900",
-    unique_id: "13845",
+    unique_id: "13994",
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -15536,7 +15576,7 @@ const courses = [
   },
   {
     course_id: "003901",
-    unique_id: "13846",
+    unique_id: "19544",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -15552,7 +15592,7 @@ const courses = [
   },
   {
     course_id: "003903",
-    unique_id: "13848",
+    unique_id: "19545",
     school: "MUSIC",
     title: "Applied Double Bass for Music Majors",
     subject: "STRINGS",
@@ -15616,7 +15656,7 @@ const courses = [
   },
   {
     course_id: "003935",
-    unique_id: "13999",
+    unique_id: "13998",
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -15624,7 +15664,7 @@ const courses = [
   },
   {
     course_id: "003936",
-    unique_id: "13855",
+    unique_id: "19546",
     school: "MUSIC",
     title: "Applied Viola for Music Majors",
     subject: "STRINGS",
@@ -15640,7 +15680,7 @@ const courses = [
   },
   {
     course_id: "003938",
-    unique_id: "13857",
+    unique_id: "19547",
     school: "MUSIC",
     title: "Applied Double Bass for Music Majors",
     subject: "STRINGS",
@@ -15712,7 +15752,7 @@ const courses = [
   },
   {
     course_id: "003952",
-    unique_id: "13874",
+    unique_id: "13873",
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -15792,7 +15832,7 @@ const courses = [
   },
   {
     course_id: "003961",
-    unique_id: "13895",
+    unique_id: "13894",
     school: "MUSIC",
     title: "Applied Violin for Music Majors",
     subject: "STRINGS",
@@ -16312,20 +16352,12 @@ const courses = [
     number: "352-1",
   },
   {
-    course_id: "022931",
-    unique_id: "18727",
+    course_id: "022943",
+    unique_id: "19519",
     school: "SPCH",
-    title: "Advanced Creating the Musical",
+    title: "Orchestration",
     subject: "THEATRE",
-    number: "355-0",
-  },
-  {
-    course_id: "022910",
-    unique_id: "15473",
-    school: "SPCH",
-    title: "Advanced Musicianship for Actors: Theatre Styles and Genres",
-    subject: "THEATRE",
-    number: "356-0",
+    number: "357-0",
   },
   {
     course_id: "022907",

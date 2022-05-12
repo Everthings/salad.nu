@@ -109,6 +109,7 @@ const subjects = {
     { symbol: "HQS", name: "Healthcare Quality and Patient  Safety" },
     { symbol: "HSIP", name: "Health Sciences Integrated Program" },
     { symbol: "HSR", name: "Health Services and Outcomes Research" },
+    { symbol: "MENA", name: "Middle East and North African Studies" },
     { symbol: "MHB", name: "Medical Humanities and Bioethics" },
     { symbol: "MSCI", name: "Master of Science in Clinical Investigation" },
     { symbol: "MSTP", name: "Medical Scientist Training" },
