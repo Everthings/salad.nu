@@ -517,6 +517,25 @@ const sections = {
       course_descriptions: [],
     },
   ],
+  "024478": [
+    {
+      unique_id: "19665",
+      instructors: ["Tran Ngoc Ha"],
+      mode: null,
+      title: "Design Thinking",
+      subject: "IMC",
+      number: "580-0",
+      section: "20",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
   "024322": [
     {
       unique_id: "19049",
@@ -531,25 +550,6 @@ const sections = {
       end_time: null,
       room: { building_name: "TBA" },
       start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [],
-    },
-  ],
-  "024238": [
-    {
-      unique_id: "14498",
-      instructors: ["Tran Ngoc Ha"],
-      mode: null,
-      title: "Practicum",
-      subject: "IMC",
-      number: "598-0",
-      section: "30",
-      meeting_days: "MoTuWeThFr",
-      start_time: "8:00",
-      end_time: "18:00",
-      room: { building_name: "TBA" },
-      start_date: "2022-10-24",
       end_date: "2022-12-03",
       component: "LEC",
       course_descriptions: [],
@@ -707,7 +707,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "16:50",
-      room: { building_name: "Fisk Hall 111" },
+      room: { building_name: "Meets in Non-General PurposeRm" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -899,7 +899,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "16:50",
-      room: { building_name: "Fisk Hall 111" },
+      room: { building_name: "Meets in Non-General PurposeRm" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -1010,9 +1010,9 @@ const sections = {
       subject: "JOUR",
       number: "342-1",
       section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
+      meeting_days: "TuTh",
+      start_time: "14:00",
+      end_time: "15:50",
       room: { building_name: "Fisk Hall 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
@@ -1075,8 +1075,8 @@ const sections = {
       number: "352-0",
       section: "20",
       meeting_days: "We",
-      start_time: "9:30",
-      end_time: "12:20",
+      start_time: "10:00",
+      end_time: "12:50",
       room: { building_name: "McCormick Foundation Ctr 2131" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
@@ -1084,7 +1084,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "As the 2022 midterm election season gets underway, this seminar examines the most challenging period for American political journalism since Watergate and the Vietnam War - and one of the most fascinating. Count on developing your own understandings of how the country reached this point, what role journalism plays and what will happen next, after the most tumultuous campaign for the presidency and Congress in at least 50 years. We will explore such themes as polarization, political image-making and advertising, voting rights and voter suppression, as well as campaign rhetoric and policy issues. We will explore the 2022 campaign and consider the reckoning faced by Republicans and Democrats alike, as President Biden presses his agenda, Donald Trump argues his case from the wings, and both parties look ahead. The class is taught by Peter Slevin, a longtime national correspondent for The Washington Post, who now writes about politics for The New Yorker.",
+          desc: "As the 2022 midterm election season enters high gear, with control of Congress at stake, this seminar examines the most challenging period for American political journalism since Watergate and the Vietnam War - and one of the most fascinating. Count on developing your own understandings of how the country reached this point, what role journalism plays and what will happen next, after the most tumultuous campaign for the presidency and Congress in at least 50 years. We will explore such themes as polarization, political image-making and advertising, voting rights and voter suppression, as well as campaign rhetoric and policy issues. We will explore the 2022 campaign and consider the reckoning faced by Republicans and Democrats alike, as President Biden presses his agenda, Donald Trump argues his case from the wings, and both parties look ahead. \n\nThis class will feature an optional weekend reporting trip to Wisconsin during the final two weeks of the campaign. \n\nThe class is taught by Peter Slevin, a longtime national correspondent for The Washington Post, who now writes about politics for The New Yorker.",
         },
         { name: "Registration Requirements", desc: "Sophomore Standing" },
         { name: "Class Materials (Required)", desc: "None" },
@@ -1104,7 +1104,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "McCormick Foundation Ctr Forum" },
+      room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -1214,9 +1214,9 @@ const sections = {
       number: "376-0",
       section: "20",
       meeting_days: "MoWe",
-      start_time: "10:00",
-      end_time: "11:20",
-      room: { building_name: "McCormick Foundation Ctr 2111" },
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "Fisk Hall 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -1243,9 +1243,9 @@ const sections = {
       number: "377-0",
       section: "20",
       meeting_days: "Tu",
-      start_time: "13:00",
-      end_time: "15:50",
-      room: { building_name: "Fisk Hall 308" },
+      start_time: "9:30",
+      end_time: "12:20",
+      room: { building_name: "Fisk Hall 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -1298,9 +1298,9 @@ const sections = {
       number: "390-0",
       section: "20",
       meeting_days: "TuTh",
-      start_time: "9:00",
-      end_time: "11:50",
-      room: { building_name: "McCormick Foundation Ctr 4115" },
+      start_time: "15:00",
+      end_time: "16:50",
+      room: { building_name: "McCormick Foundation Ctr 2107" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -1406,7 +1406,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "NUvention: Media brings together students from across Northwestern schools who are interested in the future of media and want to learn a process for creating new ventures in the media industry, broadly considered. In this class, the instructors will assign student teams a problem space to engage with over the course of the quarter, which will anchor team projects. Along the way, students will learn a process of innovation and venture development that can be applied in multiple contexts, and will have the opportunity to engage with industry veterans who may provide feedback on their projects. The quarter will culminate in a final pitch event.",
+          desc: "Brings together students from across Northwestern schools who are interested in the future of media and want to learn a process for creating new ventures in the media industry, broadly considered. In this class, the instructors will assign student teams a problem space to engage with over the course of the quarter, which will anchor team projects. Along the way, students will learn a process of innovation and venture development that can be applied in multiple contexts, and will have the opportunity to engage with industry veterans who may provide feedback on their projects. The quarter will culminate in a final pitch event.",
         },
         { name: "Registration Requirements", desc: "Pre-req: JOUR 301" },
         { name: "Class Materials (Required)", desc: "None" },
@@ -1953,7 +1953,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "In this class, small teams of students develop prototypes of media businesses or publications, either as new product concepts for existing publishers or as entrepreneurial ventures. After researching the needs of audiences/users, examining the competitive landscape and identifying business and revenue possibilities, students build prototypes along with marketing strategies and business plans. ?We offer two different versions of the course: a two-quarter version (winter and spring quarters) in which Medill MSJ's are on teams that include students from other Northwestern schools, and a one-quarter version (summer quarter) for Medill MSJ's only. ?In both versions, faculty and outside advisors (including entrepreneurs and venture capitalists) advise students on how to give their ideas and prototypes the best chance of being successful. ? The course gives students real-world experience in what it takes to develop a successful media product and provides them with skills and techniques they can use to lead media innovation inside a company or in a startup environment.",
+          desc: "Brings together students from across Northwestern schools who are interested in the future of media and want to learn a process for creating new ventures in the media industry, broadly considered. In this class, the instructors will assign student teams a problem space to engage with over the course of the quarter, which will anchor team projects. Along the way, students will learn a process of innovation and venture development that can be applied in multiple contexts, and will have the opportunity to engage with industry veterans who may provide feedback on their projects. The quarter will culminate in a final pitch event.",
         },
         { name: "Class Materials (Required)", desc: "None" },
       ],
@@ -2134,13 +2134,13 @@ const sections = {
   "000003": [
     {
       unique_id: "19244",
-      instructors: [],
+      instructors: ["Thomas Charles Hagenberg"],
       mode: null,
       title: "Financial Accounting",
       subject: "ACCT",
       number: "430-0",
       section: "31",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "8:30",
       end_time: "10:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2157,7 +2157,7 @@ const sections = {
       subject: "ACCT",
       number: "430-0",
       section: "32",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "8:30",
       end_time: "10:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2168,13 +2168,13 @@ const sections = {
     },
     {
       unique_id: "19246",
-      instructors: [],
+      instructors: ["Thomas Charles Hagenberg"],
       mode: null,
       title: "Financial Accounting",
       subject: "ACCT",
       number: "430-0",
       section: "33",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "10:30",
       end_time: "12:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2191,7 +2191,7 @@ const sections = {
       subject: "ACCT",
       number: "430-0",
       section: "34",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "10:30",
       end_time: "12:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2208,7 +2208,7 @@ const sections = {
       subject: "ACCT",
       number: "430-0",
       section: "35",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "13:30",
       end_time: "15:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2225,7 +2225,7 @@ const sections = {
       subject: "ACCT",
       number: "430-0",
       section: "36",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "13:30",
       end_time: "15:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2242,7 +2242,7 @@ const sections = {
       subject: "ACCT",
       number: "430-0",
       section: "37",
-      meeting_days: "MoTh",
+      meeting_days: "TuFr",
       start_time: "15:30",
       end_time: "17:00",
       room: { building_name: "GP ROOM TO BE ASSIGNED" },
@@ -2286,6 +2286,25 @@ const sections = {
       course_descriptions: [],
     },
   ],
+  "017409": [
+    {
+      unique_id: "19624",
+      instructors: ["Mark W Finn"],
+      mode: null,
+      title: "Turbo Accounting",
+      subject: "ACCT",
+      number: "434-0",
+      section: "31",
+      meeting_days: "TuFr",
+      start_time: "8:30",
+      end_time: "10:00",
+      room: { building_name: "TBA" },
+      start_date: "2022-09-19",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
   "000016": [
     {
       unique_id: "19253",
@@ -2306,23 +2325,6 @@ const sections = {
     },
   ],
   "000017": [
-    {
-      unique_id: "19254",
-      instructors: ["Mark W Finn"],
-      mode: null,
-      title: "Financial Reporting and Analysis",
-      subject: "ACCT",
-      number: "451-0",
-      section: "31",
-      meeting_days: "TuFr",
-      start_time: "8:30",
-      end_time: "10:00",
-      room: { building_name: "GP ROOM TO BE ASSIGNED" },
-      start_date: "2022-09-19",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [],
-    },
     {
       unique_id: "19255",
       instructors: ["Mark W Finn"],
@@ -3390,9 +3392,9 @@ const sections = {
       subject: "HCAK",
       number: "627-0",
       section: "41",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
+      meeting_days: "Mo",
+      start_time: "18:30",
+      end_time: "21:30",
       room: { building_name: "TBA" },
       start_date: "2022-09-19",
       end_date: "2022-12-03",
@@ -5884,10 +5886,10 @@ const sections = {
       subject: "BMD_ENG",
       number: "271-0",
       section: "20",
-      meeting_days: "Tu",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Technological Institute L211" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -6497,10 +6499,10 @@ const sections = {
       subject: "CIV_ENV",
       number: "216-0",
       section: "1",
-      meeting_days: "Tu",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Technological Institute L211" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -6614,7 +6616,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "Fisk Hall 217" },
+      room: { building_name: "University Hall 122" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -7274,6 +7276,25 @@ const sections = {
       course_descriptions: [],
     },
   ],
+  "008093": [
+    {
+      unique_id: "19577",
+      instructors: ["Jason D Hartline"],
+      mode: null,
+      title: "Computer Science: Concepts, Philosophy, and Connections",
+      subject: "COMP_SCI",
+      number: "101-0",
+      section: "1",
+      meeting_days: "MoWe",
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "Frances Searle Building 3220" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
   "004963": [
     {
       unique_id: "14873",
@@ -7417,7 +7438,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "12:20",
-      room: { building_name: "Technological Institute AUD" },
+      room: { building_name: "Tech Institute Lecture Room 2" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -7624,7 +7645,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "12:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "Garage Workspace Classroom 1" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -7643,7 +7664,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "9:30",
       end_time: "10:50",
-      room: { building_name: "Technological Institute AUD" },
+      room: { building_name: "Lutkin Hall" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -7939,7 +7960,7 @@ const sections = {
     },
     {
       unique_id: "18935",
-      instructors: ["Kristian J Hammond", "Zach   Wise"],
+      instructors: ["Zach   Wise"],
       mode: null,
       title: "Special Projects in Computer Science",
       subject: "COMP_SCI",
@@ -7948,7 +7969,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute L168" },
+      room: { building_name: "Fisk Hall 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -8001,7 +8022,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute L168" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -8158,7 +8179,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "10:00",
       end_time: "10:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Garage Workspace Classroom 1" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -8185,7 +8206,7 @@ const sections = {
     },
     {
       unique_id: "18945",
-      instructors: ["Kristian J Hammond", "Zach   Wise"],
+      instructors: ["Zach   Wise"],
       mode: null,
       title: "Special Projects in Computer Science",
       subject: "COMP_SCI",
@@ -8194,7 +8215,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute L168" },
+      room: { building_name: "Fisk Hall 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -8263,6 +8284,23 @@ const sections = {
       start_time: "12:30",
       end_time: "13:50",
       room: { building_name: "Tech Institute Lecture Room 5" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "SEM",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "18947",
+      instructors: ["Jason D Hartline"],
+      mode: null,
+      title: "Special Projects in Computer Science",
+      subject: "COMP_SCI",
+      number: "497-0",
+      section: "8",
+      meeting_days: "Fr",
+      start_time: "14:00",
+      end_time: "16:50",
+      room: { building_name: "Technological Institute M349" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -10174,7 +10212,7 @@ const sections = {
   "021912": [
     {
       unique_id: "14779",
-      instructors: [],
+      instructors: ["Kimberly S Hahn"],
       mode: null,
       title: "Design Thinking and Doing",
       subject: "DSGN",
@@ -11841,7 +11879,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "10:00",
       end_time: "10:50",
-      room: { building_name: "Tech Institute Lecture Room 2" },
+      room: { building_name: "Technological Institute AUD" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -11858,7 +11896,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "11:50",
-      room: { building_name: "Tech Institute Lecture Room 2" },
+      room: { building_name: "Technological Institute AUD" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -11983,7 +12021,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "10:00",
       end_time: "10:50",
-      room: { building_name: "Tech Institute Lecture Room 2" },
+      room: { building_name: "Technological Institute AUD" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -12000,7 +12038,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "11:50",
-      room: { building_name: "Tech Institute Lecture Room 2" },
+      room: { building_name: "Technological Institute AUD" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -13178,10 +13216,27 @@ const sections = {
       subject: "MAT_SCI",
       number: "302-0",
       section: "60",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "Th",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LAB",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19647",
+      instructors: ["Kathleen A. Stair"],
+      mode: null,
+      title: "Introduction to Materials Laboratories",
+      subject: "MAT_SCI",
+      number: "302-0",
+      section: "61",
+      meeting_days: "Tu",
+      start_time: "10:00",
+      end_time: "11:20",
+      room: { building_name: "Meets in Non-General PurposeRm" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -14782,7 +14837,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "Fisk Hall 217" },
+      room: { building_name: "University Hall 122" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -14820,7 +14875,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "12:20",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -14837,7 +14892,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      room: { building_name: "Annenberg Hall G15" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -14932,7 +14987,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute L168" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -17956,7 +18011,7 @@ const sections = {
   "016123": [
     {
       unique_id: "13740",
-      instructors: ["Elena Jeanne Batman", "Erica Mina Cha"],
+      instructors: ["Elena Jeanne Batman"],
       mode: null,
       title: "Non-Major Guitar Class-Beginning",
       subject: "GEN_MUS",
@@ -18515,10 +18570,10 @@ const sections = {
       subject: "GEN_MUS",
       number: "364-0",
       section: "1",
-      meeting_days: "TuTh",
-      start_time: "14:00",
-      end_time: "15:50",
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "RCMA Choral Room 1-190" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18535,7 +18590,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "RCMA Choral Room 1-190" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18552,7 +18607,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "17:00",
       end_time: "18:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "RCMA Choral Room 1-190" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18605,7 +18660,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:10",
       end_time: "16:10",
-      room: { building_name: "TBA" },
+      room: { building_name: "Regenstein Hall of Music 011" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18622,7 +18677,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "14:10",
       end_time: "16:10",
-      room: { building_name: "TBA" },
+      room: { building_name: "Regenstein Hall of Music 011" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18639,7 +18694,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "17:00",
       end_time: "18:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "Pick-Staiger Rehearsal Room" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18656,7 +18711,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "16:00",
       end_time: "18:00",
-      room: { building_name: "TBA" },
+      room: { building_name: "Regenstein Hall of Music 011" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18675,7 +18730,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "9:00",
       end_time: "10:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Pick-Staiger Concert Stage" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18691,10 +18746,10 @@ const sections = {
       subject: "GEN_MUS",
       number: "392-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "Fr",
+      start_time: "15:30",
+      end_time: "17:20",
+      room: { building_name: "RCMA Lower Level 111" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18713,7 +18768,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:10",
       end_time: "16:10",
-      room: { building_name: "TBA" },
+      room: { building_name: "Pick-Staiger Rehearsal Room" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18721,7 +18776,7 @@ const sections = {
     },
     {
       unique_id: "13731",
-      instructors: ["Victor   Yampolsky"],
+      instructors: [],
       mode: null,
       title: "Orchestral Organizations",
       subject: "GEN_MUS",
@@ -18730,7 +18785,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "14:10",
       end_time: "16:10",
-      room: { building_name: "TBA" },
+      room: { building_name: "Pick-Staiger Rehearsal Room" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -18747,7 +18802,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "17:00",
       end_time: "18:15",
-      room: { building_name: "TBA" },
+      room: { building_name: "Pick-Staiger Rehearsal Room" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -20134,7 +20189,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The term <em>classical music</em> is used in many different ways. One commonly recurring notion is that it may be understood as a <em>canon</em>? a select group of composers and compositions which, through their timeless value and universality, set the standard for artistic accomplishment in the art of music. A closer examination, however, reveals all kinds of difficulties with this simple notion. Before 1800, nearly all performances presented exclusively contemporary music, and works more than about fifty years old were considered hopelessly outmoded. This changed over the course of the nineteenth century as European musicians, audiences, and publishers set about identifying certain composers - originally Bach, Handel, Mozart, and Beethoven, but subsequently also Schubert, Chopin, Schumann, Brahms, Wagner, Verdi, etc. - and valorizing their contributions with lavish biographies, marble busts, and complete-works editions. But is <em>classical music</em> truly universal? Are there identifiable, qualitative musical differences between music in the canon and other works which have not entered the repertoire? To what extent canon-formation by factors such as nationalism, racism, and gender bias? This course seeks to both introduce a variety of extremely famous <em>classical</em> works and to interrogate the processes that made them famous.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
+        },
+      ],
     },
     {
       unique_id: "13647",
@@ -20151,7 +20215,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The term <em>classical music</em> is used in many different ways. One commonly recurring notion is that it may be understood as a <em>canon</em>? a select group of composers and compositions which, through their timeless value and universality, set the standard for artistic accomplishment in the art of music. A closer examination, however, reveals all kinds of difficulties with this simple notion. Before 1800, nearly all performances presented exclusively contemporary music, and works more than about fifty years old were considered hopelessly outmoded. This changed over the course of the nineteenth century as European musicians, audiences, and publishers set about identifying certain composers - originally Bach, Handel, Mozart, and Beethoven, but subsequently also Schubert, Chopin, Schumann, Brahms, Wagner, Verdi, etc. - and valorizing their contributions with lavish biographies, marble busts, and complete-works editions. But is <em>classical music</em> truly universal? Are there identifiable, qualitative musical differences between music in the canon and other works which have not entered the repertoire? To what extent canon-formation by factors such as nationalism, racism, and gender bias? This course seeks to both introduce a variety of extremely famous <em>classical</em> works and to interrogate the processes that made them famous.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
+        },
+      ],
     },
   ],
   "003530": [
@@ -20318,6 +20391,14 @@ const sections = {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
         },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
+        },
       ],
     },
     {
@@ -20339,6 +20420,14 @@ const sections = {
         {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
         },
       ],
     },
@@ -20362,6 +20451,14 @@ const sections = {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
         },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
+        },
       ],
     },
     {
@@ -20383,6 +20480,14 @@ const sections = {
         {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
         },
       ],
     },
@@ -20406,6 +20511,14 @@ const sections = {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
         },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
+        },
       ],
     },
     {
@@ -20427,6 +20540,14 @@ const sections = {
         {
           name: "Overview of class",
           desc: "The Alexander Technique (AT) class serves as an introduction to the AT while practicing ways of applying the principles of the AT to everyday activities, practicing, performing, performance anxiety, and stress management. This class is a hands-on learning experience. See: www.amsatonline.org and www.alexandertechnique.co.uk for a description of the AT.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Please copy-paste the following form to request placement in a Fall 2022 Alexander Technique section. \n\nhttps://forms.gle/jhGFwYKfhm6xkazL8\n\nQuestions can be directed to musicstudentaffairs@northwestern.edu",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase.",
         },
       ],
     },
@@ -20702,25 +20823,6 @@ const sections = {
       ],
     },
   ],
-  "003647": [
-    {
-      unique_id: "18890",
-      instructors: ["Inna I Naroditskaya"],
-      mode: null,
-      title: "Topics in Ethnomusicology",
-      subject: "MUSICOL",
-      number: "323-0",
-      section: "1",
-      meeting_days: "Tu",
-      start_time: "14:00",
-      end_time: "16:50",
-      room: { building_name: "RCMA Lower Level 115" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [],
-    },
-  ],
   "015507": [
     {
       unique_id: "18899",
@@ -20737,7 +20839,13 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Immersed in the world of Russian fairy tales, students in this course will trace the construction of Russian cultural and national identity, as well as gender dynamics and political vision through the study of folk tales and their musical counterparts. The core of the course is an operatic repertoire including <em>Ruslan and Ludmila</em> by Glinka; <em>Sadko</em> by Rimsky-Korsakov; and <em>Queen of Spades</em> by Tchaikovsky, as well as works by other composers. The primary sources will include Russian operas and ballets as well as Russian folk narrative and literary fairy tales. Students will also read theoretical and analytical sources. In addition, the course will involve current critical theory, including concepts related to the portrayal of women, the interplay of nationalism and gender, and the dichotomy of East/West in the construction of Russian self-imagery.",
+        },
+        { name: "Class Materials (Required)", desc: "TBD" },
+      ],
     },
   ],
   "003653": [
@@ -20873,6 +20981,7 @@ const sections = {
           name: "Overview of class",
           desc: "The decades around 1900 mark a monumental change in the history of music. If one ever heard musical sounds before 1900, it was because someone was making them nearby. After 1900, audio recording technologies increasingly made possible a distancing (both physical and temporal) of musicians and their audiences. This class investigates the history of music listening before this seismic shift, exploring a time in which all music was live. We will examine growing and increasingly influential body of scholarly work on eighteenth- and nineteenth-century concert life by Simon McVeigh (<em>Concert Life in London from Mozart to Haydn</em>), James Johnson (<em>Listening in Paris</em>), William Weber (<em>The Great Transformation of Musical Taste: Concert Programming from Haydn to Brahms</em>), and Lawrence Levine (<em>Highbrow | Lowbrow: The Emergence of Cultural Hierarchy in America</em>), among others. Our goal is to arrive at a comprehensive understanding of listening cultures in the centuries that produced the greatest number of canonical classics. This course will not require music analysis. It is, however, quite reading-intensive.",
         },
+        { name: "Class Materials (Required)", desc: "No required materials" },
       ],
     },
   ],
@@ -20992,7 +21101,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "15:30",
       end_time: "18:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "RCMA Lower Level 121" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -21016,6 +21125,31 @@ const sections = {
       end_date: "2022-12-03",
       component: "SEM",
       course_descriptions: [],
+    },
+  ],
+  "021646": [
+    {
+      unique_id: "19670",
+      instructors: ["Inna I Naroditskaya"],
+      mode: null,
+      title: "Russian Fairy Tale and Opera",
+      subject: "MUSICOL",
+      number: "430-0",
+      section: "1",
+      meeting_days: "Th",
+      start_time: "14:00",
+      end_time: "16:50",
+      room: { building_name: "RCMA 1-176" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Immersed in the world of Russian fairy tales, students in this course will trace the construction of Russian cultural and national identity, as well as gender dynamics and political vision through the study of folk tales and their musical counterparts. The core of the course is an operatic repertoire including <em>Ruslan and Ludmila</em> by Glinka; <em>Sadko</em> by Rimsky-Korsakov; and <em>Queen of Spades</em> by Tchaikovsky, as well as works by other composers. The primary sources will include Russian operas and ballets as well as Russian folk narrative and literary fairy tales. Students will also read theoretical and analytical sources. In addition, the course will involve current critical theory, including concepts related to the portrayal of women, the interplay of nationalism and gender, and the dichotomy of East/West in the construction of Russian self-imagery.",
+        },
+        { name: "Class Materials (Required)", desc: "TBD" },
+      ],
     },
   ],
   "003667": [
@@ -21079,7 +21213,7 @@ const sections = {
       unique_id: "18905",
       instructors: ["Linda P Austern"],
       mode: null,
-      title: "Seminar in Early Modern Music",
+      title: "Topics in 16th-Century Music",
       subject: "MUSICOL",
       number: "451-0",
       section: "1",
@@ -21218,7 +21352,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "15:30",
       end_time: "18:20",
-      room: { building_name: "TBA" },
+      room: { building_name: "RCMA Lower Level 121" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -21336,7 +21470,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "020577": [
@@ -21376,7 +21515,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "013067": [
@@ -21396,7 +21540,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "020580": [
@@ -21416,7 +21565,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003620": [
@@ -21435,7 +21589,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003621": [
@@ -21455,7 +21614,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003622": [
@@ -21475,7 +21639,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003623": [
@@ -21494,7 +21663,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003624": [
@@ -21514,7 +21688,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "003625": [
@@ -21534,7 +21713,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Class Materials (Required)",
+          desc: "All student teachers will need to have a reputable recording device in addition to their computer and room to store videos on their computer or an external hard drive. Some students choose to invest in a small tripod to place their cell phone in for recording ease.",
+        },
+      ],
     },
   ],
   "018686": [
@@ -21601,7 +21785,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "12:20",
-      room: { building_name: "RCMA Lower Level 115" },
+      room: { building_name: "RCMA Lower Level 113" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -21922,7 +22106,13 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Students must be able to read music fluently in the form of both full scores and individual parts, and be familiar with transposing instruments. The course is open to nonmajors who are able to meet these requirements. This course will focus on Western standard music notation, and its extensions in the 20th and 21st centuries. Students will study directly from scores of the relevant compositions. Topics will include notational conventions, score layout and formatting, part extraction and formatting, font selection (and a sidebar on semiotics thereof), and notational aesthetics (which turns out to be another facet of semiotics). Since this is a workshop, individual projects will be determined by mutual agreement between each student and the instructor.",
+        },
+        { name: "Class Materials (Required)", desc: "TBD" },
+      ],
     },
     {
       unique_id: "18902",
@@ -21939,7 +22129,13 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is a hybrid seminar/performance workshop focusing on a stylistically-inclusive study of post WWII improvised music, along with concurrent compositional strategies utilizing various types of indeterminacy. We will explore a variety of approaches to spontaneous music making through readings, listening, analysis and in-class performing. The course will be taught in seminar/workshop style designed to allow collaborative interaction between performer and composer participants.",
+        },
+        { name: "Class Materials (Required)", desc: "No required materials" },
+      ],
     },
   ],
   "003752": [
@@ -22024,7 +22220,13 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Students must be able to read music fluently in the form of both full scores and individual parts, and be familiar with transposing instruments. The course is open to nonmajors who are able to meet these requirements. This course will focus on Western standard music notation, and its extensions in the 20th and 21st centuries. Students will study directly from scores of the relevant compositions. Topics will include notational conventions, score layout and formatting, part extraction and formatting, font selection (and a sidebar on semiotics thereof), and notational aesthetics (which turns out to be another facet of semiotics). Since this is a workshop, individual projects will be determined by mutual agreement between each student and the instructor.",
+        },
+        { name: "Class Materials (Required)", desc: "TBD" },
+      ],
     },
     {
       unique_id: "18904",
@@ -22041,7 +22243,13 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is a hybrid seminar/performance workshop focusing on a stylistically-inclusive study of post WWII improvised music, along with concurrent compositional strategies utilizing various types of indeterminacy. We will explore a variety of approaches to spontaneous music making through readings, listening, analysis and in-class performing. The course will be taught in seminar/workshop style designed to allow collaborative interaction between performer and composer participants.",
+        },
+        { name: "Class Materials (Required)", desc: "No required materials" },
+      ],
     },
   ],
   "018677": [
@@ -22210,7 +22418,7 @@ const sections = {
   "020285": [
     {
       unique_id: "13754",
-      instructors: [],
+      instructors: ["Bradley Grant Robin"],
       mode: null,
       title: "Foundations of Music Tech for Music Majors",
       subject: "MUS_TECH",
@@ -22223,7 +22431,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Introduction of key concepts in acoustics, digital audio theory, production, and postproduction. Through projects and presentations, students will learn to record and edit their work, use notation software, communicate with recording engineers, and prepare and present work online.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No materials required for purchase",
+        },
+      ],
     },
   ],
   "022551": [
@@ -22325,7 +22542,21 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Mozart&#39s operas belong to the greatest masterpieces of Western art music. In this course we will focus on his Viennese comic operas, representing two different genres: <em>opera buffa</em> (<em>Le nozze di Figaro, Don Giovanni, Cos? fan tutte</em>) and <em>Singspiel</em> (<em>Die Entf?hrung aus dem Serail, Die Zauberfl?te</em>). Understanding their plots and learning their music will be the necessary prerequisites of your fruitful participation in class discussion. The discussion will situate the operas in the context of their respective genres and broader socio-cultural context of late-eighteenth-century Vienna and it will delve into their structure in order to tease out their meaning and expression. In the course of this analytical inquiry we will benefit from recent advances in the field of historically informed music theory, including deployment of genres and styles (topics), building blocks of eighteenth-century harmonic language (schemata), expressive import of meter and key characteristics. We will also touch upon problems of German and Italian text setting. \n\nThe course will be of interest for students of music theory, musicology, vocal and instrumental performance, composition and conducting.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the class the student will be expected to have become familiar with the five Mozart's operas selected for class discussion and have developed an understanding of how their music achieves its expressive effect and acquires extra-musical meaning through the creative deployment of eighteenth-century conventions.",
+        },
+        { name: "Class Materials (Required)", desc: "No textbooks required." },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Thomas Bauman, <em>W.A. Mozart: Die Entf?hrung aus dem Serail.</em> Cambridge: Cambridge University Press, 1987.\nPeter Branscombe, <em>W.A. Mozart: Die Zauberfl?te.</em> Cambridge: Cambridge University Press, 1991.\nBruce Alan Brown, <em>W.A. Mozart: Cos? fan tutte.</em> Cambridge: Cambridge University Press, 1995.\nTim Carter, <em>W.A. Mozart: Le nozze di Figaro.</em> Cambridge: Cambridge University Press, 1987.\nJulian Rushton, <em>W.A. Mozart: Don Giovanni.</em> Cambridge: Cambridge University Press, 1981.",
+        },
+      ],
     },
     {
       unique_id: "18898",
@@ -22486,6 +22717,50 @@ const sections = {
       ],
     },
   ],
+  "024493": [
+    {
+      unique_id: "19673",
+      instructors: ["Vasileios   Byros"],
+      mode: null,
+      title: "Schema Theory",
+      subject: "MUS_THRY",
+      number: "425-0",
+      section: "1",
+      meeting_days: "Tu",
+      start_time: "14:00",
+      end_time: "16:50",
+      room: { building_name: "RCMA 1-172" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "An investigation of the musical phrase in the long 18th century (1680-1830) from the perspective of schema theory. A schema is a typically short, memorable pattern defined by a characteristic pairing of scale degree progressions in the melody and bass, and an accompanying harmonic progression. Such schemata are the essential building blocks of composition in the long 18th century.",
+        },
+        { name: "Class Materials (Required)", desc: "No required materials" },
+      ],
+    },
+  ],
+  "008283": [
+    {
+      unique_id: "19672",
+      instructors: ["Danuta   Mirka"],
+      mode: null,
+      title: "Semiotics",
+      subject: "MUS_THRY",
+      number: "430-0",
+      section: "1",
+      meeting_days: "We",
+      start_time: "14:00",
+      end_time: "16:50",
+      room: { building_name: "RCMA 1-172" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "SEM",
+      course_descriptions: [],
+    },
+  ],
   "003733": [
     {
       unique_id: "13692",
@@ -22502,7 +22777,21 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Mozart&#39s operas belong to the greatest masterpieces of Western art music. In this course we will focus on his Viennese comic operas, representing two different genres: <em>opera buffa</em> (<em>Le nozze di Figaro, Don Giovanni, Cos? fan tutte</em>) and <em>Singspiel</em> (<em>Die Entf?hrung aus dem Serail, Die Zauberfl?te</em>). Understanding their plots and learning their music will be the necessary prerequisites of your fruitful participation in class discussion. The discussion will situate the operas in the context of their respective genres and broader socio-cultural context of late-eighteenth-century Vienna and it will delve into their structure in order to tease out their meaning and expression. In the course of this analytical inquiry we will benefit from recent advances in the field of historically informed music theory, including deployment of genres and styles (topics), building blocks of eighteenth-century harmonic language (schemata), expressive import of meter and key characteristics. We will also touch upon problems of German and Italian text setting. \n\nThe course will be of interest for students of music theory, musicology, vocal and instrumental performance, composition and conducting.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the class the student will be expected to have become familiar with the five Mozart's operas selected for class discussion and have developed an understanding of how their music achieves its expressive effect and acquires extra-musical meaning through the creative deployment of eighteenth-century conventions.",
+        },
+        { name: "Class Materials (Required)", desc: "No required materials" },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Thomas Bauman, <em>W.A. Mozart: Die Entf?hrung aus dem Serail.</em> Cambridge: Cambridge University Press, 1987.\nPeter Branscombe, <em>W.A. Mozart: Die Zauberfl?te.</em> Cambridge: Cambridge University Press, 1991.\nBruce Alan Brown, <em>W.A. Mozart: Cos? fan tutte.</em> Cambridge: Cambridge University Press, 1995.\nTim Carter, <em>W.A. Mozart: Le nozze di Figaro.</em> Cambridge: Cambridge University Press, 1987.\nJulian Rushton, <em>W.A. Mozart: Don Giovanni.</em> Cambridge: Cambridge University Press, 1981.",
+        },
+      ],
     },
     {
       unique_id: "13693",
@@ -23997,10 +24286,10 @@ const sections = {
       subject: "STRINGS",
       number: "319-1",
       section: "1",
-      meeting_days: "Sa",
-      start_time: "9:00",
-      end_time: "9:50",
-      room: { building_name: "Regenstein Hall of Music 011" },
+      meeting_days: "Mo",
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "RCMA Lower Level 113" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -24014,10 +24303,10 @@ const sections = {
       subject: "STRINGS",
       number: "319-1",
       section: "2",
-      meeting_days: "Sa",
-      start_time: "10:00",
-      end_time: "10:50",
-      room: { building_name: "Regenstein Hall of Music 011" },
+      meeting_days: "Mo",
+      start_time: "12:00",
+      end_time: "12:50",
+      room: { building_name: "RCMA Lower Level 113" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -24861,7 +25150,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "<b><u>Baroque Performance Practice</u></b>\n<p>This course will be a brief overview of historical performance sources and repertoire from roughly 1600-1750. Participants will explore solo and ensemble music outside the canon of common repertoire while studying playing techniques and sound aesthetics of the 17th and 18th centuries. <b>All instrumentalists are welcome to participate.</b></p>\n<p>Grading will be based on class participation, brief written assignments, and final in-class performance of a short solo work.</p>\nRecommended texts:\n<li><u>A Performer's Guide to 17th-Century Music</u> by Carter and Kite-Powell, Indiana University Press 2012\n<li><u>The Historical Performance of Music: An Introduction</u> by Lawson and Stowell, Cambridge University Press 1999",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Recommended texts:\n<li><u>A Performer's Guide to 17th-Century Music</u> by Carter and Kite-Powell, Indiana University Press 2012\n<li><u>The Historical Performance of Music: An Introduction</u> by Lawson and Stowell, Cambridge University Press 1999",
+        },
+      ],
     },
   ],
   "003952": [
@@ -26610,6 +26908,23 @@ const sections = {
       component: "PED",
       course_descriptions: [],
     },
+    {
+      unique_id: "19677",
+      instructors: ["Nancy J Gustafson"],
+      mode: null,
+      title: "Studio Class",
+      subject: "VOICE",
+      number: "390-0",
+      section: "6",
+      meeting_days: "Tu",
+      start_time: "18:00",
+      end_time: "18:50",
+      room: { building_name: "RCMA Choral Room 1-190" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "PED",
+      course_descriptions: [],
+    },
   ],
   "018694": [
     {
@@ -27116,6 +27431,23 @@ const sections = {
       start_time: "17:00",
       end_time: "18:20",
       room: { building_name: "RCMA Opera Theater 1-140" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "PED",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19678",
+      instructors: ["Nancy J Gustafson"],
+      mode: null,
+      title: "Studio Class",
+      subject: "VOICE",
+      number: "490-0",
+      section: "6",
+      meeting_days: "Tu",
+      start_time: "18:00",
+      end_time: "18:50",
+      room: { building_name: "RCMA Choral Room 1-190" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PED",
@@ -27823,23 +28155,6 @@ const sections = {
     },
   ],
   "021561": [
-    {
-      unique_id: "14234",
-      instructors: ["Gail Marie   Williams"],
-      mode: null,
-      title: "Warm-Up Class",
-      subject: "WIND_PER",
-      number: "302-0",
-      section: "1",
-      meeting_days: "MoTh",
-      start_time: "8:00",
-      end_time: "8:50",
-      room: { building_name: "Regenstein Hall of Music MCR" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [],
-    },
     {
       unique_id: "14235",
       instructors: ["John Eugene Pokorny", "Matthew Howard Gaunt"],
@@ -29839,7 +30154,7 @@ const sections = {
       section: "5",
       meeting_days: "Tu",
       start_time: "15:30",
-      end_time: "16:20",
+      end_time: "16:30",
       room: { building_name: "Regenstein Hall of Music MCR" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
@@ -31540,7 +31855,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In the first course of the Master's Project sequence students identify the question that will guide their research. Most often the Master's Project Question grows out of a student's own experiences in higher education. Students then complete a literature review to connect their own research to research that has already been done on the topic.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "1.    Creswell, J. W., & Guetterman, T. C. (2019). Educational Research: Planning, Conducting, and Evaluating Quantitative and Qualitative and Research. (6th Ed.) New York, NY: Pearson.\n2.    Savin-Baden, M. & Major, C. H. 2013. Qualitative research: The essential guide to theory and practice. New York City, NY: Routledge.\n3.    American Psychological Association (2020). Publication manual for the American Psychological Association (7th ed.). Washington, DC:  American Psychological Association. [Note: This book is also required in MSHE 460].",
+        },
+      ],
     },
   ],
   "000830": [
@@ -31559,7 +31883,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course provides an overview of the evolution and present structure of post-secondary\neducation in the United States. It is intended to acquaint students with the values, processes and\nlanguage of American higher education as it explores a number of critical issues facing American\ncolleges and universities. It will emphasize "thick description" of different institutional settings\nusing basic ethnographic tools of analysis. The course will also introduce a range of professional\ndevelopment and career options in higher education.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "?\tBastedo, Michael N., Altbach, P. G., & Gumport, P.J., (Eds.)  (2016).  American Higher Education in the Twenty-First Century: Social, Political, and Economic Challenges.   Fourth Edition, Baltimore and London: The Johns Hopkins University Press.\n\n?\tAmerican Psychological Association (APA). (2020). Publication Manual of the American Psychological Association.  Seventh Edition, Washington, D.C.: American Psychological Association.",
+        },
+      ],
     },
   ],
   "015047": [
@@ -31578,7 +31911,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The purpose of this course is to study the research and theories that inform our understanding of the developmental processes of college students.  This body of literature includes theories related to the cognitive, psychological and social identity development of college students as well as how and when students change in college.  This course will also explore how theory informs the practice of working with and counseling college students.  The theories used in this course were selected because they have been especially helpful to college educators to facilitate and enhance the growth and development of students.  Understanding and appreciating student development is a key factor in our ability to reach an institution's stated learning outcomes and to help students reach their full potential.   \n\nThis study of student development experience on our campuses becomes even more important during these unprecedented times in our country and in American higher education.  A global pandemic, social unrest regarding social justice for all, economic challenges and societal divides are before us like never before.  How will this affect college students and their intellectual, personal identity, moral and decision-making development?  We do not know yet but we have an opportunity to explore these issues together in our learning community this quarter.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Patton, L.D., Renn, K.A., Guido, F.M., & Quaye, S.J. (2016).  Student development in college: Theory, research and practice (3rd ed.).  Jossey-Bass.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Class will meet in-person on Saturday, September 24 and Saturday, November 19 from 9am-4pm in Annenberg Hall, Room TBD.",
+        },
+      ],
     },
   ],
   "021917": [
@@ -31598,7 +31944,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The objective of this course is for you to learn how to develop leadership, both your own and among others, especially in the context of higher education.  It is organized to allow you to answer three questions:\n?\tWhat are the fundamentals of effective leadership development?\n?\tWhat learning strategies work best for my own leadership development?  \n?\tHow can I effectively develop leadership in others?",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "?\tChin, J. L. and J. E. Trimble (2015). Diversity and Leadership. Los Angeles, Sage.\n?\tHarvard Business School Press. (2011). HBR's 10 Must Reads on Leadership. Boston, MA, USA: Harvard Business Press.  You can access a free copy through NU Library Access at: https://ebookcentral.proquest.com/lib/northwestern/detail.action?docID=5181752 \n?\tYou need a copy of your StrengthsFinder Assessment from Gallup.   If you've previously completed one, you should be able to download a copy of your results at https://www.login.gallup.com.   If you do not have a StrengthsFinder Assessment from Gallup, purchase a new version of the book \"Strengths Based Leadership\" by Tom Rath and Barry Conchie as this will include a unique code so that you can conduct the StrengthsFinder.",
+        },
+      ],
     },
   ],
   "022412": [
@@ -31617,7 +31972,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course examines the "global university" and the role of higher education institutions in addressing global priorities through international partnerships. We analyze the leadership of administrators and faculty in creating the agenda for internationalization and the support of offices throughout campus. Case studies and institutional strategies in theory and practice will focus on transformative partnership models that advance reciprocity and academic quality. Governmental and non-governmental organizations with programs directed to international higher education also will be considered. Recent adjustments made in the field during the Covid-19 pandemic will be discussed.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Canvas course site: \nStudents should follow instructions to order a Student Cultural Navigator License (required).  All journal articles, book chapters, and other reading will be posted in Canvas.",
+        },
+      ],
     },
   ],
   "024258": [
@@ -31636,7 +32000,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "PRA",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Students gain professional experience in higher education administration. Students must complete at least 200 internship hours for academic credit. Many students choose a longer internship or multiple internships in different areas of higher education administration.\n\nStudents produce a reflective paper and a portfolio of projects and other work completed in the internship, and they receive a formal evaluation from the internship supervisor.\n\nThose with significant work experience in higher education may seek approval to waive the internship requirement and take an additional elective course. Only matriculated students can receive internship credit.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Course will meet 2-4 times during Fall quarter.  Meeting times and location TBA.",
+        },
+      ],
     },
   ],
   "017331": [
@@ -32119,16 +32492,33 @@ const sections = {
   "019808": [
     {
       unique_id: "19512",
-      instructors: [],
+      instructors: ["Paul Howard   Arntson"],
       mode: null,
       title: "Theory and Practice of Community Consulting",
       subject: "SESP",
       number: "295-0",
       section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
+      meeting_days: "Th",
+      start_time: "17:00",
+      end_time: "19:50",
+      room: { building_name: "Kresge Centennial Hall 2-425" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19620",
+      instructors: ["Matthew Wayne Easterday"],
+      mode: null,
+      title: "Theory and Practice of Community Consulting",
+      subject: "SESP",
+      number: "295-0",
+      section: "21",
+      meeting_days: "Fr",
+      start_time: "14:00",
+      end_time: "16:50",
+      room: { building_name: "Annenberg Hall 303" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -32197,15 +32587,14 @@ const sections = {
       ],
     },
   ],
-  "023586": [
+  "015698": [
     {
-      unique_id: "15321",
+      unique_id: "19637",
       instructors: ["Daniel Maurice Cohen"],
       mode: null,
-      title:
-        "Public Learning Through The Arts: Magic, Monsters & The Holocaust",
+      title: "Special Topics",
       subject: "SESP",
-      number: "323-0",
+      number: "351-0",
       section: "20",
       meeting_days: "TuTh",
       start_time: "12:30",
@@ -32214,13 +32603,7 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "What is Holocaust memory? How has Holocaust memory changed over time, and how does the Holocaust continue to affect our understanding of trauma, atrocity, and human rights today? This seminar addresses individual memory, including survivor and witness testimony, memory and trauma, and the impact of the Holocaust on survivors' families and communities. We also explore collective Holocaust memory and the development of mainstream framings of Holocaust history. We consider Jewish, Roma, and other victim narratives, including national memorialization, rituals of commemoration, and the development of Holocaust memorials, museums, and institutions in the United States and around the world. And we study how we have come to remember the Nazi perpetrators and their collaborators. We draw on course texts, including film and fiction, to ask questions about the relationships between individual and collective memories, as well as between commemoration and education.",
-        },
-        { name: "Class Materials (Required)", desc: "TBD" },
-      ],
+      course_descriptions: [],
     },
   ],
   "000591": [
@@ -33497,29 +33880,6 @@ const sections = {
   ],
   "004134": [
     {
-      unique_id: "15405",
-      instructors: ["Jose Luis   Quintero Ramirez"],
-      mode: null,
-      title: "Public Speaking",
-      subject: "COMM_ST",
-      number: "102-0",
-      section: "20",
-      meeting_days: "MoWe",
-      start_time: "9:00",
-      end_time: "10:50",
-      room: { building_name: "Frances Searle Building 3220" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "Theory, composition, delivery, and criticism of public speeches.",
-        },
-        { name: "Class Materials (Required)", desc: "No Textbook Required." },
-      ],
-    },
-    {
       unique_id: "15406",
       instructors: ["Eva   Rubens Celem"],
       mode: null,
@@ -33766,34 +34126,6 @@ const sections = {
       ],
     },
   ],
-  "004215": [
-    {
-      unique_id: "19133",
-      instructors: ["Robert Donald Hariman"],
-      mode: null,
-      title: "Rhetoric, Democracy & Empire in Classical Athens",
-      subject: "COMM_ST",
-      number: "310-0",
-      section: "20",
-      meeting_days: "MoWe",
-      start_time: "15:00",
-      end_time: "16:20",
-      room: { building_name: "Frances Searle Building 3417" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "Study of Thucydides, Plato, Aristotle, and Aristophanes to understand perennial problems regarding the role of speech in a democratic society.",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Thucydides, History of the Peloponnesian War, Plato, Gorgias,\nAristophanes, Lysistrata",
-        },
-      ],
-    },
-  ],
   "004218": [
     {
       unique_id: "15596",
@@ -33891,7 +34223,7 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: 'This course will seek to further our understanding of social movements by posing and exploring a series of questions: Why do social movements occur, often in clusters, more frequently in some periods than in others?  What are the main theories of social movements?  How have social movements changed over time? How has our understanding of social movements changed over time? What are social movement organizations (SMOs) and how do they function? Why do some people, not others, become active participants in social movements? How has globalization affected social movements?  How have new technologies of information and communications influenced the scope and function of social movements? What are the strategies and tactics, both discursive and non-discursive, that social movements deploy to publicize their goals and demands? Why do some social movements succeed while others fail? This course will use the "case study" method by exploring a wide range of social movements, both historical and contemporary, based primarily in the United States.',
+          desc: "The goal of this upper-level undergraduate seminar is to survey sociological research on online news. This is a new and emerging area that draws from sociological studies of traditional (print and broadcast) media to understand the construction and use of online news. However, in comparison to the slow-moving sociology of news in traditional media, with its relatively established theories and objects of inquiry, scholarship about online news is a fast-moving area because both the phenomena under consideration and the ways of making sense of them have been in ongoing transformation since its inception. The content and organization of this seminar reflect the fast-moving character of the sociology of online news, emphasizing relatively recent texts but grounding their interpretation in longstanding debates in the sociology of traditional media. To help anchor the theoretical discussions in your empirical reality, in addition to discussing the concepts and evidence provided in the readings, you will be asked to conduct and transcribe four semi-structured interviews with online news consumers. You will pool your transcriptions with those of three or four other students, and this expanded data set will be the empirical basis of your term paper.",
         },
         { name: "Class Materials (Required)", desc: "No textbook required." },
       ],
@@ -34659,7 +34991,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Principles of scientific writing for journals, dissertations, and grant proposals. Emphasis on mastering the structures for presenting concepts and data.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Written Assignments, Discussion-Board Comments, Workshop Materials, Habit Builder, Assigned-Readings Discussion, Class Participation",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Packet of readings, all of which are posted on Canvas.",
+        },
+        {
+          name: "Class Notes",
+          desc: "The purpose of this course is to help students master the fundamentals of written scientific argumentation for grants and journal articles, improve the organization and clarity of their writing, identify strategies for revision, and appreciate the importance of writing in their scientific careers.  Emphasis is placed on the distinction between hypotheses and predictions.",
+        },
+      ],
     },
   ],
   "004463": [
@@ -35456,7 +35805,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "An introduction to scientific thinking as applied to Communication Sciences and Disorders. Topics to be covered include the scientific method, hypotheses versus predictions, the purpose of data collection, previous evidence, and scientific argumentation.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Written Assignments, Class Presentations, Discussion-Board Comments on Assigned Readings, Selection of Research Papers and Leadership of Class Discussion, Leadership of Class Discussion on Assigned Readings",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Books\n?\tBeveridge, W.I.B. (1957). The Art of Scientific Investigation, W.W. Norton and Company, New York, NY\n[https://openlibrary.org/books/OL23279056M/The_art_of_scientific_investigation]\n?\tCajal, S.R. (1897). Advice for a Young Investigator, MIT Press, Cambridge, MA (1999 translation:  N. Swanson and L.W. Swanson)\n[http://cognet.mit.edu.turing.library.northwestern.edu/book/advice-young-investigator]\n\nArticles, Slides, Podcasts\nScientific Method\n?\tKhan: Scientific Method Example from Everyday Life\nhttps://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biology-and-the-scientific-method/a/the-science-of-biology\n?\tRadio Lab:  Yellow Fluff and Other Curious Encounters\nhttps://www.wnycstudios.org/podcasts/radiolab/episodes/91672-yellow-fluff-and-other-curious-encounters\n(1) The Wonder of Youth; (2) Thrill of Discovery; (3) Glad Somebody Likes Bugs Note: feel free to skip part (3) if you are squeamish about bugs.  \n?\tRochester: Introduction to the Scientific Method \nhttp://teacher.pas.rochester.edu/phy_labs/appendixe/appendixe.html\n?\tRogers:  Scientific Hypothesis Encyclopedia Britannica\nhttps://www.britannica.com/science/scientific-hypothesis\n\nHypotheses vs. Predictions\n?\tBerkeley:  Misconceptions about science: Hypothesis\nhttp://undsci.berkeley.edu/teaching/misconceptions.php#a4\n?\tHutto (2012) Distorting the Process of Scientific Inquiry\nhttps://academic.oup.com/bioscience/article/62/8/707/244200\n?\tRosenbaum (2018) Hypotheses.vs.Predictions\nhttps://www.psychologytoday.com/us/blog/perception-and-performance/201801/hypotheses-versus-predictions\n?\tStrode (2011) Hypothesis.vs.Prediction][slides]\nhttp://datanuggets.org/wp-content/uploads/2014/01/Strode_NABT-2011-Hypothesis-Presentation.pdf\n?\tStrode (2015) Hypotheses.vs.Predictions\nhttps://nabt.org/files/galleries/Paper6_Strode.pdf\n\nMaterials are posted on Canvas",
+        },
+      ],
     },
   ],
   "015519": [
@@ -35659,34 +36021,6 @@ const sections = {
         {
           name: "Class Materials (Required)",
           desc: "Dancewear (leotard, tights, ballet slippers) $100 Performance Outing $25-45\nFiles and any reading will be provided digitally through PDFs",
-        },
-      ],
-    },
-  ],
-  "004719": [
-    {
-      unique_id: "15427",
-      instructors: [],
-      mode: null,
-      title: "Jazz l",
-      subject: "DANCE",
-      number: "160-0",
-      section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "Meets in Non-General PurposeRm" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "This course will explore the evolution of jazz dance in America with an emphasis on its roots and how its development parallels popular music. This Jazz technique class will offer all the elements of an beginning Jazz class, including elements of hip hop, popular social dances isolations, rigorous across the floor sequences and stylized choreography.",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Dancewear (leotard, tights, ballet slippers) $100 Performance Outing $25-45",
         },
       ],
     },
@@ -36463,9 +36797,9 @@ const sections = {
       subject: "PERF_ST",
       number: "101-0",
       section: "20",
-      meeting_days: "TuTh",
-      start_time: "14:00",
-      end_time: "15:20",
+      meeting_days: "Fr",
+      start_time: "12:00",
+      end_time: "14:50",
       room: { building_name: "AM Swift Krause Studio 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
@@ -36482,29 +36816,34 @@ const sections = {
       subject: "PERF_ST",
       number: "103-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
+      meeting_days: "MoWe",
+      start_time: "12:30",
+      end_time: "13:50",
+      room: { building_name: "AM Swift Krause Studio 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course studies literary fiction and non-fiction through performance. It explores how performance helps the performer and audience interpret a literary text, as well as express challenging political and personal themes. The diverse materials in the course examine the ways performance illuminates the written word and draws out deeper understandings of social relations through embodied praxis. Students will engage with the material through performance exercises, graded solo and group performances, critical writing, and in-class reading discussion.",
+        },
+      ],
     },
   ],
   "020372": [
     {
       unique_id: "15559",
-      instructors: [],
+      instructors: ["Lori Danielle Barcliff Baptista"],
       mode: null,
       title: "Performance Culture and Communication",
       subject: "PERF_ST",
       number: "203-0",
       section: "20",
-      meeting_days: "MoWe",
-      start_time: "15:00",
-      end_time: "16:50",
-      room: { building_name: "Parkes Hall 213" },
+      meeting_days: "TuTh",
+      start_time: "12:30",
+      end_time: "13:50",
+      room: { building_name: "AM Swift Krause Studio 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -36529,7 +36868,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "10:00",
       end_time: "11:50",
-      room: { building_name: "AM Swift Krause Studio 103" },
+      room: { building_name: "Wirtz 240 Seminar Room 2" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -36558,14 +36897,19 @@ const sections = {
       subject: "PERF_ST",
       number: "308-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "AM Swift Krause Studio 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Overview: This seminar examines embodied cultural practices across the Middle East and North Africa, with particular attention to music, dance, theater, and popular culture. Spanning the late nineteenth century to the current post-Arab Revolution era, students will better understand a cultural history of the region, its role in shaping global modernity, and the politics of gender, sexuality, class, and ethnoreligious difference.",
+        },
+      ],
     },
   ],
   "004171": [
@@ -36577,7 +36921,7 @@ const sections = {
       subject: "PERF_ST",
       number: "330-0",
       section: "20",
-      meeting_days: "We",
+      meeting_days: "Tu",
       start_time: "15:00",
       end_time: "17:50",
       room: { building_name: "AM Swift Krause Studio 103" },
@@ -36608,6 +36952,32 @@ const sections = {
       component: "LEC",
       course_descriptions: [
         { name: "Overview of class", desc: "Topic: Make Live Art!" },
+      ],
+    },
+    {
+      unique_id: "19610",
+      instructors: ["Kent Ross Brooks"],
+      mode: null,
+      title: "Topics in Performance Studies",
+      subject: "PERF_ST",
+      number: "330-0",
+      section: "22",
+      meeting_days: "TuTh",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Wirtz 230 Instruct Black Box 1" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Overview: This course explores the evolution of Black Gospel music from its African roots to today's abundant subgenres of contemporary Gospel. Through readings, videos, and live performances, students will engage in critical discussions regarding the language, delivery, and social-historical implications of this original American artform. The class also looks at the lives of some of Gospel's luminaries, including Chicago's own Professor Thomas A. Dorsey, the \"Father of Black Gospel Music.\"",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class Materials: People Get Ready: A New History of Black Gospel by Robert Darden (2005); ISBN: 0-8264-1752-3. Additional readings will be provided on Canvas.",
+        },
       ],
     },
   ],
@@ -36820,7 +37190,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "13:00",
       end_time: "14:50",
-      room: { building_name: "Helmerich Auditorium" },
+      room: { building_name: "Block Pick-Laudati Auditorium" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -37104,11 +37474,28 @@ const sections = {
         { name: "Class Materials (Required)", desc: "course reader" },
       ],
     },
+    {
+      unique_id: "19640",
+      instructors: ["Ilya   Kutik"],
+      mode: null,
+      title: "National Cinema",
+      subject: "RTVF",
+      number: "351-0",
+      section: "21",
+      meeting_days: "TuTh",
+      start_time: "14:00",
+      end_time: "15:20",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+    },
   ],
   "022360": [
     {
       unique_id: "15612",
-      instructors: [],
+      instructors: ["Neal Amit Dandade"],
       mode: null,
       title: "Topics in Improv",
       subject: "RTVF",
@@ -37569,7 +37956,7 @@ const sections = {
         },
         {
           name: "Registration Requirements",
-          desc: "Permission number required.",
+          desc: "Please email the instructor at joshua.rains@northwestern.edu for a permission number.",
         },
         {
           name: "Class Materials (Required)",
@@ -37696,11 +38083,12 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This is a workshop course where students will learn fundamental skills in game development through solo and group projects. Students will take these skills and demonstrate a basic understanding of game design theory by analyzing its elements contextualized across various media and be able to provide and receive critical feedback. This course is designed to give insight into the technical aspects of game development while highlighting its creative process. Students are not required to have game-making experience to take this course, although students with experience are welcome to enroll.",
+          desc: "This course will present concepts and practical processes to 3D graphics for digital media. Students will develop a foundational understanding of 3D modeling, texturing, rigging, and animation while being introduced to industry-standard tools. Students will demonstrate their understanding of various creative principles learned in the lecture and be evaluated through active participation, reading responses, presentation, and course projects with group critique. This course is designed for students with no prior 3D modeling and animation experience, although students with experience are welcome to enroll.",
         },
+        { name: "Registration Requirements", desc: "General registration" },
         {
           name: "Learning Objectives",
-          desc: "Upon completion of this course, students should have a strong understanding of game development and implement small-scale digital games, using industry-standard tools. Students should be able to demonstrate technical and creative insight gained by giving and receiving critical design feedback.",
+          desc: "Upon completion of this course, students should have a strong understanding of fundamental work practices with industry-standard tools in 3D modeling and animation. Students should also be able to demonstrate a basic knowledge of design, art, and animation principles through finished 3D art pieces.",
         },
         {
           name: "Teaching Method",
@@ -37708,7 +38096,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "?\tUnity3D (free)\n?\tAdobe Photoshop (Adobe CC licenses provided for free for RTVF courses and students)\n?\tNotetaking materials (pencil, paper, or tablet)\n?\tAccess to a laptop or desktop computer that has the minimum specifications or higher to run Unity3D\n?\tAll required reading and videos will be provided electronically through Canvas",
+          desc: "?\tAutodesk Maya (Free 1-year license available to students)\n?\tBlender3D (optional)\n?\tAdobe Photoshop (Adobe CC licenses provided for free for RTVF courses and students)\n?\tAccess to a laptop or desktop computer that has the minimum specifications or higher to run Autodesk Maya\n?\tAll required reading and videos will be provided electronically through Canvas",
         },
       ],
     },
@@ -37833,6 +38221,23 @@ const sections = {
           desc: "Textbook: Production Design for Screen - Jane Barnwell  Bloomsbury Publishing  $35.25\nISBN 978-1-4725-8067-2\nSketchbook software - $19.99\nLaptop\nDigital camera or smartphone\nTape measure\nOther readings and videos will be shared to illustrate various aspects of what\nwe are covering throughout the class.",
         },
       ],
+    },
+    {
+      unique_id: "19679",
+      instructors: ["Joshua Wade Rains"],
+      mode: null,
+      title: "Topics in Film/Video/Audio Production",
+      subject: "RTVF",
+      number: "379-0",
+      section: "22",
+      meeting_days: "Fr",
+      start_time: "12:00",
+      end_time: "14:50",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
     },
   ],
   "004376": [
@@ -38002,7 +38407,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'In this class, we will explore how video games affect our experiences of time, and vice versa. For centuries, the relationship between time and media has been a subject of debate. What stories are considered "wastes" of time, and which become time well "spent"? How does cinema create the illusion of movement from a series of still photographs? We will analyze various critical, theoretical, and philosophical approaches to temporality in order to better understand and pose new questions about time and digital media in the 21st century. Why do some games let players pause the action, while others don\'t? What do games with time-manipulation mechanics (Braid, Superhot, Dishonored) have to say about time itself? Readings will include Ricoeur on time and narrative, Derrida on ghosts and history, Deleuze on cinema and affect, Keeling on queer and Black futurity, Halberstam on queer temporality, and Barad on quantum space-time.',
+        },
+        {
+          name: "Teaching Method",
+          desc: "This will be a reading- and writing-heavy course: class meetings will consist of discussion of readings, and assignments will generally take the form of written responses and critical essays. Video games (or recorded video game playthroughs) may be assigned alongside films, video clips, and podcasts at low or no cost to students.",
+        },
+      ],
     },
     {
       unique_id: "19012",
@@ -38667,7 +39081,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "12:00",
       end_time: "14:50",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      room: { building_name: "Block Pick-Laudati Auditorium" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -38779,7 +39193,7 @@ const sections = {
   "004577": [
     {
       unique_id: "15446",
-      instructors: [],
+      instructors: ["Nathan Solomon Cohen"],
       mode: null,
       title: "Production in Context",
       subject: "THEATRE",
@@ -38812,16 +39226,50 @@ const sections = {
   "004571": [
     {
       unique_id: "19121",
-      instructors: [],
+      instructors: ["Melissa   Blanco"],
       mode: null,
       title: "Production Laboratory",
       subject: "THEATRE",
       number: "121-0",
       section: "20",
+      meeting_days: "Tu",
+      start_time: "13:00",
+      end_time: "14:20",
+      room: { building_name: "Wirtz Center Cellar" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LAB",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19621",
+      instructors: ["Nathan Solomon Cohen"],
+      mode: null,
+      title: "Production Laboratory",
+      subject: "THEATRE",
+      number: "121-0",
+      section: "21",
       meeting_days: null,
       start_time: null,
       end_time: null,
-      room: null,
+      room: { building_name: "TBA" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LAB",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19622",
+      instructors: ["Nathan Solomon Cohen"],
+      mode: null,
+      title: "Production Laboratory",
+      subject: "THEATRE",
+      number: "121-0",
+      section: "22",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -38937,16 +39385,16 @@ const sections = {
   "016531": [
     {
       unique_id: "15468",
-      instructors: ["Katherine Theresa Lupica", "Ismael   Lara"],
+      instructors: ["Katherine Theresa Lupica"],
       mode: null,
       title: "Fundamentals of Stage Directing",
       subject: "THEATRE",
       number: "211-0",
       section: "20",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:50",
+      room: { building_name: "Wirtz 101 Performnce Black Box" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -39665,7 +40113,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Process centered improvisation and its applications to teaching, performance, therapy, writing, recreation, and other areas.",
+        },
+      ],
     },
   ],
   "022934": [
@@ -40419,7 +40872,7 @@ const sections = {
         },
         {
           name: "Registration Requirements",
-          desc: "Permission number required",
+          desc: "Permission number required. Please email the instructor at joshua.rains@northwestern.edu for a permission number.",
         },
         {
           name: "Learning Objectives",
@@ -40877,7 +41330,7 @@ const sections = {
   "018061": [
     {
       unique_id: "15685",
-      instructors: [],
+      instructors: ["Amy Kristen Johnson"],
       mode: null,
       title: "Intermediate Epidemiology",
       subject: "BIOSTAT",
@@ -40896,7 +41349,7 @@ const sections = {
   "018062": [
     {
       unique_id: "15687",
-      instructors: [],
+      instructors: ["Lutfiyya NaQiyba Muhammad"],
       mode: null,
       title: "Intermediate Biostatistics",
       subject: "BIOSTAT",
@@ -46081,7 +46534,7 @@ const sections = {
       unique_id: "16031",
       instructors: [],
       mode: null,
-      title: "Internship in Marital & Family Therapy",
+      title: "Internship on Marriage & Family Therapy",
       subject: "MS_FT",
       number: "481-0",
       section: "1",
@@ -46136,7 +46589,7 @@ const sections = {
       unique_id: "15872",
       instructors: ["David E Taussig"],
       mode: null,
-      title: "Internship in Marital & Family Therapy",
+      title: "Advanced Internship in Marriage & Family Therapy",
       subject: "MS_FT",
       number: "482-0",
       section: "20",
@@ -46226,10 +46679,29 @@ const sections = {
       course_descriptions: [],
     },
   ],
+  "018656": [
+    {
+      unique_id: "15737",
+      instructors: ["Nyree J C Zerega"],
+      mode: null,
+      title: "Field and Laboratory Methods in Plant Biology and Conservation",
+      subject: "PBC",
+      number: "450-0",
+      section: "1",
+      meeting_days: "MoWe",
+      start_time: "9:00",
+      end_time: "13:00",
+      room: { building_name: "TBA" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
   "005773": [
     {
       unique_id: "15672",
-      instructors: [],
+      instructors: ["Angela Fidler Pfammatter"],
       mode: null,
       title: "Behavior, Society & Health",
       subject: "PUB_HLTH",
@@ -46248,7 +46720,7 @@ const sections = {
   "005774": [
     {
       unique_id: "15673",
-      instructors: [],
+      instructors: ["James M Sinacore"],
       mode: null,
       title: "Introduction to Biostatistics",
       subject: "PUB_HLTH",
@@ -46267,7 +46739,7 @@ const sections = {
   "021626": [
     {
       unique_id: "15694",
-      instructors: [],
+      instructors: ["David Alton Aaby"],
       mode: null,
       title: "Programming for Statistical Analysis",
       subject: "PUB_HLTH",
@@ -46286,7 +46758,7 @@ const sections = {
   "008739": [
     {
       unique_id: "15677",
-      instructors: [],
+      instructors: ["Rola   Kaakeh", "Dan Jay Finn"],
       mode: null,
       title: "Foundations of Public Health I",
       subject: "PUB_HLTH",
@@ -46301,16 +46773,33 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
+    {
+      unique_id: "19631",
+      instructors: [],
+      mode: null,
+      title: "Foundations of Public Health I",
+      subject: "PUB_HLTH",
+      number: "310-0",
+      section: "21",
+      meeting_days: "Tu",
+      start_time: "17:00",
+      end_time: "18:00",
+      room: { building_name: "McGaw Pavilion 2-322 Kellerman" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
   ],
   "015897": [
     {
       unique_id: "15681",
-      instructors: [],
+      instructors: ["Jaime Lynne Hamil"],
       mode: null,
       title: "Foundations of Public Health III",
       subject: "PUB_HLTH",
       number: "312-0",
-      section: "1",
+      section: "20",
       meeting_days: "TuTh",
       start_time: "15:05",
       end_time: "16:30",
@@ -46324,12 +46813,12 @@ const sections = {
   "021109": [
     {
       unique_id: "15693",
-      instructors: [],
+      instructors: ["Shiv Darius Tandon"],
       mode: null,
       title: "Seminar in Community Health Research",
       subject: "PUB_HLTH",
       number: "317-0",
-      section: "1",
+      section: "20",
       meeting_days: "Th",
       start_time: "17:00",
       end_time: "18:00",
@@ -46343,12 +46832,12 @@ const sections = {
   "019980": [
     {
       unique_id: "15690",
-      instructors: [],
+      instructors: ["Sarah S Rittner"],
       mode: null,
       title: "Health Equity",
       subject: "PUB_HLTH",
       number: "323-0",
-      section: "1",
+      section: "20",
       meeting_days: "Th",
       start_time: "18:15",
       end_time: "21:00",
@@ -46362,13 +46851,13 @@ const sections = {
   "022964": [
     {
       unique_id: "15697",
-      instructors: [],
+      instructors: ["Margaret Katherine Wente"],
       mode: null,
       title:
         "Dual Degree Seminar: Topics in Public Health for the Physical Therapist",
       subject: "PUB_HLTH",
       number: "350-0",
-      section: "1",
+      section: "20",
       meeting_days: null,
       start_time: null,
       end_time: null,
@@ -46382,12 +46871,12 @@ const sections = {
   "022625": [
     {
       unique_id: "15696",
-      instructors: [],
+      instructors: ["Mainza Diana Lukobo Durrell"],
       mode: null,
       title: "Seminar in Global Health I",
       subject: "PUB_HLTH",
       number: "387-0",
-      section: "1",
+      section: "20",
       meeting_days: "Th",
       start_time: "17:00",
       end_time: "18:00",
@@ -46401,7 +46890,7 @@ const sections = {
   "015399": [
     {
       unique_id: "15680",
-      instructors: [],
+      instructors: ["William   Leonard"],
       mode: null,
       title: "Introduction to International Public Health",
       subject: "PUB_HLTH",
@@ -46420,7 +46909,7 @@ const sections = {
   "016043": [
     {
       unique_id: "15682",
-      instructors: [],
+      instructors: ["Arthur B Elster"],
       mode: null,
       title:
         "Disease Prevention and Health Promotion: Principles and Application",
@@ -46440,7 +46929,7 @@ const sections = {
   "023525": [
     {
       unique_id: "15916",
-      instructors: [],
+      instructors: ["Archana   Roy", "Grisel Marie Robles-Schrader"],
       mode: null,
       title: "Applied Practice Experience I",
       subject: "PUB_HLTH",
@@ -46459,7 +46948,7 @@ const sections = {
   "023526": [
     {
       unique_id: "15988",
-      instructors: [],
+      instructors: ["Grisel Marie Robles-Schrader"],
       mode: null,
       title: "Applied Practice Experience II",
       subject: "PUB_HLTH",
@@ -46478,7 +46967,7 @@ const sections = {
   "005784": [
     {
       unique_id: "15674",
-      instructors: [],
+      instructors: ["Lindsay Regina Pool"],
       mode: null,
       title: "Intermediate Biostatistics",
       subject: "PUB_HLTH",
@@ -46493,28 +46982,11 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
-    {
-      unique_id: "16006",
-      instructors: [],
-      mode: null,
-      title: "Intermediate Biostatistics",
-      subject: "PUB_HLTH",
-      number: "421-0",
-      section: "21",
-      meeting_days: "We",
-      start_time: "11:30",
-      end_time: "13:00",
-      room: { building_name: "TBA" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [],
-    },
   ],
   "022614": [
     {
       unique_id: "15695",
-      instructors: [],
+      instructors: ["Naomi   Sugar"],
       mode: null,
       title: "Global Health Research Practicum",
       subject: "PUB_HLTH",
@@ -46533,7 +47005,7 @@ const sections = {
   "005788": [
     {
       unique_id: "15675",
-      instructors: [],
+      instructors: ["Joseph M Feinglass"],
       mode: null,
       title:
         "Health Services Research Design & Analysis Strategies: Technology Assessment",
@@ -46553,7 +47025,7 @@ const sections = {
   "010001": [
     {
       unique_id: "15679",
-      instructors: [],
+      instructors: ["Phil B Fontanarosa"],
       mode: null,
       title: "Writing and Peer Reviewing for Scientific Publication",
       subject: "PUB_HLTH",
@@ -46572,7 +47044,7 @@ const sections = {
   "020572": [
     {
       unique_id: "15692",
-      instructors: [],
+      instructors: ["Maureen B Moran"],
       mode: null,
       title: "Artificial Epidemics and Changes in Human Culture",
       subject: "PUB_HLTH",
@@ -46591,7 +47063,7 @@ const sections = {
   "008740": [
     {
       unique_id: "15678",
-      instructors: [],
+      instructors: ["Rishi K Agrawal"],
       mode: null,
       title: "Culminating Experience",
       subject: "PUB_HLTH",
@@ -52283,7 +52755,7 @@ const sections = {
         { name: "Registration Requirements", desc: "Freshman/Sophomore Only" },
         {
           name: "Class Materials (Required)",
-          desc: "Njal's Saga, translated and edited by Robert Cook, Penguin\nISBN 978-0140447699\n\nJesse Byock, Viking Age Iceland, Penguin\nISBN 978-0140291155\n\nCelebrated Cases of Judge Dee, translated by Robert Van Gulik, Dover\nISBN 978-0486233376\n\nRobert Van Gulik, The Haunted Monastery and the Chinese Maze Murders, Dover\nISBN 978-0486235028\n\nJonathan Spence, The Death of Woman Wang, Penguin",
+          desc: "Njal's Saga, translated and edited by Robert Cook, Penguin\nISBN 978-0140447699\n\nJesse Byock, Viking Age Iceland, Penguin\nISBN 978-0140291155\n\nCelebrated Cases of Judge Dee, translated by Robert Van Gulik, Dover\nISBN 978-0486233376\n\nJonathan Spence, The Death of Woman Wang, Penguin",
         },
         {
           name: "Class Materials (Suggested)",
@@ -52971,7 +53443,7 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "1) L.H. Morgan, Ancient Society, 978-0816509249 \n2) K. Marx, Capital, Vol. 1, 978-0140445688 \n3) E. Durkheim, The Elementary Forms of the Religious Life, 978-0199540129 \n4) M. Weber, The Protestant Ethic and the Spirit of Capitalism, 978-0415254069 \n5) Launay, Foundations of Anthropological Theory, 978-1405187756 \n6) E.E. Evans-Pritchard, The Nuer, 978-0195003222 \n7) Clifford Geertz, The Interpretation of Cultures, Basic Books, ISBN 978-0465097197",
+          desc: "1) L.H. Morgan, Ancient Society, 978-0816509249 \n2) K. Marx, Capital, Vol. 1, 978-0140445688 \n3) E. Durkheim, The Elementary Forms of the Religious Life, 978-0199540129 \n4) M. Weber, The Protestant Ethic and the Spirit of Capitalism, 978-0415254069 \n5) Launay, Foundations of Anthropological Theory, 978-1405187756 \n6) Sigmund Freud, Civilization and Its Discontent, 978-0393304510",
         },
         {
           name: "Class Notes",
@@ -53052,6 +53524,10 @@ const sections = {
         {
           name: "Registration Requirements",
           desc: "No special consent required \nReserved for Grad students",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "A combination of free pdfs and several paperback books totaling $30-$40",
         },
       ],
     },
@@ -54330,7 +54806,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Education, despite being touted as a great equalizer, is a highly contested site of struggle. It is a struggle to get in, a struggle to get through, and a struggle to figure out what happens after. Throughout each of these time periods academic and journalistic coverage of the Asian American student experience argue that social, cultural, political, economic, and familial pressures converge and compound on this population leading to unfulfilling, unpleasant, and unbelievable outcomes.\n\nFollowing that claim, this course explores three interlinked and overlapping themes for the quarter: 1) The persistence of the model minority myth and its impact on higher education policy, 2) parent and teacher expectations of Asian American students in K-12 and university settings, and 3) Asian American student mental health and well-being. We will study student activism and the emergence of Ethnic Studies/Asian American Studies in higher education, explore contemporary intersectional Asian American student experiences, and critically examine the politics of "diversity, equity, and inclusion" rhetoric.\n\nIn what ways do Asian American students survive, negotiate, and resist external and internal pressures of success and excellence? How do Asian Americans begin to redefine success on their own terms?',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Texts for this course may include Erin Ninh's Passing for Perfect; Christine Yano, Neal Akatsuka, and the Asian American Collective's Straight A's: Asian American College Students in Their Own Words, and Debbie Lum's documentary Try Harder!\n\nPlease email instructor for a full list of materials required for this class.",
+        },
+      ],
     },
   ],
   "018270": [
@@ -54803,10 +55288,10 @@ const sections = {
       subject: "ASTRON",
       number: "103-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "9:00",
+      end_time: "9:50",
+      room: { building_name: "Technological Institute AUD" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -54841,10 +55326,10 @@ const sections = {
       subject: "ASTRON",
       number: "120-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "14:00",
+      end_time: "14:50",
+      room: { building_name: "Tech Institute Lecture Room 2" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -54860,10 +55345,10 @@ const sections = {
       subject: "ASTRON",
       number: "325-0",
       section: "10",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Technological Institute L158" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -54877,10 +55362,10 @@ const sections = {
       subject: "ASTRON",
       number: "425-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Technological Institute L158" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -54896,10 +55381,10 @@ const sections = {
       subject: "ASTRON",
       number: "329-0",
       section: "10",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "12:30",
+      end_time: "13:50",
+      room: { building_name: "Technological Institute F281" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -55155,10 +55640,10 @@ const sections = {
       subject: "ASTRON",
       number: "429-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "12:30",
+      end_time: "13:50",
+      room: { building_name: "Technological Institute F281" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -55689,7 +56174,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "9:10",
       end_time: "10:50",
-      room: { building_name: "Lutkin Hall" },
+      room: { building_name: "Kresge Centennial Hall 2-435" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -55749,6 +56234,47 @@ const sections = {
       ],
     },
   ],
+  "001416": [
+    {
+      unique_id: "19648",
+      instructors: ["Hilary Kay Truchan"],
+      mode: null,
+      title: "Immunobiology",
+      subject: "BIOL_SCI",
+      number: "355-0",
+      section: "1",
+      meeting_days: "MoWeFr",
+      start_time: "10:00",
+      end_time: "10:50",
+      room: { building_name: "Frances Searle Building 2407" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Immunobiology is the study of the response of higher organisms to foreign substances and pathogens, such as bacteria and viruses. This course examines the cells and organs of the vertebrate immune system and how they function to protect us during an immune response against microbial infection. We will also examine disorders of the immune system, including immune deficiency, hypersensitivity, autoimmunity, and cancer.?",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must have completed BIOL_SCI 203-0 or BIOL_SCI 215-0 and BIOL_SCI 202-0 or BIOL_SCI 219-0, and BIOL_SCI 301-0 to register for this course.?",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, Case studies, In-class group work, Discussions, Readings, Class presentations?",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Quizzes, Exams, Class presentations, Activities",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Kuby?Immunology, 8th Ed., ISBN: 10: 1464189781 x ISBN: 13: 978-1464189784?",
+        },
+        { name: "Class Notes", desc: "No P/N grading?" },
+      ],
+    },
+  ],
   "001419": [
     {
       unique_id: "16186",
@@ -55780,6 +56306,30 @@ const sections = {
           desc: "Exams, class participation and homework.",
         },
         { name: "Class Materials (Required)", desc: "No required textbook." },
+      ],
+    },
+  ],
+  "001421": [
+    {
+      unique_id: "19649",
+      instructors: ["Hilary Kay Truchan"],
+      mode: null,
+      title: "The Human Microbiome",
+      subject: "BIOL_SCI",
+      number: "377-0",
+      section: "1",
+      meeting_days: "WeFr",
+      start_time: "11:30",
+      end_time: "12:50",
+      room: { building_name: "Technological Institute F281" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The Human Microbiome is an introductory course on the collection of microorganisms in and on the body and the fascinating role they play in our health. We will explore different communities of microorganisms in the human body - the gut, urogenital, oral, and skin microbiota and learn about how those communities contribute to or are altered in healthy and diseased states. Topics will include, but are not limited to, the contribution of these communities to digestion and gut health, mood, obesity, the immune system, fertility and pregnancy, and neurological disorders. This is a rapidly expanding field, and we will place a special emphasis on exploring these topics through review of primary research articles.",
+        },
       ],
     },
   ],
@@ -58820,6 +59370,40 @@ const sections = {
       course_descriptions: [],
     },
     {
+      unique_id: "19641",
+      instructors: [],
+      mode: null,
+      title: "Tutorial in Biology",
+      subject: "BIOL_SCI",
+      number: "398-0",
+      section: "328",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: null,
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19642",
+      instructors: [],
+      mode: null,
+      title: "Tutorial in Biology",
+      subject: "BIOL_SCI",
+      number: "398-0",
+      section: "329",
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: null,
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "IND",
+      course_descriptions: [],
+    },
+    {
       unique_id: "10523",
       instructors: ["Joseph S Walsh"],
       mode: null,
@@ -60255,16 +60839,16 @@ const sections = {
   "024103": [
     {
       unique_id: "17742",
-      instructors: ["Nicholas Arjuna Dorzweiler"],
-      mode: "Synchronous",
+      instructors: [],
+      mode: null,
       title: "Field Studies in the Modern Workplace",
       subject: "CFS",
       number: "393-0",
       section: "1",
-      meeting_days: "Tu",
-      start_time: "19:00",
-      end_time: "21:00",
-      room: { building_name: "Meets in Non-General PurposeRm" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -60479,7 +61063,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Quantum mechanics, electronic structure, periodic properties of the elements, chemical bonding, thermodynamics, gas laws, intermolecular forces, properties of solids and liquids. Must be taken concurrently with the Chem 161-0 laboratory course. Prerequisite: Permission of the Chemistry Department by placement assessment. Please contact chemhelp@northwestern.edu for more information.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: Permission of the Chemistry Department by placement exam. Please contact chemhelp@northwestern.edu for more information. Must be taken concurrently with the Chem 161-0 laboratory course at the same lecture time.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: '1. Title: General Chemistry: Principles and Modern Applications, 11th edition\nAuthor: Petrucci et al. \nPublisher: Pearson\nISBN: 9780393284201 \nApprox. Price: $310 new, $60 ebook rental \n\n2. Access to Achieve Learning Course Site (Details to be provided on first day of class)\nPrice: $42 for one quarter, or $64 if two quarters purchased together.\n\n3. Turning Technologies "Clicker" (Model QT2 preferred) and associated subscription\nApprox. price: $96 (clicker and 5-year subscription), or $30 (1 year subscription only), the cell phone "clicker" application will be also be accepted. \n\n4. Scientific Calculator, any model (Starting at $10)\n\nNote: These are the same course materials for CHEM 152',
+        },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/2ouwep9diayP1mLCA",
+        },
+      ],
     },
     {
       unique_id: "16893",
@@ -60508,6 +61109,10 @@ const sections = {
         {
           name: "Class Materials (Required)",
           desc: '1. Title: General Chemistry: Principles and Modern Applications, 11th edition\nAuthor: Petrucci et al. \nPublisher: Pearson\nISBN: 9780393284201 \nApprox. Price: $310 new, $60 ebook rental \n\n2. Access to Achieve Learning Course Site (Details to be provided on first day of class)\nPrice: $42 for one quarter, or $64 if two quarters purchased together.\n\n3. Turning Technologies "Clicker" (Model QT2 preferred) and associated subscription\nApprox. price: $96 (clicker and 5-year subscription), or $30 (1 year subscription only), the cell phone "clicker" application will be also be accepted. \n\n4. Scientific Calculator, any model (Starting at $10)\n\nNote: These are the same course materials for CHEM 152',
+        },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/2ouwep9diayP1mLCA",
         },
       ],
     },
@@ -60541,6 +61146,10 @@ const sections = {
           name: "Class Materials (Required)",
           desc: "Microsoft Excel (available for free from NUIT)\n\nLab coat and goggles will be provided by the Chemistry department.",
         },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/2ouwep9diayP1mLCA",
+        },
       ],
     },
     {
@@ -60558,7 +61167,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Development of the scientific method through chemical analysis of real samples using techniques such as colorimetric analysis, atomic spectroscopy, molecular modeling, and calorimetry. Planning, data collection, interpretation, and reporting on these experiments. Must be taken concurrently with the Chem 151-0 lecture course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: Permission of the Chemistry Department by placement exam. Please contact chemhelp@northwestern.edu for more information. Must be taken concurrently with the CHEM 151-0 laboratory course at the same lecture time.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Microsoft Excel (available for free from NUIT)\n\nLab coat and goggles will be provided by the Chemistry department.",
+        },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/2ouwep9diayP1mLCA",
+        },
+      ],
     },
   ],
   "001462": [
@@ -60698,6 +61324,10 @@ const sections = {
           name: "Class Materials (Suggested)",
           desc: "1. Title: Organic Chemistry Study Guide and Solutions Manual, 7th Edition\nAuthor: Loudon and Parise\nPublisher: Macmillan\nISBN: 9781319363772\nApprox. price: $103 new, $78 used\n\n2. Molecular Modeling Kit (approx. $20)",
         },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
+        },
       ],
     },
     {
@@ -60731,6 +61361,10 @@ const sections = {
         {
           name: "Class Materials (Suggested)",
           desc: "1. Title: Organic Chemistry Study Guide and Solutions Manual, 7th Edition\nAuthor: Loudon and Parise\nPublisher: Macmillan\nISBN: 9781319363772\nApprox. price: $103 new, $78 used\n\n2. Molecular Modeling Kit (approx. $20)",
+        },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
         },
       ],
     },
@@ -60766,13 +61400,17 @@ const sections = {
           name: "Class Materials (Suggested)",
           desc: "1. Title: Organic Chemistry Study Guide and Solutions Manual, 7th Edition\nAuthor: Loudon and Parise\nPublisher: Macmillan\nISBN: 9781319363772\nApprox. price: $103 new, $78 used\n\n2. Molecular Modeling Kit (approx. $20)",
         },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
+        },
       ],
     },
   ],
   "024071": [
     {
       unique_id: "18443",
-      instructors: [],
+      instructors: ["Mark Docto Aparece"],
       mode: null,
       title: "Organic Chemistry II",
       subject: "CHEM",
@@ -60808,7 +61446,7 @@ const sections = {
   "020245": [
     {
       unique_id: "16883",
-      instructors: [],
+      instructors: ["Mark Docto Aparece"],
       mode: null,
       title: "Organic Chemistry Laboratory I",
       subject: "CHEM",
@@ -60867,6 +61505,10 @@ const sections = {
           desc: "Lab coats and goggles, will be provided for use at no cost to students.",
         },
         { name: "Class Materials (Suggested)", desc: "None." },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
+        },
       ],
     },
     {
@@ -60898,6 +61540,10 @@ const sections = {
           desc: "Lab coats and goggles, will be provided for use at no cost to students.",
         },
         { name: "Class Materials (Suggested)", desc: "None." },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
+        },
       ],
     },
     {
@@ -60929,6 +61575,10 @@ const sections = {
           desc: "Lab coats and goggles, will be provided for use at no cost to students.",
         },
         { name: "Class Materials (Suggested)", desc: "None." },
+        {
+          name: "Class Notes",
+          desc: "This course will never completely close. If you can't register for the open sections, or if all sections have closed, please fill out this form: https://forms.gle/zess4U9pdCtdnCUC8",
+        },
       ],
     },
   ],
@@ -62350,7 +63000,7 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
     },
   ],
   "001605": [
@@ -62362,10 +63012,10 @@ const sections = {
       subject: "COMP_LIT",
       number: "202-0",
       section: "20",
-      meeting_days: "MoWe",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Kresge Centennial Hall 2-415" },
+      meeting_days: "MoWeFr",
+      start_time: "13:00",
+      end_time: "13:50",
+      room: { building_name: "Kresge Centennial Hall 2-410" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -62383,6 +63033,23 @@ const sections = {
       start_time: "12:00",
       end_time: "12:50",
       room: { building_name: "Harris Hall L06" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19632",
+      instructors: ["Lucille   Kerr"],
+      mode: null,
+      title: "Interpreting Culture",
+      subject: "COMP_LIT",
+      number: "202-0",
+      section: "22",
+      meeting_days: "MoWeFr",
+      start_time: "13:00",
+      end_time: "13:50",
+      room: { building_name: "Kresge Centennial Hall 2-435" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -62463,6 +63130,25 @@ const sections = {
       course_descriptions: [],
     },
   ],
+  "021209": [
+    {
+      unique_id: "19668",
+      instructors: ["Ilya   Kutik"],
+      mode: null,
+      title: "Studies in Film, Media, and Visual Culture",
+      subject: "COMP_LIT",
+      number: "305-0",
+      section: "20",
+      meeting_days: "TuTh",
+      start_time: "14:00",
+      end_time: "15:20",
+      room: { building_name: "Meets in Non-General PurposeRm" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+  ],
   "023048": [
     {
       unique_id: "18454",
@@ -62479,7 +63165,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'This course maps the literary and cinematic DNA of the contemporary "rom com," from William Shakespeare, Jane Austen, and the screwball comedies of 1930s Classical Hollywood to the 1990s blockbusters and the Netflix revolution. Along the way we may ask: What do the comedic conventions of Western classical drama, the medieval genre of "romance," or the political aesthetics of Romanticism have to do with the romantic comedy as it exists today? The anarchic space of the "comedy" genre is usually understood to include a subversive potential, using absurdism or satire to reimagine power dynamics or to question social norms governing gender, sexuality, race, and family. One question we will ask in this course is: Does the romantic comedy threaten to tame that subversive potential? Or does it promise to release its chaotic energies in ever renewed ways? Students will regularly be asked to watch two movies in a single week. Evaluations are based on participation and preparation; writing several analytic papers for the course; and presenting on an episode, scene, or clip from a recent TV show that helps us understood the genre and its history.',
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Required Texts: \nWilliam Shakespeare, The Taming of the Shrew \nPierre-Augustin de Beaumarchais, The Marriage of Figaro \nJane Austen, Emma  \n \nFilms for this course MAY be drawn from this list: His Girl Friday, The Lady Eve, Parting Glances, Poetic Justice, The Wedding Banquet, When Harry Met Sally, Pretty Woman, Clueless, Out of Sight, Saving Face, Four Weddings and a Funeral, Bridget Jones's Diary, Ten Things I Hate About You, Deliver Us From Eva, Obvious Child, Appropriate Behavior",
+        },
+      ],
     },
   ],
   "001623": [
@@ -62981,8 +63676,8 @@ const sections = {
       number: "101-6",
       section: "40",
       meeting_days: "TuTh",
-      start_time: "11:00",
-      end_time: "12:20",
+      start_time: "14:00",
+      end_time: "15:20",
       room: { building_name: "Annenberg Hall G28" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
@@ -64435,7 +65130,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "11:00",
       end_time: "12:20",
-      room: { building_name: "University Hall 418" },
+      room: { building_name: "University Library 3722" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -65133,9 +65828,9 @@ const sections = {
       number: "206-0",
       section: "21",
       meeting_days: "TuTh",
-      start_time: "9:30",
-      end_time: "10:50",
-      room: { building_name: "University Hall 118" },
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "University Hall 418" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -65363,7 +66058,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "An introduction to some of the many possible voices, styles, and structures of the creative essay.  Students will read from the full aesthetic breadth of the essay, including memoir, meditation, lyric essay, and literary journalism.  Discussions will address how the essay creates an artistic space distinct from the worlds of poetry and fiction, and how truth and fact function within creative nonfiction.  Students will be asked to analyze the readings closely, and to write six short essays based on imitations of the style, structure, syntax, and narrative devices found in the readings.  Students can also expect to do some brief writing exercises and at least one revision.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "English 206. No P/N registration. Attendance of first class is mandatory. Course especially recommended for prospective Writing Majors. Literature Majors also welcome.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Discussion; one-half to two-thirds of the classes will be devoted to discussion of readings and principles, the other classes to discussion of student work.",
+        },
+      ],
     },
   ],
   "001779": [
@@ -65555,7 +66263,7 @@ const sections = {
     },
     {
       unique_id: "16820",
-      instructors: [],
+      instructors: ["Katherine Marie Brichacek"],
       mode: null,
       title: "Writing and Speaking in Business",
       subject: "ENGLISH",
@@ -65678,7 +66386,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "17:00",
       end_time: "19:00",
-      room: { building_name: "University Hall 418" },
+      room: { building_name: "Parkes Hall 213" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -65774,7 +66482,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'In this course we will practice a cutting-edge form of nonfiction at the intersection of documentary, literature, experimental film and video art. We will apply literary techniques to the composition of short multimedia essays and explore the many ways in which writing with image and sound differs from writing for the page. Like its print counterpart, the video essay is an attempt to see what one thinks about something. The video essay may engage with fact, but tends to be less self-assured than documentary. Rather, the video essay, writes Phillip Lopate, "wears confusion proudly as it gropes toward truth." Agnes Varda, the poetic French filmmaker who coined the term cin?criture, or film writing, best described the promise of the form when noting that, for her, writing meant more than simply wording a script. Choosing images, designing sound?these, too, were part of that process. At its best, the video essay leverages the visceral power of sound and image, builds a sympathetic resonance with language, and enlivens the senses. The goal of this course is to better understand how the act of writing is shaped and, in best cases, furthered, by visual and sonic elements. We will author our own short video essays and will, in the process, learn to record and edit video, produce layered soundscapes, and use our voices as tools of performance.',
+        },
+        {
+          name: "Teaching Method",
+          desc: "Students produce four multimedia sketches for this course (a soundscape, a still-image essay, a video portrait, and an object diary), write an audio/visual script, then produce a roughcut video essay or short documentary based on that script, to be followed by a complete, polished film. Readings, screenings and auditions of peer work comprise a substantial share of class sessions.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Films by Laurie Anderson, John Akomfrah, William Burroughs, Raoul Peck, Slavjov Zizek, Ross McElwee and many more, all available via NU.",
+        },
+      ],
     },
   ],
   "001797": [
@@ -66221,7 +66942,21 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Will you support our future robot overlords? Robots have long played a significant role in our cultural imagination, from the earliest science fiction to dozens of recent shows and movies. And with recent advancements in robotics and AI, they are playing an ever-greater role in our everyday life. This course will delve into the cultural history of the robot, from the coining of the term in the 1920 play R.U.R. to The Terminator to contemporary depictions such as Blade Runner 2049 and Westworld. We will compare these fictional robots to the growing number of real robots that increasingly shape our world, from mining and manufacturing to healthcare and food delivery. The course will explore cultural anxieties around AI and robotics, their increasing indistinguishability from humans, our ever-greater reliance on them, and the inevitability of robot world domination.",
+        },
+        { name: "Teaching Method", desc: "Discussion-based seminar." },
+        {
+          name: "Evaluation Method",
+          desc: "Student presentations and final essay.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Karel ?apek, R.U.R. (play, 1920)\nRay Bradbury, The Illustrated Man (short stories, 1951)\nIsaac Asimov, The Complete Robot (short stories, 1982)\nPhilip k. Dick, Do Androids Dream of Electric Sheep (novel, 1968)\nWALL-E (film, 2008)\nSelections from Futurama (series, 1999 - 2006)\nSelections from Atomic Robo (comic, 2007-present)\nI, Robot (film, 2004)\nBlade Runner 2049 (film, 2021)\nSelections from Westworld (series, 2019-present)\nSelections from Lost in Space (series, 1965-1968)",
+        },
+      ],
     },
   ],
   "001847": [
@@ -66817,7 +67552,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Animals, both domesticated and wild, inhabit an uneasy space in American law. On one hand, they are legally property?possessions of a human or a state. At the same time, many animals benefit from legal protections that we do not grant to a rock or a robot. How did we develop our patchwork system of protections over animals? How do we determine which animals are protected and which are left as unambiguous "things"? And is there any way to regulate a nonhuman animal as something other than property? In this course, we will survey the legal status of nonhuman animals in US law, both for domesticated (livestock and companionate) and wild animals.  Our aim will be to develop a practical, rather than an idealized, understanding of the US\'s patchwork of regulation regarding how nonhuman animals can and cannot be treated.  Readings will include federal and state caselaw and statutes as well as secondary legal and historical analyses. \n\nPre-requisites: Legal_St 206-0 or Poli_Sci 230-0, or instructor approval.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "1. Outline the history of regulating the treatment of nonhuman animals in the United States. \n2. Explain the different regulatory schemata for livestock, domestic animals, and wildlife across state, tribal, and federal jurisdictions. \n3. Critically read and synthesize relevant state and federal case law. \n4. Apply their understanding of current US law to new situations involving both domesticated animals and wildlife.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Discussion-based course meeting twice per week.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Case report, quizzes, midterm exam, final exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Eric T. Freyfogle, Dale D. Goble, and Todd A. Wildermuth. Wildlife Law: A Primer. 2nd ed. Island Press, 2019. (9781610919135)",
+        },
+      ],
     },
   ],
   "018572": [
@@ -66889,6 +67645,23 @@ const sections = {
       component: "LEC",
       course_descriptions: [],
     },
+    {
+      unique_id: "19676",
+      instructors: ["Patricia Ann Loew"],
+      mode: null,
+      title: "Special Topics in Environmental Policy and Culture",
+      subject: "ENVR_POL",
+      number: "390-0",
+      section: "24",
+      meeting_days: "TuTh",
+      start_time: "10:30",
+      end_time: "12:20",
+      room: { building_name: "McCormick Foundation Ctr 2131" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
   ],
   "016388": [
     {
@@ -66953,9 +67726,24 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: 'Re-Enchant and Repair: Theoretical and Literary Approaches to the Human Subject\n\nWhat does it mean to be human, and how will recent advances in technology and climate change radically transform our humanity? How might we "re-enchant" our understanding of the human beyond limited views that have shaped the West historically through colonialism and imperialism? How might we imagine a humanism that would be centered on repair, care, sustainability, and justice? This seminar will examine several literary works of science fiction and seminal theories of humanism and post-humanism to address these questions. Embracing a historical approach, we will explore various conceptions of the human and subjectivity from the discovery of the New World to the present day. We will trace how redefining humanism entails addressing problems pertaining to theories of the affects and emotions, media, and technology while looking at the intersection of race, gender, and sexuality.',
+          desc: 'Re-Enchant and Repair: Theoretical and Literary Approaches to the Human Subject\n\nIn the middle of the twenty-first century, anti-colonial and anti-humanist movements critiqued European humanism and its conception of man as rational and superior to others. Today, advances in technology (e.g., gene editing and virtual reality) and climate change raise new issues as they challenge the future of humanity and how we define ourselves as subjects. What does it mean to be human, and how will recent advances in technology and climate change radically transform our humanity in the future? How might we "re-enchant" our understanding of the human beyond harmful views that have shaped the West historically through colonialism and imperialism? How might we imagine a humanism centered on repair, sustainability, and re-enchantment? This seminar will explore these questions through a wide range of critical essays and narrative fiction. We will examine various conceptions of the human from the discovery of the New World to contemporary theories of post and trans-humanisms. We will trace how redefining humanism requires us to address problems in bioethics, media, technology, and other perspectives at the intersection of race, gender, and sexuality. Additionally, as our course is a first-year seminar, we will also learn about and discuss various aspects of college academic life as well as the skills you will need to flourish at Northwestern.',
         },
-        { name: "Class Materials (Required)", desc: "TBA" },
+        {
+          name: "Registration Requirements",
+          desc: "Reserved for Freshmen and Sophomores.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Short lectures and class discussion.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Writing assignments (including peer review components), group presentation, and class participation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "There will be readings made available on canvas by Michel Foucault, Sylvia Wynter, Edouard Glissant, Michel Houellebecq, Aldous Huxley, and Michel Serres.\n\nRequired:\n\nThey Say / I Say: The Moves That Matter in Academic Writing with Readings",
+        },
       ],
     },
   ],
@@ -67925,19 +68713,28 @@ const sections = {
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "What makes a place hospitable, and what creates feelings of belonging? What allows different cultures to live peacefully in a foreign city? How do the history and memory of migrants and refugees shape the literary imaginary of cities and inform migratory policies? This course will explore these questions by looking at literature emerging from and located in Marseille. Marseille often presents itself as a cosmopolitan city, une ville d'acceuil. One of the oldest ports in Europe, it has been the home of travelers, migrants, refugees, and foreigners for centuries. By examining travel logs, memoirs, novels, poems, and plays, from the nineteenth century to the present, we will analyze how Marseille offered, on the one hand, a view of the colonial world and, on the other, a home for writers in exile. In a political context where nationalism gains power and territory across the globe, we will ask what model literature of Marseille might offer to reimagine the world and conceive of cultural diversity and belonging beyond citizenships and nation buildings.",
+          desc: "Marseille, one of the oldest ports in Europe, has attracted migrants, refugees, and foreigners, especially from the Jewish and black diaspora, over several centuries. It offered a home for writers in exile and a window onto France's former colonies. As a result, it often presents itself to the world as a cosmopolitan city, \"une ville d'acceuil,\" but what makes a place hospitable and creates a sense of belonging? Has Marseille's cosmopolitanism evolved through time, and does this representation still hold today? Finally, what does the literary imaginary of Marseille reveal about French literature? This course will address these questions by examining (in)hospitality and cosmopolitanism in Marseille from the modern to the contemporary period. Looking across multiple literary genres, including poetry, prose, drama, memoirs, and travel logs, we will look at the role of Marseille in French and Francophone literature. We will examine what model works of literature of Marseille might offer to reimagine a more equitable and peaceful world and conceive of cultural diversity and forms of belonging beyond citizenships and nation building.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "FRENCH 202-0, AP score of 5, or consent of instructor.",
         },
         {
           name: "Learning Objectives",
           desc: "This course will focus on close reading and the development of critical writing skills. All lectures and readings will be in French.",
         },
+        { name: "Teaching Method", desc: "Short lectures, discussions." },
         {
           name: "Evaluation Method",
-          desc: "Presentations, papers, and discussions.",
+          desc: "Presentation, written assignments, and final project or paper.",
         },
         {
           name: "Class Materials (Required)",
-          desc: "Tentative course materials (subject to change): course packet TBA",
+          desc: "Course materials (subject to change) include selected writings by Alexandre Dumas, ?mile Zola, Albert Londres, Marcel Pagnol, Simone De Beauvoir, Albert Cohen, Jean Claude Izzo, Maylis de Kerangal, and Jacques Derrida.\n\nRequired:\nClaude Mackay, Banjo Une histoire sans intrigue\nJean Malaquais, Plan?te sans vis",
+        },
+        {
+          name: "Class Notes",
+          desc: "We might explore the collections on Marseille at the Northwestern library to create a digital humanities project together.",
         },
       ],
     },
@@ -68755,7 +69552,7 @@ const sections = {
     },
     {
       unique_id: "18543",
-      instructors: [],
+      instructors: ["William   Leonard"],
       mode: null,
       title: "Special Topics in Global Health",
       subject: "GBL_HLTH",
@@ -68906,7 +69703,7 @@ const sections = {
   "001955": [
     {
       unique_id: "17134",
-      instructors: ["Denise Marie Meuser"],
+      instructors: ["Robert Gary Ryder"],
       mode: null,
       title: "Beginning German",
       subject: "GERMAN",
@@ -68941,7 +69738,7 @@ const sections = {
     },
     {
       unique_id: "16593",
-      instructors: ["Martina F Kerlova"],
+      instructors: ["Eleonora   Antonakaki Giannisi"],
       mode: null,
       title: "Beginning German",
       subject: "GERMAN",
@@ -68976,7 +69773,7 @@ const sections = {
     },
     {
       unique_id: "16594",
-      instructors: ["Denise Marie Meuser"],
+      instructors: ["Martina F Kerlova"],
       mode: null,
       title: "Beginning German",
       subject: "GERMAN",
@@ -69011,7 +69808,7 @@ const sections = {
     },
     {
       unique_id: "16617",
-      instructors: ["Eleonora   Antonakaki Giannisi"],
+      instructors: [],
       mode: null,
       title: "Beginning German",
       subject: "GERMAN",
@@ -69046,7 +69843,7 @@ const sections = {
     },
     {
       unique_id: "16595",
-      instructors: [],
+      instructors: ["Denise Marie Meuser"],
       mode: null,
       title: "Beginning German",
       subject: "GERMAN",
@@ -69218,16 +70015,16 @@ const sections = {
   "022258": [
     {
       unique_id: "18539",
-      instructors: ["Robert Gary Ryder"],
+      instructors: ["Denise Marie Meuser"],
       mode: null,
       title: "History, Politics, and Culture in 21st Century German",
       subject: "GERMAN",
       number: "213-0",
       section: "1",
       meeting_days: "MoWeFr",
-      start_time: "13:00",
-      end_time: "13:50",
-      room: { building_name: "Parkes Hall 223" },
+      start_time: "10:00",
+      end_time: "10:50",
+      room: { building_name: "Kresge Centennial Hall 2-343" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -69264,10 +70061,10 @@ const sections = {
       subject: "GERMAN",
       number: "221-3",
       section: "1",
-      meeting_days: "TuTh",
+      meeting_days: "MoWe",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "Kresge Centennial Hall 2-331" },
+      room: { building_name: "Harris Hall L06" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -69293,13 +70090,26 @@ const sections = {
       number: "230-0",
       section: "1",
       meeting_days: "MoWeFr",
-      start_time: "13:00",
-      end_time: "13:50",
-      room: { building_name: "Kresge Centennial Hall 2-410" },
+      start_time: "14:00",
+      end_time: "14:50",
+      room: { building_name: "Locy Hall 301" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "As a European and international metropolis, Berlin has exerted a special attraction over the last 120 years. Berlin's extremely eventful history has been described and reflected in a multitude of literary texts, film, visual arts, and music. Based on its current cultural and historical situation, the course aims at uncovering layer by layer significant stages of the city's history: Berlin as the capital of the German Empire, the Weimar Republic, the Third Reich, as the divided city of the Cold War and the capital of the Berlin Republic after Germany's reunification. Drawing on a wide range of media, from maps through film to music and literature, sudents will identify specific features of the respective historic constellations and explore how the 20th century affects life in 21st century Berlin. Finally, by taking a closer look at today's Berlin with its ruptures and its ability of ever reinventing itself, we will give special attention to representations of Berlin's intricate social structure, which is reflective of the changing face of national culture, and to questions of migration and mobility, marginalization and gentrification.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "- evaluate and discuss twentieth and twenty-first century German (central European) history, beginning with the years immediately preceding WWI and ending with contemporary Berlin - elaborate different approaches to the metropolis of Berlin and the idea of cosmopolitanism - critically articulate diverse representations of identity in the urban context of twentieth and twenty-first century Berlin - elaborate aspects of the history of minority communities in Berlin - define shifts in literary culture from theturn of the twentieth century to recent developments - experience and assess the change in the medialandscape with the development of modern technologies of reproduction via photography, soundrecordings, and films associated with Berlin",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "David Clay Large, Berlin. Basic Books, 2001. (ISBN: 046502632X)",
+        },
+      ],
     },
   ],
   "001981": [
@@ -69311,10 +70121,10 @@ const sections = {
       subject: "GERMAN",
       number: "232-0",
       section: "1",
-      meeting_days: "MoWe",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Kresge Centennial Hall 2-415" },
+      meeting_days: "MoWeFr",
+      start_time: "13:00",
+      end_time: "13:50",
+      room: { building_name: "Kresge Centennial Hall 2-410" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -69350,9 +70160,9 @@ const sections = {
       number: "309-2",
       section: "1",
       meeting_days: "MoWeFr",
-      start_time: "10:00",
-      end_time: "10:50",
-      room: { building_name: "Kresge Centennial Hall 2-325" },
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "Lunt Hall 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -70138,7 +70948,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: Queer Love and Loss.\n\nThe dynamics of love and loss have long been animating forces in queer of color critique, queer theory, and trans studies. This course explores the thematics of love and loss in queer and trans art and writing, engaging with key debates about pleasure, death, and sex; melancholia and reparation; desire, love, being-with, and grief. Paying particular attention to queer of color, feminist, and trans approaches to love and loss, and drawing from intellectual traditions that include psychoanalysis and performance studies, authors and artists studied may include: C. Riley Snorton, Christina Sharpe, Jos? Esteban Mu?oz, Amber Musser, Lauren Berlant, Micha Cardenas, Felix Gonz?lez-Torres, Yoko Ono, Leo Bersani, Hoang Tan Nguyen, Nao Bustamante, Sigmund Freud, Melanie Klein, Juana Maria Rodr?guez, Gertrude Stein, Jean LaPlanche, Paul Preciado, Avgi Saketopoulou, David Eng, Shinhee Han, Jennifer Doyle, Darieck Scott, Eve Kosofsky Sedgwick, Marlon Riggs, Keijaun Thomas, Joan Riviere, and Omiseke Nitasha Tinsley. This course is open to graduate students only.",
+        },
+        { name: "Registration Requirements", desc: "Graduate Students Only" },
+        {
+          name: "Class Materials (Required)",
+          desc: "All assigned materials will be available on Canvas.",
+        },
+      ],
     },
   ],
   "001569": [
@@ -70200,7 +71020,7 @@ const sections = {
   "002318": [
     {
       unique_id: "16577",
-      instructors: [],
+      instructors: ["Ronit A Alexander"],
       mode: null,
       title: "Hebrew I",
       subject: "HEBREW",
@@ -70854,7 +71674,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course investigates the history of sexuality in early modern England by examining the social norms that shaped behavior. Notions of what was normative and what was aberrant were constantly being tested. Public scandals served as moments of stress, revealing the cultural faultlines in the changing world of early modern England. Behavior that was considered appropriate in one venue spilled out into other venues where it was considered unseemly. These cultural energies found their way into plays and poems, which reenacted the wider struggles over social norms.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will learn how to interpret historical documents, how to frame a historical argument based on primary sources, and how to critique popular narratives about early modern sexuality.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "1. Participation, including six one-page response papers. 25% 2. Passage analysis (three to four pages). 25% 3. Midterm examination. 25% 4. Final examination. 25%",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All the assigned readings will be uploaded on Canvas\nHistory Area(s) of Concentration: European",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: European",
+        },
+      ],
     },
   ],
   "002043": [
@@ -70913,7 +71754,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: The Black Atlantic: Slavery & Diaspora in the Mode \n\nThe Black Atlantic is both a space of physical movement?i.e., coerced and voluntary migrations?and of cultural exchange, shaped by social inequalities and racial discourses. We will look at the historical experiences of this diaspora\'s populations and debate how these experiences created an important body of reflections, and critiques, on the idea of "modernity." From theoretical discussions over the concept of "Black Atlantic" to the development of racial thinking during the period, and from conversations about the forms of enslavement in Africa to the making of slave systems in the Americas, we will explore why this history has left an enduring shadow in the political and cultural struggles of the contemporary world.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Learning how to think historically about  the Black Atlantic in global modern history; Learning how to think on multiple spatial scales from macro-level processes to individual experiences; Reading primary and secondary historical sources for argument and evidence.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Participation (%50), Essays (%25 each)",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All the assigned readings will be uploaded on Canvas",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Americas, Africa/Middle East",
+        },
+      ],
     },
     {
       unique_id: "19589",
@@ -70930,7 +71792,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Topic: The Business of Protest: A World History of Consumer Activism\n\nWhat happens when ordinary people try to change the world through their purchasing power? In this course, we will examine political consumerism as a form of protest in history, and explore how it has been employed to achieve diverse political and social goals. We will examine the ways in which consumption became a meaningful way to express individual and collective identities, and interrogate the relation between mass consumption and histories of empire, the environment, class, race, and gender.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "This seminar will equip students with skills of critical reading and the basic toolkit of historical thinking in the service of cultivating an engaged citizenship. We will apply methods of textual and visual analysis, for both primary sources and secondary literature, to learn how to use historical thinking in evaluating contemporary political narratives and claims.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Sixty percent of the final grade is based on your work throughout the quarter: half for participation in class discussion, and half for preparing for the final assignment. The final project calls for a written report about one case study of your choosing. Your main task would be to develop an original argument about the ways in which people in the past attempted to enact political change, on any particular issue, using their purchasing power. We will discuss each of these written assignments as the deadline approaches.",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "All the assigned readings will be uploaded on Canvas",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Global",
+        },
+      ],
     },
   ],
   "018652": [
@@ -71021,7 +71904,7 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "Harris Hall L06" },
+      room: { building_name: "University Hall 121" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -71176,7 +72059,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "Technological Institute L221" },
+      room: { building_name: "University Hall 101" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -71369,7 +72252,7 @@ const sections = {
       unique_id: "18839",
       instructors: ["Peter J Carroll"],
       mode: null,
-      title: "History of Modern China: Late Imperial China, 1600-1911",
+      title: "Modern China: The Transition to Modern Times, 1600-1912",
       subject: "HISTORY",
       number: "381-1",
       section: "20",
@@ -71461,44 +72344,6 @@ const sections = {
       end_date: "2022-12-03",
       component: "SEM",
       course_descriptions: [],
-    },
-    {
-      unique_id: "17467",
-      instructors: ["Amy Beth Stanley"],
-      mode: null,
-      title: "Approaches to History",
-      subject: "HISTORY",
-      number: "393-0",
-      section: "22",
-      meeting_days: "MoWe",
-      start_time: "15:30",
-      end_time: "16:50",
-      room: { building_name: "Kresge Centennial Hall 4-410" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "SEM",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "Topic: Shanghai: Modernity and Modernism in 20th-Century China\n\nShanghai: Paris of the East, Paradise of Adventurers, Birthplace of the Chinese Communist Party, City of Migrants, City of Capitalist Decadence and Debauchery, Nightmare City, Refugee City, Island Shanghai, China's Industrial City, Open Port. In the first part of the 20th century, Shanghai was known by many names and attributes, positive and negative. Each highlighted different aspects of Shanghai as a key site for the creation of modernity and modernism in China and greater East Asia. This class will examine various facets of Shanghai's complex bequest as the paradigmatic modern Chinese city due to its place as a colonial port city and center of industry, culture, and politics. This course will use fiction, historical studies, and films to explore the city and its place in modern nationalism, industrial capitalism and finance, feminism and gender/sexual politics, intellectual movements, and modern urban lifeways. [Students may take the class as a 395; they will be able to draw on a vast store of English-, Chinese-, Japanese-, and French-language newspapers, archival documents, films, and more (via NU Library databases) to write a research paper.]",
-        },
-        {
-          name: "Learning Objectives",
-          desc: "1)\tGain an understanding of the essential role of Shanghai as a center of modern urban culture, nationalist political ideologies, and shifting gender ideals, as well as the city's role as a colonial treaty port, national industrial and financial center, and global city.   \n 2)\tThe course provides opportunities for students to improve their capacity to discuss and analyze key events and course themes in speech and writing. What techniques can make writing more rhetorically powerful? What constitutes a good thesis/argument/point, and how might it be improved?  \n3)\tStudents will consider how a complex understanding of early 20th c.  Chinese history might alter their received sense of World history and modernity, as well as the histories of China, Taiwan, Japan, the USA, and other countries.  \n4)\tWe will consider the analytical value and use of different types of historical, including contemporary newspaper and government documents, Republican-era films and books (fiction and non-fiction), and secondary scholarship, to make historical arguments.",
-        },
-        {
-          name: "Evaluation Method",
-          desc: "Seminar discussion and Canvas discussion board (30%),  analytical essay (30%) ,final paper (40%)",
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "All the assigned readings will be uploaded on Canvas",
-        },
-        {
-          name: "Class Notes",
-          desc: "History Area(s) of Concentration: Asia/Middle East",
-        },
-      ],
     },
     {
       unique_id: "19456",
@@ -71613,6 +72458,44 @@ const sections = {
         {
           name: "Class Notes",
           desc: "History Area of Concentration: Americas, Eurupean",
+        },
+      ],
+    },
+    {
+      unique_id: "19605",
+      instructors: ["Andrea Daniel Rosengarten"],
+      mode: null,
+      title: "Research Seminar",
+      subject: "HISTORY",
+      number: "395-0",
+      section: "24",
+      meeting_days: "MoWe",
+      start_time: "15:30",
+      end_time: "16:50",
+      room: { building_name: "Locy Hall 213" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "SEM",
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'Topic: African Cities\n\nPopular representations of the African continent often depict a place of open landscapes, no cities, and a homogenous population living in a timeless harmony with nature. How do African cities disrupt these persistent stereotypes about Africa still present today in journalism and other media in the Global North? In this course we challenge and complicate such entrenched narratives by studying the interconnections of African cities to wide regional and global networks from early times to the present. Case study cities include Lagos, Accra, Dakar, Mombasa, Nairobi, Dar es Salaam, Johannesburg, and Cape Town, as well as earlier antecedents of African urbanism and their entanglements in Mediterranean, Indian, and Atlantic Ocean worlds. Beyond revealing Africa\'s long-standing urban cosmopolitanism, African cities give us insights into "subaltern" histories of the lives of non-elite people who are typically excluded from conventional written archives. Through exploring the eclectic methodologies in African history research for reconstructing city life, this course considers the mobility and marginality experiences of urban groups across place and time.',
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Through engaging weekly readings and seminar discussions, students in this course will learn how to investigate 3 interconnected issues in African urban history: (1) the long-standing cosmopolitanism of African cities and urban dwellers with connections to wide regional and international networks; (2) research methods and narrative choices for accessing social and subaltern histories in urban spaces; and (3) understanding the complex historical roots of urban inequalities across different African cities. For the final assignment, students will hone their mastery of these themes and also their research and writing skills by executing an original research project on a history of social, spatial, and/or political inequality in an African city of their choosing, or in a city beyond the continent with an African diasporic history.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Canvas discussion forums and synchronous class participation; map quiz; one short essay on historical source analysis methods drawing from course readings; annotated bibliography for final research project due at midterms; final project research paper; short class presentation on final research project.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "All the assigned readings will be uploaded on Canvas. Suggested purchase: Ato Quayson, Oxford Street: Accra. City Life and the Itineraries of Transnationalism. (Duke, 2014) 9780822357476",
+        },
+        {
+          name: "Class Notes",
+          desc: "History Area(s) of Concentration: Africa/Middle East",
         },
       ],
     },
@@ -74865,10 +75748,10 @@ const sections = {
       subject: "IBIS",
       number: "455-0",
       section: "1",
-      meeting_days: "MoTh",
-      start_time: "9:00",
-      end_time: "11:00",
-      room: { building_name: "Technological Institute M166" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: { building_name: "TBA" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -76051,7 +76934,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "12:30",
       end_time: "13:50",
-      room: { building_name: "McCormick Foundation Ctr Forum" },
+      room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -78205,7 +79088,22 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "A comparative overview of the classification and analysis of the major features and structures of Japanese and English. Rather than providing a broad survey of a wide range of issues, the course will present more extended case studies of a few issues. This quarter the course will be concerned with issues involving phrase structure, word order, case systems, and patterns of relativization such as head-external and head-internal relative clauses. The major goal in this course is to figure out to what extent the grammar of Japanese and English are different and to what extent they are similar. What we will see, in the course of discussion, is that the grammar of Japanese and English are very similar.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Students will gain comprehensive knowledge of the structure of Japanese language and methodology of Japanese linguistics.",
+        },
+        { name: "Teaching Method", desc: "Lectures and discussion" },
+        { name: "Evaluation Method", desc: "Homework and Exams" },
+        {
+          name: "Class Materials (Required)",
+          desc: "Research papers, handouts and slides.",
+        },
+      ],
     },
   ],
   "002396": [
@@ -78301,7 +79199,32 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The goal of this course is to give students the tools to improve their intelligibility and effectiveness when communicating in English, with an emphasis on oral communication in the American academic context. Students will consider how the academic context may vary across cultures, and become acquainted with American norms and expectations. They will develop key skills for academic interactions, such as making small talk, effective use of email, and formal/informal presentations. Along the way, students will learn about the sound structure of English as they work towards improved pronunciation and fluency. Students will have an opportunity to consider their own oral English proficiency in light of proficiency assessments used at Northwestern, and will receive feedback on Versant test performance and practice sessions.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must qualify for the Integrated Academic Skills curriculum to be eligible for the class. Students who qualify will be contacted by English Language Programs with registration details.  Contact elp@northwestern.edu with questions.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students will be able to:\n\n1. Describe key features of the sound structure of English, including the articulation of consonants and vowels, word stress, linking, intonation, and prosody.\n\n2. Describe key components of oral language proficiency as measured by the Versant English Test and specified in the ACTFL Can-Do Statements.\n\n3. Compare and contrast academic norms across cultures.\n\n4. Identify and execute strategies for effective communication in the American academic context, including small talk, email, reporting on visual information, and formal/informal presentations.\n\n5. Identify their own specific strengths and weaknesses when using spoken English. Demonstrate progress toward achieving goals targeting improved proficiency.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, discussion, small group activities, peer feedback, and homework",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You are expected to complete regular readings and assignments each week. The concepts introduced in these readings and assignments will form the basis for classroom work, so it is important that you complete them in advance of the class for which they are assigned. You will also be assessed on attendance and participation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The textbook for this course is Well Said, Fourth Edition, by Linda Grant (ISBN-10: 1305641361, ISBN-13: 9781305641365). Previous editions are not acceptable. New and used copies of the textbook are available for purchase at the Norris Center Bookstore, or you may purchase a copy of the same edition online or from another student.",
+        },
+      ],
     },
     {
       unique_id: "17516",
@@ -78318,7 +79241,32 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The goal of this course is to give students the tools to improve their intelligibility and effectiveness when communicating in English, with an emphasis on oral communication in the American academic context. Students will consider how the academic context may vary across cultures, and become acquainted with American norms and expectations. They will develop key skills for academic interactions, such as making small talk, effective use of email, and formal/informal presentations. Along the way, students will learn about the sound structure of English as they work towards improved pronunciation and fluency. Students will have an opportunity to consider their own oral English proficiency in light of proficiency assessments used at Northwestern, and will receive feedback on Versant test performance and practice sessions.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must qualify for the Integrated Academic Skills curriculum to be eligible for the class. Students who qualify will be contacted by English Language Programs with registration details.  Contact elp@northwestern.edu with questions.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students will be able to:\n\n1. Describe key features of the sound structure of English, including the articulation of consonants and vowels, word stress, linking, intonation, and prosody.\n\n2. Describe key components of oral language proficiency as measured by the Versant English Test and specified in the ACTFL Can-Do Statements.\n\n3. Compare and contrast academic norms across cultures.\n\n4. Identify and execute strategies for effective communication in the American academic context, including small talk, email, reporting on visual information, and formal/informal presentations.\n\n5. Identify their own specific strengths and weaknesses when using spoken English. Demonstrate progress toward achieving goals targeting improved proficiency.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, discussion, small group activities, peer feedback, and homework",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You are expected to complete regular readings and assignments each week. The concepts introduced in these readings and assignments will form the basis for classroom work, so it is important that you complete them in advance of the class for which they are assigned. You will also be assessed on attendance and participation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The textbook for this course is Well Said, Fourth Edition, by Linda Grant (ISBN-10: 1305641361, ISBN-13: 9781305641365). Previous editions are not acceptable. New and used copies of the textbook are available for purchase at the Norris Center Bookstore, or you may purchase a copy of the same edition online or from another student.",
+        },
+      ],
     },
     {
       unique_id: "17517",
@@ -78335,7 +79283,32 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The goal of this course is to give students the tools to improve their intelligibility and effectiveness when communicating in English, with an emphasis on oral communication in the American academic context. Students will consider how the academic context may vary across cultures, and become acquainted with American norms and expectations. They will develop key skills for academic interactions, such as making small talk, effective use of email, and formal/informal presentations. Along the way, students will learn about the sound structure of English as they work towards improved pronunciation and fluency. Students will have an opportunity to consider their own oral English proficiency in light of proficiency assessments used at Northwestern, and will receive feedback on Versant test performance and practice sessions.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must qualify for the Integrated Academic Skills curriculum to be eligible for the class. Students who qualify will be contacted by English Language Programs with registration details.  Contact elp@northwestern.edu with questions.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students will be able to:\n\n1. Describe key features of the sound structure of English, including the articulation of consonants and vowels, word stress, linking, intonation, and prosody.\n\n2. Describe key components of oral language proficiency as measured by the Versant English Test and specified in the ACTFL Can-Do Statements.\n\n3. Compare and contrast academic norms across cultures.\n\n4. Identify and execute strategies for effective communication in the American academic context, including small talk, email, reporting on visual information, and formal/informal presentations.\n\n5. Identify their own specific strengths and weaknesses when using spoken English. Demonstrate progress toward achieving goals targeting improved proficiency.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Lecture, discussion, small group activities, peer feedback, and homework",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You are expected to complete regular readings and assignments each week. The concepts introduced in these readings and assignments will form the basis for classroom work, so it is important that you complete them in advance of the class for which they are assigned. You will also be assessed on attendance and participation.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The textbook for this course is Well Said, Fourth Edition, by Linda Grant (ISBN-10: 1305641361, ISBN-13: 9781305641365). Previous editions are not acceptable. New and used copies of the textbook are available for purchase at the Norris Center Bookstore, or you may purchase a copy of the same edition online or from another student.",
+        },
+      ],
     },
   ],
   "002418": [
@@ -78354,7 +79327,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: 'One of the most important communication skills necessary for a successful academic career is the ability to write effectively in a variety of genres. This course aims to address the needs of nonnative speakers of English in developing their writing skills. We will focus both on the mechanics of English sentences and paragraphs as well as the local and global discourse structure of written texts. A workshop atmosphere is encouraged in the classroom, and online homework assignments encourage students to extend their writing practice into their own fields of expertise and interest. Students will also receive explicit constructive criticism from the instructor on regular electronic submissions. This class is a "hybrid" course, meaning that 50% of the class is conducted online. Rather than meeting for two and a half hours per week, we meet for only one and a quarter hours, and that face-to-face time is spent working on the issues presented in each weekly unit.',
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Students must complete an online form from English Language Programs in order to be eligible for the class and obtain a permission number. Contact elp@northwestern.edu for specific registration instructions.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to: ? Describe key features of rhetorical structure of academic written English. ? Identify their specific strengths and weaknesses when using written English. ? Draft, revise, and edit a piece of writing appropriate for an American academic audience, incorporating feedback from the course instructor and peers. ? Demonstrate progress toward improved proficiency (clarity, accuracy, and effectiveness).",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Small group activities, discussion, lecture, online exercises, and presentations.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "You are expected to complete regular readings and assignments each week, including the online assignments. The concepts introduced in these readings and assignments will form the basis for classroom work, so it is important that you complete them in advance of the class for which they are assigned.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class materials will be available online.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
   ],
   "002427": [
@@ -78373,7 +79372,29 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course focuses on theoretical and practical issues in data visualization and the application of regression models to data in language science. You will use the R statistical computing environment to develop reproducible workflows for visualizing and statistically analyzing real data sets (e.g., reaction times, error rates, scalar judgments), examining language structure at various levels (from sound to meaning), while accounting for variation across trials, participants, and items.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Graduate standing; one course in statistics",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Through successfully completing this course, you will be able to:\n1. Use the R statistical package to visualize data in language science.\n2. Select the appropriate regression model for analysis of these data. \n3. Use the R statistical package to build regression models of these data.\n4. Critically evaluate regression model results.\n5. Develop reproducible workflows to enable open language science.",
+        },
+        { name: "Teaching Method", desc: "Lecture, lab exercises" },
+        {
+          name: "Evaluation Method",
+          desc: "In-class exercises, laboratory assignments, final paper",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The textbook for this course is Statistics for Linguists: An Introduction Using R, by Bodo Winter (ISBN 9781315165547). This can be rented as an e-book or purchased (e-book, paperback or hardback) https://www.routledge.com/Statistics-for-Linguists-An-Introduction-Using-R/Winter/p/book/9781138056084.",
+        },
+      ],
     },
   ],
   "014380": [
@@ -78392,7 +79413,29 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course engages with a variety of theoretical frameworks and analytic methods in sociolinguistics. The course will emphasize classic and contemporary work in linguistic variation and change, examining how this variation can reflect social structures, construct diverse social identities, and allow us to make sense of our surrounding social landscapes. We will discuss how quantitative methods in linguistics can be coupled with insights from linguistic anthropology and sociology to engage questions about the social conditioning of linguistic variation, language change, stylistic practice, and the connection between smaller-scale interactions and macro-social patterns of variation. We will also will examine how ideologies about linguistic variation have been used to invalidate particular ways of speaking and disempower speakers of these varieties, exploring the ways that language can reflect, reinforce, or ultimately contest social inequalities.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Graduate standing or instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "Through successfully completing this course, you will understand fundamental theoretical approaches to the study of sociolinguistics, become familiar with a variety of an analytic methods in sociolinguistic variation, and be able to connect the study of variation with social theoretic perspectives on structure, practice, and ideology. You will also be able to understand and critique the ways in which linguistic variation, change, and our ideologies surrounding language relate to social structures of power and inequality.",
+        },
+        { name: "Teaching Method", desc: "Lecture\nDiscussion" },
+        {
+          name: "Evaluation Method",
+          desc: "Student-led class discussions\nProject, final: Final project paper\nReadings: Reading responses",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "No required texts (all will be provided by instructor)",
+        },
+      ],
     },
   ],
   "021793": [
@@ -78430,7 +79473,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "16766",
@@ -78448,7 +79517,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "16767",
@@ -78466,7 +79561,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "16768",
@@ -78484,7 +79605,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "17918",
@@ -78502,7 +79649,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "17919",
@@ -78520,7 +79693,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
     {
       unique_id: "17989",
@@ -78538,7 +79737,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, a trained tutor provides individualized language study for the purpose of increasing nonnative speakers' proficiency in English, in both academic and everyday contexts. At the beginning of the term, students will complete a needs assessment to determine which aspects of spoken English are most critical for current communication skills. These may include: accent and intelligibility, grammatical errors, sociolinguistic skills, intercultural competence, classroom communication skills, formal and informal writing tasks, and more. Together, the tutor and student will create a set of learning goals for the term. The tutor will then provide appropriate practice in each session to help the student acquire the linguistic and academic skills needed to improve communicative competence. Tutors may assign additional work to be completed outside of the session. Students will be expected to reflect on their own progress both periodically and at the end of the term. Active participation and evidence of progress towards learning goals must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of this course, students should be able to:\n1. Use data from self-assessments, standardized assessments, and instructor feedback to identify your pre-term level of communicative competence in English, including: linguistic competence, sociolinguistic competence, discourse competence, functional competence, and strategic competence.\n2. Identify your own critical academic and personal language learning needs.\n3. Articulate your learning goals for the quarter (in partnership with your tutor). Your goals should address your unique learning needs in effective communication\n4. Demonstrate progress towards achieving your stated learning goals.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Individual face-to-face instruction, in-session practice activities, suggested homework practice activities.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "At the beginning of the quarter, students will complete an intake assessment with their tutor, and then create individual learning goals for the quarter. Students will be evaluated at the end of the quarter with a self-assessment, recorded speech samples, and documentation of progress towards individual goals by the tutor.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials are free, distributed by the class Canvas site and in print-outs handed out in class.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
   ],
   "021792": [
@@ -78558,7 +79783,33 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "In this course, online speech training software provides customized training for the purpose of increasing nonnative speakers' intelligibility in oral English. At the beginning of the term, students will complete an online assessment to establish a baseline of oral proficiency. The software will generate a customized course of study that provides appropriate practice in each session to help the student acquire the language and skills needed to improve intelligibility. Students will be expected to maintain milestones of usage each week during the quarter, and will have access to both periodic and end-of-quarter feedback on their progress. Students will be asked to reflect on their own learning at the end of the term. Active participation and evidence of progress towards improved proficiency must be demonstrated in order to achieve a satisfactory grade in the course.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Instructor consent required.",
+        },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the quarter, you will be expected to:\n- Use data from the system's assessment to identify your pre-term level of proficiency in the areas of English pronunciation, grammar, fluency, and word stress.\n- Compare your attempts to intelligibly read English sentences with a recording of a native speaker of English producing the same sentence.\n- Identify areas in which your production differs from that of a native speaker's.\n- Modify your production to better match the native speaker's production.\n- Assess whether your attempts to modify your production are successful or not.\n- Demonstrate progress towards improved oral English proficiency in the areas in which you have been working over the course of the quarter.",
+        },
+        {
+          name: "Teaching Method",
+          desc: "Online exercises in pronunciation, fluency, word stress, and grammar, optional in-person support sessions.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Grading is based on completion of an online assessment, meeting of weekly milestones towards usage of the software, and completion of an end of quarter assessment and written end-or-quarter reflection exercise. Students can earn up to 15 additional minutes of active time logged towards their weekly milestone by attending optional drop in help sessions.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Students will be given a software account for use during the quarter.",
+        },
+        { name: "Class Materials (Suggested)", desc: "N/A" },
+      ],
     },
   ],
   "019448": [
@@ -79763,11 +81014,11 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "The information for required and/or suggested materials will be updated soon.",
+          desc: "ISBN: 978-0136434801\nTitle: Bundle: Northwestern University's Calculus Custom Package for Northwestern University\n\nISBN: 978-0136167129?\nTitle: MyLab Math New Design with eText for Thomas' Calculus for Northwestern University -- Standalone Access Card\n\nYour calculus course requires access to MyLab Math (also called MyMathLab). MyLab Math is an online platform that serves as an electronic textbook, an enrichment resource, and a homework portal. MyLab Math includes access to an electronic copy of the textbook; you do not need to purchase a paper copy of the book. You can acquire the course materials in several ways: \n\nMyLab Math Only - Direct Purchase MyLab Math access directly from the publisher (Pearson) after setting up your account using instructions provided on the course Canvas site. This should cost $80 (+ tax). \n\nMyLab Math Only - Bookstore Purchase MyLab Math access from the Northwestern Bookstore, and then set up your account using instructions provided on the course Canvas site. This should cost $106.65 (+ tax). \n\nMyLab Math and Looseleaf Book Bundle Purchase access to MyLab Math bundled with a looseleaf copy of the textbook from the Northwestern Bookstore, and then set up your account using instructions provided on the course Canvas site. This should cost $146.65 (+ tax). \n\nMyLab Math Only and Used Book Purchase access to MyLab Math using one of the first two options above (setting up your account using instructions provided on the course Canvas site), and acquire a used copy of the book separately. \n\nIMPORTANT: MyLab Math access codes obtained from the publisher (following the instructions provided on the course Canvas Site) or the Northwestern Bookstore will work for our course. Access codes from any other source will not work. The access you purchase for your course this fall can be used across multiple quarters of calculus courses at Northwestern that use the same textbook (MATH 220-1, 220-2, 226-0, 228-1, 228-2, 230-1, 230-2).",
         },
         {
           name: "Class Materials (Suggested)",
-          desc: "The information for required and/or suggested materials will be updated soon.",
+          desc: "No suggested materials.  See required materials.",
         },
       ],
     },
@@ -79793,11 +81044,11 @@ const sections = {
         },
         {
           name: "Class Materials (Required)",
-          desc: "The information for required and/or suggested materials will be updated soon.",
+          desc: "ISBN: 978-0136434801\nTitle: Bundle: Northwestern University's Calculus Custom Package for Northwestern University\n\nISBN: 978-0136167129?\nTitle: MyLab Math New Design with eText for Thomas' Calculus for Northwestern University -- Standalone Access Card\n\nYour calculus course requires access to MyLab Math (also called MyMathLab). MyLab Math is an online platform that serves as an electronic textbook, an enrichment resource, and a homework portal. MyLab Math includes access to an electronic copy of the textbook; you do not need to purchase a paper copy of the book. You can acquire the course materials in several ways: \n\nMyLab Math Only - Direct Purchase MyLab Math access directly from the publisher (Pearson) after setting up your account using instructions provided on the course Canvas site. This should cost $80 (+ tax). \n\nMyLab Math Only - Bookstore Purchase MyLab Math access from the Northwestern Bookstore, and then set up your account using instructions provided on the course Canvas site. This should cost $106.65 (+ tax). \n\nMyLab Math and Looseleaf Book Bundle Purchase access to MyLab Math bundled with a looseleaf copy of the textbook from the Northwestern Bookstore, and then set up your account using instructions provided on the course Canvas site. This should cost $146.65 (+ tax). \n\nMyLab Math Only and Used Book Purchase access to MyLab Math using one of the first two options above (setting up your account using instructions provided on the course Canvas site), and acquire a used copy of the book separately. \n\nIMPORTANT: MyLab Math access codes obtained from the publisher (following the instructions provided on the course Canvas Site) or the Northwestern Bookstore will work for our course. Access codes from any other source will not work. The access you purchase for your course this fall can be used across multiple quarters of calculus courses at Northwestern that use the same textbook (MATH 220-1, 220-2, 226-0, 228-1, 228-2, 230-1, 230-2).",
         },
         {
           name: "Class Materials (Suggested)",
-          desc: "The information for required and/or suggested materials will be updated soon.",
+          desc: "No suggested materials.  See required materials.",
         },
       ],
     },
@@ -80934,10 +82185,10 @@ const sections = {
       subject: "MENA",
       number: "301-3",
       section: "21",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "11:00",
+      end_time: "12:20",
+      room: { building_name: "AM Swift Krause Studio 103" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
@@ -82047,14 +83298,14 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "15:30",
       end_time: "16:50",
-      room: { building_name: "Fisk Hall 114" },
+      room: { building_name: "Kresge Centennial Hall 2-415" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course will address special topics in the philosophy of law, taking up one or more specific issues of philosophical interest such as the legitimacy of judicial review, theories of constitutional or statutory interpretation, or particular books, legal theorists, or schools of thought.  Although an introductory course with no prerequisites, it will not focus on questions of the nature of law or the clash between legal positivists and natural lawyers.",
+          desc: "Constitutional Theory\n\nThis course will address special topics in the philosophy of law, taking up one or more specific issues of philosophical interest such as the legitimacy of judicial review, theories of constitutional or statutory interpretation, or particular books, legal theorists, or schools of thought.  Although an introductory course with no prerequisites, it will not focus on questions of the nature of law or the clash between legal positivists and natural lawyers.\n\nContact Professor Kleinfeld to request a permission number: joshua.kleinfeld@northwestern.edu.",
         },
         { name: "Registration Requirements", desc: "Instructor consent." },
         {
@@ -82079,14 +83330,14 @@ const sections = {
       meeting_days: "MoWe",
       start_time: "15:30",
       end_time: "16:50",
-      room: { building_name: "Fisk Hall 114" },
+      room: { building_name: "Kresge Centennial Hall 2-415" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
       course_descriptions: [
         {
           name: "Overview of class",
-          desc: "This course will address special topics in the philosophy of law, taking up one or more specific issues of philosophical interest such as the legitimacy of judicial review, theories of constitutional or statutory interpretation, or particular books, legal theorists, or schools of thought.  Although an introductory course with no prerequisites, it will not focus on questions of the nature of law or the clash between legal positivists and natural lawyers.",
+          desc: "Constitutional Theory\n\nThis course will address special topics in the philosophy of law, taking up one or more specific issues of philosophical interest such as the legitimacy of judicial review, theories of constitutional or statutory interpretation, or particular books, legal theorists, or schools of thought.  Although an introductory course with no prerequisites, it will not focus on questions of the nature of law or the clash between legal positivists and natural lawyers.\n\nContact Professor Kleinfeld to request a permission number: joshua.kleinfeld@northwestern.edu.",
         },
         { name: "Registration Requirements", desc: "Instructor consent." },
         {
@@ -82744,7 +83995,12 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [{ name: "NO DATA", desc: "NO DATA" }],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This term will focus on the founding myth of both political theory and philosophy, the trial of Socrates. Students will examine the full range of evidence from antiquity (literary and material),  examine closely Plato's portrait across multiple dialogues read in historical context,  consider select philosophical issues that arise in those texts,  and observe some adaptations of this material by creative artists in a variety of fields. Along the way, we will consider whether this episode can continue to anchor investigations of what critical intellectual enterprises entail once we are alert to diversity.   Assignments include readings in translation, investigation of sources, analyses of arguments, presentations and writing assignments. Our class discussions will not assume knowledge of Greek but there will be room for students to use that skill in their assignments if they so choose.",
+        },
+      ],
     },
   ],
   "016083": [
@@ -82946,7 +84202,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "12:00",
       end_time: "13:50",
-      room: { building_name: "Technological Institute L158" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -82963,7 +84219,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute F281" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -82980,7 +84236,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute M166" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -82997,7 +84253,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "18:00",
       end_time: "19:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83014,7 +84270,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "8:00",
       end_time: "9:50",
-      room: { building_name: "Technological Institute LG72" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83031,7 +84287,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "10:00",
       end_time: "11:50",
-      room: { building_name: "Technological Institute M166" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83048,7 +84304,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "12:00",
       end_time: "13:50",
-      room: { building_name: "Technological Institute LG72" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83065,7 +84321,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Locy Hall 106" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83082,7 +84338,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute F280" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83099,7 +84355,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "18:00",
       end_time: "19:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83116,7 +84372,7 @@ const sections = {
       meeting_days: "We",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "560 Lincoln St. Classroom 101B" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83133,7 +84389,7 @@ const sections = {
       meeting_days: "We",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute L158" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83150,7 +84406,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute LG68" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83167,7 +84423,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute LG68" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83184,7 +84440,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "18:00",
       end_time: "19:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute MG32" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83203,7 +84459,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute F280" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83220,7 +84476,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute L158" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83237,7 +84493,7 @@ const sections = {
       meeting_days: "Mo",
       start_time: "18:00",
       end_time: "19:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83254,7 +84510,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "12:00",
       end_time: "13:50",
-      room: { building_name: "Technological Institute M349" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83271,7 +84527,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Annenberg Hall G01" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83288,7 +84544,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute M349" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83305,7 +84561,7 @@ const sections = {
       meeting_days: "Tu",
       start_time: "18:00",
       end_time: "19:50",
-      room: { building_name: "TBA" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83322,7 +84578,7 @@ const sections = {
       meeting_days: "We",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "560 Lincoln St. Classroom 101A" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83339,7 +84595,7 @@ const sections = {
       meeting_days: "We",
       start_time: "16:00",
       end_time: "17:50",
-      room: { building_name: "Technological Institute M166" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83356,7 +84612,7 @@ const sections = {
       meeting_days: "Th",
       start_time: "14:00",
       end_time: "15:50",
-      room: { building_name: "Technological Institute LG62" },
+      room: { building_name: "Technological Institute MG35" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LAB",
@@ -83391,10 +84647,10 @@ const sections = {
       subject: "PHYSICS",
       number: "311-1",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "12:00",
+      end_time: "12:50",
+      room: { building_name: "Technological Institute L170" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -83410,10 +84666,10 @@ const sections = {
       subject: "PHYSICS",
       number: "330-1",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "Technological Institute M120" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -83429,10 +84685,10 @@ const sections = {
       subject: "PHYSICS",
       number: "333-2",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "10:00",
+      end_time: "10:50",
+      room: { building_name: "Technological Institute F281" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -83448,10 +84704,10 @@ const sections = {
       subject: "PHYSICS",
       number: "339-3",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: null,
+      meeting_days: "TuTh",
+      start_time: "9:30",
+      end_time: "10:50",
+      room: { building_name: "Technological Institute M166" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -83467,10 +84723,10 @@ const sections = {
       subject: "PHYSICS",
       number: "357-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "TuTh",
+      start_time: "12:40",
+      end_time: "16:40",
+      room: { building_name: "Technological Institute F242" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -83998,10 +85254,10 @@ const sections = {
       subject: "PHYSICS",
       number: "411-0",
       section: "1",
-      meeting_days: null,
-      start_time: null,
-      end_time: null,
-      room: { building_name: "TBA" },
+      meeting_days: "MoWeFr",
+      start_time: "9:00",
+      end_time: "9:50",
+      room: { building_name: "Annenberg Hall G15" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -84903,7 +86159,18 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Political Research Seminar: Money in Politics\nPoli Sci 395-0-22\nInstructor: Brian Libgober\n\nWhat role does money play in our politics and policy-making processes? What role should it play? How have policy-makers tried to change the role of money in politics, have these efforts worked, and why or why not? This seminar offers an introduction to these questions, primarily focusing on the U.S. context. Some of the topics covered include campaign finance, lobbying, the revolving door, regulatory capture, pork-barrel politics, and the Trump Administration. We will engage with this topic from a variety of academic and professional lenses, wherever possible highlighting cutting-edge empirical research.",
+        },
+        { name: "Teaching Method", desc: "Seminar" },
+        {
+          name: "Evaluation Method",
+          desc: "Seminar participation; short memo assignments; final paper; final presentation",
+        },
+        { name: "Class Materials (Required)", desc: "None" },
+      ],
     },
     {
       unique_id: "19465",
@@ -85310,7 +86577,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Representations in graphic materials, documentaries, film, theater, folklore, narrative fiction, and popular music of historical, literary, and popular figures in the national imagination. May include English or Portuguese discussion sections.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite for Portuguese section: PORT 201-0, PORT 202-0, or sufficient score on placement exam. Prerequisite for English section: none.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Hatoum, Milton. Orphans of Eldorado. Canongate UK, 2012. Print. (also available on Kindle) ISBN-13 ? : ? 978-1847673008",
+        },
+        {
+          name: "Class Materials (Suggested)",
+          desc: "Recommended: Skidmore, Thomas. Brazil: Five Centuries of Change. Oxford U. Press: Oxford, 2009. ISBN-13: 978-0195058093",
+        },
+        {
+          name: "Class Notes",
+          desc: "Portuguese 210-0-1/ CLS 202 -021 - DISCUSSION SECTION IN ENGLISH OR PORTUGUESE REQUIRED.\nPortuguese 210-0-2/ CLS 202-0-70 - DISCUSSION IN ENGLISH. \nPortuguese 210-03 - DISCUSSION IN PORTUGUESE.",
+        },
+      ],
     },
   ],
   "002873": [
@@ -88077,7 +89365,21 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "\t\nOverview of class\nParticularly after the 9/11 attacks and during the war on terror that has ensued shortly thereafter, Muslim on the move?ranging from international students, pilgrims as well as scientists and artists?have continued to face increasingly scrutiny and surveillance in both global travel economies and national immigration regimes. These regimes gained even more important under the rule of authoritarian leaders in power across the globe from the US to India. What often unites Modi's India and Trump's United States is Islamophobia?albeit in different guises?as racialization of Islam and Muslims continues to punctuate our current era. What are the stakes of traveling while Muslim in that post 9/11 era of racing Islam? How do we come to understand such mobility? What assumptions underpin the attendant construction of Islam in such understandings, as various state and non-state actors enlist themselves to manage the movements of Muslims, specifically and exceptionally? In probing these questions, amongst others, in this seminar we aim to examine the interlocked relationship between Islam, mobility and security. We have three aims in front us: (1) becoming well-versed in studies of Islam and Islamophobia in the US and across the globe, (2) gaining a better understanding of Islam as a center tenet in a deeply uneven and racialized regime of ?global' mobility, and lastly, (3) critically analyzing global and local designs of security that underpin and manage those differential regimes of mobility.",
+        },
+        {
+          name: "Evaluation Method",
+          desc: "Students will be evaluated on the basis of two 6-to-8-page papers (50%) and class participation (50%). Attendance and active participation are mandatory: unexcused absences will affect your grade, as will non-participation in discussion.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "The required text with the exception of book-length manuscripts can be found under files on the course website. Lale Can, 2020. Spiritual Subjects: Central Asian Pilgrims and the Ottoman Hajj at the End of Empire. Palo Alto, CA: Stanford University Press. ISBN-13 : 978-1503611160. Darryl Li, 2019. The Universal Enemy: Jihad, Empire and the Challenge of Solidarity. Palo Alto, CA: Stanford University Press. ISBN-13 : 978-1503610873. Junaid Rana, 2011. Terrifying Muslims: Race and Labor in the South Asian Diaspora. Durham, NC: Duke University Press. ISBN-13: 978-0822349112.",
+        },
+        { name: "Class Notes", desc: "Undergrad only." },
+      ],
     },
   ],
   "002257": [
@@ -88102,6 +89404,10 @@ const sections = {
           desc: "The Caribbean constitutes a unique space to understand the history of resistance and social change in the Black Atlantic world. Going beyond the tropes of reggae, Rastafari, and tourism--this course provides an introduction to the diversity of religious traditions in the region, with particular focus on Afro-Caribbean religious practices and spiritual technologies. Students will explore the cosmological features and embodied expressions that characterize these traditions. Through presentations, discussions, and writing assignments students will reflect on concepts such as belonging, migration, colonialism, race, class, and gender to understand the political and cultural implications of religion in the region.",
         },
         { name: "Teaching Method", desc: "<ln/>" },
+        {
+          name: "Class Notes",
+          desc: "Instructor:\n\nDr. KB Dennis Meade is an Assistant Professor of Religious Studies with a courtesy appointment in the Department of African American Studies. Most recently, Dr. Dennis Meade was a postdoctoral fellow in Columbia University's departments of African American Studies and African Diaspora Studies and Religion. She holds a Ph.D. in Religion from Princeton University in the subfield of Religion, Ethics, and Politics, with a certificate in African American Studies. She earned her Masters of Arts from Teachers College Columbia University, and bachelor's degree in religion from Bowdoin College.\n\nDr. Dennis Meade is scholar of Africana Religions and Caribbean Studies. Her research areas include the study of the modern African diaspora, religious cultures and politics in the Caribbean, ethnographic methods, and the digital humanities. Dr. Dennis Meade's current book manuscript, Refuge and Deliverance: Religion, Faith, and Politics in Modern Jamaica, explores the role of religion in the history of social change in Jamaica from the late 19th century to the present. The project centers the voices and experiences of her interlocutors living within an inner-city community in Kingston, Jamaica. Through ethnographic fieldwork and archival research, her study analyzes the salience of religion in shaping national politics and everyday life. Her findings prompt scholars in the fields of Religious Studies and Black Studies to attend to the impact of antiblackness, globalization, colonialism, and violence on African diasporic religious communities and practices.",
+        },
       ],
     },
   ],
@@ -88521,16 +89827,16 @@ const sections = {
   "003234": [
     {
       unique_id: "17596",
-      instructors: ["Gary S Morson"],
+      instructors: [],
       mode: null,
       title: "Introduction to Russian Literature",
       subject: "SLAVIC",
       number: "210-2",
       section: "1",
-      meeting_days: "TuTh",
-      start_time: "12:30",
-      end_time: "13:50",
-      room: { building_name: "Lutkin Hall" },
+      meeting_days: null,
+      start_time: null,
+      end_time: null,
+      room: null,
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -88549,37 +89855,7 @@ const sections = {
       meeting_days: "TuTh",
       start_time: "14:00",
       end_time: "15:20",
-      room: { building_name: "University Hall 122" },
-      start_date: "2022-09-20",
-      end_date: "2022-12-03",
-      component: "LEC",
-      course_descriptions: [
-        {
-          name: "Overview of class",
-          desc: "Andrei Tarkovsky's Aesthetics and World Cinema- The course is dedicated to Andrei Tarkovsky, the great Russian filmmaker. Students will watch all major films by Tarkovsky and also by the other world filmmakers who had an impact on him, such as Fellini, Pasolini, Kurosawa, Bergman, Bunuel, et al.",
-        },
-        {
-          name: "Learning Objectives",
-          desc: 'To make students familiar with the so-called poetic cinema of Andrei Tarkovsky, the most important Russian film director after Sergei Eisenstein.Though Tarkovsky himself objected to the term "poetic cinema," students will be expected to address and analyze the metaphorical language and visual symbolism of his films, and to understand its meaning or place in contemporary art.  At the end of the course, students should be able to locate Tarkovsky\'s work on the broader scale of world cinema, thereby establishing their own views of cinematic past and future, including constituent intellectual trends and even "dead-ends."',
-        },
-        {
-          name: "Class Materials (Required)",
-          desc: "Students expect to watch all films (will be available on Canvas) at home. Weekly readings from A. Tarkovsky's book Sculpting in Time will be available in PDF and on Canvas.",
-        },
-      ],
-    },
-    {
-      unique_id: "17984",
-      instructors: [],
-      mode: null,
-      title: "Russian Film",
-      subject: "SLAVIC",
-      number: "367-1",
-      section: "60",
-      meeting_days: "Fr",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Kresge Cent. Hall 2-380 Kaplan" },
+      room: { building_name: "Meets in Non-General PurposeRm" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -88633,6 +89909,108 @@ const sections = {
           desc: "Serhii Plokhy, The Gates of Europe: A History of Ukraine ?Basic Books, 2021. ISBN: 978-1541675643",
         },
       ],
+    },
+    {
+      unique_id: "19625",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "60",
+      meeting_days: "Th",
+      start_time: "16:00",
+      end_time: "16:50",
+      room: { building_name: "Kresge Centennial Hall 2-319" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19626",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "61",
+      meeting_days: "Th",
+      start_time: "16:00",
+      end_time: "16:50",
+      room: { building_name: "Parkes Hall 212" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19627",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "62",
+      meeting_days: "Th",
+      start_time: "17:00",
+      end_time: "17:50",
+      room: { building_name: "Kresge Centennial Hall 2-325" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19628",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "63",
+      meeting_days: "Th",
+      start_time: "17:00",
+      end_time: "17:50",
+      room: { building_name: "Harris Hall L05" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19629",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "64",
+      meeting_days: "Fr",
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "University Hall 318" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
+    },
+    {
+      unique_id: "19630",
+      instructors: [],
+      mode: null,
+      title: "Literature and Politics in Central and Eastern Europe",
+      subject: "SLAVIC",
+      number: "390-0",
+      section: "65",
+      meeting_days: "Fr",
+      start_time: "11:00",
+      end_time: "11:50",
+      room: { building_name: "Kresge Centennial Hall 2-325" },
+      start_date: "2022-09-20",
+      end_date: "2022-12-03",
+      component: "LEC",
+      course_descriptions: [],
     },
   ],
   "003283": [
@@ -90054,7 +91432,7 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "11:00",
       end_time: "11:50",
-      room: { building_name: "Parkes Hall 214" },
+      room: { building_name: "Kresge Centennial Hall 2-410" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
@@ -90113,7 +91491,7 @@ const sections = {
     },
     {
       unique_id: "17277",
-      instructors: [],
+      instructors: ["Felipe   Costa Neves"],
       mode: null,
       title: "Elementary Spanish",
       subject: "SPANISH",
@@ -90147,7 +91525,7 @@ const sections = {
     },
     {
       unique_id: "17611",
-      instructors: [],
+      instructors: ["Susan D. Pechter"],
       mode: null,
       title: "Elementary Spanish",
       subject: "SPANISH",
@@ -90181,7 +91559,7 @@ const sections = {
     },
     {
       unique_id: "17612",
-      instructors: [],
+      instructors: ["Johan Rafael   Gotera Osorio"],
       mode: null,
       title: "Elementary Spanish",
       subject: "SPANISH",
@@ -90326,11 +91704,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16671",
-      instructors: [],
+      instructors: ["Jesse Jordan Rothbard"],
       mode: null,
       title: "Intermediate Spanish",
       subject: "SPANISH",
@@ -90343,7 +91738,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16672",
@@ -90360,7 +91772,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16673",
@@ -90377,7 +91806,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16674",
@@ -90394,7 +91840,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16675",
@@ -90411,7 +91874,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16676",
@@ -90428,7 +91908,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16677",
@@ -90445,7 +91942,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16678",
@@ -90462,7 +91976,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16679",
@@ -90479,7 +92010,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16680",
@@ -90496,7 +92044,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16681",
@@ -90513,7 +92078,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16682",
@@ -90530,7 +92112,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16683",
@@ -90547,7 +92146,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16725",
@@ -90564,7 +92180,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16684",
@@ -90581,11 +92214,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "16726",
-      instructors: ["Irene   Finestrat Martinez"],
+      instructors: [],
       mode: null,
       title: "Intermediate Spanish",
       subject: "SPANISH",
@@ -90598,7 +92248,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "17278",
@@ -90615,7 +92282,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "17613",
@@ -90632,7 +92316,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "17614",
@@ -90649,7 +92350,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "17615",
@@ -90666,11 +92384,28 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "18642",
-      instructors: [],
+      instructors: ["Felipe   Gutierrez"],
       mode: null,
       title: "Intermediate Spanish",
       subject: "SPANISH",
@@ -90683,7 +92418,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "18643",
@@ -90700,7 +92452,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "First course in a three-quarter sequence in Intermediate Spanish. Further development of communicative proficiency with an emphasis on the functional use of Spanish and cultural content and reflection.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Proyectos 2 + The Spanish Hub (Soft cover print book + digital license,) 2020, Difusion, ISBN 9788418224010\nAvailable here: https://www.difusion.us/shop/bundle-proyectos-2/",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: SPANISH 101-3, 115-2, or Spanish Language Placement Exam.",
+        },
+      ],
     },
   ],
   "018243": [
@@ -90719,7 +92488,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16691",
@@ -90736,7 +92518,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16692",
@@ -90753,7 +92548,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16693",
@@ -90770,7 +92578,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16694",
@@ -90787,7 +92608,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16695",
@@ -90804,11 +92638,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16696",
-      instructors: ["Elena   Lanza"],
+      instructors: ["Irene   Finestrat Martinez"],
       mode: null,
       title: "Accelerated Intermediate Spanish",
       subject: "SPANISH",
@@ -90817,11 +92664,24 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "13:00",
       end_time: "13:50",
-      room: { building_name: "Harris Hall L06" },
+      room: { building_name: "Kresge Centennial Hall 2-425" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "16697",
@@ -90838,7 +92698,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "17977",
@@ -90855,7 +92728,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
     {
       unique_id: "17978",
@@ -90872,7 +92758,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "Accelerated course in Intermediate Spanish. Further development of grammar, vocabulary, speaking, and writing skills through readings and films. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or Departmental Placement.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Textbook: Intrigas 3rd edition Supersite Plus (1 term) \nISBN: 978-1-54333-280-3  $110 available online: https://vistahigherlearning.com/school/northwesternu",
+        },
+      ],
     },
   ],
   "021633": [
@@ -90891,7 +92790,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The main purpose of this course is to build upon the language knowledge that students bring to the classroom and advance their proficiency of Spanish for multiple contexts. The course content will generate opportunities for students to hone their oral and written skills, to become acquainted with more formal registers of Spanish and to deepen their sense of pride in their linguistic and cultural heritage in order to communicate more effectively and more confidently in the target language. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or sufficient score on Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Spanish 127-0 Required Materials: \n?\tLa lengua que heredamos 7th Ed. E-book rental for 120 days: $29.00. Available at: https://www.wiley.com/en-us/search?pq=la%20lengua%20que%20heredamos%7Crelevance  \n?\tAny additional course materials distributed throughout the quarter, or posted on Canvas. \nHighly Recommended: \nDiccionario Clave, Ediciones SM (Free online version: http://clave.librosvivos.net/)\nDiccionario de la Real Academia Espan?ola (Free online version: https://dle.rae.es/)\nBilingual online dictionary English-Spanish, Spanish-English Wordreference (Free:http://www.wordreference.com)",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: AP of 3 or sufficient score on Spanish Language Placement Exam.",
+        },
+      ],
     },
     {
       unique_id: "17188",
@@ -90902,19 +92818,36 @@ const sections = {
       number: "127-0",
       section: "23",
       meeting_days: "MoWeFr",
-      start_time: "11:00",
-      end_time: "11:50",
-      room: { building_name: "Shepard Hall Classroom B05" },
+      start_time: "10:00",
+      end_time: "10:50",
+      room: { building_name: "Parkes Hall 214" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "The main purpose of this course is to build upon the language knowledge that students bring to the classroom and advance their proficiency of Spanish for multiple contexts. The course content will generate opportunities for students to hone their oral and written skills, to become acquainted with more formal registers of Spanish and to deepen their sense of pride in their linguistic and cultural heritage in order to communicate more effectively and more confidently in the target language. Offered in fall only.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: AP of 3 or sufficient score on Spanish Language Placement Exam.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Spanish 127-0 Required Materials: \n?\tLa lengua que heredamos 7th Ed. E-book rental for 120 days: $29.00. Available at: https://www.wiley.com/en-us/search?pq=la%20lengua%20que%20heredamos%7Crelevance  \n?\tAny additional course materials distributed throughout the quarter, or posted on Canvas. \nHighly Recommended: \nDiccionario Clave, Ediciones SM (Free online version: http://clave.librosvivos.net/)\nDiccionario de la Real Academia Espan?ola (Free online version: https://dle.rae.es/)\nBilingual online dictionary English-Spanish, Spanish-English Wordreference (Free:http://www.wordreference.com)",
+        },
+        {
+          name: "Class Notes",
+          desc: "Prerequisite: AP of 3 or sufficient score on Spanish Language Placement Exam.",
+        },
+      ],
     },
   ],
   "003157": [
     {
       unique_id: "17616",
-      instructors: [],
+      instructors: ["Maria Jesus Barros Garcia"],
       mode: null,
       title: "Advanced Spanish I: Current Topics through Media",
       subject: "SPANISH",
@@ -90927,7 +92860,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "17617",
@@ -90944,11 +92890,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "18644",
-      instructors: ["Maria Jesus Barros Garcia"],
+      instructors: ["Elena   Lanza"],
       mode: null,
       title: "Advanced Spanish I: Current Topics through Media",
       subject: "SPANISH",
@@ -90957,11 +92916,24 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "12:00",
       end_time: "12:50",
-      room: { building_name: "Technological Institute L168" },
+      room: { building_name: "Kresge Centennial Hall 2-343" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "18645",
@@ -90974,11 +92946,24 @@ const sections = {
       meeting_days: "MoWeFr",
       start_time: "12:00",
       end_time: "12:50",
-      room: { building_name: "Parkes Hall 223" },
+      room: { building_name: "Kresge Centennial Hall 4-410" },
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "18646",
@@ -90995,7 +92980,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "18647",
@@ -91012,7 +93010,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
     {
       unique_id: "18648",
@@ -91029,7 +93040,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish as students progress towards the advanced-low level of proficiency, through the interpretation and analysis of current topics in Spain and Latin America. The analysis of media will serve as an entry point for students to individually explore how past events have shaped current circumstances of Spanish-speaking countries.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 121-3, 125-0, 199-0, Departmental Placement or AP of 4.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course Packet, posted on Canvas.\nAll other materials for this course will also be posted on Canvas.",
+        },
+      ],
     },
   ],
   "003169": [
@@ -91048,7 +93072,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "17624",
@@ -91065,7 +93099,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "18649",
@@ -91082,7 +93126,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "18650",
@@ -91099,7 +93153,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "18651",
@@ -91116,7 +93180,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "18652",
@@ -91133,7 +93207,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
     {
       unique_id: "18653",
@@ -91150,7 +93234,17 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course is designed to develop all communication modes in Spanish at the advanced-low level of proficiency, through the exploration, interpretation and analysis of multimodal texts centered around politically and socially engaged art. The course will explore the role that the creative arts played in the political and social sphere in 20th-century Spain and Latin America while connecting these movements to current times.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Prerequisite: SPANISH 200-0, 201-0, 203-0, 207-0, Departmental Placement or AP of 5 on the Spanish Language Exam.",
+        },
+        { name: "Class Materials (Required)", desc: "Online/Course Packet" },
+      ],
     },
   ],
   "018713": [
@@ -91169,7 +93263,24 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "\"Jewish Latin America\": An oxymoron? Well, yes and no. Aren't Latin American countries, in fact, Catholic? Well, yes and no. If the region is Catholic, what can possibly be \"Jewish\" about Latin America? Well, that's what we're going to \"discover\" in this course. Indeed, as it turns out, Latin America--and especially Argentina and Brazil (our focus), but also somewhat Chile, Peru, Mexico, and Cuba, for example--is much more heterogeneous than you might have thought. The story of the Jewish presence in Latin America is a surprising--and yet surprisingly familiar--story that begins with Jewish emigration/immigration in the late 19th -early 20th centuries and beyond (e.g., after the Holocaust), and continues to unfold to the present day. In reading some parts of that story in works of narrative fiction and film, and in reading about that story in secondary sources, we'll also be pushed to think about--and interrogate--topics such as identity and difference, memory and history, testimony and truth, immigration and assimilation, and so on. \n\nPrimary works include: Alberto Gerchunoff's The Jewish Gauchos (1910/1936), a short collection of vignettes/stories set in a Jewish-Argentine agricultural colony in the early 20th century; Moacyr Scliar's The Centaur in the Garden (1980), a semi-picaresque/fantastic novel about the life of a Jewish centaur born to Russian immigrants living in an agricultural community in Brazil; Ana Maria Shua's The Book of Memories (1994), a humorous, reflexive novel about three generations of a Buenos Aires Jewish family; Michel Laub's Diary of the Fall (2011), a novella-diary written & narrated by the Brazilian grandson of a Holocaust survivor; Daniel Burman's The Lost Embrace (2003), a semi-autobiographical coming-of-age film set in Once, the old Jewish neighborhood in Buenos Aires; Sandra Kogut's A Hungarian Passport  (2002), an autobiographical documentary about the filmmaker's \"quest\" for a passport from the country from which her family fled during the Holocaust.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "Course prerequisite/Language/Letter grade\nThere is NO prerequisite for Span 232 \nThe course is conducted in English\nNo P/NP (i.e., this course may only be taken for a letter grade)",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Ebooks via NU Library (or purchase print or electonic editon): Parricide on the Pampas?: The Jewish Gauchos - ISBN-10 0826317677; The Book of Memories - ISBN-10 0826319491; Diary of the Fall -\nISBN-10 1590516516.\nPurchase print edition: The Centaur in the Garden (U of Wisconsin P, 2003) - ISBN-10 0299187845\nCanvas: films, several short stories from other countries, and all secondary materials.",
+        },
+        {
+          name: "Class Notes",
+          desc: "Major/Minor credit (Spanish, Portuguese, Jewish Studies, CompLit); Distro Area VI credit--\nSpanish minor: Span 232 may be counted as one of the five required 200-level courses\nSpanish major: Span 232 may be counted as one of the three required elective courses\nPortuguese minor: Span 232 may be counted as one of the two required elective courses.\nJewish Studies major: Span 232 may be counted as one of the required courses (see JS advisor)\nCompLit major:  Span 232 may be counted as one of the required courses (see CLS advisor)\nJournalism: Span 232 may be counted as one of the courses required for an outside concentration\nDistro Area VI (Literature & Fine Arts): Span 232 may be counted as Area VI required course",
+        },
+      ],
     },
   ],
   "003165": [
@@ -91188,7 +93299,21 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "LEC",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course will offer a panorama of Spanish literature from the Medieval period to the end of the Golden Age. Our literary readings will be the baseline for understanding the social and historical context of the transformations that the Spanish empire endured throughout the centuries. We will pay especial attention to the Arabic and New World's influence on the cultural production of Spain. In doing so, we will delve into the significant developments brought to literary form by the Spanish authors.",
+        },
+        { name: "Registration Requirements", desc: "Span 220" },
+        {
+          name: "Learning Objectives",
+          desc: "By the end of the class, the students will be able to broadly understand some of the main cultural debates posed by literature in Latin America throughout the 20th century and their relation to Latin American societies.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Class materials will be available on Canvas",
+        },
+      ],
     },
   ],
   "003166": [
@@ -91271,7 +93396,20 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course explores the forms and development of representations of indigenous peoples and of indigeneity in a wide array of modern Latin American literature.  We will read mostly narrative and criticism, but also attend to visual and popular cultural production, such as photography, painting, and video.  In particular we will be attentive to the ways in which these representations significantly structure and are structured by conceptualizations of the race, gender, nature, region, nation and city.  Primarily, we will delve into the prominent literary and cultural movement of indigenismo, which sought to vindicate indigenous peoples' cultural, social and political standing.",
+        },
+        {
+          name: "Registration Requirements",
+          desc: "One course chosen from 250, 251, 260, or 261",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Required text, available at any bookstore, online or otherwise - Jose? Mari?a Arguedas, Los ri?os profundos, Ca?tedra, ISBN-13 978-8437613215. Please get the book only from this press, although you may get any edition.",
+        },
+      ],
     },
   ],
   "016121": [
@@ -91322,7 +93460,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "What does it mean to be a citizen? How did the urban development and sprawl shaped Latin American communities? In this course, we will draw from 20th Century and contemporary Latin American literature and visual culture to address some of the challenges faced by Latin American urban experience. We are going to reflect on issues around citizenship, marginality, diversity, violence, and the tensions between urban and rural landscapes throughout Latin American processes of modernization.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Course materials will be available on Canvas.",
+        },
+      ],
     },
   ],
   "020257": [
@@ -91401,7 +93548,16 @@ const sections = {
       start_date: "2022-09-20",
       end_date: "2022-12-03",
       component: "SEM",
-      course_descriptions: [],
+      course_descriptions: [
+        {
+          name: "Overview of class",
+          desc: "This course seeks to impart to students the knowledge necessary to answer the questions: what is a dissertation, and how do I write one?  In the spirit of a workshop, we will work as a group to foster and cultivate the skill sets necessary to formulate and articulate an organizing question adequate to the charge of a significant, independent, multi-year research project.  We will call this first stage the prospectus, and we will figure out what it is and how best to write it. We will try to distill multiple and often conflicting statements, expectations, and/or fears about what the dissertation is so we can effectively undertake its preparation and writing.",
+        },
+        {
+          name: "Class Materials (Required)",
+          desc: "Materials will be available in Canvas.",
+        },
+      ],
     },
   ],
   "020806": [
