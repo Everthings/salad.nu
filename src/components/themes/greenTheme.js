@@ -44,5 +44,11 @@ export const greenTheme = {
     modalTitle: "#3b3c3c",
     modalText: "#3b3c3c",
     modalTextBox: "#f3f3f3",
+
+    bannerBackground: "#e5fbe4",
+    bannerText: "#3b3c3c",
+    bannerLink: "#28a745",
+    bannerDismiss: "#5f5f5f",
+    bannerDismissSave: "#dc3545",
   },
 };
