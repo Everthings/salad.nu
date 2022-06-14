@@ -16,13 +16,13 @@ const BannerMessage = styled.p`
   & a {
     color: ${({ theme }) => `${theme.colors.bannerLink}`};
   }
-`
+`;
 
 const BannerDismissContainer = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
-`
+`;
 
 const BannerDismiss = styled.button`
   background-color: transparent;
@@ -35,7 +35,7 @@ const BannerDismiss = styled.button`
   &:focus {
     outline: none;
   }
-`
+`;
 
 const BannerDismissForever = styled(BannerDismiss)`
   color: transparent;
@@ -43,23 +43,26 @@ const BannerDismissForever = styled(BannerDismiss)`
   ${BannerDismissContainer}:hover & {
     color: ${({ theme }) => `${theme.colors.bannerDismissSave}`};
   }
-`
+`;
 
 const Header = () => {
-
-  const [showBanner, setShowBanner] = useState(!localStorage.getItem('banner'));
+  const [showBanner, setShowBanner] = useState(!localStorage.getItem("banner"));
 
   return (
     <>
       {showBanner && (
         <Banner>
           <BannerMessage>
-            This fall, salad.nu will receive requested updates and will be merged with Plan Northwestern. <a href="https://github.com/dilanx/plan-northwestern/blob/main/SALAD.md">read more...</a>
+            This upcoming fall, salad.nu will join forces with Plan
+            Northwestern.{" "}
+            <a href="https://github.com/dilanx/plan-northwestern/blob/main/SALAD.md">
+              read more...
+            </a>
           </BannerMessage>
           <BannerDismissContainer>
             <BannerDismissForever
               onClick={() => {
-                localStorage.setItem('banner', 'hide');
+                localStorage.setItem("banner", "hide");
                 setShowBanner(false);
               }}
             >
