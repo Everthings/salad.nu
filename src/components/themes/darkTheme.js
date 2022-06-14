@@ -44,5 +44,11 @@ export const darkTheme = {
     modalTitle: "#656565",
     modalText: "#d8d8d8",
     modalTextBox: "#404040",
+
+    bannerBackground: "#555555",
+    bannerText: "#ffffff",
+    bannerLink: "#92f190e0",
+    bannerDismiss: "#cfcfcf",
+    bannerDismissSave: "#dc3545",
   },
 };
