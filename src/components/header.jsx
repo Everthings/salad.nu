@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import Navbar from "./navbar/navbar";
 import styled from "styled-components";
 
@@ -48,9 +49,13 @@ const BannerDismissForever = styled(BannerDismiss)`
 const Header = () => {
   const [showBanner, setShowBanner] = useState(!localStorage.getItem("banner"));
 
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
   return (
     <>
-      {showBanner && (
+      {showBanner && bigScreen && (
         <Banner>
           <BannerMessage>
             This upcoming fall, salad.nu will join forces with Plan
