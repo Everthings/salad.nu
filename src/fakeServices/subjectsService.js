@@ -12,6 +12,7 @@ const subjects = {
     { symbol: "HCAK", name: "Health Care at Kellogg" },
     { symbol: "KELLG_FE", name: "Financial Economics" },
     { symbol: "KELLG_MA", name: "Managerial Analytics" },
+    { symbol: "KPHD", name: "Interdisciplinary Seminar" },
     { symbol: "LDEV", name: "Leadership Development" },
     { symbol: "MBAI", name: "Bus/Artificial Intelligence" },
     { symbol: "MECN", name: "Managerial Economics" },
