@@ -7,6 +7,7 @@ import Header from "./components/header";
 import Body from "./components/body";
 import AboutPage from "./components/aboutPage/aboutPage";
 import { CURRENT_TERM_ID } from "./configs";
+import { useMediaQuery } from "react-responsive";
 
 const StyleWrapper = styled.div`
   background: ${({ theme }) => `${theme.colors.background}`};
@@ -24,6 +25,10 @@ const FlexContainer = styled.div`
 const AppBody = () => {
   const dispatch = useDispatch();
 
+  const bigScreen = useMediaQuery({
+    query: "(min-width: 992px)",
+  });
+
   useEffect(() => {
     dispatch(loadTerm(CURRENT_TERM_ID));
   }, [dispatch]);
@@ -36,7 +41,7 @@ const AppBody = () => {
         </Route>
         <Route path="/">
           <FlexContainer>
-            <Header />
+            {bigScreen && <Header />}
             <Body />
           </FlexContainer>
         </Route>
