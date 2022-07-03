@@ -16,6 +16,79 @@ const buildings = {
   "McCormick Foundation Ctr 2107": { lat: 42.051381, lon: -87.674162 },
   "Ford Hive Rm 2350": { lat: 42.05702096786832, lon: -87.67673253677064 },
   "Washington, DC Bureau": { lat: 38.88980656673977, lon: -77.00905115423366 },
+  "Rubloff 150 - Aspen Hall": {
+    lat: 41.89632777573242,
+    lon: -87.61731710194098,
+  },
+  "Rubloff Building 140": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 180": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 175": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 339": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "McCormick 375 - Smith Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "McCormick 381 - Cutting Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "McCormick 185 - Sidley Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "RB135 - Thorne Auditorium": null,
+  "McCormick 175 - Getz Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "McCormick 195 - Strawn Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "Levy Mayer 204 - Booth Hall": {
+    lat: 41.89657132944515,
+    lon: -87.6180956847427,
+  },
+  "McCormick 371": { lat: 42.056599, lon: -87.701594 },
+  "Levy Mayer 317 - Hoyne Hall": {
+    lat: 41.89657132944515,
+    lon: -87.6180956847427,
+  },
+  "Levy Mayer 101": { lat: 41.89657132944515, lon: -87.6180956847427 },
+  "Rubloff Building 801": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 254 - Savner": {
+    lat: 41.89632777573242,
+    lon: -87.61731710194098,
+  },
+  "McCormick 285 - Hoffman Hall": {
+    lat: 41.89608070666468,
+    lon: -87.61810835358969,
+  },
+  "Rubloff Building 203": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 885": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 836": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Rubloff Building 887": { lat: 41.89632777573242, lon: -87.61731710194098 },
+  "Kellogg Global Hub L110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub L130": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 250": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 2110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 1110": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
   "Kellogg Global Hub 2130": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -28,45 +101,63 @@ const buildings = {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub 2430A": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "555 Clark B03": { lat: 42.049555, lon: -87.677517 },
-  "Fisk Hall 217": { lat: 42.050793, lon: -87.674174 },
-  "Kellogg Global Hub 1420 & 1430": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
-  "Kellogg Global Hub L110": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
   "Kellogg Global Hub L120": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub 1110": {
+  "Kellogg Global Hub 2420A&B": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub 1130": {
+  "Kellogg Global Hub 2410A&B": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub White Aud": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
+  "Wieboldt Hall 347": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 247": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Kellogg Global Hub 1420": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
-  "Kellogg Global Hub L130": {
+  "Weiboldt Hall 150": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub L070": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
+  "Wieboldt Hall 350": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 2430B": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Kellogg Global Hub 4302": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 105": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "555 Clark B03": { lat: 42.049555, lon: -87.677517 },
+  "Fisk Hall 217": { lat: 42.050793, lon: -87.674174 },
+  "Kellogg Global Hub 2430A": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 262": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Wieboldt Hall 540": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub 1420 & 1430": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 147": { lat: 41.89602448270367, lon: -87.61887527862626 },
   "Kellogg Global Hub 1430": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Wieboldt Hall 109": { lat: 41.89602448270367, lon: -87.61887527862626 },
+  "Kellogg Global Hub White Aud": {
+    lat: 42.05743195787147,
+    lon: -87.67194109025868,
+  },
+  "Global Hub Innovation Lab": null,
+  "Kellogg MEDS Conf. Rm. 4130": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
   },
@@ -111,7 +202,6 @@ const buildings = {
   "University Hall 102": { lat: 42.051901, lon: -87.67596 },
   "Technological Institute LG52": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute LG62": { lat: 42.057728, lon: -87.675869 },
-  "Technological Institute F280": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute M166": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute L160": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute LG66": { lat: 42.057728, lon: -87.675869 },
@@ -183,10 +273,6 @@ const buildings = {
     lon: -87.67356268193114,
   },
   "Technological Institute L170": { lat: 42.057728, lon: -87.675869 },
-  "Kellogg Global Hub L070": {
-    lat: 42.05743195787147,
-    lon: -87.67194109025868,
-  },
   "Locy Hall 301": { lat: 42.051062, lon: -87.673933 },
   "University Hall 101": { lat: 42.051901, lon: -87.67596 },
   "Frances Searle Building 2370": { lat: 42.0586351, lon: -87.6737228 },
@@ -300,8 +386,8 @@ const buildings = {
   },
   "University Hall 418": { lat: 42.051901, lon: -87.67596 },
   "University Hall 118": { lat: 42.051901, lon: -87.67596 },
-  "Louis Hall 106": { lat: 42.051513, lon: -87.673291 },
   "Louis Hall 118": { lat: 42.051513, lon: -87.673291 },
+  "Louis Hall 106": { lat: 42.051513, lon: -87.673291 },
   "Frances Searle 1101 SoundTank": { lat: 42.0586351, lon: -87.6737228 },
   "Frances Searle 1111 SoundTank": { lat: 42.0586351, lon: -87.6737228 },
   "Harris Hall L05": { lat: 42.051269, lon: -87.676279 },
@@ -341,7 +427,6 @@ const buildings = {
   "Parkes Hall 224": { lat: 42.050071166764454, lon: -87.67723949641348 },
   "Locy Hall 303": { lat: 42.051062, lon: -87.673933 },
   "Fisk Hall 114": { lat: 42.050793, lon: -87.674174 },
-  "Kresge Centennial Hall 3-410": { lat: 42.0516769, lon: -87.6750968 },
   "Locy Hall 318": { lat: 42.051062, lon: -87.673933 },
   "Parkes Hall 223": { lat: 42.050071166764454, lon: -87.67723949641348 },
   "Parkes Hall 214": { lat: 42.050071166764454, lon: -87.67723949641348 },
@@ -373,7 +458,6 @@ const buildings = {
     lon: -87.67518303610152,
   },
   "Kresge Centennial Hall 4-410": { lat: 42.0516769, lon: -87.6750968 },
-  "University Library 5722": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "University Library 3722": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "University Library 4770": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Kresge 1530 Art Studio": { lat: 42.0516769, lon: -87.6750968 },
@@ -398,25 +482,25 @@ const buildings = {
   "University Library 3322": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Kresge 4438 Asian LC Sem Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Annenberg Hall G28": { lat: 42.056058, lon: -87.674515 },
+  "Shepard Hall Classroom B05": {
+    lat: 42.05088324175059,
+    lon: -87.67892969641422,
+  },
   "ISP Sem Rm 203 - 616 Noyes St": {
     lat: 42.05816724664198,
     lon: -87.67816294426228,
   },
   "Kresge Centennial Hall 2-435": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-319": { lat: 42.0516769, lon: -87.6750968 },
+  "Kresge Centennial Hall 2-325": { lat: 42.0516769, lon: -87.6750968 },
+  "University Library 5722": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "University Library 3370": { lat: 42.05282047408196, lon: -87.6744931804232 },
   "Kresge Centennial Hall 2-430": { lat: 42.0516769, lon: -87.6750968 },
   "Technological Institute F285": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F491": { lat: 42.057728, lon: -87.675869 },
-  "560 Lincoln St. Classroom 101A": {
-    lat: 42.06137433094192,
-    lon: -87.67565467799473,
-  },
+  "Schapiro Hall 101A": null,
   "Harris Hall L07": { lat: 42.051269, lon: -87.676279 },
-  "560 Lincoln St. Classroom 101B": {
-    lat: 42.06137433094192,
-    lon: -87.67565467799473,
-  },
+  "Schapiro Hall 101B": null,
   "Kellogg Econ Classroom 1410": {
     lat: 42.05743195787147,
     lon: -87.67194109025868,
@@ -432,16 +516,13 @@ const buildings = {
   "Harris Hall L04": { lat: 42.051269, lon: -87.676279 },
   "Swift Hall 107": { lat: 42.055138, lon: -87.674953 },
   "Kresge Centennial Hall 2-335": { lat: 42.0516769, lon: -87.6750968 },
-  "Kresge Centennial Hall 2-325": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-329": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge Centennial Hall 2-339": { lat: 42.0516769, lon: -87.6750968 },
-  "Shepard Hall Classroom B05": {
-    lat: 42.05088324175059,
-    lon: -87.67892969641422,
-  },
+  "Kresge Centennial Hall 3-410": { lat: 42.0516769, lon: -87.6750968 },
   "Lunt Hall 103": { lat: 42.054803, lon: -87.676345 },
   "Kresge 3354 German Seminar Rm.": { lat: 42.0516769, lon: -87.6750968 },
   "Kresge 3438 Philosophy Sem. Rm": { lat: 42.0516769, lon: -87.6750968 },
+  "Harris Hall L40": { lat: 42.051269, lon: -87.676279 },
   "Locy Hall 110": { lat: 42.051062, lon: -87.673933 },
   "Kresge 4364 Classics Sem Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Swift Hall 210": { lat: 42.055138, lon: -87.674953 },
@@ -462,6 +543,7 @@ const buildings = {
   },
   "Technological Institute MG32": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute MG35": { lat: 42.057728, lon: -87.675869 },
+  "Technological Institute F280": { lat: 42.057728, lon: -87.675869 },
   "Technological Institute F242": { lat: 42.057728, lon: -87.675869 },
   "Kresge 3364 Slavic Seminar Rm": { lat: 42.0516769, lon: -87.6750968 },
   "Scott Hall 107 Burdick Room": {
@@ -469,6 +551,7 @@ const buildings = {
     lon: -87.67756770522155,
   },
   "Scott Hall 212": { lat: 42.05174703079395, lon: -87.67756770522155 },
+  "Willard Hall B72": { lat: 42.05166847503725, lon: -87.68114387248889 },
   "Elder Hall 030 Seminar Room": {
     lat: 42.060905166225375,
     lon: -87.67758604178537,
