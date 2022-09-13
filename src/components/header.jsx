@@ -60,7 +60,7 @@ const Header = () => {
           <BannerMessage>
             This upcoming fall, salad.nu will join forces with Plan
             Northwestern.{" "}
-            <a href="https://github.com/dilanx/plan-northwestern/blob/main/SALAD.md">
+            <a href="https://www.dilanxd.com/plan-nu-salad-merge/">
               read more...
             </a>
           </BannerMessage>
